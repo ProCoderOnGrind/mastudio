@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { motion } from "framer-motion";
 import { hasPlayedIntro, markIntroPlayed } from "@/lib/intro";
@@ -18,6 +18,7 @@ export default function IntroOverlay() {
   const [visible, setVisible] = useState(true);
   const [leaving, setLeaving] = useState(false);
   const [target, setTarget] = useState({ x: 0, y: 0, scale: 0.18 });
+  const emblemRef = useRef<HTMLDivElement>(null);
 
   useIsoLayoutEffect(() => setMounted(true), []);
 
@@ -26,10 +27,11 @@ export default function IntroOverlay() {
     const logo = document.getElementById("site-logo");
     if (logo) {
       const r = logo.getBoundingClientRect();
+      const size = emblemRef.current?.offsetWidth ?? SIZE;
       setTarget({
         x: r.left + r.width / 2 - window.innerWidth / 2,
         y: r.top + r.height / 2 - window.innerHeight / 2,
-        scale: r.width / SIZE,
+        scale: r.width / size,
       });
     }
     markIntroPlayed();
@@ -66,8 +68,9 @@ export default function IntroOverlay() {
       style={{ cursor: leaving ? "default" : "pointer" }}
     >
       <motion.div
+        ref={emblemRef}
         className="relative"
-        style={{ width: SIZE, height: SIZE }}
+        style={{ width: "min(260px, 78vw)", height: "min(260px, 78vw)" }}
         animate={
           leaving
             ? { x: target.x, y: target.y, scale: target.scale }
