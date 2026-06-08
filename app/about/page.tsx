@@ -1,6 +1,7 @@
 import PageTitle from "@/components/PageTitle";
 import BlurImage from "@/components/media/BlurImage";
 import Reveal from "@/components/motion/Reveal";
+import AboutSections from "@/components/about/AboutSections";
 import { PROJECTS } from "@/data/projects";
 import { SERVICES } from "@/data/offices";
 
@@ -21,9 +22,10 @@ export default function AboutPage() {
         <p className="text-[15px]">
           The exploring attitude is not to find definitive answers, but to raise questions
           in order to continue the reflective and research working method for the future
-          innovations of the common worldwide society. Founded in 1974, MA Studio &amp;
-          Partners works across architecture, urban planning, landscape and interior design
-          from its studio in Tirana, Albania.
+          innovations of the common worldwide society. Established in 2020 as the
+          continuation of DEA Studio (2000–2020), MA Studio &amp; Partners works across
+          architecture, urban planning, landscape and interior design from its studio in
+          Tirana, Albania.
         </p>
       </div>
 
@@ -40,6 +42,8 @@ export default function AboutPage() {
           </Reveal>
         ))}
       </div>
+
+      <AboutSections />
     </div>
   );
 }
