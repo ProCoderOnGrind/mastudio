@@ -1,20 +1,25 @@
 export interface Founder {
   name: string;
   role: string;
-  bio: string;
+  bio: string[]; // paragraphs
   image?: string; // optional /public path; gradient placeholder used when absent
 }
 
-// Placeholder content — replace name/role/bio/image with the real co-founders.
 export const FOUNDERS: Founder[] = [
   {
-    name: "Co-Founder One",
-    role: "Founding Partner — Architecture",
-    bio: "Placeholder biography. Replace with a short paragraph about this co-founder's background, focus, and notable work.",
+    name: "Ervin Taçi",
+    role: "Co-Founder — Architect & Urban Designer",
+    bio: [
+      "Ervin Taçi grew up in an artistic family, developing an early sensitivity to art and design. In 2000 he co-founded DEA Studio and led the practice for 20 years, and in 2020 co-founded MA Studio & Partners. He is recognized for innovative, ambitious projects that challenge traditional architectural conventions and scales—consistently integrating sustainable, socially responsive concepts while balancing playful expression with practical functionality.",
+      "A guest professor at the Architecture Faculty in Tirana and a member of the Leading Board of the Albanian Architecture Association (AAA), he is widely recognized as an urban designer and architect through an extensive portfolio of award-winning competitions and commissioned projects.",
+    ],
   },
   {
-    name: "Co-Founder Two",
-    role: "Founding Partner — Urban Planning",
-    bio: "Placeholder biography. Replace with a short paragraph about this co-founder's background, focus, and notable work.",
+    name: "Klodiana Emiri Taçi",
+    role: "Co-Founder — Architect & Urban Planner · Technical Director",
+    bio: [
+      "Klodiana Emiri (Taçi) is an architect and urban planner and a co-founder of DEA Studio (2002) and MA Studio & Partners (2020). She has taught at several esteemed academic institutions in Albania and is currently a lecturer at the Architecture Faculty of Tirana.",
+      "From 2008 to 2012 she served as Secretary-General of the Albanian Architecture Association (AAA), representing Albanian architects at the Union of International Architects. As Technical Director of MA Studio & Partners, she leads the development of complex, high-profile projects—ensuring design excellence, technical rigor, and a clear architectural vision across the studio's work.",
+    ],
   },
 ];
