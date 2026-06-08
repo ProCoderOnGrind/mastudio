@@ -32,24 +32,14 @@ export default function ProjectRow({ project, hero = false }: { project: Project
         </div>
         <div ref={imgWrap} className="overflow-hidden">
           <div className="transition-transform duration-700 ease-[cubic-bezier(.4,0,.2,1)] group-hover:scale-[1.02]">
-            {hero ? (
-              <BlurImage
-                src={project.images[0]}
-                label={project.name}
-                ratio={null}
-                priority
-                className="h-[calc(100svh-140px)]"
-                sizes="(max-width: 768px) 100vw, 80vw"
-              />
-            ) : (
-              <BlurImage
-                src={project.images[0]}
-                label={project.name}
-                ratio="16 / 9"
-                className="max-h-[46vh]"
-                sizes="(max-width: 768px) 100vw, 80vw"
-              />
-            )}
+            <BlurImage
+              src={project.images[0]}
+              label={project.name}
+              ratio={null}
+              priority={hero}
+              className="h-[calc(100svh-140px)]"
+              sizes="(max-width: 768px) 100vw, 80vw"
+            />
           </div>
         </div>
       </a>
