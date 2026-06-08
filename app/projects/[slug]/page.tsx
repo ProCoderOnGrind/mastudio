@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getProject, PROJECTS, nextProject } from "@/data/projects";
+import { getProject, PROJECTS } from "@/data/projects";
 import { CATEGORIES } from "@/data/categories";
 import CategoryView from "@/components/project/CategoryView";
 import ProjectPageView from "@/components/viewer/ProjectPageView";
@@ -20,7 +20,5 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   const project = getProject(slug);
   if (!project) notFound();
 
-  const next = nextProject(project.slug);
-
-  return <ProjectPageView project={project} next={next} />;
+  return <ProjectPageView project={project} />;
 }

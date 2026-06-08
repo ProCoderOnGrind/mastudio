@@ -1,22 +1,13 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import type { Project } from "@/data/projects";
-import type { OriginRect } from "./ViewerContext";
 
 /**
  * Horizontal "filmstrip" project view, modelled on big.dk:
- * a fixed-height row of panels (hero + info columns + full-height images)
+ * a fixed-height row of panels (hero + info column + full-height images)
  * where vertical wheel input is mapped to horizontal scroll with smoothing.
  */
-export default function ProjectStrip({
-  project,
-  next,
-  onNext,
-}: {
-  project: Project;
-  next?: Project;
-  onNext?: (p: Project, rect?: OriginRect) => void;
-}) {
+export default function ProjectStrip({ project }: { project: Project }) {
   const scroller = useRef<HTMLDivElement>(null);
   const target = useRef(0);
   const raf = useRef<number | null>(null);
@@ -72,8 +63,7 @@ export default function ProjectStrip({
     };
   }, [project.slug]);
 
-  // pointer drag — only starts after the pointer actually moves, so plain
-  // clicks on children (e.g. the Next button) still fire.
+  // pointer drag — only engages once the pointer actually moves.
   const start = useRef<{ x: number; left: number; id: number } | null>(null);
   const moved = useRef(false);
 
@@ -100,14 +90,6 @@ export default function ProjectStrip({
   const onPointerUp = () => {
     start.current = null;
   };
-  // if a drag happened, swallow the click so it doesn't trigger navigation
-  const onClickCapture = (e: React.MouseEvent) => {
-    if (moved.current) {
-      e.preventDefault();
-      e.stopPropagation();
-      moved.current = false;
-    }
-  };
 
   const images = project.images;
 
@@ -119,7 +101,6 @@ export default function ProjectStrip({
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
         onPointerCancel={onPointerUp}
-        onClickCapture={onClickCapture}
         className="no-scrollbar flex-1 overflow-x-auto overflow-y-hidden cursor-grab active:cursor-grabbing"
         data-cursor="arrow"
       >
@@ -156,24 +137,6 @@ export default function ProjectStrip({
               <img src={src} alt={`${project.name} — ${i + 2}`} className="h-full w-auto object-cover" draggable={false} />
             </section>
           ))}
-
-          {/* Next project */}
-          {next && (
-            <section className="flex h-full w-[60vw] shrink-0 items-center">
-              <button
-                onClick={(e) => {
-                  const r = (e.currentTarget as HTMLElement).getBoundingClientRect();
-                  onNext?.(next, { left: r.left, top: r.top, width: r.width, height: r.height });
-                }}
-                className="group text-left"
-              >
-                <span className="label meta">Next project</span>
-                <span className="block text-[clamp(28px,5vw,72px)] uppercase leading-none transition-colors group-hover:text-accent">
-                  {next.name} →
-                </span>
-              </button>
-            </section>
-          )}
         </div>
       </div>
 

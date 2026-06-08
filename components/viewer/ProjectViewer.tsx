@@ -1,60 +1,65 @@
 "use client";
 import { useEffect, useLayoutEffect, useRef } from "react";
-import { useViewer, type OriginRect } from "./ViewerContext";
+import { useViewer } from "./ViewerContext";
 import { useCallbackRef } from "./useCallbackRef";
 import ProjectStrip from "./ProjectStrip";
-import { nextProject, type Project } from "@/data/projects";
 
-const DURATION = 1800;
-// strong ease-out (easeOutQuint): quick to start, then glides slowly into place
-const EASE = "cubic-bezier(0.22, 1, 0.36, 1)";
+const OPEN_MS = 1800; // open zoom from the card
+const CLOSE_MS = 900; // close: gentle fade + slight scale-down, reveals homepage
+const EASE = "cubic-bezier(0.22, 1, 0.36, 1)"; // easeOutQuint — glides into place
 
 export default function ProjectViewer() {
-  const { project, rect, open, close } = useViewer();
+  const { project, rect, close } = useViewer();
   const stage = useRef<HTMLDivElement>(null);
   const bg = useRef<HTMLDivElement>(null);
+  const busy = useRef(false);
 
-  // FLIP zoom-in: the clicked card grows to fullscreen over a solid backdrop.
+  // OPEN: the clicked card grows to fullscreen over a solid backdrop.
   useLayoutEffect(() => {
     const el = stage.current;
     const back = bg.current;
     if (!el || !back || !project || !rect) return;
+    busy.current = false;
+    back.style.transition = "none";
+    back.style.opacity = "1";
+    el.style.opacity = "1";
     const sx = rect.width / window.innerWidth;
     const sy = rect.height / window.innerHeight;
-    back.style.transition = "none";
-    back.style.opacity = "1"; // solid white while open
     el.style.transformOrigin = "top left";
     el.style.transition = "none";
     el.style.transform = `translate(${rect.left}px, ${rect.top}px) scale(${sx}, ${sy})`;
     el.style.opacity = "0.5";
     const id = requestAnimationFrame(() => {
-      el.style.transition = `transform ${DURATION}ms ${EASE}, opacity ${DURATION / 2}ms ${EASE}`;
+      el.style.transition = `transform ${OPEN_MS}ms ${EASE}, opacity ${OPEN_MS / 2}ms ${EASE}`;
       el.style.transform = "none";
       el.style.opacity = "1";
     });
     return () => cancelAnimationFrame(id);
   }, [project, rect]);
 
-  // Close = reverse of open: the photo shrinks back to the card while the
-  // white backdrop fades out, revealing the homepage behind it.
+  const finish = useCallbackRef(() => {
+    close();
+    if (typeof window !== "undefined" && window.history.state?.viewer) window.history.back();
+  });
+
+  // CLOSE: gentle fade + slight scale-down while the white backdrop fades out,
+  // revealing the homepage behind. Same behaviour for every project.
   const doClose = useCallbackRef(() => {
+    if (busy.current) return;
+    busy.current = true;
     const el = stage.current;
     const back = bg.current;
-    if (!el || !back || !rect) {
-      close();
+    if (!el || !back) {
+      finish();
       return;
     }
-    const sx = rect.width / window.innerWidth;
-    const sy = rect.height / window.innerHeight;
-    el.style.transition = `transform ${DURATION}ms ${EASE}`;
-    el.style.transformOrigin = "top left";
-    el.style.transform = `translate(${rect.left}px, ${rect.top}px) scale(${sx}, ${sy})`;
-    back.style.transition = `opacity ${DURATION}ms ${EASE}`;
+    el.style.transition = `opacity ${CLOSE_MS}ms ${EASE}, transform ${CLOSE_MS}ms ${EASE}`;
+    el.style.transformOrigin = "center";
+    el.style.transform = "scale(0.96)";
+    el.style.opacity = "0";
+    back.style.transition = `opacity ${CLOSE_MS}ms ease`;
     back.style.opacity = "0";
-    window.setTimeout(() => {
-      close();
-      if (window.history.state?.viewer) window.history.back();
-    }, DURATION);
+    window.setTimeout(finish, CLOSE_MS + 50);
   });
 
   // Esc + browser back close the viewer; lock body scroll while open.
@@ -74,17 +79,6 @@ export default function ProjectViewer() {
     };
   }, [project, close, doClose]);
 
-  // Going to the next project zooms it in from the clicked "Next" link.
-  const goNext = (p: Project, fromRect?: OriginRect) => {
-    const fallback = {
-      left: window.innerWidth / 2 - 40,
-      top: window.innerHeight / 2 - 40,
-      width: 80,
-      height: 80,
-    };
-    open(p, fromRect ?? fallback);
-  };
-
   if (!project) return null;
 
   return (
@@ -98,7 +92,7 @@ export default function ProjectViewer() {
           </button>
         </div>
         <div className="h-[calc(100%-56px)]">
-          <ProjectStrip project={project} next={nextProject(project.slug)} onNext={goNext} />
+          <ProjectStrip project={project} />
         </div>
       </div>
     </div>
