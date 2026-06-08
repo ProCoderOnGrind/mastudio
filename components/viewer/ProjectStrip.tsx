@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import type { Project } from "@/data/projects";
+import type { OriginRect } from "./ViewerContext";
 
 /**
  * Horizontal "filmstrip" project view, modelled on big.dk:
@@ -9,12 +10,12 @@ import type { Project } from "@/data/projects";
  */
 export default function ProjectStrip({
   project,
-  onNext,
   next,
+  onNext,
 }: {
   project: Project;
   next?: Project;
-  onNext?: (p: Project) => void;
+  onNext?: (p: Project, rect?: OriginRect) => void;
 }) {
   const scroller = useRef<HTMLDivElement>(null);
   const target = useRef(0);
@@ -53,7 +54,6 @@ export default function ProjectStrip({
     };
     el.addEventListener("wheel", onWheel, { passive: false });
 
-    // keyboard
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "ArrowRight" || e.key === "ArrowDown") {
         target.current = Math.min(max(), target.current + el.clientWidth * 0.8);
@@ -72,23 +72,41 @@ export default function ProjectStrip({
     };
   }, [project.slug]);
 
-  // pointer drag
-  const drag = useRef<{ x: number; left: number } | null>(null);
+  // pointer drag — only starts after the pointer actually moves, so plain
+  // clicks on children (e.g. the Next button) still fire.
+  const start = useRef<{ x: number; left: number; id: number } | null>(null);
+  const moved = useRef(false);
+
   const onPointerDown = (e: React.PointerEvent) => {
+    if (e.button !== 0) return;
     const el = scroller.current;
     if (!el) return;
-    drag.current = { x: e.clientX, left: el.scrollLeft };
-    el.setPointerCapture(e.pointerId);
+    start.current = { x: e.clientX, left: el.scrollLeft, id: e.pointerId };
+    moved.current = false;
   };
   const onPointerMove = (e: React.PointerEvent) => {
     const el = scroller.current;
-    if (!el || !drag.current) return;
-    const dx = e.clientX - drag.current.x;
-    el.scrollLeft = drag.current.left - dx;
-    target.current = el.scrollLeft;
+    if (!el || !start.current) return;
+    const dx = e.clientX - start.current.x;
+    if (!moved.current && Math.abs(dx) > 4) {
+      moved.current = true;
+      el.setPointerCapture(start.current.id);
+    }
+    if (moved.current) {
+      el.scrollLeft = start.current.left - dx;
+      target.current = el.scrollLeft;
+    }
   };
   const onPointerUp = () => {
-    drag.current = null;
+    start.current = null;
+  };
+  // if a drag happened, swallow the click so it doesn't trigger navigation
+  const onClickCapture = (e: React.MouseEvent) => {
+    if (moved.current) {
+      e.preventDefault();
+      e.stopPropagation();
+      moved.current = false;
+    }
   };
 
   const images = project.images;
@@ -101,6 +119,7 @@ export default function ProjectStrip({
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
         onPointerCancel={onPointerUp}
+        onClickCapture={onClickCapture}
         className="no-scrollbar flex-1 overflow-x-auto overflow-y-hidden cursor-grab active:cursor-grabbing"
         data-cursor="arrow"
       >
@@ -142,7 +161,10 @@ export default function ProjectStrip({
           {next && (
             <section className="flex h-full w-[60vw] shrink-0 items-center">
               <button
-                onClick={() => onNext?.(next)}
+                onClick={(e) => {
+                  const r = (e.currentTarget as HTMLElement).getBoundingClientRect();
+                  onNext?.(next, { left: r.left, top: r.top, width: r.width, height: r.height });
+                }}
                 className="group text-left"
               >
                 <span className="label meta">Next project</span>
