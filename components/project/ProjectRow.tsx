@@ -17,7 +17,7 @@ export default function ProjectRow({ project }: { project: Project }) {
         </div>
         <div className="overflow-hidden">
           <div className="transition-transform duration-700 ease-[cubic-bezier(.4,0,.2,1)] group-hover:scale-[1.03]">
-            <BlurImage seed={project.slug} ratio={project.ratio} />
+            <BlurImage seed={project.slug} ratio={project.ratio} className="max-h-[44vh]" />
           </div>
         </div>
       </Link>

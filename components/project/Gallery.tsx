@@ -6,7 +6,7 @@ export default function Gallery({ seed, ratios }: { seed: string; ratios: string
     <div className="flex flex-col gap-6" data-cursor="arrow">
       {ratios.map((r, i) => (
         <Reveal key={i}>
-          <BlurImage seed={`${seed}-${i}`} ratio={r} />
+          <BlurImage seed={`${seed}-${i}`} ratio={r} className="max-h-[85vh]" />
         </Reveal>
       ))}
     </div>

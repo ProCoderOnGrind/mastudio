@@ -25,7 +25,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   return (
     <article className="px-5 py-8">
       <div className="mb-6" data-cursor="arrow">
-        <BlurImage seed={project.slug} ratio={project.ratio} />
+        <BlurImage seed={project.slug} ratio={project.ratio} className="max-h-[80vh]" />
       </div>
       <div className="grid gap-10 md:grid-cols-[260px_1fr]">
         <ProjectMeta project={project} />
