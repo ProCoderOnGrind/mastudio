@@ -115,14 +115,14 @@ export default function ProjectStrip({
       >
         <div className="flex h-full flex-nowrap items-stretch gap-8 px-5 md:gap-16 md:px-10">
           {/* Hero panel — full height, natural width, so nothing is cropped. */}
-          <section className="relative h-full shrink-0" style={{ maxWidth: "min(88vw, 1100px)" }}>
+          <section className="relative flex h-full w-[88vw] shrink-0 items-center md:block md:w-auto" style={{ maxWidth: "min(88vw, 1100px)" }}>
             {images[0] && (
               // eslint-disable-next-line @next/next/no-img-element
               <img
                 ref={heroRef}
                 src={images[0]}
                 alt={project.name}
-                className="h-full w-auto max-w-full object-contain"
+                className="h-auto max-h-full w-full max-w-full object-contain md:h-full md:w-auto"
                 draggable={false}
               />
             )}
@@ -141,15 +141,15 @@ export default function ProjectStrip({
             <Meta label="Location" value={project.location} />
             <Meta label="Studio" value="MA Studio & Partners" />
             <p className="meta mt-6 text-[14px] leading-relaxed">
-              Scroll to move through the project — drag, use the wheel, or the arrow keys.
+              Swipe through the project — or use the wheel and arrow keys.
             </p>
           </section>
 
           {/* Remaining images, full height, natural aspect */}
           {images.slice(1).map((src, i) => (
-            <section key={src} className="relative h-full shrink-0">
+            <section key={src} className="relative flex h-full w-[88vw] shrink-0 items-center justify-center md:block md:w-auto">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={src} alt={`${project.name} — ${i + 2}`} className="h-full w-auto object-contain" draggable={false} />
+              <img src={src} alt={`${project.name} — ${i + 2}`} className="h-auto max-h-full w-full object-contain md:h-full md:w-auto" draggable={false} />
             </section>
           ))}
         </div>
