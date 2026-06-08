@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import CustomCursor from "@/components/media/CustomCursor";
+import { ViewerProvider } from "@/components/viewer/ViewerContext";
+import ProjectViewer from "@/components/viewer/ProjectViewer";
 
 const beVietnam = Be_Vietnam_Pro({
   subsets: ["latin"],
@@ -21,10 +23,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={beVietnam.className}>
       <body className="bg-white text-black antialiased">
-        <CustomCursor />
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <ViewerProvider>
+          <CustomCursor />
+          <Header />
+          <main>{children}</main>
+          <Footer />
+          <ProjectViewer />
+        </ViewerProvider>
       </body>
     </html>
   );
