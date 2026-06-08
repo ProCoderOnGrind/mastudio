@@ -22,32 +22,39 @@ export default function NavLinks() {
         ))}
       </nav>
 
-      {/* Mobile hamburger */}
-      <div className="relative md:hidden">
-        <button aria-label="Menu" onClick={() => setOpen((o) => !o)} className="flex flex-col gap-[5px] p-1">
+      {/* Mobile hamburger + full-width drop panel */}
+      <div className="md:hidden">
+        <button
+          aria-label="Menu"
+          aria-expanded={open}
+          onClick={() => setOpen((o) => !o)}
+          className="relative z-[72] flex flex-col gap-[5px] p-1"
+        >
           <span className="block h-[2px] w-6 bg-black" />
           <span className="block h-[2px] w-6 bg-black" />
           <span className="block h-[2px] w-6 bg-black" />
         </button>
-        <nav
-          className="absolute left-0 top-full mt-3 flex flex-col gap-1 bg-white transition-all duration-300 ease-[cubic-bezier(.4,0,.2,1)]"
-          style={{
-            opacity: open ? 1 : 0,
-            transform: open ? "translateY(0)" : "translateY(-8px)",
-            pointerEvents: open ? "auto" : "none",
-          }}
-        >
-          {NAV.map((n) => (
-            <Link
-              key={n.href}
-              href={n.href}
+        {open && (
+          <>
+            <div
+              className="fixed inset-x-0 bottom-0 top-[72px] z-[70] bg-black/20"
+              aria-hidden
               onClick={() => setOpen(false)}
-              className="label hover:text-accent transition-colors"
-            >
-              {n.label}
-            </Link>
-          ))}
-        </nav>
+            />
+            <nav className="fixed inset-x-0 top-[72px] z-[71] flex flex-col border-t border-hairline bg-white px-5 py-1">
+              {NAV.map((n) => (
+                <Link
+                  key={n.href}
+                  href={n.href}
+                  onClick={() => setOpen(false)}
+                  className="border-b border-hairline py-3 text-[16px] last:border-b-0 hover:text-accent"
+                >
+                  {n.label}
+                </Link>
+              ))}
+            </nav>
+          </>
+        )}
       </div>
     </>
   );
