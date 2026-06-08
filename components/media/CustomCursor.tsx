@@ -9,7 +9,11 @@ export default function CustomCursor() {
   const [enabled, setEnabled] = useState(false);
 
   useEffect(() => {
-    if (window.matchMedia("(pointer: fine)").matches) setEnabled(true);
+    const mq = window.matchMedia("(pointer: fine)");
+    const update = () => setEnabled(mq.matches);
+    update();
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
   }, []);
 
   useEffect(() => {
