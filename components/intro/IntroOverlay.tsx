@@ -1,5 +1,6 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { motion } from "framer-motion";
 import { hasPlayedIntro, markIntroPlayed } from "@/lib/intro";
 
@@ -7,10 +8,18 @@ export const RING_TEXT = "MODELLING ARCHITECTURE · ";
 const SIZE = 260; // px, intro emblem box
 const LOGO_GREEN = "#94c52d"; // sampled from public/mastudio/logo-dark.png — match the real logo
 
+// Runs before paint on the client, no-ops (without warning) during SSR.
+const useIsoLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
+
 export default function IntroOverlay() {
+  // Portal to <body> so no ancestor transform (e.g. the page-transition fade in
+  // app/template.tsx) can become the containing block and offset the fixed overlay.
+  const [mounted, setMounted] = useState(false);
   const [visible, setVisible] = useState(true);
   const [leaving, setLeaving] = useState(false);
   const [target, setTarget] = useState({ x: 0, y: 0, scale: 0.18 });
+
+  useIsoLayoutEffect(() => setMounted(true), []);
 
   const finish = () => {
     if (leaving) return;
@@ -45,12 +54,12 @@ export default function IntroOverlay() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  if (!visible) return null;
+  if (!mounted || !visible) return null;
 
-  return (
+  return createPortal(
     <motion.div
       data-intro="overlay"
-      className="fixed inset-x-0 top-0 z-[100] flex h-screen items-center justify-center bg-white"
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-white"
       onClick={finish}
       animate={{ opacity: leaving ? 0 : 1 }}
       transition={{ duration: 1.0, ease: [0.4, 0, 0.2, 1] }}
@@ -92,6 +101,7 @@ export default function IntroOverlay() {
           <span className="label mt-1" style={{ color: LOGO_GREEN }}>Studio &amp; Partners</span>
         </div>
       </motion.div>
-    </motion.div>
+    </motion.div>,
+    document.body
   );
 }
