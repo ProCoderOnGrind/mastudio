@@ -5,8 +5,9 @@ import { useCallbackRef } from "./useCallbackRef";
 import ProjectStrip from "./ProjectStrip";
 import { nextProject, type Project } from "@/data/projects";
 
-const DURATION = 600;
-const EASE = "cubic-bezier(.4,0,.2,1)";
+const DURATION = 1800;
+// strong ease-out (easeOutQuint): quick to start, then glides slowly into place
+const EASE = "cubic-bezier(0.22, 1, 0.36, 1)";
 
 export default function ProjectViewer() {
   const { project, rect, open, close } = useViewer();
