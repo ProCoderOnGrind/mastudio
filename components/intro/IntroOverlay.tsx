@@ -3,8 +3,9 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { hasPlayedIntro, markIntroPlayed } from "@/lib/intro";
 
-const RING_TEXT = "MODELLING ARCHITECTURE · MA STUDIO & PARTNERS · ";
+export const RING_TEXT = "MODELLING ARCHITECTURE · ";
 const SIZE = 260; // px, intro emblem box
+const LOGO_GREEN = "#94c52d"; // sampled from public/mastudio/logo-dark.png — match the real logo
 
 export default function IntroOverlay() {
   const [visible, setVisible] = useState(true);
@@ -49,7 +50,7 @@ export default function IntroOverlay() {
   return (
     <motion.div
       data-intro="overlay"
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-white"
+      className="fixed inset-x-0 top-0 z-[100] flex h-screen items-center justify-center bg-white"
       onClick={finish}
       animate={{ opacity: leaving ? 0 : 1 }}
       transition={{ duration: 1.0, ease: [0.4, 0, 0.2, 1] }}
@@ -79,16 +80,16 @@ export default function IntroOverlay() {
           <defs>
             <path id="introRing" d="M130,130 m-104,0 a104,104 0 1,1 208,0 a104,104 0 1,1 -208,0" />
           </defs>
-          <circle cx="130" cy="130" r="104" fill="none" stroke="#ff6900" strokeWidth="1.5" />
-          <text fill="#ff6900" fontSize="12.5" letterSpacing="3">
-            <textPath href="#introRing">{RING_TEXT.repeat(2)}</textPath>
+          <circle cx="130" cy="130" r="104" fill="none" stroke={LOGO_GREEN} strokeWidth="1.5" />
+          <text fill={LOGO_GREEN} fontSize="12.5" letterSpacing="3">
+            <textPath href="#introRing">{RING_TEXT.repeat(3)}</textPath>
           </text>
         </motion.svg>
 
         {/* Static center */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <span className="text-[44px] font-semibold leading-none text-black">MA</span>
-          <span className="label meta mt-1">Studio &amp; Partners</span>
+          <span className="text-[44px] font-semibold leading-none" style={{ color: LOGO_GREEN }}>MA</span>
+          <span className="label mt-1" style={{ color: LOGO_GREEN }}>Studio &amp; Partners</span>
         </div>
       </motion.div>
     </motion.div>
