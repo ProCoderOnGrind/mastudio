@@ -7,7 +7,7 @@ export default function BlurImage({
   seed = "",
   src,
   label,
-  ratio = "4 / 3",
+  ratio = "4 / 3" as string | null,
   className = "",
   showLabel = false,
   priority = false,
@@ -16,7 +16,7 @@ export default function BlurImage({
   seed?: string;
   src?: string;
   label?: string;
-  ratio?: string;
+  ratio?: string | null;
   className?: string;
   showLabel?: boolean;
   priority?: boolean;
@@ -26,7 +26,7 @@ export default function BlurImage({
   return (
     <div
       className={`relative overflow-hidden bg-neutral-200 ${className}`}
-      style={{ aspectRatio: ratio }}
+      style={ratio ? { aspectRatio: ratio } : undefined}
       ref={(el) => {
         if (el && !src && !loaded) requestAnimationFrame(() => setLoaded(true));
       }}
