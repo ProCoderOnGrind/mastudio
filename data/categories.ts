@@ -25,3 +25,11 @@ export function categoryForType(type: string): CategoryKey {
   if (/center/.test(t) && /civic/.test(t)) return "masterplan";
   return "commercial";
 }
+
+export function isCategoryKey(value: string): value is CategoryKey {
+  return CATEGORIES.some((c) => c.key === value);
+}
+
+export function categoryLabel(key: CategoryKey): string {
+  return CATEGORIES.find((c) => c.key === key)?.label ?? key;
+}
