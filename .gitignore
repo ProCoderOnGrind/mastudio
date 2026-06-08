@@ -43,3 +43,4 @@ next-env.d.ts
 # local verification artifacts
 .playwright-mcp/
 clone-*.png
+ma-*.png
