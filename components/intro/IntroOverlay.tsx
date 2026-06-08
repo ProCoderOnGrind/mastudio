@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { hasPlayedIntro, markIntroPlayed } from "@/lib/intro";
 
@@ -9,18 +9,18 @@ const SIZE = 260; // px, intro emblem box
 export default function IntroOverlay() {
   const [visible, setVisible] = useState(true);
   const [leaving, setLeaving] = useState(false);
-  const target = useRef({ x: 0, y: 0, scale: 0.18 });
+  const [target, setTarget] = useState({ x: 0, y: 0, scale: 0.18 });
 
   const finish = () => {
     if (leaving) return;
     const logo = document.getElementById("site-logo");
     if (logo) {
       const r = logo.getBoundingClientRect();
-      target.current = {
+      setTarget({
         x: r.left + r.width / 2 - window.innerWidth / 2,
         y: r.top + r.height / 2 - window.innerHeight / 2,
         scale: r.width / SIZE,
-      };
+      });
     }
     markIntroPlayed();
     setLeaving(true);
@@ -33,6 +33,9 @@ export default function IntroOverlay() {
       window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (hasPlayedIntro() || reduce) {
       markIntroPlayed();
+      // Gate depends on browser-only APIs (sessionStorage/matchMedia); it must run
+      // post-hydration, so hiding via setState here is intentional (avoids an SSR mismatch).
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setVisible(false);
       return;
     }
@@ -57,7 +60,7 @@ export default function IntroOverlay() {
         style={{ width: SIZE, height: SIZE }}
         animate={
           leaving
-            ? { x: target.current.x, y: target.current.y, scale: target.current.scale }
+            ? { x: target.x, y: target.y, scale: target.scale }
             : { x: 0, y: 0, scale: 1 }
         }
         transition={{ duration: 1.0, ease: [0.4, 0, 0.2, 1] }}
