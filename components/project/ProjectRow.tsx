@@ -38,7 +38,7 @@ export default function ProjectRow({ project, hero = false }: { project: Project
                 label={project.name}
                 ratio={null}
                 priority
-                className="h-[calc(100svh-180px)]"
+                className="h-[calc(100svh-140px)]"
                 sizes="(max-width: 768px) 100vw, 80vw"
               />
             ) : (
