@@ -6,8 +6,17 @@ import type { Project } from "@/data/projects";
  * Horizontal "filmstrip" project view, modelled on big.dk:
  * a fixed-height row of panels (hero + info column + full-height images)
  * where vertical wheel input is mapped to horizontal scroll with smoothing.
+ *
+ * `heroRef` is attached to the hero image so the viewer can FLIP it from the
+ * clicked homepage card to fullscreen on open.
  */
-export default function ProjectStrip({ project }: { project: Project }) {
+export default function ProjectStrip({
+  project,
+  heroRef,
+}: {
+  project: Project;
+  heroRef?: React.Ref<HTMLImageElement>;
+}) {
   const scroller = useRef<HTMLDivElement>(null);
   const target = useRef(0);
   const raf = useRef<number | null>(null);
@@ -105,11 +114,17 @@ export default function ProjectStrip({ project }: { project: Project }) {
         data-cursor="arrow"
       >
         <div className="flex h-full flex-nowrap items-stretch gap-8 px-5 md:gap-16 md:px-10">
-          {/* Hero panel */}
-          <section className="relative h-full shrink-0" style={{ width: "min(88vw, 1100px)" }}>
+          {/* Hero panel — full height, natural width, so nothing is cropped. */}
+          <section className="relative h-full shrink-0" style={{ maxWidth: "min(88vw, 1100px)" }}>
             {images[0] && (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={images[0]} alt={project.name} className="h-full w-full object-cover" draggable={false} />
+              <img
+                ref={heroRef}
+                src={images[0]}
+                alt={project.name}
+                className="h-full w-auto max-w-full object-contain"
+                draggable={false}
+              />
             )}
             <div className="absolute bottom-0 left-0 p-6">
               <h1 className="text-[clamp(28px,4vw,56px)] uppercase leading-none text-white mix-blend-difference">
@@ -134,7 +149,7 @@ export default function ProjectStrip({ project }: { project: Project }) {
           {images.slice(1).map((src, i) => (
             <section key={src} className="relative h-full shrink-0">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={src} alt={`${project.name} — ${i + 2}`} className="h-full w-auto object-cover" draggable={false} />
+              <img src={src} alt={`${project.name} — ${i + 2}`} className="h-full w-auto object-contain" draggable={false} />
             </section>
           ))}
         </div>

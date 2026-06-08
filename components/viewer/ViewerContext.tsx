@@ -12,7 +12,7 @@ export interface OriginRect {
 interface ViewerState {
   project: Project | null;
   rect: OriginRect | null;
-  open: (project: Project, rect: OriginRect) => void;
+  open: (project: Project, rect: OriginRect | null) => void;
   close: () => void;
 }
 
@@ -22,7 +22,7 @@ export function ViewerProvider({ children }: { children: React.ReactNode }) {
   const [project, setProject] = useState<Project | null>(null);
   const [rect, setRect] = useState<OriginRect | null>(null);
 
-  const open = useCallback((p: Project, r: OriginRect) => {
+  const open = useCallback((p: Project, r: OriginRect | null) => {
     setRect(r);
     setProject(p);
     if (typeof window !== "undefined") {
@@ -30,14 +30,10 @@ export function ViewerProvider({ children }: { children: React.ReactNode }) {
     }
   }, []);
 
-  const close = useCallback(() => {
-    setProject(null);
-  }, []);
+  const close = useCallback(() => setProject(null), []);
 
   return (
-    <ViewerCtx.Provider value={{ project, rect, open, close }}>
-      {children}
-    </ViewerCtx.Provider>
+    <ViewerCtx.Provider value={{ project, rect, open, close }}>{children}</ViewerCtx.Provider>
   );
 }
 
