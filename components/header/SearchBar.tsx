@@ -31,7 +31,7 @@ export default function SearchBar() {
     <div className="relative">
       <div
         className={`flex items-center gap-2 border-b border-black/70 px-1 py-1 transition-[width] duration-300 ease-[cubic-bezier(.4,0,.2,1)] ${
-          focused ? "w-[320px] max-w-[60vw]" : "w-[180px]"
+          focused ? "w-[320px] max-w-[60vw]" : "w-[150px] sm:w-[180px]"
         }`}
       >
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden className="shrink-0">
