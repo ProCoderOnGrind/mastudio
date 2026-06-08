@@ -2,9 +2,9 @@ import { describe, it, expect } from "vitest";
 import { searchAll } from "@/lib/search";
 
 describe("searchAll", () => {
-  it("returns project + page matches for a query", () => {
-    const res = searchAll("copen");
-    expect(res.some((r) => r.label === "CopenHill")).toBe(true);
+  it("returns project matches for a query", () => {
+    const res = searchAll("germia");
+    expect(res.some((r) => r.label === "Germia Concert Hall")).toBe(true);
   });
   it("matches static pages", () => {
     const res = searchAll("about");
@@ -14,6 +14,9 @@ describe("searchAll", () => {
     expect(searchAll("zzzqqq").length).toBe(0);
   });
   it("is case-insensitive", () => {
-    expect(searchAll("SPIRAL").some((r) => r.label === "The Spiral")).toBe(true);
+    expect(searchAll("BANTU").some((r) => r.label.toLowerCase().includes("bantu"))).toBe(true);
+  });
+  it("matches by location", () => {
+    expect(searchAll("tirana").length).toBeGreaterThan(0);
   });
 });

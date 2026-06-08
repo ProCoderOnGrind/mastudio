@@ -1,18 +1,25 @@
 import type { Metadata } from "next";
-import { GeistSans } from "geist/font/sans";
+import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import CustomCursor from "@/components/media/CustomCursor";
 
+const beVietnam = Be_Vietnam_Pro({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
+});
+
 export const metadata: Metadata = {
-  title: "BIG | Bjarke Ingels Group",
-  description: "A frontend replica of big.dk built for study.",
+  title: "MA STUDIO & PARTNERS",
+  description:
+    "Modelling Architecture Studio & Partners — architecture, urban planning, landscape and interior design based in Tirana, Albania.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={GeistSans.className}>
+    <html lang="en" className={beVietnam.className}>
       <body className="bg-white text-black antialiased">
         <CustomCursor />
         <Header />

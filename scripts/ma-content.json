@@ -1,0 +1,469 @@
+{
+  "projects": [
+    {
+      "slug": "online-retail-services",
+      "name": "ONLINE RETAIL SERVICES",
+      "type": "Retail",
+      "year": 2023,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2026/02/Render-3--1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/8-FINALE-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/Render-1-finale-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/Render-2-finale-1024x576.jpg"
+      ]
+    },
+    {
+      "slug": "cornelian-residence",
+      "name": "Cornelian Residence",
+      "type": "Retail",
+      "year": 2023,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2026/02/3-1024x816.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/4-2-1024x796.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/4-3-1024x796.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/8_1-1024x816.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/9_1-1024x816.jpg"
+      ]
+    },
+    {
+      "slug": "voxel-residence",
+      "name": "VOXEL RESIDENCE",
+      "type": "Residence",
+      "year": 2025,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2025/06/Voxel-Residence-1-1-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2025/06/Voxel-Residence-Ma-Studio-1-1-1024x643.jpg",
+        "https://mastudio.al/wp-content/uploads/2025/06/Voxel-Residence-Ma-Studio-3-1-1024x643.jpg",
+        "https://mastudio.al/wp-content/uploads/2025/06/Voxel-Residence-Ma-Studio-2-1-1024x643.jpg"
+      ]
+    },
+    {
+      "slug": "seina-residence",
+      "name": "SENIA RESIDENCE",
+      "type": "Residence",
+      "year": 2024,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Seina-Residence-1-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Seina-Residence-5-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Seina-Residence-7-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Seina-Residence-8-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Seina-Residence-9-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Seina-Residence-10-1024x576.jpg"
+      ]
+    },
+    {
+      "slug": "koi-residence",
+      "name": "Koi RESIDENCE",
+      "type": "Residence",
+      "year": 2024,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2024/06/Untitled-1-1024x683.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-1-1024x578.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-3-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-4-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-5-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-6-1024x576.jpg"
+      ]
+    },
+    {
+      "slug": "vila-axh",
+      "name": "Villa AXH",
+      "type": "Residence",
+      "year": 2024,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Vilas-4-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Vilas-5-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Vilas-2-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Vilas-1-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Vilas-0-1024x576.jpg"
+      ]
+    },
+    {
+      "slug": "perla-garden",
+      "name": "Perla Garden",
+      "type": "Residence",
+      "year": 2024,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2024/08/MA_Studio__Partners_Perla_Garden_Residence_3-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/08/MA_Studio__Partners_Perla_Garden_Residence_5-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/08/MA_Studio__Partners_Perla_Garden_Residence_10-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/08/MA_Studio__Partners_Perla_Garden_Residence_11-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/08/MA_Studio__Partners_Perla_Garden_Residence_1-1024x604.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/08/MA_Studio__Partners_Perla_Garden_Residence_2-1024x606.jpg"
+      ]
+    },
+    {
+      "slug": "private-villas-2",
+      "name": "Private villas",
+      "type": "Residence",
+      "year": 2024,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2026/02/1_2_render-1024x816.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/1_8_render--1024x816.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/1_9_render--1024x816.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/3-1-1024x816.jpg",
+        "https://mastudio.al/wp-content/uploads/2026/02/3-2-1024x816.jpg"
+      ]
+    },
+    {
+      "slug": "belvedere-korca",
+      "name": "BELVEDERE KORÇA",
+      "type": "Residence",
+      "year": 2024,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Belveder-Korca-1-2-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Belveder-Korca-1-4-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Belveder-Korca-1-5-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Belveder-Korca-1-8-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Belvedere-Korca-4-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2024/06/MA-Studio-Partners-Belvedere-Korca-8-1024x576.jpg"
+      ]
+    },
+    {
+      "slug": "ebolowa-master-plan",
+      "name": "EBOLOWA MASTER PLAN",
+      "type": "Master Plan",
+      "year": 2021,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/EBOLOWA-masterplan-MA-studio-Kopertine-1.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/ebolowa-new-dream-town-education-route-masterplan.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Urban-Design-Concept-Map-–-Cameroon-Education-Routes-1024x805.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Education-Route-–-Ebolowa-Cameroon-–-Mixed-Use-Development-Concept-1024x804.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Ma-strudio-partners-Ebolowa-Master-Plan-–-Cameroon-–-Africa-in-Miniature-1024x709.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Ma-strudio-partners-Ebolowa-Master-Plan-1-1024x724.jpg"
+      ]
+    },
+    {
+      "slug": "vocational-training-center",
+      "name": "VOCATIONAL TRAINING CENTER",
+      "type": "Training Center",
+      "year": 2021,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/Professional-School-–-Ebolowa-New-Dream-Town-–-Education-Axis-–-Vocational-Training-Campus-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/ma-studio-professional-school-cameroon-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/ma-studio-professional-school-cameroon-2-3-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/ma-studio-professional-school-cameroon-3-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/ma-studio-professional-school-cameroon-4-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/ma-studio-professional-school-cameroon-5-1-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "music-faculty-chantal-biya",
+      "name": "MUSIC FACULTY CHANTAL BIYA",
+      "type": "Music Faculty",
+      "year": 2021,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/Chantal-Biya-Music-University-MA-Studio-6-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Chantal-Biya-Music-University-MA-Studio-3-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Chantal-Biya-Music-University-MA-Studio-4-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Chantal-Biya-Music-University-MA-Studio-1-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Chantal-Biya-Music-University-MA-Studio-2-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Chantal-Biya-Music-University-MA-Studio-5-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "institute-of-art-culture-dritero-agolli",
+      "name": "INSTITUTE OF ART & CULTURE DRITERO AGOLLI",
+      "type": "Institute",
+      "year": 2021,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-Studio-INSTITUTE-OF-ART-CULTURE-DRITERO-AGOLLI​-5-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Multidisciplinary-Arts-Education-Complex-–-Concept-Architecture-Diagram-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Tropical-Institute-of-Art-Culture-–-Contemporary-Architecture-Visualization-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Art-Culture-Institute-Courtyard-–-Tropical-Architecture-with-Artistic-Facade-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-Studio-INSTITUTE-OF-ART-CULTURE-DRITERO-AGOLLI​-4-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-Studio-INSTITUTE-OF-ART-CULTURE-DRITERO-AGOLLI​-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "bantu-museum",
+      "name": "BANTU MUSEUM",
+      "type": "Museum",
+      "year": 2021,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/ma-studio-about-web-1.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-studio-Bantu-museum-1-1-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "hospitality",
+      "name": "Hospitality",
+      "type": "Hotel",
+      "year": 2021,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/Ma-studio-hotel-1-1.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Ma-studio-hotel-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Ma-studio-hotel-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Ma-studio-hotel-3-1024x609.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Ma-studio-hotel-4-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Ma-studio-hotel-5-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "alem-aga-farm",
+      "name": "ALEM AGA FARM",
+      "type": "Farm",
+      "year": 2020,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-Alem-Aga-farm-kopertine-1.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/1_1.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/Contemporary-Pavilion-Complex-–-Minimalist-Black-Architecture-in-Nature-1024x571.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/MA_Studio__Partners_Alem_Aga_Farm_4-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/MA_Studio__Partners_Alem_Aga_Farm_7-1024x576.jpg"
+      ]
+    },
+    {
+      "slug": "tulipan-residence",
+      "name": "TULIPAN RESIDENCE",
+      "type": "Residence",
+      "year": 2020,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-Bolv-Oil-kopertine.jpg",
+        "https://mastudio.al/wp-content/uploads/2022/03/MA-STUDIO-black.png",
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-Bolv-Oil-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-Bolv-Oil-3-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-Bolv-Oil-4-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-Bolv-Oil-5-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "sunflower-residences",
+      "name": "SUNFLOWER RESIDENCES",
+      "type": "Residence",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/kopertina-1.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Dine-Fratarin-SUNFLOWER-RESIDENCES-9-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Dine-Fratarin-SUNFLOWER-RESIDENCES-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Dine-Fratarin-SUNFLOWER-RESIDENCES-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Dine-Fratarin-SUNFLOWER-RESIDENCES-3-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Dine-Fratarin-SUNFLOWER-RESIDENCES-5-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "civic-center",
+      "name": "Civic Center",
+      "type": "Center",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-MA-Studio-Partners-Studio-Settanta7-Falconara-CIVIC-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/Contemporary-Cultural-Center-–-Minimalist-Architecture-with-Open-Public-Space-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-MA-Studio-Partners-Studio-Settanta7-Falconara-CIVIC-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-MA-Studio-Partners-Studio-Settanta7-Falconara-CIVIC-3-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-MA-Studio-Partners-Studio-Settanta7-Falconara-CIVIC-4-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-MA-Studio-Partners-Studio-Settanta7-Falconara-CIVIC-5-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "germia-concert-hall",
+      "name": "Germia Concert Hall",
+      "type": "Concert Hall",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-Germia.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Germia-7-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Germia-6-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Germia-5-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Germia-4-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Germia-3-1-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "prishtina-arena",
+      "name": "PRISHTINA ARENA",
+      "type": "Arena",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-Germia.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/2-Copy-1024x772.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Prishtina-Arena-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Prishtina-Arena-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Prishtina-Arena-5-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Prishtina-Arena-6-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "london-busines-park",
+      "name": "LONDON BUSINESS PARK",
+      "type": "Business Park",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-LONDON-BUSINES-PARK.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/Contemporary-Landscape-Masterplan-–-Organic-Architecture-with-Green-Roofs-and-Amphitheater-1024x610.png",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-LONDON-BUSSINES-PARK-concept-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-LONDON-BUSSINES-PARK-concept-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-LONDON-BUSSINES-PARK-concept-4-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-LONDON-BUSSINES-PARK-concept-5-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "livadh-waterfront",
+      "name": "LIVADH WATERFRONT",
+      "type": "Waterfront",
+      "year": 2021,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/kopertina-01.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Livadh-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Livadh-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Livadh-3-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Livadh-4-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Livadh-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "pearl-resort",
+      "name": "AQUAMARINE",
+      "type": "Resort",
+      "year": 2021,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Qeparo-PEARL-RESORT.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Qeparo-PEARL-RESORT-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Qeparo-PEARL-RESORT-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Qeparo-PEARL-RESORT-3-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "green-pine-resort",
+      "name": "GREEN PINE RESORT",
+      "type": "Resort",
+      "year": 2022,
+      "location": "Albania",
+      "images": []
+    },
+    {
+      "slug": "altavista",
+      "name": "GREEN AMPHITHEATER",
+      "type": "Residence",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Partners-ALTAVISTA-Shkallnur-1.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Green_AMPHITHEATER_1-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Green_AMPHITHEATER_4-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Green_AMPHITHEATER_7-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Green_AMPHITHEATER_2-1024x576.jpg"
+      ]
+    },
+    {
+      "slug": "residence-126",
+      "name": "SEREN VILLAS",
+      "type": "Villa",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Vila.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Seren_Villas_2-1-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Seren_Villas_3-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Seren_Villas_5-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Seren_Villas_7-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Seren_Villas_8-1024x576.jpg"
+      ]
+    },
+    {
+      "slug": "ales",
+      "name": "ALES",
+      "type": "Residence",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-Ales-copy-_kopertina.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Partners-Ales-Universe-City-1-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Partners-Ales-Universe-City-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Partners-Ales-Universe-City-3-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Partners-Ales-Universe-City-4-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Partners-Ales-Universe-City-5-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "universe-city-masterplan",
+      "name": "UNIVERSE CITY MASTERPLAN",
+      "type": "Masterplan",
+      "year": 2022,
+      "location": "Albania",
+      "images": []
+    },
+    {
+      "slug": "qtu-park-smart-city",
+      "name": "QTU PARK SMART CITY",
+      "type": "Park",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/03/kopertina.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Park-QTU-Smart-City-1-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Park-QTU-Smart-City-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Park-QTU-Smart-City-3-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Park-QTU-Smart-City-4-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Park-QTU-Smart-City-5-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "univers-school",
+      "name": "UNIVERS SCHOOL",
+      "type": "School",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/02/MA-STUDIO-Univers-School.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Univers-School-3-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Univers-School-2-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "startek",
+      "name": "STARTEK",
+      "type": "Residence",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Startek-Univers-City-1.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Startek-Univers-City-2-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Startek-Univers-City-3-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Startek-Univers-City-4-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Startek-Univers-City-5-1024x610.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA-STUDIO-Startek-Univers-City-6-1024x610.jpg"
+      ]
+    },
+    {
+      "slug": "olive-sunshine-residence",
+      "name": "OLIVE SUNSHINE RESIDENCE",
+      "type": "Residence",
+      "year": 2022,
+      "location": "Albania",
+      "images": [
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Olive_Sunshine_Residence_2-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Olive_Sunshine_Residence_3-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Olive_Sunshine_Residence_5-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Olive_Sunshine_Residence_9-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Olive_Sunshine_Residence_10-1024x576.jpg",
+        "https://mastudio.al/wp-content/uploads/2023/03/MA_Studio__Partners_Olive_Sunshine_Residence_11-1024x576.jpg"
+      ]
+    }
+  ],
+  "about": "About - MA STUDIO Skip links Skip to primary navigation Skip to content Toggle navigation About Portofolio Modelling Architecture is fascinated by the interplay of different levels of scale and thinking: the scale of the city and that of mankind; thinking in abstraction and thinking in tangibility. The cohesion of these levels is not to be found in one compulsive dogmatic theme, but rather in different concepts and concrete projects. The exploring attitude is not to find definitive answers, but to raise questions in order to continue the reflective and research working method for the future innovations of the common worldwide society. Urban Planning Urban Design Architecture Landscape Design Interior Design Engineering Energy Efficient Energy Auditing Contact Address: RR.\"Sami Frasheri\", Njesia Nr. 13, Kompleksi TID, Tirana, Albania, Kutia postare 1020 T. +355 692098818; E: info@mastudio.al This website uses cookies to improve your web experience. Accept Explore Drag Adding {{itemName}} to cart Added {{itemName}} to cart Loading... &times; .elementor-element-populated\", \"getCssFromTarget\": [\"border-top\", \"border-right\", \"border-bottom\", \"border-left\"], \"applyCssTo\": \"> .lqd-animated-line\" }'>",
+  "aboutImages": []
+}

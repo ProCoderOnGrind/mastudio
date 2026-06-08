@@ -9,11 +9,7 @@ export interface SearchResult {
 
 const PAGES: SearchResult[] = [
   { label: "Projects", href: "/", group: "Pages" },
-  { label: "News", href: "/news", group: "Pages" },
   { label: "About", href: "/about", group: "Pages" },
-  { label: "Sustainability", href: "/sustainability", group: "Pages" },
-  { label: "People", href: "/people", group: "Pages" },
-  { label: "Careers", href: "/careers", group: "Pages" },
   { label: "Contact", href: "/contact", group: "Pages" },
 ];
 

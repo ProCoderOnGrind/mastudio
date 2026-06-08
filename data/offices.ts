@@ -3,14 +3,40 @@ export interface Office {
   label: string;
   address: string[];
   email: string;
+  phone: string;
 }
+
 export const OFFICES: Office[] = [
-  { city: "Copenhagen", label: "BIG Copenhagen", address: ["Bryghuspladsen 8", "1473 Copenhagen", "Denmark"], email: "cph@example.com" },
-  { city: "Barcelona", label: "BIG Barcelona", address: ["Carrer d'Àvila 138", "08018 Barcelona", "Spain"], email: "bcn@example.com" },
-  { city: "London", label: "BIG London", address: ["1 Finsbury Avenue", "London EC2M 2PF", "United Kingdom"], email: "lon@example.com" },
-  { city: "New York", label: "BIG New York", address: ["45 Main Street", "Brooklyn, NY 11201", "USA"], email: "nyc@example.com" },
-  { city: "Shanghai", label: "BIG Shanghai", address: ["No. 1 Suzhou Creek", "Shanghai", "China"], email: "sha@example.com" },
-  { city: "Los Angeles", label: "BIG Los Angeles", address: ["500 S Santa Fe Ave", "Los Angeles, CA", "USA"], email: "la@example.com" },
-  { city: "Zürich", label: "BIG Zürich", address: ["Bahnhofstrasse 1", "8001 Zürich", "Switzerland"], email: "zur@example.com" },
-  { city: "Bhutan", label: "BIG Bhutan", address: ["Gelephu", "Bhutan"], email: "bhutan@example.com" },
+  {
+    city: "Tirana",
+    label: "MA Studio & Partners",
+    address: ['Rruga "Sami Frashëri"', "Njësia Nr. 13, Kompleksi TID", "1020 Tirana, Albania"],
+    email: "info@mastudio.al",
+    phone: "+355 69 209 8818",
+  },
+];
+
+export interface Social {
+  label: string;
+  href: string;
+}
+
+export const SOCIALS: Social[] = [
+  { label: "LinkedIn", href: "https://al.linkedin.com/company/modelling-architecture-studio-partners" },
+  { label: "Facebook", href: "https://www.facebook.com/ModellingArchitecture1974/" },
+  { label: "Instagram", href: "https://www.instagram.com/modelling_architecture/" },
+  { label: "Pinterest", href: "https://www.pinterest.com/mastudiopartners/" },
+  { label: "YouTube", href: "https://www.youtube.com/@mastudiopartners" },
+  { label: "Twitter", href: "https://twitter.com/MAStudioPartner" },
+];
+
+export const SERVICES: string[] = [
+  "Urban Planning",
+  "Urban Design",
+  "Architecture",
+  "Landscape Design",
+  "Interior Design",
+  "Engineering",
+  "Energy Efficiency",
+  "Energy Auditing",
 ];

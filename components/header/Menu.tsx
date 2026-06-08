@@ -4,11 +4,7 @@ import Link from "next/link";
 
 const NAV = [
   { label: "Projects", href: "/" },
-  { label: "News", href: "/news" },
   { label: "About", href: "/about" },
-  { label: "Sustainability", href: "/sustainability" },
-  { label: "People", href: "/people" },
-  { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -32,7 +28,7 @@ export default function Menu() {
       >
         {NAV.map((n) => (
           <Link key={n.href} href={n.href} onClick={() => setOpen(false)}
-            className="label hover:text-big-gray transition-colors">
+            className="label hover:text-accent transition-colors">
             {n.label}
           </Link>
         ))}

@@ -1,5 +1,5 @@
 export type CategoryKey =
-  | "architecture" | "interiors" | "landscape" | "planning" | "products";
+  | "residential" | "hospitality" | "culture" | "masterplan" | "commercial";
 
 export interface Category {
   key: CategoryKey;
@@ -8,9 +8,20 @@ export interface Category {
 }
 
 export const CATEGORIES: Category[] = [
-  { key: "architecture", label: "Architecture", subcategories: ["culture","education","work","hospitality","residential","infrastructure","space","sports","health"] },
-  { key: "interiors", label: "Interiors", subcategories: [] },
-  { key: "landscape", label: "Landscape", subcategories: ["civic-spaces","parks","gardens","balconies-and-terraces"] },
-  { key: "planning", label: "Planning", subcategories: ["campus","city","region"] },
-  { key: "products", label: "Products", subcategories: ["lighting","furniture","consumer-products","mobility","installations"] },
+  { key: "residential", label: "Residential", subcategories: [] },
+  { key: "hospitality", label: "Hospitality", subcategories: [] },
+  { key: "culture", label: "Culture", subcategories: [] },
+  { key: "masterplan", label: "Masterplan", subcategories: [] },
+  { key: "commercial", label: "Commercial", subcategories: [] },
 ];
+
+// Map a MA Studio project "type" string to one of our grouped categories.
+export function categoryForType(type: string): CategoryKey {
+  const t = type.toLowerCase();
+  if (/resid|villa/.test(t)) return "residential";
+  if (/resort|hotel|hospitality/.test(t)) return "hospitality";
+  if (/museum|concert|music|institute|arena/.test(t)) return "culture";
+  if (/master ?plan|park|waterfront|smart|city/.test(t)) return "masterplan";
+  if (/center/.test(t) && /civic/.test(t)) return "masterplan";
+  return "commercial";
+}

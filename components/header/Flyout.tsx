@@ -7,7 +7,7 @@ export default function Flyout({ category }: { category: Category }) {
   const [hover, setHover] = useState(false);
   return (
     <div className="relative" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-      <Link href={`/projects/${category.key}`} className="label hover:text-big-gray transition-colors">
+      <Link href={`/projects/${category.key}`} className="label hover:text-accent transition-colors">
         {category.label}
       </Link>
       {category.subcategories.length > 0 && (
