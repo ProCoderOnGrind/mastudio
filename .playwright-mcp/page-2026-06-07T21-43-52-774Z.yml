@@ -1,0 +1,486 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - img
+  - generic:
+    - checkbox
+    - generic [ref=e2] [cursor=pointer]:
+      - img
+    - navigation:
+      - link "Projects":
+        - /url: /
+      - link "News":
+        - /url: /news
+      - link "About":
+        - /url: /about
+      - link "Sustainability":
+        - /url: /sustainability
+      - link "People":
+        - /url: /people
+      - link "Careers":
+        - /url: /careers
+      - generic: Contact
+  - generic [ref=e3]:
+    - generic:
+      - checkbox
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Architecture" [ref=e6] [cursor=pointer]:
+            - /url: /projects/architecture
+          - link "Interiors" [ref=e7] [cursor=pointer]:
+            - /url: /projects/interiors
+          - link "Landscape" [ref=e8] [cursor=pointer]:
+            - /url: /projects/landscape
+          - link "Planning" [ref=e9] [cursor=pointer]:
+            - /url: /projects/planning
+          - link "Products" [ref=e10] [cursor=pointer]:
+            - /url: /projects/products
+        - generic [ref=e11]:
+          - generic [ref=e12]: Command Menu
+          - generic [ref=e13]:
+            - img [ref=e14]
+            - combobox "Command Menu" [expanded] [ref=e17]
+          - listbox "Suggestions" [ref=e18]
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - img "CopenHill image | Bjarke Ingels Group" [ref=e25] [cursor=pointer]
+        - generic [ref=e26]:
+          - img "CopenHill icon | Bjarke Ingels Group" [ref=e28]
+          - generic [ref=e29]:
+            - heading "CopenHill" [level=1] [ref=e30]
+            - paragraph [ref=e31]: Copenhagen, Denmark
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: "2019"
+            - heading "Client" [level=4] [ref=e34]
+            - paragraph [ref=e35]: Amager Resource Center | Amager Bakke Foundation
+            - heading "Typology" [level=4] [ref=e36]
+            - paragraph [ref=e37]: Infrastructure
+            - heading "Size m2/ft2" [level=4] [ref=e38]
+            - paragraph [ref=e39]: 41,000 / 441,324
+            - heading "Status" [level=4] [ref=e40]
+            - paragraph [ref=e41]: Completed
+            - generic [ref=e42]:
+              - generic [ref=e43]: Share
+              - generic [ref=e44]:
+                - link "Send in a mail" [ref=e45] [cursor=pointer]:
+                  - /url: mailto:?body=https://big.dk/projects/copenhill-2391&subject=CopenHill
+                  - img "Send in a mail" [ref=e46]
+                - link "Share on Facebook" [ref=e48] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer/sharer.php?u=https://big.dk/projects/copenhill-2391
+                  - img "Share on Facebook" [ref=e49]
+                - link "Share on LinkedIn" [ref=e51] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/sharing/share-offsite/?url=https://big.dk/projects/copenhill-2391
+                  - img "Share on LinkedIn" [ref=e52]
+                - link "Share on X" [ref=e54] [cursor=pointer]:
+                  - /url: https://x.com/share?url=https://big.dk/projects/copenhill-2391
+                  - img "Share on X" [ref=e55]
+      - generic [ref=e57]:
+        - generic [ref=e61]:
+          - paragraph [ref=e62]: Located in an industrial area near Copenhagen city center, CopenHill, also known as Amager Bakke, is an exemplary model in the field of waste management and energy production, as well as an architectural landmark in the cityscape of Copenhagen. The building replaces the 50-year-old Amagerforbraending plant and is the single largest environmental initiative in Denmark.
+          - paragraph [ref=e63]: The new breed of waste-to-energy plant is topped with a ski slope, hiking trail, climbing wall, an urban recreation center, and environmental education hub, turning the power plant into a destination. The building embodies BIG’s notion of hedonistic sustainability while contributing to Copenhagen’s goal of becoming one of the world’s first carbon-neutral cities.
+        - generic [ref=e64]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e68]
+              - paragraph [ref=e69]:
+                - strong [ref=e70]: PROGRAM —
+                - text: Without sacrificing efficiency, BIG was able to organize the volumetric organization of the machinery inside the plant from tallest to shortest.
+            - generic [ref=e71]:
+              - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e72]
+              - paragraph [ref=e73]:
+                - strong [ref=e74]: FUN FACTORY —
+                - text: BIG proposed a new breed of waste-to-energy plant, one that is economically, environmentally and socially profitable.
+            - generic [ref=e75]:
+              - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e76]
+              - paragraph [ref=e77]:
+                - strong [ref=e78]: FACADE —
+                - text: The building is gently wrapped with a continuous façade made out of stacked aluminum bricks. The openings between them are letting cascades of light into the deep process hall and the administration spaces.
+            - generic [ref=e79]:
+              - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e80]
+              - paragraph [ref=e81]:
+                - strong [ref=e82]: PLANTERS —
+                - text: In time, the bricks on the facade can function as planters, creating a green façade and turning the building into a green mountain from afar.
+            - generic [ref=e83]:
+              - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e84]
+              - paragraph [ref=e85]:
+                - strong [ref=e86]: ALPINE SKIING IN COPENHAGEN —
+                - text: BIG proposed to turn the roof of the new plant into an artificial, year-round ski slope for the citizens of Copenhagen.
+            - generic [ref=e87]:
+              - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e88]
+              - paragraph [ref=e89]:
+                - strong [ref=e90]: THREE PISTS —
+                - text: The geometry of the roofscape supports three slopes of different gradients with a total of 500 m of ski runs and a terrain park. This accommodates beginner and pro skiers.
+            - generic [ref=e91]:
+              - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e92]
+              - paragraph [ref=e93]:
+                - strong [ref=e94]: SLOPE ACCESS —
+                - text: Access to the ski paths is through an elevator adjacent to the smokestack. The elevator has a glass wall facing the interior of the plant, allowing recreational buffs and sightseers to have a glimpse into the internal workings of the plant.
+            - generic [ref=e95]:
+              - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e96]
+              - paragraph [ref=e97]:
+                - strong [ref=e98]: TAKE A WALK IN THE PARK —
+                - text: The roof doesn't only function as a ski slope, but like a real mountain with green forest areas, hike trail and climbing walls. The top of the slope invites visitors to enjoy a café and 360 views from the viewing platform.
+            - generic [ref=e99]:
+              - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e100]
+              - paragraph [ref=e101]:
+                - strong [ref=e102]: COPENHILL —
+                - text: Rather than a traditional visitor center, people come on their own for skiing and hiking, and become curious about what happens inside the mountain.
+          - generic [ref=e103]:
+            - generic [ref=e104]: "01"
+            - generic [ref=e105]: /
+            - text: "09"
+        - generic [ref=e106]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - generic [ref=e107]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - iframe [ref=e109]:
+          - generic [active] [ref=f1e1]:
+            - generic [ref=f1e2]:
+              - img
+            - img [ref=f1e7]
+        - generic [ref=e113]:
+          - paragraph [ref=e114]: Located on the industrial waterfront of Amager, where raw industrial facilities have become the site for extreme sports – from wakeboarding to go-kart racing – the new power plant adds skiing, hiking, and rock climbing to the area. Expert skiers can ski down the artificial Olympic half-pipe length ski slope all year round, test the freestyle park, or try the timed slalom course, while beginners and kids practice on the lower slopes. Skiers ascend the park from the platter lift, carpet lifts, or glass elevator with views inside the 24-hour waste incineration process.
+          - paragraph [ref=e115]: CopenHill’s continuous façade features 1.2 m tall and 3.3 m-wide aluminum boxes stacked like gigantic bricks overlapping with each other. In between, glazed windows allow daylight to reach deep inside the facility, while larger openings on the southwest façade illuminate workstations on the administrative floors.
+        - generic [ref=e116]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - generic [ref=e117]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - generic [ref=e119]:
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e121]
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e123]
+        - generic [ref=e127]:
+          - paragraph [ref=e128]: The public can enjoy the rooftop bar, cross-fit area, or the highest observation deck in the city before descending the 490 m tree-lined hiking and running trail within the lush, mountainous terrain. The 10,000 m2 green roof, 85 m high up in the air, features a biodiverse landscape while absorbing heat, removing air particulates, and minimizing storm-water runoff.
+          - paragraph [ref=e129]: Biologists have monitored the biodiversity of Copenhill since its inauguration in 2019. At the latest investigation in 2020, 119 different new plant and tree species were observed.
+        - generic [ref=e131]:
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e133]
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e135]
+        - paragraph [ref=e140]: On the longest vertical façade, an 85 m climbing wall is installed making it the tallest artificial climbing wall in the world.
+        - generic [ref=e141]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - generic [ref=e142]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - generic [ref=e146]:
+          - paragraph [ref=e147]: Beneath the slopes, whirring furnaces, steam, and turbines convert 440,000 tons of waste annually into enough clean energy to deliver electricity and district heating for 150,000 homes. The power plant’s infrastructure, from ventilation shafts to air-intakes, helps create the varied topography of a mountain; a man-made landscape created in the encounter between the needs from below and the desires from above.
+          - paragraph [ref=e148]: Ten floors of administrative space are occupied by the Amager Resource Center team, including a 600 m2 education center for academic tours, workshops and sustainability conferences.
+        - generic [ref=e150]:
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e152]
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e154]
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e156]
+        - generic [ref=e157]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - generic [ref=e158]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - generic [ref=e160]:
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e162]
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e164]
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e166]
+          - img "CopenHill gallery image | Bjarke Ingels Group" [ref=e168]
+        - generic [ref=e169]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - paragraph [ref=e174]: At the bottom of the ski slope, an après-ski bar welcomes locals and visitors to wind down once the boots are off. Formerly a piece of infrastructure in an industrial zone, CopenHill is now a destination for all citizens and visitors of Copenhagen.
+        - generic [ref=e175]:
+          - img "CopenHill image | Bjarke Ingels Group"
+        - generic [ref=e177]:
+          - heading "Partner in Charge" [level=3] [ref=e178]
+          - paragraph [ref=e179]: Bjarke Ingels
+          - paragraph [ref=e180]: Brian Yang
+          - paragraph [ref=e181]: David Zahle
+          - paragraph [ref=e182]: Jakob Lange
+          - heading "Project Leader" [level=3] [ref=e183]
+          - paragraph [ref=e184]: Claus Hermansen
+          - paragraph [ref=e185]: Jesper Boye Andersen
+          - paragraph [ref=e186]: Nanna Gyldholm
+          - heading "Project Team" [level=3] [ref=e187]
+          - paragraph [ref=e188]: Adam Busko
+          - paragraph [ref=e189]: Adam Mahfuh
+          - paragraph [ref=e190]: Adrien Mans
+          - paragraph [ref=e191]: Alberto Cumerlato
+          - paragraph [ref=e192]: Aleksander Wadas
+          - paragraph [ref=e193]: Alexander Codda
+          - paragraph [ref=e194]: Alexander Eising
+          - paragraph [ref=e195]: Alexandra Gustafsson
+          - paragraph [ref=e196]: Alina Tamosiunaite
+          - paragraph [ref=e197]: Alvaro Garcia Mendive
+          - paragraph [ref=e198]: Anders Hjortnæs
+          - paragraph [ref=e199]: Anders Holden Deleuran
+          - paragraph [ref=e200]: Andreas Klok Pedersen
+          - paragraph [ref=e201]: Annette Jensen
+          - paragraph [ref=e202]: Ariel Joy Norback Wallner
+          - paragraph [ref=e203]: Armor Gutiérrez Rivas
+          - paragraph [ref=e204]: Ask Andersen
+          - paragraph [ref=e205]: Balaj Alin Iulian
+          - paragraph [ref=e206]: Blake Smith
+          - paragraph [ref=e207]: Boris Peianov
+          - paragraph [ref=e208]: Borko Nikolic
+          - paragraph [ref=e209]: Brygida Zawadzka
+          - paragraph [ref=e210]: Buster Christensen
+          - paragraph [ref=e211]: Carl Pettersson
+          - paragraph [ref=e212]: Chris Falla
+          - paragraph [ref=e213]: Chris Zhongtian Yuan
+          - paragraph [ref=e214]: Daniel Selensky
+          - paragraph [ref=e215]: Dennis Rasmussen
+          - paragraph [ref=e216]: Ella Coco Murphy
+          - paragraph [ref=e217]: Espen Vik
+          - paragraph [ref=e218]: Finn Nørkjær
+          - paragraph [ref=e219]: Franck Fdida
+          - paragraph [ref=e220]: George Abraham
+          - paragraph [ref=e221]: Gonzalo Vecchiola
+          - paragraph [ref=e222]: Gül Ertekin
+          - paragraph [ref=e223]: Helen Shuyang Chen
+          - paragraph [ref=e224]: Henrick Poulsen
+          - paragraph [ref=e225]: Henrik Kania
+          - paragraph [ref=e226]: Horia Spirescu
+          - paragraph [ref=e227]: Jakob Ohm Laursen
+          - paragraph [ref=e228]: Jean Valentiner Strandholt
+          - paragraph [ref=e229]: Jelena Vucic
+          - paragraph [ref=e230]: Jeppe Ecklon
+          - paragraph [ref=e231]: Ji-Young Yoon
+          - paragraph [ref=e232]: Jing Xu
+          - paragraph [ref=e233]: Joanna Anna Jakubowska
+          - paragraph [ref=e234]: Joanna M. Lesna
+          - paragraph [ref=e235]: Johanna Nenander
+          - paragraph [ref=e236]: Joos Jerne
+          - paragraph [ref=e237]: Kamilla Heskje
+          - paragraph [ref=e238]: Kasper Worsøe Pejtersen
+          - paragraph [ref=e239]: Katarzyna Krystyna Siedlecka
+          - paragraph [ref=e240]: Kim Christensen
+          - paragraph [ref=e241]: Krzysztof Piotr Marciszewski
+          - paragraph [ref=e242]: Lars Thonke
+          - paragraph [ref=e243]: Laura Watte
+          - paragraph [ref=e244]: Liang Wang
+          - paragraph [ref=e245]: Lise Jessen
+          - paragraph [ref=e246]: Lone Fenger Albrechtsen
+          - paragraph [ref=e247]: Long Zuo
+          - paragraph [ref=e248]: Maciej Jakub Zawadzki
+          - paragraph [ref=e249]: Mads Engaard Stidsen
+          - paragraph [ref=e250]: Marcelina Kolasinska
+          - paragraph [ref=e251]: Marcos Garcia Bano
+          - paragraph [ref=e252]: Maren Allen
+          - paragraph [ref=e253]: Mathias Bank Stigsen
+          - paragraph [ref=e254]: Mathias Larsen
+          - paragraph [ref=e255]: Matti Hein Nørgaard
+          - paragraph [ref=e256]: Michael Andersen
+          - paragraph [ref=e257]: Narisara Ladawal Schröder
+          - paragraph [ref=e258]: Nicklas Antoni Rasch
+          - paragraph [ref=e259]: Nynne Brynjolf Madsen
+          - paragraph [ref=e260]: Oanh Nguyen
+          - paragraph [ref=e261]: Øssur Nolsø
+          - paragraph [ref=e262]: Pero Vukovic
+          - paragraph [ref=e263]: Richard Howis
+          - paragraph [ref=e264]: Ryohei Koike
+          - paragraph [ref=e265]: Se Hyeon Kim
+          - paragraph [ref=e266]: Sebastian Liszka
+          - paragraph [ref=e267]: Seunghan Yeum
+          - paragraph [ref=e268]: Simon Masson
+          - paragraph [ref=e269]: SungMing Lee
+          - paragraph [ref=e270]: Takahiro Hirayama
+          - paragraph [ref=e271]: Toni Mateu
+          - paragraph [ref=e272]: Tore Banke
+          - paragraph [ref=e273]: Xing Xiong
+          - paragraph [ref=e274]: Yang Zhang
+          - paragraph [ref=e275]: Yehezkiel Wiliardy Manik
+          - paragraph [ref=e276]: Zoltan Kalászi
+          - heading "Awards" [level=3] [ref=e277]
+          - paragraph [ref=e278]: Energy Globe National Award, 2022
+          - paragraph [ref=e279]: World Architecture Festival Best Building of the Year Winner, 2021
+          - paragraph [ref=e280]: World Architecture Festival Best Energy & Infrastructure Category Winner, 2021
+          - paragraph [ref=e281]: IOC, IPC and IAKS award international architecture prize, 2021
+          - paragraph [ref=e282]: Bundesverband GebäudeGrün Green Roof Award, 2020
+          - paragraph [ref=e283]: IDEAT Future Award, Best Public Architecture, 2020
+          - paragraph [ref=e284]: Popular Science Best of What’s New Award, 2020
+          - paragraph [ref=e285]: ICONIC Awards, Innovative Architecture, Best of the Best Award, 2020
+          - paragraph [ref=e286]: Design Educates Award, 2020
+          - paragraph [ref=e287]: German Design Council Innovative Architecture, Best of the Best Award Winner, 2020
+          - paragraph [ref=e288]: Architizer A+ Awards Factories & Warehouses Popular Winner, 2020
+          - paragraph [ref=e289]: ArchDaily Building of the Year Award, Industrial Architecture, 2020
+          - paragraph [ref=e290]: Scandinavian Green Roof Award, 2019
+          - paragraph [ref=e291]: Architizer A+ Award, Architecture Photography, 2019
+          - paragraph [ref=e292]: European Steel Design Award, 2017
+          - paragraph [ref=e293]: Tekla Global BIM Awards, 2015
+          - paragraph [ref=e294]: P/A Progressive Architecture Awards, Citation, 2015
+          - paragraph [ref=e295]: MIPIM AR Future Projects Awards, 2012
+          - heading "Collaborators" [level=3] [ref=e296]
+          - paragraph [ref=e297]: "Detail Design:"
+          - paragraph [ref=e298]: MOE
+          - paragraph [ref=e299]: SLA
+          - paragraph [ref=e300]: Lüchinger+Mayer
+          - paragraph [ref=e301]: Rambøll
+          - paragraph [ref=e302]: Zublin
+          - paragraph [ref=e303]: Jesper Kongshaug
+          - paragraph [ref=e304]: BIG Ideas
+          - paragraph [ref=e305]: "Competition:"
+          - paragraph [ref=e306]: AKT
+          - paragraph [ref=e307]: Topotek 1
+          - paragraph [ref=e308]: Man Mad Land
+          - paragraph [ref=e309]: "Realities: United"
+          - paragraph [ref=e310]: A.P. Møller Fonden
+          - paragraph [ref=e311]: Lokale og Anlægsfonden
+          - paragraph [ref=e312]: Nordea Fonden
+          - paragraph [ref=e313]: R98 Fonden
+          - paragraph [ref=e314]: Københavns Kommune
+          - paragraph [ref=e315]: Frederiksberg Kommune
+          - paragraph [ref=e316]: Tårnby Kommune
+          - paragraph [ref=e317]: Dragør Kommune
+          - paragraph [ref=e318]: Hvidovre Kommune
+    - contentinfo [ref=e320]:
+      - generic [ref=e321]:
+        - generic [ref=e322]:
+          - radio
+          - heading "Email +" [level=4] [ref=e323] [cursor=pointer]:
+            - text: Email
+            - generic [ref=e324]: +
+          - generic:
+            - generic: NEW PROJECTS
+            - link "newbiz@big.dk":
+              - /url: mailto:newbiz@big.dk
+            - generic: PRESS
+            - link "press@big.dk":
+              - /url: mailto:press@big.dk
+            - generic: LECTURES
+            - link "lectures@big.dk":
+              - /url: mailto:lectures@big.dk
+            - generic: EXHIBITIONS
+            - link "exhibitions@big.dk":
+              - /url: mailto:exhibitions@big.dk
+        - generic [ref=e325]:
+          - radio
+          - heading "Office +" [level=4] [ref=e326] [cursor=pointer]:
+            - text: Office
+            - generic [ref=e327]: +
+          - generic:
+            - generic:
+              - radio
+              - generic: Copenhagen
+              - paragraph:
+                - text: Sundkaj 165
+                - text: 2150, Nordhavn
+                - link:
+                  - /url: https://goo.gl/maps/R1pmtHqp4Gkqsjtz8
+                - text: Copenhagen, DK
+                - text: +45 7221 7227
+                - text: +45 3512 7227
+                - link "cph@big.dk":
+                  - /url: mailto:cph@big.dk
+            - generic:
+              - radio
+              - generic: London
+              - paragraph:
+                - text: 1 Finsbury Avenue
+                - text: London EC2M 2PF
+                - text: United Kingdom
+                - text: +44 20 3735 4996
+                - link "lon@big.dk":
+                  - /url: mailto:lon@big.dk
+            - generic:
+              - radio
+              - generic: Barcelona
+              - paragraph:
+                - text: Ronda de Sant Pere, 56 Bajos
+                - text: 08010 Barcelona
+                - text: Spain
+                - text: +34 610 029 747
+                - link "bcn@big.dk":
+                  - /url: mailto:bcn@big.dk
+            - generic:
+              - radio
+              - generic: New York
+              - paragraph:
+                - text: 45 Main Street, 9th Floor
+                - text: Brooklyn, NY 11201
+                - text: United States
+                - text: +1 347 549 4141
+                - text: +1 866 738 4336
+                - link "nyc@big.dk":
+                  - /url: mailto:nyc@big.dk
+            - generic:
+              - radio
+              - generic: Shanghai
+              - paragraph:
+                - generic:
+                  - generic:
+                    - text: 363 Chang Ping Road, FL 6
+                    - text: Jing An District, Shanghai
+                - text: China
+                - text: +86 180 1923 8903
+                - link "sha@big.dk":
+                  - /url: mailto:sha@big.dk
+            - generic:
+              - radio
+              - generic: Los Angeles
+              - paragraph:
+                - text: 310 Wilshire Boulevard,
+                - text: 2nd floor
+                - text: Santa Monica, 90401
+                - text: California
+                - generic: +1 310 692 7280
+                - link "lax@big.dk":
+                  - /url: mailto:lax@big.dk
+            - generic:
+              - radio
+              - generic: Zürich
+              - paragraph:
+                - text: Planergemeinschaft Raumfachwerk
+                - text: Flughafenstrasse 90
+                - text: 8302 Kloten
+                - text: Switzerland
+                - link "bigzrh@big.dk":
+                  - /url: mailto:bigzrh@big.dk
+            - generic:
+              - radio
+              - generic: Riyadh
+              - paragraph:
+                - generic:
+                  - text: King Abdullah Financial District
+                  - text: Innovation Blvd – Building 4.07
+                  - text: Riyadh 13519
+                  - text: Kingdom of Saudi Arabia
+                  - link "ksa@big.dk":
+                    - /url: mailto:ksa@big.dk
+        - generic [ref=e328]:
+          - radio
+          - heading "Social +" [level=4] [ref=e329] [cursor=pointer]:
+            - text: Social
+            - generic [ref=e330]: +
+          - generic:
+            - link "Instagram":
+              - /url: https://www.instagram.com/big_builds/
+              - text: Instagram
+              - img
+            - link "X":
+              - /url: https://x.com/BIG_Architects
+              - text: X
+              - img
+            - link "LinkedIn":
+              - /url: https://www.linkedin.com/company/bjarke-ingels-group/
+              - text: LinkedIn
+              - img
+            - link "Vimeo":
+              - /url: https://vimeo.com/user1395824
+              - text: Vimeo
+              - img
+            - link "Facebook":
+              - /url: https://www.facebook.com/bjarke.ingels.group
+              - text: Facebook
+              - img
+            - link "Bjarke Ingels Group WeChat QR Code":
+              - /url: https://weixin.qq.com/r/GjlRSUbEmhvlrQIq92wI
+              - img "Bjarke Ingels Group WeChat QR Code"
+        - generic [ref=e331]:
+          - radio
+          - heading "Legal +" [level=4] [ref=e332] [cursor=pointer]:
+            - text: Legal
+            - generic [ref=e333]: +
+          - generic:
+            - link "BIG’s Anti-Slavery and Human Trafficking Statement 2018":
+              - /url: https://media.big.dk/2024/01/BIGs-anti-slavery-and-human-trafficking-statement-2018.pdf
+            - link "BIG’s Privacy Policy 2024":
+              - /url: https://media.big.dk/privacy-policy-bigdk.pdf
+            - link "BIG UN Global Compact Report":
+              - /url: https://www.unglobalcompact.org/participation/report/cop/create-and-submit/active/446079
+            - link "BIG’s Annual Sustainability Report, 2023":
+              - /url: https://media.big.dk/2024/06/240603-ANNUAL-SUSTAINABILITY-REPORT-2023.pdf
+            - link "Whistleblower Policy":
+              - /url: /whistleblower-policy
+      - button "Back to top" [ref=e334] [cursor=pointer]
+  - alert [ref=e335]

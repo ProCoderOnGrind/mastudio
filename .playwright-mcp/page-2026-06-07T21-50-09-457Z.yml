@@ -1,0 +1,2750 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - img
+  - generic:
+    - checkbox
+    - generic [ref=e2] [cursor=pointer]:
+      - img
+    - navigation:
+      - link "Projects":
+        - /url: /
+      - link "News":
+        - /url: /news
+      - link "About":
+        - /url: /about
+      - link "Sustainability":
+        - /url: /sustainability
+      - link "People":
+        - /url: /people
+      - link "Careers":
+        - /url: /careers
+      - generic: Contact
+  - generic [ref=e3]:
+    - generic:
+      - checkbox
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Architecture" [ref=e6] [cursor=pointer]:
+            - /url: /projects/architecture
+          - link "Interiors" [ref=e7] [cursor=pointer]:
+            - /url: /projects/interiors
+          - link "Landscape" [ref=e8] [cursor=pointer]:
+            - /url: /projects/landscape
+          - link "Planning" [ref=e9] [cursor=pointer]:
+            - /url: /projects/planning
+          - link "Products" [ref=e10] [cursor=pointer]:
+            - /url: /projects/products
+        - generic [ref=e11]:
+          - generic [ref=e12]: Command Menu
+          - generic [ref=e13]:
+            - img [ref=e14]
+            - combobox "Command Menu" [expanded] [ref=e17]
+          - listbox "Suggestions" [ref=e18]
+    - generic [ref=e20]:
+      - generic [ref=e23]:
+        - link "EVE Music Hall image | Bjarke Ingels Group" [ref=e24] [cursor=pointer]:
+          - /url: /projects/eve-music-hall-24077
+          - img "EVE Music Hall image | Bjarke Ingels Group" [ref=e26]
+        - generic [ref=e27]:
+          - img "EVE Music Hall icon | Bjarke Ingels Group" [ref=e29]
+          - generic [ref=e30]:
+            - heading "EVE Music Hall" [level=3] [ref=e31]
+            - paragraph [ref=e32]: Čepin, Croatia
+      - generic [ref=e35]:
+        - link "NOT A HOTEL Setouchi image | Bjarke Ingels Group" [ref=e36] [cursor=pointer]:
+          - /url: /projects/not-a-hotel-setouchi-18610
+          - img "NOT A HOTEL Setouchi image | Bjarke Ingels Group" [ref=e38]
+        - generic [ref=e39]:
+          - img "NOT A HOTEL Setouchi icon | Bjarke Ingels Group" [ref=e41]
+          - generic [ref=e42]:
+            - heading "NOT A HOTEL Setouchi" [level=3] [ref=e43]
+            - paragraph [ref=e44]: Sagishima, Japan
+      - generic [ref=e47]:
+        - link "Gastronomy Open Ecosystem image | Bjarke Ingels Group" [ref=e48] [cursor=pointer]:
+          - /url: /projects/gastronomy-open-ecosystem-4679
+          - img "Gastronomy Open Ecosystem image | Bjarke Ingels Group" [ref=e50]
+        - generic [ref=e51]:
+          - img "Gastronomy Open Ecosystem icon | Bjarke Ingels Group" [ref=e53]
+          - generic [ref=e54]:
+            - heading "Gastronomy Open Ecosystem" [level=3] [ref=e55]
+            - paragraph [ref=e56]: San Sebastian, Spain
+      - generic [ref=e59]:
+        - link "CityWave image | Bjarke Ingels Group" [ref=e60] [cursor=pointer]:
+          - /url: /projects/citywave-6592
+          - img "CityWave image | Bjarke Ingels Group" [ref=e62]
+        - generic [ref=e63]:
+          - img "CityWave icon | Bjarke Ingels Group" [ref=e65]
+          - generic [ref=e66]:
+            - heading "CityWave" [level=3] [ref=e67]
+            - paragraph [ref=e68]: Milan, Italy
+      - generic [ref=e71]:
+        - link "Tennessee Performing Arts Center image | Bjarke Ingels Group" [ref=e72] [cursor=pointer]:
+          - /url: /projects/tennessee-performing-arts-center-23847
+          - img "Tennessee Performing Arts Center image | Bjarke Ingels Group" [ref=e74]
+        - generic [ref=e75]:
+          - img "Tennessee Performing Arts Center icon | Bjarke Ingels Group" [ref=e77]
+          - generic [ref=e78]:
+            - heading "Tennessee Performing Arts Center" [level=3] [ref=e79]
+            - paragraph [ref=e80]: Nashville, United States
+      - generic [ref=e83]:
+        - link "East Side Coastal Resiliency image | Bjarke Ingels Group" [ref=e84] [cursor=pointer]:
+          - /url: /projects/east-side-coastal-resiliency-4993
+          - img "East Side Coastal Resiliency image | Bjarke Ingels Group" [ref=e86]
+        - generic [ref=e87]:
+          - img "East Side Coastal Resiliency icon | Bjarke Ingels Group" [ref=e89]
+          - generic [ref=e90]:
+            - heading "East Side Coastal Resiliency" [level=3] [ref=e91]
+            - paragraph [ref=e92]: New York, United States
+      - generic [ref=e95]:
+        - link "The Plus image | Bjarke Ingels Group" [ref=e96] [cursor=pointer]:
+          - /url: /projects/the-plus-3837
+          - img "The Plus image | Bjarke Ingels Group" [ref=e98]
+        - generic [ref=e99]:
+          - img "The Plus icon | Bjarke Ingels Group" [ref=e101]
+          - generic [ref=e102]:
+            - heading "The Plus" [level=3] [ref=e103]
+            - paragraph [ref=e104]: Magnor, Norway
+      - generic [ref=e107]:
+        - link "Bloomberg Student Center at Johns Hopkins University image | Bjarke Ingels Group" [ref=e108] [cursor=pointer]:
+          - /url: /projects/bloomberg-student-center-at-johns-hopkins-university-22443
+          - img "Bloomberg Student Center at Johns Hopkins University image | Bjarke Ingels Group" [ref=e110]
+        - generic [ref=e111]:
+          - img "Bloomberg Student Center at Johns Hopkins University icon | Bjarke Ingels Group" [ref=e113]
+          - generic [ref=e114]:
+            - heading "Bloomberg Student Center at Johns Hopkins University" [level=3] [ref=e115]
+            - paragraph [ref=e116]: Baltimore, United States
+      - generic [ref=e119]:
+        - link "Suzhou Museum of Contemporary Art image | Bjarke Ingels Group" [ref=e120] [cursor=pointer]:
+          - /url: /projects/suzhou-museum-of-contemporary-art-18410
+          - img "Suzhou Museum of Contemporary Art image | Bjarke Ingels Group" [ref=e122]
+        - generic [ref=e123]:
+          - img "Suzhou Museum of Contemporary Art icon | Bjarke Ingels Group" [ref=e125]
+          - generic [ref=e126]:
+            - heading "Suzhou Museum of Contemporary Art" [level=3] [ref=e127]
+            - paragraph [ref=e128]: Suzhou, China
+      - generic [ref=e131]:
+        - link "Hamburg State Opera image | Bjarke Ingels Group" [ref=e132] [cursor=pointer]:
+          - /url: /projects/hamburg-state-opera-22903
+          - img "Hamburg State Opera image | Bjarke Ingels Group" [ref=e134]
+        - generic [ref=e135]:
+          - img "Hamburg State Opera icon | Bjarke Ingels Group" [ref=e137]
+          - generic [ref=e138]:
+            - heading "Hamburg State Opera" [level=3] [ref=e139]
+            - paragraph [ref=e140]: Hamburg, Germany
+      - generic [ref=e143]:
+        - link "Sankt Lukas Hospice and Lukashuset image | Bjarke Ingels Group" [ref=e144] [cursor=pointer]:
+          - /url: /projects/sankt-lukas-hospice-and-lukashuset-20434
+          - img "Sankt Lukas Hospice and Lukashuset image | Bjarke Ingels Group" [ref=e146]
+        - generic [ref=e147]:
+          - img "Sankt Lukas Hospice and Lukashuset icon | Bjarke Ingels Group" [ref=e149]
+          - generic [ref=e150]:
+            - heading "Sankt Lukas Hospice and Lukashuset" [level=3] [ref=e151]
+            - paragraph [ref=e152]: Hellerup, Denmark
+      - generic [ref=e155]:
+        - link "Claremont McKenna College image | Bjarke Ingels Group" [ref=e156] [cursor=pointer]:
+          - /url: /projects/claremont-mckenna-college-14115
+          - img "Claremont McKenna College image | Bjarke Ingels Group" [ref=e158]
+        - generic [ref=e159]:
+          - img "Claremont McKenna College icon | Bjarke Ingels Group" [ref=e161]
+          - generic [ref=e162]:
+            - heading "Claremont McKenna College" [level=3] [ref=e163]
+            - paragraph [ref=e164]: Claremont, United States
+      - generic [ref=e167]:
+        - link "Manresa Wilds image | Bjarke Ingels Group" [ref=e168] [cursor=pointer]:
+          - /url: /projects/manresa-island-19379
+          - img "Manresa Wilds image | Bjarke Ingels Group" [ref=e170]
+        - generic [ref=e171]:
+          - img "Manresa Wilds icon | Bjarke Ingels Group" [ref=e173]
+          - generic [ref=e174]:
+            - heading "Manresa Wilds" [level=3] [ref=e175]
+            - paragraph [ref=e176]: Norwalk, United States
+      - generic [ref=e179]:
+        - link "BIG HQ image | Bjarke Ingels Group" [ref=e180] [cursor=pointer]:
+          - /url: /projects/big-hq-11526
+          - generic [ref=e181]:
+            - img "BIG HQ image | Bjarke Ingels Group"
+        - generic [ref=e182]:
+          - img "BIG HQ icon | Bjarke Ingels Group" [ref=e184]
+          - generic [ref=e185]:
+            - heading "BIG HQ" [level=3] [ref=e186]
+            - paragraph [ref=e187]: Copenhagen, Denmark
+      - generic [ref=e190]:
+        - link "Gelephu International Airport image | Bjarke Ingels Group" [ref=e191] [cursor=pointer]:
+          - /url: /projects/gelephu-international-airport-20769
+          - generic [ref=e192]:
+            - img "Gelephu International Airport image | Bjarke Ingels Group"
+        - generic [ref=e193]:
+          - img "Gelephu International Airport icon | Bjarke Ingels Group" [ref=e195]
+          - generic [ref=e196]:
+            - heading "Gelephu International Airport" [level=3] [ref=e197]
+            - paragraph [ref=e198]: Gelephu, Bhutan
+      - generic [ref=e201]:
+        - link "The Impact image | Bjarke Ingels Group" [ref=e202] [cursor=pointer]:
+          - /url: /projects/the-impact-21709
+          - generic [ref=e203]:
+            - img "The Impact image | Bjarke Ingels Group"
+        - generic [ref=e204]:
+          - img "The Impact icon | Bjarke Ingels Group" [ref=e206]
+          - generic [ref=e207]:
+            - heading "The Impact" [level=3] [ref=e208]
+            - paragraph [ref=e209]: Copenhagen, Denmark
+      - generic [ref=e212]:
+        - link "Gowanus 175 Third Street image | Bjarke Ingels Group" [ref=e213] [cursor=pointer]:
+          - /url: /projects/gowanus-175-third-street-21556
+          - generic [ref=e214]:
+            - img "Gowanus 175 Third Street image | Bjarke Ingels Group"
+        - generic [ref=e215]:
+          - img "Gowanus 175 Third Street icon | Bjarke Ingels Group" [ref=e217]
+          - generic [ref=e218]:
+            - heading "Gowanus 175 Third Street" [level=3] [ref=e219]
+            - paragraph [ref=e220]: Brooklyn, United States
+      - generic [ref=e223]:
+        - link "Jinji Lake Pavilion image | Bjarke Ingels Group" [ref=e224] [cursor=pointer]:
+          - /url: /projects/jinji-lake-pavilion-20223
+          - generic [ref=e225]:
+            - img "Jinji Lake Pavilion image | Bjarke Ingels Group"
+        - generic [ref=e226]:
+          - img "Jinji Lake Pavilion icon | Bjarke Ingels Group" [ref=e228]
+          - generic [ref=e229]:
+            - heading "Jinji Lake Pavilion" [level=3] [ref=e230]
+            - paragraph [ref=e231]: Suzhou, China
+      - generic [ref=e234]:
+        - link "Athletics Las Vegas Ballpark image | Bjarke Ingels Group" [ref=e235] [cursor=pointer]:
+          - /url: /projects/athletics-las-vegas-ballpark-16435
+          - generic [ref=e236]:
+            - img "Athletics Las Vegas Ballpark image | Bjarke Ingels Group"
+        - generic [ref=e237]:
+          - img "Athletics Las Vegas Ballpark icon | Bjarke Ingels Group" [ref=e239]
+          - generic [ref=e240]:
+            - heading "Athletics Las Vegas Ballpark" [level=3] [ref=e241]
+            - paragraph [ref=e242]: Las Vegas, United States
+      - generic [ref=e245]:
+        - link "The Drop image | Bjarke Ingels Group" [ref=e246] [cursor=pointer]:
+          - /url: /projects/the-drop-23592
+          - generic [ref=e247]:
+            - img "The Drop image | Bjarke Ingels Group"
+        - generic [ref=e248]:
+          - img "The Drop icon | Bjarke Ingels Group" [ref=e250]
+          - generic [ref=e251]:
+            - heading "The Drop" [level=3] [ref=e252]
+            - paragraph [ref=e253]: Istanbul, Turkey
+      - generic [ref=e256]:
+        - link "Gelephu Mindfulness City image | Bjarke Ingels Group" [ref=e257] [cursor=pointer]:
+          - /url: /projects/gelephu-mindfulness-city-16791
+          - generic [ref=e258]:
+            - img "Gelephu Mindfulness City image | Bjarke Ingels Group"
+        - generic [ref=e259]:
+          - img "Gelephu Mindfulness City icon | Bjarke Ingels Group" [ref=e261]
+          - generic [ref=e262]:
+            - heading "Gelephu Mindfulness City" [level=3] [ref=e263]
+            - paragraph [ref=e264]: Gelephu, Bhutan
+      - generic [ref=e267]:
+        - link "Solar One Environmental Education Center image | Bjarke Ingels Group" [ref=e268] [cursor=pointer]:
+          - /url: /projects/solar-one-environmental-education-center-21999
+          - generic [ref=e269]:
+            - img "Solar One Environmental Education Center image | Bjarke Ingels Group"
+        - generic [ref=e270]:
+          - img "Solar One Environmental Education Center icon | Bjarke Ingels Group" [ref=e272]
+          - generic [ref=e273]:
+            - heading "Solar One Environmental Education Center" [level=3] [ref=e274]
+            - paragraph [ref=e275]: New York, United States
+      - generic [ref=e278]:
+        - link "Hungarian Natural History Museum image | Bjarke Ingels Group" [ref=e279] [cursor=pointer]:
+          - /url: /projects/hungarian-natural-history-museum-21176
+          - generic [ref=e280]:
+            - img "Hungarian Natural History Museum image | Bjarke Ingels Group"
+        - generic [ref=e281]:
+          - img "Hungarian Natural History Museum icon | Bjarke Ingels Group" [ref=e283]
+          - generic [ref=e284]:
+            - heading "Hungarian Natural History Museum" [level=3] [ref=e285]
+            - paragraph [ref=e286]: Debrecen, Hungary
+      - generic [ref=e289]:
+        - link "New Dubai Masterplan image | Bjarke Ingels Group" [ref=e290] [cursor=pointer]:
+          - /url: /projects/new-dubai-masterplan-21456
+          - generic [ref=e291]:
+            - img "New Dubai Masterplan image | Bjarke Ingels Group"
+        - generic [ref=e292]:
+          - img "New Dubai Masterplan icon | Bjarke Ingels Group" [ref=e294]
+          - generic [ref=e295]:
+            - heading "New Dubai Masterplan" [level=3] [ref=e296]
+            - paragraph [ref=e297]: Dubai, United Arab Emirates
+      - generic [ref=e300]:
+        - 'link "Ancient Future: Bridging Bhutanese Tradition and Innovation image | Bjarke Ingels Group" [ref=e301] [cursor=pointer]':
+          - /url: /projects/ancient-future-bridging-bhutanese-tradition-and-innovation-21490
+          - generic [ref=e302]:
+            - 'img "Ancient Future: Bridging Bhutanese Tradition and Innovation image | Bjarke Ingels Group"'
+        - generic [ref=e303]:
+          - 'img "Ancient Future: Bridging Bhutanese Tradition and Innovation icon | Bjarke Ingels Group" [ref=e305]'
+          - generic [ref=e306]:
+            - 'heading "Ancient Future: Bridging Bhutanese Tradition and Innovation" [level=3] [ref=e307]'
+            - paragraph [ref=e308]: Venice, Italy
+      - generic [ref=e311]:
+        - link "Fira Barcelona Business Hub image | Bjarke Ingels Group" [ref=e312] [cursor=pointer]:
+          - /url: /projects/fira-barcelona-business-hub-21008
+          - generic [ref=e313]:
+            - img "Fira Barcelona Business Hub image | Bjarke Ingels Group"
+        - generic [ref=e314]:
+          - img "Fira Barcelona Business Hub icon | Bjarke Ingels Group" [ref=e316]
+          - generic [ref=e317]:
+            - heading "Fira Barcelona Business Hub" [level=3] [ref=e318]
+            - paragraph [ref=e319]: Barcelona, Spain
+      - generic [ref=e322]:
+        - link "Opera and Ballet Theatre of Kosovo image | Bjarke Ingels Group" [ref=e323] [cursor=pointer]:
+          - /url: /projects/opera-and-ballet-theatre-of-kosovo-20425
+          - generic [ref=e324]:
+            - img "Opera and Ballet Theatre of Kosovo image | Bjarke Ingels Group"
+        - generic [ref=e325]:
+          - img "Opera and Ballet Theatre of Kosovo icon | Bjarke Ingels Group" [ref=e327]
+          - generic [ref=e328]:
+            - heading "Opera and Ballet Theatre of Kosovo" [level=3] [ref=e329]
+            - paragraph [ref=e330]: Prishtina, Kosovo
+      - generic [ref=e333]:
+        - link "CopenHill image | Bjarke Ingels Group" [ref=e334] [cursor=pointer]:
+          - /url: /projects/copenhill-2391
+          - generic [ref=e335]:
+            - img "CopenHill image | Bjarke Ingels Group"
+        - generic [ref=e336]:
+          - img "CopenHill icon | Bjarke Ingels Group" [ref=e338]
+          - generic [ref=e339]:
+            - heading "CopenHill" [level=3] [ref=e340]
+            - paragraph [ref=e341]: Copenhagen, Denmark
+      - generic [ref=e344]:
+        - link "One High Line image | Bjarke Ingels Group" [ref=e345] [cursor=pointer]:
+          - /url: /projects/one-high-line-3358
+          - generic [ref=e346]:
+            - img "One High Line image | Bjarke Ingels Group"
+        - generic [ref=e347]:
+          - img "One High Line icon | Bjarke Ingels Group" [ref=e349]
+          - generic [ref=e350]:
+            - heading "One High Line" [level=3] [ref=e351]
+            - paragraph [ref=e352]: New York, United States
+      - generic [ref=e355]:
+        - link "Joint Research Center image | Bjarke Ingels Group" [ref=e356] [cursor=pointer]:
+          - /url: /projects/joint-research-center-4419
+          - generic [ref=e357]:
+            - img "Joint Research Center image | Bjarke Ingels Group"
+        - generic [ref=e358]:
+          - img "Joint Research Center icon | Bjarke Ingels Group" [ref=e360]
+          - generic [ref=e361]:
+            - heading "Joint Research Center" [level=3] [ref=e362]
+            - paragraph [ref=e363]: Sevilla, Spain
+      - generic [ref=e366]:
+        - link "Musée Atelier Audemars Piguet image | Bjarke Ingels Group" [ref=e367] [cursor=pointer]:
+          - /url: /projects/musee-atelier-audemars-piguet-2884
+          - generic [ref=e368]:
+            - img "Musée Atelier Audemars Piguet image | Bjarke Ingels Group"
+        - generic [ref=e369]:
+          - img "Musée Atelier Audemars Piguet icon | Bjarke Ingels Group" [ref=e371]
+          - generic [ref=e372]:
+            - heading "Musée Atelier Audemars Piguet" [level=3] [ref=e373]
+            - paragraph [ref=e374]: Le Brassus, Switzerland
+      - generic [ref=e377]:
+        - link "The Spiral image | Bjarke Ingels Group" [ref=e378] [cursor=pointer]:
+          - /url: /projects/the-spiral-4456
+          - generic [ref=e379]:
+            - img "The Spiral image | Bjarke Ingels Group"
+        - generic [ref=e380]:
+          - img "The Spiral icon | Bjarke Ingels Group" [ref=e382]
+          - generic [ref=e383]:
+            - heading "The Spiral" [level=3] [ref=e384]
+            - paragraph [ref=e385]: New York, United States
+      - generic [ref=e388]:
+        - link "LEGO Brand House image | Bjarke Ingels Group" [ref=e389] [cursor=pointer]:
+          - /url: /projects/lego-brand-house-2740
+          - generic [ref=e390]:
+            - img "LEGO Brand House image | Bjarke Ingels Group"
+        - generic [ref=e391]:
+          - img "LEGO Brand House icon | Bjarke Ingels Group" [ref=e393]
+          - generic [ref=e394]:
+            - heading "LEGO Brand House" [level=3] [ref=e395]
+            - paragraph [ref=e396]: Billund, Denmark
+      - generic [ref=e399]:
+        - link "Noma 2.0 image | Bjarke Ingels Group" [ref=e400] [cursor=pointer]:
+          - /url: /projects/noma-2-0-3189
+          - generic [ref=e401]:
+            - img "Noma 2.0 image | Bjarke Ingels Group"
+        - generic [ref=e402]:
+          - img "Noma 2.0 icon | Bjarke Ingels Group" [ref=e404]
+          - generic [ref=e405]:
+            - heading "Noma 2.0" [level=3] [ref=e406]
+            - paragraph [ref=e407]: Copenhagen, Denmark
+      - generic [ref=e410]:
+        - link "Freedom Data Center image | Bjarke Ingels Group" [ref=e411] [cursor=pointer]:
+          - /url: /projects/lonestar-data-center-18918
+          - generic [ref=e412]:
+            - img "Freedom Data Center image | Bjarke Ingels Group"
+        - generic [ref=e413]:
+          - img "Freedom Data Center icon | Bjarke Ingels Group" [ref=e415]
+          - generic [ref=e416]:
+            - heading "Freedom Data Center" [level=3] [ref=e417]
+            - paragraph [ref=e418]: ","
+      - generic [ref=e421]:
+        - link "NYPD 40th Precinct image | Bjarke Ingels Group" [ref=e422] [cursor=pointer]:
+          - /url: /projects/nypd-40th-precinct-3162
+          - generic [ref=e423]:
+            - img "NYPD 40th Precinct image | Bjarke Ingels Group"
+        - generic [ref=e424]:
+          - img "NYPD 40th Precinct icon | Bjarke Ingels Group" [ref=e426]
+          - generic [ref=e427]:
+            - heading "NYPD 40th Precinct" [level=3] [ref=e428]
+            - paragraph [ref=e429]: New York, United States
+      - generic [ref=e432]:
+        - link "Marengo Multimodal Transport Hub image | Bjarke Ingels Group" [ref=e433] [cursor=pointer]:
+          - /url: /projects/marengo-multimodal-transport-hub-17762
+          - generic [ref=e434]:
+            - img "Marengo Multimodal Transport Hub image | Bjarke Ingels Group"
+        - generic [ref=e435]:
+          - img "Marengo Multimodal Transport Hub icon | Bjarke Ingels Group" [ref=e437]
+          - generic [ref=e438]:
+            - heading "Marengo Multimodal Transport Hub" [level=3] [ref=e439]
+            - paragraph [ref=e440]: Toulouse, France
+      - generic [ref=e443]:
+        - link "The Twist image | Bjarke Ingels Group" [ref=e444] [cursor=pointer]:
+          - /url: /projects/the-twist-2-1337
+          - generic [ref=e445]:
+            - img "The Twist image | Bjarke Ingels Group"
+        - generic [ref=e446]:
+          - img "The Twist icon | Bjarke Ingels Group" [ref=e448]
+          - generic [ref=e449]:
+            - heading "The Twist" [level=3] [ref=e450]
+            - paragraph [ref=e451]: Jevnaker, Norway
+      - generic [ref=e454]:
+        - link "VIA 57 West image | Bjarke Ingels Group" [ref=e455] [cursor=pointer]:
+          - /url: /projects/via-57-west-2350
+          - generic [ref=e456]:
+            - img "VIA 57 West image | Bjarke Ingels Group"
+        - generic [ref=e457]:
+          - img "VIA 57 West icon | Bjarke Ingels Group" [ref=e459]
+          - generic [ref=e460]:
+            - heading "VIA 57 West" [level=3] [ref=e461]
+            - paragraph [ref=e462]: New York, United States
+      - generic [ref=e465]:
+        - link "Google Bay View image | Bjarke Ingels Group" [ref=e466] [cursor=pointer]:
+          - /url: /projects/google-bay-view-3070
+          - generic [ref=e467]:
+            - img "Google Bay View image | Bjarke Ingels Group"
+        - generic [ref=e468]:
+          - img "Google Bay View icon | Bjarke Ingels Group" [ref=e470]
+          - generic [ref=e471]:
+            - heading "Google Bay View" [level=3] [ref=e472]
+            - paragraph [ref=e473]: Mountain View, United States
+      - generic [ref=e476]:
+        - link "A Beat of Water image | Bjarke Ingels Group" [ref=e477] [cursor=pointer]:
+          - /url: /projects/a-beat-of-water-20839
+          - generic [ref=e478]:
+            - img "A Beat of Water image | Bjarke Ingels Group"
+        - generic [ref=e479]:
+          - img "A Beat of Water icon | Bjarke Ingels Group" [ref=e481]
+          - generic [ref=e482]:
+            - heading "A Beat of Water" [level=3] [ref=e483]
+            - paragraph [ref=e484]: Milan, Italy
+      - generic [ref=e487]:
+        - link "Audemars Piguet Hotel image | Bjarke Ingels Group" [ref=e488] [cursor=pointer]:
+          - /url: /projects/audemars-piguet-hotel-5067
+          - generic [ref=e489]:
+            - img "Audemars Piguet Hotel image | Bjarke Ingels Group"
+        - generic [ref=e490]:
+          - img "Audemars Piguet Hotel icon | Bjarke Ingels Group" [ref=e492]
+          - generic [ref=e493]:
+            - heading "Audemars Piguet Hotel" [level=3] [ref=e494]
+            - paragraph [ref=e495]: Le Brassus, Switzerland
+      - generic [ref=e498]:
+        - link "UAE International Horticultural Expo Pavilion image | Bjarke Ingels Group" [ref=e499] [cursor=pointer]:
+          - /url: /projects/uae-international-horticulture-expo-pavilion-17449
+          - generic [ref=e500]:
+            - img "UAE International Horticultural Expo Pavilion image | Bjarke Ingels Group"
+        - generic [ref=e501]:
+          - img "UAE International Horticultural Expo Pavilion icon | Bjarke Ingels Group" [ref=e503]
+          - generic [ref=e504]:
+            - heading "UAE International Horticultural Expo Pavilion" [level=3] [ref=e505]
+            - paragraph [ref=e506]: Doha, Qatar
+      - generic [ref=e509]:
+        - link "University of Kansas School of Architecture and Design image | Bjarke Ingels Group" [ref=e510] [cursor=pointer]:
+          - /url: /projects/university-of-kansas-school-of-architecture-and-design-18157
+          - generic [ref=e511]:
+            - img "University of Kansas School of Architecture and Design image | Bjarke Ingels Group"
+        - generic [ref=e512]:
+          - img "University of Kansas School of Architecture and Design icon | Bjarke Ingels Group" [ref=e514]
+          - generic [ref=e515]:
+            - heading "University of Kansas School of Architecture and Design" [level=3] [ref=e516]
+            - paragraph [ref=e517]: Lawrence, United States
+      - generic [ref=e520]:
+        - link "Museum for Paper Art image | Bjarke Ingels Group" [ref=e521] [cursor=pointer]:
+          - /url: /projects/museum-for-paper-art-19045
+          - generic [ref=e522]:
+            - img "Museum for Paper Art image | Bjarke Ingels Group"
+        - generic [ref=e523]:
+          - img "Museum for Paper Art icon | Bjarke Ingels Group" [ref=e525]
+          - generic [ref=e526]:
+            - heading "Museum for Paper Art" [level=3] [ref=e527]
+            - paragraph [ref=e528]: Jammerbugt, Denmark
+      - generic [ref=e531]:
+        - link "The Sail image | Bjarke Ingels Group" [ref=e532] [cursor=pointer]:
+          - /url: /projects/the-sail-22336
+          - generic [ref=e533]:
+            - img "The Sail image | Bjarke Ingels Group"
+        - generic [ref=e534]:
+          - img "The Sail icon | Bjarke Ingels Group" [ref=e536]
+          - generic [ref=e537]:
+            - heading "The Sail" [level=3] [ref=e538]
+            - paragraph [ref=e539]: Rouen, France
+      - generic [ref=e542]:
+        - link "National Juneteenth Museum image | Bjarke Ingels Group" [ref=e543] [cursor=pointer]:
+          - /url: /projects/national-juneteenth-museum-14119
+          - generic [ref=e544]:
+            - img "National Juneteenth Museum image | Bjarke Ingels Group"
+        - generic [ref=e545]:
+          - img "National Juneteenth Museum icon | Bjarke Ingels Group" [ref=e547]
+          - generic [ref=e548]:
+            - heading "National Juneteenth Museum" [level=3] [ref=e549]
+            - paragraph [ref=e550]: Fort Worth, United States
+      - generic [ref=e553]:
+        - link "Google Gradient Canopy image | Bjarke Ingels Group" [ref=e554] [cursor=pointer]:
+          - /url: /projects/google-gradient-canopy-16167
+          - generic [ref=e555]:
+            - img "Google Gradient Canopy image | Bjarke Ingels Group"
+        - generic [ref=e556]:
+          - img "Google Gradient Canopy icon | Bjarke Ingels Group" [ref=e558]
+          - generic [ref=e559]:
+            - heading "Google Gradient Canopy" [level=3] [ref=e560]
+            - paragraph [ref=e561]: Mountain View, United States
+      - generic [ref=e564]:
+        - link "Freedom Plaza image | Bjarke Ingels Group" [ref=e565] [cursor=pointer]:
+          - /url: /projects/freedom-plaza-17183
+          - generic [ref=e566]:
+            - img "Freedom Plaza image | Bjarke Ingels Group"
+        - generic [ref=e567]:
+          - img "Freedom Plaza icon | Bjarke Ingels Group" [ref=e569]
+          - generic [ref=e570]:
+            - heading "Freedom Plaza" [level=3] [ref=e571]
+            - paragraph [ref=e572]: New York, United States
+      - generic [ref=e575]:
+        - link "CODEX image | Bjarke Ingels Group" [ref=e576] [cursor=pointer]:
+          - /url: /projects/codex-17767
+          - generic [ref=e577]:
+            - img "CODEX image | Bjarke Ingels Group"
+        - generic [ref=e578]:
+          - img "CODEX icon | Bjarke Ingels Group" [ref=e580]
+          - generic [ref=e581]:
+            - heading "CODEX" [level=3] [ref=e582]
+            - paragraph [ref=e583]: ","
+      - generic [ref=e586]:
+        - link "Central America Private Residence image | Bjarke Ingels Group" [ref=e587] [cursor=pointer]:
+          - /url: /projects/south-america-private-residence-17442
+          - generic [ref=e588]:
+            - img "Central America Private Residence image | Bjarke Ingels Group"
+        - generic [ref=e589]:
+          - img "Central America Private Residence icon | Bjarke Ingels Group" [ref=e591]
+          - generic [ref=e592]:
+            - heading "Central America Private Residence" [level=3] [ref=e593]
+            - paragraph [ref=e594]: ","
+      - generic [ref=e597]:
+        - link "The Heights School image | Bjarke Ingels Group" [ref=e598] [cursor=pointer]:
+          - /url: /projects/the-heights-school-3104
+          - generic [ref=e599]:
+            - img "The Heights School image | Bjarke Ingels Group"
+        - generic [ref=e600]:
+          - img "The Heights School icon | Bjarke Ingels Group" [ref=e602]
+          - generic [ref=e603]:
+            - heading "The Heights School" [level=3] [ref=e604]
+            - paragraph [ref=e605]: Arlington, United States
+      - generic [ref=e608]:
+        - link "National Museum of the United States Navy image | Bjarke Ingels Group" [ref=e609] [cursor=pointer]:
+          - /url: /projects/national-museum-of-the-united-states-navy-15359
+          - generic [ref=e610]:
+            - img "National Museum of the United States Navy image | Bjarke Ingels Group"
+        - generic [ref=e611]:
+          - img "National Museum of the United States Navy icon | Bjarke Ingels Group" [ref=e613]
+          - generic [ref=e614]:
+            - heading "National Museum of the United States Navy" [level=3] [ref=e615]
+            - paragraph [ref=e616]: Washington D.C., United States
+      - generic [ref=e619]:
+        - link "VLTAVA Philharmonic Prague image | Bjarke Ingels Group" [ref=e620] [cursor=pointer]:
+          - /url: /projects/vltava-philharmonic-prague-4340
+          - generic [ref=e621]:
+            - img "VLTAVA Philharmonic Prague image | Bjarke Ingels Group"
+        - generic [ref=e622]:
+          - img "VLTAVA Philharmonic Prague icon | Bjarke Ingels Group" [ref=e624]
+          - generic [ref=e625]:
+            - heading "VLTAVA Philharmonic Prague" [level=3] [ref=e626]
+            - paragraph [ref=e627]: Prague, Czech Republic
+      - generic [ref=e630]:
+        - link "BIG BCN Office image | Bjarke Ingels Group" [ref=e631] [cursor=pointer]:
+          - /url: /projects/big-bcn-office-14835
+          - generic [ref=e632]:
+            - img "BIG BCN Office image | Bjarke Ingels Group"
+        - generic [ref=e633]:
+          - img "BIG BCN Office icon | Bjarke Ingels Group" [ref=e635]
+          - generic [ref=e636]:
+            - heading "BIG BCN Office" [level=3] [ref=e637]
+            - paragraph [ref=e638]: Barcelona, Spain
+      - generic [ref=e641]:
+        - link "Vollebak Island image | Bjarke Ingels Group" [ref=e642] [cursor=pointer]:
+          - /url: /projects/vollebak-island-15585
+          - generic [ref=e643]:
+            - img "Vollebak Island image | Bjarke Ingels Group"
+        - generic [ref=e644]:
+          - img "Vollebak Island icon | Bjarke Ingels Group" [ref=e646]
+          - generic [ref=e647]:
+            - heading "Vollebak Island" [level=3] [ref=e648]
+            - paragraph [ref=e649]: Vollebak Island, Canada
+      - generic [ref=e652]:
+        - link "BIG L.A. OFFICE image | Bjarke Ingels Group" [ref=e653] [cursor=pointer]:
+          - /url: /projects/big-la-office-18477
+          - generic [ref=e654]:
+            - img "BIG L.A. OFFICE image | Bjarke Ingels Group"
+        - generic [ref=e655]:
+          - img "BIG L.A. OFFICE icon | Bjarke Ingels Group" [ref=e657]
+          - generic [ref=e658]:
+            - heading "BIG L.A. OFFICE" [level=3] [ref=e659]
+            - paragraph [ref=e660]: Los Angeles, United States
+      - generic [ref=e663]:
+        - link "Aarhus Harbor Masterplan image | Bjarke Ingels Group" [ref=e664] [cursor=pointer]:
+          - /url: /projects/aarhus-harbor-masterplan-2828
+          - generic [ref=e665]:
+            - img "Aarhus Harbor Masterplan image | Bjarke Ingels Group"
+        - generic [ref=e666]:
+          - img "Aarhus Harbor Masterplan icon | Bjarke Ingels Group" [ref=e668]
+          - generic [ref=e669]:
+            - heading "Aarhus Harbor Masterplan" [level=3] [ref=e670]
+            - paragraph [ref=e671]: Aarhus, Denmark
+      - generic [ref=e674]:
+        - link "CapitaSpring image | Bjarke Ingels Group" [ref=e675] [cursor=pointer]:
+          - /url: /projects/capitaspring-4630
+          - generic [ref=e676]:
+            - img "CapitaSpring image | Bjarke Ingels Group"
+        - generic [ref=e677]:
+          - img "CapitaSpring icon | Bjarke Ingels Group" [ref=e679]
+          - generic [ref=e680]:
+            - heading "CapitaSpring" [level=3] [ref=e681]
+            - paragraph [ref=e682]: Singapore, Singapore
+      - generic [ref=e685]:
+        - link "Houseboat Bukken Bruse image | Bjarke Ingels Group" [ref=e686] [cursor=pointer]:
+          - /url: /projects/houseboat-bukken-bruse-19666
+          - generic [ref=e687]:
+            - img "Houseboat Bukken Bruse image | Bjarke Ingels Group"
+        - generic [ref=e688]:
+          - img "Houseboat Bukken Bruse icon | Bjarke Ingels Group" [ref=e690]
+          - generic [ref=e691]:
+            - heading "Houseboat Bukken Bruse" [level=3] [ref=e692]
+            - paragraph [ref=e693]: Copenhagen, Denmark
+      - generic [ref=e696]:
+        - 'link "3daysofdesign: Materialism image | Bjarke Ingels Group" [ref=e697] [cursor=pointer]':
+          - /url: /projects/3daysofdesign-materialism-21964
+          - generic [ref=e698]:
+            - 'img "3daysofdesign: Materialism image | Bjarke Ingels Group"'
+        - generic [ref=e699]:
+          - 'img "3daysofdesign: Materialism icon | Bjarke Ingels Group" [ref=e701]'
+          - generic [ref=e702]:
+            - 'heading "3daysofdesign: Materialism" [level=3] [ref=e703]'
+            - paragraph [ref=e704]: Copenhagen, Denmark
+      - generic [ref=e707]:
+        - link "El Cosmico image | Bjarke Ingels Group" [ref=e708] [cursor=pointer]:
+          - /url: /projects/el-cosmico-15209
+          - generic [ref=e709]:
+            - img "El Cosmico image | Bjarke Ingels Group"
+        - generic [ref=e710]:
+          - img "El Cosmico icon | Bjarke Ingels Group" [ref=e712]
+          - generic [ref=e713]:
+            - heading "El Cosmico" [level=3] [ref=e714]
+            - paragraph [ref=e715]: Marfa, United States
+      - generic [ref=e718]:
+        - link "Refugee Museum of Denmark image | Bjarke Ingels Group" [ref=e719] [cursor=pointer]:
+          - /url: /projects/denmarks-refugee-museum-4593
+          - generic [ref=e720]:
+            - img "Refugee Museum of Denmark image | Bjarke Ingels Group"
+        - generic [ref=e721]:
+          - img "Refugee Museum of Denmark icon | Bjarke Ingels Group" [ref=e723]
+          - generic [ref=e724]:
+            - heading "Refugee Museum of Denmark" [level=3] [ref=e725]
+            - paragraph [ref=e726]: Oksbøl, Denmark
+      - generic [ref=e729]:
+        - link "The Sphere image | Bjarke Ingels Group" [ref=e730] [cursor=pointer]:
+          - /url: /projects/the-sphere-17048
+          - generic [ref=e731]:
+            - img "The Sphere image | Bjarke Ingels Group"
+        - generic [ref=e732]:
+          - img "The Sphere icon | Bjarke Ingels Group" [ref=e734]
+          - generic [ref=e735]:
+            - heading "The Sphere" [level=3] [ref=e736]
+            - paragraph [ref=e737]: Copenhagen, Denmark
+      - generic [ref=e740]:
+        - link "205 Water Street image | Bjarke Ingels Group" [ref=e741] [cursor=pointer]:
+          - /url: /projects/205-water-street-20355
+          - generic [ref=e742]:
+            - img "205 Water Street image | Bjarke Ingels Group"
+        - generic [ref=e743]:
+          - img "205 Water Street icon | Bjarke Ingels Group" [ref=e745]
+          - generic [ref=e746]:
+            - heading "205 Water Street" [level=3] [ref=e747]
+            - paragraph [ref=e748]: Brooklyn, United States
+      - generic [ref=e751]:
+        - link "Qianhai Supertall Towers image | Bjarke Ingels Group" [ref=e752] [cursor=pointer]:
+          - /url: /projects/qianhai-prisma-towers-14924
+          - generic [ref=e753]:
+            - img "Qianhai Supertall Towers image | Bjarke Ingels Group"
+        - generic [ref=e754]:
+          - img "Qianhai Supertall Towers icon | Bjarke Ingels Group" [ref=e756]
+          - generic [ref=e757]:
+            - heading "Qianhai Supertall Towers" [level=3] [ref=e758]
+            - paragraph [ref=e759]: Shenzhen, China
+      - generic [ref=e762]:
+        - link "Reflaction image | Bjarke Ingels Group" [ref=e763] [cursor=pointer]:
+          - /url: /projects/reflaction-18147
+          - generic [ref=e764]:
+            - img "Reflaction image | Bjarke Ingels Group"
+        - generic [ref=e765]:
+          - img "Reflaction icon | Bjarke Ingels Group" [ref=e767]
+          - generic [ref=e768]:
+            - heading "Reflaction" [level=3] [ref=e769]
+            - paragraph [ref=e770]: Milan, Italy
+      - generic [ref=e773]:
+        - link "Ellinikon Park Rise image | Bjarke Ingels Group" [ref=e774] [cursor=pointer]:
+          - /url: /projects/ellinikon-park-rise-16186
+          - generic [ref=e775]:
+            - img "Ellinikon Park Rise image | Bjarke Ingels Group"
+        - generic [ref=e776]:
+          - img "Ellinikon Park Rise icon | Bjarke Ingels Group" [ref=e778]
+          - generic [ref=e779]:
+            - heading "Ellinikon Park Rise" [level=3] [ref=e780]
+            - paragraph [ref=e781]: Ellinikon, Greece
+      - generic [ref=e784]:
+        - link "AARhus Residences image | Bjarke Ingels Group" [ref=e785] [cursor=pointer]:
+          - /url: /projects/aarhus-residences-19789
+          - generic [ref=e786]:
+            - img "AARhus Residences image | Bjarke Ingels Group"
+        - generic [ref=e787]:
+          - img "AARhus Residences icon | Bjarke Ingels Group" [ref=e789]
+          - generic [ref=e790]:
+            - heading "AARhus Residences" [level=3] [ref=e791]
+            - paragraph [ref=e792]: Aarhus, Denmark
+      - generic [ref=e795]:
+        - link "Nawabari image | Bjarke Ingels Group" [ref=e796] [cursor=pointer]:
+          - /url: /projects/nawabari-16183
+          - generic [ref=e797]:
+            - img "Nawabari image | Bjarke Ingels Group"
+        - generic [ref=e798]:
+          - img "Nawabari icon | Bjarke Ingels Group" [ref=e800]
+          - generic [ref=e801]:
+            - heading "Nawabari" [level=3] [ref=e802]
+            - paragraph [ref=e803]: BoConcept
+      - generic [ref=e806]:
+        - link "Danish Maritime Museum image | Bjarke Ingels Group" [ref=e807] [cursor=pointer]:
+          - /url: /projects/danish-maritime-museum-1699
+          - generic [ref=e808]:
+            - img "Danish Maritime Museum image | Bjarke Ingels Group"
+        - generic [ref=e809]:
+          - img "Danish Maritime Museum icon | Bjarke Ingels Group" [ref=e811]
+          - generic [ref=e812]:
+            - heading "Danish Maritime Museum" [level=3] [ref=e813]
+            - paragraph [ref=e814]: Helsingør, Denmark
+      - generic [ref=e817]:
+        - link "Zurich Airport Building Dock A image | Bjarke Ingels Group" [ref=e818] [cursor=pointer]:
+          - /url: /projects/zurich-airport-building-dock-a-4224
+          - generic [ref=e819]:
+            - img "Zurich Airport Building Dock A image | Bjarke Ingels Group"
+        - generic [ref=e820]:
+          - img "Zurich Airport Building Dock A icon | Bjarke Ingels Group" [ref=e822]
+          - generic [ref=e823]:
+            - heading "Zurich Airport Building Dock A" [level=3] [ref=e824]
+            - paragraph [ref=e825]: Zurich, Switzerland
+      - generic [ref=e828]:
+        - link "Greenland National Gallery image | Bjarke Ingels Group" [ref=e829] [cursor=pointer]:
+          - /url: /projects/greenland-national-gallery-5645
+          - generic [ref=e830]:
+            - img "Greenland National Gallery image | Bjarke Ingels Group"
+        - generic [ref=e831]:
+          - img "Greenland National Gallery icon | Bjarke Ingels Group" [ref=e833]
+          - generic [ref=e834]:
+            - heading "Greenland National Gallery" [level=3] [ref=e835]
+            - paragraph [ref=e836]: Nuuk, Greenland
+      - generic [ref=e839]:
+        - link "Aqaba Port Terminal image | Bjarke Ingels Group" [ref=e840] [cursor=pointer]:
+          - /url: /projects/aqaba-port-terminal-14598
+          - generic [ref=e841]:
+            - img "Aqaba Port Terminal image | Bjarke Ingels Group"
+        - generic [ref=e842]:
+          - img "Aqaba Port Terminal icon | Bjarke Ingels Group" [ref=e844]
+          - generic [ref=e845]:
+            - heading "Aqaba Port Terminal" [level=3] [ref=e846]
+            - paragraph [ref=e847]: Aqaba, Jordan
+      - generic [ref=e850]:
+        - link "Villa Gug image | Bjarke Ingels Group" [ref=e851] [cursor=pointer]:
+          - /url: /projects/villa-gug-2994
+          - generic [ref=e852]:
+            - img "Villa Gug image | Bjarke Ingels Group"
+        - generic [ref=e853]:
+          - img "Villa Gug icon | Bjarke Ingels Group" [ref=e855]
+          - generic [ref=e856]:
+            - heading "Villa Gug" [level=3] [ref=e857]
+            - paragraph [ref=e858]: Aalborg, Denmark
+      - generic [ref=e861]:
+        - link "DÉCA image | Bjarke Ingels Group" [ref=e862] [cursor=pointer]:
+          - /url: /projects/deca-17148
+          - generic [ref=e863]:
+            - img "DÉCA image | Bjarke Ingels Group"
+        - generic [ref=e864]:
+          - img "DÉCA icon | Bjarke Ingels Group" [ref=e866]
+          - generic [ref=e867]:
+            - heading "DÉCA" [level=3] [ref=e868]
+            - paragraph [ref=e869]: ","
+      - generic [ref=e872]:
+        - link "IQON Residences image | Bjarke Ingels Group" [ref=e873] [cursor=pointer]:
+          - /url: /projects/iqon-residences-3687
+          - generic [ref=e874]:
+            - img "IQON Residences image | Bjarke Ingels Group"
+        - generic [ref=e875]:
+          - img "IQON Residences icon | Bjarke Ingels Group" [ref=e877]
+          - generic [ref=e878]:
+            - heading "IQON Residences" [level=3] [ref=e879]
+            - paragraph [ref=e880]: Quito, Ecuador
+      - generic [ref=e883]:
+        - link "Biosphere image | Bjarke Ingels Group" [ref=e884] [cursor=pointer]:
+          - /url: /projects/biosphere-4043
+          - generic [ref=e885]:
+            - img "Biosphere image | Bjarke Ingels Group"
+        - generic [ref=e886]:
+          - img "Biosphere icon | Bjarke Ingels Group" [ref=e888]
+          - generic [ref=e889]:
+            - heading "Biosphere" [level=3] [ref=e890]
+            - paragraph [ref=e891]: Harads, Sweden
+      - generic [ref=e894]:
+        - link "Dymak HQ image | Bjarke Ingels Group" [ref=e895] [cursor=pointer]:
+          - /url: /projects/dymak-hq-16408
+          - generic [ref=e896]:
+            - img "Dymak HQ image | Bjarke Ingels Group"
+        - generic [ref=e897]:
+          - img "Dymak HQ icon | Bjarke Ingels Group" [ref=e899]
+          - generic [ref=e900]:
+            - heading "Dymak HQ" [level=3] [ref=e901]
+            - paragraph [ref=e902]: Odense, Denmark
+      - generic [ref=e905]:
+        - link "Red Lion Court image | Bjarke Ingels Group" [ref=e906] [cursor=pointer]:
+          - /url: /projects/red-lion-court-15302
+          - generic [ref=e907]:
+            - img "Red Lion Court image | Bjarke Ingels Group"
+        - generic [ref=e908]:
+          - img "Red Lion Court icon | Bjarke Ingels Group" [ref=e910]
+          - generic [ref=e911]:
+            - heading "Red Lion Court" [level=3] [ref=e912]
+            - paragraph [ref=e913]: London, England
+      - generic [ref=e916]:
+        - link "ESET Campus image | Bjarke Ingels Group" [ref=e917] [cursor=pointer]:
+          - /url: /projects/eset-campus-4759
+          - generic [ref=e918]:
+            - img "ESET Campus image | Bjarke Ingels Group"
+        - generic [ref=e919]:
+          - img "ESET Campus icon | Bjarke Ingels Group" [ref=e921]
+          - generic [ref=e922]:
+            - heading "ESET Campus" [level=3] [ref=e923]
+            - paragraph [ref=e924]: Bratislava, Slovakia
+      - generic [ref=e927]:
+        - link "Stellar Nebula Lamps image | Bjarke Ingels Group" [ref=e928] [cursor=pointer]:
+          - /url: /projects/stellar-nebula-lamp-9375
+          - generic [ref=e929]:
+            - img "Stellar Nebula Lamps image | Bjarke Ingels Group"
+        - generic [ref=e930]:
+          - img "Stellar Nebula Lamps icon | Bjarke Ingels Group" [ref=e932]
+          - generic [ref=e933]:
+            - heading "Stellar Nebula Lamps" [level=3] [ref=e934]
+            - paragraph [ref=e935]: Artemide
+      - generic [ref=e938]:
+        - link "Västerås Travel Center image | Bjarke Ingels Group" [ref=e939] [cursor=pointer]:
+          - /url: /projects/vasteras-travel-center-4170
+          - generic [ref=e940]:
+            - img "Västerås Travel Center image | Bjarke Ingels Group"
+        - generic [ref=e941]:
+          - img "Västerås Travel Center icon | Bjarke Ingels Group" [ref=e943]
+          - generic [ref=e944]:
+            - heading "Västerås Travel Center" [level=3] [ref=e945]
+            - paragraph [ref=e946]: Västeras, Sweden
+      - generic [ref=e949]:
+        - link "Kampanilen image | Bjarke Ingels Group" [ref=e950] [cursor=pointer]:
+          - /url: /projects/kampanilen-14736
+          - generic [ref=e951]:
+            - img "Kampanilen image | Bjarke Ingels Group"
+        - generic [ref=e952]:
+          - img "Kampanilen icon | Bjarke Ingels Group" [ref=e954]
+          - generic [ref=e955]:
+            - heading "Kampanilen" [level=3] [ref=e956]
+            - paragraph [ref=e957]: Aarhus, Denmark
+      - generic [ref=e960]:
+        - link "Telus Sky image | Bjarke Ingels Group" [ref=e961] [cursor=pointer]:
+          - /url: /projects/telus-sky-4861
+          - generic [ref=e962]:
+            - img "Telus Sky image | Bjarke Ingels Group"
+        - generic [ref=e963]:
+          - img "Telus Sky icon | Bjarke Ingels Group" [ref=e965]
+          - generic [ref=e966]:
+            - heading "Telus Sky" [level=3] [ref=e967]
+            - paragraph [ref=e968]: Calgary, Canada
+      - generic [ref=e971]:
+        - link "Oakland A's Ballpark & Masterplan image | Bjarke Ingels Group" [ref=e972] [cursor=pointer]:
+          - /url: /projects/oakland-as-ballpark-masterplan-12719
+          - generic [ref=e973]:
+            - img "Oakland A's Ballpark & Masterplan image | Bjarke Ingels Group"
+        - generic [ref=e974]:
+          - img "Oakland A's Ballpark & Masterplan icon | Bjarke Ingels Group" [ref=e976]
+          - generic [ref=e977]:
+            - heading "Oakland A's Ballpark & Masterplan" [level=3] [ref=e978]
+            - paragraph [ref=e979]: Oakland, United States
+      - generic [ref=e982]:
+        - link "Superkilen image | Bjarke Ingels Group" [ref=e983] [cursor=pointer]:
+          - /url: /projects/superkilen-1621
+          - generic [ref=e984]:
+            - img "Superkilen image | Bjarke Ingels Group"
+        - generic [ref=e985]:
+          - img "Superkilen icon | Bjarke Ingels Group" [ref=e987]
+          - generic [ref=e988]:
+            - heading "Superkilen" [level=3] [ref=e989]
+            - paragraph [ref=e990]: Copenhagen, Denmark
+      - generic [ref=e993]:
+        - link "The Mountain image | Bjarke Ingels Group" [ref=e994] [cursor=pointer]:
+          - /url: /projects/the-mountain-1430
+          - generic [ref=e995]:
+            - img "The Mountain image | Bjarke Ingels Group"
+        - generic [ref=e996]:
+          - img "The Mountain icon | Bjarke Ingels Group" [ref=e998]
+          - generic [ref=e999]:
+            - heading "The Mountain" [level=3] [ref=e1000]
+            - paragraph [ref=e1001]: Copenhagen, Denmark
+      - generic [ref=e1004]:
+        - link "Education Esbjerg image | Bjarke Ingels Group" [ref=e1005] [cursor=pointer]:
+          - /url: /projects/education-esbjerg-12538
+          - generic [ref=e1006]:
+            - img "Education Esbjerg image | Bjarke Ingels Group"
+        - generic [ref=e1007]:
+          - img "Education Esbjerg icon | Bjarke Ingels Group" [ref=e1009]
+          - generic [ref=e1010]:
+            - heading "Education Esbjerg" [level=3] [ref=e1011]
+            - paragraph [ref=e1012]: Esbjerg, Denmark
+      - generic [ref=e1015]:
+        - link "120 Fleet Street image | Bjarke Ingels Group" [ref=e1016] [cursor=pointer]:
+          - /url: /projects/120-fleet-street-4790
+          - generic [ref=e1017]:
+            - img "120 Fleet Street image | Bjarke Ingels Group"
+        - generic [ref=e1018]:
+          - img "120 Fleet Street icon | Bjarke Ingels Group" [ref=e1020]
+          - generic [ref=e1021]:
+            - heading "120 Fleet Street" [level=3] [ref=e1022]
+            - paragraph [ref=e1023]: London, England
+      - generic [ref=e1026]:
+        - link "Vancouver House image | Bjarke Ingels Group" [ref=e1027] [cursor=pointer]:
+          - /url: /projects/vancouver-house-missing-pictures-7130
+          - generic [ref=e1028]:
+            - img "Vancouver House image | Bjarke Ingels Group"
+        - generic [ref=e1029]:
+          - img "Vancouver House icon | Bjarke Ingels Group" [ref=e1031]
+          - generic [ref=e1032]:
+            - heading "Vancouver House" [level=3] [ref=e1033]
+            - paragraph [ref=e1034]: Vancouver, Canada
+      - generic [ref=e1037]:
+        - link "Tirpitz Museum image | Bjarke Ingels Group" [ref=e1038] [cursor=pointer]:
+          - /url: /projects/tirpitz-museum-2640
+          - generic [ref=e1039]:
+            - img "Tirpitz Museum image | Bjarke Ingels Group"
+        - generic [ref=e1040]:
+          - img "Tirpitz Museum icon | Bjarke Ingels Group" [ref=e1042]
+          - generic [ref=e1043]:
+            - heading "Tirpitz Museum" [level=3] [ref=e1044]
+            - paragraph [ref=e1045]: Blavand, Denmark
+      - generic [ref=e1048]:
+        - link "Sneglehusene Residences image | Bjarke Ingels Group" [ref=e1049] [cursor=pointer]:
+          - /url: /projects/sneglehusene-12338
+          - generic [ref=e1050]:
+            - img "Sneglehusene Residences image | Bjarke Ingels Group"
+        - generic [ref=e1051]:
+          - img "Sneglehusene Residences icon | Bjarke Ingels Group" [ref=e1053]
+          - generic [ref=e1054]:
+            - heading "Sneglehusene Residences" [level=3] [ref=e1055]
+            - paragraph [ref=e1056]: Aarhus, Denmark
+      - generic [ref=e1059]:
+        - link "La Linea Lamps image | Bjarke Ingels Group" [ref=e1060] [cursor=pointer]:
+          - /url: /projects/artemide-la-linea-8205
+          - generic [ref=e1061]:
+            - img "La Linea Lamps image | Bjarke Ingels Group"
+        - generic [ref=e1062]:
+          - img "La Linea Lamps icon | Bjarke Ingels Group" [ref=e1064]
+          - generic [ref=e1065]:
+            - heading "La Linea Lamps" [level=3] [ref=e1066]
+            - paragraph [ref=e1067]: Artemide
+      - generic [ref=e1070]:
+        - link "Kaktus Towers image | Bjarke Ingels Group" [ref=e1071] [cursor=pointer]:
+          - /url: /projects/kaktus-towers-10789
+          - generic [ref=e1072]:
+            - img "Kaktus Towers image | Bjarke Ingels Group"
+        - generic [ref=e1073]:
+          - img "Kaktus Towers icon | Bjarke Ingels Group" [ref=e1075]
+          - generic [ref=e1076]:
+            - heading "Kaktus Towers" [level=3] [ref=e1077]
+            - paragraph [ref=e1078]: Copenhagen, Denmark
+      - generic [ref=e1081]:
+        - link "Mars Dune Alpha image | Bjarke Ingels Group" [ref=e1082] [cursor=pointer]:
+          - /url: /projects/mars-chapea-4310
+          - generic [ref=e1083]:
+            - img "Mars Dune Alpha image | Bjarke Ingels Group"
+        - generic [ref=e1084]:
+          - img "Mars Dune Alpha icon | Bjarke Ingels Group" [ref=e1086]
+          - generic [ref=e1087]:
+            - heading "Mars Dune Alpha" [level=3] [ref=e1088]
+            - paragraph [ref=e1089]: Houston, United States
+      - generic [ref=e1092]:
+        - link "MÉCA image | Bjarke Ingels Group" [ref=e1093] [cursor=pointer]:
+          - /url: /projects/meca-2599
+          - generic [ref=e1094]:
+            - img "MÉCA image | Bjarke Ingels Group"
+        - generic [ref=e1095]:
+          - img "MÉCA icon | Bjarke Ingels Group" [ref=e1097]
+          - generic [ref=e1098]:
+            - heading "MÉCA" [level=3] [ref=e1099]
+            - paragraph [ref=e1100]: Bordeaux, France
+      - generic [ref=e1103]:
+        - link "VM Houses image | Bjarke Ingels Group" [ref=e1104] [cursor=pointer]:
+          - /url: /projects/vm-houses-2181
+          - generic [ref=e1105]:
+            - img "VM Houses image | Bjarke Ingels Group"
+        - generic [ref=e1106]:
+          - img "VM Houses icon | Bjarke Ingels Group" [ref=e1108]
+          - generic [ref=e1109]:
+            - heading "VM Houses" [level=3] [ref=e1110]
+            - paragraph [ref=e1111]: Copenhagen, Denmark
+      - generic [ref=e1114]:
+        - link "Glasir image | Bjarke Ingels Group" [ref=e1115] [cursor=pointer]:
+          - /url: /projects/glasir-1487
+          - generic [ref=e1116]:
+            - img "Glasir image | Bjarke Ingels Group"
+        - generic [ref=e1117]:
+          - img "Glasir icon | Bjarke Ingels Group" [ref=e1119]
+          - generic [ref=e1120]:
+            - heading "Glasir" [level=3] [ref=e1121]
+            - paragraph [ref=e1122]: Tórshavn, Faroe Islands
+      - generic [ref=e1125]:
+        - link "NABR image | Bjarke Ingels Group" [ref=e1126] [cursor=pointer]:
+          - /url: /projects/nabr-7528
+          - generic [ref=e1127]:
+            - img "NABR image | Bjarke Ingels Group"
+        - generic [ref=e1128]:
+          - img "NABR icon | Bjarke Ingels Group" [ref=e1130]
+          - generic [ref=e1131]:
+            - heading "NABR" [level=3] [ref=e1132]
+            - paragraph [ref=e1133]: San Jose, United States
+      - generic [ref=e1136]:
+        - link "8 House image | Bjarke Ingels Group" [ref=e1137] [cursor=pointer]:
+          - /url: /projects/8-house-2021
+          - generic [ref=e1138]:
+            - img "8 House image | Bjarke Ingels Group"
+        - generic [ref=e1139]:
+          - img "8 House icon | Bjarke Ingels Group" [ref=e1141]
+          - generic [ref=e1142]:
+            - heading "8 House" [level=3] [ref=e1143]
+            - paragraph [ref=e1144]: Copenhagen, Denmark
+      - generic [ref=e1147]:
+        - link "Urban Rigger image | Bjarke Ingels Group" [ref=e1148] [cursor=pointer]:
+          - /url: /projects/urban-rigger-3021
+          - generic [ref=e1149]:
+            - img "Urban Rigger image | Bjarke Ingels Group"
+        - generic [ref=e1150]:
+          - img "Urban Rigger icon | Bjarke Ingels Group" [ref=e1152]
+          - generic [ref=e1153]:
+            - heading "Urban Rigger" [level=3] [ref=e1154]
+            - paragraph [ref=e1155]: Copenhagen, Denmark
+      - generic [ref=e1158]:
+        - link "Sluishuis Residences image | Bjarke Ingels Group" [ref=e1159] [cursor=pointer]:
+          - /url: /projects/sluishuis-residences-missing-pictures-7293
+          - generic [ref=e1160]:
+            - img "Sluishuis Residences image | Bjarke Ingels Group"
+        - generic [ref=e1161]:
+          - img "Sluishuis Residences icon | Bjarke Ingels Group" [ref=e1163]
+          - generic [ref=e1164]:
+            - heading "Sluishuis Residences" [level=3] [ref=e1165]
+            - paragraph [ref=e1166]: Amsterdam, Netherlands
+      - generic [ref=e1169]:
+        - link "Washington Football Stadium image | Bjarke Ingels Group" [ref=e1170] [cursor=pointer]:
+          - /url: /projects/washington-football-stadium-6043
+          - generic [ref=e1171]:
+            - img "Washington Football Stadium image | Bjarke Ingels Group"
+        - generic [ref=e1172]:
+          - img "Washington Football Stadium icon | Bjarke Ingels Group" [ref=e1174]
+          - generic [ref=e1175]:
+            - heading "Washington Football Stadium" [level=3] [ref=e1176]
+            - paragraph [ref=e1177]: Washington, United States
+      - generic [ref=e1180]:
+        - link "Panda House image | Bjarke Ingels Group" [ref=e1181] [cursor=pointer]:
+          - /url: /projects/panda-house-3309
+          - generic [ref=e1182]:
+            - img "Panda House image | Bjarke Ingels Group"
+        - generic [ref=e1183]:
+          - img "Panda House icon | Bjarke Ingels Group" [ref=e1185]
+          - generic [ref=e1186]:
+            - heading "Panda House" [level=3] [ref=e1187]
+            - paragraph [ref=e1188]: Copenhagen, Denmark
+      - generic [ref=e1191]:
+        - link "The Smile image | Bjarke Ingels Group" [ref=e1192] [cursor=pointer]:
+          - /url: /projects/the-smile-residences-2956
+          - generic [ref=e1193]:
+            - img "The Smile image | Bjarke Ingels Group"
+        - generic [ref=e1194]:
+          - img "The Smile icon | Bjarke Ingels Group" [ref=e1196]
+          - generic [ref=e1197]:
+            - heading "The Smile" [level=3] [ref=e1198]
+            - paragraph [ref=e1199]: New York, United States
+      - generic [ref=e1202]:
+        - link "NASA Olympus image | Bjarke Ingels Group" [ref=e1203] [cursor=pointer]:
+          - /url: /projects/nasa-olympus-7493
+          - generic [ref=e1204]:
+            - img "NASA Olympus image | Bjarke Ingels Group"
+        - generic [ref=e1205]:
+          - img "NASA Olympus icon | Bjarke Ingels Group" [ref=e1207]
+          - generic [ref=e1208]:
+            - heading "NASA Olympus" [level=3] [ref=e1209]
+            - paragraph [ref=e1210]: Lunar South Pole, The Moon
+      - generic [ref=e1213]:
+        - link "Oceanix Busan image | Bjarke Ingels Group" [ref=e1214] [cursor=pointer]:
+          - /url: /projects/oceanix-busan-4711
+          - generic [ref=e1215]:
+            - img "Oceanix Busan image | Bjarke Ingels Group"
+        - generic [ref=e1216]:
+          - img "Oceanix Busan icon | Bjarke Ingels Group" [ref=e1218]
+          - generic [ref=e1219]:
+            - heading "Oceanix Busan" [level=3] [ref=e1220]
+            - paragraph [ref=e1221]: Busan, South Korea
+      - generic [ref=e1224]:
+        - link "Galeries Lafayette Champs Elysees image | Bjarke Ingels Group" [ref=e1225] [cursor=pointer]:
+          - /url: /projects/galeries-lafayette-champs-elysees-3262
+          - generic [ref=e1226]:
+            - img "Galeries Lafayette Champs Elysees image | Bjarke Ingels Group"
+        - generic [ref=e1227]:
+          - img "Galeries Lafayette Champs Elysees icon | Bjarke Ingels Group" [ref=e1229]
+          - generic [ref=e1230]:
+            - heading "Galeries Lafayette Champs Elysees" [level=3] [ref=e1231]
+            - paragraph [ref=e1232]: Paris, France
+      - generic [ref=e1235]:
+        - link "Shenzhen Energy Mansion HQ image | Bjarke Ingels Group" [ref=e1236] [cursor=pointer]:
+          - /url: /projects/shenzhen-energy-mansion-hq-2314
+          - generic [ref=e1237]:
+            - img "Shenzhen Energy Mansion HQ image | Bjarke Ingels Group"
+        - generic [ref=e1238]:
+          - img "Shenzhen Energy Mansion HQ icon | Bjarke Ingels Group" [ref=e1240]
+          - generic [ref=e1241]:
+            - heading "Shenzhen Energy Mansion HQ" [level=3] [ref=e1242]
+            - paragraph [ref=e1243]: Shenzhen, China
+      - generic [ref=e1246]:
+        - link "The Grove at Grand Bay image | Bjarke Ingels Group" [ref=e1247] [cursor=pointer]:
+          - /url: /projects/the-grove-at-grand-bay-2696
+          - generic [ref=e1248]:
+            - img "The Grove at Grand Bay image | Bjarke Ingels Group"
+        - generic [ref=e1249]:
+          - img "The Grove at Grand Bay icon | Bjarke Ingels Group" [ref=e1251]
+          - generic [ref=e1252]:
+            - heading "The Grove at Grand Bay" [level=3] [ref=e1253]
+            - paragraph [ref=e1254]: Miami, United States
+      - generic [ref=e1257]:
+        - link "79 & Park Residences image | Bjarke Ingels Group" [ref=e1258] [cursor=pointer]:
+          - /url: /projects/79-park-residences-2557
+          - generic [ref=e1259]:
+            - img "79 & Park Residences image | Bjarke Ingels Group"
+        - generic [ref=e1260]:
+          - img "79 & Park Residences icon | Bjarke Ingels Group" [ref=e1262]
+          - generic [ref=e1263]:
+            - heading "79 & Park Residences" [level=3] [ref=e1264]
+            - paragraph [ref=e1265]: Stockholm, Sweden
+      - generic [ref=e1268]:
+        - link "Danish Pavilion Shanghai Expo image | Bjarke Ingels Group" [ref=e1269] [cursor=pointer]:
+          - /url: /projects/danish-pavilion-shanghai-expo-2143
+          - generic [ref=e1270]:
+            - img "Danish Pavilion Shanghai Expo image | Bjarke Ingels Group"
+        - generic [ref=e1271]:
+          - img "Danish Pavilion Shanghai Expo icon | Bjarke Ingels Group" [ref=e1273]
+          - generic [ref=e1274]:
+            - heading "Danish Pavilion Shanghai Expo" [level=3] [ref=e1275]
+            - paragraph [ref=e1276]: Shanghai, China
+      - generic [ref=e1279]:
+        - link "WeGrow NYC image | Bjarke Ingels Group" [ref=e1280] [cursor=pointer]:
+          - /url: /projects/wegrow-nyc-6255
+          - generic [ref=e1281]:
+            - img "WeGrow NYC image | Bjarke Ingels Group"
+        - generic [ref=e1282]:
+          - img "WeGrow NYC icon | Bjarke Ingels Group" [ref=e1284]
+          - generic [ref=e1285]:
+            - heading "WeGrow NYC" [level=3] [ref=e1286]
+            - paragraph [ref=e1287]: New York, United States
+      - generic [ref=e1290]:
+        - link "Wildflower Film Studios Astoria image | Bjarke Ingels Group" [ref=e1291] [cursor=pointer]:
+          - /url: /projects/wildflower-film-studios-astoria-4006
+          - generic [ref=e1292]:
+            - img "Wildflower Film Studios Astoria image | Bjarke Ingels Group"
+        - generic [ref=e1293]:
+          - img "Wildflower Film Studios Astoria icon | Bjarke Ingels Group" [ref=e1295]
+          - generic [ref=e1296]:
+            - heading "Wildflower Film Studios Astoria" [level=3] [ref=e1297]
+            - paragraph [ref=e1298]: New York, United States
+      - generic [ref=e1301]:
+        - link "Google Platform 37 image | Bjarke Ingels Group" [ref=e1302] [cursor=pointer]:
+          - /url: /projects/google-platform-37-3347
+          - generic [ref=e1303]:
+            - img "Google Platform 37 image | Bjarke Ingels Group"
+        - generic [ref=e1304]:
+          - img "Google Platform 37 icon | Bjarke Ingels Group" [ref=e1306]
+          - generic [ref=e1307]:
+            - heading "Google Platform 37" [level=3] [ref=e1308]
+            - paragraph [ref=e1309]: London, England
+      - generic [ref=e1312]:
+        - link "Skum Vase image | Bjarke Ingels Group" [ref=e1313] [cursor=pointer]:
+          - /url: /projects/skum-vase-8456
+          - generic [ref=e1314]:
+            - img "Skum Vase image | Bjarke Ingels Group"
+        - generic [ref=e1315]:
+          - img "Skum Vase icon | Bjarke Ingels Group" [ref=e1317]
+          - generic [ref=e1318]:
+            - heading "Skum Vase" [level=3] [ref=e1319]
+            - paragraph [ref=e1320]: Rosenthal
+      - generic [ref=e1323]:
+        - link "Danish Neuroscience Center image | Bjarke Ingels Group" [ref=e1324] [cursor=pointer]:
+          - /url: /projects/dansk-neuroforsknings-center-4121
+          - generic [ref=e1325]:
+            - img "Danish Neuroscience Center image | Bjarke Ingels Group"
+        - generic [ref=e1326]:
+          - img "Danish Neuroscience Center icon | Bjarke Ingels Group" [ref=e1328]
+          - generic [ref=e1329]:
+            - heading "Danish Neuroscience Center" [level=3] [ref=e1330]
+            - paragraph [ref=e1331]: Aarhus, Denmark
+      - generic [ref=e1334]:
+        - link "Hyperloop Certification Center image | Bjarke Ingels Group" [ref=e1335] [cursor=pointer]:
+          - /url: /projects/hyperloop-certification-center-7471
+          - generic [ref=e1336]:
+            - img "Hyperloop Certification Center image | Bjarke Ingels Group"
+        - generic [ref=e1337]:
+          - img "Hyperloop Certification Center icon | Bjarke Ingels Group" [ref=e1339]
+          - generic [ref=e1340]:
+            - heading "Hyperloop Certification Center" [level=3] [ref=e1341]
+            - paragraph [ref=e1342]: Tucker and Grant Counties, United States
+      - generic [ref=e1345]:
+        - link "King Toronto Residences image | Bjarke Ingels Group" [ref=e1346] [cursor=pointer]:
+          - /url: /projects/king-toronto-residences-3396
+          - generic [ref=e1347]:
+            - img "King Toronto Residences image | Bjarke Ingels Group"
+        - generic [ref=e1348]:
+          - img "King Toronto Residences icon | Bjarke Ingels Group" [ref=e1350]
+          - generic [ref=e1351]:
+            - heading "King Toronto Residences" [level=3] [ref=e1352]
+            - paragraph [ref=e1353]: Toronto, Canada
+      - generic [ref=e1356]:
+        - link "Gammel Hellerup Gymnasium image | Bjarke Ingels Group" [ref=e1357] [cursor=pointer]:
+          - /url: /projects/gammel-hellerup-gymnasium-2271
+          - generic [ref=e1358]:
+            - img "Gammel Hellerup Gymnasium image | Bjarke Ingels Group"
+        - generic [ref=e1359]:
+          - img "Gammel Hellerup Gymnasium icon | Bjarke Ingels Group" [ref=e1361]
+          - generic [ref=e1362]:
+            - heading "Gammel Hellerup Gymnasium" [level=3] [ref=e1363]
+            - paragraph [ref=e1364]: Hellerup, Denmark
+      - generic [ref=e1367]:
+        - link "Ibervalles Hotel image | Bjarke Ingels Group" [ref=e1368] [cursor=pointer]:
+          - /url: /projects/ibervalles-hotel-22948
+          - generic [ref=e1369]:
+            - img "Ibervalles Hotel image | Bjarke Ingels Group"
+        - generic [ref=e1370]:
+          - img "Ibervalles Hotel icon | Bjarke Ingels Group" [ref=e1372]
+          - generic [ref=e1373]:
+            - heading "Ibervalles Hotel" [level=3] [ref=e1374]
+            - paragraph [ref=e1375]: Madrid, Spain
+      - generic [ref=e1378]:
+        - link "Serpentine Pavilion image | Bjarke Ingels Group" [ref=e1379] [cursor=pointer]:
+          - /url: /projects/serpentine-pavilion-7216
+          - generic [ref=e1380]:
+            - img "Serpentine Pavilion image | Bjarke Ingels Group"
+        - generic [ref=e1381]:
+          - img "Serpentine Pavilion icon | Bjarke Ingels Group" [ref=e1383]
+          - generic [ref=e1384]:
+            - heading "Serpentine Pavilion" [level=3] [ref=e1385]
+            - paragraph [ref=e1386]: London, England
+      - generic [ref=e1389]:
+        - link "Transitlager Dreispitz image | Bjarke Ingels Group" [ref=e1390] [cursor=pointer]:
+          - /url: /projects/transitlager-dreispitz-2478
+          - generic [ref=e1391]:
+            - img "Transitlager Dreispitz image | Bjarke Ingels Group"
+        - generic [ref=e1392]:
+          - img "Transitlager Dreispitz icon | Bjarke Ingels Group" [ref=e1394]
+          - generic [ref=e1395]:
+            - heading "Transitlager Dreispitz" [level=3] [ref=e1396]
+            - paragraph [ref=e1397]: Basel, Switzerland
+      - generic [ref=e1400]:
+        - link "Suitsupply HQ image | Bjarke Ingels Group" [ref=e1401] [cursor=pointer]:
+          - /url: /projects/suitsupply-hq-3572
+          - generic [ref=e1402]:
+            - img "Suitsupply HQ image | Bjarke Ingels Group"
+        - generic [ref=e1403]:
+          - img "Suitsupply HQ icon | Bjarke Ingels Group" [ref=e1405]
+          - generic [ref=e1406]:
+            - heading "Suitsupply HQ" [level=3] [ref=e1407]
+            - paragraph [ref=e1408]: Amsterdam, Netherlands
+      - generic [ref=e1411]:
+        - link "Dortheavej 2 Residences image | Bjarke Ingels Group" [ref=e1412] [cursor=pointer]:
+          - /url: /projects/dortheavej-2-residences-2442
+          - generic [ref=e1413]:
+            - img "Dortheavej 2 Residences image | Bjarke Ingels Group"
+        - generic [ref=e1414]:
+          - img "Dortheavej 2 Residences icon | Bjarke Ingels Group" [ref=e1416]
+          - generic [ref=e1417]:
+            - heading "Dortheavej 2 Residences" [level=3] [ref=e1418]
+            - paragraph [ref=e1419]: Copenhagen, Denmark
+      - generic [ref=e1422]:
+        - link "Downtown Brooklyn Public Realm image | Bjarke Ingels Group" [ref=e1423] [cursor=pointer]:
+          - /url: /projects/downtown-brooklyn-public-realm-6893
+          - generic [ref=e1424]:
+            - img "Downtown Brooklyn Public Realm image | Bjarke Ingels Group"
+        - generic [ref=e1425]:
+          - img "Downtown Brooklyn Public Realm icon | Bjarke Ingels Group" [ref=e1427]
+          - generic [ref=e1428]:
+            - heading "Downtown Brooklyn Public Realm" [level=3] [ref=e1429]
+            - paragraph [ref=e1430]: New York, United States
+      - generic [ref=e1433]:
+        - link "Omniturm image | Bjarke Ingels Group" [ref=e1434] [cursor=pointer]:
+          - /url: /projects/omniturm-tower-4529
+          - generic [ref=e1435]:
+            - img "Omniturm image | Bjarke Ingels Group"
+        - generic [ref=e1436]:
+          - img "Omniturm icon | Bjarke Ingels Group" [ref=e1438]
+          - generic [ref=e1439]:
+            - heading "Omniturm" [level=3] [ref=e1440]
+            - paragraph [ref=e1441]: Frankfurt, Germany
+      - generic [ref=e1444]:
+        - link "Copenhagen Harbor Bath image | Bjarke Ingels Group" [ref=e1445] [cursor=pointer]:
+          - /url: /projects/copenhagen-harbor-bath-1525
+          - generic [ref=e1446]:
+            - img "Copenhagen Harbor Bath image | Bjarke Ingels Group"
+        - generic [ref=e1447]:
+          - img "Copenhagen Harbor Bath icon | Bjarke Ingels Group" [ref=e1449]
+          - generic [ref=e1450]:
+            - heading "Copenhagen Harbor Bath" [level=3] [ref=e1451]
+            - paragraph [ref=e1452]: Copenhagen, Denmark
+      - generic [ref=e1455]:
+        - link "Sjakket Youth Club image | Bjarke Ingels Group" [ref=e1456] [cursor=pointer]:
+          - /url: /projects/sjakket-youth-club-1375
+          - generic [ref=e1457]:
+            - img "Sjakket Youth Club image | Bjarke Ingels Group"
+        - generic [ref=e1458]:
+          - img "Sjakket Youth Club icon | Bjarke Ingels Group" [ref=e1460]
+          - generic [ref=e1461]:
+            - heading "Sjakket Youth Club" [level=3] [ref=e1462]
+            - paragraph [ref=e1463]: Copenhagen, Denmark
+      - generic [ref=e1466]:
+        - link "Union Hub image | Bjarke Ingels Group" [ref=e1467] [cursor=pointer]:
+          - /url: /projects/union-hub-6761
+          - generic [ref=e1468]:
+            - img "Union Hub image | Bjarke Ingels Group"
+        - generic [ref=e1469]:
+          - img "Union Hub icon | Bjarke Ingels Group" [ref=e1471]
+          - generic [ref=e1472]:
+            - heading "Union Hub" [level=3] [ref=e1473]
+            - paragraph [ref=e1474]: Toronto, Canada
+      - generic [ref=e1477]:
+        - link "Henning G. Kruses Plads image | Bjarke Ingels Group" [ref=e1478] [cursor=pointer]:
+          - /url: /projects/henning-g-kruses-plads-3889
+          - generic [ref=e1479]:
+            - img "Henning G. Kruses Plads image | Bjarke Ingels Group"
+        - generic [ref=e1480]:
+          - img "Henning G. Kruses Plads icon | Bjarke Ingels Group" [ref=e1482]
+          - generic [ref=e1483]:
+            - heading "Henning G. Kruses Plads" [level=3] [ref=e1484]
+            - paragraph [ref=e1485]: Esbjerg, Denmark
+      - generic [ref=e1488]:
+        - link "Brick Sofa image | Bjarke Ingels Group" [ref=e1489] [cursor=pointer]:
+          - /url: /projects/brick-sofa-8910
+          - generic [ref=e1490]:
+            - img "Brick Sofa image | Bjarke Ingels Group"
+        - generic [ref=e1491]:
+          - img "Brick Sofa icon | Bjarke Ingels Group" [ref=e1493]
+          - generic [ref=e1494]:
+            - heading "Brick Sofa" [level=3] [ref=e1495]
+            - paragraph [ref=e1496]: Jot.Jot
+      - generic [ref=e1499]:
+        - link "BiodiverCity Penang image | Bjarke Ingels Group" [ref=e1500] [cursor=pointer]:
+          - /url: /projects/biodivercity-penang-6542
+          - generic [ref=e1501]:
+            - img "BiodiverCity Penang image | Bjarke Ingels Group"
+        - generic [ref=e1502]:
+          - img "BiodiverCity Penang icon | Bjarke Ingels Group" [ref=e1504]
+          - generic [ref=e1505]:
+            - heading "BiodiverCity Penang" [level=3] [ref=e1506]
+            - paragraph [ref=e1507]: Penang, Malaysia
+      - generic [ref=e1510]:
+        - link "BQE to BQ-Park image | Bjarke Ingels Group" [ref=e1511] [cursor=pointer]:
+          - /url: /projects/bqe-to-bq-park-6976
+          - generic [ref=e1512]:
+            - img "BQE to BQ-Park image | Bjarke Ingels Group"
+        - generic [ref=e1513]:
+          - img "BQE to BQ-Park icon | Bjarke Ingels Group" [ref=e1515]
+          - generic [ref=e1516]:
+            - heading "BQE to BQ-Park" [level=3] [ref=e1517]
+            - paragraph [ref=e1518]: Brooklyn, United States
+      - generic [ref=e1521]:
+        - link "Brooklyn Bridge gallery image | Bjarke Ingels Group" [ref=e1522] [cursor=pointer]:
+          - /url: /projects/brooklyn-bridge-6570
+          - generic [ref=e1523]:
+            - img "Brooklyn Bridge gallery image | Bjarke Ingels Group"
+        - generic [ref=e1524]:
+          - img "Brooklyn Bridge icon | Bjarke Ingels Group" [ref=e1526]
+          - generic [ref=e1527]:
+            - heading "Brooklyn Bridge" [level=3] [ref=e1528]
+            - paragraph [ref=e1529]: Brooklyn, United States
+      - generic [ref=e1532]:
+        - link "Isenberg Innovation Hub image | Bjarke Ingels Group" [ref=e1533] [cursor=pointer]:
+          - /url: /projects/isenberg-innovation-hub-3466
+          - generic [ref=e1534]:
+            - img "Isenberg Innovation Hub image | Bjarke Ingels Group"
+        - generic [ref=e1535]:
+          - img "Isenberg Innovation Hub icon | Bjarke Ingels Group" [ref=e1537]
+          - generic [ref=e1538]:
+            - heading "Isenberg Innovation Hub" [level=3] [ref=e1539]
+            - paragraph [ref=e1540]: Amherst, United States
+      - generic [ref=e1543]:
+        - link "San Pellegrino Flagship Factory image | Bjarke Ingels Group" [ref=e1544] [cursor=pointer]:
+          - /url: /projects/san-pellegrino-flagship-factory-4908
+          - generic [ref=e1545]:
+            - img "San Pellegrino Flagship Factory image | Bjarke Ingels Group"
+        - generic [ref=e1546]:
+          - img "San Pellegrino Flagship Factory icon | Bjarke Ingels Group" [ref=e1548]
+          - generic [ref=e1549]:
+            - heading "San Pellegrino Flagship Factory" [level=3] [ref=e1550]
+            - paragraph [ref=e1551]: San Pellegrino Terme, Italy
+      - generic [ref=e1554]:
+        - link "Farfetch HQ & Fuse Valley image | Bjarke Ingels Group" [ref=e1555] [cursor=pointer]:
+          - /url: /projects/fuse-valley-3970
+          - generic [ref=e1556]:
+            - img "Farfetch HQ & Fuse Valley image | Bjarke Ingels Group"
+        - generic [ref=e1557]:
+          - img "Farfetch HQ & Fuse Valley icon | Bjarke Ingels Group" [ref=e1559]
+          - generic [ref=e1560]:
+            - heading "Farfetch HQ & Fuse Valley" [level=3] [ref=e1561]
+            - paragraph [ref=e1562]: Leça do Balio - Matosinhos, Portugal
+      - generic [ref=e1565]:
+        - link "Maritime Youth House image | Bjarke Ingels Group" [ref=e1566] [cursor=pointer]:
+          - /url: /projects/maritime-youth-house-2123
+          - generic [ref=e1567]:
+            - img "Maritime Youth House image | Bjarke Ingels Group"
+        - generic [ref=e1568]:
+          - img "Maritime Youth House icon | Bjarke Ingels Group" [ref=e1570]
+          - generic [ref=e1571]:
+            - heading "Maritime Youth House" [level=3] [ref=e1572]
+            - paragraph [ref=e1573]: Copenhagen, Denmark
+      - generic [ref=e1576]:
+        - link "Vejlevej 11 image | Bjarke Ingels Group" [ref=e1577] [cursor=pointer]:
+          - /url: /projects/vejlevej-11-7378
+          - generic [ref=e1578]:
+            - img "Vejlevej 11 image | Bjarke Ingels Group"
+        - generic [ref=e1579]:
+          - img "Vejlevej 11 icon | Bjarke Ingels Group" [ref=e1581]
+          - generic [ref=e1582]:
+            - heading "Vejlevej 11" [level=3] [ref=e1583]
+            - paragraph [ref=e1584]: Billund, Denmark
+      - generic [ref=e1587]:
+        - link "Marsk Tower image | Bjarke Ingels Group" [ref=e1588] [cursor=pointer]:
+          - /url: /projects/marsk-tower-4092
+          - generic [ref=e1589]:
+            - img "Marsk Tower image | Bjarke Ingels Group"
+        - generic [ref=e1590]:
+          - img "Marsk Tower icon | Bjarke Ingels Group" [ref=e1592]
+          - generic [ref=e1593]:
+            - heading "Marsk Tower" [level=3] [ref=e1594]
+            - paragraph [ref=e1595]: Skærbæk, Denmark
+      - generic [ref=e1598]:
+        - link "1200 Intrepid image | Bjarke Ingels Group" [ref=e1599] [cursor=pointer]:
+          - /url: /projects/1200-intrepid-2933
+          - generic [ref=e1600]:
+            - img "1200 Intrepid image | Bjarke Ingels Group"
+        - generic [ref=e1601]:
+          - img "1200 Intrepid icon | Bjarke Ingels Group" [ref=e1603]
+          - generic [ref=e1604]:
+            - heading "1200 Intrepid" [level=3] [ref=e1605]
+            - paragraph [ref=e1606]: Philadelphia, United States
+      - generic [ref=e1609]:
+        - link "River Ring image | Bjarke Ingels Group" [ref=e1610] [cursor=pointer]:
+          - /url: /projects/river-ring-masterplan-6462
+          - generic [ref=e1611]:
+            - img "River Ring image | Bjarke Ingels Group"
+        - generic [ref=e1612]:
+          - img "River Ring icon | Bjarke Ingels Group" [ref=e1614]
+          - generic [ref=e1615]:
+            - heading "River Ring" [level=3] [ref=e1616]
+            - paragraph [ref=e1617]: New York, United States
+      - generic [ref=e1620]:
+        - link "EPIQ Residences image | Bjarke Ingels Group" [ref=e1621] [cursor=pointer]:
+          - /url: /projects/epiq-residences-3797
+          - generic [ref=e1622]:
+            - img "EPIQ Residences image | Bjarke Ingels Group"
+        - generic [ref=e1623]:
+          - img "EPIQ Residences icon | Bjarke Ingels Group" [ref=e1625]
+          - generic [ref=e1626]:
+            - heading "EPIQ Residences" [level=3] [ref=e1627]
+            - paragraph [ref=e1628]: Quito, Ecuador
+      - generic [ref=e1631]:
+        - link "Toyota Woven City image | Bjarke Ingels Group" [ref=e1632] [cursor=pointer]:
+          - /url: /projects/toyota-woven-city-6360
+          - generic [ref=e1633]:
+            - img "Toyota Woven City image | Bjarke Ingels Group"
+        - generic [ref=e1634]:
+          - img "Toyota Woven City icon | Bjarke Ingels Group" [ref=e1636]
+          - generic [ref=e1637]:
+            - heading "Toyota Woven City" [level=3] [ref=e1638]
+            - paragraph [ref=e1639]: Susono, Japan
+      - generic [ref=e1642]:
+        - link "City of Telosa image | Bjarke Ingels Group" [ref=e1643] [cursor=pointer]:
+          - /url: /projects/city-of-telosa-11753
+          - generic [ref=e1644]:
+            - img "City of Telosa image | Bjarke Ingels Group"
+        - generic [ref=e1645]:
+          - img "City of Telosa icon | Bjarke Ingels Group" [ref=e1647]
+          - generic [ref=e1648]:
+            - heading "City of Telosa" [level=3] [ref=e1649]
+            - paragraph [ref=e1650]: ", United States"
+      - generic [ref=e1653]:
+        - link "Ellsinore Psychiatric Hospital image | Bjarke Ingels Group" [ref=e1654] [cursor=pointer]:
+          - /url: /projects/psychiatric-hospital-2064
+          - generic [ref=e1655]:
+            - img "Ellsinore Psychiatric Hospital image | Bjarke Ingels Group"
+        - generic [ref=e1656]:
+          - img "Ellsinore Psychiatric Hospital icon | Bjarke Ingels Group" [ref=e1658]
+          - generic [ref=e1659]:
+            - heading "Ellsinore Psychiatric Hospital" [level=3] [ref=e1660]
+            - paragraph [ref=e1661]: Helsingør, Denmark
+      - generic [ref=e1664]:
+        - link "Cité de l’innovation Sorbonne Université image | Bjarke Ingels Group" [ref=e1665] [cursor=pointer]:
+          - /url: /projects/paris-parc-2522
+          - generic [ref=e1666]:
+            - img "Cité de l’innovation Sorbonne Université image | Bjarke Ingels Group"
+        - generic [ref=e1667]:
+          - img "Cité de l’innovation Sorbonne Université icon | Bjarke Ingels Group" [ref=e1669]
+          - generic [ref=e1670]:
+            - heading "Cité de l’innovation Sorbonne Université" [level=3] [ref=e1671]
+            - paragraph [ref=e1672]: Paris, France
+      - generic [ref=e1675]:
+        - link "Pont de Bondy Metro Station image | Bjarke Ingels Group" [ref=e1676] [cursor=pointer]:
+          - /url: /projects/pont-de-bondy-metro-station-6077
+          - generic [ref=e1677]:
+            - img "Pont de Bondy Metro Station image | Bjarke Ingels Group"
+        - generic [ref=e1678]:
+          - img "Pont de Bondy Metro Station icon | Bjarke Ingels Group" [ref=e1680]
+          - generic [ref=e1681]:
+            - heading "Pont de Bondy Metro Station" [level=3] [ref=e1682]
+            - paragraph [ref=e1683]: Bondy, France
+      - generic [ref=e1686]:
+        - link "HB Trapper image | Bjarke Ingels Group" [ref=e1687] [cursor=pointer]:
+          - /url: /projects/hb-trapper-3767
+          - generic [ref=e1688]:
+            - img "HB Trapper image | Bjarke Ingels Group"
+        - generic [ref=e1689]:
+          - img "HB Trapper icon | Bjarke Ingels Group" [ref=e1691]
+          - generic [ref=e1692]:
+            - heading "HB Trapper" [level=3] [ref=e1693]
+            - paragraph [ref=e1694]: Herning, Denmark
+      - generic [ref=e1697]:
+        - link "The Orb image | Bjarke Ingels Group" [ref=e1698] [cursor=pointer]:
+          - /url: /projects/the-orb-missing-pictures-7332
+          - generic [ref=e1699]:
+            - img "The Orb image | Bjarke Ingels Group"
+        - generic [ref=e1700]:
+          - img "The Orb icon | Bjarke Ingels Group" [ref=e1702]
+          - generic [ref=e1703]:
+            - heading "The Orb" [level=3] [ref=e1704]
+            - paragraph [ref=e1705]: Nevada
+      - generic [ref=e1708]:
+        - link "FORMGIVING image | Bjarke Ingels Group" [ref=e1709] [cursor=pointer]:
+          - /url: /projects/formgiving-exhibition-3740
+          - generic [ref=e1710]:
+            - img "FORMGIVING image | Bjarke Ingels Group"
+        - generic [ref=e1711]:
+          - img "FORMGIVING icon | Bjarke Ingels Group" [ref=e1713]
+          - generic [ref=e1714]:
+            - heading "FORMGIVING" [level=3] [ref=e1715]
+            - paragraph [ref=e1716]: Copenhagen, Denmark
+      - generic [ref=e1719]:
+        - link "Klein Cabin image | Bjarke Ingels Group" [ref=e1720] [cursor=pointer]:
+          - /url: /projects/klein-cabin-3608
+          - generic [ref=e1721]:
+            - img "Klein Cabin image | Bjarke Ingels Group"
+        - generic [ref=e1722]:
+          - img "Klein Cabin icon | Bjarke Ingels Group" [ref=e1724]
+          - generic [ref=e1725]:
+            - heading "Klein Cabin" [level=3] [ref=e1726]
+            - paragraph [ref=e1727]: Bethel Woods, United States
+      - generic [ref=e1730]:
+        - link "Mars Science City image | Bjarke Ingels Group" [ref=e1731] [cursor=pointer]:
+          - /url: /projects/mars-city-6213
+          - generic [ref=e1732]:
+            - img "Mars Science City image | Bjarke Ingels Group"
+        - generic [ref=e1733]:
+          - img "Mars Science City icon | Bjarke Ingels Group" [ref=e1735]
+          - generic [ref=e1736]:
+            - heading "Mars Science City" [level=3] [ref=e1737]
+            - paragraph [ref=e1738]: Dubai, United Arab Emirates
+      - generic [ref=e1741]:
+        - link "Los Angeles Arts District image | Bjarke Ingels Group" [ref=e1742] [cursor=pointer]:
+          - /url: /projects/los-angeles-arts-district-6141
+          - generic [ref=e1743]:
+            - img "Los Angeles Arts District image | Bjarke Ingels Group"
+        - generic [ref=e1744]:
+          - img "Los Angeles Arts District icon | Bjarke Ingels Group" [ref=e1746]
+          - generic [ref=e1747]:
+            - heading "Los Angeles Arts District" [level=3] [ref=e1748]
+            - paragraph [ref=e1749]: Los Angeles, United States
+      - generic [ref=e1752]:
+        - link "OPPO R&D HQ Hangzhou image | Bjarke Ingels Group" [ref=e1753] [cursor=pointer]:
+          - /url: /projects/oppo-rd-hq-hangzhou-3927
+          - generic [ref=e1754]:
+            - img "OPPO R&D HQ Hangzhou image | Bjarke Ingels Group"
+        - generic [ref=e1755]:
+          - img "OPPO R&D HQ Hangzhou icon | Bjarke Ingels Group" [ref=e1757]
+          - generic [ref=e1758]:
+            - heading "OPPO R&D HQ Hangzhou" [level=3] [ref=e1759]
+            - paragraph [ref=e1760]: Hangzhou, China
+      - generic [ref=e1763]:
+        - link "Smithsonian Masterplan image | Bjarke Ingels Group" [ref=e1764] [cursor=pointer]:
+          - /url: /projects/smithsonian-masterplan-5800
+          - generic [ref=e1765]:
+            - img "Smithsonian Masterplan image | Bjarke Ingels Group"
+        - generic [ref=e1766]:
+          - img "Smithsonian Masterplan icon | Bjarke Ingels Group" [ref=e1768]
+          - generic [ref=e1769]:
+            - heading "Smithsonian Masterplan" [level=3] [ref=e1770]
+            - paragraph [ref=e1771]: Washington DC, United States
+      - generic [ref=e1774]:
+        - link "National Theatre of Albania image | Bjarke Ingels Group" [ref=e1775] [cursor=pointer]:
+          - /url: /projects/national-theatre-of-albania-6175
+          - generic [ref=e1776]:
+            - img "National Theatre of Albania image | Bjarke Ingels Group"
+        - generic [ref=e1777]:
+          - img "National Theatre of Albania icon | Bjarke Ingels Group" [ref=e1779]
+          - generic [ref=e1780]:
+            - heading "National Theatre of Albania" [level=3] [ref=e1781]
+            - paragraph [ref=e1782]: Tirana, Albania
+      - generic [ref=e1785]:
+        - link "Miami Produce image | Bjarke Ingels Group" [ref=e1786] [cursor=pointer]:
+          - /url: /projects/miami-produce-6292
+          - generic [ref=e1787]:
+            - img "Miami Produce image | Bjarke Ingels Group"
+        - generic [ref=e1788]:
+          - img "Miami Produce icon | Bjarke Ingels Group" [ref=e1790]
+          - generic [ref=e1791]:
+            - heading "Miami Produce" [level=3] [ref=e1792]
+            - paragraph [ref=e1793]: Miami, United States
+      - generic [ref=e1796]:
+        - link "Honeycomb Residences & Albany Masterplan image | Bjarke Ingels Group" [ref=e1797] [cursor=pointer]:
+          - /url: /projects/honeycomb-residences-albany-masterplan-11530
+          - generic [ref=e1798]:
+            - img "Honeycomb Residences & Albany Masterplan image | Bjarke Ingels Group"
+        - generic [ref=e1799]:
+          - img "Honeycomb Residences & Albany Masterplan icon | Bjarke Ingels Group" [ref=e1801]
+          - generic [ref=e1802]:
+            - heading "Honeycomb Residences & Albany Masterplan" [level=3] [ref=e1803]
+            - paragraph [ref=e1804]: Nassau, Bahamas
+      - generic [ref=e1807]:
+        - link "Oslo Science City image | Bjarke Ingels Group" [ref=e1808] [cursor=pointer]:
+          - /url: /projects/oslo-science-city-4197
+          - generic [ref=e1809]:
+            - img "Oslo Science City image | Bjarke Ingels Group"
+        - generic [ref=e1810]:
+          - img "Oslo Science City icon | Bjarke Ingels Group" [ref=e1812]
+          - generic [ref=e1813]:
+            - heading "Oslo Science City" [level=3] [ref=e1814]
+            - paragraph [ref=e1815]: Oslo, Norway
+      - generic [ref=e1818]:
+        - link "Oceanix City image | Bjarke Ingels Group" [ref=e1819] [cursor=pointer]:
+          - /url: /projects/oceanix-city-6399
+          - generic [ref=e1820]:
+            - img "Oceanix City image | Bjarke Ingels Group"
+        - generic [ref=e1821]:
+          - img "Oceanix City icon | Bjarke Ingels Group" [ref=e1823]
+          - generic [ref=e1824]:
+            - heading "Oceanix City" [level=3] [ref=e1825]
+            - paragraph [ref=e1826]: ","
+      - generic [ref=e1829]:
+        - link "Lycium image | Bjarke Ingels Group" [ref=e1830] [cursor=pointer]:
+          - /url: /projects/lycium-7094
+          - generic [ref=e1831]:
+            - img "Lycium image | Bjarke Ingels Group"
+        - generic [ref=e1832]:
+          - img "Lycium icon | Bjarke Ingels Group" [ref=e1834]
+          - generic [ref=e1835]:
+            - heading "Lycium" [level=3] [ref=e1836]
+            - paragraph [ref=e1837]: Fanø Bad, Denmark
+      - generic [ref=e1840]:
+        - link "Pegasus Hyperloop Pod image | Bjarke Ingels Group" [ref=e1841] [cursor=pointer]:
+          - /url: /projects/virgin-hyperloop-pegasus-4967
+          - generic [ref=e1842]:
+            - img "Pegasus Hyperloop Pod image | Bjarke Ingels Group"
+        - generic [ref=e1843]:
+          - img "Pegasus Hyperloop Pod icon | Bjarke Ingels Group" [ref=e1845]
+          - generic [ref=e1846]:
+            - heading "Pegasus Hyperloop Pod" [level=3] [ref=e1847]
+            - paragraph [ref=e1848]: Las Vegas, United States
+      - generic [ref=e1851]:
+        - link "Terminus AI City image | Bjarke Ingels Group" [ref=e1852] [cursor=pointer]:
+          - /url: /projects/terminus-future-city-6527
+          - generic [ref=e1853]:
+            - img "Terminus AI City image | Bjarke Ingels Group"
+        - generic [ref=e1854]:
+          - img "Terminus AI City icon | Bjarke Ingels Group" [ref=e1856]
+          - generic [ref=e1857]:
+            - heading "Terminus AI City" [level=3] [ref=e1858]
+            - paragraph [ref=e1859]: Chongqing, China
+      - generic [ref=e1862]:
+        - link "Skypark Business Center image | Bjarke Ingels Group" [ref=e1863] [cursor=pointer]:
+          - /url: /projects/skypark-business-center-3716
+          - generic [ref=e1864]:
+            - img "Skypark Business Center image | Bjarke Ingels Group"
+        - generic [ref=e1865]:
+          - img "Skypark Business Center icon | Bjarke Ingels Group" [ref=e1867]
+          - generic [ref=e1868]:
+            - heading "Skypark Business Center" [level=3] [ref=e1869]
+            - paragraph [ref=e1870]: Luxembourg, Luxembourg
+      - generic [ref=e1873]:
+        - link "Hot to Cold image | Bjarke Ingels Group" [ref=e1874] [cursor=pointer]:
+          - /url: /projects/hot-to-cold-5918
+          - generic [ref=e1875]:
+            - img "Hot to Cold image | Bjarke Ingels Group"
+        - generic [ref=e1876]:
+          - img "Hot to Cold icon | Bjarke Ingels Group" [ref=e1878]
+          - generic [ref=e1879]:
+            - heading "Hot to Cold" [level=3] [ref=e1880]
+            - paragraph [ref=e1881]: Washington, United States
+      - generic [ref=e1884]:
+        - link "The BIG Maze image | Bjarke Ingels Group" [ref=e1885] [cursor=pointer]:
+          - /url: /projects/the-big-maze-2912
+          - generic [ref=e1886]:
+            - img "The BIG Maze image | Bjarke Ingels Group"
+        - generic [ref=e1887]:
+          - img "The BIG Maze icon | Bjarke Ingels Group" [ref=e1889]
+          - generic [ref=e1890]:
+            - heading "The BIG Maze" [level=3] [ref=e1891]
+            - paragraph [ref=e1892]: Washington, United States
+      - generic [ref=e1895]:
+        - link "Times Square Valentine image | Bjarke Ingels Group" [ref=e1896] [cursor=pointer]:
+          - /url: /projects/times-square-valentine-2678
+          - generic [ref=e1897]:
+            - img "Times Square Valentine image | Bjarke Ingels Group"
+        - generic [ref=e1898]:
+          - img "Times Square Valentine icon | Bjarke Ingels Group" [ref=e1900]
+          - generic [ref=e1901]:
+            - heading "Times Square Valentine" [level=3] [ref=e1902]
+            - paragraph [ref=e1903]: New York, United States
+      - generic [ref=e1906]:
+        - link "Barcelona Institute of Science and Technology image | Bjarke Ingels Group" [ref=e1907] [cursor=pointer]:
+          - /url: /projects/barcelona-institute-of-science-and-technology-4342
+          - generic [ref=e1908]:
+            - img "Barcelona Institute of Science and Technology image | Bjarke Ingels Group"
+        - generic [ref=e1909]:
+          - img "Barcelona Institute of Science and Technology icon | Bjarke Ingels Group" [ref=e1911]
+          - generic [ref=e1912]:
+            - heading "Barcelona Institute of Science and Technology" [level=3] [ref=e1913]
+            - paragraph [ref=e1914]: Barcelona, Spain
+      - generic [ref=e1917]:
+        - link "St. Thomas Church Extension image | Bjarke Ingels Group" [ref=e1918] [cursor=pointer]:
+          - /url: /projects/st-thomas-church-extension-5955
+          - generic [ref=e1919]:
+            - img "St. Thomas Church Extension image | Bjarke Ingels Group"
+        - generic [ref=e1920]:
+          - img "St. Thomas Church Extension icon | Bjarke Ingels Group" [ref=e1922]
+          - generic [ref=e1923]:
+            - heading "St. Thomas Church Extension" [level=3] [ref=e1924]
+            - paragraph [ref=e1925]: Frederiksberg, Denmark
+      - generic [ref=e1928]:
+        - link "Hualien Masterplan image | Bjarke Ingels Group" [ref=e1929] [cursor=pointer]:
+          - /url: /projects/hualien-masterplan-5601
+          - generic [ref=e1930]:
+            - img "Hualien Masterplan image | Bjarke Ingels Group"
+        - generic [ref=e1931]:
+          - img "Hualien Masterplan icon | Bjarke Ingels Group" [ref=e1933]
+          - generic [ref=e1934]:
+            - heading "Hualien Masterplan" [level=3] [ref=e1935]
+            - paragraph [ref=e1936]: Hualien City, Taiwan
+      - generic [ref=e1939]:
+        - link "Kimball Art Center image | Bjarke Ingels Group" [ref=e1940] [cursor=pointer]:
+          - /url: /projects/kimball-art-center-11671
+          - generic [ref=e1941]:
+            - img "Kimball Art Center image | Bjarke Ingels Group"
+        - generic [ref=e1942]:
+          - img "Kimball Art Center icon | Bjarke Ingels Group" [ref=e1944]
+          - generic [ref=e1945]:
+            - heading "Kimball Art Center" [level=3] [ref=e1946]
+            - paragraph [ref=e1947]: Park City, United States
+      - generic [ref=e1950]:
+        - link "La Termica Turbine Hall image | Bjarke Ingels Group" [ref=e1951] [cursor=pointer]:
+          - /url: /projects/la-termica-turbine-hall-6798
+          - generic [ref=e1952]:
+            - img "La Termica Turbine Hall image | Bjarke Ingels Group"
+        - generic [ref=e1953]:
+          - img "La Termica Turbine Hall icon | Bjarke Ingels Group" [ref=e1955]
+          - generic [ref=e1956]:
+            - heading "La Termica Turbine Hall" [level=3] [ref=e1957]
+            - paragraph [ref=e1958]: Barcelona, Spain
+      - generic [ref=e1961]:
+        - link "WWW gallery image | Bjarke Ingels Group" [ref=e1962] [cursor=pointer]:
+          - /url: /projects/www-big-dk-12341
+          - generic [ref=e1963]:
+            - img "WWW gallery image | Bjarke Ingels Group"
+        - generic [ref=e1964]:
+          - img "WWW icon | Bjarke Ingels Group" [ref=e1966]
+          - generic [ref=e1967]:
+            - heading "WWW" [level=3] [ref=e1968]
+            - paragraph [ref=e1969]: Copenhagen, Denmark
+      - generic [ref=e1972]:
+        - link "2 World Trade Center image | Bjarke Ingels Group" [ref=e1973] [cursor=pointer]:
+          - /url: /projects/2-world-trade-center-7009
+          - generic [ref=e1974]:
+            - img "2 World Trade Center image | Bjarke Ingels Group"
+        - generic [ref=e1975]:
+          - img "2 World Trade Center icon | Bjarke Ingels Group" [ref=e1977]
+          - generic [ref=e1978]:
+            - heading "2 World Trade Center" [level=3] [ref=e1979]
+            - paragraph [ref=e1980]: New York, United States
+      - generic [ref=e1983]:
+        - link "Loop City image | Bjarke Ingels Group" [ref=e1984] [cursor=pointer]:
+          - /url: /projects/loop-city-masterplan-5638
+          - generic [ref=e1985]:
+            - img "Loop City image | Bjarke Ingels Group"
+        - generic [ref=e1986]:
+          - img "Loop City icon | Bjarke Ingels Group" [ref=e1988]
+          - generic [ref=e1989]:
+            - heading "Loop City" [level=3] [ref=e1990]
+            - paragraph [ref=e1991]: Copenhagen, Denmark
+      - generic [ref=e1994]:
+        - link "Jack's House image | Bjarke Ingels Group" [ref=e1995] [cursor=pointer]:
+          - /url: /projects/jacks-house-12452
+          - generic [ref=e1996]:
+            - img "Jack's House image | Bjarke Ingels Group"
+        - generic [ref=e1997]:
+          - img "Jack's House icon | Bjarke Ingels Group" [ref=e1999]
+          - generic [ref=e2000]:
+            - heading "Jack's House" [level=3] [ref=e2001]
+            - paragraph [ref=e2002]: Copenhagen, Denmark
+      - generic [ref=e2005]:
+        - link "Museum of the Human Body image | Bjarke Ingels Group" [ref=e2006] [cursor=pointer]:
+          - /url: /projects/museum-of-the-human-body-5845
+          - generic [ref=e2007]:
+            - img "Museum of the Human Body image | Bjarke Ingels Group"
+        - generic [ref=e2008]:
+          - img "Museum of the Human Body icon | Bjarke Ingels Group" [ref=e2010]
+          - generic [ref=e2011]:
+            - heading "Museum of the Human Body" [level=3] [ref=e2012]
+            - paragraph [ref=e2013]: Montpellier, France
+      - generic [ref=e2016]:
+        - link "Parque de la Innovación image | Bjarke Ingels Group" [ref=e2017] [cursor=pointer]:
+          - /url: /projects/parque-de-la-innovacion-6485
+          - generic [ref=e2018]:
+            - img "Parque de la Innovación image | Bjarke Ingels Group"
+        - generic [ref=e2019]:
+          - img "Parque de la Innovación icon | Bjarke Ingels Group" [ref=e2021]
+          - generic [ref=e2022]:
+            - heading "Parque de la Innovación" [level=3] [ref=e2023]
+            - paragraph [ref=e2024]: Buenos Aires, Argentina
+      - generic [ref=e2027]:
+        - link "Tallinn Town Hall image | Bjarke Ingels Group" [ref=e2028] [cursor=pointer]:
+          - /url: /projects/tallinn-town-hall-1554
+          - generic [ref=e2029]:
+            - img "Tallinn Town Hall image | Bjarke Ingels Group"
+        - generic [ref=e2030]:
+          - img "Tallinn Town Hall icon | Bjarke Ingels Group" [ref=e2032]
+          - generic [ref=e2033]:
+            - heading "Tallinn Town Hall" [level=3] [ref=e2034]
+            - paragraph [ref=e2035]: Tallinn, Estonia
+      - generic [ref=e2038]:
+        - link "Scala Tower image | Bjarke Ingels Group" [ref=e2039] [cursor=pointer]:
+          - /url: /projects/scala-tower-5298
+          - generic [ref=e2040]:
+            - img "Scala Tower image | Bjarke Ingels Group"
+        - generic [ref=e2041]:
+          - img "Scala Tower icon | Bjarke Ingels Group" [ref=e2043]
+          - generic [ref=e2044]:
+            - heading "Scala Tower" [level=3] [ref=e2045]
+            - paragraph [ref=e2046]: Copenhagen, Denmark
+      - generic [ref=e2049]:
+        - link "LEGO Towers image | Bjarke Ingels Group" [ref=e2050] [cursor=pointer]:
+          - /url: /projects/lego-towers-5267
+          - generic [ref=e2051]:
+            - img "LEGO Towers image | Bjarke Ingels Group"
+        - generic [ref=e2052]:
+          - img "LEGO Towers icon | Bjarke Ingels Group" [ref=e2054]
+          - generic [ref=e2055]:
+            - heading "LEGO Towers" [level=3] [ref=e2056]
+            - paragraph [ref=e2057]: Copenhagen, Denmark
+      - generic [ref=e2060]:
+        - link "Skuru Bridge image | Bjarke Ingels Group" [ref=e2061] [cursor=pointer]:
+          - /url: /projects/skuru-bridge-5723
+          - generic [ref=e2062]:
+            - img "Skuru Bridge image | Bjarke Ingels Group"
+        - generic [ref=e2063]:
+          - img "Skuru Bridge icon | Bjarke Ingels Group" [ref=e2065]
+          - generic [ref=e2066]:
+            - heading "Skuru Bridge" [level=3] [ref=e2067]
+            - paragraph [ref=e2068]: Nacka, Sweden
+      - generic [ref=e2071]:
+        - link "Europa City Expo Building image | Bjarke Ingels Group" [ref=e2072] [cursor=pointer]:
+          - /url: /projects/europa-city-expo-building-6728
+          - generic [ref=e2073]:
+            - img "Europa City Expo Building image | Bjarke Ingels Group"
+        - generic [ref=e2074]:
+          - img "Europa City Expo Building icon | Bjarke Ingels Group" [ref=e2076]
+          - generic [ref=e2077]:
+            - heading "Europa City Expo Building" [level=3] [ref=e2078]
+            - paragraph [ref=e2079]: Gonesse, France
+      - generic [ref=e2082]:
+        - link "Al Wasl Plaza Dubai Expo image | Bjarke Ingels Group" [ref=e2083] [cursor=pointer]:
+          - /url: /projects/al-wasl-plaza-dubai-expo-6096
+          - generic [ref=e2084]:
+            - img "Al Wasl Plaza Dubai Expo image | Bjarke Ingels Group"
+        - generic [ref=e2085]:
+          - img "Al Wasl Plaza Dubai Expo icon | Bjarke Ingels Group" [ref=e2087]
+          - generic [ref=e2088]:
+            - heading "Al Wasl Plaza Dubai Expo" [level=3] [ref=e2089]
+            - paragraph [ref=e2090]: Dubai, United Arab Emirates
+      - generic [ref=e2093]:
+        - link "Escher Tower image | Bjarke Ingels Group" [ref=e2094] [cursor=pointer]:
+          - /url: /projects/escher-tower-5254
+          - generic [ref=e2095]:
+            - img "Escher Tower image | Bjarke Ingels Group"
+        - generic [ref=e2096]:
+          - img "Escher Tower icon | Bjarke Ingels Group" [ref=e2098]
+          - generic [ref=e2099]:
+            - heading "Escher Tower" [level=3] [ref=e2100]
+            - paragraph [ref=e2101]: Copenhagen, Denmark
+      - generic [ref=e2104]:
+        - link "Slussen Masterplan image | Bjarke Ingels Group" [ref=e2105] [cursor=pointer]:
+          - /url: /projects/slussen-masterplan-5525
+          - generic [ref=e2106]:
+            - img "Slussen Masterplan image | Bjarke Ingels Group"
+        - generic [ref=e2107]:
+          - img "Slussen Masterplan icon | Bjarke Ingels Group" [ref=e2109]
+          - generic [ref=e2110]:
+            - heading "Slussen Masterplan" [level=3] [ref=e2111]
+            - paragraph [ref=e2112]: Stockholm, Sweden
+      - generic [ref=e2115]:
+        - link "Tamayo Cultural Center image | Bjarke Ingels Group" [ref=e2116] [cursor=pointer]:
+          - /url: /projects/tamayo-cultural-center-5543
+          - generic [ref=e2117]:
+            - img "Tamayo Cultural Center image | Bjarke Ingels Group"
+        - generic [ref=e2118]:
+          - img "Tamayo Cultural Center icon | Bjarke Ingels Group" [ref=e2120]
+          - generic [ref=e2121]:
+            - heading "Tamayo Cultural Center" [level=3] [ref=e2122]
+            - paragraph [ref=e2123]: Atizapan, Mexico
+      - generic [ref=e2126]:
+        - link "The Artery image | Bjarke Ingels Group" [ref=e2127] [cursor=pointer]:
+          - /url: /projects/the-artery-6941
+          - generic [ref=e2128]:
+            - img "The Artery image | Bjarke Ingels Group"
+        - generic [ref=e2129]:
+          - img "The Artery icon | Bjarke Ingels Group" [ref=e2131]
+          - generic [ref=e2132]:
+            - heading "The Artery" [level=3] [ref=e2133]
+            - paragraph [ref=e2134]: Abu Dhabi, United Arab Emirates
+      - generic [ref=e2137]:
+        - link "Holy Road image | Bjarke Ingels Group" [ref=e2138] [cursor=pointer]:
+          - /url: /projects/holy-road-5490
+          - generic [ref=e2139]:
+            - img "Holy Road image | Bjarke Ingels Group"
+        - generic [ref=e2140]:
+          - img "Holy Road icon | Bjarke Ingels Group" [ref=e2142]
+          - generic [ref=e2143]:
+            - heading "Holy Road" [level=3] [ref=e2144]
+            - paragraph [ref=e2145]: Athens, Greece
+      - generic [ref=e2148]:
+        - link "The Battery image | Bjarke Ingels Group" [ref=e2149] [cursor=pointer]:
+          - /url: /projects/the-battery-5195
+          - generic [ref=e2150]:
+            - img "The Battery image | Bjarke Ingels Group"
+        - generic [ref=e2151]:
+          - img "The Battery icon | Bjarke Ingels Group" [ref=e2153]
+          - generic [ref=e2154]:
+            - heading "The Battery" [level=3] [ref=e2155]
+            - paragraph [ref=e2156]: Copenhagen, Denmark
+      - generic [ref=e2159]:
+        - link "Koutalaki Ski Village image | Bjarke Ingels Group" [ref=e2160] [cursor=pointer]:
+          - /url: /projects/koutalaki-ski-village-5672
+          - generic [ref=e2161]:
+            - img "Koutalaki Ski Village image | Bjarke Ingels Group"
+        - generic [ref=e2162]:
+          - img "Koutalaki Ski Village icon | Bjarke Ingels Group" [ref=e2164]
+          - generic [ref=e2165]:
+            - heading "Koutalaki Ski Village" [level=3] [ref=e2166]
+            - paragraph [ref=e2167]: Levi, Finland
+      - generic [ref=e2170]:
+        - link "The 5 Pillars of Bawadi image | Bjarke Ingels Group" [ref=e2171] [cursor=pointer]:
+          - /url: /projects/the-5-pillars-of-bawadi-5418
+          - generic [ref=e2172]:
+            - img "The 5 Pillars of Bawadi image | Bjarke Ingels Group"
+        - generic [ref=e2173]:
+          - img "The 5 Pillars of Bawadi icon | Bjarke Ingels Group" [ref=e2175]
+          - generic [ref=e2176]:
+            - heading "The 5 Pillars of Bawadi" [level=3] [ref=e2177]
+            - paragraph [ref=e2178]: Dubai, United Arab Emirates
+      - generic [ref=e2181]:
+        - link "Stereo No.1 Quayside image | Bjarke Ingels Group" [ref=e2182] [cursor=pointer]:
+          - /url: /projects/stereo-no-1-quayside-7356
+          - generic [ref=e2183]:
+            - img "Stereo No.1 Quayside image | Bjarke Ingels Group"
+        - generic [ref=e2184]:
+          - img "Stereo No.1 Quayside icon | Bjarke Ingels Group" [ref=e2186]
+          - generic [ref=e2187]:
+            - heading "Stereo No.1 Quayside" [level=3] [ref=e2188]
+            - paragraph [ref=e2189]: Newcastle, England
+      - generic [ref=e2192]:
+        - link "The Bridge Residences image | Bjarke Ingels Group" [ref=e2193] [cursor=pointer]:
+          - /url: /projects/the-bridge-residences-5236
+          - generic [ref=e2194]:
+            - img "The Bridge Residences image | Bjarke Ingels Group"
+        - generic [ref=e2195]:
+          - img "The Bridge Residences icon | Bjarke Ingels Group" [ref=e2197]
+          - generic [ref=e2198]:
+            - heading "The Bridge Residences" [level=3] [ref=e2199]
+            - paragraph [ref=e2200]: Copenhagen, Denmark
+      - generic [ref=e2203]:
+        - link "The National Bank of Iceland image | Bjarke Ingels Group" [ref=e2204] [cursor=pointer]:
+          - /url: /projects/the-national-bank-of-iceland-5379
+          - generic [ref=e2205]:
+            - img "The National Bank of Iceland image | Bjarke Ingels Group"
+        - generic [ref=e2206]:
+          - img "The National Bank of Iceland icon | Bjarke Ingels Group" [ref=e2208]
+          - generic [ref=e2209]:
+            - heading "The National Bank of Iceland" [level=3] [ref=e2210]
+            - paragraph [ref=e2211]: Reykjavik, Iceland
+      - generic [ref=e2214]:
+        - link "VMCP Hotel image | Bjarke Ingels Group" [ref=e2215] [cursor=pointer]:
+          - /url: /projects/vmcp-hotel-5355
+          - generic [ref=e2216]:
+            - img "VMCP Hotel image | Bjarke Ingels Group"
+        - generic [ref=e2217]:
+          - img "VMCP Hotel icon | Bjarke Ingels Group" [ref=e2219]
+          - generic [ref=e2220]:
+            - heading "VMCP Hotel" [level=3] [ref=e2221]
+            - paragraph [ref=e2222]: Arlanda, Sweden
+      - generic [ref=e2225]:
+        - link "Odense Aqua Center image | Bjarke Ingels Group" [ref=e2226] [cursor=pointer]:
+          - /url: /projects/odense-aqua-center-5135
+          - generic [ref=e2227]:
+            - img "Odense Aqua Center image | Bjarke Ingels Group"
+        - generic [ref=e2228]:
+          - img "Odense Aqua Center icon | Bjarke Ingels Group" [ref=e2230]
+          - generic [ref=e2231]:
+            - heading "Odense Aqua Center" [level=3] [ref=e2232]
+            - paragraph [ref=e2233]: Odense/Aalborg, Denmark
+      - generic [ref=e2236]:
+        - link "Yes Is More image | Bjarke Ingels Group" [ref=e2237] [cursor=pointer]:
+          - /url: /projects/yes-is-more-2231
+          - generic [ref=e2238]:
+            - img "Yes Is More image | Bjarke Ingels Group"
+        - generic [ref=e2239]:
+          - img "Yes Is More icon | Bjarke Ingels Group" [ref=e2241]
+          - generic [ref=e2242]:
+            - heading "Yes Is More" [level=3] [ref=e2243]
+            - paragraph [ref=e2244]: Copenhagen, Denmark | Aarhus, Denmark | Bordeaux, France | Tokyo, Japan,
+      - generic [ref=e2247]:
+        - link "Clover Block image | Bjarke Ingels Group" [ref=e2248] [cursor=pointer]:
+          - /url: /projects/klovermarken-5214
+          - generic [ref=e2249]:
+            - img "Clover Block image | Bjarke Ingels Group"
+        - generic [ref=e2250]:
+          - img "Clover Block icon | Bjarke Ingels Group" [ref=e2252]
+          - generic [ref=e2253]:
+            - heading "Clover Block" [level=3] [ref=e2254]
+            - paragraph [ref=e2255]: Copenhagen, Denmark
+      - generic [ref=e2258]:
+        - link "Watch Flower image | Bjarke Ingels Group" [ref=e2259] [cursor=pointer]:
+          - /url: /projects/watch-flower-5892
+          - generic [ref=e2260]:
+            - img "Watch Flower image | Bjarke Ingels Group"
+        - generic [ref=e2261]:
+          - img "Watch Flower icon | Bjarke Ingels Group" [ref=e2263]
+          - generic [ref=e2264]:
+            - heading "Watch Flower" [level=3] [ref=e2265]
+            - paragraph [ref=e2266]: Aarhus, Denmark
+      - generic [ref=e2269]:
+        - link "Astana National Library image | Bjarke Ingels Group" [ref=e2270] [cursor=pointer]:
+          - /url: /projects/astana-national-library-5572
+          - generic [ref=e2271]:
+            - img "Astana National Library image | Bjarke Ingels Group"
+        - generic [ref=e2272]:
+          - img "Astana National Library icon | Bjarke Ingels Group" [ref=e2274]
+          - generic [ref=e2275]:
+            - heading "Astana National Library" [level=3] [ref=e2276]
+            - paragraph [ref=e2277]: Astana, Kazakhstan
+      - generic [ref=e2280]:
+        - link "Walter Towers image | Bjarke Ingels Group" [ref=e2281] [cursor=pointer]:
+          - /url: /projects/walter-towers-5457
+          - generic [ref=e2282]:
+            - img "Walter Towers image | Bjarke Ingels Group"
+        - generic [ref=e2283]:
+          - img "Walter Towers icon | Bjarke Ingels Group" [ref=e2285]
+          - generic [ref=e2286]:
+            - heading "Walter Towers" [level=3] [ref=e2287]
+            - paragraph [ref=e2288]: Prague, Czech Republic
+      - generic [ref=e2291]:
+        - link "Phoenix Observation Tower image | Bjarke Ingels Group" [ref=e2292] [cursor=pointer]:
+          - /url: /projects/big-pin-5745
+          - generic [ref=e2293]:
+            - img "Phoenix Observation Tower image | Bjarke Ingels Group"
+        - generic [ref=e2294]:
+          - img "Phoenix Observation Tower icon | Bjarke Ingels Group" [ref=e2296]
+          - generic [ref=e2297]:
+            - heading "Phoenix Observation Tower" [level=3] [ref=e2298]
+            - paragraph [ref=e2299]: Phoenix, United States
+      - generic [ref=e2302]:
+        - link "Stavanger Concert Hall image | Bjarke Ingels Group" [ref=e2303] [cursor=pointer]:
+          - /url: /projects/stavanger-concert-hall-1462
+          - generic [ref=e2304]:
+            - img "Stavanger Concert Hall image | Bjarke Ingels Group"
+        - generic [ref=e2305]:
+          - img "Stavanger Concert Hall icon | Bjarke Ingels Group" [ref=e2307]
+          - generic [ref=e2308]:
+            - heading "Stavanger Concert Hall" [level=3] [ref=e2309]
+            - paragraph [ref=e2310]: Stavanger, Norway
+      - generic [ref=e2313]:
+        - link "Yongsan Hashtag Tower image | Bjarke Ingels Group" [ref=e2314] [cursor=pointer]:
+          - /url: /projects/yongsan-hashtag-tower-5703
+          - generic [ref=e2315]:
+            - img "Yongsan Hashtag Tower image | Bjarke Ingels Group"
+        - generic [ref=e2316]:
+          - img "Yongsan Hashtag Tower icon | Bjarke Ingels Group" [ref=e2318]
+          - generic [ref=e2319]:
+            - heading "Yongsan Hashtag Tower" [level=3] [ref=e2320]
+            - paragraph [ref=e2321]: Seoul, South Korea
+      - generic [ref=e2324]:
+        - link "Zira Island Masterplan image | Bjarke Ingels Group" [ref=e2325] [cursor=pointer]:
+          - /url: /projects/zira-island-masterplan-5507
+          - generic [ref=e2326]:
+            - img "Zira Island Masterplan image | Bjarke Ingels Group"
+        - generic [ref=e2327]:
+          - img "Zira Island Masterplan icon | Bjarke Ingels Group" [ref=e2329]
+          - generic [ref=e2330]:
+            - heading "Zira Island Masterplan" [level=3] [ref=e2331]
+            - paragraph [ref=e2332]: Baku, Azerbaijan
+      - generic [ref=e2335]:
+        - link "The Vejle Houses image | Bjarke Ingels Group" [ref=e2336] [cursor=pointer]:
+          - /url: /projects/the-vejle-houses-5175
+          - generic [ref=e2337]:
+            - img "The Vejle Houses image | Bjarke Ingels Group"
+        - generic [ref=e2338]:
+          - img "The Vejle Houses icon | Bjarke Ingels Group" [ref=e2340]
+          - generic [ref=e2341]:
+            - heading "The Vejle Houses" [level=3] [ref=e2342]
+            - paragraph [ref=e2343]: Vejle, Denmark
+      - generic [ref=e2346]:
+        - link "Superharbour image | Bjarke Ingels Group" [ref=e2347] [cursor=pointer]:
+          - /url: /projects/superharbour-5160
+          - generic [ref=e2348]:
+            - img "Superharbour image | Bjarke Ingels Group"
+        - generic [ref=e2349]:
+          - img "Superharbour icon | Bjarke Ingels Group" [ref=e2351]
+          - generic [ref=e2352]:
+            - heading "Superharbour" [level=3] [ref=e2353]
+            - paragraph [ref=e2354]: Copenhagen, Denmark
+      - generic [ref=e2357]:
+        - link "People's Building Shanghai image | Bjarke Ingels Group" [ref=e2358] [cursor=pointer]:
+          - /url: /projects/peoples-building-shanghai-5167
+          - generic [ref=e2359]:
+            - img "People's Building Shanghai image | Bjarke Ingels Group"
+        - generic [ref=e2360]:
+          - img "People's Building Shanghai icon | Bjarke Ingels Group" [ref=e2362]
+          - generic [ref=e2363]:
+            - heading "People's Building Shanghai" [level=3] [ref=e2364]
+            - paragraph [ref=e2365]: Shanghai, China
+      - generic [ref=e2368]:
+        - link "Scoop Chair image | Bjarke Ingels Group" [ref=e2369] [cursor=pointer]:
+          - /url: /projects/halle-scoop-chair-8138
+          - generic [ref=e2370]:
+            - img "Scoop Chair image | Bjarke Ingels Group"
+        - generic [ref=e2371]:
+          - img "Scoop Chair icon | Bjarke Ingels Group" [ref=e2373]
+          - generic [ref=e2374]:
+            - heading "Scoop Chair" [level=3] [ref=e2375]
+            - paragraph [ref=e2376]: +Halle
+      - generic [ref=e2379]:
+        - link "Panda Figure image | Bjarke Ingels Group" [ref=e2380] [cursor=pointer]:
+          - /url: /projects/panda-figure-8196
+          - generic [ref=e2381]:
+            - img "Panda Figure image | Bjarke Ingels Group"
+        - generic [ref=e2382]:
+          - img "Panda Figure icon | Bjarke Ingels Group" [ref=e2384]
+          - generic [ref=e2385]:
+            - heading "Panda Figure" [level=3] [ref=e2386]
+            - paragraph [ref=e2387]: Architectmade
+      - generic [ref=e2390]:
+        - link "Gople Outdoor Lamps image | Bjarke Ingels Group" [ref=e2391] [cursor=pointer]:
+          - /url: /projects/artemide-gople-outdoor-8187
+          - generic [ref=e2392]:
+            - img "Gople Outdoor Lamps image | Bjarke Ingels Group"
+        - generic [ref=e2393]:
+          - img "Gople Outdoor Lamps icon | Bjarke Ingels Group" [ref=e2395]
+          - generic [ref=e2396]:
+            - heading "Gople Outdoor Lamps" [level=3] [ref=e2397]
+            - paragraph [ref=e2398]: Artemide
+      - generic [ref=e2401]:
+        - link "Ripple Lamps image | Bjarke Ingels Group" [ref=e2402] [cursor=pointer]:
+          - /url: /projects/ripple-lamps-8216
+          - generic [ref=e2403]:
+            - img "Ripple Lamps image | Bjarke Ingels Group"
+        - generic [ref=e2404]:
+          - img "Ripple Lamps icon | Bjarke Ingels Group" [ref=e2406]
+          - generic [ref=e2407]:
+            - heading "Ripple Lamps" [level=3] [ref=e2408]
+            - paragraph [ref=e2409]: Artemide
+      - generic [ref=e2412]:
+        - link "Vine Light image | Bjarke Ingels Group" [ref=e2413] [cursor=pointer]:
+          - /url: /projects/vine-light-8224
+          - generic [ref=e2414]:
+            - img "Vine Light image | Bjarke Ingels Group"
+        - generic [ref=e2415]:
+          - img "Vine Light icon | Bjarke Ingels Group" [ref=e2417]
+          - generic [ref=e2418]:
+            - heading "Vine Light" [level=3] [ref=e2419]
+            - paragraph [ref=e2420]: Artemide
+      - generic [ref=e2423]:
+        - link "Skum Pavilion image | Bjarke Ingels Group" [ref=e2424] [cursor=pointer]:
+          - /url: /projects/skum-pavilion-12388
+          - generic [ref=e2425]:
+            - img "Skum Pavilion image | Bjarke Ingels Group"
+        - generic [ref=e2426]:
+          - img "Skum Pavilion icon | Bjarke Ingels Group" [ref=e2428]
+          - generic [ref=e2429]:
+            - heading "Skum Pavilion" [level=3] [ref=e2430]
+            - paragraph [ref=e2431]: Copenhagen, Denmark
+      - generic [ref=e2434]:
+        - link "Bulb Fiction Lamp image | Bjarke Ingels Group" [ref=e2435] [cursor=pointer]:
+          - /url: /projects/bulb-fiction-lamp-8368
+          - generic [ref=e2436]:
+            - img "Bulb Fiction Lamp image | Bjarke Ingels Group"
+        - generic [ref=e2437]:
+          - img "Bulb Fiction Lamp icon | Bjarke Ingels Group" [ref=e2439]
+          - generic [ref=e2440]:
+            - heading "Bulb Fiction Lamp" [level=3] [ref=e2441]
+            - paragraph [ref=e2442]: Fritz Hansen
+      - generic [ref=e2445]:
+        - link "Via 57 Chair image | Bjarke Ingels Group" [ref=e2446] [cursor=pointer]:
+          - /url: /projects/via57-chair-8356
+          - generic [ref=e2447]:
+            - img "Via 57 Chair image | Bjarke Ingels Group"
+        - generic [ref=e2448]:
+          - img "Via 57 Chair icon | Bjarke Ingels Group" [ref=e2450]
+          - generic [ref=e2451]:
+            - heading "Via 57 Chair" [level=3] [ref=e2452]
+            - paragraph [ref=e2453]: Fritz Hansen
+      - generic [ref=e2456]:
+        - link "Taper Bathroom Fittings image | Bjarke Ingels Group" [ref=e2457] [cursor=pointer]:
+          - /url: /projects/taper-bathroom-fittings-8400
+          - generic [ref=e2458]:
+            - img "Taper Bathroom Fittings image | Bjarke Ingels Group"
+        - generic [ref=e2459]:
+          - img "Taper Bathroom Fittings icon | Bjarke Ingels Group" [ref=e2461]
+          - generic [ref=e2462]:
+            - heading "Taper Bathroom Fittings" [level=3] [ref=e2463]
+            - paragraph [ref=e2464]: Kallista
+      - generic [ref=e2467]:
+        - link "Lilium Outdoor image | Bjarke Ingels Group" [ref=e2468] [cursor=pointer]:
+          - /url: /projects/skagerak-lilium-8430
+          - generic [ref=e2469]:
+            - img "Lilium Outdoor image | Bjarke Ingels Group"
+        - generic [ref=e2470]:
+          - img "Lilium Outdoor icon | Bjarke Ingels Group" [ref=e2472]
+          - generic [ref=e2473]:
+            - heading "Lilium Outdoor" [level=3] [ref=e2474]
+            - paragraph [ref=e2475]: Skagerak
+      - generic [ref=e2478]:
+        - link "Hav Porcelain Collection image | Bjarke Ingels Group" [ref=e2479] [cursor=pointer]:
+          - /url: /projects/royal-copenhagen-hav-8416
+          - generic [ref=e2480]:
+            - img "Hav Porcelain Collection image | Bjarke Ingels Group"
+        - generic [ref=e2481]:
+          - img "Hav Porcelain Collection icon | Bjarke Ingels Group" [ref=e2483]
+          - generic [ref=e2484]:
+            - heading "Hav Porcelain Collection" [level=3] [ref=e2485]
+            - paragraph [ref=e2486]: Royal Copenhagen
+      - generic [ref=e2489]:
+        - link "Pebble Bathroom Accessories image | Bjarke Ingels Group" [ref=e2490] [cursor=pointer]:
+          - /url: /projects/pebble-bathroom-accessories-8287
+          - generic [ref=e2491]:
+            - img "Pebble Bathroom Accessories image | Bjarke Ingels Group"
+        - generic [ref=e2492]:
+          - img "Pebble Bathroom Accessories icon | Bjarke Ingels Group" [ref=e2494]
+          - generic [ref=e2495]:
+            - heading "Pebble Bathroom Accessories" [level=3] [ref=e2496]
+            - paragraph [ref=e2497]: d line
+      - generic [ref=e2500]:
+        - link "Totem Shelf image | Bjarke Ingels Group" [ref=e2501] [cursor=pointer]:
+          - /url: /projects/totem-shelf-8330
+          - generic [ref=e2502]:
+            - img "Totem Shelf image | Bjarke Ingels Group"
+        - generic [ref=e2503]:
+          - img "Totem Shelf icon | Bjarke Ingels Group" [ref=e2505]
+          - generic [ref=e2506]:
+            - heading "Totem Shelf" [level=3] [ref=e2507]
+            - paragraph [ref=e2508]: Driade
+      - generic [ref=e2511]:
+        - link "BIG Mermaid image | Bjarke Ingels Group" [ref=e2512] [cursor=pointer]:
+          - /url: /projects/big-mermaid-8489
+          - generic [ref=e2513]:
+            - img "BIG Mermaid image | Bjarke Ingels Group"
+        - generic [ref=e2514]:
+          - img "BIG Mermaid icon | Bjarke Ingels Group" [ref=e2516]
+          - generic [ref=e2517]:
+            - heading "BIG Mermaid" [level=3] [ref=e2518]
+            - paragraph [ref=e2519]: Copenhagen, Denmark
+      - generic [ref=e2522]:
+        - link "X Table image | Bjarke Ingels Group" [ref=e2523] [cursor=pointer]:
+          - /url: /projects/holmris-b8-xtable-8388
+          - generic [ref=e2524]:
+            - img "X Table image | Bjarke Ingels Group"
+        - generic [ref=e2525]:
+          - img "X Table icon | Bjarke Ingels Group" [ref=e2527]
+          - generic [ref=e2528]:
+            - heading "X Table" [level=3] [ref=e2529]
+            - paragraph [ref=e2530]: Holmris B8
+      - generic [ref=e2533]:
+        - link "Gople Lamps image | Bjarke Ingels Group" [ref=e2534] [cursor=pointer]:
+          - /url: /projects/gople-lamps-9059
+          - generic [ref=e2535]:
+            - img "Gople Lamps image | Bjarke Ingels Group"
+        - generic [ref=e2536]:
+          - img "Gople Lamps icon | Bjarke Ingels Group" [ref=e2538]
+          - generic [ref=e2539]:
+            - heading "Gople Lamps" [level=3] [ref=e2540]
+            - paragraph [ref=e2541]: Artemide
+      - generic [ref=e2544]:
+        - link "Alphabet of Light image | Bjarke Ingels Group" [ref=e2545] [cursor=pointer]:
+          - /url: /projects/artemide-alphabet-of-light-lamp-9371
+          - generic [ref=e2546]:
+            - img "Alphabet of Light image | Bjarke Ingels Group"
+        - generic [ref=e2547]:
+          - img "Alphabet of Light icon | Bjarke Ingels Group" [ref=e2549]
+          - generic [ref=e2550]:
+            - heading "Alphabet of Light" [level=3] [ref=e2551]
+            - paragraph [ref=e2552]: Artemide
+      - generic [ref=e2555]:
+        - link "Headphones image | Bjarke Ingels Group" [ref=e2556] [cursor=pointer]:
+          - /url: /projects/aiaiai-headphones-11771
+          - generic [ref=e2557]:
+            - img "Headphones image | Bjarke Ingels Group"
+        - generic [ref=e2558]:
+          - img "Headphones icon | Bjarke Ingels Group" [ref=e2560]
+          - generic [ref=e2561]:
+            - heading "Headphones" [level=3] [ref=e2562]
+            - paragraph [ref=e2563]: Aiaiai
+      - generic [ref=e2566]:
+        - link "Bicycle Series image | Bjarke Ingels Group" [ref=e2567] [cursor=pointer]:
+          - /url: /projects/biomega-bikes-11806
+          - generic [ref=e2568]:
+            - img "Bicycle Series image | Bjarke Ingels Group"
+        - generic [ref=e2569]:
+          - img "Bicycle Series icon | Bjarke Ingels Group" [ref=e2571]
+          - generic [ref=e2572]:
+            - heading "Bicycle Series" [level=3] [ref=e2573]
+            - paragraph [ref=e2574]: Biomega
+      - generic [ref=e2577]:
+        - link "Roulade Chair image | Bjarke Ingels Group" [ref=e2578] [cursor=pointer]:
+          - /url: /projects/jot-jot-roulade-chair-9132
+          - generic [ref=e2579]:
+            - img "Roulade Chair image | Bjarke Ingels Group"
+        - generic [ref=e2580]:
+          - img "Roulade Chair icon | Bjarke Ingels Group" [ref=e2582]
+          - generic [ref=e2583]:
+            - heading "Roulade Chair" [level=3] [ref=e2584]
+            - paragraph [ref=e2585]: Jot.Jot
+      - generic [ref=e2588]:
+        - link "Shanghay Chair image | Bjarke Ingels Group" [ref=e2589] [cursor=pointer]:
+          - /url: /projects/shanghay-chair-8916
+          - generic [ref=e2590]:
+            - img "Shanghay Chair image | Bjarke Ingels Group"
+        - generic [ref=e2591]:
+          - img "Shanghay Chair icon | Bjarke Ingels Group" [ref=e2593]
+          - generic [ref=e2594]:
+            - heading "Shanghay Chair" [level=3] [ref=e2595]
+            - paragraph [ref=e2596]: HAY
+      - generic [ref=e2599]:
+        - link "Strap Kitchen Fronts image | Bjarke Ingels Group" [ref=e2600] [cursor=pointer]:
+          - /url: /projects/reform_strap_kitchen-13070
+          - generic [ref=e2601]:
+            - img "Strap Kitchen Fronts image | Bjarke Ingels Group"
+        - generic [ref=e2602]:
+          - img "Strap Kitchen Fronts icon | Bjarke Ingels Group" [ref=e2604]
+          - generic [ref=e2605]:
+            - heading "Strap Kitchen Fronts" [level=3] [ref=e2606]
+            - paragraph [ref=e2607]: Reform
+      - generic [ref=e2610]:
+        - link "Voxel Sofa image | Bjarke Ingels Group" [ref=e2611] [cursor=pointer]:
+          - /url: /projects/voxel-sofa-9202
+          - generic [ref=e2612]:
+            - img "Voxel Sofa image | Bjarke Ingels Group"
+        - generic [ref=e2613]:
+          - img "Voxel Sofa icon | Bjarke Ingels Group" [ref=e2615]
+          - generic [ref=e2616]:
+            - heading "Voxel Sofa" [level=3] [ref=e2617]
+            - paragraph [ref=e2618]: Common Seating
+      - generic [ref=e2621]:
+        - link "Slice Shelf image | Bjarke Ingels Group" [ref=e2622] [cursor=pointer]:
+          - /url: /projects/slice-shelf-13111
+          - generic [ref=e2623]:
+            - img "Slice Shelf image | Bjarke Ingels Group"
+        - generic [ref=e2624]:
+          - img "Slice Shelf icon | Bjarke Ingels Group" [ref=e2626]
+          - generic [ref=e2627]:
+            - heading "Slice Shelf" [level=3] [ref=e2628]
+            - paragraph [ref=e2629]: "&tradition"
+      - generic [ref=e2632]:
+        - link "Keglen Lamps image | Bjarke Ingels Group" [ref=e2633] [cursor=pointer]:
+          - /url: /projects/keglen-lamps-9101
+          - generic [ref=e2634]:
+            - img "Keglen Lamps image | Bjarke Ingels Group"
+        - generic [ref=e2635]:
+          - img "Keglen Lamps icon | Bjarke Ingels Group" [ref=e2637]
+          - generic [ref=e2638]:
+            - heading "Keglen Lamps" [level=3] [ref=e2639]
+            - paragraph [ref=e2640]: Louis Poulsen
+      - generic [ref=e2643]:
+        - link "Gople Portable Lamp image | Bjarke Ingels Group" [ref=e2644] [cursor=pointer]:
+          - /url: /projects/gople-portable-lamp-9090
+          - generic [ref=e2645]:
+            - img "Gople Portable Lamp image | Bjarke Ingels Group"
+        - generic [ref=e2646]:
+          - img "Gople Portable Lamp icon | Bjarke Ingels Group" [ref=e2648]
+          - generic [ref=e2649]:
+            - heading "Gople Portable Lamp" [level=3] [ref=e2650]
+            - paragraph [ref=e2651]: Artemide
+      - generic [ref=e2654]:
+        - link "Silverback Lamps image | Bjarke Ingels Group" [ref=e2655] [cursor=pointer]:
+          - /url: /projects/silverback-lamps-8927
+          - generic [ref=e2656]:
+            - img "Silverback Lamps image | Bjarke Ingels Group"
+        - generic [ref=e2657]:
+          - img "Silverback Lamps icon | Bjarke Ingels Group" [ref=e2659]
+          - generic [ref=e2660]:
+            - heading "Silverback Lamps" [level=3] [ref=e2661]
+            - paragraph [ref=e2662]: Louis Poulsen
+      - generic [ref=e2665]:
+        - link "Slicing Lamps image | Bjarke Ingels Group" [ref=e2666] [cursor=pointer]:
+          - /url: /projects/slicing-light-9377
+          - generic [ref=e2667]:
+            - img "Slicing Lamps image | Bjarke Ingels Group"
+        - generic [ref=e2668]:
+          - img "Slicing Lamps icon | Bjarke Ingels Group" [ref=e2670]
+          - generic [ref=e2671]:
+            - heading "Slicing Lamps" [level=3] [ref=e2672]
+            - paragraph [ref=e2673]: Artemide
+      - generic [ref=e2676]:
+        - link "Smart Lock Duo image | Bjarke Ingels Group" [ref=e2677] [cursor=pointer]:
+          - /url: /projects/friday-duo-smart-lock-8341
+          - generic [ref=e2678]:
+            - img "Smart Lock Duo image | Bjarke Ingels Group"
+        - generic [ref=e2679]:
+          - img "Smart Lock Duo icon | Bjarke Ingels Group" [ref=e2681]
+          - generic [ref=e2682]:
+            - heading "Smart Lock Duo" [level=3] [ref=e2683]
+            - paragraph [ref=e2684]: Friday Home
+      - generic [ref=e2687]:
+        - link "Window Garden image | Bjarke Ingels Group" [ref=e2688] [cursor=pointer]:
+          - /url: /projects/window-garden-11286
+          - generic [ref=e2689]:
+            - img "Window Garden image | Bjarke Ingels Group"
+        - generic [ref=e2690]:
+          - img "Window Garden icon | Bjarke Ingels Group" [ref=e2692]
+          - generic [ref=e2693]:
+            - heading "Window Garden" [level=3] [ref=e2694]
+            - paragraph [ref=e2695]: Rosenthal
+      - generic [ref=e2698]:
+        - link "Reusable Cup System image | Bjarke Ingels Group" [ref=e2699] [cursor=pointer]:
+          - /url: /projects/turn-reusable-drinking-cup-system-9369
+          - generic [ref=e2700]:
+            - img "Reusable Cup System image | Bjarke Ingels Group"
+        - generic [ref=e2701]:
+          - img "Reusable Cup System icon | Bjarke Ingels Group" [ref=e2703]
+          - generic [ref=e2704]:
+            - heading "Reusable Cup System" [level=3] [ref=e2705]
+            - paragraph [ref=e2706]: TURN
+      - generic [ref=e2709]:
+        - link "Puzzle House image | Bjarke Ingels Group" [ref=e2710] [cursor=pointer]:
+          - /url: /projects/puzzle-house-13431
+          - generic [ref=e2711]:
+            - img "Puzzle House image | Bjarke Ingels Group"
+        - generic [ref=e2712]:
+          - img "Puzzle House icon | Bjarke Ingels Group" [ref=e2714]
+          - generic [ref=e2715]:
+            - heading "Puzzle House" [level=3] [ref=e2716]
+            - paragraph [ref=e2717]: Copenhagen, DK
+      - generic [ref=e2720]:
+        - link "Gople Spot Light image | Bjarke Ingels Group" [ref=e2721] [cursor=pointer]:
+          - /url: /projects/gople-spot-light-9373
+          - generic [ref=e2722]:
+            - img "Gople Spot Light image | Bjarke Ingels Group"
+        - generic [ref=e2723]:
+          - img "Gople Spot Light icon | Bjarke Ingels Group" [ref=e2725]
+          - generic [ref=e2726]:
+            - heading "Gople Spot Light" [level=3] [ref=e2727]
+            - paragraph [ref=e2728]: Artemide
+      - generic [ref=e2731]:
+        - link "BIG NYC Office image | Bjarke Ingels Group" [ref=e2732] [cursor=pointer]:
+          - /url: /projects/big-nyc-office-14833
+          - generic [ref=e2733]:
+            - img "BIG NYC Office image | Bjarke Ingels Group"
+        - generic [ref=e2734]:
+          - img "BIG NYC Office icon | Bjarke Ingels Group" [ref=e2736]
+          - generic [ref=e2737]:
+            - heading "BIG NYC Office" [level=3] [ref=e2738]
+            - paragraph [ref=e2739]: Brooklyn, United States
+      - generic [ref=e2742]:
+        - link "Port Kembla Masterplan image | Bjarke Ingels Group" [ref=e2743] [cursor=pointer]:
+          - /url: /projects/port-kembla-masterplan-17485
+          - generic [ref=e2744]:
+            - img "Port Kembla Masterplan image | Bjarke Ingels Group"
+        - generic [ref=e2745]:
+          - img "Port Kembla Masterplan icon | Bjarke Ingels Group" [ref=e2747]
+          - generic [ref=e2748]:
+            - heading "Port Kembla Masterplan" [level=3] [ref=e2749]
+            - paragraph [ref=e2750]: ", Australia"
+      - generic [ref=e2753]:
+        - link "Knop Lamps image | Bjarke Ingels Group" [ref=e2754] [cursor=pointer]:
+          - /url: /projects/knop-lamps-19109
+          - generic [ref=e2755]:
+            - img "Knop Lamps image | Bjarke Ingels Group"
+        - generic [ref=e2756]:
+          - img "Knop Lamps icon | Bjarke Ingels Group" [ref=e2758]
+          - generic [ref=e2759]:
+            - heading "Knop Lamps" [level=3] [ref=e2760]
+            - paragraph [ref=e2761]: ","
+      - generic [ref=e2764]:
+        - link "Smart Lock System image | Bjarke Ingels Group" [ref=e2765] [cursor=pointer]:
+          - /url: /projects/__trashed-11-11858
+          - generic [ref=e2766]:
+            - img "Smart Lock System image | Bjarke Ingels Group"
+        - generic [ref=e2767]:
+          - img "Smart Lock System icon | Bjarke Ingels Group" [ref=e2769]
+          - generic [ref=e2770]:
+            - heading "Smart Lock System" [level=3] [ref=e2771]
+            - paragraph [ref=e2772]: ","
+      - generic [ref=e2775]:
+        - link "I AM MSHRM Pavilion image | Bjarke Ingels Group" [ref=e2776] [cursor=pointer]:
+          - /url: /projects/i-am-mshrm-pavilion-16011
+          - generic [ref=e2777]:
+            - img "I AM MSHRM Pavilion image | Bjarke Ingels Group"
+        - generic [ref=e2778]:
+          - img "I AM MSHRM Pavilion icon | Bjarke Ingels Group" [ref=e2780]
+          - generic [ref=e2781]:
+            - heading "I AM MSHRM Pavilion" [level=3] [ref=e2782]
+            - paragraph [ref=e2783]: Copenhagen, Denmark
+      - generic [ref=e2786]:
+        - link "Ø4 Beach Huts image | Bjarke Ingels Group" [ref=e2787] [cursor=pointer]:
+          - /url: /projects/o4-beach-huts-2794
+          - generic [ref=e2788]:
+            - img "Ø4 Beach Huts image | Bjarke Ingels Group"
+        - generic [ref=e2789]:
+          - img "Ø4 Beach Huts icon | Bjarke Ingels Group" [ref=e2791]
+          - generic [ref=e2792]:
+            - heading "Ø4 Beach Huts" [level=3] [ref=e2793]
+            - paragraph [ref=e2794]: Aarhus, Denmark
+      - generic [ref=e2797]:
+        - link "Google Caribbean image | Bjarke Ingels Group" [ref=e2798] [cursor=pointer]:
+          - /url: /projects/google-caribbean-3648
+          - generic [ref=e2799]:
+            - img "Google Caribbean image | Bjarke Ingels Group"
+        - generic [ref=e2800]:
+          - img "Google Caribbean icon | Bjarke Ingels Group" [ref=e2802]
+          - generic [ref=e2803]:
+            - heading "Google Caribbean" [level=3] [ref=e2804]
+            - paragraph [ref=e2805]: Sunnyvale, United States
+      - generic [ref=e2808]:
+        - link "Uppsala Power Plant image | Bjarke Ingels Group" [ref=e2809] [cursor=pointer]:
+          - /url: /projects/uppsala-power-plant-5978
+          - generic [ref=e2810]:
+            - img "Uppsala Power Plant image | Bjarke Ingels Group"
+        - generic [ref=e2811]:
+          - img "Uppsala Power Plant icon | Bjarke Ingels Group" [ref=e2813]
+          - generic [ref=e2814]:
+            - heading "Uppsala Power Plant" [level=3] [ref=e2815]
+            - paragraph [ref=e2816]: Uppsala, Sweden
+      - generic [ref=e2819]:
+        - link "A Million Times 96 image | Bjarke Ingels Group" [ref=e2820] [cursor=pointer]:
+          - /url: /projects/a-million-times-96-22407
+          - generic [ref=e2821]:
+            - img "A Million Times 96 image | Bjarke Ingels Group"
+        - generic [ref=e2822]:
+          - img "A Million Times 96 icon | Bjarke Ingels Group" [ref=e2824]
+          - generic [ref=e2825]:
+            - heading "A Million Times 96" [level=3] [ref=e2826]
+            - paragraph [ref=e2827]: ","
+      - generic [ref=e2830]:
+        - link "EDGE East Side Berlin image | Bjarke Ingels Group" [ref=e2831] [cursor=pointer]:
+          - /url: /projects/edge-east-side-berlin-23193
+          - generic [ref=e2832]:
+            - img "EDGE East Side Berlin image | Bjarke Ingels Group"
+        - generic [ref=e2833]:
+          - img "EDGE East Side Berlin icon | Bjarke Ingels Group" [ref=e2835]
+          - generic [ref=e2836]:
+            - heading "EDGE East Side Berlin" [level=3] [ref=e2837]
+            - paragraph [ref=e2838]: Berlin, Germany
+      - generic [ref=e2841]:
+        - link "Materialism image | Bjarke Ingels Group" [ref=e2842] [cursor=pointer]:
+          - /url: /projects/materialism-22844
+          - generic [ref=e2843]:
+            - img "Materialism image | Bjarke Ingels Group"
+        - generic [ref=e2844]:
+          - img "Materialism icon | Bjarke Ingels Group" [ref=e2846]
+          - generic [ref=e2847]:
+            - heading "Materialism" [level=3] [ref=e2848]
+            - paragraph [ref=e2849]: Suzhou, China
+    - contentinfo [ref=e2850]:
+      - generic [ref=e2851]:
+        - generic [ref=e2852]:
+          - radio
+          - heading "Email +" [level=4] [ref=e2853] [cursor=pointer]:
+            - text: Email
+            - generic [ref=e2854]: +
+          - generic:
+            - generic: NEW PROJECTS
+            - link "newbiz@big.dk":
+              - /url: mailto:newbiz@big.dk
+            - generic: PRESS
+            - link "press@big.dk":
+              - /url: mailto:press@big.dk
+            - generic: LECTURES
+            - link "lectures@big.dk":
+              - /url: mailto:lectures@big.dk
+            - generic: EXHIBITIONS
+            - link "exhibitions@big.dk":
+              - /url: mailto:exhibitions@big.dk
+        - generic [ref=e2855]:
+          - radio
+          - heading "Office +" [level=4] [ref=e2856] [cursor=pointer]:
+            - text: Office
+            - generic [ref=e2857]: +
+          - generic:
+            - generic:
+              - radio
+              - generic: Copenhagen
+              - paragraph:
+                - text: Sundkaj 165
+                - text: 2150, Nordhavn
+                - link:
+                  - /url: https://goo.gl/maps/R1pmtHqp4Gkqsjtz8
+                - text: Copenhagen, DK
+                - text: +45 7221 7227
+                - text: +45 3512 7227
+                - link "cph@big.dk":
+                  - /url: mailto:cph@big.dk
+            - generic:
+              - radio
+              - generic: London
+              - paragraph:
+                - text: 1 Finsbury Avenue
+                - text: London EC2M 2PF
+                - text: United Kingdom
+                - text: +44 20 3735 4996
+                - link "lon@big.dk":
+                  - /url: mailto:lon@big.dk
+            - generic:
+              - radio
+              - generic: Barcelona
+              - paragraph:
+                - text: Ronda de Sant Pere, 56 Bajos
+                - text: 08010 Barcelona
+                - text: Spain
+                - text: +34 610 029 747
+                - link "bcn@big.dk":
+                  - /url: mailto:bcn@big.dk
+            - generic:
+              - radio
+              - generic: New York
+              - paragraph:
+                - text: 45 Main Street, 9th Floor
+                - text: Brooklyn, NY 11201
+                - text: United States
+                - text: +1 347 549 4141
+                - text: +1 866 738 4336
+                - link "nyc@big.dk":
+                  - /url: mailto:nyc@big.dk
+            - generic:
+              - radio
+              - generic: Shanghai
+              - paragraph:
+                - generic:
+                  - generic:
+                    - text: 363 Chang Ping Road, FL 6
+                    - text: Jing An District, Shanghai
+                - text: China
+                - text: +86 180 1923 8903
+                - link "sha@big.dk":
+                  - /url: mailto:sha@big.dk
+            - generic:
+              - radio
+              - generic: Los Angeles
+              - paragraph:
+                - text: 310 Wilshire Boulevard,
+                - text: 2nd floor
+                - text: Santa Monica, 90401
+                - text: California
+                - generic: +1 310 692 7280
+                - link "lax@big.dk":
+                  - /url: mailto:lax@big.dk
+            - generic:
+              - radio
+              - generic: Zürich
+              - paragraph:
+                - text: Planergemeinschaft Raumfachwerk
+                - text: Flughafenstrasse 90
+                - text: 8302 Kloten
+                - text: Switzerland
+                - link "bigzrh@big.dk":
+                  - /url: mailto:bigzrh@big.dk
+            - generic:
+              - radio
+              - generic: Riyadh
+              - paragraph:
+                - generic:
+                  - text: King Abdullah Financial District
+                  - text: Innovation Blvd – Building 4.07
+                  - text: Riyadh 13519
+                  - text: Kingdom of Saudi Arabia
+                  - link "ksa@big.dk":
+                    - /url: mailto:ksa@big.dk
+        - generic [ref=e2858]:
+          - radio
+          - heading "Social +" [level=4] [ref=e2859] [cursor=pointer]:
+            - text: Social
+            - generic [ref=e2860]: +
+          - generic:
+            - link "Instagram":
+              - /url: https://www.instagram.com/big_builds/
+              - text: Instagram
+              - img
+            - link "X":
+              - /url: https://x.com/BIG_Architects
+              - text: X
+              - img
+            - link "LinkedIn":
+              - /url: https://www.linkedin.com/company/bjarke-ingels-group/
+              - text: LinkedIn
+              - img
+            - link "Vimeo":
+              - /url: https://vimeo.com/user1395824
+              - text: Vimeo
+              - img
+            - link "Facebook":
+              - /url: https://www.facebook.com/bjarke.ingels.group
+              - text: Facebook
+              - img
+            - link "Bjarke Ingels Group WeChat QR Code":
+              - /url: https://weixin.qq.com/r/GjlRSUbEmhvlrQIq92wI
+              - img "Bjarke Ingels Group WeChat QR Code"
+        - generic [ref=e2861]:
+          - radio
+          - heading "Legal +" [level=4] [ref=e2862] [cursor=pointer]:
+            - text: Legal
+            - generic [ref=e2863]: +
+          - generic:
+            - link "BIG’s Anti-Slavery and Human Trafficking Statement 2018":
+              - /url: https://media.big.dk/2024/01/BIGs-anti-slavery-and-human-trafficking-statement-2018.pdf
+            - link "BIG’s Privacy Policy 2024":
+              - /url: https://media.big.dk/privacy-policy-bigdk.pdf
+            - link "BIG UN Global Compact Report":
+              - /url: https://www.unglobalcompact.org/participation/report/cop/create-and-submit/active/446079
+            - link "BIG’s Annual Sustainability Report, 2023":
+              - /url: https://media.big.dk/2024/06/240603-ANNUAL-SUSTAINABILITY-REPORT-2023.pdf
+            - link "Whistleblower Policy":
+              - /url: /whistleblower-policy
+      - button "Back to top" [ref=e2864] [cursor=pointer]

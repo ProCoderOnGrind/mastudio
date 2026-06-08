@@ -1,0 +1,1744 @@
+- generic [ref=e1]:
+  - generic:
+    - img
+  - generic [ref=e1625]:
+    - checkbox [checked] [active]
+    - generic [ref=e2] [cursor=pointer]:
+      - img
+    - navigation [ref=e1626]:
+      - link "Projects" [ref=e1627] [cursor=pointer]:
+        - /url: /
+      - link "News" [ref=e1628] [cursor=pointer]:
+        - /url: /news
+      - link "About" [ref=e1629] [cursor=pointer]:
+        - /url: /about
+      - link "Sustainability" [ref=e1630] [cursor=pointer]:
+        - /url: /sustainability
+      - link "People" [ref=e1631] [cursor=pointer]:
+        - /url: /people
+      - link "Careers" [ref=e1632] [cursor=pointer]:
+        - /url: /careers
+      - generic [ref=e1633] [cursor=pointer]: Contact
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic:
+        - link "News" [ref=e5] [cursor=pointer]:
+          - /url: /news
+        - link "Events" [ref=e6] [cursor=pointer]:
+          - /url: /news/events
+        - link "Awards" [ref=e7] [cursor=pointer]:
+          - /url: /news/awards
+        - link "Lectures" [ref=e8] [cursor=pointer]:
+          - /url: /news/lectures
+      - heading "News" [level=1] [ref=e9]
+      - generic [ref=e10]:
+        - article [ref=e11]:
+          - generic [ref=e12]: 03.06.2026
+          - img "BIG UNVEILS EVE MUSIC HALL AS CONSTRUCTION NEARS COMPLETION IN EASTERN CROATIA | Bjarke Ingels Group" [ref=e14]
+          - generic [ref=e15]:
+            - heading "BIG UNVEILS EVE MUSIC HALL AS CONSTRUCTION NEARS COMPLETION IN EASTERN CROATIA" [level=2] [ref=e16]
+            - generic [ref=e18]:
+              - paragraph [ref=e19]: BIG unveiled the vision for EVE Music Hall during an event on site in eastern Croatia, where guests were invited to experience the building in progress and attend a special live performance by pianist Peter Bence. Expected to open in early 2027, EVE Music Hall is BIG’s first project in Croatia and is set to become the studio’s first completed music performance venue.
+              - paragraph [ref=e20]: The 10,000-m² venue will center on a live music venue, but also feature congress facilities, exhibition spaces, a café, and rooftop for events. Set among the agricultural landscapes of Slavonia, the building is composed of two distinct halls connected by a shared public foyer. Clad in slabs of local limestone, the facade drape toward the ground like theatrical curtains, framing entrances and revealing glimpses of the activity within, while suspended timber beams and mirrored surfaces shape the atmosphere of the interior.
+              - paragraph [ref=e21]: “The EVE Music Hall is conceived as a musical eruption on the infinite horizon of the Slavonian fields. Two concert halls, one big and one small, frame a public space between them. Facades of timber and stone are draped like fabrics, merging the verticality of the halls with the horizontality of the landscape. Slits in the stone curtains open up, inviting visitors to enter and explore. The main foyer is framed by the two mirror-clad walls of the concert halls, repeating the tent-like timber roof at infinity. The architectural whole is both functional and fantastical, like an architectural manifestation of utopian pragmatism. It is an embodiment of the almost oxymoronic contradiction of the bold ambition to build a regional cultural destination in the middle of the Slavonian countryside.” – Bjarke Ingels, Founder & Creative Director, BIG
+              - link "tportal.hr" [ref=e22] [cursor=pointer]:
+                - /url: https://www.tportal.hr/kultura/clanak/u-cepinu-se-stvara-najvece-privatno-ulaganje-u-kulturu-nova-dvorana-nosi-posebno-ime-foto-20260602#brid_ma_TargetVideo_80426979
+                - text: tportal.hr
+                - img [ref=e23]
+            - button "read more" [ref=e26] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e27]: +
+        - article [ref=e28]:
+          - generic [ref=e29]: 20.05.2026
+          - img "BIG’S TRACEY COFFIN AND PAULINE LAVIE-LUONG REFLECT ON 25 YEARS OF BIG DURING NEW YORK DESIGN WEEK | Bjarke Ingels Group" [ref=e31]
+          - generic [ref=e32]:
+            - heading "BIG’S TRACEY COFFIN AND PAULINE LAVIE-LUONG REFLECT ON 25 YEARS OF BIG DURING NEW YORK DESIGN WEEK" [level=2] [ref=e33]
+            - generic [ref=e35]:
+              - paragraph [ref=e36]:
+                - text: During this year’s DUMBO Design Day – a celebration of the creative Brooklyn neighborhood that over 160 architecture and design firms call home – Two Trees hosted a BIG-focused talk in honor of Phaidon’s new monograph,
+                - emphasis [ref=e37]: BIG Atlas
+                - text: . The conversation, moderated by Female Design Council Founder Lora Appleton and held on the rooftop of BIG’s New York City HQ, brought together BIG’s Technical Director Tracey Coffin and Director of Interiors and Associate Pauline Lavie-Luong to reflect on the firm’s built work, how Tracey and Pauline lead their respective teams, and their personal journeys at BIG.
+              - link "instagram.com" [ref=e38] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DY2KG7ME0X0/?img_index=1
+                - text: instagram.com
+                - img [ref=e39]
+            - button "read more" [ref=e42] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e43]: +
+        - article [ref=e44]:
+          - generic [ref=e45]: 19.05.2026
+          - img "‘150 BEST HOTELS IN SWITZERLAND’ GUIDE NAMES HÔTEL DES HORLOGERS HOTEL OF THE YEAR | Bjarke Ingels Group" [ref=e47]
+          - generic [ref=e48]:
+            - heading "‘150 BEST HOTELS IN SWITZERLAND’ GUIDE NAMES HÔTEL DES HORLOGERS HOTEL OF THE YEAR" [level=2] [ref=e49]
+            - generic [ref=e51]:
+              - paragraph [ref=e52]:
+                - text: Hôtel des Horlogers is named Hotel of the Year in this year’s
+                - emphasis [ref=e53]: 150 Best Hotels in Switzerland
+                - text: by Andrin Willi – the definitive guide to the Swiss hotels that stand out for exceptional service, gastronomy, and overall guest experience. Located in the Swiss Vallée de Joux, the 8,000-m2 hotel is the second collaboration between BIG and luxury watchmaker Audemars Piguet. Hôtel des Horlogers reimagines the region’s historic winding watchmakers’ trail, featuring tilting timber and concrete slabs that appear to zigzag through the valley and complement the natural surroundings. Amenities include a spa, conference center, and two restaurants overseen by three-Michelin-starred chef Emmanuel Renaut.
+              - link "bellevue.nzz.ch" [ref=e54] [cursor=pointer]:
+                - /url: https://bellevue.nzz.ch/promoted-content/andrin-willi-hotelrating-202627-hotel-des-jahres-wo-sich-die-welt-im-stillen-trifft-ld.1934648
+                - text: bellevue.nzz.ch
+                - img [ref=e55]
+            - button "read more" [ref=e58] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e59]: +
+        - article [ref=e60]:
+          - generic [ref=e61]: 06.05.2026
+          - img "EAST SIDE COASTAL RESILIENCY PROJECT WINS AIANY AND ASLANY TRANSPORTATION + INFRASTRUCTURE DESIGN EXCELLENCE AWARD | Bjarke Ingels Group" [ref=e63]
+          - generic [ref=e64]:
+            - heading "EAST SIDE COASTAL RESILIENCY PROJECT WINS AIANY AND ASLANY TRANSPORTATION + INFRASTRUCTURE DESIGN EXCELLENCE AWARD" [level=2] [ref=e65]
+            - generic [ref=e67]:
+              - paragraph [ref=e68]:
+                - paragraph [ref=e69]: AIANY and the New York chapter of the American Society of Landscape Architects (ASLA) have awarded the East Side Coastal Resiliency (ESCR) project the Transportation + Infrastructure Design Excellence Award. This awards program recognizes built and unbuilt projects for their design, innovation, and impact – raising awareness about the critical role that well-designed infrastructure plays in our cities, our communities, and our lives.
+              - paragraph [ref=e70]:
+                - paragraph [ref=e71]: Designed and developed under the leadership of the New York City Department of Design and Construction in collaboration with MNLA, One Architecture & Urbanism, AKRF, Lower East Side residents, and others, ESCR emerged from the U.S. Department of Housing and Urban Development’s Rebuild by Design competition. Designed to protect over 110,000 New Yorkers from future storms while strengthening the neighborhood’s connection to the East River, the ribbon of revitalized parkland along Manhattan’s east side combines flood protection such as barrier walls and sliding gates with amenities such as sports courts, grassy lawns, an open-air amphitheater, and pedestrian bridges.
+              - paragraph [ref=e72]:
+                - paragraph [ref=e73]: Large sections, including Stuyvesant Cove Park and the first phase of East River Park, are now open. The next phase of the project is slated to open in 2027.
+              - link "aiany.org" [ref=e74] [cursor=pointer]:
+                - /url: https://www.aiany.org/architecture/awards/aiany-aslany-transportation-infrastructure-design-excellence-awards-2026/
+                - text: aiany.org
+                - img [ref=e75]
+            - button "read more" [ref=e78] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e79]: +
+        - article [ref=e80]:
+          - generic [ref=e81]: 06.05.2026
+          - img "HER MAJESTY QUEEN MARGRETHE OF DENMARK PRESENTED WITH BIG’S VISION FOR THE NEW SANKT LUKAS HOSPICE &#038; LUKASHUSET | Bjarke Ingels Group" [ref=e83]
+          - generic [ref=e84]:
+            - heading "HER MAJESTY QUEEN MARGRETHE OF DENMARK PRESENTED WITH BIG’S VISION FOR THE NEW SANKT LUKAS HOSPICE & LUKASHUSET" [level=2] [ref=e85]
+            - generic [ref=e87]:
+              - paragraph [ref=e88]: "Her Majesty Queen Margrethe of Denmark visited the Sankt Lukas Foundation and to get insight into the Foundation’s hospice services and ambitions connected to the new hospice buildings designed by BIG and Creo Arkitekter. The new 8,500 m² palliative care center will house an outreach hospice team, Denmark’s first day hospice, and units for children, youth, and adults. With plans to care for approximately 2,100 patients annually, the two structures will more than triple current capacity, creating an environment guided by three core principles: safety and sense of home, solitude and togetherness, and arrival and farewell. Her Majesty Queen Margrethe has been patron of the Sankt Lukas Foundation since 2001, when she assumed the patronage from Queen Ingrid, continuing a royal connection that dates back to 1934."
+              - link "sanktlukas.dk" [ref=e89] [cursor=pointer]:
+                - /url: https://sanktlukas.dk/h-m-dronning-margrethe-besoegte-sankt-lukas-stiftelsen/
+                - text: sanktlukas.dk
+                - img [ref=e90]
+            - button "read more" [ref=e93] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e94]: +
+        - article [ref=e95]:
+          - generic [ref=e96]: 02.05.2026
+          - img "WILDFLOWER FILM STUDIOS SETS THE STAGE FOR NEW YORK DEBUT OF RARE SHADES PORSCHE EXHIBITION | Bjarke Ingels Group" [ref=e98]
+          - generic [ref=e99]:
+            - heading "WILDFLOWER FILM STUDIOS SETS THE STAGE FOR NEW YORK DEBUT OF RARE SHADES PORSCHE EXHIBITION" [level=2] [ref=e100]
+            - generic [ref=e102]:
+              - paragraph [ref=e103]:
+                - text: Rare Shades,
+                - emphasis [ref=e104]: Triple Zero Magazine
+                - text: ’s traveling exhibition that celebrates Porsche cars in unusual colors, made its New York debut at Wildflower Studios during New York Design Week. The Robert De Niro-led film studio, located in Astoria, Queens just minutes from Manhattan, is the world’s first vertical media production village, featuring 11 stacked soundstages, an elevated interior street, and oversized “elephant elevators” to accommodate large-scale equipment and sets. At the exhibition, the 760,000-sq-ft production facility was the backdrop for nearly 100 rare and historic Porsches, ranging from early air-cooled to modern GT models.
+              - link "newsroom.porsche.com" [ref=e105] [cursor=pointer]:
+                - /url: https://newsroom.porsche.com/en/2026/scene-passion/porsche-paint-colours-rare-shades-7-new-york-000-magazine-sonderwunsch-exclusive-manufaktur-42480.html
+                - text: newsroom.porsche.com
+                - img [ref=e106]
+            - button "read more" [ref=e109] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e110]: +
+        - article [ref=e111]:
+          - generic [ref=e112]: 02.05.2026
+          - img "BIG PARTNER AND HEAD OF LANDSCAPE GIULIA FRITTOLI ON THE PRINCIPLES BEHIND GELEPHU MINDFULNESS CITY IN BHUTAN | Bjarke Ingels Group" [ref=e114]
+          - generic [ref=e115]:
+            - heading "BIG PARTNER AND HEAD OF LANDSCAPE GIULIA FRITTOLI ON THE PRINCIPLES BEHIND GELEPHU MINDFULNESS CITY IN BHUTAN" [level=2] [ref=e116]
+            - generic [ref=e118]:
+              - paragraph [ref=e119]:
+                - paragraph [ref=e120]:
+                  - text: Bilbao-based newspaper
+                  - emphasis [ref=e121]: EL CORREO
+                  - text: has published a feature on Gelephu Mindfulness City, exploring the project as a new model for future cities. As part of the story, BIG Partner and Head of Landscape Giulia Frittoli discusses her approach to urbanism and the principles behind the project, including the use of local materials and a six-story building height limit designed to keep the city human-scaled and closely connected to its natural surroundings. She also reflects on the earliest meetings and visits to Bhutan, the idea of “mindfulness” as a guiding framework, and the broader ambition for the project to act as a catalyst for the rest of the country, while also serving as an inspiration for other developing nations.
+              - link "elcorreo.com" [ref=e122] [cursor=pointer]:
+                - /url: https://www.elcorreo.com/internacional/asia/ciudad-futuro-construye-butan-solo-rascacielos-20260503184109-ntrc.html
+                - text: elcorreo.com
+                - img [ref=e123]
+            - button "read more" [ref=e126] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e127]: +
+        - article [ref=e128]:
+          - generic [ref=e129]: 30.04.2026
+          - img "BIG ATLAS IS NOW AVAILABLE WORLDWIDE | Bjarke Ingels Group" [ref=e131]
+          - generic [ref=e132]:
+            - heading "BIG ATLAS IS NOW AVAILABLE WORLDWIDE" [level=2] [ref=e133]
+            - generic [ref=e135]:
+              - paragraph [ref=e136]:
+                - emphasis [ref=e137]: BIG Atlas
+                - text: ", the first comprehensive monograph of BIG’s completed work, is now available for purchase worldwide. Published by Phaidon, the book spans more than two decades of BIG’s practice, featuring over 50 built works – from the Copenhagen Harbor Bath to the recently opened NOT A HOTEL Setouchi – through 600+ photographs, plans, and drawings. The monograph features a foreword by Danish architect Kent Martinussen, an introduction by British architect and critic Joseph Grima, and an essay by Icelandic author Andri Snær Magnason."
+              - link "phaidon.com" [ref=e138] [cursor=pointer]:
+                - /url: https://www.phaidon.com/en-us/products/big-atlas?variant=47539247480932
+                - text: phaidon.com
+                - img [ref=e139]
+        - article [ref=e142]:
+          - generic [ref=e143]: 24.04.2026
+          - img "BIG CPH MANAGING DIRECTOR STINE SANDSTRØM CHRISTENSEN SPEAKS AT THE ANNUAL MEETING 2026 FOR THE DANISH ASSOCIATION OF ARCHITECTURAL FIRMS | Bjarke Ingels Group" [ref=e145]
+          - generic [ref=e146]:
+            - heading "BIG CPH MANAGING DIRECTOR STINE SANDSTRØM CHRISTENSEN SPEAKS AT THE ANNUAL MEETING 2026 FOR THE DANISH ASSOCIATION OF ARCHITECTURAL FIRMS" [level=2] [ref=e147]
+            - generic [ref=e149]:
+              - paragraph [ref=e150]:
+                - paragraph [ref=e151]: At the 2026 Annual Meeting hosted by the Danish Association of Architectural Firms in Copenhagen, BIG CPH Managing Director Stine Sandstrøm Christensen took part in a panel discussion on strengthening Danish architecture exports and expanding the industry’s international reach. Held at Copenhagen Distillery, the event brought together leaders from across the architecture sector to exchange perspectives on key transformations shaping the profession, including upcoming revisions to Denmark’s building regulations, the implications of a new national architecture policy for urban and rural development, and large-scale climate adaptation. As part of the session “Let Success Grow – More Architectural Firms Going Global”, Stine joined ADEPT partner, Simon Lyager Poulsen, and international business strategist and co-founder of Mork Kveiborg & Partners, Peter Mørk, to discuss how their respective firms have entered international markets and why the potential for further export growth remains strong.
+              - link "danskeark.dk" [ref=e152] [cursor=pointer]:
+                - /url: https://www.danskeark.dk/content/aarsmoede-2026-arkitektbranchen-under-forandring
+                - text: danskeark.dk
+                - img [ref=e153]
+            - button "read more" [ref=e156] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e157]: +
+        - article [ref=e158]:
+          - generic [ref=e159]: 22.04.2026
+          - img "BJARKE INGELS, VALENTINA CIUFFI, AND JOSEPH GRIMA REFLECT ON THE MAKING OF BIG ATLAS AT MILAN DESIGN WEEK | Bjarke Ingels Group" [ref=e161]
+          - generic [ref=e162]:
+            - heading "BJARKE INGELS, VALENTINA CIUFFI, AND JOSEPH GRIMA REFLECT ON THE MAKING OF BIG ATLAS AT MILAN DESIGN WEEK" [level=2] [ref=e163]
+            - generic [ref=e165]:
+              - paragraph [ref=e166]:
+                - text: Hosted as part of the VOCLA Talks series, BIG Founder and Creative Director Bjarke Ingels joined Alcova Co-Founders and
+                - emphasis [ref=e167]: BIG Atlas
+                - text: collaborators Valentina Ciuffi and Joseph Grima for a conversation celebrating
+                - emphasis [ref=e168]: BIG Atlas
+                - text: ", the first comprehensive monograph of BIG’s completed work. Held inside an industrial hangar at the Baggio Military Hospital, reimagined for Alcova during Milan Design Week, the talk detailed the editorial and creative journey behind bringing an over two-decade body of architectural work to the page."
+              - paragraph [ref=e169]: BIG Atlas is available for purchase through Phaidon.
+              - link "phaidon.com" [ref=e170] [cursor=pointer]:
+                - /url: https://www.phaidon.com/en-us/products/big-atlas?variant=47539247448164
+                - text: phaidon.com
+                - img [ref=e171]
+        - article [ref=e174]:
+          - generic [ref=e175]: 21.04.2026
+          - img "SPANISH MASTERCHEF VISITS THE GASTRONOMY OPEN ECOSYSTEM IN SAN SEBASTIÁN | Bjarke Ingels Group" [ref=e177]
+          - generic [ref=e178]:
+            - heading "SPANISH MASTERCHEF VISITS THE GASTRONOMY OPEN ECOSYSTEM IN SAN SEBASTIÁN" [level=2] [ref=e179]
+            - generic [ref=e181]:
+              - paragraph [ref=e182]:
+                - paragraph [ref=e183]:
+                  - generic [ref=e184]: In season 14 of the competitive cooking show, MasterChef Spain, the contestants take on a team challenge at the Gastronomy Open Ecosystem (GOe)
+                  - text: under the guidance of Michelin‑starred chef Pedro Subijana. Considered the world’s largest gastronomic innovation center, GOe extends San Sebastián’s dramatic landscape and cityscape, uniting chefs, researchers, and food entrepreneurs to advance culinary knowledge and create public spaces that engage the wider community. The Gastronomy Open Ecosystem opened in October 2025.
+              - link "rtve.es" [ref=e185] [cursor=pointer]:
+                - /url: https://www.rtve.es/play/videos/masterchef/temporada-14-programa-4/17029484/
+                - text: rtve.es
+                - img [ref=e186]
+            - button "read more" [ref=e189] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e190]: +
+        - article [ref=e191]:
+          - generic [ref=e192]: 20.04.2026
+          - img "BIG DESIGNS INSTALLATION FOR INTERNI’S ‘MATERIAE’ EXHIBITION AT THE 2026 SALONE DEL MOBILE | Bjarke Ingels Group" [ref=e194]
+          - generic [ref=e195]:
+            - heading "BIG DESIGNS INSTALLATION FOR INTERNI’S ‘MATERIAE’ EXHIBITION AT THE 2026 SALONE DEL MOBILE" [level=2] [ref=e196]
+            - generic [ref=e198]:
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph [ref=e199]:
+                - generic [ref=e200]: As part of Interni Magazine’s city-wide exhibition MATERIAE held during Salone del Mobile in Milan, BIG unveiled ‘Light Knot Progression’ – a continuous light installation at the Università degli Studi di Milano’s historic main campus. Spanning 30 m in length and constructed with 280 m of luminous profile, the work traces an unbroken line that crosses eleven arches, forming a sequence of nodes that grow in complexity as they progress. Realized with Italian light manufacturer Artemide, the collaboration marks over 10 years of partnership and reflects the design process as a journey interweaving relationships, ideas, and developments.
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - link "internimagazine.com" [ref=e201] [cursor=pointer]:
+                - /url: https://www.internimagazine.com/fuorisalone-2026-en/materiae-eng/big-con-artemide-light-knot-progression/
+                - text: internimagazine.com
+                - img [ref=e202]
+            - button "read more" [ref=e205] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e206]: +
+        - article [ref=e207]:
+          - generic [ref=e208]: 16.04.2026
+          - img "BIG, WILLIAM RAWN, AND HASTINGS UNVEIL DESIGN FOR NEW TENNESSEE PERFORMING ARTS CENTER | Bjarke Ingels Group" [ref=e210]
+          - generic [ref=e211]:
+            - heading "BIG, WILLIAM RAWN, AND HASTINGS UNVEIL DESIGN FOR NEW TENNESSEE PERFORMING ARTS CENTER" [level=2] [ref=e212]
+            - generic [ref=e214]:
+              - paragraph [ref=e215]: Neighboring Cumberland Park and Nissan Stadium, the new home of the Tennessee Performing Arts Center (TPAC) – designed by BIG and William Rawn Associates with HASTINGS Architecture – extends the vibrancy of downtown Nashville across the Cumberland River, emerging as a cultural anchor for the city’s reenergized East Bank. Supporting a range of artistic programming, the new TPAC includes four performance spaces clustered at its core – the multi-function Grand Broadway theater; a dance and opera hall; a flexible black box theater; and an intimate cabaret space – as well as rehearsal studios and classrooms. As TPAC transitions from its current location downtown, the 307,000-sq-ft center will become the home of the Nashville Ballet, Nashville Opera, and Nashville Repertory Theatre while creating venues for traveling Broadway shows, dance performances, and community events. Construction is expected to begin in 2027, with a projected opening in 2030.
+              - paragraph [ref=e216]:
+                - emphasis [ref=e217]: “The new home for the Tennessee Performing Arts Center is designed like an urban and cultural connection – between the east and west bank of the Cumberland River, between the old and the new Nashville, and between all of the performing arts. Visually, it bookends Broadway as a beacon from across the river, drawing the cultural life of downtown across to the East Bank. Designed to be welcoming on all sides, the center is accessible from above and below the bridge, making the lobby a cascading public space for the daily life of the neighborhood. The façade is composed of aluminum tubes bundled like organ pipes or steel chimes, undulating from vertical to horizontal to provide openings and canopies for the audience and performers passing through. The result is like a flowing public pavilion in the park that, as the new home for TPAC, provides the inclusive and inviting character that its program and performances deserve.”
+                - strong [ref=e218]: – Bjarke Ingels, Founder & Creative Director, BIG
+              - link "tpac.org" [ref=e219] [cursor=pointer]:
+                - /url: https://www.tpac.org/?gad_source=1&gad_campaignid=1495438510&gclid=CjwKCAjw7vzOBhBxEiwAc7WNr6t7IHHYHSJ-ivUOUyb6sjixLpVdfIMhW9m2MqqbidpBnoEf9xzggxoC_j0QAvD_BwE
+                - text: tpac.org
+                - img [ref=e220]
+            - button "read more" [ref=e223] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e224]: +
+        - article [ref=e225]:
+          - generic [ref=e226]: 15.04.2026
+          - 'img "ARTEMIS II: RETURN TO THE MOON DOCUMENTARY FEATURES PROJECT OLYMPUS | Bjarke Ingels Group" [ref=e228]'
+          - generic [ref=e229]:
+            - 'heading "ARTEMIS II: RETURN TO THE MOON DOCUMENTARY FEATURES PROJECT OLYMPUS" [level=2] [ref=e230]'
+            - generic [ref=e232]:
+              - paragraph [ref=e233]:
+                - text: In honor of the Artemis II space launch, PBS released
+                - emphasis [ref=e234]: "Artemis II: Return to the Moon"
+                - text: – a film that documents the NASA Artemis program’s mission to return humanity to the Moon for the first time since Apollo and establish a lunar space station for scientific and commercial exploration. The documentary follows the Artemis II crew as they embark on a 10-day journey to orbit the Moon. Among the concepts explored in the film is Project Olympus, a lunar habitat designed by BIG, ICON, SEArch+, and NASA that represents humanity’s first foray into extraterrestrial construction. Using ICON’s 3D printing technology and lunar regolith as the building material, the torus-shaped habitat is designed to accommodate four astronauts for up to a month at a time.
+              - link "youtube.com" [ref=e235] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=t8uucg1ajcU
+                - text: youtube.com
+                - img [ref=e236]
+            - button "read more" [ref=e239] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e240]: +
+        - article [ref=e241]:
+          - generic [ref=e242]: 15.04.2026
+          - img "BIG ASSOCIATE TOMAS MINÖR SPEAKS AT UMEÅ BUSINESS ARENA | Bjarke Ingels Group" [ref=e244]
+          - generic [ref=e245]:
+            - heading "BIG ASSOCIATE TOMAS MINÖR SPEAKS AT UMEÅ BUSINESS ARENA" [level=2] [ref=e246]
+            - generic [ref=e248]:
+              - paragraph [ref=e249]: At the 25th edition of Business Arena North in Stockholm – a meeting place for decision-makers in the real estate and community building sector – BIG Associate Tomas Minör took part in a panel discussion and presented a keynote on the main stage focused on sustainability and urban development. The panel discussion on Important Values in Contemporary Urban Development brought together CEO of Strawberry Living, Mattias Stengl; Partner & Interior Architect at Tengbom Stockholm, Nadia Tolstoy; and Land and Development Manager at Luleå Municipality, Roger Tuomas. Tomas’ keynote , Waterfront Urban Development in Aarhus – and Google’s office in California, provided an international perspective at the Stockholm event, highlighting BIG’s Aarhus Masterplan in Denmark and Google Bay View in California, USA.
+              - link "sw.bonniernewsevents.se" [ref=e250] [cursor=pointer]:
+                - /url: https://www.sw.bonniernewsevents.se/Business-Arena-Norr-2026/session/3909417/stadsutveckling-ii-vattenn%C3%A4ra-stadsutveckling-i-%C3%85rhus-och-googles-kontor-i-kalifornien
+                - text: sw.bonniernewsevents.se
+                - img [ref=e251]
+            - button "read more" [ref=e254] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e255]: +
+        - article [ref=e256]:
+          - generic [ref=e257]: 14.04.2026
+          - img "BJARKE INGELS AND AMY ASTLEY IN CONVERSATION AT THE GUGGENHEIM NEW YORK | Bjarke Ingels Group" [ref=e259]
+          - generic [ref=e260]:
+            - heading "BJARKE INGELS AND AMY ASTLEY IN CONVERSATION AT THE GUGGENHEIM NEW YORK" [level=2] [ref=e261]
+            - generic [ref=e263]:
+              - paragraph [ref=e264]:
+                - text: To celebrate the release of Phaidon’s new monograph,
+                - emphasis [ref=e265]: BIG Atlas
+                - text: ", BIG Founder and Creative Director Bjarke Ingels and"
+                - emphasis [ref=e266]: Architectural Digest
+                - text: Global Editorial Director and U.S. Editor-in-Chief Amy Astley sat down for a fireside chat at the Guggenheim’s Peter B. Lewis theater to reflect on two decades of BIG’s built work. The conversation touched on Bjarke’s core design philosophies including ‘utopian pragmatism’ and ‘hedonistic sustainability,’ as well as the stories behind several landmark projects within
+                - emphasis [ref=e267]: BIG Atlas
+                - text: ", such as CopenHill, the waste-to-energy power plant in Copenhagen; VIA 57 West, the pyramid-shaped residential building in New York City; and Bukken Bruse, Bjarke’s houseboat in Copenhagen."
+              - link "phaidon.com" [ref=e268] [cursor=pointer]:
+                - /url: https://www.phaidon.com/en-us/products/big-atlas?variant=47539247448164
+                - text: phaidon.com
+                - img [ref=e269]
+            - button "read more" [ref=e272] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e273]: +
+        - article [ref=e274]:
+          - generic [ref=e275]: 14.04.2026
+          - img "TATLER ASIA FEATURES SUZHOU MUSEUM OF CONTEMPORARY ART AMONG THE MOST MONUMENTAL MUSEUMS OF 2025 &#038; 2026 | Bjarke Ingels Group" [ref=e277]
+          - generic [ref=e278]:
+            - heading "TATLER ASIA FEATURES SUZHOU MUSEUM OF CONTEMPORARY ART AMONG THE MOST MONUMENTAL MUSEUMS OF 2025 & 2026" [level=2] [ref=e279]
+            - generic [ref=e281]:
+              - paragraph [ref=e282]: The Suzhou Museum of Contemporary Art has been featured in Tatler Asia among the most significant new museums of 2025 and 2026. Spanning seven cities, the list showcases monumental museums that redefine and signal a new era in cultural architecture. Located on Jinji Lake and covering 60,000 m², the museum is conceived as a reimagination of the traditional garden ‘lang’ 廊 – a long, covered corridor that traces a path. Twelve interconnected pavilions are unified beneath a continuous, ribbon-like roof whose gentle undulations recall the silhouette of tiled eaves. Clad in rippled and curved glass and warm-toned stainless steel, the façades reflect the surrounding sky, water, and gardens – blurring the boundaries between architecture and the natural environment.
+              - paragraph [ref=e283]: Suzhou MoCA soft opened in late 2025, with a grand inauguration scheduled for summer 2026.
+              - link "tatlerasia.com" [ref=e284] [cursor=pointer]:
+                - /url: https://www.tatlerasia.com/homes/architecture-design/museum-openings-2026
+                - text: tatlerasia.com
+                - img [ref=e285]
+            - button "read more" [ref=e288] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e289]: +
+        - article [ref=e290]:
+          - generic [ref=e291]: 13.04.2026
+          - img "GOOGLE BAY VIEW WINS DETAIL CONSTRUCTION AWARD | Bjarke Ingels Group" [ref=e293]
+          - generic [ref=e294]:
+            - heading "GOOGLE BAY VIEW WINS DETAIL CONSTRUCTION AWARD" [level=2] [ref=e295]
+            - generic [ref=e297]:
+              - paragraph [ref=e298]: The Detail Construction Award, an architecture prize launched by DETAIL Magazine in 2025, honors the best building constructions in the fields of facades, roofs, renovation, structural engineering, and interiors. Google Bay View, designed by BIG and Heatherwick Studio, was awarded as the winner in the 2025 “Roof” category by DETAIL readers via online vote.
+              - paragraph [ref=e299]: As Google’s first-ever ground-up campus, Google Bay View brings three new buildings, 20 acres of open space, a 1,000-person event center, and 240 staff apartments to Silicon Valley. The three buildings feature a first-of-its-kind “dragonscale” solar skin roof equipped with 50,000 silver solar panels that generate a total of nearly seven megawatts of energy. The buildings’ long-span canopy rests on cruciform columns, allowing the entire workspace to be open and connected while also relaying services from the solar roof above.
+              - link "detail.de" [ref=e300] [cursor=pointer]:
+                - /url: https://www.detail.de/de_en/detail-construction-award-das-sind-die-gewinner-der-leserpreise
+                - text: detail.de
+                - img [ref=e301]
+            - button "read more" [ref=e304] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e305]: +
+        - article [ref=e306]:
+          - generic [ref=e307]: 12.04.2026
+          - img "NEW YORK CITY PLANNING COMMISSION APPROVES PLANS FOR 175 THIRD STREET | Bjarke Ingels Group" [ref=e309]
+          - generic [ref=e310]:
+            - heading "NEW YORK CITY PLANNING COMMISSION APPROVES PLANS FOR 175 THIRD STREET" [level=2] [ref=e311]
+            - generic [ref=e313]:
+              - paragraph [ref=e314]: The New York City Planning Commission has approved plans for 175 Third Street, a 27-story mixed-use tower in Gowanus, Brooklyn designed by BIG and dencityworks. Developed by Charney Companies and Tavros, the building will span over one million square feet and house more than 1,000 apartments – roughly 250 of which will be affordable – as well as a 28,000-sq-ft public park designed by Field Operations in collaboration with the NYC Department of Parks & Recreation. The building steps in a series of cascading concrete volumes, connecting on the east side to form a descending U-shape opening towards the Gowanus Canal. The horseshoe geometry maximizes access to light, air, and outdoor space, carving out room for the park, an internal courtyard, and a sequence of rooftop terraces.
+              - link "newyorkyimby.com" [ref=e315] [cursor=pointer]:
+                - /url: https://newyorkyimby.com/2026/04/plans-approved-for-1000-unit-development-at-175-third-street-in-gowanus-brooklyn.html
+                - text: newyorkyimby.com
+                - img [ref=e316]
+            - button "read more" [ref=e319] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e320]: +
+        - article [ref=e321]:
+          - generic [ref=e322]: 02.04.2026
+          - img "VISIONARY HOSPITALITY COMPANY ‘NOT A HOTEL’ OPENS THREE VILLAS DESIGNED BY BIG ON SAGISHIMA ISLAND’S HILLSIDE IN JAPAN | Bjarke Ingels Group" [ref=e324]
+          - generic [ref=e325]:
+            - heading "VISIONARY HOSPITALITY COMPANY ‘NOT A HOTEL’ OPENS THREE VILLAS DESIGNED BY BIG ON SAGISHIMA ISLAND’S HILLSIDE IN JAPAN" [level=2] [ref=e326]
+            - generic [ref=e328]:
+              - paragraph [ref=e329]: NOT A HOTEL has opened its newest property, NOT A HOTEL Setouchi, on Japan’s remote island of Sagishima. Designed by BIG, the resort is carved into the 30,000-m2 site’s mountainous terrain, surrounded by the Seto Inland Sea. The four-bedroom villas and beach terrace restaurant – named ’90,’ ‘180’, ‘270,’ and ‘360’ depending on location and corresponding views – are made of soil directly from the site using the traditional rammed earth technique.
+              - paragraph [ref=e330]:
+                - emphasis [ref=e331]: “NOT A HOTEL Setouchi are our first completed buildings in Japan, a culture that has had a profound impact on myself and my understanding of architecture; a place where fearless Futurism and deep traditional roots coexist in contrasting harmony. It has been an absolute architectural adventure to work with NOT A HOTEL to make this vision come to life.
+              - paragraph [ref=e332]:
+                - emphasis [ref=e333]: The archipelago around Sagishima is like a Japanese landscape painting. Steep rolling hills covered in lush green vegetation erupt from the tranquility of the Seto Inland Sea. The four pavilions are conceived as extensions of the dramatic topography. Hilltops and peninsulas, outcroppings and canyons are outlined by rammed earth walls and solar roofs to provide pavilions with 360-, 270-, 180-, and 90-degree views of the surrounding scenery. On one hand, each home is like an inhabited view, open and extroverted. On the other, their spinal walls outline a private and protected space – open only to the sky. Macrocosmos meets microcosmos, traditional meets modern; Scandinavian and Japanese, the villas are architectural oxymorons embodying seemingly contradictory elements into a holistic hospitable whole.”
+                - strong [ref=e334]: – Bjarke Ingels, Founder and Creative Director, BIG
+              - link "notahotel.com" [ref=e335] [cursor=pointer]:
+                - /url: https://notahotel.com/en/properties/setouchi
+                - text: notahotel.com
+                - img [ref=e336]
+            - button "read more" [ref=e339] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e340]: +
+        - article [ref=e341]:
+          - generic [ref=e342]: 26.03.2026
+          - img "BIG CO-HOSTS FACADES+ NYC WITH THE ARCHITECT’S NEWSPAPER | Bjarke Ingels Group" [ref=e344]
+          - generic [ref=e345]:
+            - heading "BIG CO-HOSTS FACADES+ NYC WITH THE ARCHITECT’S NEWSPAPER" [level=2] [ref=e346]
+            - generic [ref=e348]:
+              - paragraph [ref=e349]:
+                - text: This year’s Facades+ NYC brought together leaders in building enclosure design and technology for a two-day conference co-hosted by BIG and
+                - emphasis [ref=e350]: The Architect’s Newspaper
+                - text: . Spearheaded by NYC Partner Kai-Uwe Bergmann, Director of Enclosures Margaret Tyrpa, and Director of Specifications Ben Caldwell, the conference included a symposium surrounding the theme of materiality, as well as a methods and materials expo, workshops, and networking opportunities. More than 53 speakers participated in the conference, with Kai-Uwe delivering the keynote speech and BIG Senior Architect Christina Papadopoulou, Associate Jason Wu, and Senior Urban & Architectural Designer Einat Lubliner moderating panel discussions.
+              - link "facadesplus.com" [ref=e351] [cursor=pointer]:
+                - /url: https://facadesplus.com/nyc26/
+                - text: facadesplus.com
+                - img [ref=e352]
+            - button "read more" [ref=e355] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e356]: +
+        - article [ref=e357]:
+          - generic [ref=e358]: 20.03.2026
+          - img "BJARKE INGELS SPOTLIT IN BLOOMBERG BUSINESSWEEK | Bjarke Ingels Group" [ref=e360]
+          - generic [ref=e361]:
+            - heading "BJARKE INGELS SPOTLIT IN BLOOMBERG BUSINESSWEEK" [level=2] [ref=e362]
+            - generic [ref=e364]:
+              - paragraph [ref=e365]: Bloomberg Businessweek’s ‘A Walk With’ series, which highlights “the most interesting people in business,” features an episode on BIG’s Founder and Creative Director Bjarke Ingels. Capturing the energy of BIG’s NYC studio, the video follows Bjarke as he takes viewers through the workspace, archives, and neighboring Brooklyn Bridge Park. Along the way, he reflects on BIG’s oeuvre while discussing how architecture responds to economic uncertainty, politics, and climate events.
+              - link "bloomberg.com" [ref=e366] [cursor=pointer]:
+                - /url: https://www.bloomberg.com/news/videos/2026-03-20/bjarke-ingels-rethinks-architecture-for-a-changing-world-video
+                - text: bloomberg.com
+                - img [ref=e367]
+            - button "read more" [ref=e370] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e371]: +
+        - article [ref=e372]:
+          - generic [ref=e373]: 20.03.2026
+          - img "SHAKIRA ANNOUNCES MADRID RESIDENCY AT BIG-DESIGNED SHAKIRA STADIUM AT MACONDO PARK | Bjarke Ingels Group" [ref=e375]
+          - generic [ref=e376]:
+            - heading "SHAKIRA ANNOUNCES MADRID RESIDENCY AT BIG-DESIGNED SHAKIRA STADIUM AT MACONDO PARK" [level=2] [ref=e377]
+            - generic [ref=e379]:
+              - paragraph [ref=e380]: BIG has been chosen to design Shakira Stadium at Macondo Park, the venue for the global pop star’s residency in Madrid. Set on the site of the Iberdrola Music venue and able to hold over 50,000 fans, Shakira Stadium is conceived as a dynamic environment active before, during, and after each show – standing as an alternative to the traditional stadium, which often sits dormant in between events.
+              - paragraph [ref=e381]: Colorful, curvilinear paths draped in recycled fabrics guide visitors through layered public spaces that unfold across the site, including areas for artisan markets, culinary experiences, children’s zones, and more. Surrounding the stadium, green islands inspired by the landscapes of Spain and Latin America extend the energy of the stage outward into the venue and beyond. As an immersive expression of contemporary Latin identity, Macondo Park celebrates music, culture, and human connection in one living landscape.
+              - link "lavanguardia.com" [ref=e382] [cursor=pointer]:
+                - /url: https://www.lavanguardia.com/gente/20260320/11494953/que-misterioso-estadio-shakira-cantante-actuara-madrid.html
+                - text: lavanguardia.com
+                - img [ref=e383]
+            - button "read more" [ref=e386] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e387]: +
+        - article [ref=e388]:
+          - generic [ref=e389]: 15.03.2026
+          - img "GALERIES LAFAYETTE TAKES CENTER STAGE IN OSCAR-WINNING FILM “TWO PEOPLE EXCHANGING SALIVA” | Bjarke Ingels Group" [ref=e391]
+          - generic [ref=e392]:
+            - heading "GALERIES LAFAYETTE TAKES CENTER STAGE IN OSCAR-WINNING FILM “TWO PEOPLE EXCHANGING SALIVA”" [level=2] [ref=e393]
+            - generic [ref=e395]:
+              - paragraph [ref=e396]:
+                - text: Galeries Lafayette Champs Elysees, the Paris concept store designed by BIG, serves as the backdrop for
+                - emphasis [ref=e397]: Two People Exchanging Saliva
+                - text: ", the dystopian short film by Natalie Musteata and Alexandre Singh that won an Oscar at the 2026 Academy Awards. The 6,800-m2 store is housed in a former Art Deco bank building from 1932, which was carefully uncovered and restored by BIG. Standing as the largest store on the famed Parisian boulevard, the four-story department store’s design pays tribute to the tactility and texture of the historic building, with new gallery-like spaces washed in an abundance of daylight."
+              - link "youtube.com" [ref=e398] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=RuOEEu--j2Y
+                - text: youtube.com
+                - img [ref=e399]
+            - button "read more" [ref=e402] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e403]: +
+        - article [ref=e404]:
+          - generic [ref=e405]: 13.03.2026
+          - img "BLOOMBERG SPOTLIGHTS THE EAST SIDE COASTAL RESILIENCY PROJECT IN NEW YORK | Bjarke Ingels Group" [ref=e407]
+          - generic [ref=e408]:
+            - heading "BLOOMBERG SPOTLIGHTS THE EAST SIDE COASTAL RESILIENCY PROJECT IN NEW YORK" [level=2] [ref=e409]
+            - generic [ref=e411]:
+              - paragraph [ref=e412]: The East Side Coastal Resiliency (ESCR) project – a 2.5-mile stretch of flood and storm protection along the East River in Manhattan – is highlighted in a Bloomberg story tracing the project’s history back to the U.S. Department of Housing and Urban Development’s Rebuild by Design competition in the wake of Hurricane Sandy. In the feature, reporter James Russell speaks with many voices involved in the project, including BIG Associate Jeremy Siegel; Matthijs Bouw, founder of One Architecture & Urbanism; Eric Ilijevich, Director of Coastal Resiliency at New York City’s Department of Design and Construction; and Molly Bourne, Partner at Mathews Nielsen Landscape Architects (MNLA).
+              - paragraph [ref=e413]: ESCR is designed by BIG, MNLA, ONE Architecture & Urbanism, and AKRF in collaboration with residents of the Lower East Side. The project weaves together flood barrier walls and gates, bridging berms, and pedestrian bridges with open lawns, picnic areas, tennis and basketball courts, and other amenities – building social infrastructure alongside a more resilient waterfront. Sections of the project are now open, with the remainder slated to open in 2027.
+              - link "bloomberg.com" [ref=e414] [cursor=pointer]:
+                - /url: https://www.bloomberg.com/news/features/2026-03-13/nyc-s-1-45-billion-bet-to-buy-time-for-flood-prone-manhattan
+                - text: bloomberg.com
+                - img [ref=e415]
+            - button "read more" [ref=e418] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e419]: +
+        - article [ref=e420]:
+          - generic [ref=e421]: 12.03.2026
+          - img "SENIOR ARCHITECT LUIS DELGADO JOINS PANEL ON BARCELONA’S URBAN IDENTITY AT ZAK WORLD OF FACADES | Bjarke Ingels Group" [ref=e423]
+          - generic [ref=e424]:
+            - heading "SENIOR ARCHITECT LUIS DELGADO JOINS PANEL ON BARCELONA’S URBAN IDENTITY AT ZAK WORLD OF FACADES" [level=2] [ref=e425]
+            - generic [ref=e427]:
+              - paragraph [ref=e428]:
+                - paragraph [ref=e429]:
+                  - text: At the 208
+                  - superscript [ref=e430]: th
+                  - text: "edition of Zak World of Façades, BIG Senior Architect Luis Delgado took part in the panel conversation “Facades in 21st Century Barcelona: Identity, Innovation and Sustainability for the Future”. The panel brought together Partner of Societat Organica, Albert Sagrera Cuscó, Technical Director of Talleres Inox, Jordi Vila Alsina, Co-Founder of DOS54, Maria Cedó, and Partner and Director of Technology at b720 Fermín Vázquez Arquitectos, Pablo Garrido, to discuss the architectural identity between Barcelona’s architectural heritage and the new demands of the urban landscape. The event brought together architects, engineers, and façade specialists, showcasing and exploring sustainable innovations and the latest technological solutions."
+              - link "zakworldoffacades.com" [ref=e431] [cursor=pointer]:
+                - /url: https://zakworldoffacades.com/event/208th-zwof-bar26/
+                - text: zakworldoffacades.com
+                - img [ref=e432]
+            - button "read more" [ref=e435] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e436]: +
+        - article [ref=e437]:
+          - generic [ref=e438]: 12.03.2026
+          - img "GOOGLE NAMES NEW LONDON HEADQUARTERS ‘PLATFORM 37,’ WITH GOOGLERS MOVING IN THIS SUMMER | Bjarke Ingels Group" [ref=e440]
+          - generic [ref=e441]:
+            - heading "GOOGLE NAMES NEW LONDON HEADQUARTERS ‘PLATFORM 37,’ WITH GOOGLERS MOVING IN THIS SUMMER" [level=2] [ref=e442]
+            - generic [ref=e444]:
+              - paragraph [ref=e445]: Google has unveiled the name for its landmark new London building, Platform 37, as a nod to its neighbor, King’s Cross railway station, and “Move 37” – a pivotal play made in the legendary AlphaGo vs. Lee Sae Dol ‘Go’ match in 2016. The 11-storey building will house employees from DeepMind, Google’s AI research lab, and other Google teams starting in summer 2026.
+              - paragraph [ref=e446]: The design for the ground up building in London’s King’s Cross neighborhood is rooted in the local character of the area, creating continuously cascading work environments that connect Googlers across multiple floors. By opening up the ground floor and activating the roofscape, the light and airy workspaces are sandwiched between terraced gardens on the roof, and the AI Exchange, a public space for exploring and discussing AI, on the ground. Designed with low-carbon construction materials that reduce the carbon impact of the building by 20%, Platform 37 supports Google as the company works toward a more sustainable future.
+              - link "blog.google" [ref=e447] [cursor=pointer]:
+                - /url: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/platform-37-the-ai-exchange/
+                - text: blog.google
+                - img [ref=e448]
+            - button "read more" [ref=e451] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e452]: +
+        - article [ref=e453]:
+          - generic [ref=e454]: 10.03.2026
+          - img "BIG DESIGNS IPERBOLE FOR ARTEMIDE | Bjarke Ingels Group" [ref=e456]
+          - generic [ref=e457]:
+            - heading "BIG DESIGNS IPERBOLE FOR ARTEMIDE" [level=2] [ref=e458]
+            - generic [ref=e460]:
+              - paragraph [ref=e461]:
+                - paragraph [ref=e462]: Italian lighting brand Artemide has launched Iperbole, a suspension lamp designed around a geometric principle in collaboration with BIG’s team of product designers. Named after the hyperbola – a curve created when a cone is cut at an angle – the design uses simple geometric modules that can function as individual elements or be combined to create larger compositions of light arranged in straight lines, curved forms or closed loops. Made from thin, turned aluminum, the lamp is lightweight and features an aspheric lens at its centre, which distributes light evenly and comfortably while helping to reduce glare.
+              - link "artemide.com" [ref=e463] [cursor=pointer]:
+                - /url: https://www.artemide.com/en/subfamily/4746507/iperbole
+                - text: artemide.com
+                - img [ref=e464]
+            - button "read more" [ref=e467] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e468]: +
+        - article [ref=e469]:
+          - generic [ref=e470]: 10.03.2026
+          - img "LIVE NATION TAPS BIG FOR A NEW MUSIC VENUE IN DOWNTOWN BENTONVILLE | Bjarke Ingels Group" [ref=e472]
+          - generic [ref=e473]:
+            - heading "LIVE NATION TAPS BIG FOR A NEW MUSIC VENUE IN DOWNTOWN BENTONVILLE" [level=2] [ref=e474]
+            - generic [ref=e476]:
+              - paragraph [ref=e477]: Live Nation announced plans for a new 2,500-capacity music venue in the heart of downtown Bentonville, designed by BIG and Blueprint Studio, Live Nation’s in-house design and development group. In collaboration with the Momentary – the contemporary art space operated by Crystal Bridges Museum of American Art – the Bentonville Ballroom will host national touring acts, community events, and local performances. While the exterior is defined by gabled, stepped, and staggered volumes clad in weathering steel and perforated metal mesh accents, natural materials and warm wood tones draw the Ozarks inside. The project is expected to generate approximately $4.9 million annually in state and local tax revenue.
+              - paragraph [ref=e478]:
+                - emphasis [ref=e479]: “Our design for the Bentonville Ballroom is rooted in the quotidian culture and character of Bentonville. The city has grown to play an outsized role in the cultural landscape of Northwest Arkansas; in fields such as biking, hiking, aviation, arts, and education, it’s a city that punches way above its weight. With the Bentonville Ballroom, we seek to create a natural new home for live music in the city. The design is like an architectural portrait of Bentonville – vernacular and evocative, traditional and expressive, with its feet solidly planted on the ground and its head in the skies.”
+                - strong [ref=e480]: – Bjarke Ingels, Founder & Creative Director, BIG
+              - link "nwaonline.com" [ref=e481] [cursor=pointer]:
+                - /url: https://www.nwaonline.com/news/2026/mar/10/live-nation-the-momentary-explore-plans-for-mid/
+                - text: nwaonline.com
+                - img [ref=e482]
+            - button "read more" [ref=e485] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e486]: +
+        - article [ref=e487]:
+          - generic [ref=e488]: 10.03.2026
+          - img "BIG UNVEILS THE DROP ON THE BLACK SEA COAST OF RIVA, TURKEY | Bjarke Ingels Group" [ref=e490]
+          - generic [ref=e491]:
+            - heading "BIG UNVEILS THE DROP ON THE BLACK SEA COAST OF RIVA, TURKEY" [level=2] [ref=e492]
+            - generic [ref=e494]:
+              - paragraph [ref=e495]: Along the Black Sea coastline in Riva, The Drop forms part of the larger Ion Riva project – a new neighborhood organized around nature, community, and art just north of Istanbul. Named after its shape, The Drop is one of four landmark projects within the development, alongside buildings by Snøhetta and MVRDV, connecting the neighborhood to the coastline. The building begins as a linear volume that aligns with the street before curving toward the coastline, wrapping a sheltered courtyard and gradually opening toward the Black Sea with wide views of the water.
+              - paragraph [ref=e496]: "Inside, the program steps down the hillside: a café at the upper arrival level connects to a terraced reading lounge and a restaurant below, with a spa carved into the hillside beneath. Mass timber frames and warm interior surfaces sit on basalt stone floors that echo the rocky shore, while a slate roof and rotated timber lamellas provide shading without blocking views. Outside, paths of stone and a corten boardwalk weave through the landscape, linking the Beach House to the beach below."
+              - link "dezeen.com" [ref=e497] [cursor=pointer]:
+                - /url: https://www.dezeen.com/2026/03/10/snohetta-big-mvrdv-ion-riva-masterplan/
+                - text: dezeen.com
+                - img [ref=e498]
+            - button "read more" [ref=e501] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e502]: +
+        - article [ref=e503]:
+          - generic [ref=e504]: 06.03.2026
+          - img "IRMAHUS CELEBRATES TOPPING OUT IN AARHUS, DENMARK | Bjarke Ingels Group" [ref=e506]
+          - generic [ref=e507]:
+            - heading "IRMAHUS CELEBRATES TOPPING OUT IN AARHUS, DENMARK" [level=2] [ref=e508]
+            - generic [ref=e510]:
+              - paragraph [ref=e511]: Irmahus welcomed 100+ neighbors and collaborators to celebrate the official topping out of the new 19-story hotel and office building in Aarhus, Denmark. The hotel housed within, the Scandic Hotel Bassin Seven, is expected to welcome its first guests in February 2027.
+              - paragraph [ref=e512]:
+                - emphasis [ref=e513]: “It is a distinctive building where, by stepping the height down toward Basin 7, they have created a development that fits very well together with the surrounding blocks next to it. A completely special brick was required for Irmahus, Aarhus’ upcoming hotel and commercial building by Basin 7. This helps create a human scale that strengthens the urban life already present and creates a pleasant urban space to be in.”
+                - text: says Anne Mette Boye, City Architect of Aarhus, about the building to the local newspaper Aarhus Stiftstidende.
+              - link "stiften.dk" [ref=e514] [cursor=pointer]:
+                - /url: https://stiften.dk/byudvikling/murstenene-blev-definerende-for-aarhus-nye-destination
+                - text: stiften.dk
+                - img [ref=e515]
+            - button "read more" [ref=e518] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e519]: +
+        - article [ref=e520]:
+          - generic [ref=e521]: 03.03.2026
+          - img "HARPER&#8217;S BAZAAR ITALIA NAMES CITYWAVE MILAN AS ONE OF THE MOST ANTICIPATED ARCHITECTURAL PROJECTS OF 2026 | Bjarke Ingels Group" [ref=e523]
+          - generic [ref=e524]:
+            - heading "HARPER’S BAZAAR ITALIA NAMES CITYWAVE MILAN AS ONE OF THE MOST ANTICIPATED ARCHITECTURAL PROJECTS OF 2026" [level=2] [ref=e525]
+            - generic [ref=e527]:
+              - paragraph [ref=e528]:
+                - emphasis [ref=e529]: Harper’s Bazaar Italia
+                - text: features CityWave in a guide to the most anticipated urban complexes and new buildings that will redefine cities in 2026. Constructed on the last two plots of the CityLife masterplan, a new major business district in Milan, CityWave’s two office buildings are connected by a sweeping 140-m-long roof clad entirely in photovoltaic tiles, becoming one of the largest urban rooftop solar installations in the world. CityWave is set to complete at the end of 2026 and will serve as the new gateway to CityLife – a modern homage to the traditional porticos found throughout Italy.
+              - link "harpersbazaar.com" [ref=e530] [cursor=pointer]:
+                - /url: https://www.harpersbazaar.com/it/lifestyle/design/a69654261/nuovi-musei-e-progetti-urbani-2026/
+                - text: harpersbazaar.com
+                - img [ref=e531]
+            - button "read more" [ref=e534] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e535]: +
+        - article [ref=e536]:
+          - generic [ref=e537]: 27.02.2026
+          - img "BIG BARCELONA OPENS DOORS TO MARK THE CITY&#8217;S YEAR AS UIA CAPITAL OF ARCHITECTURE | Bjarke Ingels Group" [ref=e539]
+          - generic [ref=e540]:
+            - heading "BIG BARCELONA OPENS DOORS TO MARK THE CITY’S YEAR AS UIA CAPITAL OF ARCHITECTURE" [level=2] [ref=e541]
+            - paragraph [ref=e544]: BIG’s Barcelona studio opened its doors to kick off the city’s year as the UIA World Capital of Architecture. The event, organized in collaboration with World-Architects as part of their Architecture Studio Sessions, is one of ten visits to leading practices, offering insight into their philosophies and creative processes. More than 130 guests joined BIG BCN for the occasion, co-hosted with Artemide, Roca, LAUFEN, and Simon, gaining a glimpse into the studio’s inner workings and a preview of some of the projects currently underway.
+        - article [ref=e545]:
+          - generic [ref=e546]: 19.02.2026
+          - img "FINAL VISION UNVEILED FOR MANRESA WILDS IN NORWALK, CONNECTICUT | Bjarke Ingels Group" [ref=e548]
+          - generic [ref=e549]:
+            - heading "FINAL VISION UNVEILED FOR MANRESA WILDS IN NORWALK, CONNECTICUT" [level=2] [ref=e550]
+            - generic [ref=e552]:
+              - paragraph [ref=e553]: Situated on the site of a decommissioned power plant, Manresa Wilds will reimagine the industrial peninsula in Norwalk, Connecticut into a 125-acre park with nearly two miles of newly accessible shoreline, restored forests, and coastal habitats. Shaped by a year of engagement sessions, the final vision incorporates the desires of over 3,000 Norwalk residents, neighborhood groups, local businesses, educators, and civic leaders for a more natural landscape; a design that respects the surrounding neighborhoods and local wildlife; and dedicated spaces for gathering and learning.
+              - paragraph [ref=e554]: Adaptively reusing the existing structures, BIG’s design reimagines the 1960s power plant at the heart of the site into over 200,000 sq ft of vibrant, flexible spaces for events, learning, and play – including a community pool, dedicated areas for research, and a park-level restaurant and cafe.
+              - paragraph [ref=e555]:
+                - emphasis [ref=e556]: “This project allows a majestic mid-century power plant to be reborn as a community hub for the collective life and leisure of the people of Norwalk. Rather than demolition, we are adapting its monumental spaces into free and flexible public spaces that extend the vision of the park inside, making it accessible and enjoyable year-round. Adaptive reuse at this scale is rare, and Manresa Wilds can be a blueprint for communities looking to transform decommissioned industrial sites into vibrant possibilities for public life.”
+                - text: –
+                - strong [ref=e557]: Bjarke Ingels, Founder & Creative Director, BIG
+              - link "ctmirror.org" [ref=e558] [cursor=pointer]:
+                - /url: https://ctmirror.org/2026/02/20/manresa-wilds-project-model-for-shuttered-power-plants/
+                - text: ctmirror.org
+                - img [ref=e559]
+            - button "read more" [ref=e562] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e563]: +
+        - article [ref=e564]:
+          - generic [ref=e565]: 18.02.2026
+          - img "PRESIDENT OF THE CZECH REPUBLIC PETR PAVEL VISITS THE FUTURE HOME OF THE VLTAVA PHILHARMONIC HALL | Bjarke Ingels Group" [ref=e567]
+          - generic [ref=e568]:
+            - heading "PRESIDENT OF THE CZECH REPUBLIC PETR PAVEL VISITS THE FUTURE HOME OF THE VLTAVA PHILHARMONIC HALL" [level=2] [ref=e569]
+            - generic [ref=e571]:
+              - paragraph [ref=e572]: President of the Czech Republic Petr Pavel and First Lady Eva Pavlová visited the future site of the Vltava Philharmonic Hall in Prague, where they were introduced to the project alongside Mayor Bohuslav Svoboda and Deputy Mayor for Spatial Development Petr Hlaváček. During the visit, the presidential couple was presented with the vision for the new cultural landmark and the broader transformation of the surrounding district, before exploring the design in virtual reality.
+              - paragraph [ref=e573]: Designed by BIG, the Vltava Philharmonic Hall is envisioned as a new civic and cultural destination for Prague, bringing music, public life, and urban development together on the banks of the Vltava river. Set within the rapidly evolving Bubny area, the project will not only provide a home for world-class performance spaces, but also help shape a new piece of the Czech capital.
+              - link "prazska.drbna.cz" [ref=e574] [cursor=pointer]:
+                - /url: https://prazska.drbna.cz/zpravy/spolecnost/19150-video-prezident-ve-virtualni-realite-diky-specialnim-brylim-se-prosel-vltavskou-filharmonii.html?utm_source=chatgpt.com
+                - text: prazska.drbna.cz
+                - img [ref=e575]
+            - button "read more" [ref=e578] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e579]: +
+        - article [ref=e580]:
+          - generic [ref=e581]: 17.02.2026
+          - img "CONSTRUCTION BEGINS ON VÄSTERÅS TRAVEL CENTER’S BUS SQUARE | Bjarke Ingels Group" [ref=e583]
+          - generic [ref=e584]:
+            - heading "CONSTRUCTION BEGINS ON VÄSTERÅS TRAVEL CENTER’S BUS SQUARE" [level=2] [ref=e585]
+            - generic [ref=e587]:
+              - paragraph [ref=e588]: Construction of the new bus square in Västerås is officially underway, marking the first step towards the realization of the city’s travel center. At the groundbreaking ceremony, Staffan Jansson, Chair of the Municipal Executive Board, and Jenny Landernäs, Regional Councilor of Region Västmanland, took the first collective sod. The new bus square will at least double the capacity of Busstorget – currently the county’s busiest bus stop – improving passenger flow, weather protection, and connections to surrounding services.
+              - link "vasterastidning.se" [ref=e589] [cursor=pointer]:
+                - /url: https://www.vasterastidning.se/nyheter/spaden-i-backen-vid-busstorgsbygget/295382
+                - text: vasterastidning.se
+                - img [ref=e590]
+            - button "read more" [ref=e593] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e594]: +
+        - article [ref=e595]:
+          - generic [ref=e596]: 17.02.2026
+          - img "HAPPY LUNAR NEW YEAR | Bjarke Ingels Group" [ref=e598]
+          - generic [ref=e599]:
+            - heading "HAPPY LUNAR NEW YEAR" [level=2] [ref=e600]
+            - paragraph [ref=e603]: BIG wishes you a joyful Year of the Horse filled with energy and good fortune! 马年快乐! 🐎🧧💫
+        - article [ref=e604]:
+          - generic [ref=e605]: 05.02.2026
+          - img "THE WALL STREET JOURNAL REPORTS ON TRANSFORMATION OF MIAMI’S COCONUT GROVE | Bjarke Ingels Group" [ref=e607]
+          - generic [ref=e608]:
+            - heading "THE WALL STREET JOURNAL REPORTS ON TRANSFORMATION OF MIAMI’S COCONUT GROVE" [level=2] [ref=e609]
+            - generic [ref=e611]:
+              - paragraph [ref=e612]:
+                - emphasis [ref=e613]: The Wall Street Journal
+                - text: spotlights Coconut Grove’s transformation from a sleepy bohemian enclave into one of Miami’s most sought-after neighborhoods. Marking a pivotal moment in this evolution, the BIG-designed Grove at Grand Bay was the first residential tower constructed in the neighborhood in over a decade when it was completed in 2016. Rising 20 stories, the two towers twist at a 38-degree angle, optimizing views, maximizing outdoor space, and allowing for flexible floor plans while interacting with one another. The development, commissioned by Terra Group, features generous cantilevered balconies, a canopy of foliage featuring more than 150,000 plants and 500 trees, a swimming pool, spa, fitness center, kids playroom, and private dining room for residents.
+              - link "wsj.com" [ref=e614] [cursor=pointer]:
+                - /url: https://www.wsj.com/real-estate/luxury-homes/coconut-grove-miami-billionaires-b732848a
+                - text: wsj.com
+                - img [ref=e615]
+            - button "read more" [ref=e618] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e619]: +
+        - article [ref=e620]:
+          - generic [ref=e621]: 02.02.2026
+          - img "BIG GUEST CURATES TAIWAN ARCHITECTURE MAGAZINE&#8217;S FEBRUARY ISSUE | Bjarke Ingels Group" [ref=e623]
+          - generic [ref=e624]:
+            - heading "BIG GUEST CURATES TAIWAN ARCHITECTURE MAGAZINE’S FEBRUARY ISSUE" [level=2] [ref=e625]
+            - generic [ref=e627]:
+              - paragraph [ref=e628]:
+                - text: BIG has guest curated the February issue of Taiwan Architecture Magazine, a special edition titled
+                - emphasis [ref=e629]: “Materialism”
+                - text: that explores the role of materials in shaping architecture. The issue brings together essays, lectures, and project features on several of BIG’s works in East Asia – including the Suzhou Museum of Contemporary Art, Jinji Lake Pavilion, and K11 Gallery in Shanghai – examining how material choices, construction processes, and cultural context inform the development of these projects.
+              - paragraph [ref=e630]:
+                - text: The issue includes essays written by members of the BIG project teams reflecting on the design and construction processes behind the projects. In
+                - emphasis [ref=e631]: “Material Practice in the Architectural Building Process,”
+                - text: Architect Tseng-Hsuan Wei describes how design concepts evolve through coordination with engineers, fabrication methods, and on-site construction. In
+                - emphasis [ref=e632]: “Placemaking and Identity in Contemporary East Asian Architecture,”
+                - text: BIG Partner Catherine Huang reflects on BIG’s work in the region through the lens of her own experience as a Chinese-born American architect, exploring how cultural memory and spatial traditions are translated into contemporary architecture. Additional essays include
+                - emphasis [ref=e633]: “When Material Enters Architecture”
+                - text: by Architect Yongwon Jo and
+                - emphasis [ref=e634]: “Lingering Beneath the Canopies”
+                - text: by Associate Molly Hsiao Rou Huang, which share insights and personal anecdotes from the design development and realization of the projects.
+              - link "ta-mag.net" [ref=e635] [cursor=pointer]:
+                - /url: https://www.ta-mag.net/ta/News.php?id=2578
+                - text: ta-mag.net
+                - img [ref=e636]
+            - button "read more" [ref=e639] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e640]: +
+        - article [ref=e641]:
+          - generic [ref=e642]: 01.02.2026
+          - img "EAST SIDE COASTAL RESILIENCY PROJECT FEATURED IN THE ARCHITECTURAL REVIEW | Bjarke Ingels Group" [ref=e644]
+          - generic [ref=e645]:
+            - heading "EAST SIDE COASTAL RESILIENCY PROJECT FEATURED IN THE ARCHITECTURAL REVIEW" [level=2] [ref=e646]
+            - generic [ref=e648]:
+              - paragraph [ref=e649]:
+                - text: The February issue of UK architecture magazine
+                - emphasis [ref=e650]: The Architectural Review
+                - text: ", focusing on coasts, spotlights the East Side Coastal Resiliency (ESCR) project, designed by BIG-Bjarke Ingels Group, Mathews Nielsen Landscape Architects (MNLA), ONE Architecture & Urbanism, AKRF, and residents of the Lower East Side. The story traces the history of ESCR, which stemmed from the original 2014 BIG U vision that proposed 10 miles of protective parkland and public realm along New York City’s southern coastline in the wake of Superstorm Sandy. Stretching along the East River in Manhattan, ESCR encompasses 2.25 miles of new and revitalized parkland that doubles as vital flood protection for Lower Manhattan and 110,000 New Yorkers. The design integrates flood barrier walls and gates, bridging berms, and new areas for relaxation and recreation such as dog runs, basketball and tennis courts, picnic areas, lawns, and other public amenities. Sections of ESCR, including East River Park, are now open, with the final phase expected to be completed in 2027."
+              - link "architectural-review.com" [ref=e651] [cursor=pointer]:
+                - /url: https://www.architectural-review.com/digital-edition/february-2026-coast
+                - text: architectural-review.com
+                - img [ref=e652]
+            - button "read more" [ref=e655] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e656]: +
+        - article [ref=e657]:
+          - generic [ref=e658]: 28.01.2026
+          - img "NEW YORK MAGAZINE HIGHLIGHTS VIA 57 WEST IN STORY ON NEW YORK CITY’S BEST ARCHITECTURE OF THE PAST DECADE | Bjarke Ingels Group" [ref=e660]
+          - generic [ref=e661]:
+            - heading "NEW YORK MAGAZINE HIGHLIGHTS VIA 57 WEST IN STORY ON NEW YORK CITY’S BEST ARCHITECTURE OF THE PAST DECADE" [level=2] [ref=e662]
+            - generic [ref=e664]:
+              - paragraph [ref=e665]:
+                - emphasis [ref=e666]: New York Magazine
+                - text: ’s Architecture Critic Justin Davidson names VIA 57 West in his article on the best New York architecture of the past 10 years. The “radical but recognizable” VIA 57 West combines the density of the Manhattan skyscraper with the communal space of the European courtyard, with a lush 22,000-sq-ft garden at the heart of the building. Upon opening in 2016, VIA introduced a completely new building form to the city while evoking historic courtyard apartment buildings such as the Belnord or the Apthorp.
+              - link "curbed.com" [ref=e667] [cursor=pointer]:
+                - /url: https://www.curbed.com/article/best-new-york-architecture-decade-no-heroes.html?ueid=f2af6ca8605d1a0e0ba190564ef6a055&utm_source=Sailthru&utm_medium=email&utm_campaign=curbeddaily_curbed_20260128&utm_term=Subscription%20List%20-%20Curbed
+                - text: curbed.com
+                - img [ref=e668]
+            - button "read more" [ref=e671] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e672]: +
+        - article [ref=e673]:
+          - generic [ref=e674]: 27.01.2026
+          - img "BJARKE INGELS FEATURED ON NORDIC PORTRAITS PODCAST | Bjarke Ingels Group" [ref=e676]
+          - generic [ref=e677]:
+            - heading "BJARKE INGELS FEATURED ON NORDIC PORTRAITS PODCAST" [level=2] [ref=e678]
+            - generic [ref=e680]:
+              - paragraph [ref=e681]:
+                - paragraph [ref=e682]:
+                  - text: Founder and Creative Director of BIG, Bjarke Ingels, is featured in a new episode of
+                  - emphasis [ref=e683]: Nordic Portraits
+                  - text: ", a podcast series spotlighting Scandinavian artists, exploring their creative journey, inspiration, and personal experiences with success, failure, collaboration, and everything in between. In the episode, Bjarke reflects on his upbringing, how art has shaped his perception of the world, the founding of BIG, and the studio’s evolution into a global studio."
+              - link "podcasts.apple.com" [ref=e684] [cursor=pointer]:
+                - /url: https://podcasts.apple.com/dk/podcast/bjarke-ingels/id1513606368?i=1000746790127
+                - text: podcasts.apple.com
+                - img [ref=e685]
+        - article [ref=e688]:
+          - generic [ref=e689]: 19.01.2026
+          - img "MARENGO MULTIMODAL TRANSPORT HUB LAUNCHES CONSTRUCTION TENDER | Bjarke Ingels Group" [ref=e691]
+          - generic [ref=e692]:
+            - heading "MARENGO MULTIMODAL TRANSPORT HUB LAUNCHES CONSTRUCTION TENDER" [level=2] [ref=e693]
+            - generic [ref=e695]:
+              - paragraph [ref=e696]: The Marengo Multimodal Transport Hub in Toulouse has published its call for tenders for construction works, marking a key step towards the start of work on the 12,000 m² transport hub located next to Gare Matabiau. The tender invites construction firms to submit bids to deliver the new facility, which will bring together bus, rail, metro, cycling, and pedestrian networks under one roof. Construction is scheduled to begin later this year.
+              - link "marches-publics.info" [ref=e697] [cursor=pointer]:
+                - /url: https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.choixDCE&IDM=1739050&XFAOK=dce.verifLotsDCE
+                - text: marches-publics.info
+                - img [ref=e698]
+            - button "read more" [ref=e701] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e702]: +
+        - article [ref=e703]:
+          - generic [ref=e704]: 17.01.2026
+          - img "MATERIALISM ON VIEW AT THE SUZHOU MUSEUM OF CONTEMPORARY ART | Bjarke Ingels Group" [ref=e706]
+          - generic [ref=e707]:
+            - heading "MATERIALISM ON VIEW AT THE SUZHOU MUSEUM OF CONTEMPORARY ART" [level=2] [ref=e708]
+            - generic [ref=e710]:
+              - paragraph [ref=e711]: The Materialism exhibition is now open for view at the BIG-designed Suzhou Museum of Contemporary Art. Expanding on Bjarke Ingels’ year-long guest editorship of Domus, the exhibition presents 20 BIG projects through the lens of the matter and craft that shaped them. Seating elements throughout the gallery are made from the very substances on display, creating a full sensory journey through texture and form.
+              - paragraph [ref=e712]:
+                - emphasis [ref=e713]: "“Due to the nature of the architectural profession, the fate of the project is always decided in the early stages: the concept design or the competition. That’s why a lot of effort is always invested in telling the story of how the project was conceived, the initial analysis, the fundamental idea, and its conception into form. But 90% of our work is what follows – the translation of the idea into reality, the materialization of the fiction into fact. This exhibition is dedicated to the material aspect of our profession. The concrete materialization of abstract ideas."
+              - paragraph [ref=e714]:
+                - emphasis [ref=e715]: Twenty of our projects are arranged according to what they’re made of – fabric, plastic, earth, concrete, glass, metal, wood, plants, stone, recyclate. Highlighting the material aspect, which is often the untold story. Like the Serpentine Pavilion, which came out of a close collaboration with Fiberline and the strength and elegance of pultruded glass fibers. Working with traditional thatchers using straw to make a little village of public pavilions in Aarhus. Using cast glass as a transparent load-bearing material at the museum of Audemars Piguet. The ideas and concepts are still there, but here the architectural story is told through the materials and the collaborations that made them possible.”
+                - text: – Bjarke Ingels, Founder & Creative Director, BIG
+              - paragraph [ref=e716]: The exhibition will be on view through March 8th, before reopening later this summer for the grand inauguration of the Suzhou MoCA.
+              - link "suzhoumoca.com" [ref=e717] [cursor=pointer]:
+                - /url: https://suzhoumoca.com/en/exhibitions/BIG-Materialism
+                - text: suzhoumoca.com
+                - img [ref=e718]
+            - button "read more" [ref=e721] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e722]: +
+        - article [ref=e723]:
+          - generic [ref=e724]: 15.01.2026
+          - img "ANNOUNCING BIG ATLAS, COMING APRIL 2026 | Bjarke Ingels Group" [ref=e726]
+          - generic [ref=e727]:
+            - heading "ANNOUNCING BIG ATLAS, COMING APRIL 2026" [level=2] [ref=e728]
+            - generic [ref=e730]:
+              - paragraph [ref=e731]: BIG’s new monograph, BIG Atlas, published by Phaidon, is now available for pre-order and will be released globally this April. Showcasing over 50 projects, BIG Atlas takes readers on a two-decade journey through BIG’s built work through a collection of 600+ photographs, plans, and drawings. The monograph opens with a foreword by Danish architect Kent Martinussen, followed by an introduction by British architect and critic Joseph Grima, as well as an essay by Icelandic writer Andri Snær Magnason.
+              - paragraph [ref=e732]:
+                - emphasis [ref=e733]: “Our first book, Yes is More, had to navigate the dilemma that we had all the ideas in the world, but almost no built evidence to back it up. Hot to Cold attempted to portray a practice responding to an ever-greater cultural variety and climatic diversity. Formgiving reported from the past, present, and future of how things take shape and are given form. All of these books were our miniature manifestations of where we were in our evolution as an architecture practice, and as such, the format became as much the content as the work itself.
+              - paragraph [ref=e734]:
+                - emphasis [ref=e735]: When Phaidon approached us with the idea to create a book that looks at our total oeuvre, I immediately liked the idea – where the architecture is allowed to speak for itself, where I was not the voice, where we were not the authors, and where only the built work was presented as evidence of the kind of world we have attempted to materialize through the last quarter century. The result is a book where the radicality of the work is contrasted by the classicism of the presentation. Structured chronologically, it doesn’t present the failed attempts or the missed opportunities, but rather the built result of two and a half decades of architectural practice. The Danish word for design – formgivning – literally means giving form to the future. Turning our vision of the world into concrete reality. Turning fiction into fact. And by allowing the form of the book to be as classic as possible, it is my hope that the content will be able to stand out in its full physical form and manifest reality. Ironically, due to the slow-moving nature of architecture, it also means that the book is almost chemically cleansed of the work on our desktops, hard drives, and model workshops of the last few years. It is taking the long perspective of an architectural practice’s slow journey – a journey of decades rather than years.”
+                - strong [ref=e736]: – Bjarke Ingels, Founder & Creative Director, BIG
+              - link "phaidon.com" [ref=e737] [cursor=pointer]:
+                - /url: https://www.phaidon.com/en-int/products/big-atlas?variant=47539247448164
+                - text: phaidon.com
+                - img [ref=e738]
+            - button "read more" [ref=e741] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e742]: +
+        - article [ref=e743]:
+          - generic [ref=e744]: 13.01.2026
+          - img "BIOSPHERE RECOGNIZED AMONG THE WORLD&#8217;S MOST SPECTACULAR TREE HOUSES | Bjarke Ingels Group" [ref=e746]
+          - generic [ref=e747]:
+            - heading "BIOSPHERE RECOGNIZED AMONG THE WORLD’S MOST SPECTACULAR TREE HOUSES" [level=2] [ref=e748]
+            - generic [ref=e750]:
+              - paragraph [ref=e751]:
+                - text: BBC has included Biosphere at the Treehotel in Harads, Sweden, in its roundup of “10 of the world’s most spectacular tree houses,” following the project’s inclusion in Florian Seabeck’s
+                - emphasis [ref=e752]: Modern Tree Houses
+                - text: published by Taschen. Designed in collaboration with Treehotel and Swedish ornithologist Ulf Öhman, the Biosphere cabin brings 350 bird houses to the Harads village, with the mission to decrease the downward spiral of the bird population in the region. By wrapping the hotel room in an ecological habitat, guests are immersed in nature – providing the opportunity to experience birdlife in close proximity.
+              - link "bbc.com" [ref=e753] [cursor=pointer]:
+                - /url: https://www.bbc.com/culture/article/20260112-10-of-the-worlds-most-spectacular-tree-houses
+                - text: bbc.com
+                - img [ref=e754]
+            - button "read more" [ref=e757] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e758]: +
+        - article [ref=e759]:
+          - generic [ref=e760]: 01.01.2026
+          - img "BJARKE INGELS ON THE COVER OF AXIS MAGAZINE | Bjarke Ingels Group" [ref=e762]
+          - generic [ref=e763]:
+            - heading "BJARKE INGELS ON THE COVER OF AXIS MAGAZINE" [level=2] [ref=e764]
+            - generic [ref=e766]:
+              - paragraph [ref=e767]: Japanese design magazine AXIS spotlights BIG’s Founder and Creative Director Bjarke Ingels on the cover of their New Year issue dedicated to Danish design. In the 16-page feature, Bjarke reflects on the early influences that shaped his way of thinking, from comics and science fiction to encounters with Antoni Gaudí’s architecture in Barcelona, and how these continue to inform his work today. The interview also covers BIG’s approach to sustainability, including projects such as New York’s East Side Coastal Resiliency Project and Bhutan’s Gelephu Mindfulness City, as well as the role of AI in design and fabrication.
+              - link "axisinc.co.jp" [ref=e768] [cursor=pointer]:
+                - /url: https://www.axisinc.co.jp/english/news/2025/1259.html
+                - text: axisinc.co.jp
+                - img [ref=e769]
+        - article [ref=e772]:
+          - generic [ref=e773]: 23.12.2025
+          - img "EAST SIDE COASTAL RESILIENCY PROJECT FEATURED IN NATIONAL GEOGRAPHIC | Bjarke Ingels Group" [ref=e775]
+          - generic [ref=e776]:
+            - heading "EAST SIDE COASTAL RESILIENCY PROJECT FEATURED IN NATIONAL GEOGRAPHIC" [level=2] [ref=e777]
+            - generic [ref=e779]:
+              - paragraph [ref=e780]: National Geographic’s January 2026 issue spotlights the East Side Coastal Resiliency (ESCR) project in an article that explores how cities are rebuilding in the aftermath of natural disasters. ESCR, which stretches along the East River in Lower Manhattan, is highlighted as a successful example of a coastal protection project that also functions as social infrastructure, with new areas for relaxation and recreation such as dog runs, sports fields, picnic areas, grassy lawns, and other public amenities. Reporter Jeff Wise toured East River Park – a quarter mile stretch of ESCR – with BIG NYC Associate Jeremy Alain Siegel, who serves as ESCR’s project director.
+              - paragraph [ref=e781]: Emerging from the U.S. Department of Housing and Urban Development’s Rebuild by Design competition in the wake of Superstorm Sandy, ESCR is designed to protect and improve the resiliency of 110,000 New Yorkers and critical infrastructure. The 2.25-mile project area includes elevated parks, flood barrier walls and gates, and a system of “bridging berms” to help protect the adjacent neighborhood from future storm surge and rising sea levels.
+              - link "nationalgeographic.com" [ref=e782] [cursor=pointer]:
+                - /url: https://www.nationalgeographic.com/environment/article/cities-rebuilding-after-natural-disasters
+                - text: nationalgeographic.com
+                - img [ref=e783]
+            - button "read more" [ref=e786] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e787]: +
+        - article [ref=e788]:
+          - generic [ref=e789]: 22.12.2025
+          - img "BIG ADVANCES IN DESIGN COMPETITION FOR ULSAN PERFORMING ARTS VENUE | Bjarke Ingels Group" [ref=e791]
+          - generic [ref=e792]:
+            - heading "BIG ADVANCES IN DESIGN COMPETITION FOR ULSAN PERFORMING ARTS VENUE" [level=2] [ref=e793]
+            - generic [ref=e795]:
+              - paragraph [ref=e796]: BIG, together with Heerim and Theatre Projects, has been chosen to move into the second phase of the international design competition for the new Ulsan Performing Arts Venue in South Korea. Conceived as the bridge between all the elements on the site that comprise the past, present, and future of Ulsan, the design is defined by two ribbons that extend in opposite directions – one connecting to the urban fabric, the other reaching towards the river. Beneath them, a continuous public realm unfolds across plazas, promenades, and outdoor stages, allowing the building to become a space for gathering, listening, and celebrating culture and performance in all of its forms.
+              - link "n.news.naver.com" [ref=e797] [cursor=pointer]:
+                - /url: https://n.news.naver.com/article/001/0015805778
+                - text: n.news.naver.com
+                - img [ref=e798]
+            - button "read more" [ref=e801] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e802]: +
+        - article [ref=e803]:
+          - generic [ref=e804]: 15.12.2025
+          - img "CAPITASPRING NAMED BEST MIXED-USE AT RIBA ASIA PACIFIC AWARDS | Bjarke Ingels Group" [ref=e806]
+          - generic [ref=e807]:
+            - heading "CAPITASPRING NAMED BEST MIXED-USE AT RIBA ASIA PACIFIC AWARDS" [level=2] [ref=e808]
+            - generic [ref=e810]:
+              - paragraph [ref=e811]: CapitaSpring was named Best Mixed-Use at the inaugural RIBA Asia Pacific Awards, with BIG’s Director and Head of China, Shu Du, attending the ceremony to accept the honor on behalf of the design team. Rising 280 meters in the heart of Singapore’s bustling financial district, CapitaSpring is a vertical oasis, where offices, residences, retail, restaurants, and a revitalized hawker market come together under one roof. Designed jointly by BIG and CRA – Carlo Ratti Associati, the building features a 35-meter-long green oasis open to the public, spanning four stories and home to more than 38,000 plants.
+              - link "wallpaper.com" [ref=e812] [cursor=pointer]:
+                - /url: https://www.wallpaper.com/architecture/2025-riba-asia-pacific-awards-winners
+                - text: wallpaper.com
+                - img [ref=e813]
+            - button "read more" [ref=e816] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e817]: +
+        - article [ref=e818]:
+          - generic [ref=e819]: 15.12.2025
+          - img "DYMAK HQ CELEBRATES BUILDING DELIVERY IN ODENSE, DENMARK | Bjarke Ingels Group" [ref=e821]
+          - generic [ref=e822]:
+            - heading "DYMAK HQ CELEBRATES BUILDING DELIVERY IN ODENSE, DENMARK" [level=2] [ref=e823]
+            - paragraph [ref=e826]: The 2,800-m² Dymak HQ in Odense, Denmark, has been delivered and marked with a celebration attended by Dymak staff, the BIG design team, and project collaborators. The circular headquarters is organized around a central courtyard and defined by a radial timber structure and an undulating roof with integrated solar panels, and will become Dymak’s new home when staff move into the building in early 2026. The project has received DGNB Gold certification along with Heart and Diamond distinctions, reflecting its performance across sustainability, indoor climate, and architectural quality.
+        - article [ref=e827]:
+          - generic [ref=e828]: 09.12.2025
+          - img "SUZHOU MUSEUM OF CONTEMPORARY ART WINS SILVER AT MIPIM ASIA 2025 | Bjarke Ingels Group" [ref=e830]
+          - generic [ref=e831]:
+            - heading "SUZHOU MUSEUM OF CONTEMPORARY ART WINS SILVER AT MIPIM ASIA 2025" [level=2] [ref=e832]
+            - generic [ref=e834]:
+              - paragraph [ref=e835]: Suzhou Museum of Contemporary Art has been awarded Silver in the “Best Cultural, Sports and Education Project” category at the MIPIM Asia Awards 2025, which celebrate sustainable, visionary, and community-focused architecture. The awards recognize projects for their overall sustainability, integration with the environment and community, quality of the user experience, economic contribution, originality of concept, and architectural qualities. Suzhou Museum of Contemporary Art, located on Jinji Lake and covering 60,000 m², offers a modern interpretation of the garden elements that have defined Suzhou’s urbanism, architecture, and landscape for centuries. Clad in rippled and curved glass and stainless steel, the façades reflect the surrounding sky, water, and gardens, while 12 interconnected pavilions beneath a continuous, ribbon-like roof guide visitors through a sequence of gardens and courtyards, intertwining art, history, nature, and water.
+              - paragraph [ref=e836]:
+                - emphasis [ref=e837]: “The Suzhou Museum of Contemporary Art is a tribute to the rich garden heritage of Suzhou. We envision the ‘廊,’ a traditional element of Suzhou gardens, gracefully winding through the landscapes and transforming into pavilions. In doing so, it frames the contemporary gardens, making them an integral part of the exhibition, as significant as the artwork within.”
+                - strong [ref=e838]: – Catherine Huang, Partner, BIG – Bjarke Ingels Group
+              - paragraph [ref=e839]: The museum will officially open its doors to the public in 2026.
+              - link "awards.mipim-asia.com" [ref=e840] [cursor=pointer]:
+                - /url: https://awards.mipim-asia.com/mipimasiaawards2025/en/page/-winners-2025
+                - text: awards.mipim-asia.com
+                - img [ref=e841]
+            - button "read more" [ref=e844] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e845]: +
+        - article [ref=e846]:
+          - generic [ref=e847]: 04.12.2025
+          - img "BIG MAKES AD100 LIST FOR THE EIGHTH YEAR IN A ROW | Bjarke Ingels Group" [ref=e849]
+          - generic [ref=e850]:
+            - heading "BIG MAKES AD100 LIST FOR THE EIGHTH YEAR IN A ROW" [level=2] [ref=e851]
+            - generic [ref=e853]:
+              - paragraph [ref=e854]: For the eighth consecutive year, BIG appears on the 2026 AD100, the annual list published by Architectural Digest. AD100 recognizes 100 architecture, design and interior-design firms worldwide whose work has influenced the magazine’s coverage over the past year. The 2026 listing notes a range of projects currently in progress at BIG, including the Gelephu Mindfulness City and International Airport; the Athletics Las Vegas Ballpark which broke ground earlier this year; and the National Juneteenth Museum in Fort Worth, Texas.
+              - link "architecturaldigest.com" [ref=e855] [cursor=pointer]:
+                - /url: https://www.architecturaldigest.com/story/ad100-2026
+                - text: architecturaldigest.com
+                - img [ref=e856]
+        - article [ref=e859]:
+          - generic [ref=e860]: 04.12.2025
+          - img "BIG WELCOMES YOUNG ASPIRING ARCHITECT AS PART OF GO’ MORGEN DANMARK’S CHRISTMAS AID CAMPAIGN | Bjarke Ingels Group" [ref=e862]
+          - generic [ref=e863]:
+            - heading "BIG WELCOMES YOUNG ASPIRING ARCHITECT AS PART OF GO’ MORGEN DANMARK’S CHRISTMAS AID CAMPAIGN" [level=2] [ref=e864]
+            - generic [ref=e866]:
+              - paragraph [ref=e867]: As part of Go’ Morgen Danmark and the Danish Red Cross’ Christmas aid campaign, BIG helped grant a wish for aspiring architect, 15-year-old Mathias. BIG’s Founder and Creative Director, Bjarke Ingels welcomed Mathias to BIG’s Copenhagen headquarters for a tour of the studio and an introduction to how BIG works across models and digital design. The visit continued at the Kaktus Towers, where Mathias met BIG Partner David Zahle for a walkthrough of the project.
+              - link "instagram.com" [ref=e868] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DR1acV4kwSX/?hl=en
+                - text: instagram.com
+                - img [ref=e869]
+        - article [ref=e872]:
+          - generic [ref=e873]: 02.12.2025
+          - img "THE AURELIA PRIZE IN DESIGN FOR SPACE URBANISM LAUNCHES | Bjarke Ingels Group" [ref=e875]
+          - generic [ref=e876]:
+            - heading "THE AURELIA PRIZE IN DESIGN FOR SPACE URBANISM LAUNCHES" [level=2] [ref=e877]
+            - generic [ref=e879]:
+              - paragraph [ref=e880]: Aurelia Institute’s new Prize in Design for Space Urbanism has launched, inviting submissions for a design concept of a near-future station, habitat, or industrial facility in space. The competition jury includes Bjarke Ingels, Founder and Creative Director of BIG; Victor Glover, NASA’s next lunar astronaut; photographer Andrew Zuckerman; and Paola Antonelli, curator at MoMA, among others. The winner will be announced in April 2026 and awarded up to $20,000 and an invitation to present their design at the Aurelia Institute’s Beyond the Cradle conference at MIT.
+              - paragraph [ref=e881]: Aurelia Institute is a nonprofit space architecture R&D lab, education and outreach center, and policy hub dedicated to building humanity’s future in space for the benefit of Earth. The submission deadline for the Prize in Design for Space Urbanism is January 30.
+              - link "aureliainstitute.org" [ref=e882] [cursor=pointer]:
+                - /url: https://www.aureliainstitute.org/prize
+                - text: aureliainstitute.org
+                - img [ref=e883]
+        - article [ref=e886]:
+          - generic [ref=e887]: 02.12.2025
+          - img "UNCOVER AN OFF-MENU COCKTAIL BY BJARKE INGELS AT FAENA NEW YORK | Bjarke Ingels Group" [ref=e889]
+          - generic [ref=e890]:
+            - heading "UNCOVER AN OFF-MENU COCKTAIL BY BJARKE INGELS AT FAENA NEW YORK" [level=2] [ref=e891]
+            - generic [ref=e893]:
+              - paragraph [ref=e894]: The Faena New York hotel, set within the East Tower of One High Line, is now serving a secret cocktail created by Bjarke Ingels, Founder & Creative Director of BIG. Named the ‘Oxymoron,’ the cocktail is a Nordic play on a mezcal negroni, with a twisting lemon peel garnish reminiscent of the shape of the One High Line towers. The ‘Oxymoron’ is available at La Boca, the FAENA’s Argentinian restaurant by Chef Francis Mallman, as well as hotel bars El Secreto and the Living Room.
+              - paragraph [ref=e895]:
+                - emphasis [ref=e896]: “The ‘Oxymoron’ is exactly what it sounds like – a union of contrasting ingredients that harmonize to make one very balanced cocktail. It’s smoky yet bright, Nordic yet Latin. Aside from its deliciousness, may the ‘Oxymoron’ serve as a reminder that differences – of taste, opinion, and culture – are not detrimental to each other, but instead are vital for experimentation, exploration, and discovery.”
+                - strong [ref=e897]: – Bjarke Ingels, Founder & Creative Director, BIG
+              - link "nypost.com" [ref=e898] [cursor=pointer]:
+                - /url: https://nypost.com/2025/12/02/business/new-club-moss-brings-five-stories-of-luxury-amenities-to-midtown-manhattan-if-you-can-afford-it/
+                - text: nypost.com
+                - img [ref=e899]
+            - button "read more" [ref=e902] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e903]: +
+        - article [ref=e904]:
+          - generic [ref=e905]: 01.12.2025
+          - img "ARCHELLO NAMES CLAREMONT MCKENNA COLLEGE&#8217;S ROBERT DAY SCIENCES CENTER ‘UNIVERSITY BUILDING OF THE YEAR’ | Bjarke Ingels Group" [ref=e907]
+          - generic [ref=e908]:
+            - heading "ARCHELLO NAMES CLAREMONT MCKENNA COLLEGE’S ROBERT DAY SCIENCES CENTER ‘UNIVERSITY BUILDING OF THE YEAR’" [level=2] [ref=e909]
+            - generic [ref=e911]:
+              - paragraph [ref=e912]: The Robert Day Sciences Center at Claremont McKenna College has been voted by the public as this year’s top University Building of the Year in the 2025 Archello Awards. The center is BIG’s first built project in the Los Angeles area, designed as a stack of two volumes, each pair rotated 45 degrees from the floor below. Each level of the 135,000-sq-ft building is oriented in a different direction, channeling the flow of people and ideas between the labs, classrooms, and surrounding campus. At the heart of the building is a full-height atrium, providing direct views into classrooms and research spaces from all floors. The Robert Day Sciences Center is the first completed building in the BIG-designed masterplan for CMC’s Roberts Campus, which envisions a more unified campus shaped by a series of buildings that extend the central mall and adjacent sports bowl currently under construction.
+              - link "archello.com" [ref=e913] [cursor=pointer]:
+                - /url: https://archello.com/awards/archello-awards-2025/projects#university-building-of-the-year
+                - text: archello.com
+                - img [ref=e914]
+            - button "read more" [ref=e917] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e918]: +
+        - article [ref=e919]:
+          - generic [ref=e920]: 01.12.2025
+          - img "BIG CPH PARTNER GIULIA FRITTOLI ON INCLUSION AND CULTURE-SHAPED URBANISM IN ARCHITECTURAL DIGEST SPAIN | Bjarke Ingels Group" [ref=e922]
+          - generic [ref=e923]:
+            - heading "BIG CPH PARTNER GIULIA FRITTOLI ON INCLUSION AND CULTURE-SHAPED URBANISM IN ARCHITECTURAL DIGEST SPAIN" [level=2] [ref=e924]
+            - generic [ref=e926]:
+              - paragraph [ref=e927]: Architectural Digest Spain has published a feature exploring the role of women shaping contemporary architecture, highlighting how inclusive thinking and environmental responsibility are becoming central to the discipline. As part of the story, BIG Partner Giulia Frittoli speaks about her approach to urbanism and the principles behind the Gelephu Mindfulness City in Bhutan.
+              - paragraph [ref=e928]: In the article, Giulia reflects on how cultural context, community needs, and respect for the natural environment inform her work, emphasizing the importance of designing cities that are accessible, diverse, and human-centered. She discusses how inclusive design requires considering a wide spectrum of users and traditions, ensuring that public spaces welcome people of all ages, abilities, and backgrounds.
+              - link "revistaad.es" [ref=e929] [cursor=pointer]:
+                - /url: https://www.revistaad.es/articulos/arquitectura-contemporanea-con-mirada-femenina
+                - text: revistaad.es
+                - img [ref=e930]
+            - button "read more" [ref=e933] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e934]: +
+        - article [ref=e935]:
+          - generic [ref=e936]: 20.11.2025
+          - img "THE BATTERY PARK CITY AUTHORITY ANNOUNCES PROJECT LABOR AGREEMENT FOR BATTERY PARK CITY RESILIENCY PROJECT | Bjarke Ingels Group" [ref=e938]
+          - generic [ref=e939]:
+            - heading "THE BATTERY PARK CITY AUTHORITY ANNOUNCES PROJECT LABOR AGREEMENT FOR BATTERY PARK CITY RESILIENCY PROJECT" [level=2] [ref=e940]
+            - generic [ref=e942]:
+              - paragraph [ref=e943]: The Battery Park City Authority has announced a Project Labor Agreement for the $1.7 billion Battery Park City North/West Resiliency Project (NWBPCR), the first major project in New York City to use the progressive design-build model. Led by the Turner Construction Company–SPC Construction Co. LLC joint venture and designed by Arcadis, BIG, SCAPE Landscape Architecture, and others, NWBPCR will build an integrated coastal flood risk management system along the iconic Battery Park City Esplanade, from First Place to North Moore Street and east to Greenwich Street. Protecting New Yorkers from coastal flooding, heat events, and heavy rainfall, NWBPCR will implement flood barrier walls, improve accessibility, and enhance public space through enriched landscaping and native plantings. This milestone builds on BIG’s coastal resiliency work in New York City, following the reopening of East River Park earlier this year.
+              - link "bpca.ny.gov" [ref=e944] [cursor=pointer]:
+                - /url: https://bpca.ny.gov/bpc-people/battery-park-city-authority-announces-project-labor-agreement-for-1-7-billion-battery-park-city-resiliency-project-first-in-new-york-city-to-feature-progressive-design-build/
+                - text: bpca.ny.gov
+                - img [ref=e945]
+            - button "read more" [ref=e948] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e949]: +
+        - article [ref=e950]:
+          - generic [ref=e951]: 19.11.2025
+          - img "CITY OF NASHVILLE REACHES AGREEMENT TO BRING THE TENNESSEE PERFORMING ARTS CENTER TO EAST BANK | Bjarke Ingels Group" [ref=e953]
+          - generic [ref=e954]:
+            - heading "CITY OF NASHVILLE REACHES AGREEMENT TO BRING THE TENNESSEE PERFORMING ARTS CENTER TO EAST BANK" [level=2] [ref=e955]
+            - generic [ref=e957]:
+              - paragraph [ref=e958]: The City of Nashville and the Tennessee Performing Arts Center (TPAC) have reached an agreement to relocate TPAC from downtown Nashville to “Music City’s” developing East Bank. Designed by BIG alongside performing arts architecture firm William Rawn Associates and Nashville-based Hastings Architects, the new performing arts center intends to build upon TPAC’s unique capacity for narrative storytelling, creating an artistic beacon worthy of Tennessee’s creative legacy on Nashville’s East Bank.
+              - link "tennessean.com" [ref=e959] [cursor=pointer]:
+                - /url: https://www.tennessean.com/story/news/local/davidson/2025/11/19/nashville-freddie-oconnell-tpac-east-bank-deal-official/87361320007/
+                - text: tennessean.com
+                - img [ref=e960]
+            - button "read more" [ref=e963] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e964]: +
+        - article [ref=e965]:
+          - generic [ref=e966]: 17.11.2025
+          - img "ELLE DÉCOR ITALIA RECOGNIZES THE BIG HQ AS BEST OFFICE INTERIORS | Bjarke Ingels Group" [ref=e968]
+          - generic [ref=e969]:
+            - heading "ELLE DÉCOR ITALIA RECOGNIZES THE BIG HQ AS BEST OFFICE INTERIORS" [level=2] [ref=e970]
+            - generic [ref=e972]:
+              - paragraph [ref=e973]:
+                - text: BIG HQ has been recognized as
+                - emphasis [ref=e974]: Best of Interiors 2025
+                - text: in the Office category by
+                - emphasis [ref=e975]: Elle Décor Italia
+                - text: . Organized around large windows and half floors staggered from one another, the BIG HQ features open plans throughout the building, connected by a black steel staircase moving in an asymmetrical zigzag between levels. At the heart of the building stands a stacked column of granite and marble. Everything from door handles to concrete columns is integrated as part of a continuous spatial system that defines the headquarters’ interior architecture. Agla Egilsdottir, Associate and Director of Interiors, attended the ceremony on behalf of BIG to receive the award.
+              - link "elledecor.com" [ref=e976] [cursor=pointer]:
+                - /url: https://www.elledecor.com/it/design/a69409572/speciale-best-of-interiors-2025-in-edicola-il-nuovo-numero-di-elle-decor-italia/
+                - text: elledecor.com
+                - img [ref=e977]
+            - button "read more" [ref=e980] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e981]: +
+        - article [ref=e982]:
+          - generic [ref=e983]: 17.11.2025
+          - img "GELEPHU INTERNATIONAL AIRPORT WINS FUTURE PROJECT OF THE YEAR AT WORLD ARCHITECTURE FESTIVAL 2025 | Bjarke Ingels Group" [ref=e985]
+          - generic [ref=e986]:
+            - heading "GELEPHU INTERNATIONAL AIRPORT WINS FUTURE PROJECT OF THE YEAR AT WORLD ARCHITECTURE FESTIVAL 2025" [level=2] [ref=e987]
+            - generic [ref=e989]:
+              - paragraph [ref=e990]: At the world’s largest event dedicated to architecture and development, World Architecture Festival, the Gelephu International Airport wins Future Project of the Year.
+              - paragraph [ref=e991]: Recognized for its integration of local crafts, the project is part of BIG’s broader masterplan for Gelephu Mindfulness City and will feature a diagrid structure crafted from locally sourced timber adorned with painted wood carvings by local artists. The airport will serve as Bhutan’s first in-land mobility hub, connecting to the broader region via accessible trackless trams and public buses, reinforcing its role in sustainable and inclusive national development.
+              - link "worldbuildingsdirectory.com" [ref=e992] [cursor=pointer]:
+                - /url: https://www.worldbuildingsdirectory.com/entries/gelephu-international-airport/
+                - text: worldbuildingsdirectory.com
+                - img [ref=e993]
+            - button "read more" [ref=e996] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e997]: +
+        - article [ref=e998]:
+          - generic [ref=e999]: 13.11.2025
+          - img "BIG WINS INTERNATIONAL COMPETITION TO DESIGN THE NEW HAMBURG STATE OPERA | Bjarke Ingels Group" [ref=e1001]
+          - generic [ref=e1002]:
+            - heading "BIG WINS INTERNATIONAL COMPETITION TO DESIGN THE NEW HAMBURG STATE OPERA" [level=2] [ref=e1003]
+            - generic [ref=e1005]:
+              - paragraph [ref=e1006]: BIG – Bjarke Ingels Group has been selected to design the new home of the Hamburg State Opera. Located on the Baakenhöft peninsula in HafenCity, the project will house the State Opera and the Hamburg Ballet, providing state-of-the-art production and performance facilities for the city, while opening new public spaces along the waterfront.
+              - paragraph [ref=e1007]: Replacing the 1950s State Opera building on Dammtorstraße, the new 45,000-m2 venue responds to the city’s need for a modern house that meets contemporary acoustic, spatial, and technical standards. The new opera sits within Hamburg’s evolving waterfront – a city that has long intertwined culture and harbor life, from the Speicherstadt warehouses to the Elbphilharmonie – continuing the dialogue between civic architecture and the water’s edge.
+              - paragraph [ref=e1008]:
+                - emphasis [ref=e1009]: “The new Hamburg State Opera inhabits an island at the heart of HafenCity bookended by the vertical landmarks of Elbturm and Elbphilharmonie.
+              - paragraph [ref=e1010]:
+                - emphasis [ref=e1011]: The opera will appear like a landscape of concentric terraces – emanating like soundwaves from a central beating heart of music, expanding outward into the harbor like ripples on the surface of the sea.
+              - paragraph [ref=e1012]:
+                - emphasis [ref=e1013]: The result is a three-dimensional public park open and accessible from all sides, with expansive views in all directions – to the old city and the new, to Lohse Park and the Industrial Port.
+              - paragraph [ref=e1014]:
+                - emphasis [ref=e1015]: We are honored to have been chosen to imagine this key puzzle piece of the transformation of Hamburg’s HafenCity, and we are deeply grateful to Herr und Frau Kühne to be entrusted to turn their generosity into the city’s new epicenter for the performing arts.”
+                - text: – Bjarke Ingels, Founder & Creative Director, BIG
+              - link "hamburg.de" [ref=e1016] [cursor=pointer]:
+                - /url: https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-kultur-und-medien/aktuelles/bjarke-ingels-group-gewinnt-qualifizierungsverfahren-zum-opernneubau-1116454
+                - text: hamburg.de
+                - img [ref=e1017]
+            - button "read more" [ref=e1020] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1021]: +
+        - article [ref=e1022]:
+          - generic [ref=e1023]: 11.11.2025
+          - img "BIG NAMED ONE OF AMERICA’S TOP HOSPITALITY ARCHITECTS &#038; DESIGNERS BY FORBES | Bjarke Ingels Group" [ref=e1025]
+          - generic [ref=e1026]:
+            - heading "BIG NAMED ONE OF AMERICA’S TOP HOSPITALITY ARCHITECTS & DESIGNERS BY FORBES" [level=2] [ref=e1027]
+            - generic [ref=e1029]:
+              - paragraph [ref=e1030]:
+                - emphasis [ref=e1031]: Forbes
+                - text: has included BIG on their inaugural list of
+                - emphasis [ref=e1032]: America’s Top Hospitality Architects & Designers
+                - text: ", recognizing the firms that are shaping the future of hospitality design. The list highlights BIG’s Biosphere project, the eighth room at the Treehotel in Swedish Lapland – a hotel known for its uniquely designed cabins, each with a distinct identity that responds to and interacts with the surrounding forest. Designed in collaboration with Treehotel and Swedish ornithologist Ulf Öhman, the Biosphere cabin is enveloped by 350 bird houses, aiming to decrease the downward spiral of the bird population in the region while immersing guests in nature."
+              - link "forbes.com" [ref=e1033] [cursor=pointer]:
+                - /url: https://www.forbes.com/lists/top-architects-designers-hospitality/
+                - text: forbes.com
+                - img [ref=e1034]
+            - button "read more" [ref=e1037] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1038]: +
+        - article [ref=e1039]:
+          - generic [ref=e1040]: 11.11.2025
+          - img "CONSTRUCTION OF IRMAHUS REACHES ITS HIGHEST POINT IN AARHUS | Bjarke Ingels Group" [ref=e1042]
+          - generic [ref=e1043]:
+            - heading "CONSTRUCTION OF IRMAHUS REACHES ITS HIGHEST POINT IN AARHUS" [level=2] [ref=e1044]
+            - paragraph [ref=e1047]:
+              - paragraph [ref=e1048]: The concrete structure of Irmahus in Aarhus, Denmark, has now officially reached its highest point, marking a major milestone for the 37,000 m² mixed-use development. When completed, the building will offer workspaces, a hotel and spa, and restaurants across its 19 stories. Wrapping around the exterior, a public staircase will give both users and visitors access to expansive views of the city and harbor, making Irmahus a new destination along the waterfront. It also marks the final addition to the BIG-designed masterplan for Aarhus Ø, concluding more than a decade of development in the area.
+        - article [ref=e1049]:
+          - generic [ref=e1050]: 10.11.2025
+          - img "THE FINAL ISSUE OF DOMUS GUEST EDITED BY BJARKE INGELS IS OUT | Bjarke Ingels Group" [ref=e1052]
+          - generic [ref=e1053]:
+            - heading "THE FINAL ISSUE OF DOMUS GUEST EDITED BY BJARKE INGELS IS OUT" [level=2] [ref=e1054]
+            - generic [ref=e1056]:
+              - paragraph [ref=e1057]: The tenth and final issue of Domus guest edited by Bjarke Ingels is out, concluding our material odyssey with “Immaterial – Manifesting the Intangible”. As the antithesis to the year, the issue turns to design untethered by a material medium, exploring the non-matter forces that influence our built environments.
+              - paragraph [ref=e1058]: Tobias Rees opens the issue with an exploration of quantum computing and consciousness, while David Sheldon-Hicks looks at how the future is mapped through the great fictions of the big screen. Olafur Eliasson discusses making light, color, temperature, and natural phenomena materially tangible, and Matt Shaw describes the Sphere as a final state of architecture, where surfaces are overtaken by ephemeral content.
+              - paragraph [ref=e1059]: AquaPraça by Höweler + Yoon and Carlo Ratti Associati materializes rising water levels as a floating public square, and Fran Silvestre’s Camiral House blurs fiction and fact, its anti-tectonic form matching the immateriality of its abstract renders. Carlos Bañón and Daeho Lee explore the aesthetic potential of AI as a source of authorship, while Nendo minimizes material use to its physical limits. TeamLab creates immersive, inhabitable animations, Reuben Wu draws cathedrals of time and light with drones, and Gaël McGill and Evan Ingersoll reveal the mechanical complexity inside living cells. Studio Drift’s Lonneke Gordijn and Ralph Nauta explores the interplay of freedom and control, artificial nature and weightless mass.
+              - link "domusweb.it" [ref=e1060] [cursor=pointer]:
+                - /url: https://www.domusweb.it/en/speciali/guest-editor/bjarke-ingels/2025/11/05/editorial-bjarke-ingels-november-immaterial.html
+                - text: domusweb.it
+                - img [ref=e1061]
+            - button "read more" [ref=e1064] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1065]: +
+        - article [ref=e1066]:
+          - generic [ref=e1067]: 10.11.2025
+          - img "THE SUZHOU MUSEUM OF CONTEMPORARY ART TO COMPLETE SOON IN CHINA WITH EXHIBITION CURATED BY BIG | Bjarke Ingels Group" [ref=e1069]
+          - generic [ref=e1070]:
+            - heading "THE SUZHOU MUSEUM OF CONTEMPORARY ART TO COMPLETE SOON IN CHINA WITH EXHIBITION CURATED BY BIG" [level=2] [ref=e1071]
+            - generic [ref=e1073]:
+              - paragraph [ref=e1074]:
+                - text: Rising along the edge of Jinji Lake, the Suzhou Museum of Contemporary Art (Suzhou MoCA) will soon open its doors to the public for the exhibition,
+                - emphasis [ref=e1075]: Materialism
+                - text: . Commissioned by Suzhou Harmony Development Group and designed in collaboration with ARTS Group and Front Inc., the 60,000-m2 Suzhou MoCA is conceived as a village of 12 connected pavilions unified beneath a ribbon-like roof. The museum’s architecture reimagines the garden ‘lang’ 廊 – a long, covered corridor that traces a path – as a modern interpretation of the elements that have defined Suzhou’s urbanism, architecture, and landscape for centuries. The rippled and curved glass façades reflect the surrounding sky, water, and gardens, while a continuous path leads visitors on a journey through galleries, a multifunction hall, theater, restaurant, and gardens.
+              - paragraph [ref=e1076]:
+                - text: The
+                - emphasis [ref=e1077]: Materialism
+                - text: exhibition expands on Bjarke Ingels’ year-long guest editorship of Italian design magazine
+                - emphasis [ref=e1078]: Domus
+                - text: ", where each issue focuses on a single material. The exhibition explores how stone, earth, concrete, metal, glass, wood, fabric, plastic, plant, and recyclate shape the firm’s architecture. Large-scale mock-ups and models of 20 BIG projects, such as the studio’s own Copenhagen headquarters, the Danish Maritime Museum, Google Bay View, and The Plus, invite viewers to experience the tactile and spatial qualities that define BIG’s work."
+              - paragraph [ref=e1079]:
+                - emphasis [ref=e1080]: “Suzhou is the cradle of the Chinese garden. Our design for the Suzhou Museum of Contemporary Art is conceived as a garden of pavilions and courtyards. Individual pavilions are woven together by glazed galleries and porticoes, creating a Chinese knot of interconnected sculpture courtyards and exhibition spaces. Weaving between the legs of the Ferris wheel, the museum branches out like a rhizome, connecting the city to the lake. The result is a manmade maze of plants and artworks to get lost within. Its nodular logic only becomes distinctly discernible when seen from the gondolas above. Against the open space of the lake, the gentle conical curvature of the roofs forms a graceful silhouette on the waterfront. From above, the stainless roof tiles form a true fifth facade.”
+                - strong [ref=e1081]: – Bjarke Ingels, Founder & Creative Director, BIG
+              - paragraph [ref=e1082]:
+                - emphasis [ref=e1083]: Materialism
+                - text: will open to the public in the coming months, ahead of the official opening of the Suzhou Museum of Contemporary Art in 2026.
+            - button "read more" [ref=e1084] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1085]: +
+        - article [ref=e1086]:
+          - generic [ref=e1087]: 07.11.2025
+          - img "THE PALM COLLECTION HONORED AT THE 10TH ANNUAL ARCHIPRODUCTS DESIGN AWARDS 2025 | Bjarke Ingels Group" [ref=e1089]
+          - generic [ref=e1090]:
+            - heading "THE PALM COLLECTION HONORED AT THE 10TH ANNUAL ARCHIPRODUCTS DESIGN AWARDS 2025" [level=2] [ref=e1091]
+            - generic [ref=e1093]:
+              - paragraph [ref=e1094]:
+                - paragraph [ref=e1095]: "Palm, the door handle designed by BIG’s Product Design Team in collaboration with DND, has been recognized with two honors at the Archiproducts Design Awards 2025 in Milan: the Archiproducts Design Award and the Sustainability Award. The accolades acknowledge the project’s contribution to design quality and material innovation within architectural hardware. Palm forms part of DND’s ongoing research into tactile architectural components and is produced in natural brass and aluminum, featuring rounded forms that are molded to fit the palm of the hand. The awards ceremony gathered 1500 professionals from the global design community to celebrate creativity, innovation, and sustainable design practice."
+              - link "dndhandles.it" [ref=e1096] [cursor=pointer]:
+                - /url: https://www.dndhandles.it/en/milano-design-week-2025/
+                - text: dndhandles.it
+                - img [ref=e1097]
+            - button "read more" [ref=e1100] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1101]: +
+        - article [ref=e1102]:
+          - generic [ref=e1103]: 06.11.2025
+          - img "SVT’S “HOW SWEDEN WAS BUILT” SPOTLIGHTS THE FUTURE OF SKYSCRAPERS | Bjarke Ingels Group" [ref=e1105]
+          - generic [ref=e1106]:
+            - heading "SVT’S “HOW SWEDEN WAS BUILT” SPOTLIGHTS THE FUTURE OF SKYSCRAPERS" [level=2] [ref=e1107]
+            - generic [ref=e1109]:
+              - paragraph [ref=e1110]:
+                - text: The second episode of
+                - emphasis [ref=e1111]: How Sweden Was Built
+                - text: ", a docuseries produced by Sweden’s national public broadcaster SVT, features an interview with BIG’s Founder and Creative Director Bjarke Ingels, in which Bjarke discusses the evolution of skyscrapers and explores the city of the future with host Mark Isitt. The conversation continues with a look at BIG’s impact on the Manhattan skyline, including projects such as The Spiral, a 66-story tower wrapped in a continuous ribbon of greenery, and VIA 57 West, the “courtscraper” that merges Manhattan’s skyscraper density with the openness of a European courtyard."
+              - link "svtplay.se" [ref=e1112] [cursor=pointer]:
+                - /url: https://www.svtplay.se/video/KqP2awX/sa-byggdes-sverige/2-storstaden-med-siktet-mot-skyn
+                - text: svtplay.se
+                - img [ref=e1113]
+            - button "read more" [ref=e1116] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1117]: +
+        - article [ref=e1118]:
+          - generic [ref=e1119]: 31.10.2025
+          - img "NIKOLAJ COSTER-WALDAU VISITS COPENHILL IN BLOOMBERG’S &#8216;AN OPTIMIST’S GUIDE TO THE PLANET&#8217; | Bjarke Ingels Group" [ref=e1121]
+          - generic [ref=e1122]:
+            - heading "NIKOLAJ COSTER-WALDAU VISITS COPENHILL IN BLOOMBERG’S ‘AN OPTIMIST’S GUIDE TO THE PLANET’" [level=2] [ref=e1123]
+            - generic [ref=e1125]:
+              - paragraph [ref=e1126]: In an episode of the Bloomberg Original series, ‘An Optimist’s Guide to the Planet’, actor Nikolaj Coster-Waldau visits CopenHil as part of his search for people and projects helping drive humanity toward a more sustainable future. During the visit, he explores the inner workings of the waste-to-energy plant and takes on the rooftop ski slope to experience firsthand how a piece of social infrastructure can act as a meeting point for the citizens. The visit also introduces CopenHill’s carbon-capture pilot project, which aims to capture up to 400,000 tons of CO₂ annually by 2030.
+              - link "youtube.com" [ref=e1127] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=wq-ymiaf9nE
+                - text: youtube.com
+                - img [ref=e1128]
+            - button "read more" [ref=e1131] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1132]: +
+        - article [ref=e1133]:
+          - generic [ref=e1134]: 31.10.2025
+          - img "BIG ASSOCIATE JEREMY ALAIN SIEGEL SPEAKS AT WORLD CITIES DAY 2025 | Bjarke Ingels Group" [ref=e1136]
+          - generic [ref=e1137]:
+            - heading "BIG ASSOCIATE JEREMY ALAIN SIEGEL SPEAKS AT WORLD CITIES DAY 2025" [level=2] [ref=e1138]
+            - generic [ref=e1140]:
+              - paragraph [ref=e1141]: At this year’s World Cities Day held in Bogotá, Colombia, BIG NYC Associate Jeremy Alain Siegel presented strategies for integrating sustainability, climate adaptation, and nature into urban design. Aligned with the 2025 theme “People-Centered Smart Cities,” Jeremy focused on BIG’s coastal resilience proposal for Lower Manhattan, the BIG U – a 10-mile system of flood and storm protection developed after Superstorm Sandy – as a leading example of combining social infrastructure with climate-responsive design.
+              - paragraph [ref=e1142]: Organized by UN-Habitat, World Cities Day is held annually on October 31 to raise awareness and inspire action toward inclusive, future-ready, and sustainable cities.
+              - link "habitatbogota.gov.co" [ref=e1143] [cursor=pointer]:
+                - /url: https://habitatbogota.gov.co/prensa/noticias/jeremy-alain-siegel-presento-ciudades-azules-verdes-mirada-transformadora-sobre-diseno-urbano
+                - text: habitatbogota.gov.co
+                - img [ref=e1144]
+            - button "read more" [ref=e1147] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1148]: +
+        - article [ref=e1149]:
+          - generic [ref=e1150]: 31.10.2025
+          - img "BIG FEATURED IN CATALAN DOCUSERIES ANIMALS ARQUITECTES | Bjarke Ingels Group" [ref=e1152]
+          - generic [ref=e1153]:
+            - heading "BIG FEATURED IN CATALAN DOCUSERIES ANIMALS ARQUITECTES" [level=2] [ref=e1154]
+            - generic [ref=e1156]:
+              - paragraph [ref=e1157]: BIG is featured in the second season of Animals Arquitectes, a Catalan docuseries on TV3 that visits local architecture studios to learn about their work and creative approach. The episode includes a visit to BIG’s Copenhagen headquarters for a conversation with Bjarke Ingels on his career and relationship with Barcelona, followed by a stop at the Barcelona office where Associate Mireia Sala Font and Senior Architect Laura Nieto talk about working within a global architecture studio.
+              - link "3cat.cat" [ref=e1158] [cursor=pointer]:
+                - /url: https://www.3cat.cat/3cat/t2xc8-bjarke-ingels/video/6363469/
+                - text: 3cat.cat
+                - img [ref=e1159]
+        - article [ref=e1162]:
+          - generic [ref=e1163]: 28.10.2025
+          - img "GELEPHU MINDFULNESS CITY WINS AT THE 2025 HOLCIM FOUNDATION AWARDS | Bjarke Ingels Group" [ref=e1165]
+          - generic [ref=e1166]:
+            - heading "GELEPHU MINDFULNESS CITY WINS AT THE 2025 HOLCIM FOUNDATION AWARDS" [level=2] [ref=e1167]
+            - generic [ref=e1169]:
+              - paragraph [ref=e1170]: Gelephu Mindfulness City has been recognized as one of four Asia Pacific winners at the 2025 Holcim Foundation Awards for Sustainable Construction – one of the most significant honors recognizing innovation and best practice in sustainable architecture and design. Developed by BIG – Bjarke Ingels Group with Arup and Cistri, the 1000+ km² masterplan in Bhutan envisions a new economic hub shaped by the country’s culture, landscape, and the principles of Gross National Happiness, setting a global benchmark for mindful urban development.
+              - link "holcimfoundation.org" [ref=e1171] [cursor=pointer]:
+                - /url: https://www.holcimfoundation.org/media/articles/2025/awards-2025-winners-announcement#contact
+                - text: holcimfoundation.org
+                - img [ref=e1172]
+            - button "read more" [ref=e1175] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1176]: +
+        - article [ref=e1177]:
+          - generic [ref=e1178]: 23.10.2025
+          - img "ALDAR LAUNCHES THE ROW SAADIYAT IN ABU DHABI’S CULTURAL DISTRICT | Bjarke Ingels Group" [ref=e1180]
+          - generic [ref=e1181]:
+            - heading "ALDAR LAUNCHES THE ROW SAADIYAT IN ABU DHABI’S CULTURAL DISTRICT" [level=2] [ref=e1182]
+            - generic [ref=e1184]:
+              - paragraph [ref=e1185]: Aldar Properties has announced The Row Saadiyat, a lifestyle and residential quarter designed by BIG with interiors by Kettle Collective. Located in Abu Dhabi’s Saadiyat Cultural District – within walking distance of the Zayed National Museum, the Louvre Abu Dhabi, the Guggenheim, and upcoming Natural History Museum – The Row Saadiyat comprises seven residential buildings arranged around a central linear spine. This spine creates a seamless visual and spatial connection between a mosque at one end and the Zayed National Museum on the other, offering residents unobstructed vistas that celebrate the district’s cultural icons.
+              - paragraph [ref=e1186]: Combining vibrant street life with calm, private spaces above, The Row Saadiyat’s ground floors will host dining, wellness, and lifestyle outlets, while amenities include kids’ clubs, a pet spa, a co-working lounge, and a wellbeing club open to residents and the wider community. The mosque, also designed by BIG, blends Emirati vernacular with Saadiyat’s contemporary architecture, featuring a prayer hall that aligns with Mecca and an upper form that orients toward the Zayed Museum. A spiraling ramp connects these elements, creating a fully accessible roofscape and marking the first mosque of its kind inspired by the Malwiya form.
+              - paragraph [ref=e1187]: The first phase of sales for 315 one- to three-bedroom homes in The Row Saadiyat opens on November 1st.
+              - link "aldar.com" [ref=e1188] [cursor=pointer]:
+                - /url: https://www.aldar.com/properties/en/therowsaadiyat?utm_source=GoogleSearch&utm_medium=paid-social&utm_campaign=therowsaadiyat-teaser-2025_uae-en&utm_content=GoogleSearch_banner&enquiryTrigger=GoogleSearch&enquiryCategory=Google&offer=TheRowSaadiyatTeaser2025&campaignname=GoogleSearch_BrandProperties-EN_Lifestyle_District_TheRowSaadiyat&gad_source=1&gad_campaignid=23172673891&gclid=EAIaIQobChMI0dPdi4e9kAMViqJQBh1dBSk-EAAYASAAEgLVaPD_BwE
+                - text: aldar.com
+                - img [ref=e1189]
+            - button "read more" [ref=e1192] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1193]: +
+        - article [ref=e1194]:
+          - generic [ref=e1195]: 18.10.2025
+          - img "MANRESA WILDS FEATURED IN THE NEW YORK TIMES | Bjarke Ingels Group" [ref=e1197]
+          - generic [ref=e1198]:
+            - heading "MANRESA WILDS FEATURED IN THE NEW YORK TIMES" [level=2] [ref=e1199]
+            - generic [ref=e1201]:
+              - paragraph [ref=e1202]:
+                - emphasis [ref=e1203]: The New York Times
+                - text: ’ Michael Kimmelman spotlights Manresa Wilds as a leading example of adaptive reuse in a story about potential of obsolete infrastructure to be repurposed into community assets. Located on the site of a decommissioned power plant in Norwalk, Connecticut, Manresa Wilds will revitalize the 125-acre peninsula as a park, nature retreat, and community hub developed in close collaboration with some 3,000 Norwalkers.
+              - paragraph [ref=e1204]: The plant buildings at the heart of Manresa Wilds will be reimagined by BIG into a network of event spaces, educational and research facilities, and areas for play, while the publicly accessible park, designed by SCAPE, will feature new waterfront walking paths, an expansive green lawn and meadow, and a public beach. For the first time in nearly 75 years, Manresa Wilds will unlock 1.75 miles of waterfront access, transforming the site into a major public amenity for the city of Norwalk.
+              - link "nytimes.com" [ref=e1205] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2025/10/15/arts/design/manresa-wilds-connecticut-power-station.html
+                - text: nytimes.com
+                - img [ref=e1206]
+            - button "read more" [ref=e1209] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1210]: +
+        - article [ref=e1211]:
+          - generic [ref=e1212]: 17.10.2025
+          - img "MARENGO MULTIMODAL TRANSPORT HUB SECURES BUILDING PERMIT | Bjarke Ingels Group" [ref=e1214]
+          - generic [ref=e1215]:
+            - heading "MARENGO MULTIMODAL TRANSPORT HUB SECURES BUILDING PERMIT" [level=2] [ref=e1216]
+            - generic [ref=e1218]:
+              - paragraph [ref=e1219]: The Marengo Multimodal Transport Hub in Toulouse, France, has received its building permit, marking a new step in the development of the 12,000 m² project located next to Gare Matabiau. The six-storey building will bring together bus, rail, metro, cycling, and pedestrian networks under one roof. A rose-colored crystalline roof, referencing the city’s traditional “foraine” brick, rises to 32 m towards the railway tracks. Public areas are planned to extend across the ground floor and two sub-levels, hosting retail, rest spaces, cultural activities, and the Maison du Climat. A 1,000-place bicycle station will be integrated into the site, while the upper floors provide offices for the Occitanie Region.
+              - paragraph [ref=e1220]: Construction is scheduled to begin in summer 2026 and finish at the end of 2028, to align with the launch of metro line C and precede the arrival of the Toulouse–Bordeaux high-speed rail line.
+              - link "lejournaltoulousain.fr" [ref=e1221] [cursor=pointer]:
+                - /url: https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/une-avancee-majeure-halle-des-mobilites-toulouse-entre-nouvelle-phase-341377/
+                - text: lejournaltoulousain.fr
+                - img [ref=e1222]
+            - button "read more" [ref=e1225] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1226]: +
+        - article [ref=e1227]:
+          - generic [ref=e1228]: 16.10.2025
+          - img "THE BLOOMBERG STUDENT CENTER, A CASCADING VILLAGE OF TIMBER PAVILIONS, IS THE NEW HUB OF STUDENT LIFE AT JOHNS HOPKINS UNIVERSITY | Bjarke Ingels Group" [ref=e1230]
+          - generic [ref=e1231]:
+            - heading "THE BLOOMBERG STUDENT CENTER, A CASCADING VILLAGE OF TIMBER PAVILIONS, IS THE NEW HUB OF STUDENT LIFE AT JOHNS HOPKINS UNIVERSITY" [level=2] [ref=e1232]
+            - generic [ref=e1234]:
+              - paragraph [ref=e1235]: A new era of student life has begun at Johns Hopkins University with the opening of the Bloomberg Student Center, a mass timber village designed in collaboration with Shepley Bulfinch and Rockwell Group. As the first student center for Johns Hopkins University, the 150,000-sq-ft building provides a central gathering space for the university’s Homewood campus, featuring 29 “floating” cantilevered roof planes integrated with nearly 1,000 photovoltaic panels. The mass timber structure combines a digital media center, a 250-seat performance space, art and dance studios, music rehearsal spaces, a dining hall, and more all under one roof. Shaped through in-depth research into the students’ needs, the building is transparent by design, welcoming daylight from all sides and offering views into the ever-changing mosaic of student life within.
+              - paragraph [ref=e1236]:
+                - emphasis [ref=e1237]: “Where student activities at Johns Hopkins University were once dispersed all over campus and all over town, they are now collected and clustered at the Bloomberg Student Center – a village of timber pavilions climbing the natural hill on the university’s edge. Like the indoor counterpart of The Beach – the circular sloping front lawn of the Homewood campus – the Student Center is open and inviting in all directions. Tugged into the topography, the center is a four-story building where every floor is directly accessible from the outside, from every side. As the individual timber pavilions join together, they leave generous openings in between, allowing daylight and views to reach every corner of the building. At its heart – underneath the solar paneled rooftops – the creative commons is a cascading, four seasons meeting space for students and faculty – academic, cultural, and social activities alike. The mass timber construction not only substantially reduces the embodied carbon footprint of the building, but also provides an atmosphere of welcoming warmth and inviting informality.”
+                - strong [ref=e1238]: – Bjarke Ingels, Founder & Creative Director, BIG
+              - link "metropolismag.com" [ref=e1239] [cursor=pointer]:
+                - /url: https://metropolismag.com/projects/inside-and-outside-johns-hopkins-new-bloomberg-student-center/
+                - text: metropolismag.com
+                - img [ref=e1240]
+            - button "read more" [ref=e1243] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1244]: +
+        - article [ref=e1245]:
+          - generic [ref=e1246]: 14.10.2025
+          - img "BJARKE INGELS GRACES COVER OF VOGUE SCANDINAVIA LIVING&#8217;S DEBUT ISSUE | Bjarke Ingels Group" [ref=e1248]
+          - generic [ref=e1249]:
+            - heading "BJARKE INGELS GRACES COVER OF VOGUE SCANDINAVIA LIVING’S DEBUT ISSUE" [level=2] [ref=e1250]
+            - generic [ref=e1252]:
+              - paragraph [ref=e1253]: Vogue Scandinavia Living launches its debut issue with BIG’s Founder and Creative Director, Bjarke Ingels, on the cover. The feature takes readers inside his 1918 summerhouse in Rørvig, Denmark – a red pinewood cottage named Fjordglimt (“a glimpse of the fjord”) that blends Danish tradition with Swedish craftsmanship. In the article, Bjarke reflects on how the historic home has become both a family sanctuary and a source of creative inspiration, influencing his architectural work and approach to restoration.
+              - link "voguescandinavia.com" [ref=e1254] [cursor=pointer]:
+                - /url: https://www.voguescandinavia.com/articles/bjarke-ingels-vogue-scandinavia-living-cover-story
+                - text: voguescandinavia.com
+                - img [ref=e1255]
+        - article [ref=e1258]:
+          - generic [ref=e1259]: 13.10.2025
+          - img "BIG MAPS THE TREE OF FAITH ONTO THE SLOPES OF TIRANA, ALBANIA | Bjarke Ingels Group" [ref=e1261]
+          - generic [ref=e1262]:
+            - heading "BIG MAPS THE TREE OF FAITH ONTO THE SLOPES OF TIRANA, ALBANIA" [level=2] [ref=e1263]
+            - generic [ref=e1265]:
+              - paragraph [ref=e1266]: BIG has won the international competition to design Faith Park – a new 200,000-m² public park on the hillsides outside of Tirana, Albania.
+              - paragraph [ref=e1267]: Laid out as a genealogical tree of faith, the park branches from a shared origin in the valley into three routes, guiding visitors through gardens, olive groves, and forested slopes toward nine pavilions – each dedicated to a different spiritual tradition. Framed by gardens inspired by geographic and spiritual origins, the pavilions are constructed in materials including Jerusalem limestone for Judaism; colored Italian marble for Christianity; white sandstone mosaic for Islam; and granite, onyx, marble, and river-polished stone for the Dharmic and East Asian traditions. The Museum of Remembrance is formed from nine rammed-earth volumes arrayed around a central garden, celebrating diversity and unity at the entrance of the Park.
+              - paragraph [ref=e1268]:
+                - emphasis [ref=e1269]: “In the time of the Anthropocene, where our removal from nature and our presence on the planet has become so substantial and so damaging, it seems that we must return to our common roots – to begin worshipping our natural environment, our ecosystem, our shared planet that we call home. In that sense, it feels almost inevitable that the Park of Faith – organized like a livable, inhabitable evolutionary tree of faith mapped onto the natural topography of a mountain, connecting the valley to the summit, the earth to the heavens, and rooted in respect for nature – is a project the world is longing for, whether we know it yet or not.”
+                - text: – Bjarke Ingels, Founder and Creative Director, BIG
+              - link "designboom.com" [ref=e1270] [cursor=pointer]:
+                - /url: https://www.designboom.com/architecture/bjarke-ingels-group-scatter-symbolic-stone-pavilions-tirana-hillside-faith-park-10-15-2025/
+                - text: designboom.com
+                - img [ref=e1271]
+            - button "read more" [ref=e1274] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1275]: +
+        - article [ref=e1276]:
+          - generic [ref=e1277]: 08.10.2025
+          - img "DOMUS PUBLISHES &#8220;RECYCLATE &#8211; FROM TRASH TO TREASURE&#8221; UNDER BJARKE INGELS&#8217; GUEST EDITORSHIP | Bjarke Ingels Group" [ref=e1279]
+          - generic [ref=e1280]:
+            - heading "DOMUS PUBLISHES “RECYCLATE – FROM TRASH TO TREASURE” UNDER BJARKE INGELS’ GUEST EDITORSHIP" [level=2] [ref=e1281]
+            - generic [ref=e1283]:
+              - paragraph [ref=e1284]: In “Recyclate – From Trash to Treasure”, the October issue of Domus guest edited by Bjarke Ingels, we look to the remains of our built world as the resources of the future.
+              - paragraph [ref=e1285]: Aaron Betsky makes a case for repurposing rather than building anew, while Anders Lendager looks to the existing built environment as a source of new materials. Olaf Grawert challenges the culture of demolition, and Lacaton & Vassal treat reuse as an act of generosity, extending the life and freedom of what already exists.
+              - paragraph [ref=e1286]: Pihlmann Architects transform a 1960s factory in Copenhagen, while Blaising Borchardt Studio gives significance to old rails in their Holocaust memorial. Maxence Grangeot reuses rubble in Cyclopean concrete, and Dirk van der Kooij merges waste plastics into new metamorphic forms. Material Record and Yamaha explore the aesthetics of upcycling with their speakers and guitars. Thomas Deininger scavenges the debris of beaches and parks to celebrate nature with the very waste that threatens it – and creates the cover for this issue, assembling pieces of plastic into an abstract composition of color and waste. Thomas Dambo builds mythological trolls from construction scraps, while Kathleen Ryan turns trash into treasure with her bejewelled still lifes, inspiring the title of this issue.
+              - link "domusweb.it" [ref=e1287] [cursor=pointer]:
+                - /url: https://www.domusweb.it/it/speciali/guest-editor/bjarke-ingels/2025/10/02/editoriale-bjarke-ingels-ottobre-riciclo.html
+                - text: domusweb.it
+                - img [ref=e1288]
+            - button "read more" [ref=e1291] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1292]: +
+        - article [ref=e1293]:
+          - generic [ref=e1294]: 08.10.2025
+          - img "BIG WINS COMPETITION TO DESIGN NEW CONGRESS CENTER IN ROUEN, FRANCE | Bjarke Ingels Group" [ref=e1296]
+          - generic [ref=e1297]:
+            - heading "BIG WINS COMPETITION TO DESIGN NEW CONGRESS CENTER IN ROUEN, FRANCE" [level=2] [ref=e1298]
+            - generic [ref=e1300]:
+              - paragraph [ref=e1301]: BIG has won the international competition to design a new congress center in Rouen, France. On the banks of the Seine, the 11,500 m² building, nicknamed ‘The Sail,’ is defined by its roofline that rises and dips above the river. The congress center is envisioned as a public meeting place that links the city to the water while hosting international events, exhibitions and community life.
+              - paragraph [ref=e1302]: Commissioned by the metropolitan authority of Rouen, the center will house two auditoriums, exhibition halls, a restaurant, meeting rooms and back-of-house spaces, contributing to the city’s ambition of becoming a destination for international events. Designed in collaboration with BLP & associés, The Sail is designed to achieve Passivhaus certification for highly energy-efficient buildings.
+              - link "paris-normandie.fr" [ref=e1303] [cursor=pointer]:
+                - /url: https://www.paris-normandie.fr/id664687/article/2025-10-07/en-images-voila-quoi-va-ressembler-le-futur-centre-des-congres-de-rouen
+                - text: paris-normandie.fr
+                - img [ref=e1304]
+            - button "read more" [ref=e1307] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1308]: +
+        - article [ref=e1309]:
+          - generic [ref=e1310]: 07.10.2025
+          - img "HUMANS SINCE 1982, SOLIDNATURE, AND BIG LAUNCH A LIMITED SERIES OF KINETIC TIMEPIECES | Bjarke Ingels Group" [ref=e1312]
+          - generic [ref=e1313]:
+            - heading "HUMANS SINCE 1982, SOLIDNATURE, AND BIG LAUNCH A LIMITED SERIES OF KINETIC TIMEPIECES" [level=2] [ref=e1314]
+            - generic [ref=e1316]:
+              - paragraph [ref=e1317]: BIG has collaborated with artist studio Humans since 1982 and stone supplier SolidNature on a new series of kinetic timepieces, first unveiled during 3daysofdesign at BIG’s Copenhagen headquarters for the Materialism exhibition. The series consists of two editions, A Million Times 96 and ClockClock 24, crafted from Sunset Dune Travertine – a stone handpicked by Bjarke Ingels for its layered geological character. Drawing on Humans since 1982’s choreographed clock grids, the travertine surface becomes a living canvas where millennia meet minutes. Each piece is hand-assembled in Stockholm using the studio’s proprietary technology.
+              - paragraph [ref=e1318]:
+                - emphasis [ref=e1319]: “The fact that stones – especially sedentary and even metamorphic rocks are like geological calendars, each stratum like a date in a ledger, makes it a beautiful natural illustration of the concept of time. The two coming together – technology and geology, Minutes, Hours and Millenia – seems like inevitability.”
+                - text: – Bjarke Ingels, Founder & Creative Director, BIG
+              - link "humanssince1982.com" [ref=e1320] [cursor=pointer]:
+                - /url: https://www.humanssince1982.com/en-eu/blogs/collaborations/hs82_bjarke_ingels?srsltid=AfmBOoo9-RdL8otwJFn3dXI8APiyrTBhsOTsmqJX0SCmSFSYxkxdebBE
+                - text: humanssince1982.com
+                - img [ref=e1321]
+            - button "read more" [ref=e1324] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1325]: +
+        - article [ref=e1326]:
+          - generic [ref=e1327]: 06.10.2025
+          - img "BJARKE INGELS FEATURED IN THE MONOCLE BOOK OF DESIGNERS ON SOFAS | Bjarke Ingels Group" [ref=e1329]
+          - generic [ref=e1330]:
+            - heading "BJARKE INGELS FEATURED IN THE MONOCLE BOOK OF DESIGNERS ON SOFAS" [level=2] [ref=e1331]
+            - generic [ref=e1333]:
+              - paragraph [ref=e1334]: Monocle has included BIG’s Founder & Creative Director Bjarke Ingels in their new publication The Monocle Book of Designers on Sofas, which explores the personal and creative significance of sofas for 50 leading designers and architects around the world.
+              - paragraph [ref=e1335]: Photographed on his houseboat in Copenhagen’s harbor, Bjarke is featured with the Brick sofa, designed by BIG’s product design team in collaboration with Lithuanian firm Jot Jot. The piece takes inspiration from the sandbags that line the city’s waterfront – tying the piece to his daily surroundings and life.
+              - link "monocle.com" [ref=e1336] [cursor=pointer]:
+                - /url: https://monocle.com/design/furniture-design/designers-on-sofas-book-release/
+                - text: monocle.com
+                - img [ref=e1337]
+        - article [ref=e1340]:
+          - generic [ref=e1341]: 02.10.2025
+          - img "BIG PARTNER JOÃO ALBUQUERQUE INTERVIEWED FOR FINANCIAL TIMES | Bjarke Ingels Group" [ref=e1343]
+          - generic [ref=e1344]:
+            - heading "BIG PARTNER JOÃO ALBUQUERQUE INTERVIEWED FOR FINANCIAL TIMES" [level=2] [ref=e1345]
+            - generic [ref=e1347]:
+              - paragraph [ref=e1348]: The Financial Times has published a story on BIG’s new masterplan in Dubai and the emirate’s ambition to embrace a Copenhagen-style model of sustainable, community-focused living.
+              - paragraph [ref=e1349]: The article includes an interview with BIG Partner João Albuquerque, who discusses how greenery and shaded public spaces are central to the design strategy, creating comfortable, walkable environments that respond to Dubai’s climate. João highlights how the masterplan aims to foster social interaction, cycling and pedestrian activity, reimagining urban life in a city traditionally defined by the car.
+              - link "ft.com" [ref=e1350] [cursor=pointer]:
+                - /url: https://www.ft.com/content/f6f38132-4d13-40cf-a990-ee5865875a3e
+                - text: ft.com
+                - img [ref=e1351]
+            - button "read more" [ref=e1354] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1355]: +
+        - article [ref=e1356]:
+          - generic [ref=e1357]: 01.10.2025
+          - img "ARCHITECTURAL RECORD SPOTLIGHTS WILDFLOWER FILM STUDIOS | Bjarke Ingels Group" [ref=e1359]
+          - generic [ref=e1360]:
+            - heading "ARCHITECTURAL RECORD SPOTLIGHTS WILDFLOWER FILM STUDIOS" [level=2] [ref=e1361]
+            - generic [ref=e1363]:
+              - paragraph [ref=e1364]:
+                - emphasis [ref=e1365]: Architectural Record
+                - text: ", the U.S.-based architecture and interior design magazine, features Wildflower Film Studios in its October issue focused on cultural projects. Writer Clifford A. Pearson describes the NYC studio as possessing both “heft and dexterity,” highlighting the challenges of designing a film studio within New York’s dense urban fabric."
+              - paragraph [ref=e1366]: As the world’s first vertical media production village, Wildflower Studios stands as a 145-ft-tall structure clad with precast concrete panels, which are set at angles that create an animated effect on the façade as the position of the sun changes throughout the day. The “village” features an elevated L-shaped interior street; 11 stacked soundstages; oversized “elephant elevators” to accommodate large-scale equipment and sets; and a 150,000-sq-ft solar panel footprint.
+              - link "architecturalrecord.com" [ref=e1367] [cursor=pointer]:
+                - /url: https://www.architecturalrecord.com/articles/17765-bigs-wildflower-studios-brings-film-production-spaceand-visual-interestto-an-industrial-corner-of-queens
+                - text: architecturalrecord.com
+                - img [ref=e1368]
+            - button "read more" [ref=e1371] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1372]: +
+        - article [ref=e1373]:
+          - generic [ref=e1374]: 30.09.2025
+          - img "ROBERT DAY SCIENCES CENTER ADVANCES COMPUTATIONAL GENE, BRAIN, AND CLIMATE RESEARCH AT CLAREMONT MCKENNA COLLEGE | Bjarke Ingels Group" [ref=e1376]
+          - generic [ref=e1377]:
+            - heading "ROBERT DAY SCIENCES CENTER ADVANCES COMPUTATIONAL GENE, BRAIN, AND CLIMATE RESEARCH AT CLAREMONT MCKENNA COLLEGE" [level=2] [ref=e1378]
+            - generic [ref=e1380]:
+              - paragraph [ref=e1381]: The Robert Day Sciences Center is now welcoming students, professors, staff, and visitors at Claremont McKenna College – one of the nation’s top liberal arts colleges. The 135,000-sq-ft building is designed to maximize multidisciplinary integration and interaction, with each level oriented in a different direction, channeling the flow of people and ideas between the labs, classrooms, and surrounding campus. Commissioned in 2020, the center is BIG’s first built project in Los Angeles and the first completed building in the BIG-designed masterplan for CMC’s Roberts Campus, which envisions a more unified campus shaped by a series of buildings that extend the central mall and adjacent sports bowl. Collaborators on the Sciences Center include Saiful Bouquet as Structural Engineer, KPRS Construction as General Contractor, and IDS Real Estate Group as Construction Manager.
+              - paragraph [ref=e1382]:
+                - emphasis [ref=e1383]: “The Robert Day Sciences Center brings together computer science, data science, and life sciences in one integrated environment. As the first completed building of our master plan for Claremont McKenna, it extends the north mall into a zigzag of malls, becoming a distributor of flows for the entire campus.
+              - paragraph [ref=e1384]:
+                - emphasis [ref=e1385]: We imagined the Sciences Center as a series of parallel building volumes side by side – with a public space in between – that are rotated in all the same directions as the mall. Even though each of the individual building volumes are rational, flexible, and capable of being computer labs or wet labs, the open atrium in between becomes a Piranesian social space where you can see fellow students, faculty, colleagues, and professors from every level. So even if you spend most of your time in a wet lab, computer lab, or classroom, there will still be many opportunities for sparks to fly between you and your fellow students, stimulating the exchange of ideas across the traditional silos of knowledge. In that sense, the Robert Day Sciences Center becomes a crucible where all of the different kinds of knowledge and all of the different kinds of students and teachers come together in one complex, three-dimensional learning environment.”
+                - strong [ref=e1386]: – Bjarke Ingels, Founder & Creative Director, BIG
+              - link "designboom.com" [ref=e1387] [cursor=pointer]:
+                - /url: https://www.designboom.com/architecture/bjarke-ingels-stacked-science-center-claremont-mckenna-college-california-robert-day-09-29-2025/
+                - text: designboom.com
+                - img [ref=e1388]
+            - button "read more" [ref=e1391] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1392]: +
+        - article [ref=e1393]:
+          - generic [ref=e1394]: 25.09.2025
+          - img "TOYOTA WOVEN CITY OFFICIALLY LAUNCHES IN JAPAN | Bjarke Ingels Group" [ref=e1396]
+          - generic [ref=e1397]:
+            - heading "TOYOTA WOVEN CITY OFFICIALLY LAUNCHES IN JAPAN" [level=2] [ref=e1398]
+            - generic [ref=e1400]:
+              - paragraph [ref=e1401]: Taking its first steps as a real-world test course for mobility, Toyota Woven City has welcomed its first residents at the foothills of Mt. Fuji in Susono City, Japan. Phase 1 of the Woven City, designed by Nikken Sekkei with the masterplan, public realm, and landscape by BIG, brings together ‘Inventors’ – enterprises, startups, entrepreneurs, and researchers – and ‘Weavers’ – its residents and visitors – into a living laboratory for mobility, autonomy, connectivity, hydrogen infrastructure, and industry collaboration. By combining the legacy of Japanese craftsmanship with modern technology, Japan’s construction heritage lives on, while building sustainably and efficiently into the future.
+              - paragraph [ref=e1402]: Toyota Woven City Phase 1 will welcome about 300 residents, with the city slated to open to the public in April 2026.
+              - link "woven.toyota" [ref=e1403] [cursor=pointer]:
+                - /url: https://woven.toyota/en/our-latest/20250925/
+                - text: woven.toyota
+                - img [ref=e1404]
+            - button "read more" [ref=e1407] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1408]: +
+        - article [ref=e1409]:
+          - generic [ref=e1410]: 25.09.2025
+          - img "HOTEL CONCEPT UNVEILED FOR THE BIG-DESIGNED BASSIN SEVEN IN AARHUS | Bjarke Ingels Group" [ref=e1412]
+          - generic [ref=e1413]:
+            - heading "HOTEL CONCEPT UNVEILED FOR THE BIG-DESIGNED BASSIN SEVEN IN AARHUS" [level=2] [ref=e1414]
+            - generic [ref=e1416]:
+              - paragraph [ref=e1417]: The hotel within BIG’s Irmahus development on Aarhus Ø has been revealed as Bassin Seven and is set to be Scandic’s first signature hotel in Denmark. Designed by BIG, the 342-room hotel is conceived as an “urban resort,” featuring a 2,000 m² spa across three levels, restaurants, cafés, a rooftop bar, and plazas that open the building to the city.
+              - paragraph [ref=e1418]: Irmahus is designed as a vertical neighborhood, with retail and offices on the lower floors and an 80-meter spiraling public stair leading to a panoramic rooftop. Set to open in early 2027, Irmahus will complete the BIG-designed Aarhus Harbor Masterplan, which has transformed the former industrial waterfront into a new urban district for living, working and gathering.
+              - link "stiften.dk" [ref=e1419] [cursor=pointer]:
+                - /url: https://stiften.dk/erhverv/det-foerste-i-danmark-her-er-alt-du-kan-forvente-af-ny-hotelperle-paa-aarhus-oe?teaser-referral=57ab942b-2b09-4202-83a9-c4f9d23526dc-2
+                - text: stiften.dk
+                - img [ref=e1420]
+            - button "read more" [ref=e1423] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1424]: +
+        - article [ref=e1425]:
+          - generic [ref=e1426]: 24.09.2025
+          - img "BIG IN CONVERSATION WITH HAMBURGER ABENDBLATT ON THE FUTURE HAMBURG OPERA | Bjarke Ingels Group" [ref=e1428]
+          - generic [ref=e1429]:
+            - heading "BIG IN CONVERSATION WITH HAMBURGER ABENDBLATT ON THE FUTURE HAMBURG OPERA" [level=2] [ref=e1430]
+            - generic [ref=e1432]:
+              - paragraph [ref=e1433]: German daily newspaper, Hamburger Abendblatt, has featured BIG in an in-depth interview on the competition for the new Hamburg Opera, speaking with BIG’s Founder & Creative Director Bjarke Ingels and Partner Jakob Sand.
+              - paragraph [ref=e1434]: The piece introduces BIG as one of five architecture teams invited to develop proposals for the future opera house at Baakenhöft in Hamburg, marking an important step toward one of Germany’s most significant cultural projects. The winning design will be announced at the end of 2025.
+              - link "abendblatt.de" [ref=e1435] [cursor=pointer]:
+                - /url: https://www.abendblatt.de/hamburg/kultur/article409786098/die-neue-hamburger-staatsoper-als-park-nichts-ist-mehr-unmoeglich.html
+                - text: abendblatt.de
+                - img [ref=e1436]
+            - button "read more" [ref=e1439] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1440]: +
+        - article [ref=e1441]:
+          - generic [ref=e1442]: 18.09.2025
+          - img "NOT A HOTEL DESIGN COMPETITION OPENS FOR SUBMISSIONS | Bjarke Ingels Group" [ref=e1444]
+          - generic [ref=e1445]:
+            - heading "NOT A HOTEL DESIGN COMPETITION OPENS FOR SUBMISSIONS" [level=2] [ref=e1446]
+            - generic [ref=e1448]:
+              - paragraph [ref=e1449]: Returning for its second year, the NOT A HOTEL DESIGN COMPETITION is now open for entries, inviting architects and creators under 40 to design a villa on the scenic island of Yakushima, a southern Japanese island off the coast of Kagoshima. The competition jury includes BIG’s Founder and Creative Director Bjarke Ingels, architect Sou Fujimoto, and interior designer Masamichi Katayama. The winner will be announced in March 2026 and awarded a ¥10 million prize, with the design brought to life by NOT A HOTEL on Yakushima Island.
+              - link "notahotel.com" [ref=e1450] [cursor=pointer]:
+                - /url: https://notahotel.com/en/design-competition/2026
+                - text: notahotel.com
+                - img [ref=e1451]
+        - article [ref=e1454]:
+          - generic [ref=e1455]: 11.09.2025
+          - img "I AM MSHRM OPENS AT HERNINGSHOLM COLLEGE IN DENMARK | Bjarke Ingels Group" [ref=e1457]
+          - generic [ref=e1458]:
+            - heading "I AM MSHRM OPENS AT HERNINGSHOLM COLLEGE IN DENMARK" [level=2] [ref=e1459]
+            - generic [ref=e1461]:
+              - paragraph [ref=e1462]: I AM MSHRM, a modular pavilion made from 3D-printed recycled plastic and mycelium, opened at Herningsholm College in Denmark. Designed together with Danish AM Hub, MDT and Naturpladen, the installation explores how additive manufacturing and bio-based materials can support circular construction, allowing the pavilion to be disassembled, reassembled and reused.
+              - paragraph [ref=e1463]: On the opening day, 150 students took part in workshops and discussions about the future of building, imagining how technology and new materials could address climate challenges in 2125.
+              - link "herningfolkeblad.dk" [ref=e1464] [cursor=pointer]:
+                - /url: https://www.herningfolkeblad.dk/artikel/84bdafa3-d923-44eb-aa04-4d70f0772bac/
+                - text: herningfolkeblad.dk
+                - img [ref=e1465]
+        - article [ref=e1468]:
+          - generic [ref=e1469]: 10.09.2025
+          - img "THE GLOBE AND MAIL EXPLORES COPENHAGEN’S HARBOR BATHS | Bjarke Ingels Group" [ref=e1471]
+          - generic [ref=e1472]:
+            - heading "THE GLOBE AND MAIL EXPLORES COPENHAGEN’S HARBOR BATHS" [level=2] [ref=e1473]
+            - generic [ref=e1475]:
+              - paragraph [ref=e1476]: The Copenhagen Harbor Bath is featured in The Globe and Mail, Canada’s most widely read newspaper, in a story on Copenhagen’s year-round outdoor swimming culture and the transformation of the city’s harborfront. Completed in 2002 as the first of the city’s modern harbor baths – as well as one of BIG’s first projects – the Copenhagen Harbor Bath introduced five saltwater pools and wooden decks that transformed the cleaned-up canal into a destination for locals and visitors alike.
+              - link "theglobeandmail.com" [ref=e1477] [cursor=pointer]:
+                - /url: https://www.theglobeandmail.com/life/travel/article-copenhagen-outdoor-swimming-baths-harbour/
+                - text: theglobeandmail.com
+                - img [ref=e1478]
+        - article [ref=e1481]:
+          - generic [ref=e1482]: 09.09.2025
+          - img "BUKKEN BRUSE FEATURED IN AD AT HOME | Bjarke Ingels Group" [ref=e1484]
+          - generic [ref=e1485]:
+            - heading "BUKKEN BRUSE FEATURED IN AD AT HOME" [level=2] [ref=e1486]
+            - generic [ref=e1488]:
+              - paragraph [ref=e1489]:
+                - text: Published by Rizzoli,
+                - emphasis [ref=e1490]: AD at Home
+                - text: chronicles
+                - emphasis [ref=e1491]: Architectural Digest
+                - text: ’s most memorable home tours during Amy Astley’s decade-long tenure as editor in chief. Spanning nearly 500 pages, the coffee table book highlights the private spaces of leading figures across fashion, music, film, art, and design – from Marc Jacobs’ Greenwich Village townhouse and Troye Sivan’s Melbourne home to BIG’s Founder and Creative Director Bjarke Ingels’s own houseboat, Brukken Bruse.
+              - link "architecturaldigest.com" [ref=e1492] [cursor=pointer]:
+                - /url: https://www.architecturaldigest.com/story/ad-at-home-book
+                - text: architecturaldigest.com
+                - img [ref=e1493]
+            - button "read more" [ref=e1496] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1497]: +
+        - article [ref=e1498]:
+          - generic [ref=e1499]: 09.09.2025
+          - img "FAENA NEW YORK DEBUTS AT ONE HIGH LINE | Bjarke Ingels Group" [ref=e1501]
+          - generic [ref=e1502]:
+            - heading "FAENA NEW YORK DEBUTS AT ONE HIGH LINE" [level=2] [ref=e1503]
+            - generic [ref=e1505]:
+              - paragraph [ref=e1506]: Faena New York, the third namesake hotel from hotelier Alan Faena, is now open and welcoming guests on Manhattan’s west side. Located within One High Line’s East Tower, designed by BIG, the hotel brings Faena’s signature blend of modern luxury, avant-garde art, and visionary ethos to West Chelsea. The 120-room property features La Boca by Francis Mallmann, a 5,000-sq-ft restaurant led by the renowned Argentine chef; a 17,000-sq-ft spa, Tierra Santa Healing House; and a dedicated theater space for events and performances.
+              - link "bloomberg.com" [ref=e1507] [cursor=pointer]:
+                - /url: https://www.bloomberg.com/news/features/2025-09-08/inside-faena-new-york-eccentric-hotelier-is-bringing-fun-back-to-manhattan?srnd=homepage-africa
+                - text: bloomberg.com
+                - img [ref=e1508]
+        - article [ref=e1511]:
+          - generic [ref=e1512]: 09.09.2025
+          - img "SOLAR ONE ENVIRONMENTAL EDUCATION CENTER OPENS ON MANHATTAN’S WATERFRONT | Bjarke Ingels Group" [ref=e1514]
+          - generic [ref=e1515]:
+            - heading "SOLAR ONE ENVIRONMENTAL EDUCATION CENTER OPENS ON MANHATTAN’S WATERFRONT" [level=2] [ref=e1516]
+            - generic [ref=e1518]:
+              - paragraph [ref=e1519]: The new Solar One Environmental Education Center – designed by BIG in collaboration with the NYC Economic Development Corporation (NYCEDC), Gilbane Building Company, TY Lin (formerly Silman), Cosentini Associates, MNLA Landscape Architects, and others – has opened in Manhattan’s Stuyvesant Cove Park. A ribbon cutting ceremony – which included speeches by NYCEDC President & CEO Andrew Kimball, Solar One CEO Steve Levin, New York City Council Member Keith Powers, BIG Founder and Creative Director Bjarke Ingels, and Gilbane Vice President Raquel Diaz – commemorated the milestone.
+              - paragraph [ref=e1520]: Defined by FSC-certified timber slats on the exterior and a roof fully clad in photovoltaic panels, the 6,409-sq-ft center expands nonprofit group Solar One’s mission of environmental education and stewardship, including flexible classrooms for educational programming, community functions, office use, and other community opportunities. The center minimizes the use of concrete – employing the material only at the flood level while incorporating lightweight, recyclable steel in the spaces above. The classrooms are elevated 19 ft above sea level, with ground-level storage areas enclosed by permeable metal grating, allowing water to flow freely during storm events. Inside, floor-to-ceiling windows frame sweeping views of the East River, Brooklyn, and Queens, while triple-glazed, bird-friendly glass mitigates sound from the adjacent FDR Drive. The center serves as the northern gateway to the BIG-led East Side Coastal Resiliency Project (ESCR), a 2.5-mile flood protection system designed to improve the resiliency of critical infrastructure and over 110,000 New Yorkers. Seamlessly connecting to Stuyvesant Cove Park’s promenade of connected terraces and gardens, the Solar One Environmental Education Center creates an engaging real-world learning experience right at the edge of the East River.
+              - paragraph [ref=e1521]:
+                - emphasis [ref=e1522]: “The Solar One Environmental Education Center stands as more than a building, it’s a classroom for the city – a meeting point where architecture, nature, and community converge. Clad in timber and photovoltaic panels, the center’s angled roof acts as both a renewable energy source and a teaching tool. Inside, flexible classrooms support an immersive, hands-on learning experience for New Yorkers from an elevated position overlooking the East River and Stuyvesant Cove Park. Made possible by the vision and dedication of many, our hope is that this center inspires curiosity, responsibility, and imagination – empowering generations to shape a more sustainable and resilient future together. BIG is honored to bring the project to life as both a model for future urban resilience and a home for curiosity, community, and responsibility.”
+                - strong [ref=e1523]: – Ryan Harvey, Senior Architect, BIG
+              - link "citybiz.co" [ref=e1524] [cursor=pointer]:
+                - /url: https://www.citybiz.co/article/742335/nycedc-and-solar-one-cut-ribbon-on-state-of-the-art-environmental-education-center/
+                - text: citybiz.co
+                - img [ref=e1525]
+            - button "read more" [ref=e1528] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1529]: +
+        - article [ref=e1530]:
+          - generic [ref=e1531]: 05.09.2025
+          - img "ICON IN THE NEW YORK TIMES | Bjarke Ingels Group" [ref=e1533]
+          - generic [ref=e1534]:
+            - heading "ICON IN THE NEW YORK TIMES" [level=2] [ref=e1535]
+            - generic [ref=e1537]:
+              - paragraph [ref=e1538]:
+                - emphasis [ref=e1539]: The New York Times
+                - text: profiles ICON, the Austin-based construction technology company pioneering 3D-printed homes to address the housing crisis and climate change. At the heart of the story is the largest 3-D printed housing community in the U.S., Wolf Ranch – a collaboration between Lennar, ICON, and BIG. Made up of 100 homes in Georgetown, Texas, Wolf Ranch was built from “lavacrete” – a proprietary mix of lava rock, cement, and water – using ICON’s 4.75-ton Vulcan printer. Reporter Debra Kamin spoke with BIG’s Founder & Creative Director Bjarke Ingels for the piece, adding his perspective on housing innovation.
+              - link "nytimes.com" [ref=e1540] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2025/09/05/realestate/3d-printed-homes-affordable-housing.html?unlocked_article_code=1.kE8.lTou.z5fDJGKSFbuw&smid=url-share
+                - text: nytimes.com
+                - img [ref=e1541]
+        - article [ref=e1544]:
+          - generic [ref=e1545]: 05.09.2025
+          - img "DOMUS PUBLISHES EIGHTH ISSUE UNDER BJARKE INGELS&#8217; GUEST EDITORSHIP | Bjarke Ingels Group" [ref=e1547]
+          - generic [ref=e1548]:
+            - heading "DOMUS PUBLISHES EIGHTH ISSUE UNDER BJARKE INGELS’ GUEST EDITORSHIP" [level=2] [ref=e1549]
+            - generic [ref=e1551]:
+              - paragraph [ref=e1552]: “Plant – Living Materials for Human Habitats”, the September issue of Domus guest edited by Bjarke Ingels, looks to the world of plants and explores how vegetation can re-root urban life in living systems.
+              - paragraph [ref=e1553]: Julia Watson looks at Indigenous systems where land is cultivated without architects, and Ben Lamm turns to bioengineering to bring back extinct species. Günther Vogt shows us the landscape as an interspecies neighborhood shaped by climate change and glacial retreat, while Piet Oudolf choreographs plantings like seating plans.
+              - paragraph [ref=e1554]: At Urban Farming Office, Vo Trong Nghia blurs food, façade and foliage, Field Operations tops a highway tunnel with a manmade coastal landscape and Nongzao grows mycelium in everyday plastic moulds. From edges to orbit, Azuma Makoto sends delicate botanical arrangements to the edges of the Earth, and Andrew Zuckerman reveals insect morphology at human scale.
+              - link "domusweb.it" [ref=e1555] [cursor=pointer]:
+                - /url: https://www.domusweb.it/en/speciali/guest-editor/bjarke-ingels/2025/08/29/editorial-bjarke-ingels-september-plant.html
+                - text: domusweb.it
+                - img [ref=e1556]
+            - button "read more" [ref=e1559] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1560]: +
+        - article [ref=e1561]:
+          - generic [ref=e1562]: 03.09.2025
+          - img "DIRIYAH COMPANY UNVEILS THE CHEDI RESIDENCES IN SAUDI ARABIA’S WADI SAFAR DISTRICT | Bjarke Ingels Group" [ref=e1564]
+          - generic [ref=e1565]:
+            - heading "DIRIYAH COMPANY UNVEILS THE CHEDI RESIDENCES IN SAUDI ARABIA’S WADI SAFAR DISTRICT" [level=2] [ref=e1566]
+            - generic [ref=e1568]:
+              - paragraph [ref=e1569]: Diriyah Company has announced the launch of The Chedi Residences Wadi Safar, designed by BIG and developed in partnership with Chedi Hospitality. Set within the cliffs of the Wadi Safar district in Diriyah, Saudi Arabia, The Chedi Residences Wadi Safar is a collection of 20 branded villas featuring 16 four- and five-bedroom villas, as well as four five-bedroom premium villas. The residences showcase Najdi-inspired architecture integrated into the natural landscape, offering privacy, harmony, and uninterrupted views over the Greg Norman-designed Signature Golf Course.
+              - paragraph [ref=e1570]: Residents will have access to a full suite of amenities, including access to the forthcoming adjacent 85-key Chedi hotel, signature dining, wellness and fitness facilities, curated retail, and a private residents’ club featuring a lounge, business corner, and event spaces.
+              - link "businesstraveller.com" [ref=e1571] [cursor=pointer]:
+                - /url: https://www.businesstraveller.com/business-travel/2025/09/03/chedi-hospitality-debuts-branded-residences-in-saudi-arabias-wadi-safar/
+                - text: businesstraveller.com
+                - img [ref=e1572]
+            - button "read more" [ref=e1575] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1576]: +
+        - article [ref=e1577]:
+          - generic [ref=e1578]: 22.08.2025
+          - img "VOGUE SHOWCASES QUITO&#8217;S RISE AS A DESIGN HOTSPOT | Bjarke Ingels Group" [ref=e1580]
+          - generic [ref=e1581]:
+            - heading "VOGUE SHOWCASES QUITO’S RISE AS A DESIGN HOTSPOT" [level=2] [ref=e1582]
+            - generic [ref=e1584]:
+              - paragraph [ref=e1585]: Quito, Ecuador continues its rise as a global design destination, with new towers by international architects reshaping the city’s skyline. Vogue highlights how the city’s blend of contemporary architecture, a UNESCO-listed historic core, and vibrant creative neighborhoods is turning the Andean capital into South America’s next design hotspot.
+              - paragraph [ref=e1586]: The article features IQON, a 130-m-tall tower designed by BIG with an architectural identity defined by its ‘stripped back’ façade; the raw, exposed concrete simultaneously functions as the building’s structure. Individual ‘pixels’ are stacked and rotated to provide the best possible views while simultaneously creating terraces for the apartments. Celebrating native trees and plants, the building integrates greenery wherever possible to take advantage of Ecuador’s temperate climate and ecology – the country with the most plant species per square meter in the world.
+              - link "vogue.com" [ref=e1587] [cursor=pointer]:
+                - /url: https://www.vogue.com/article/quito-ecuador-design-hotspot
+                - text: vogue.com
+                - img [ref=e1588]
+            - button "read more" [ref=e1591] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1592]: +
+        - article [ref=e1593]:
+          - generic [ref=e1594]: 21.08.2025
+          - img "NEW AIR TRAFFIC CONTROL TOWER AT ZURICH AIRPORT RECEIVES FEDERAL APPROVAL | Bjarke Ingels Group" [ref=e1596]
+          - generic [ref=e1597]:
+            - heading "NEW AIR TRAFFIC CONTROL TOWER AT ZURICH AIRPORT RECEIVES FEDERAL APPROVAL" [level=2] [ref=e1598]
+            - generic [ref=e1600]:
+              - paragraph [ref=e1601]: The Swiss Federal Department of the Environment, Transport, Energy, and Communications (DETEC) has approved the construction of a new air traffic control tower at Zurich Airport. Replacing the existing 40-year-old tower, the new structure will be a part of the new Zurich Airport Dock A, providing controllers an improved overview of ground and air operations. As the first part of the airport complex to be built, the tower will operate as a free-standing structure until the completion of the new Dock A.
+              - paragraph [ref=e1602]: Zurich Airport’s new Dock A – designed by BIG, Itten+Brechbühl AG, Buro Happold, PIRMIN JUNG, NACO, EBP, Haerter & Partner AG, TLP, and many others – includes Schengen and Non-Schengen gates, airside retail, lounges, offices, the new air traffic control tower, and an extension of the immigration hall. The design is conceived as a mass timber space frame that is structural design, spatial experience, architectural finish, and organizational principle in one. The structure is made from timber, and the roof is entirely clad in solar shingles, turning sunlight into a power source.
+              - link "news.admin.ch" [ref=e1603] [cursor=pointer]:
+                - /url: https://www.news.admin.ch/de/newnsb/u135RRLsDjrfveBlmqiCZ
+                - text: news.admin.ch
+                - img [ref=e1604]
+            - button "read more" [ref=e1607] [cursor=pointer]:
+              - text: Read more
+              - generic [ref=e1608]: +
+    - contentinfo [ref=e1609]:
+      - generic [ref=e1610]:
+        - generic [ref=e1611]:
+          - radio
+          - heading "Email +" [level=4] [ref=e1612] [cursor=pointer]:
+            - text: Email
+            - generic [ref=e1613]: +
+          - generic:
+            - generic: NEW PROJECTS
+            - link "newbiz@big.dk":
+              - /url: mailto:newbiz@big.dk
+            - generic: PRESS
+            - link "press@big.dk":
+              - /url: mailto:press@big.dk
+            - generic: LECTURES
+            - link "lectures@big.dk":
+              - /url: mailto:lectures@big.dk
+            - generic: EXHIBITIONS
+            - link "exhibitions@big.dk":
+              - /url: mailto:exhibitions@big.dk
+        - generic [ref=e1614]:
+          - radio
+          - heading "Office +" [level=4] [ref=e1615] [cursor=pointer]:
+            - text: Office
+            - generic [ref=e1616]: +
+          - generic:
+            - generic:
+              - radio
+              - generic: Copenhagen
+              - paragraph:
+                - text: Sundkaj 165
+                - text: 2150, Nordhavn
+                - link:
+                  - /url: https://goo.gl/maps/R1pmtHqp4Gkqsjtz8
+                - text: Copenhagen, DK
+                - text: +45 7221 7227
+                - text: +45 3512 7227
+                - link "cph@big.dk":
+                  - /url: mailto:cph@big.dk
+            - generic:
+              - radio
+              - generic: London
+              - paragraph:
+                - text: 1 Finsbury Avenue
+                - text: London EC2M 2PF
+                - text: United Kingdom
+                - text: +44 20 3735 4996
+                - link "lon@big.dk":
+                  - /url: mailto:lon@big.dk
+            - generic:
+              - radio
+              - generic: Barcelona
+              - paragraph:
+                - text: Ronda de Sant Pere, 56 Bajos
+                - text: 08010 Barcelona
+                - text: Spain
+                - text: +34 610 029 747
+                - link "bcn@big.dk":
+                  - /url: mailto:bcn@big.dk
+            - generic:
+              - radio
+              - generic: New York
+              - paragraph:
+                - text: 45 Main Street, 9th Floor
+                - text: Brooklyn, NY 11201
+                - text: United States
+                - text: +1 347 549 4141
+                - text: +1 866 738 4336
+                - link "nyc@big.dk":
+                  - /url: mailto:nyc@big.dk
+            - generic:
+              - radio
+              - generic: Shanghai
+              - paragraph:
+                - generic:
+                  - generic:
+                    - text: 363 Chang Ping Road, FL 6
+                    - text: Jing An District, Shanghai
+                - text: China
+                - text: +86 180 1923 8903
+                - link "sha@big.dk":
+                  - /url: mailto:sha@big.dk
+            - generic:
+              - radio
+              - generic: Los Angeles
+              - paragraph:
+                - text: 310 Wilshire Boulevard,
+                - text: 2nd floor
+                - text: Santa Monica, 90401
+                - text: California
+                - generic: +1 310 692 7280
+                - link "lax@big.dk":
+                  - /url: mailto:lax@big.dk
+            - generic:
+              - radio
+              - generic: Zürich
+              - paragraph:
+                - text: Planergemeinschaft Raumfachwerk
+                - text: Flughafenstrasse 90
+                - text: 8302 Kloten
+                - text: Switzerland
+                - link "bigzrh@big.dk":
+                  - /url: mailto:bigzrh@big.dk
+            - generic:
+              - radio
+              - generic: Riyadh
+              - paragraph:
+                - generic:
+                  - text: King Abdullah Financial District
+                  - text: Innovation Blvd – Building 4.07
+                  - text: Riyadh 13519
+                  - text: Kingdom of Saudi Arabia
+                  - link "ksa@big.dk":
+                    - /url: mailto:ksa@big.dk
+        - generic [ref=e1617]:
+          - radio
+          - heading "Social +" [level=4] [ref=e1618] [cursor=pointer]:
+            - text: Social
+            - generic [ref=e1619]: +
+          - generic:
+            - link "Instagram":
+              - /url: https://www.instagram.com/big_builds/
+              - text: Instagram
+              - img
+            - link "X":
+              - /url: https://x.com/BIG_Architects
+              - text: X
+              - img
+            - link "LinkedIn":
+              - /url: https://www.linkedin.com/company/bjarke-ingels-group/
+              - text: LinkedIn
+              - img
+            - link "Vimeo":
+              - /url: https://vimeo.com/user1395824
+              - text: Vimeo
+              - img
+            - link "Facebook":
+              - /url: https://www.facebook.com/bjarke.ingels.group
+              - text: Facebook
+              - img
+            - link "Bjarke Ingels Group WeChat QR Code":
+              - /url: https://weixin.qq.com/r/GjlRSUbEmhvlrQIq92wI
+              - img "Bjarke Ingels Group WeChat QR Code"
+        - generic [ref=e1620]:
+          - radio
+          - heading "Legal +" [level=4] [ref=e1621] [cursor=pointer]:
+            - text: Legal
+            - generic [ref=e1622]: +
+          - generic:
+            - link "BIG’s Anti-Slavery and Human Trafficking Statement 2018":
+              - /url: https://media.big.dk/2024/01/BIGs-anti-slavery-and-human-trafficking-statement-2018.pdf
+            - link "BIG’s Privacy Policy 2024":
+              - /url: https://media.big.dk/privacy-policy-bigdk.pdf
+            - link "BIG UN Global Compact Report":
+              - /url: https://www.unglobalcompact.org/participation/report/cop/create-and-submit/active/446079
+            - link "BIG’s Annual Sustainability Report, 2023":
+              - /url: https://media.big.dk/2024/06/240603-ANNUAL-SUSTAINABILITY-REPORT-2023.pdf
+            - link "Whistleblower Policy":
+              - /url: /whistleblower-policy
+      - button "Back to top" [ref=e1623] [cursor=pointer]
+  - alert [ref=e1624]

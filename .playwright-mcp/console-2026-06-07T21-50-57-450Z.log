@@ -1,0 +1,8 @@
+[     248ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://big.dk/_next/static/chunks/0_g2vbt2a4r0u.js:1:47214)
+    at iu (https://big.dk/_next/static/chunks/0_g2vbt2a4r0u.js:1:98255)
+    at sd (https://big.dk/_next/static/chunks/0_g2vbt2a4r0u.js:1:138945)
+    at https://big.dk/_next/static/chunks/0_g2vbt2a4r0u.js:1:133831
+    at se (https://big.dk/_next/static/chunks/0_g2vbt2a4r0u.js:1:133932)
+    at s$ (https://big.dk/_next/static/chunks/0_g2vbt2a4r0u.js:1:160496)
+    at MessagePort.O (https://big.dk/_next/static/chunks/0_g2vbt2a4r0u.js:1:8662)

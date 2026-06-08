@@ -1,0 +1,470 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - img
+  - generic:
+    - checkbox
+    - generic [ref=e2] [cursor=pointer]:
+      - img
+    - navigation:
+      - link "Projects":
+        - /url: /
+      - link "News":
+        - /url: /news
+      - link "About":
+        - /url: /about
+      - link "Sustainability":
+        - /url: /sustainability
+      - link "People":
+        - /url: /people
+      - link "Careers":
+        - /url: /careers
+      - generic: Contact
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - heading "Careers" [level=1] [ref=e6]
+        - paragraph [ref=e7]:
+          - text: Our journey started in Copenhagen in 2005, followed by an office in NYC in 2010, London in 2016, Barcelona in 2019 and most recently Shenzhen. We have completed more than 60 buildings in 10+ countries and never limit ourselves to a specific region – we go where our projects are.
+          - text: Over the last two decades, we have grown organically to a 700+ person family worldwide. Working on new projects, typologies and challenges – we are joined by new BIGsters with the skills, experience and expertise our projects need. Join our team!
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - img "BIG COPENHAGEN | Bjarke Ingels Group" [ref=e11]
+          - heading "BIG COPENHAGEN" [level=3] [ref=e12] [cursor=pointer]
+          - paragraph
+        - generic [ref=e13]:
+          - img "BIG NEW YORK | Bjarke Ingels Group" [ref=e14]
+          - heading "BIG NEW YORK" [level=3] [ref=e15] [cursor=pointer]
+          - paragraph
+        - generic [ref=e16]:
+          - img "BIG LONDON | Bjarke Ingels Group" [ref=e17]
+          - heading "BIG LONDON" [level=3] [ref=e18] [cursor=pointer]
+          - paragraph
+        - generic [ref=e19]:
+          - img "BIG BARCELONA | Bjarke Ingels Group" [ref=e236]
+          - heading "BIG BARCELONA" [level=3] [ref=e20] [cursor=pointer]
+          - paragraph
+        - generic [ref=e21]:
+          - img "BIG LOS ANGELES | Bjarke Ingels Group"
+          - heading "BIG LOS ANGELES" [level=3] [ref=e22] [cursor=pointer]
+          - paragraph
+      - generic [ref=e24]:
+        - heading "Open jobs" [level=2] [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]: Location
+            - combobox "Location" [ref=e29]:
+              - option "All" [selected]
+              - option "Barcelona"
+              - option "Copenhagen"
+              - option "London"
+              - option "Los Angeles"
+              - option "New York"
+              - option "Shanghai"
+              - option "Zürich"
+          - generic [ref=e30]:
+            - generic [ref=e31]: Department
+            - combobox "Department" [ref=e32]:
+              - option "All" [selected]
+              - option "Architects"
+              - option "Business Development"
+              - option "Design Technology"
+              - option "Executive Assistant"
+              - option "Interior"
+              - option "IT"
+              - option "Landscape"
+              - option "Model Shop"
+              - option "Office & Community Management"
+              - option "People"
+              - option "Products"
+        - generic [ref=e33]:
+          - generic [ref=e34]: Title
+          - generic [ref=e35]: Department
+          - generic [ref=e36]: Location
+        - link "Architect Architects New York" [ref=e37] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/ce3f4755-97cf-4ff2-85ce-76119b7810bd/apply
+          - generic [ref=e38]: Architect
+          - generic [ref=e39]: Architects
+          - generic [ref=e40]: New York
+        - link "Interior Designer Interior New York" [ref=e41] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/fe730ec7-ce34-4bae-9356-8d3ee8948c94/apply
+          - generic [ref=e42]: Interior Designer
+          - generic [ref=e43]: Interior
+          - generic [ref=e44]: New York
+        - link "Designer Architects New York" [ref=e45] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/630acd07-2e0b-460a-9120-41ae16d49d64/apply
+          - generic [ref=e46]: Designer
+          - generic [ref=e47]: Architects
+          - generic [ref=e48]: New York
+        - link "Architect Architects Copenhagen" [ref=e49] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/cbb81859-795d-4044-8d0e-4889216223a8/apply
+          - generic [ref=e50]: Architect
+          - generic [ref=e51]: Architects
+          - generic [ref=e52]: Copenhagen
+        - link "Project Manager Architects Barcelona" [ref=e53] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/ce3f35c5-e88d-45ab-9a06-73560a71515a/apply
+          - generic [ref=e54]: Project Manager
+          - generic [ref=e55]: Architects
+          - generic [ref=e56]: Barcelona
+        - link "Junior Landscape Designer Landscape New York" [ref=e57] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/873b6ab0-95ea-4590-9e2e-e8ddd738e732/apply
+          - generic [ref=e58]: Junior Landscape Designer
+          - generic [ref=e59]: Landscape
+          - generic [ref=e60]: New York
+        - link "Senior Architect – Hospitality Specialist Architects Barcelona" [ref=e61] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/87676c89-0503-488c-9cd3-771e5254a4b8/apply
+          - generic [ref=e62]: Senior Architect – Hospitality Specialist
+          - generic [ref=e63]: Architects
+          - generic [ref=e64]: Barcelona
+        - 'link "Landscape Architect (role: Project Architect - German speaking) Landscape Copenhagen" [ref=e65] [cursor=pointer]':
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/396c014d-b7d5-43e0-b757-957f4d49ae01/apply
+          - generic [ref=e66]: "Landscape Architect (role: Project Architect - German speaking)"
+          - generic [ref=e67]: Landscape
+          - generic [ref=e68]: Copenhagen
+        - link "Executive Assistant Executive Assistant Barcelona" [ref=e69] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/44bd317e-5b73-481c-a2a0-8d997f41e0dd/apply
+          - generic [ref=e70]: Executive Assistant
+          - generic [ref=e71]: Executive Assistant
+          - generic [ref=e72]: Barcelona
+        - link "Design Assistant Architects Copenhagen" [ref=e73] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/a3f8cce5-24e1-4b06-a4be-0f931e4a7b66/apply
+          - generic [ref=e74]: Design Assistant
+          - generic [ref=e75]: Architects
+          - generic [ref=e76]: Copenhagen
+        - 'link "Senior Landscape Architect (role: Project Manager) Landscape Copenhagen" [ref=e77] [cursor=pointer]':
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/9ae0c4bb-75b9-472e-b64c-dabba0339e25/apply
+          - generic [ref=e78]: "Senior Landscape Architect (role: Project Manager)"
+          - generic [ref=e79]: Landscape
+          - generic [ref=e80]: Copenhagen
+        - 'link "Senior Urban Planner (role: Project Manager) Landscape Copenhagen" [ref=e81] [cursor=pointer]':
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/751d7cc9-cb29-476f-9c54-2bcadf0deff2/apply
+          - generic [ref=e82]: "Senior Urban Planner (role: Project Manager)"
+          - generic [ref=e83]: Landscape
+          - generic [ref=e84]: Copenhagen
+        - link "Constructing Architect Architects Barcelona" [ref=e85] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/14023d26-7f98-42ff-b1dc-52c17a8aa63a/apply
+          - generic [ref=e86]: Constructing Architect
+          - generic [ref=e87]: Architects
+          - generic [ref=e88]: Barcelona
+        - link "Architect (strong ability with Rhino) Architects Barcelona" [ref=e89] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/2a9732ae-3b9f-46e2-a519-32ce76319075/apply
+          - generic [ref=e90]: Architect (strong ability with Rhino)
+          - generic [ref=e91]: Architects
+          - generic [ref=e92]: Barcelona
+        - link "Landscape Design Assistant Landscape Copenhagen" [ref=e93] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/3e6b4971-d710-4043-96f5-6cd9dd49d2b6/apply
+          - generic [ref=e94]: Landscape Design Assistant
+          - generic [ref=e95]: Landscape
+          - generic [ref=e96]: Copenhagen
+        - link "Architect Architects Los Angeles" [ref=e97] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/9ab3e16a-56c9-4ef5-a262-0ce3976d0aa2/apply
+          - generic [ref=e98]: Architect
+          - generic [ref=e99]: Architects
+          - generic [ref=e100]: Los Angeles
+        - link "Senior Architect Architects New York" [ref=e101] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/3c4c0e60-1678-42bc-9f6c-57d9fffcd753/apply
+          - generic [ref=e102]: Senior Architect
+          - generic [ref=e103]: Architects
+          - generic [ref=e104]: New York
+        - link "Landscape Architect/Designer Landscape New York" [ref=e105] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/8aea5b84-ae9d-495a-8a9c-052629881d17/apply
+          - generic [ref=e106]: Landscape Architect/Designer
+          - generic [ref=e107]: Landscape
+          - generic [ref=e108]: New York
+        - link "Senior Architect Architects Los Angeles" [ref=e109] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/1b9362ae-2b5b-4886-9593-0166d6a184ad/apply
+          - generic [ref=e110]: Senior Architect
+          - generic [ref=e111]: Architects
+          - generic [ref=e112]: Los Angeles
+        - link "Senior Architect Architects Barcelona" [ref=e113] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/33803bb9-1e47-4488-b717-cfe4c97ca5c1/apply
+          - generic [ref=e114]: Senior Architect
+          - generic [ref=e115]: Architects
+          - generic [ref=e116]: Barcelona
+        - link "Design Assistant Architects Barcelona" [ref=e117] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/04367db3-bf9b-4441-bf75-9fd8ad3d0e8d/apply
+          - generic [ref=e118]: Design Assistant
+          - generic [ref=e119]: Architects
+          - generic [ref=e120]: Barcelona
+        - link "Senior Rhino & Computational Specialist Design Technology Barcelona" [ref=e121] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/e6a6429b-29fd-489a-bbbf-387feb04de8e/apply
+          - generic [ref=e122]: Senior Rhino & Computational Specialist
+          - generic [ref=e123]: Design Technology
+          - generic [ref=e124]: Barcelona
+        - link "Project Delivery Manager Architects Barcelona" [ref=e125] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/4ddf20b4-c0f1-4199-8dc7-f053e767263b/apply
+          - generic [ref=e126]: Project Delivery Manager
+          - generic [ref=e127]: Architects
+          - generic [ref=e128]: Barcelona
+        - link "Industrial Design Assistant Products Copenhagen" [ref=e129] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/89933aba-f0a0-424a-b7dc-2a1d33b8ab1b/apply
+          - generic [ref=e130]: Industrial Design Assistant
+          - generic [ref=e131]: Products
+          - generic [ref=e132]: Copenhagen
+        - link "Senior Architect (role as Project Manager) Architects Shanghai" [ref=e133] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/bdbe049a-eff6-48a1-9154-65a3bbe0a2ec/apply
+          - generic [ref=e134]: Senior Architect (role as Project Manager)
+          - generic [ref=e135]: Architects
+          - generic [ref=e136]: Shanghai
+        - link "Senior Architect. On-site Project in Cyprus Architects Barcelona" [ref=e137] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/79d84eee-37a8-4932-9a28-8bd763a16db5/apply
+          - generic [ref=e138]: Senior Architect. On-site Project in Cyprus
+          - generic [ref=e139]: Architects
+          - generic [ref=e140]: Barcelona
+        - link "Visualization Specialist Architects Barcelona" [ref=e141] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/d08999c6-8fb0-41e5-b28e-97bd77ec24f6/apply
+          - generic [ref=e142]: Visualization Specialist
+          - generic [ref=e143]: Architects
+          - generic [ref=e144]: Barcelona
+        - link "Senior Architect – Tower Specialist Architects Barcelona" [ref=e145] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/4a0cac08-f164-4288-9286-86cd78cdfbc8/apply
+          - generic [ref=e146]: Senior Architect – Tower Specialist
+          - generic [ref=e147]: Architects
+          - generic [ref=e148]: Barcelona
+        - link "Senior Architect with façade experience Architects Barcelona" [ref=e149] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/50199354-03cf-4950-adfb-b4dfc7c8f7de/apply
+          - generic [ref=e150]: Senior Architect with façade experience
+          - generic [ref=e151]: Architects
+          - generic [ref=e152]: Barcelona
+        - link "Landscape Architect Landscape Barcelona" [ref=e153] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/a612f10c-99e7-4bde-bc45-7fc4ee4c85d5/apply
+          - generic [ref=e154]: Landscape Architect
+          - generic [ref=e155]: Landscape
+          - generic [ref=e156]: Barcelona
+        - link "Business Development Specialist Business Development New York" [ref=e157] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/952d171f-792f-4127-95a2-0762b56b9d32/apply
+          - generic [ref=e158]: Business Development Specialist
+          - generic [ref=e159]: Business Development
+          - generic [ref=e160]: New York
+        - link "Business Development Manager Business Development Shanghai" [ref=e161] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/fb87f115-0bc2-490b-a3ce-4f58eedcf7e2/apply
+          - generic [ref=e162]: Business Development Manager
+          - generic [ref=e163]: Business Development
+          - generic [ref=e164]: Shanghai
+        - link "Model Shop Manager Model Shop Barcelona" [ref=e165] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/687c1acd-1f37-4e47-a957-0142b751fda8/apply
+          - generic [ref=e166]: Model Shop Manager
+          - generic [ref=e167]: Model Shop
+          - generic [ref=e168]: Barcelona
+        - link "Piccolo / Piccoline Office & Community Management Copenhagen" [ref=e169] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/09548c54-324f-4880-9b9c-0e65280cfc06/apply
+          - generic [ref=e170]: Piccolo / Piccoline
+          - generic [ref=e171]: Office & Community Management
+          - generic [ref=e172]: Copenhagen
+        - link "Senior Architect (Florida Licensed) Architects New York" [ref=e173] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/b232d913-c8aa-4543-bc4f-290ac67b8766/apply
+          - generic [ref=e174]: Senior Architect (Florida Licensed)
+          - generic [ref=e175]: Architects
+          - generic [ref=e176]: New York
+        - link "Junior Architect Architects Shanghai" [ref=e177] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/74bf0212-d56b-4e5f-ab39-92dded2a0c3b/apply
+          - generic [ref=e178]: Junior Architect
+          - generic [ref=e179]: Architects
+          - generic [ref=e180]: Shanghai
+        - link "IT Project Manager IT Copenhagen" [ref=e181] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/a6e4ef32-6ea1-44f2-b4e4-db2ffe722490/apply
+          - generic [ref=e182]: IT Project Manager
+          - generic [ref=e183]: IT
+          - generic [ref=e184]: Copenhagen
+        - link "People Manager People London" [ref=e185] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/f328e30d-daf9-4752-83c3-8f4dca8a257d/apply
+          - generic [ref=e186]: People Manager
+          - generic [ref=e187]: People
+          - generic [ref=e188]: London
+        - link "IT Support IT New York" [ref=e189] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/a67960e9-b95c-45e1-afb2-415b24cad2e4/apply
+          - generic [ref=e190]: IT Support
+          - generic [ref=e191]: IT
+          - generic [ref=e192]: New York
+        - link "Business Development Manager Business Development New York" [ref=e193] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/9d8d54b2-0997-4e8d-87b2-d3744856755d/apply
+          - generic [ref=e194]: Business Development Manager
+          - generic [ref=e195]: Business Development
+          - generic [ref=e196]: New York
+        - link "Architekt:in Architects Zürich" [ref=e197] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/4af8c526-f47a-4d0c-96a3-beb3bfc7dc9f/apply
+          - generic [ref=e198]: Architekt:in
+          - generic [ref=e199]: Architects
+          - generic [ref=e200]: Zürich
+        - link "Architekt:in oder Senior Architekt:in - Ausführungsplanung Architects Zürich" [ref=e201] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/b1c6507f-a639-4ffb-9f1f-30632c6096d6/apply
+          - generic [ref=e202]: Architekt:in oder Senior Architekt:in - Ausführungsplanung
+          - generic [ref=e203]: Architects
+          - generic [ref=e204]: Zürich
+        - link "Praktikant:in (100%) Architects Zürich" [ref=e205] [cursor=pointer]:
+          - /url: https://bjarkeingelsgroup.careers.hibob.com/jobs/0a8b5b53-8c73-4fed-a30d-57ee58e3800e/apply
+          - generic [ref=e206]: Praktikant:in (100%)
+          - generic [ref=e207]: Architects
+          - generic [ref=e208]: Zürich
+      - generic [ref=e209]:
+        - heading "DESIGN PROCESS" [level=2] [ref=e210]
+        - paragraph [ref=e211]:
+          - text: There is no monopoly on creativity at BIG. When we come up with ideas, we try to be as uncritical as possible during conception and when we edit, we apply immense rigor. Anyone can come up with the idea and it doesn't matter where or who the idea comes from - what matters is why you choose it.
+          - text: "Our design process is best described through Darwin's evolutionary theory. As life evolves, so should our cities and buildings. Darwin's famous evolutionary tree from the 'Origin of Species' could practically be a diagram of how we work: our architecture evolves through generations of design meetings in process of excess and selection - many ideas are born and only the ones that live long enough to pollinate, pass on their attributes to the next design meeting."
+      - generic [ref=e212]:
+        - generic [ref=e214]:
+          - img "Careers | Bjarke Ingels Group" [ref=e215]
+          - img "Careers | Bjarke Ingels Group" [ref=e216]
+          - img "Careers | Bjarke Ingels Group" [ref=e217]
+          - img "Careers | Bjarke Ingels Group" [ref=e218]
+        - generic [ref=e219]: 01 - 04
+    - contentinfo [ref=e220]:
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - radio
+          - heading "Email +" [level=4] [ref=e223] [cursor=pointer]:
+            - text: Email
+            - generic [ref=e224]: +
+          - generic:
+            - generic: NEW PROJECTS
+            - link "newbiz@big.dk":
+              - /url: mailto:newbiz@big.dk
+            - generic: PRESS
+            - link "press@big.dk":
+              - /url: mailto:press@big.dk
+            - generic: LECTURES
+            - link "lectures@big.dk":
+              - /url: mailto:lectures@big.dk
+            - generic: EXHIBITIONS
+            - link "exhibitions@big.dk":
+              - /url: mailto:exhibitions@big.dk
+        - generic [ref=e225]:
+          - radio
+          - heading "Office +" [level=4] [ref=e226] [cursor=pointer]:
+            - text: Office
+            - generic [ref=e227]: +
+          - generic:
+            - generic:
+              - radio
+              - generic: Copenhagen
+              - paragraph:
+                - text: Sundkaj 165
+                - text: 2150, Nordhavn
+                - link:
+                  - /url: https://goo.gl/maps/R1pmtHqp4Gkqsjtz8
+                - text: Copenhagen, DK
+                - text: +45 7221 7227
+                - text: +45 3512 7227
+                - link "cph@big.dk":
+                  - /url: mailto:cph@big.dk
+            - generic:
+              - radio
+              - generic: London
+              - paragraph:
+                - text: 1 Finsbury Avenue
+                - text: London EC2M 2PF
+                - text: United Kingdom
+                - text: +44 20 3735 4996
+                - link "lon@big.dk":
+                  - /url: mailto:lon@big.dk
+            - generic:
+              - radio
+              - generic: Barcelona
+              - paragraph:
+                - text: Ronda de Sant Pere, 56 Bajos
+                - text: 08010 Barcelona
+                - text: Spain
+                - text: +34 610 029 747
+                - link "bcn@big.dk":
+                  - /url: mailto:bcn@big.dk
+            - generic:
+              - radio
+              - generic: New York
+              - paragraph:
+                - text: 45 Main Street, 9th Floor
+                - text: Brooklyn, NY 11201
+                - text: United States
+                - text: +1 347 549 4141
+                - text: +1 866 738 4336
+                - link "nyc@big.dk":
+                  - /url: mailto:nyc@big.dk
+            - generic:
+              - radio
+              - generic: Shanghai
+              - paragraph:
+                - generic:
+                  - generic:
+                    - text: 363 Chang Ping Road, FL 6
+                    - text: Jing An District, Shanghai
+                - text: China
+                - text: +86 180 1923 8903
+                - link "sha@big.dk":
+                  - /url: mailto:sha@big.dk
+            - generic:
+              - radio
+              - generic: Los Angeles
+              - paragraph:
+                - text: 310 Wilshire Boulevard,
+                - text: 2nd floor
+                - text: Santa Monica, 90401
+                - text: California
+                - generic: +1 310 692 7280
+                - link "lax@big.dk":
+                  - /url: mailto:lax@big.dk
+            - generic:
+              - radio
+              - generic: Zürich
+              - paragraph:
+                - text: Planergemeinschaft Raumfachwerk
+                - text: Flughafenstrasse 90
+                - text: 8302 Kloten
+                - text: Switzerland
+                - link "bigzrh@big.dk":
+                  - /url: mailto:bigzrh@big.dk
+            - generic:
+              - radio
+              - generic: Riyadh
+              - paragraph:
+                - generic:
+                  - text: King Abdullah Financial District
+                  - text: Innovation Blvd – Building 4.07
+                  - text: Riyadh 13519
+                  - text: Kingdom of Saudi Arabia
+                  - link "ksa@big.dk":
+                    - /url: mailto:ksa@big.dk
+        - generic [ref=e228]:
+          - radio
+          - heading "Social +" [level=4] [ref=e229] [cursor=pointer]:
+            - text: Social
+            - generic [ref=e230]: +
+          - generic:
+            - link "Instagram":
+              - /url: https://www.instagram.com/big_builds/
+              - text: Instagram
+              - img
+            - link "X":
+              - /url: https://x.com/BIG_Architects
+              - text: X
+              - img
+            - link "LinkedIn":
+              - /url: https://www.linkedin.com/company/bjarke-ingels-group/
+              - text: LinkedIn
+              - img
+            - link "Vimeo":
+              - /url: https://vimeo.com/user1395824
+              - text: Vimeo
+              - img
+            - link "Facebook":
+              - /url: https://www.facebook.com/bjarke.ingels.group
+              - text: Facebook
+              - img
+            - link "Bjarke Ingels Group WeChat QR Code":
+              - /url: https://weixin.qq.com/r/GjlRSUbEmhvlrQIq92wI
+              - img "Bjarke Ingels Group WeChat QR Code"
+        - generic [ref=e231]:
+          - radio
+          - heading "Legal +" [level=4] [ref=e232] [cursor=pointer]:
+            - text: Legal
+            - generic [ref=e233]: +
+          - generic:
+            - link "BIG’s Anti-Slavery and Human Trafficking Statement 2018":
+              - /url: https://media.big.dk/2024/01/BIGs-anti-slavery-and-human-trafficking-statement-2018.pdf
+            - link "BIG’s Privacy Policy 2024":
+              - /url: https://media.big.dk/privacy-policy-bigdk.pdf
+            - link "BIG UN Global Compact Report":
+              - /url: https://www.unglobalcompact.org/participation/report/cop/create-and-submit/active/446079
+            - link "BIG’s Annual Sustainability Report, 2023":
+              - /url: https://media.big.dk/2024/06/240603-ANNUAL-SUSTAINABILITY-REPORT-2023.pdf
+            - link "Whistleblower Policy":
+              - /url: /whistleblower-policy
+      - button "Back to top" [ref=e234] [cursor=pointer]
+  - alert [ref=e235]

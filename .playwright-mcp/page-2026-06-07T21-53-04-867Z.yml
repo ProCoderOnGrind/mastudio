@@ -1,0 +1,252 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - img
+  - generic:
+    - checkbox
+    - generic [ref=e2] [cursor=pointer]:
+      - img
+    - navigation:
+      - link "Projects":
+        - /url: /
+      - link "News":
+        - /url: /news
+      - link "About":
+        - /url: /about
+      - link "Sustainability":
+        - /url: /sustainability
+      - link "People":
+        - /url: /people
+      - link "Careers":
+        - /url: /careers
+      - generic: Contact
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "Sustainability" [level=1] [ref=e5]
+      - article [ref=e6]:
+        - img "SUSTAINABLE MANUFACTURING | Bjarke Ingels Group" [ref=e8]
+        - heading "SUSTAINABLE MANUFACTURING" [level=2] [ref=e9]
+        - paragraph [ref=e10]: The Plus is the first factory building in the world that meets the BREEAM Outstanding certification’s strict environmental requirements for safe, healthy, and good physical working environments. Constructed in just 18 months, the 7,000 m² production facility is made of local PEFC-certified cross-laminated timber (CLT) and glued-laminated timber (glulam), low-carbon concrete, and recycled steel. The square roof above the office area is one of only two concrete elements in the building alongside the foundation, both made from a mixture of high-strength and low-carbon concrete to minimize emissions and material use. The factory’s energy and heating demands are partly met with the help of 900 rooftop solar panels which generate about 250,000 kWh of renewable energy annually, 17 geothermal wells, and heat pumps hidden behind the walls to capture excess energy from the process of drying the components and convert it into heat that is then fed back into the production line and used to warm the building. Hidden behind the walls of each wing is a technical corridor, in which waste products from the manufacturing process are recycled for reuse. Here, the water needed for washing metal components is cleaned and filtered so that 90% of it can be cycled back into the process, while wood chips and sawdust are collected and sent off to a biomass power plant to be burned for electricity. Every aspect of the design is based on principles of renewable and clean energy to match Vestre’s eco-friendly production, such as ensuring a minimum of 50% lower greenhouse gas emissions than comparable factories.
+        - button "read more" [ref=e11] [cursor=pointer]:
+          - text: Read more
+          - generic [ref=e12]: +
+      - article [ref=e13]:
+        - img "NET-ZERO EMISSIONS & OPERATIONS | Bjarke Ingels Group" [ref=e15]
+        - heading "NET-ZERO EMISSIONS & OPERATIONS" [level=2] [ref=e16]
+        - paragraph [ref=e17]: "Located on a 42-acre site at the NASA Ames Research Center, Google’s Bay View campus consists of three buildings totaling 1.1 million square feet and approximately 18 acres of open space. The all-electric campus has achieved a LEED-NC v4 Platinum certification—making it the largest LEED v4 BD+C: NC Platinum certified project in the world—and has become the largest facility ever to attain the International Living Future Institute (ILFI) Living Building Challenge (LBC) Water Petal Certification. On the exterior, the buildings feature a first-of-its-kind “dragonscale” solar skin roof equipped with 50,000 silver solar panels that generate a total of nearly four megawatts of energy, approximately 40% of the buildings’ annual energy use. The clerestory windows dotting the canopy bring in abundant natural light into the workspaces, and a highly efficient HVAC system helps cut down on overall energy use. Combining on-site renewable energy generation with fulfillment of the majority of heating and cooling needs by geothermal systems, in combination with reducing energy needs via passive design measures, means that the Google Bay View HQ contributes substantially to Google’s goal of achieving net-zero emissions by 2030. The integrated geothermal pile system at Bay View is the largest in North America, estimated to reduce carbon emissions by roughly 50%: of 3,900 structural piles, 2,200 are utilized for geothermal and contain embedded pipes connected to heat recovery chillers that move heat energy from one place to another. These heat recovery chillers connected to the geothermal system also generate domestic hot water for the buildings. In the winter, the campus recovers heat from the ground and uses it to warm the building. In the summer, the buildings are cooled by capturing heat from the air and, instead of evaporating it with water, transferring it directly to the ground via the geothermal system. This means the campus is able to reduce the amount of water used for cooling at Bay View by 90%, which equates to 5 million gallons of water annually. To help deliver on Google’s commitment to replenish 120% of the water the HQ consumes by 2030, the site is net water-positive, with all non-potable water demands being met using the recycled water it generates on site. The on-site systems built by Google collect, treat, and reuse all stormwater and wastewater and provide habitat restoration, sea level rise protection, and access to the beauty of natural wetlands for both Googlers and the public on the nearby Bay Trail. The campus includes 17.3 acres of high-value natural areas—35% of the site is dedicated to promoting urban agriculture through native pollinator habitat, demonstration garden beds, and bee boxes while wet meadows, woodlands, and marsh contribute to Google’s broader efforts to reestablish missing essential habitat in the Bay Area."
+        - button "read more" [ref=e18] [cursor=pointer]:
+          - text: Read more
+          - generic [ref=e19]: +
+      - article [ref=e20]:
+        - img "THE FUTURE OF TIMBER CONSTRUCTION | Bjarke Ingels Group" [ref=e22]
+        - heading "THE FUTURE OF TIMBER CONSTRUCTION" [level=2] [ref=e23]
+        - paragraph [ref=e24]: From bringing the first heavy timber building to the iconic Johns Hopkins University Homewood campus to building the first timber terminal at Zurich Airport, BIG is adopting timber as a core material in our architecture across all building scales and types. Skypark Business Center is one of Europe’s largest wooden buildings and the first in an ambitious master plan that aims to turn the Luxembourg airport district into a thriving economic hub. Located in Findel adjacent to terminal A, the project is not only a landmark to visitors entering the country but also to Luxembourg’s architectural and sustainability ambitions. The building design takes a holistic approach to sustainability, addressing environmental, economic, and social aspects. Its sustainable practices respond to growing concerns over resource scarcity and climate change, focusing on reducing energy consumption, material waste, and emissions in construction. The building’s upper structure uses 15,000 m³ of CE-conforming and FSC-certified timber, a renewable, biogenic material with a substantially lower carbon footprint than conventional building materials such as concrete and steel. The timber structure also serves as a carbon sink, reducing carbon in the planet’s atmosphere during the life of the building. The use of the advanced timber technology led to the development of new construction regulations in Luxembourg, supported by extensive studies carried out during the design process. Water management is another key element of the building’s sustainable design. Extensive green roofs and terraces assist with stormwater management, absorbing rainwater while also helping to insulate the building and reduce the urban heat island effect. A rainwater harvesting system stores up to 150 m³ of water for irrigation, and potable water use by building occupants is reduced due to sensor-activated systems that minimize water use. The health and well-being of occupants are central to the building’s design. The façade incorporates a double-skin system that optimizes natural ventilation, prevents overheating, and enhances comfort. Despite the proximity to the airport, the design ensures high indoor air quality via the use of filtered cavities that enable ventilation without exposing the interior to external pollutants. Green rooftop gardens and terraces are designed with vegetation that considers local wildlife and adheres to airport security requirements, creating green pedestrian paths and relaxation areas that support the mental and physical health of occupants. Skypark Business Center is equipped with smart building technologies that monitor and optimize energy use. Sensors collect real-time data on room occupancy, weather, and other factors to improve the efficiency of heating, cooling, and electricity usage. The system also facilitates contactless access through a mobile app, reducing the use of plastic fobs and paper. Skypark’s commitment to sustainability is further emphasized by targeting BREEAM Excellent, WELL Gold, and WELL Platinum certifications.
+        - button "read more" [ref=e25] [cursor=pointer]:
+          - text: Read more
+          - generic [ref=e26]: +
+      - article [ref=e27]:
+        - img "UNI-GREENE CONCRETE | Bjarke Ingels Group" [ref=e29]
+        - heading "UNI-GREENE CONCRETE" [level=2] [ref=e30]
+        - paragraph [ref=e31]: Located on a narrow pier in Copenhagen’s Nordhavn neighborhood, BIG’s new headquarters is a 27-meter-tall, 7-storey structure, anchored in the city harbor’s industrial heritage. The building embodies the first application of Uni-Green concrete, developed in collaboration with Unicon, where the cement clinker is replaced with calcined clay and lime filler, representing a CO2 reduction of approximately 25% compared to traditional concrete. Tested and developed during construction, BIG HQ stands as a testament to the durability and potential of the Uni-Green, as well as a pioneer project not only in terms of materials but also in building methods—pushing the boundaries for the possibilities of concrete. The building integrates solar and geothermal energy systems that contribute to a 60% reliance on renewable energy, covering 84% of the building’s heat demand and 100% of the cooling demand. The latest Life Cycle Assessment completed in accordance with the Danish Standard BR18:2020 indicates a carbon-equivalency impact of 11.3 kg CO2e per square meter per year of building life. The building is designed to achieve DGNB Gold.
+        - button "read more" [ref=e32] [cursor=pointer]:
+          - text: Read more
+          - generic [ref=e33]: +
+      - article [ref=e34]:
+        - img "HARVESTING SOLAR ENERGY | Bjarke Ingels Group" [ref=e36]
+        - heading "HARVESTING SOLAR ENERGY" [level=2] [ref=e37]
+        - paragraph [ref=e38]: Located at the former EXPO ´92 site in Isla de la Cartuja, the new 9,900 m² building for the European Commission ties into the City of Sevilla’s goal to become a global benchmark for sustainability by 2025 and the local vision of the eCity Sevilla project to decarbonize and transition Isla de la Cartuja to 100% renewable energy sources. Informed by the shaded plazas and streets of Seville, BIG proposes to cover the entire project site with a cloud of solar canopies sheltering the plaza, garden, and research building underneath, akin to the pergolas typical to Seville. The canopies consist of square lightweight PV sheets supported by slender columns. The roofscape cascades down from the center to a human-scale height at its periphery, creating a variety of public spaces underneath. The passive design of the building through its shallow floorplate and constant shading under the pergola cloud enables natural cross ventilation and ideal light qualities, reducing the energy consumption typically used on artificial lighting, air conditioning, and mechanical ventilation. The design prioritizes locally sourced materials, such as limestone, wood, and ceramic tiling. The structure is low-carbon concrete, reducing up to 30% of typical CO2 emissions, while the pergola cloud is made from recycled steel. Outdoor gardens, greenery from the region, and water elements reduce/eliminate the heat island effect and create a comfortable microclimate.
+        - button "read more" [ref=e39] [cursor=pointer]:
+          - text: Read more
+          - generic [ref=e40]: +
+      - article [ref=e41]:
+        - img "HOLISTIC FOCUS ON EMBODIED AND OPERATIONAL CARBON | Bjarke Ingels Group" [ref=e43]
+        - heading "HOLISTIC FOCUS ON EMBODIED AND OPERATIONAL CARBON" [level=2] [ref=e44]
+        - paragraph [ref=e45]: The mission for Dymak’s new HQ was to be the most sustainable office building in Denmark, which has resulted in a building form optimized to reduce embodied carbon content, reduce energy needs, increase on-site energy production, and to ensure a high level of occupant well-being. The round shape provides a continuously connected interior experience, while the varying roof height buffers occupants from the noise of the adjacent highway while optimizing views to nature on the opposite side of the building. The form of the roof has been determined by orienting a series of 880 photovoltaic panels, consisting of 11 unique shapes, such that solar radiation potential is optimized for energy production. Reducing carbon emissions was a driver of all material choices on the project, from the mixed timber and precast concrete structure to the interior finishes. Early studies included assessments of the carbon and cost impact of various structural materials and grid dimensions, with the results used to drive the architectural design. As the design progressed, meticulous studies were completed for almost all interior materials, enabling a selection of finishes with low embodied carbon while maintaining a high quality of materiality. Currently under construction, the Dymak Headquarters is set to achieve DGNB Gold and Heart Certification. Current Life-Cycle Analysis (LCA) results—completed in accordance with Danish Standard BR18:2020—indicate a carbon-equivalency impact of 10.5 kgCO2e per square meter per year of life of the building.
+        - button "read more" [ref=e46] [cursor=pointer]:
+          - text: Read more
+          - generic [ref=e47]: +
+      - article [ref=e48]:
+        - img "REUSING EXISTING BUILDINGS | Bjarke Ingels Group" [ref=e50]
+        - heading "REUSING EXISTING BUILDINGS" [level=2] [ref=e51]
+        - paragraph [ref=e52]: Located at the site of Denmark’s largest refugee camp from World War II, BIG has adapted and extended one of the camp’s few remaining structures—a hospital building—into a 1,600 m² museum. From the very beginning of the design process, it was vital for BIG and the client, Vardemuseerne, to preserve the two hospital buildings. The buildings are some of the last remaining physical manifestations of the former refugee camp, and not only is their preservation invaluable for future generations to understand the past and the present, the buildings also directly informed our design of the extension by means of their unique elongated form, structure, and materiality. FLUGT is an example of how adaptive reuse can result in sustainable, functional, and beautiful buildings that preserve our shared history while standing out architecturally.
+        - button "read more" [ref=e53] [cursor=pointer]:
+          - text: Read more
+          - generic [ref=e54]: +
+      - article [ref=e55]:
+        - img "PRESERVATION, REGENERATION, & RESILIENCE IN PLANNING | Bjarke Ingels Group" [ref=e57]
+        - heading "PRESERVATION, REGENERATION, & RESILIENCE IN PLANNING" [level=2] [ref=e58]
+        - paragraph [ref=e59]: "Bhutan has a unique context and approach to sustainability: it is a carbon-negative country and global biodiversity hotspot with a commitment to supporting its population’s well-being through the Gross National Happiness index (GNH). Three quarters of Bhutan’s geographical area is forest, and the constitution mandates maintaining at least 60% forest cover in perpetuity. It is home to many endemic, endangered, and rare species across a variety of landscapes from mountains to interweaving rivers and floodplains. Located in the town of Gelephu in Southern Bhutan, the 2,500 km² masterplan titled ‘Gelephu Mindfulness City’ (GMC) by BIG, Arup, and Cistri is informed by Bhutanese culture, the principles of the GNH, and the country’s strong spiritual heritage. To guide the work over the next 100 years from design through construction and operation, the design team has developed a bespoke draft sustainability framework to help achieve Bhutan’s sustainability aspirations, provide resilient social and economic infrastructure, and opportunities to counter its current socioeconomic challenges whilst retaining the natural and cultural core principles that make the country so unique. The masterplan framework prioritizes conservation and ecological enhancement by not only preserving all existing forests for a total cover of the site of 85% but also creating new ecological corridors and forested areas to support wildlife habitats. This approach will strengthen biodiversity, ensure long-term environmental health, and limit the development land to only 4% of the total project site. Our approach to resilience embraces nature-based solutions, allowing the 35 Natural Rivers and 500+ Creeks to naturally expand their space, minimizing reliance on engineered flood control solutions. By enhancing the natural waterways and converting them into swales, we can manage stormwater effectively, particularly during flood events, using these natural processes. For both architecture and landscape, we propose the use of locally sourced materials such as river stone, bamboo, and timber. By limiting building heights to a maximum of 6 floors, with an average FAR of 0.9, we significantly reduce the need for structural concrete or steel, lowering the environmental impact of construction. Rather than demolishing existing structures and roads, we will focus on renovating and repurposing them, maintaining the site’s history and reducing waste from construction. The masterplan emphasizes creating a vibrant, human-centered environment with lively streets and public spaces designed to encourage outdoor social interaction. These spaces will foster community engagement and well-being. The city will be fully powered by renewable energy, with the construction of 2 new dams on the western side of the site, with a particular focus on hydropower and a supplementary mix of solar panels. The energy produced will greatly exceed local demand, ensuring sufficient power for data centers, machine learning, and energy-intensive activities like mining, all sustained by a clean, renewable energy supply. Most of the existing agricultural fields will be preserved and enhanced, ensuring the city can produce its own food locally. This will promote food security and reduce reliance on external sources. The masterplan is designed to be highly sustainable for mobility by prioritizing pedestrians and public transportation, following the principles of the 15-minute city. Every district is efficiently connected by trackless trams in flat zones and cable cars for uphill areas, with stops spaced evenly across the development area at 1 km intervals. Surrounding these stops are public spaces, mixed-use developments, and essential amenities, all of which reduce the need for long trips within the city. This results in a significant reduction of private vehicle use, with an estimated mode share of only 8% for cars, compared to 38% for public transport and 56% for soft micro-mobility. Streets are limited to a maximum of four vehicular lanes, allowing for much more expansive pedestrian zones, linear parks, and recreational boulevards, further enhancing the sustainable urban landscape. Finally, the masterplan will adopt best practices in sustainability standards and aims to create a new certification system. This system will measure not only carbon emission reduction targets but also social and environmental sustainability, with a special focus on individual health and spirituality. By addressing holistic well-being, GMC sets a new benchmark in city planning that integrates environmental stewardship with human-centered, mindful living practices."
+        - button "read more" [ref=e60] [cursor=pointer]:
+          - text: Read more
+          - generic [ref=e61]: +
+      - article [ref=e62]:
+        - img "ENHANCING NATURAL HABITATS & BIODIVERSITY | Bjarke Ingels Group" [ref=e64]
+        - heading "ENHANCING NATURAL HABITATS & BIODIVERSITY" [level=2] [ref=e65]
+        - paragraph [ref=e66]: The Treehotel in Swedish Lapland is known for its broad variety of cabins, with each one having a distinct identity that responds and interacts differently with the surrounding forest. BIG’s aim was to amplify Treehotel’s focus on sustainability and natural tourism and create a resilient design in a region with strong seasonal climatic contrasts. Inventories in Norrbotten County, carried out by ornithologists and the County Administrative Board, show that a number of different bird populations are decreasing due to forestry and climate change. Designed in collaboration with Treehotel and Swedish ornithologist Ulf Öhman, the Biosphere cabin brings 350 birdhouses to the Harads village, with the mission to decrease the downward spiral of the bird and bat population in the region.
+        - button "read more" [ref=e67] [cursor=pointer]:
+          - text: Read more
+          - generic [ref=e68]: +
+      - article [ref=e69]:
+        - img "PLAN FOR THE PLANET | Bjarke Ingels Group" [ref=e71]
+        - heading "PLAN FOR THE PLANET" [level=2] [ref=e72]
+        - paragraph [ref=e73]: Plan for the Planet is a research project that aims to establish a plan for achieving a carbon neutral planet Earth in 10 years, while addressing the fundamental challenges of energy, transport, resources, biodiversity, resilience, pollution, water, food, and prosperous living conditions for a world with up to 10 billion inhabitants.
+    - contentinfo [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - radio
+          - heading "Email +" [level=4] [ref=e77] [cursor=pointer]:
+            - text: Email
+            - generic [ref=e78]: +
+          - generic:
+            - generic: NEW PROJECTS
+            - link "newbiz@big.dk":
+              - /url: mailto:newbiz@big.dk
+            - generic: PRESS
+            - link "press@big.dk":
+              - /url: mailto:press@big.dk
+            - generic: LECTURES
+            - link "lectures@big.dk":
+              - /url: mailto:lectures@big.dk
+            - generic: EXHIBITIONS
+            - link "exhibitions@big.dk":
+              - /url: mailto:exhibitions@big.dk
+        - generic [ref=e79]:
+          - radio
+          - heading "Office +" [level=4] [ref=e80] [cursor=pointer]:
+            - text: Office
+            - generic [ref=e81]: +
+          - generic:
+            - generic:
+              - radio
+              - generic: Copenhagen
+              - paragraph:
+                - text: Sundkaj 165
+                - text: 2150, Nordhavn
+                - link:
+                  - /url: https://goo.gl/maps/R1pmtHqp4Gkqsjtz8
+                - text: Copenhagen, DK
+                - text: +45 7221 7227
+                - text: +45 3512 7227
+                - link "cph@big.dk":
+                  - /url: mailto:cph@big.dk
+            - generic:
+              - radio
+              - generic: London
+              - paragraph:
+                - text: 1 Finsbury Avenue
+                - text: London EC2M 2PF
+                - text: United Kingdom
+                - text: +44 20 3735 4996
+                - link "lon@big.dk":
+                  - /url: mailto:lon@big.dk
+            - generic:
+              - radio
+              - generic: Barcelona
+              - paragraph:
+                - text: Ronda de Sant Pere, 56 Bajos
+                - text: 08010 Barcelona
+                - text: Spain
+                - text: +34 610 029 747
+                - link "bcn@big.dk":
+                  - /url: mailto:bcn@big.dk
+            - generic:
+              - radio
+              - generic: New York
+              - paragraph:
+                - text: 45 Main Street, 9th Floor
+                - text: Brooklyn, NY 11201
+                - text: United States
+                - text: +1 347 549 4141
+                - text: +1 866 738 4336
+                - link "nyc@big.dk":
+                  - /url: mailto:nyc@big.dk
+            - generic:
+              - radio
+              - generic: Shanghai
+              - paragraph:
+                - generic:
+                  - generic:
+                    - text: 363 Chang Ping Road, FL 6
+                    - text: Jing An District, Shanghai
+                - text: China
+                - text: +86 180 1923 8903
+                - link "sha@big.dk":
+                  - /url: mailto:sha@big.dk
+            - generic:
+              - radio
+              - generic: Los Angeles
+              - paragraph:
+                - text: 310 Wilshire Boulevard,
+                - text: 2nd floor
+                - text: Santa Monica, 90401
+                - text: California
+                - generic: +1 310 692 7280
+                - link "lax@big.dk":
+                  - /url: mailto:lax@big.dk
+            - generic:
+              - radio
+              - generic: Zürich
+              - paragraph:
+                - text: Planergemeinschaft Raumfachwerk
+                - text: Flughafenstrasse 90
+                - text: 8302 Kloten
+                - text: Switzerland
+                - link "bigzrh@big.dk":
+                  - /url: mailto:bigzrh@big.dk
+            - generic:
+              - radio
+              - generic: Riyadh
+              - paragraph:
+                - generic:
+                  - text: King Abdullah Financial District
+                  - text: Innovation Blvd – Building 4.07
+                  - text: Riyadh 13519
+                  - text: Kingdom of Saudi Arabia
+                  - link "ksa@big.dk":
+                    - /url: mailto:ksa@big.dk
+        - generic [ref=e82]:
+          - radio
+          - heading "Social +" [level=4] [ref=e83] [cursor=pointer]:
+            - text: Social
+            - generic [ref=e84]: +
+          - generic:
+            - link "Instagram":
+              - /url: https://www.instagram.com/big_builds/
+              - text: Instagram
+              - img
+            - link "X":
+              - /url: https://x.com/BIG_Architects
+              - text: X
+              - img
+            - link "LinkedIn":
+              - /url: https://www.linkedin.com/company/bjarke-ingels-group/
+              - text: LinkedIn
+              - img
+            - link "Vimeo":
+              - /url: https://vimeo.com/user1395824
+              - text: Vimeo
+              - img
+            - link "Facebook":
+              - /url: https://www.facebook.com/bjarke.ingels.group
+              - text: Facebook
+              - img
+            - link "Bjarke Ingels Group WeChat QR Code":
+              - /url: https://weixin.qq.com/r/GjlRSUbEmhvlrQIq92wI
+              - img "Bjarke Ingels Group WeChat QR Code"
+        - generic [ref=e85]:
+          - radio
+          - heading "Legal +" [level=4] [ref=e86] [cursor=pointer]:
+            - text: Legal
+            - generic [ref=e87]: +
+          - generic:
+            - link "BIG’s Anti-Slavery and Human Trafficking Statement 2018":
+              - /url: https://media.big.dk/2024/01/BIGs-anti-slavery-and-human-trafficking-statement-2018.pdf
+            - link "BIG’s Privacy Policy 2024":
+              - /url: https://media.big.dk/privacy-policy-bigdk.pdf
+            - link "BIG UN Global Compact Report":
+              - /url: https://www.unglobalcompact.org/participation/report/cop/create-and-submit/active/446079
+            - link "BIG’s Annual Sustainability Report, 2023":
+              - /url: https://media.big.dk/2024/06/240603-ANNUAL-SUSTAINABILITY-REPORT-2023.pdf
+            - link "Whistleblower Policy":
+              - /url: /whistleblower-policy
+      - button "Back to top" [ref=e88] [cursor=pointer]
+  - alert [ref=e89]

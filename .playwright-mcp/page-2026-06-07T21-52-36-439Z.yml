@@ -1,0 +1,409 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - img
+  - generic:
+    - checkbox
+    - generic [ref=e2] [cursor=pointer]:
+      - img
+    - navigation:
+      - link "Projects":
+        - /url: /
+      - link "News":
+        - /url: /news
+      - link "About":
+        - /url: /about
+      - link "Sustainability":
+        - /url: /sustainability
+      - link "People":
+        - /url: /people
+      - link "Careers":
+        - /url: /careers
+      - generic: Contact
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - heading "About" [level=1] [ref=e6]
+        - paragraph [ref=e7]:
+          - text: The escalating complexity of the world and the accelerating speed of change exceed any individual’s capacity to comprehend. For architects operating today, the Golden Ratio is no longer the standard - rather, the UN’s 17 Sustainable Development Goals are. From a single elegant equation, architects are now held to multidimensional success criteria with almost infinite variables. Since sustainability is inherently a question of complex systems, circular design, and holistic thinking, no single person holds the solution. As architects and urbanists, we must team with scientists, engineers with biologists, politicians with entrepreneurs, to combine skill sets and perspectives, knowledge and sensibility, to match the complexity of the challenges we face. As future formgivers, we aren't defined by our individual talents or singular skill sets - but rather by our capacity to pool the skills of the many to give our future form.
+          - text: "BIG has grown organically over the last two decades from a founder, to a family, to a force of 700. Our latest transformation is the BIG LEAP: Bjarke Ingels Group of Landscape, Engineering, Architecture, Planning, and Products. A plethora of in-house perspectives allows us to see what none of us would be able to see on our own. The sum of our individual talents becomes our collective creative genius. A small step for each of us becomes a BIG LEAP for all of us. Bjarke Ingels Founder & Creative Director"
+        - img "About | Bjarke Ingels Group" [ref=e8]
+      - generic [ref=e9]:
+        - heading "LANDSCAPE" [level=2] [ref=e10]
+        - paragraph [ref=e11]:
+          - text: As public space and biodiversity are subtracted in urban spaces, BIG Landscape works with architects and other disciplines to integrate the built and natural worlds, connecting people to people, and people to nature. With every project, we go beyond the brief to give the gift of public space to the communities in which we work, creating equitable and accessible public spaces for all.
+          - text: "Our work not only responds to challenges today, it mitigates challenges of the future: we approach every project as an opportunity to use nature-based solutions for social and technological integration, community building, ecology preservation, biophilia, and biodiversity enhancement to design sustainable, smarter, and safer cities."
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - checkbox
+          - img "PUBLIC REALM | Bjarke Ingels Group" [ref=e15]
+          - heading "PUBLIC REALM +" [level=3] [ref=e16] [cursor=pointer]:
+            - text: PUBLIC REALM
+            - generic [ref=e17]: +
+          - paragraph: A new city square Henning Kruses Plads creates a more lively public realm in Denmark's fifth largest city, Esbjerg. The design brings together Esbjerg's old town center and the green city park around the local concert venue Musikhuset. The square is planted with 55 pollen-free Betula Pendula Birch, whose white stems blend with the white interior columns of the music venue. Planted in a grid system around a cymatic pool, the trees are all stemmed at a height of 4-5 m to ensure views in all directions.
+        - generic [ref=e18]:
+          - checkbox
+          - img "PARKS | Bjarke Ingels Group" [ref=e19]
+          - heading "PARKS +" [level=3] [ref=e20] [cursor=pointer]:
+            - text: PARKS
+            - generic [ref=e21]: +
+          - paragraph: At the foot of BIG's headquarters in Copenhagen, a former parking area has been transformed into a 1,500 m2 public park and promenade, inspired by the sandy beaches and the coastal forests of Denmark. Towards the north, native forest trees, such as pines and oaks, create shelter from the harsh winds of the harbour. Towards the south, areas with planting, rocks and woods support habitat creation for biodiversity. At the heart of the park, tucked away between the trees, a sculpture by American artist Benjamin Langholz titled "Stone 40" will surprise and engage visitors of all ages.
+        - generic [ref=e22]:
+          - checkbox
+          - img "GARDENS | Bjarke Ingels Group" [ref=e23]
+          - heading "GARDENS +" [level=3] [ref=e24] [cursor=pointer]:
+            - text: GARDENS
+            - generic [ref=e25]: +
+          - paragraph: Surrounding the UAE Pavilion, meandering paths frame a series of thematic gardens that explore the power of plants as a source of food, health and energy. Throughout the gardens, guests can explore a total of 6,609 plants - highlighting species that were both essential for the survival of ancestors and plants that now contribute to sustainable objectives.
+        - generic [ref=e26]:
+          - checkbox
+          - img "TERRACES | Bjarke Ingels Group" [ref=e27]
+          - heading "TERRACES +" [level=3] [ref=e28] [cursor=pointer]:
+            - text: TERRACES
+            - generic [ref=e29]: +
+          - paragraph: Located at the intersection of the High Line and the newly developed Hudson Boulevard Park on Manhattan’s new western frontier, the terraces at The Spiral visually extend the green space of the former train tracks in a spiraling motion towards the sky – from High Line to the skyline. The 1,005 ft high-rise is a unique hybrid that intertwines a continuous green pathway with workspaces on every level. The terraces set a new standard for the contemporary workplace, making nature an integrated part of the work environment.
+      - generic [ref=e31]:
+        - heading "ARCHITECTURE" [level=2] [ref=e32]
+        - paragraph [ref=e33]:
+          - text: "We take on the creation of socially, economically and environmentally perfect places as a practical objective. Traditionally, architecture is dominated by two extremes: one that is very wild and expressive, but also expensive and unrealistic, and the other – that is practical and rational, but may also be un-ambitious and uninspiring. We try to occupy the overlap between the two extremes, a place where we use all the different forces that flow through society – the cultural and economic structures, infrastructure itself – as the driving force of the design."
+          - text: Our “pragmatic utopian” designs include powerplants where you can ski on the roof, flood protection that doubles like playgrounds or parks - parking structures that become mountains of houses with gardens – or a three-dimensional urban block where people can walk and bicycle along townhouses all the way to the 10th story penthouse. All seem and sound utopian in their ambition or radical combination of seemingly incompatible elements – but once realized they form an integrated part of our everyday lives.
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - checkbox
+          - img "CULTURE | Bjarke Ingels Group" [ref=e37]
+          - heading "CULTURE +" [level=3] [ref=e38] [cursor=pointer]:
+            - text: CULTURE
+            - generic [ref=e39]: +
+          - paragraph: "The Twist in Kistefos sculpture park is a hybrid spanning several traditional categories: it’s a museum, it’s a bridge, it’s an inhabitable sculpture. As a bridge, it reconfigures the sculpture park, turning the journey through the park into a continuous loop. As a museum, it connects two distinct spaces – an introverted vertical gallery and an extraverted horizontal gallery with panoramic views across the river. A third space is created through the blatant translation between these two galleries, creating the project's namesake twist. The resultant form becomes another sculpture among the sculptures within the park."
+        - generic [ref=e40]:
+          - checkbox
+          - img "EDUCATION | Bjarke Ingels Group" [ref=e41]
+          - heading "EDUCATION +" [level=3] [ref=e42] [cursor=pointer]:
+            - text: EDUCATION
+            - generic [ref=e43]: +
+          - paragraph: The density of the urban Arlington neighborhood became the inspiration for the school – BIG fanned the classrooms to allow each and every floor to be connected to the roof garden on top of the classrooms below. The resultant cascading terraces are connected by a curving stair that weaves through all levels – inside as well as outside – making all students, from both programs and all ages, visually and physically connected to each other. Each terrace is landscaped to lend itself not just to the social life of the students but also as informal outdoor spaces for learning.
+        - generic [ref=e44]:
+          - checkbox
+          - img "WORK | Bjarke Ingels Group" [ref=e45]
+          - heading "WORK +" [level=3] [ref=e46] [cursor=pointer]:
+            - text: WORK
+            - generic [ref=e47]: +
+          - paragraph: BIG's design of the Google Bay View campus is the result of an incredibly collaborative design process. Working with a client as data driven as Google has led to an architecture where every single decision is informed by hard information and empirical analysis. The result is a campus where the striking dragonscale solar canopies harvest every photon that hits the buildings; the energy piles store and extract heating and cooling from the ground, and even the naturally beautiful floras are in fact hardworking rootzone gardens that filter and clean the water from the buildings. All in all, a campus where front of house and back of house, technology and architecture, and form and function have been fused into a new and striking hybrid.
+        - generic [ref=e48]:
+          - checkbox
+          - img "HOSPITALITY | Bjarke Ingels Group" [ref=e49]
+          - heading "HOSPITALITY +" [level=3] [ref=e50] [cursor=pointer]:
+            - text: HOSPITALITY
+            - generic [ref=e51]: +
+          - paragraph: Conceived as a manmade extension of the sloping meadows of the Vallée du Joux, the five-story building volume is folded to form a serpentine mountain path ascending from the fields to the roof while opening all spaces inside to visually connect to the valley outside. This full immersion into the local landscape, climate, and flora and fauna makes the guest experience inseparable from the Vallée du Joux, the cradle of Swiss watchmaking.
+        - generic [ref=e52]:
+          - checkbox
+          - img "INFRASTRUCTURE | Bjarke Ingels Group"
+          - heading "INFRASTRUCTURE +" [level=3] [ref=e53] [cursor=pointer]:
+            - text: INFRASTRUCTURE
+            - generic [ref=e54]: +
+          - paragraph: "CopenHill is a blatant architectural expression of something that would otherwise have remained invisible: it is the cleanest waste-to-energy power plant in the world. As a power plant, CopenHill is so clean that BIG was able to turn its building mass into the bedrock of the social life of the city – its façade is climbable, its roof is hikeable and its slopes are skiable. A crystal clear example of Hedonistic Sustainability – that a sustainable city is not only better for the environment – it is also more enjoyable for the lives of its citizens."
+        - generic [ref=e55]:
+          - checkbox
+          - img "RESIDENTIAL | Bjarke Ingels Group"
+          - heading "RESIDENTIAL +" [level=3] [ref=e56] [cursor=pointer]:
+            - text: RESIDENTIAL
+            - generic [ref=e57]: +
+          - paragraph: Located at the northern tip of the Hudson River<br /> Park, VIA continues the process of greenification <br /> in NYC allowing open space to invade the urban fabric of the Manhattan city grid.<br /> VIA fuses what seems to be two mutually exclusive typologies - the courtyard and the skyscraper, into the Courtscraper.
+        - generic [ref=e58]:
+          - checkbox
+          - img "SPACE | Bjarke Ingels Group"
+          - heading "SPACE +" [level=3] [ref=e59] [cursor=pointer]:
+            - text: SPACE
+            - generic [ref=e60]: +
+          - paragraph: BIG is pioneering new frontiers - materially, technologically, and environmentally through our work in outer space. The NASA Olympus habitats are designed with the inherent redundancy required for extraterrestrial buildings, while also using groundbreaking robotic construction that uses only in-situ resources with zero waste left behind. With the technologies and efficiency parameters developed for the construction of extraterrestrial buildings, the answers to our challenges on Earth very well might be found in space.
+        - generic [ref=e61]:
+          - checkbox
+          - img "CIVIC | Bjarke Ingels Group"
+          - heading "CIVIC +" [level=3] [ref=e62] [cursor=pointer]:
+            - text: CIVIC
+            - generic [ref=e63]: +
+          - paragraph: "Located at the heart of the Copenhagen Zoo, BIG made the entire Panda House enclosure accessible from 360 degrees, turning the two pandas into the new rotation point for Copenhagen Zoo.<br /> Architecture is like portraiture. The habitat is formed like a giant yin and yang symbol, two halves: the male and the female complete each other to form a single circular whole. The curvy lines are undulating in sections to create the necessary separation between him and her - as well as between them and the visitors."
+        - generic [ref=e64]:
+          - checkbox
+          - img "INTERIORS | Bjarke Ingels Group"
+          - heading "INTERIORS +" [level=3] [ref=e65] [cursor=pointer]:
+            - text: INTERIORS
+            - generic [ref=e66]: +
+          - paragraph: Built on the protected site of an old fortification once used to store mines for the Royal Danish Navy, the design of the new Noma dissolves the traditional idea of a restaurant into its constituent parts and reassembles them to put the chefs at the heart of the restaurant. A collection of separate yet connected buildings are tailored to their specific needs and are densely clustered around the kitchen. Designed like a panopticon, the kitchen allows the chefs to oversee the staff and guest areas, while every guest can follow what would traditionally happen behind the scenes. Each building within the building is connected by glass-covered paths that reveal the changes in weather, daylight, and seasons - making the natural environment integral to the culinary experience.
+        - generic [ref=e67]:
+          - checkbox
+          - img "RETAIL | Bjarke Ingels Group"
+          - heading "RETAIL +" [level=3] [ref=e68] [cursor=pointer]:
+            - text: RETAIL
+            - generic [ref=e69]: +
+          - paragraph: "Rather than messing with the old bones and original grandeur of the 1932 Art Deco bank building, the Galleries Lafayette on the Champs-Élysées adapts to the 21st century by operating at the scale of furniture. When BIG inherited the space, most of the original Art Deco elements were covered with black-painted drywall. The cupola was hidden behind sheetrock and there were no connections to the Avenue des Champs-Élysées. Today shoppers enter a glowing bridge into the heart of the building: a circular atrium covered by a monumental glass cupola. The entire store unfolds on the ground floor and creates an illuminated urban living room for cultural events and fashion shows. A grand staircase, which doubles as an auditorium, takes visitors to spaces shaped by a family of flexible pavilions that can transform over time. As online retail undermines the monopoly of physical space for transaction, the renewed relevance of retail becomes its quality as a public space for people to enjoy and to meet."
+        - generic [ref=e70]:
+          - checkbox
+          - img "SPORTS | Bjarke Ingels Group"
+          - heading "SPORTS +" [level=3] [ref=e71] [cursor=pointer]:
+            - text: SPORTS
+            - generic [ref=e72]: +
+          - paragraph: The new ballpark for the Athletics Major League Baseball team will sit directly on the Las Vegas Strip, exuding an outdoor feel with panoramic views of the city’s skyline. The 33,000-capacity covered ballpark’s roof is accentuated by five overlapping shells resembling baseball pennants, paying homage to the sport. For players, these arched “pennants” attenuate direct sunlight glare while welcoming indirect natural light through northern oriented clerestory windows. An elevated outdoor plaza directs fans to the ballpark’s main concourse, where a large glass atrium pulls the city into the venue. Once inside, fans are met with bright, open atria, which will also serve as multipurpose exhibition spaces to showcase international and local artists. The Athletics Ballpark’s tiered design and intimacy, inspired by historic ballparks like Fenway and Wrigley - with split upper and lower bowls - bring fans closer to the action than traditional ballparks and provide clear sight lines from every seat. The structure’s exterior metal cladding shimmers in the natural daylight and reflects the surrounding Las Vegas lights at night.
+        - generic [ref=e73]:
+          - checkbox
+          - img "HEALTH | Bjarke Ingels Group"
+          - heading "HEALTH +" [level=3] [ref=e74] [cursor=pointer]:
+            - text: HEALTH
+            - generic [ref=e75]: +
+          - paragraph: "BIG's hospital design seeks to avoid clinical stereotypes: hallways without windows and rooms with artificial, easy-cleaning materials. At Ellsinore Psychiatric Hospital, all materials have their natural surfaces: wood, glass and concrete in lively colors to create the best conditions for health care. Effectively and rationally minimising walking distance, and at the same time providing individual sections with a maximum of autonomy and intimate spaces where the users can feel themselves almost at home."
+      - generic [ref=e77]:
+        - heading "PRODUCTS" [level=2] [ref=e78]
+        - paragraph [ref=e79]:
+          - text: Our BIG Product team makes product design a literal extension of our efforts in architecture. Architects rarely have the possibility to specify a building component from scratch, limiting our imagination to what is already on the shelves.
+          - text: Our work in furniture, lighting, transportation, and IoT ensures that we connect the big picture to the small details, increasing our overall influence on the built environment.
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - checkbox
+          - img "LIGHTING | Bjarke Ingels Group" [ref=e83]
+          - heading "LIGHTING +" [level=3] [ref=e84] [cursor=pointer]:
+            - text: LIGHTING
+            - generic [ref=e85]: +
+          - paragraph: Our latest design, Stellar Nebula for Italian lighting manufacturer Artemide is a family of lamps designed to interpret and enhance artisanal glass blowing with innovative PVD finishing techniques. Other collaborations with Artemide have led to the award-winning Alphabet and Vine lights - in addition to earlier collaborations with Danish design brands Louis Poulsen and Fritz Hansen.
+        - generic [ref=e86]:
+          - checkbox
+          - img "FURNITURE | Bjarke Ingels Group" [ref=e87]
+          - heading "FURNITURE +" [level=3] [ref=e88] [cursor=pointer]:
+            - text: FURNITURE
+            - generic [ref=e89]: +
+          - paragraph: "The Brick sofa series for Jot.Jot is designed to have strong architectural references: a classic brick bond forming the cushion pattern, tied together and fixed with tailor-quality buttons made from fiber concrete. The architectural references are felt in many of our furniture designs - from the VIA chair designed for VIA 57 West building in NYC to the Shanghay chair for BIG's 2010 Expo Pavilion."
+        - generic [ref=e90]:
+          - checkbox
+          - img "CONSUMER PRODUCTS | Bjarke Ingels Group" [ref=e91]
+          - heading "CONSUMER PRODUCTS +" [level=3] [ref=e92] [cursor=pointer]:
+            - text: CONSUMER PRODUCTS
+            - generic [ref=e93]: +
+          - paragraph: With its two guiding principles – beauty and simplicity – the unique shape of DUO Smart Lock is inspired by the architectural principle of the Saddle Roof, making it striking and a perfect fit for any home. It has the smallest dimensions of any retrofit lock on the market. Other consumer products include the HAV Porcelain collection for Royal Copenhagen and TURN reusable cups to end single use plastics from events and concerts.
+        - generic [ref=e94]:
+          - checkbox
+          - img "MOBILITY | Bjarke Ingels Group" [ref=e95]
+          - heading "MOBILITY +" [level=3] [ref=e96] [cursor=pointer]:
+            - text: MOBILITY
+            - generic [ref=e97]: +
+          - paragraph: Mobility includes large scale infrastructure projects that tie together cities to bicycles that take you the last stretch home. In collaboration with the engineering team at Virgin Hyperloop One we have designed the pods with a focus on comfort and functionality, defining an entirely new sustainable transportation typology. With Biomega we’ve designed a collection of simple and practical, both analog and electric bicycles.
+        - generic [ref=e98]:
+          - checkbox
+          - img "INSTALLATIONS | Bjarke Ingels Group"
+          - heading "INSTALLATIONS +" [level=3] [ref=e99] [cursor=pointer]:
+            - text: INSTALLATIONS
+            - generic [ref=e100]: +
+          - paragraph: SKUM is a bubble-like cloud pavilion filled with air, powered by two wind turbines. Fully inflated in seven minutes, the idea was to plug in and play. Debuting as the Tuborg VIP bar at Roskilde Festival 2016, the pavilion features a generous canopy for visitors to relax under its shade. Its low-impact construction offers maximum visibility while incurring a minimal environmental foot print which generally informs our approach to small-scale pavilions and installations.
+      - generic [ref=e102]:
+        - heading "PLANNING" [level=2] [ref=e103]
+        - paragraph [ref=e104]:
+          - text: "BIG Planning takes a comprehensive view on the built environment, supporting our teams and clients in thinking in the long-term and across multiple scales and systems. We engage with clients early in their process – before a building is built, or a landscape is designed, to help answer fundamental questions: what, where, why, and for whom should we be building? We engage deeply with communities, institutions, and governments to help answer these questions, and build consensus amongst complex stakeholder groups in the process."
+          - text: We add value to projects by constantly returning to the big picture - in an age of climate change, aging infrastructure, heavy population growth, and rapid urbanization, built investments must work overtime to achieve social, economic, and environmental success. BIG Planning pursues these goals relentlessly, with results ranging from resilient urban design to regional visioning, and from campus masterplans to planetary strategy.
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - checkbox
+          - img "CAMPUS | Bjarke Ingels Group"
+          - heading "CAMPUS +" [level=3] [ref=e108] [cursor=pointer]:
+            - text: CAMPUS
+            - generic [ref=e109]: +
+          - paragraph: Our projects at Google Bay View and Gradient Canopy help to support Google's campus goals by drastically reducing energy consumption through elements such as geothermal wells and optimized daylight as well as contributing energy to the grid through the use of photovoltaic roof arrays. Bay View’s three new buildings support Google’s ambition to be the first major company to operate on carbon-free energy, 24h a day, seven days a week by 2030. The site has achieved a LEED-NC v4 Platinum certification and become the largest facility ever to attain the International Living Future Institute (ILFI) Living Building Challenge (LBC) Water Petal Certification.
+        - generic [ref=e110]:
+          - checkbox
+          - img "CITY | Bjarke Ingels Group"
+          - heading "CITY +" [level=3] [ref=e111] [cursor=pointer]:
+            - text: CITY
+            - generic [ref=e112]: +
+          - paragraph: To accelerate the transformation and advance all aspects of mobility and beyond, a 170-acre former factory site in Susono, at the foothills of Mt. Fuji in Japan, will be transformed into an urban incubator – Toyota Woven City. Envisioned as a living laboratory to test and advance personal mobility, autonomy, mobility as a service, connectivity, hydrogen-powered infrastructure, and industry collaboration, Toyota Woven City aims to bring people and communities together.
+        - generic [ref=e113]:
+          - checkbox
+          - img "REGION | Bjarke Ingels Group"
+          - heading "REGION +" [level=3] [ref=e114] [cursor=pointer]:
+            - text: REGION
+            - generic [ref=e115]: +
+          - paragraph: Our vision for the Penang island and region titled BiodiverCity includes an integrated system of localized water resources, renewable energy, and waste management, tied altogether in a human-made ecosystem. Rather than designing a region for cars, we designed BiodiverCity for waterways, rail and different kinds of personal mobility, forming a multi-modal environment of movement. The resultant urban landscape will be a celebration of Penang's position as a truly global crossroads of the world - economically, ecologically, and socially.
+      - generic [ref=e117]:
+        - heading "VISION" [level=2] [ref=e118]
+        - paragraph [ref=e119]:
+          - text: BIG Vision brings focus and form to your ideas. As your thought-partner, we translate ideas at any stage into physical space, bringing them one step closer to reality- in the form of an experience, product, building or city. We unlock potential through analysis, experimentation and methodical design. We provoke, test the limits, explore new perspectives and ask the right questions during a series of bespoke engagements.
+          - text: This design approach defines project ambitions, explores its value, and gives clients the tools to make decisions and realize it. We believe in the power of unexpected findings when great thinkers, open dialogue and iterative design come together to drive consensus and solve global and human problems.
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - checkbox
+          - img "FUTURE OF RESILIENT CITIES | Bjarke Ingels Group"
+          - heading "FUTURE OF RESILIENT CITIES +" [level=3] [ref=e123] [cursor=pointer]:
+            - text: FUTURE OF RESILIENT CITIES
+            - generic [ref=e124]: +
+          - paragraph: As part of UN-Habitat’s New Urban Agenda, we proposed a vision for the world’s first resilient and sustainable floating community for 10,000 residents. Designed as a man-made ecosystem, Oceanix City is anchored in the UN Sustainable Development Goals, channeling flows of energy, water, food and waste to create a blueprint for a modular maritime metropolis. Oceanix City is designed to grow, transform and adapt organically over time, evolving from neighborhoods to cities with the possibility of scaling indefinitely.
+        - generic [ref=e125]:
+          - checkbox
+          - img "FUTURE OF MULTIMEDIA MEMORIALS | Bjarke Ingels Group"
+          - heading "FUTURE OF MULTIMEDIA MEMORIALS +" [level=3] [ref=e126] [cursor=pointer]:
+            - text: FUTURE OF MULTIMEDIA MEMORIALS
+            - generic [ref=e127]: +
+          - paragraph: In collaboration with Cirque du Soleil founder Guy Laliberté, we reimagined traditional funerary practices to create an immersive experience that preserves personal stories for future generations. The buildings will live in major cities worldwide to serve as a "public library of the human experience," bringing together people from diverse cultures and backgrounds to share stories and celebrate the lives of those who have passed. Thousands of artifacts displayed in timeless glass capsules act as gateways to a digital archive filled with memories and media about the loved ones we've lost.
+        - generic [ref=e128]:
+          - checkbox
+          - img "FUTURE OF WORK | Bjarke Ingels Group"
+          - heading "FUTURE OF WORK +" [level=3] [ref=e129] [cursor=pointer]:
+            - text: FUTURE OF WORK
+            - generic [ref=e130]: +
+          - paragraph: Area 2071 is a co-creation space that embodies the UAE's ambition to position Dubai as a global hub for innovation. Located on the ground floor of Emirates Towers, where the Dubai Future Foundation government offices are located, creative workspaces enable start-ups, corporations, venture capitalists and the government to work side-by-side. A kit-of-parts embraces sharing, collaboration and contemplation to untap the creative potential within Area 2071 residents and the public. The space supports the brightest minds to bring to life the next wave of big ideas.
+    - contentinfo [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - radio
+          - heading "Email +" [level=4] [ref=e135] [cursor=pointer]:
+            - text: Email
+            - generic [ref=e136]: +
+          - generic:
+            - generic: NEW PROJECTS
+            - link "newbiz@big.dk":
+              - /url: mailto:newbiz@big.dk
+            - generic: PRESS
+            - link "press@big.dk":
+              - /url: mailto:press@big.dk
+            - generic: LECTURES
+            - link "lectures@big.dk":
+              - /url: mailto:lectures@big.dk
+            - generic: EXHIBITIONS
+            - link "exhibitions@big.dk":
+              - /url: mailto:exhibitions@big.dk
+        - generic [ref=e137]:
+          - radio
+          - heading "Office +" [level=4] [ref=e138] [cursor=pointer]:
+            - text: Office
+            - generic [ref=e139]: +
+          - generic:
+            - generic:
+              - radio
+              - generic: Copenhagen
+              - paragraph:
+                - text: Sundkaj 165
+                - text: 2150, Nordhavn
+                - link:
+                  - /url: https://goo.gl/maps/R1pmtHqp4Gkqsjtz8
+                - text: Copenhagen, DK
+                - text: +45 7221 7227
+                - text: +45 3512 7227
+                - link "cph@big.dk":
+                  - /url: mailto:cph@big.dk
+            - generic:
+              - radio
+              - generic: London
+              - paragraph:
+                - text: 1 Finsbury Avenue
+                - text: London EC2M 2PF
+                - text: United Kingdom
+                - text: +44 20 3735 4996
+                - link "lon@big.dk":
+                  - /url: mailto:lon@big.dk
+            - generic:
+              - radio
+              - generic: Barcelona
+              - paragraph:
+                - text: Ronda de Sant Pere, 56 Bajos
+                - text: 08010 Barcelona
+                - text: Spain
+                - text: +34 610 029 747
+                - link "bcn@big.dk":
+                  - /url: mailto:bcn@big.dk
+            - generic:
+              - radio
+              - generic: New York
+              - paragraph:
+                - text: 45 Main Street, 9th Floor
+                - text: Brooklyn, NY 11201
+                - text: United States
+                - text: +1 347 549 4141
+                - text: +1 866 738 4336
+                - link "nyc@big.dk":
+                  - /url: mailto:nyc@big.dk
+            - generic:
+              - radio
+              - generic: Shanghai
+              - paragraph:
+                - generic:
+                  - generic:
+                    - text: 363 Chang Ping Road, FL 6
+                    - text: Jing An District, Shanghai
+                - text: China
+                - text: +86 180 1923 8903
+                - link "sha@big.dk":
+                  - /url: mailto:sha@big.dk
+            - generic:
+              - radio
+              - generic: Los Angeles
+              - paragraph:
+                - text: 310 Wilshire Boulevard,
+                - text: 2nd floor
+                - text: Santa Monica, 90401
+                - text: California
+                - generic: +1 310 692 7280
+                - link "lax@big.dk":
+                  - /url: mailto:lax@big.dk
+            - generic:
+              - radio
+              - generic: Zürich
+              - paragraph:
+                - text: Planergemeinschaft Raumfachwerk
+                - text: Flughafenstrasse 90
+                - text: 8302 Kloten
+                - text: Switzerland
+                - link "bigzrh@big.dk":
+                  - /url: mailto:bigzrh@big.dk
+            - generic:
+              - radio
+              - generic: Riyadh
+              - paragraph:
+                - generic:
+                  - text: King Abdullah Financial District
+                  - text: Innovation Blvd – Building 4.07
+                  - text: Riyadh 13519
+                  - text: Kingdom of Saudi Arabia
+                  - link "ksa@big.dk":
+                    - /url: mailto:ksa@big.dk
+        - generic [ref=e140]:
+          - radio
+          - heading "Social +" [level=4] [ref=e141] [cursor=pointer]:
+            - text: Social
+            - generic [ref=e142]: +
+          - generic:
+            - link "Instagram":
+              - /url: https://www.instagram.com/big_builds/
+              - text: Instagram
+              - img
+            - link "X":
+              - /url: https://x.com/BIG_Architects
+              - text: X
+              - img
+            - link "LinkedIn":
+              - /url: https://www.linkedin.com/company/bjarke-ingels-group/
+              - text: LinkedIn
+              - img
+            - link "Vimeo":
+              - /url: https://vimeo.com/user1395824
+              - text: Vimeo
+              - img
+            - link "Facebook":
+              - /url: https://www.facebook.com/bjarke.ingels.group
+              - text: Facebook
+              - img
+            - link "Bjarke Ingels Group WeChat QR Code":
+              - /url: https://weixin.qq.com/r/GjlRSUbEmhvlrQIq92wI
+              - img "Bjarke Ingels Group WeChat QR Code"
+        - generic [ref=e143]:
+          - radio
+          - heading "Legal +" [level=4] [ref=e144] [cursor=pointer]:
+            - text: Legal
+            - generic [ref=e145]: +
+          - generic:
+            - link "BIG’s Anti-Slavery and Human Trafficking Statement 2018":
+              - /url: https://media.big.dk/2024/01/BIGs-anti-slavery-and-human-trafficking-statement-2018.pdf
+            - link "BIG’s Privacy Policy 2024":
+              - /url: https://media.big.dk/privacy-policy-bigdk.pdf
+            - link "BIG UN Global Compact Report":
+              - /url: https://www.unglobalcompact.org/participation/report/cop/create-and-submit/active/446079
+            - link "BIG’s Annual Sustainability Report, 2023":
+              - /url: https://media.big.dk/2024/06/240603-ANNUAL-SUSTAINABILITY-REPORT-2023.pdf
+            - link "Whistleblower Policy":
+              - /url: /whistleblower-policy
+      - button "Back to top" [ref=e146] [cursor=pointer]
+  - alert [ref=e147]

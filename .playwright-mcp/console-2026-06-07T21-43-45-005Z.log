@@ -1,0 +1,9 @@
+[     956ms] [LOG] Final response: OK - This is a metrics service by bunny.net for CDN latency optimization. @ https://assets.mediadelivery.net/rum.js:34
+[   28706ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://edgezone-gu.bunnyinfra.net/500b.jpg?s=1780868653664:0
+[   54985ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://edgezone-gt.bunnyinfra.net/500b.jpg?s=1780868679952:0
+[   61484ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://edgezone-cy.bunnyinfra.net/500b.jpg?s=1780868686447:0
+[   73177ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://edgezone-eg.bunnyinfra.net/500b.jpg?s=1780868698145:0
+[   77025ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://edgezone-ssa.bunnyinfra.net/500b.jpg?s=1780868701968:0
+[   77602ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://edgezone-ph.bunnyinfra.net/500b.jpg?s=1780868702544:0
+[   94281ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://edgezone-brb.bunnyinfra.net/500b.jpg?s=1780868719184:0
+[  187911ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://edgezone-mi2.bunnyinfra.net/500b.jpg?s=1780868805440:0

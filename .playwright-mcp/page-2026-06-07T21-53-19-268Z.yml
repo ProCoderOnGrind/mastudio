@@ -1,0 +1,2833 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - img
+  - generic:
+    - checkbox
+    - generic [ref=e2] [cursor=pointer]:
+      - img
+    - navigation:
+      - link "Projects":
+        - /url: /
+      - link "News":
+        - /url: /news
+      - link "About":
+        - /url: /about
+      - link "Sustainability":
+        - /url: /sustainability
+      - link "People":
+        - /url: /people
+      - link "Careers":
+        - /url: /careers
+      - generic: Contact
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic:
+        - link "Partners" [ref=e5] [cursor=pointer]:
+          - /url: "#partners"
+        - link "Associates/Directors" [ref=e6] [cursor=pointer]:
+          - /url: "#associates"
+        - link "BIG Copenhagen" [ref=e7] [cursor=pointer]:
+          - /url: "#copenhagen"
+        - link "BIG Barcelona" [ref=e8] [cursor=pointer]:
+          - /url: "#barcelona"
+        - link "BIG London" [ref=e9] [cursor=pointer]:
+          - /url: "#london"
+        - link "BIG New York" [ref=e10] [cursor=pointer]:
+          - /url: "#newyork"
+        - link "BIG Shanghai" [ref=e11] [cursor=pointer]:
+          - /url: "#shanghai"
+        - link "BIG Los Angeles" [ref=e12] [cursor=pointer]:
+          - /url: "#losangeles"
+        - link "BIG Zürich" [ref=e13] [cursor=pointer]:
+          - /url: "#zurich"
+        - link "BIG Bhutan" [ref=e14] [cursor=pointer]:
+          - /url: "#bhutan"
+      - generic [ref=e15]:
+        - heading "People" [level=1] [ref=e16]
+        - generic [ref=e17]:
+          - heading "Partners" [level=3] [ref=e18]
+          - generic [ref=e20]:
+            - radio
+            - generic [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]:
+                - generic [ref=e23]: +
+                - text: Bjarke Ingels
+              - generic [ref=e24]: Founder
+            - paragraph [ref=e25]: Bjarke Ingels is the founder of BIG. His work is driven by the belief that architecture can be a tool for turning fiction into fact - merging pragmatic solutions with utopian possibilities. Since founding BIG in 2005, Ingels has led projects that redefine typologies and challenge conventional constraints. From the figure-eight loop of 8 House in Copenhagen, to the hybrid pyramid-courtyard of VIA 57 West in Manhattan, to the skiable waste-to-energy plant CopenHill, his work proposes that sustainable cities can not only be better for the environment, but also more enjoyable to live in. BIG’s portfolio includes global collaborations with companies like Google, LEGO, and Toyota, as well as public projects such as the Smithsonian Master Plan, the Prague Philharmonic - a cultural landmark for music in motion - and Zurich Airport, the world’s largest timber building, redefining both scale and sustainability in aviation architecture. Across all scales, Ingels advocates for hedonistic sustainability, an approach where ecological responsibility and human enjoyment are not at odds, but mutually reinforcing. He has taught at Harvard, Yale, and Columbia, and is the author of Yes Is More, a graphic monograph on BIG’s design philosophy. His recognitions include the Knight’s Cross of the Order of the Dannebrog (Denmark), Chevalier de l’Ordre des Arts et des Lettres (France), the French National Grand Prix for Architecture (Grande Médaille d’Or), the Golden Lion at the Venice Biennale, the Louis I. Kahn Award, and the Aga Khan Award for Architecture, as well as being named one of TIME’s 100 Most Influential People.
+          - generic [ref=e27]:
+            - radio
+            - generic [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]:
+                - generic [ref=e30]: +
+                - text: Sheela Maini Søgaard
+              - generic [ref=e31]: CEO, Partner, CPH
+            - paragraph [ref=e32]: Sheela Maini Søgaard is Chief Executive Officer and Partner at BIG. She manages the health and growth of Bjarke Ingels Group’s studio offices globally along with its internationally represented team of 800+ designers and staff. Since joining BIG in 2008 as Chief Financial Officer, overseeing the development of the organization and its strategic priorities, Sheela has transformed BIG from Bjarke Ingels’ Danish architectural firm into an internationally acclaimed company led by design, community and innovation. Sheela’s professional experiences prior to BIG include leading business development for Danish culinary entrepreneur and noma co-founder Claus Meyer, market management and product development at GN Resound, and consultancy at McKinsey & Company. Sheela complements her professional work by serving as board member of The Bikuben Foundation and Adjunct Professor with Copenhagen Business School. In 2022, the Danish Association of Managers and Executives honored Sheela with the title of CEO of the Year; in 2019, Fast Company named Sheela on the Most Creative People in Business list; and in 2017, Danish media Berlingske Business featured her as one of the Top 100 Female Executives in Denmark.
+          - generic [ref=e34]:
+            - radio
+            - generic [ref=e35] [cursor=pointer]:
+              - generic [ref=e36]:
+                - generic [ref=e37]: +
+                - text: Agustin Perez-Torres
+              - generic [ref=e38]: Partner, BCN
+            - paragraph [ref=e39]: Agustin Perez-Torres is a Partner at BIG, leading work throughout North America and South America. His range of design interests and expertise varies from architecture and interiors to urban master planning, which are all rooted in his design approach of placemaking, elevating community, celebrating culture and innovation. Agustin has led the development of the Cultural District of Miraya in Saudi Arabia, a future forward place that will redefine the possibilities for art and culture for international artisans and travelers; Vancouver House in Canada, a residential project that has attracted international attention for its environmentally conscious design, innovation and beauty; and other experiences in Europe, the Middle East and Asia. Previously, Agustin worked for OMA, where he designed the Taipei Performing Arts Center in Taiwan and the Fondaco dei Tedeschi in Venice. In addition to his design work, he also has experience as an architectural journalist and has assisted with the organization of architectural exhibitions.
+          - generic [ref=e41]:
+            - radio
+            - generic [ref=e42] [cursor=pointer]:
+              - generic [ref=e43]:
+                - generic [ref=e44]: +
+                - text: Alexandru Malaescu
+              - generic [ref=e45]: Partner, LON
+            - paragraph [ref=e46]: Alexandru joined BIG in 2018 as a Senior Urban Designer and was made a Partner in 2024. Alexandru is the Head of Urban Design for the London Studio and has extensive experience with Urban Design and Masterplanning projects across the UK and Middle East. He has led or helped lead a variety of work for many types of clients in varied locations, from remote resort islands, to temporary global expositions, to entirely new cities and urban regenerations. Among his current projects, he is creating a 60km2 mixed-use community focussed on a man-made geographic feature in a major Middle Eastern City, a sensitive urban regeneration scheme that knits together pieces of a fragmented historic neighbourhood with sensitive new interventions to create a viable and future-proofed district for the local community, and a new island-based urban centre on the coast of a city along the Persian Gulf. He also has led our multi-year involvement for Oxagon, NEOM’s new industrial port and city on the west coast of Saudi Arabia. Alexandru received his MA in Landscape Urbanism from Kingston University, Faculty of Art, Design and Architecture, London and his MSc in Urban Design and March and BA in Architecture from the Polytechnic University, Faculty of Architecture, Timisoara, Romania. He is currently a Teaching Fellow at The Bartlett School of Architecture at University College London.
+          - generic [ref=e48]:
+            - radio
+            - generic [ref=e49] [cursor=pointer]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: +
+                - text: Andreas Klok Pedersen
+              - generic [ref=e52]: Sr. Partner, LON
+            - paragraph [ref=e53]: Andreas is the Design Director of BIG London and a member of the practice’s global Board of Directors. He has worked with us since our founding and led projects of all typologies and sizes in locations around the world, with a focus on Europe and the Middle East. Key recent work includes Google’s new UK Headquarters, which is now in the final stages of construction in Central London, Ocean House, a luxury residential development on the Palm in Dubai, Saadiyat Island Cultural Masterplan and a variety of related assets in the museum district of Abu Dhabi, and the new Chedi Wadi Safar Hotel, a contextually-sensitive boutique resort in Riyadh. In Amsterdam, he completed the riverside Sluishuis residential development, where residents can access their homes by car, foot or boat, and in Denmark the Aarhus Harbour Masterplan, a mixed-use redevelopment of a disused industrial site featuring housing, a hotel, a theatre, public spaces and harbour bath. He has also been responsible for the Qiddiya Master Plan, an entertainment-focused city for 600,000 people west of the Saudi Arabian capital, MÉCA, a sculpted cultural centre in France, and the 220-meter-tall and environmentally responsive Shenzhen Energy Mansion Headquarters in China. Andreas has spearheaded many of BIG’s strategic planning projects with a focus on sustainability, including Plan for the Planet, our ongoing research program to create a blueprint for a carbon-neutral planet, as well as Loop City and Mars Science City. In addition to his architectural and master planning work, Andreas lectures internationally on the practice’s current research and projects. He has also taught at the Danish Academy of Fine Arts in Copenhagen, the AHO School of Architecture in Oslo, and served as Studio Director at the Strelka Institute for Architecture and Urbanism in Moscow.
+          - generic [ref=e55]:
+            - radio
+            - generic [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]:
+                - generic [ref=e58]: +
+                - text: Andy Young
+              - generic [ref=e59]: Partner, LON
+            - paragraph [ref=e60]: Andy joined BIG in 2016 as Technical Director of the London office and has been a Partner since 2021. He has over 35 years of experience in the design and construction of large-scale projects, with a particular focus on the UK, Europe and the Middle East. Andy has led some of BIG’s most prominent projects, including East Side Tower in Berlin and all BIG’s London projects. These include Google’s new UK Headquarters in Kings Cross, 120 Fleet Street, Red Lion Court and Canada Water Dockside. More recently, his responsibilities include hospitality projects in Saudi Arabia and the competition-winning Kosovo Opera and Ballet Theatre in Pristina. He continues to oversee the technical design and delivery of all London Studio projects, including the Citywave project in Milan; and leads professional development programmes for London staff. Prior to joining BIG, Andy spent two decades at Rogers Stirk Harbour & Partners. He led many high-profile projects, including The Leadenhall Building in the City of London (AKA ‘The Cheesegrater’). Andy is a UK Registered Architect and a Member of the RIBA. He received his Diploma in Architecture and ARB registration from The University of Westminster in 1993 whilst working at Michael Hopkins & Partners.
+          - generic [ref=e62]:
+            - radio
+            - generic [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]:
+                - generic [ref=e65]: +
+                - text: Beat Schenk
+              - generic [ref=e66]: Partner, NYC
+            - paragraph [ref=e67]: Beat Schenk is a Partner bringing 35+ years of professional expertise of architectural detailing, conceptual technical analysis, code, zoning, work plans, project scheduling, building systems research, construction administration, and life safety and accessibility compliance reviews to all phases of a project. Beat’s experience in North America, Europe and the Middle East includes an array of typologies, such as healthcare, educational, commercial, residential, cultural and science projects. Beat has led numerous high-profile projects, including the East Side Coastal Resiliency Project (BIG U) and VIA 57 West residential tower in New York; Telus Sky residential tower in Calgary; and Vancouver House. Prior to his current role at BIG, he worked for various architecture firms on healthcare, educational and cultural projects around the globe.
+          - generic [ref=e69]:
+            - radio
+            - generic [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]:
+                - generic [ref=e72]: +
+                - text: Brian Yang
+              - generic [ref=e73]: Partner, CPH
+            - paragraph [ref=e74]: Brian Yang joined BIG in 2007 and was named Partner in 2015. He has worked closely with Bjarke Ingels on a wide range of projects such as an energy efficient skyscraper completed in 2017 in Shenzhen, the 8 House - a new typology of residential building completed in 2010 in Copenhagen. He has been the Project Leader on a number of competition winning proposals, including the Amager Bakke / Copenhill waste-to-energy plant in Copenhagen that doubles as a ski slope, Kistefos Art Museum completed in 2019 in Oslo that bridges cross a river, and the LEGO House, which opened its doors to critical acclaim in 2017. Most recently, he has been the partner-in-charge for a 280m tall mixed-use tower in the heart of Singapore that completed in 2022, and a winning scheme of Vltava Philharmonic Prague. With a background in energy efficiency research as well as undergraduate studies in economics, Brian brings additional focus on environmental and economic sustainability into all of his projects. Prior to joining BIG, Brian worked at a number of practices internationally, and while at Harvard University’s Graduate School of Design, led a project team for a pavilion exhibited at the 2009 Gwangju Design Biennale in South Korea.
+          - generic [ref=e76]:
+            - radio
+            - generic [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]:
+                - generic [ref=e79]: +
+                - text: Catherine Huang
+              - generic [ref=e80]: Partner, CPH
+            - paragraph [ref=e81]: Catherine Huang joined BIG in 2007 and became partner in 2017. She has worked closely with Bjarke Ingels across a wide range of projects and typologies such as the Danish Pavilion for the 2010 Shanghai Expo, an energy efficient skyscraper currently completed in Shenzhen, a low energy masterplan in Toronto, and residential projects such as Dortheavej 2 in Copenhagen and 79 & PARK in Stockholm, that enhance the urban fabric by creating shared social spaces as a byproduct of the design. She was the Design Leader for Hualien Residences, a residential masterplan in Taiwan that seeks to blur the line between natural landscape and the built environment. At the moment Cat is the Partner in Charge for the Suzhou Art Museum in Suzhou, China. Prior to joining BIG, she drew on undergraduate degree in molecular biology during her time at Harvard University’s Graduate School of Design to conduct research into new models of sustainability for the urban realm.
+          - generic [ref=e83]:
+            - radio
+            - generic [ref=e84] [cursor=pointer]:
+              - generic [ref=e85]:
+                - generic [ref=e86]: +
+                - text: Daniel Sundlin
+              - generic [ref=e87]: Partner, NYC
+            - paragraph [ref=e88]: Daniel Sundlin’s approach to design is anchored in holistic thinking around the synergies of community, economy, ecology and sustainability. His array of design interests and expertise varies in scale from product design, interiors and architecture to master planning. Daniel began working at BIG Copenhagen in 2008, and in 2010 he opened BIG’s first office outside of Denmark with the establishment of BIG New York. Daniel is a Partner at BIG and has worked on The Heights Public School in Arlington, Virginia; VIA 57 West residential building in Manhattan; Wildflower Film Studios in New York City; and the sustainable Google Bay View campus in California. Daniel’s work expands to the urban scale with the East Side Coastal Resiliency project (the BIG U), a master plan to protect 10 miles of Manhattan’s coastline. His urban design projects span the globe, including Penang South Islands in Malaysia and OCEANIX Busan, a sustainable floating city prototype in collaboration with the United Nations. Daniel complements his professional work with involvement in academia as a guest critic with various universities and an instructor at New York Institute of Technology.
+          - generic [ref=e90]:
+            - radio
+            - generic [ref=e91] [cursor=pointer]:
+              - generic [ref=e92]:
+                - generic [ref=e93]: +
+                - text: Daria Stark
+              - generic [ref=e94]: Partner, NYC
+            - paragraph [ref=e95]: Daria Pahhota is the Managing Director of the BIG New York City office and became a Partner at BIG in 2021. In her role, Daria leads the office’s general management and operations, as well as studio vision and alignment for all business operations, including business development, human resources, staffing, community and legal coordination. She supports the development and promotion of the firm’s values and long-term goals alongside BIG’s international community, strengthening global coherence and working closely with project managers, managing directors and BIG Partners. Daria first joined BIG in 2008 and previously led all of the firm’s internal and external communication efforts at the strategic, tactical and operational levels. She brings over 15 years of experience in corporate communications, project management, media relations, branding and events to BIG. Through her work supporting BIG and our clients, the firm has seen tremendous growth in press and media coverage as well as a broader recognition and awareness of the company and brand, product and people. During Daria’s two years as the Global Communications Leader at Skidmore, Owings and Merrill, she oversaw a 20+ person PR team and worked on the roll-out for the National Museum of the U.S. Army and launch of the Moynihan Train Hall - one of the most monumental civic projects undertaken in New York City in a generation. Daria is also a board member at Madame Architect, a digital magazine and media start-up celebrating women in the AEC industry.
+          - generic [ref=e97]:
+            - radio
+            - generic [ref=e98] [cursor=pointer]:
+              - generic [ref=e99]:
+                - generic [ref=e100]: +
+                - text: David Zahle
+              - generic [ref=e101]: Partner, CPH
+            - paragraph [ref=e102]: David Zahle is a Partner at BIG and has been Project and Design Architect for many of BIG’s award-winning and built projects. Since BIG inception in 2006, David Zahle has been responsible for delivering imaginative and pioneering designs for buildings such as Copenhill, a waste-to energy plant with a ski slope on the roof, The Maritime Museum, The Twist Museum and the sustainable Vestre factory. His focus is predominately on culture projects and sustainability, but he has also been responsible for a wide range of residential and commercial buildings. His award-winning projects range from concert houses, museums, housing, hotels, offices, factories, to landscape. He has been responsible for projects in all scales from private houses, to public squares, over large scale projects of more than 100.000m2 to masterplans for millions of m2. Through thorough analysis David challenges conventional perspectives of what a building can be in itself and for the city around it. He is dedicated to creating a more equitable future through good design. David is an experienced speaker and is invited to give lectures all over the world.
+          - generic [ref=e104]:
+            - radio
+            - generic [ref=e105] [cursor=pointer]:
+              - generic [ref=e106]:
+                - generic [ref=e107]: +
+                - text: Finn Nørkjær
+              - generic [ref=e108]: Partner, CPH
+            - paragraph [ref=e109]: "Finn Nørkjær is a Partner at BIG and has collaborated with Bjarke Ingels since he won the competition on his very first project for the Copenhagen Harbour Bath in 2001. Finn has been instrumental in translating Bjarke’s visionary architecture into buildable projects; his thorough attention to detail and ability to work within a given budget has ensured the success of BIG’s built work: the award-winning LEGO House, Tirpitz Museum, and Gammel Hellerup School multi-purpose hall. Some of his latest completed projects include the 4-times named best restaurant of the world noma 2.0 in Copenhagen, Glasir - Torshavns new College, and residential projects; 79&Park in Stockholm, Dortheavej 2 in Copenhagen and NYE in Aarhus. Finn was also Partner-in-Charge of Bassin 7, a masterplan at the Aarhus harbor, where BIG was in charge of 2 residential developments and a hotel and SPA. Finn was the Partner-in-Charge of BIG’s new Headquarter in Copenhagen."
+          - generic [ref=e111]:
+            - radio
+            - generic [ref=e112] [cursor=pointer]:
+              - generic [ref=e113]:
+                - generic [ref=e114]: +
+                - text: Frederik Lyng
+              - generic [ref=e115]: Partner, CPH
+            - paragraph [ref=e116]: Frederik Lyng joined BIG in 2008 and was named Partner in 2024. He has been leading numerous projects from the competitions, sketch proposals to realization phase from small scale design to large scale development, with a particular focus on projects in Denmark and Scandinavia. Frederik has worked as the design lead for the award-winning Gammel Hellerup School, completed 2013 and the Education Center, Glasir, in the Faroe Islands. Glasir brings together the high school, technical school and business school in Tórshavn, creating a lively and social meeting point for the young people of Faeroe Island. With experience in both small scale design and large scale concept development, Frederik brings great versatility and proficient problem solving skills to any project team. Besides his experience with education projects, Frederik lead the design of the new home of Noma, one of the top restaurants in the world, and cultural projects like Then Twist - Kistefos Museum in Norway, Tirpitz Museum, a 2.500 M2 museum by a bunker from WWII in Western Denmark and The Danish Refugee Museum in Oxbøll. Frederik was Project Lead at BIGs new Headquarters in Nordhavn.
+          - generic [ref=e118]:
+            - radio
+            - generic [ref=e119] [cursor=pointer]:
+              - generic [ref=e120]:
+                - generic [ref=e121]: +
+                - text: Giulia Frittoli
+              - generic [ref=e122]: Partner, CPH
+            - paragraph [ref=e123]: Named BIG Landscape Partner in 2021, Giulia is an instrumental leader within BIG Landscape. Giulia moved to BIG Copenhagen in 2020 after three years at BIG NYC. She is a Senior Landscape Architect with a multi-disciplinary background in urban design, architecture and landscape architecture. Giulia led the proposal for Toyota Woven City, investigating how recent technologies will shape the future of cities in regard to new forms of mobility, sustainability, ecology and human connectivity. Since joined BIG in 2017, Giulia has been leading the BIG landscape team working on various projects that transcends traditional disciplinary boundaries by weaving together building and landscape, planning and programming, indoor and outdoor, public and private, to generate unforeseen typologies and synergies between the built and the grown. Prior to BIG, she worked for four years as a Landscape Designer and Urban Planner for the Dutch firm West 8. She has extensive experience in resilient master-planning and public space design at various scales. Giulia has led the design of the Duke University Sculpture Park, as well as the Concept Masterplan for Gulangyu Island in China, which contributed to the site being named a World UNESCO Heritage site. Giulia received her Masters Degree with honors from the Polytechnic University of Milan.
+          - generic [ref=e125]:
+            - radio
+            - generic [ref=e126] [cursor=pointer]:
+              - generic [ref=e127]:
+                - generic [ref=e128]: +
+                - text: Hanna Ida Johansson
+              - generic [ref=e129]: Partner, BCN
+            - paragraph [ref=e130]: Hanna joined BIG Copenhagen in 2008 and, in 2019, relocated to establish BIG in Barcelona. Hanna is a Partner at BIG and has led some of BIG’s most prominent projects in both the Copenhagen and Barcelona offices, including the award-winning Biosphere, a hospitality experience in northern Sweden, Copenhagen Harbour Bath, and Tirpitz Museum. Her sharp eye for crafting high-quality architectural concepts has been instrumental in securing numerous competition wins, including the Gastronomy Open Ecosystem in San Sebastián, the European Commission’s Joint Research Center in Sevilla, Spain, the Hungarian Natural History Museum in Hungary, and the Fuse Valley & Farfetch headquarters in Portugal. Currently, Hanna is overseeing the construction of the residential development Ellinikon Park Rise in Athens, Greece, the design of the beach club The Drop in Riva, Turkey, and a high-end residential development and hotels in the Middle East. Hanna Johansson’s approach to architecture is rooted in a holistic thinking, integrating community, culture, economy, and sustainability into her work. Her diverse expertise spans scales and programs, from interiors and architecture to master planning, encompassing residential developments, hospitality, office campuses, educational facilities, and cultural institutions. Hanna confidently balances her expertise in planning, concept development, and construction documentation at BIG.
+          - generic [ref=e132]:
+            - radio
+            - generic [ref=e133] [cursor=pointer]:
+              - generic [ref=e134]:
+                - generic [ref=e135]: +
+                - text: Henriette Helstrup
+              - generic [ref=e136]: Managing Director & Partner, LON
+            - paragraph [ref=e137]: Henriette joined BIG in 2018 as Operations Director and is now a Partner and the Managing Director of BIG’s London office. Since joining, she has been instrumental in the exceptional growth and profitability of the London office and has been actively involved in the decision making and development of all UK, Europe and Middle East related projects. She has over 20 years’ experience within architectural practice from both a design and a management perspective. With a more recent focus on finance and profitability, including fee bidding, contract negotiation, resource and client management from one-off residential commissions to major cultural, leisure and commercial contracts. Henriette was previously the Managing Director at Studio Seilern Architects where she turned a loss-making practice into a profitable one. Prior to this, Henriette was Commercial Director of David Chipperfield Architects, where she was in charge of all aspects of commercial viability and internal management of many prestigious projects.
+          - generic [ref=e139]:
+            - radio
+            - generic [ref=e140] [cursor=pointer]:
+              - generic [ref=e141]:
+                - generic [ref=e142]: +
+                - text: Jakob Lange
+              - generic [ref=e143]: Partner, CPH
+            - paragraph [ref=e144]: Jakob Lange joined BIG in 2003 and was named Partner in 2009. Jakob has been instrumental in many of BIG’s most high-profile buildings and technology projects. He successfully led the design and development of Copenhill, an innovative waste-to-energy plant in Copenhagen that doubles as a ski slope; The Mountain, an architectural alchemy of residential and parking in Copenhagen; and Urban Rigger, a floating student housing building at the Copenhagen Harbor. Jakob also heads BIG Products, BIG’s product design division, and collaborates with industry-leading companies to create product designs that utilize sustainable materials and advanced production methods, including customized furniture, lighting and innovative building systems to support the studio’s work from the small details to the BIG picture. Working on various project scales, Jakob jointly created the Alphabet of Light, the Vine light, and the Stellar Nebula lamp with long-time collaborator Artemide as well as led the design of Hyperloop’s Pegasus pods with Virgin Hyperloop and its transportation hub in Dubai, defining an entirely new sustainable transportation typology. In 2018, he further completed a 25-meter-diameter inflatable mirrored sphere installation, The Orb, for the annual Burning Man temporary city in the US. and is currently in charge of creating a 3D-printed infrastructure for living on the Moon with NASA.
+          - generic [ref=e146]:
+            - radio
+            - generic [ref=e147] [cursor=pointer]:
+              - generic [ref=e148]:
+                - generic [ref=e149]: +
+                - text: Jakob Sand
+              - generic [ref=e150]: Partner, CPH
+            - paragraph [ref=e151]: Jakob Sand joined BIG in 2011 and has since played a central role across the entire project lifecycle, from early concept to built reality. As Partner-in-Charge, he has led and won numerous international competitions, with a strong footprint across Europe and a particular focus on France, Germany, Luxembourg, and Switzerland. Drawing on many years of professional experience in both Paris and Copenhagen, Jakob brings a deep, hands-on understanding of European culture, context, and building practice. He has been instrumental in delivering a series of award-winning landmark projects, including the MÉCA Cultural Center in Bordeaux, the transformation of the Galeries Lafayette flagship store on the Avenue des Champs-Élysées, and the Cité de l’Innovation at Sorbonne University, also in Paris. His portfolio spans an exceptional range of scales and typologies - from cultural and educational projects to complex infrastructure and major mixed-use developments, as well as transformations - such as the Pont de Bondy metro station, The Circle (a transformative tower project along the Seine river), the Marengo Multimodal Transport Hub in Toulouse, and the New Hamburg Opera.
+          - generic [ref=e153]:
+            - radio
+            - generic [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]:
+                - generic [ref=e156]: +
+                - text: João Albuquerque
+              - generic [ref=e157]: Partner, BCN
+            - paragraph [ref=e158]: "João Albuquerque began his BIGster journey at BIG Copenhagen in 2008, eventually moving to Barcelona in 2019 to support the establishment of a strong foundation for BIG Barcelona. In 2019, he became the Design Director of the Barcelona office and in 2021 was named Partner. Today, João leads projects across Southern Europe, Middle East, India, and South America, such as the European Commission’s Joint Research Centre in Seville, in Spain, and the Dubai Masterplan in UAE. João thrives within BIG’s collaborative and creative environment, where he regularly leads design teams from early competitions through the Schematic Design and Design Development phases. His work is distinguished by a sharp focus on the intersection of architecture and computational technologies, exploring programming, parametrics, and digital fabrication as tools for innovation. This approach allows him to operate seamlessly across scales - from conceptual design and spatial strategies to technical detailing, fabrication, and construction - ensuring that each project carries forward both BIG’s design vision and its commitment to innovation. João’s experience spans a wide range of typologies: high-rise projects including the completed Shenzhen Energy Mansion in China; education projects such as the Gastronomy Open Ecosystem in San Sebastián, Spain; cultural landmarks such as the Adelaide Contemporary Gallery and the Museum of Fine Arts in Bilbao; and large-scale masterplans such as Europa City in Paris and the winning cultural neighborhoods for Qiddya and South Korea; as well as speculative research, including BIG’s vision for a new architectural vernacular for future life on Mars. João completed his Master of Architecture at the University of Sciences and Technology of Coimbra, in Portugal and achieved a post-graduate MAA degree from IAAC in Barcelona, having his thesis project being exhibited at the 2011 Beijing Biennale and the Museu del Disseny of Barcelona."
+          - generic [ref=e160]:
+            - radio
+            - generic [ref=e161] [cursor=pointer]:
+              - generic [ref=e162]:
+                - generic [ref=e163]: +
+                - text: Kai-Uwe Bergmann
+              - generic [ref=e164]: Partner, NYC
+            - paragraph [ref=e165]: Kai-Uwe Bergmann is a Partner globally at BIG, bringing his expertise to proposals around the world, including work in North America, South America, Europe, Asia and the Middle East. Working out of the New York office, Kai-Uwe coordinates with BIG’s five international offices, helping lead work in over 40 different countries. Licensed as an architect in the U.S. (16 states) and Canada (one province), Kai-Uwe most recently contributed to the East Side Coastal Resiliency Project (the BIG U), a resiliency plan that will protect 10 miles of Manhattan’s coastline. Additionally, his work expands to the exhibition and publication of BIG’s literary portfolio by way of Hot to Cold, Yes Is More, Formgiving, and the newest Culture book. He complements his professional work through teaching assignments at Pratt Institute and Georgia Tech. Kai-Uwe is also an AIA Fellow and past board member of the Van Alen Institute, and participates on numerous international juries and in lectures globally on the works of BIG.
+          - generic [ref=e167]:
+            - radio
+            - generic [ref=e168] [cursor=pointer]:
+              - generic [ref=e169]:
+                - generic [ref=e170]: +
+                - text: Leon Rost
+              - generic [ref=e171]: Partner, LAX
+            - paragraph [ref=e172]: Leon Rost is a Partner at Bjarke Ingels Group (BIG) and leads the Los Angeles office, overseeing projects that span large-scale masterplans, workplaces, higher education, and residential design. He oversaw the design of 3 million square feet within Google’s next-generation campus—home to Google Gemini—reimagining the Silicon Valley workplace as a flexible, sustainable, and human-centered environment. He also played a key role in the Athletics Ballpark Masterplan, shaping a vision for an integrated sports district. Additionally, Leon led the visioning of Toyota’s Woven City, a prototype smart city exploring the future of mobility, robotics, and urban life. His expertise in institutional and campus planning includes work on the UC San Diego and Claremont McKenna College campuses, integrating architecture with campus design. His leadership on the Johns Hopkins University Student Center, the university’s first mass timber structure, has shaped a dynamic hub for academic and social life. Beyond large-scale projects, Leon has a strong focus on residential and hospitality design. His work on private homes along the Pacific Coast and Not A Hotel in Setouchi, Japan, creates bespoke spaces deeply connected to their surroundings. Leon’s projects shape how people live, learn, work, and gather, from urban-scale developments to private homes.
+          - generic [ref=e174]:
+            - radio
+            - generic [ref=e175] [cursor=pointer]:
+              - generic [ref=e176]:
+                - generic [ref=e177]: +
+                - text: Lorenzo Boddi
+              - generic [ref=e178]: Partner, LON
+            - paragraph [ref=e179]: Lorenzo joined BIG in 2012 and was made a Partner in 2021. He has been a part of some of the practice’s most important and widely-recognised projects, including Lego House in Denmark, MÉCA cultural arts centre in France and the Omniturm residential and office tower in Germany. In the London studio, he has helped lead the recently completed Edge East Side tower in Berlin, which stands as the city’s tallest inhabitable structure, Google’s new UK Headquarters in Kings Cross, London, and our CityWave project, a curving mixed-use gateway scheme now under construction in Milan. Alongside these, Lorenzo has regularly led our designs for high-profile competitions. Among his recent successes include two new urban regeneration schemes in Saudi Arabia that sensitively integrate existing assets with new development parcels, a floating industrial-focussed port city in the Middle East, and a new cultural and performing arts centre in the GCC. Lorenzo received his Master of Architecture from the University of Florence, Italy, where he complemented his studies with teaching positions in Architectural Design.
+          - generic [ref=e181]:
+            - radio
+            - generic [ref=e182] [cursor=pointer]:
+              - generic [ref=e183]:
+                - generic [ref=e184]: +
+                - text: Martin Voelkle
+              - generic [ref=e185]: Partner, SHA
+            - paragraph [ref=e186]: Martin Voelkle is a Partner at BIG who focuses on architecture, sustainable construction and technology. Martin has been leading BIG’s collaboration with ICON Build, a developer of advanced construction technologies, including 3D-printed buildings, which are produced with less waste and in a more expedited manner than typical construction methods. Collaborations with ICON have included affordable housing communities, market rate residential, hospitality and event spaces, and NASA’s Project Olympus - a research base that will be the first lunar surface construction on another planetary body. Martin is also leading BIG’s transportation portfolio with the Zurich International Airport Dock A in Switzerland - a design that celebrates the passenger experience and ease of movement by way of its flexible framework constructed of renewable timber, the largest of its kind - and the Brooklyn-Queens Expressway Central, a reconsideration of the BQE transit corridor through Brooklyn with a focus on accessibility, integration with growing neighborhoods and an incorporated public realm. Martin’s work varies from cultural and infrastructural to residential and commercial, including the Shenzhen Energy Mansion HQ in China; Gowanus active community hub and residence in New York; and the Qianhai Prisma Towers in Shenzhen, China, designed to be a landmark gateway integrated thoughtfully with the existing skyline and public realm. Martin’s design interest and expertise expands to the urban scale with the development of King’s Cross Google HQ in London and Telosa, the vision for a new city in America that sets a global standard for urban planning, expands human potential and becomes a blueprint for future generations and future urban environments. Martin began working at BIG Copenhagen in 2010; he helped build the BIG New York office in 2012; and in 2016 he led the enterprise of BIG’s London office before returning to BIG New York, where he is currently based.
+          - generic [ref=e188]:
+            - radio
+            - generic [ref=e189] [cursor=pointer]:
+              - generic [ref=e190]:
+                - generic [ref=e191]: +
+                - text: Ole Elkjær-Larsen
+              - generic [ref=e192]: Partner, CPH
+            - paragraph [ref=e193]: Ole Elkjær-Larsen joined BIG in 2003 and became partner in 2017. Ole has vast experience in project management and controlling of both large and small scale projects. Ole’s experience in developing holistic solutions enables him to transform BIG’s visual architecture into built projects. Ole has been key for the completion of BIG’s initial projects such as the Gammel Hellerup School multi-use hall and academic building completed in 2014, as well as for the award winning 8 House in Ørestad, which he followed through to it’s completion in 2010. With a significant role, Ole supervised the completion of the re-programming and extension of a former warehouse in Basel, completed in 2016, and most recently the Tirpitz Museum that transforms and expands a German WWII bunker fortification into a ground breaking cultural complex, the Michelin restaurant noma 2.0 at Christiania in Copenhagen, and the Faroe Islands Educational Centre in Torshavn, that welcomed the first students in 2018.
+          - generic [ref=e195]:
+            - radio
+            - generic [ref=e196] [cursor=pointer]:
+              - generic [ref=e197]:
+                - generic [ref=e198]: +
+                - text: Sören Grünert
+              - generic [ref=e199]: Partner, ZRH
+            - paragraph [ref=e200]: Sören Grünert joined BIG in 2010 and is currently a Partner is the Zurich office. In 2015, he was named an Associate. Prior to joining BIG Sören worked as a project architect at GMP International in Beijing and NL Architects in Amsterdam where he managed a wide range of international architectural and research projects. Sören holds a Diploma of Engineering in Architecture from the Technical University of Dresden. He brings extensive experience with building design and urban scale projects, including both concepts and research, to BIG. Sören has been team leader for key projects in America, like VIA 57 West, Rose Rock International Financial Center, and the Hyperloop station and pod design. He also led a number of projects from concept to completion, like 1200 Intrepid, the Honeycomb, and the Sanctuary.
+          - generic [ref=e202]:
+            - radio
+            - generic [ref=e203] [cursor=pointer]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: +
+                - text: Thomas Christoffersen
+              - generic [ref=e206]: Partner, NYC
+            - paragraph [ref=e207]: Thomas Christoffersen is a Partner with more than 20 years of industry experience and a long history with BIG. Thomas’s global work varies in typology and project type, including the sustainable Google Bay View campus in California; IQON Residences in Quito, Ecuador; mixed-use towers Vancouver House and Telus Sky in Canada; The Honeycomb Residences in Nassau, Bahamas; and VIA 57 West in New York City. Thomas works with a range of clientele to help tell their brand’s unique story through architecture and design. Of his collaborations, he has worked on Musee Atelier Audemars Piguet in Switzerland; the San Pellegrino Flagship Factory in Bergamo, Italy; and The Spiral commercial tower in New York City with developer Tishman Speyer. Thomas’s focuses are built design, architecture, interiors, products and master planning. Thomas's work is also dedicated to the celebration of the public realm, seen through projects like the Smithsonian Institution Campus Masterplan in Washington D.C. and the Serpentine Pavilion in London. From his professional journey from a BIG Intern all the way to BIG Partner, Bjarke describes Thomas as “an old school architect with a capital A. He’s a great form giver and has an amazing ability to discern between what’s right and what’s wrong, tectonically.” In addition to being a Partner at BIG, Thomas is also a member of the Bjarke Ingels Group Board.
+        - generic [ref=e208]:
+          - heading "Associates/Directors" [level=3] [ref=e209]
+          - generic [ref=e210]:
+            - generic [ref=e211]: Agla Egilsdottir
+            - generic [ref=e212]: Associate, Director of Interiors
+          - generic [ref=e213]:
+            - generic [ref=e214]: Aileen Koh
+            - generic [ref=e215]: Associate, Senior Architect
+          - generic [ref=e216]:
+            - generic [ref=e217]: Aina Medina Girones
+            - generic [ref=e218]: Managing Director
+          - generic [ref=e219]:
+            - generic [ref=e220]: Alana Goldweit
+            - generic [ref=e221]: Associate, Director of Visioning & Business Development
+          - generic [ref=e222]:
+            - generic [ref=e223]: Amalia Vranaki
+            - generic [ref=e224]: Associate
+          - generic [ref=e225]:
+            - generic [ref=e226]: Amir Mikhaeil
+            - generic [ref=e227]: Associate, Senior Architect
+          - generic [ref=e228]:
+            - generic [ref=e229]: Aran Coakley
+            - generic [ref=e230]: Senior Architect, Associate
+          - generic [ref=e231]:
+            - generic [ref=e232]: Beatrice Melli
+            - generic [ref=e233]: Associate, Hospitality Design Director
+          - generic [ref=e234]:
+            - generic [ref=e235]: Ben Caldwell
+            - generic [ref=e236]: Director of Specifications
+          - generic [ref=e237]:
+            - generic [ref=e238]: Boni Yuen
+            - generic [ref=e239]: Associate
+          - generic [ref=e240]:
+            - generic [ref=e241]: Buster Christensen
+            - generic [ref=e242]: Associate, Senior Constructing Architect
+          - generic [ref=e243]:
+            - generic [ref=e244]: Carmen Simone
+            - generic [ref=e245]: Associate, Senior Landscape Architect
+          - generic [ref=e246]:
+            - generic [ref=e247]: Casey Tucker
+            - generic [ref=e248]: Associate, Senior Designer
+          - generic [ref=e249]:
+            - generic [ref=e250]: Chris Falla
+            - generic [ref=e251]: Associate
+          - generic [ref=e252]:
+            - generic [ref=e253]: Chris Tron
+            - generic [ref=e254]: Associate, Senior Architect
+          - generic [ref=e255]:
+            - generic [ref=e256]: Claire Thomas Spiller
+            - generic [ref=e257]: Associate
+          - generic [ref=e258]:
+            - generic [ref=e259]: Dace Gurecka
+            - generic [ref=e260]: Associate, Senior Landscape Architect & Urbanist
+          - generic [ref=e261]:
+            - generic [ref=e262]: David Beatty
+            - generic [ref=e263]: Associate General Counsel
+          - generic [ref=e264]:
+            - generic [ref=e265]: David Holbrook
+            - generic [ref=e266]: Associate, Senior Architect
+          - generic [ref=e267]:
+            - generic [ref=e268]: Derya Dogan
+            - generic [ref=e269]: Project Director
+          - generic [ref=e270]:
+            - generic [ref=e271]: Dominyka Voelkle
+            - generic [ref=e272]: Associate, Director of Delivery
+          - generic [ref=e273]:
+            - generic [ref=e274]: Eddie Can
+            - generic [ref=e275]: Associate, Senior Architect
+          - generic [ref=e276]:
+            - generic [ref=e277]: Elizabeth McDonald
+            - generic [ref=e278]: Associate, Business Strategy & Operations
+          - generic [ref=e279]:
+            - generic [ref=e280]: Flora Bao
+            - generic [ref=e281]: Associate, Project Manager
+          - generic [ref=e282]:
+            - generic [ref=e283]: Francisco Castellanos
+            - generic [ref=e284]: Associate, Senior Architect
+          - generic [ref=e285]:
+            - generic [ref=e286]: Frankie Sharpe
+            - generic [ref=e287]: Director of Sports
+          - generic [ref=e288]:
+            - generic [ref=e289]: Frederik Skou Jensen
+            - generic [ref=e290]: Associate, Senior Constructing Architect
+          - generic [ref=e291]:
+            - generic [ref=e292]: Gerhard Pfeiler
+            - generic [ref=e293]: Associate, Senior Architect
+          - generic [ref=e294]:
+            - generic [ref=e295]: German Otto Bodenbender
+            - generic [ref=e296]: Director of Design Technology
+          - generic [ref=e297]:
+            - generic [ref=e298]: Gianluigi D'Aloisio
+            - generic [ref=e299]: Associate
+          - generic [ref=e300]:
+            - generic [ref=e301]: Giulio Rigoni
+            - generic [ref=e302]: Associate, Senior Architect
+          - generic [ref=e303]:
+            - generic [ref=e304]: Gonzalo Vecchiola
+            - generic [ref=e305]: Associate, Senior Architect
+          - generic [ref=e306]:
+            - generic [ref=e307]: Heidi Pedersen
+            - generic [ref=e308]: Business Development Director, Nordics & DACH
+          - generic [ref=e309]:
+            - generic [ref=e310]: Hung Kai Liao
+            - generic [ref=e311]: Associate, Senior Architect
+          - generic [ref=e312]:
+            - generic [ref=e313]: Ioannis Gio
+            - generic [ref=e314]: Associate
+          - generic [ref=e315]:
+            - generic [ref=e316]: Isabel Silva
+            - generic [ref=e317]: Associate
+          - generic [ref=e318]:
+            - generic [ref=e319]: Jae Yoon Lee
+            - generic [ref=e320]: Associate, Senior Landscape Architect
+          - generic [ref=e321]:
+            - generic [ref=e322]: Jakob Henke
+            - generic [ref=e323]: Associate, Project Manager
+          - generic [ref=e324]:
+            - generic [ref=e325]: Jason Wu
+            - generic [ref=e326]: Associate
+          - generic [ref=e327]:
+            - generic [ref=e328]: Jelena Vucic
+            - generic [ref=e329]: Associate, Senior Architect
+          - generic [ref=e330]:
+            - generic [ref=e331]: Jeppe Langer
+            - generic [ref=e332]: Associate, Senior Architect
+          - generic [ref=e333]:
+            - generic [ref=e334]: Jeremy Siegel
+            - generic [ref=e335]: Associate, Director of Public Projects
+          - generic [ref=e336]:
+            - generic [ref=e337]: Jesper Boye Andersen
+            - generic [ref=e338]: Associate, Senior Constructing Architect
+          - generic [ref=e339]:
+            - generic [ref=e340]: Jinho Lee
+            - generic [ref=e341]: Associate, Senior Architect
+          - generic [ref=e342]:
+            - generic [ref=e343]: Jose Antonio Espinosa
+            - generic [ref=e344]: Project Director
+          - generic [ref=e345]:
+            - generic [ref=e346]: Jose Mestre
+            - generic [ref=e347]: Associate
+          - generic [ref=e348]:
+            - generic [ref=e349]: Julie Kaufman
+            - generic [ref=e350]: Associate
+          - generic [ref=e351]:
+            - generic [ref=e352]: Kamilla Heskje
+            - generic [ref=e353]: Associate, Senior Architect
+          - generic [ref=e354]:
+            - generic [ref=e355]: Karim Muallem
+            - generic [ref=e356]: Associate, Senior Architect
+          - generic [ref=e357]:
+            - generic [ref=e358]: Kekoa Charlot
+            - generic [ref=e359]: Associate, Senior Architect
+          - generic [ref=e360]:
+            - generic [ref=e361]: Kristian Palsmar
+            - generic [ref=e362]: Director of Technology
+          - generic [ref=e363]:
+            - generic [ref=e364]: Kristian Hindsberg
+            - generic [ref=e365]: Associate
+          - generic [ref=e366]:
+            - generic [ref=e367]: Kristian Palsmar
+            - generic [ref=e368]: Director of Technology
+          - generic [ref=e369]:
+            - generic [ref=e370]: Laura Font Gallart
+            - generic [ref=e371]: Director of Landscape
+          - generic [ref=e372]:
+            - generic [ref=e373]: Lauren Connell Falla
+            - generic [ref=e374]: Associate
+          - generic [ref=e375]:
+            - generic [ref=e376]: Laurent de Carnière
+            - generic [ref=e377]: Associate, Senior Architect
+          - generic [ref=e378]:
+            - generic [ref=e379]: Lawrence Olivier Mahadoo
+            - generic [ref=e380]: Associate, Senior Designer
+          - generic [ref=e381]:
+            - generic [ref=e382]: Linus Saavedra
+            - generic [ref=e383]: Associate, Senior Architect
+          - generic [ref=e384]:
+            - generic [ref=e385]: Lisa Gyldenløve Munk
+            - generic [ref=e386]: Office & Community Manager and Executive Assistant to the Managing Director
+          - generic [ref=e387]:
+            - generic [ref=e388]: Lisbet Fritze Trentemøller
+            - generic [ref=e389]: Associate, Senior Architect
+          - generic [ref=e390]:
+            - generic [ref=e391]: Luca Braccini
+            - generic [ref=e392]: Associate
+          - generic [ref=e393]:
+            - generic [ref=e394]: Luca Nicoletti
+            - generic [ref=e395]: Director of Project Commercials, BIG Landscape & Planning
+          - generic [ref=e396]:
+            - generic [ref=e397]: Lucian Tofan
+            - generic [ref=e398]: Associate
+          - generic [ref=e399]:
+            - generic [ref=e400]: Marco Antonio Maycotte
+            - generic [ref=e401]: Associate
+          - generic [ref=e402]:
+            - generic [ref=e403]: Margaret Tyrpa
+            - generic [ref=e404]: Associate, Director of Enclosures
+          - generic [ref=e405]:
+            - generic [ref=e406]: Marie Lançon
+            - generic [ref=e407]: Associate, Senior Architect
+          - generic [ref=e408]:
+            - generic [ref=e409]: Marina Cogliani
+            - generic [ref=e410]: Associate
+          - generic [ref=e411]:
+            - generic [ref=e412]: Marko Margeta
+            - generic [ref=e413]: Associate
+          - generic [ref=e414]:
+            - generic [ref=e415]: Martin Fröhlich
+            - generic [ref=e416]: Managing Director
+          - generic [ref=e417]:
+            - generic [ref=e418]: Matteo Pavanello
+            - generic [ref=e419]: Associate, Senior Architect
+          - generic [ref=e420]:
+            - generic [ref=e421]: Matthew Oravec
+            - generic [ref=e422]: Associate, Senior Architect
+          - generic [ref=e423]:
+            - generic [ref=e424]: Michelle Stromsta
+            - generic [ref=e425]: Associate
+          - generic [ref=e426]:
+            - generic [ref=e427]: Mike Yin
+            - generic [ref=e428]: Associate
+          - generic [ref=e429]:
+            - generic [ref=e430]: Mikkel Marcker Stubgaard
+            - generic [ref=e431]: Associate, Senior Architect
+          - generic [ref=e432]:
+            - generic [ref=e433]: Mireia Sala Font
+            - generic [ref=e434]: Associate, Senior Architect
+          - generic [ref=e435]:
+            - generic [ref=e436]: Molly Hsiao Rou Huang
+            - generic [ref=e437]: Associate, Senior Architect
+          - generic [ref=e438]:
+            - generic [ref=e439]: Nanna Gyldholm
+            - generic [ref=e440]: Associate, Senior Architect
+          - generic [ref=e441]:
+            - generic [ref=e442]: Nathan Smith
+            - generic [ref=e443]: Business Development Director
+          - generic [ref=e444]:
+            - generic [ref=e445]: Nathaniel Aaron Moore
+            - generic [ref=e446]: Director of Business Development
+          - generic [ref=e447]:
+            - generic [ref=e448]: Nicholas Reddon
+            - generic [ref=e449]: Associate, Senior Architect
+          - generic [ref=e450]:
+            - generic [ref=e451]: Otilia Pupezeanu
+            - generic [ref=e452]: Associate
+          - generic [ref=e453]:
+            - generic [ref=e454]: Pauline Lavie-Luong
+            - generic [ref=e455]: Associate, Director of Interiors
+          - generic [ref=e456]:
+            - generic [ref=e457]: Raphael Ciriani
+            - generic [ref=e458]: Associate, Senior Architect
+          - generic [ref=e459]:
+            - generic [ref=e460]: Ricardo Palma
+            - generic [ref=e461]: Associate, Senior Designer
+          - generic [ref=e462]:
+            - generic [ref=e463]: Robert Grimm
+            - generic [ref=e464]: Associate, Director of Delivery
+          - generic [ref=e465]:
+            - generic [ref=e466]: Roberto Fabbri
+            - generic [ref=e467]: Director of Facades
+          - generic [ref=e468]:
+            - generic [ref=e469]: Rosa Cardona
+            - generic [ref=e470]: Office & Community Manager and Executive Assistant to the Managing Director
+          - generic [ref=e471]:
+            - generic [ref=e472]: Ross James O'Connell
+            - generic [ref=e473]: Director of Bidding and Project Commercials
+          - generic [ref=e474]:
+            - generic [ref=e475]: Sascha Leth Rasmussen
+            - generic [ref=e476]: Associate, Senior Architect
+          - generic [ref=e477]:
+            - generic [ref=e478]: Sasha Lukianova
+            - generic [ref=e479]: Associate
+          - generic [ref=e480]:
+            - generic [ref=e481]: Sebastian Claussnitzer
+            - generic [ref=e482]: Associate
+          - generic [ref=e483]:
+            - generic [ref=e484]: Shane Dalke
+            - generic [ref=e485]: Associate, Senior Architect
+          - generic [ref=e486]:
+            - generic [ref=e487]: Shin Young Park
+            - generic [ref=e488]: Associate
+          - generic [ref=e489]:
+            - generic [ref=e490]: Shu Du
+            - generic [ref=e491]: Director & Head of BIG China
+          - generic [ref=e492]:
+            - generic [ref=e493]: Simon Scheller
+            - generic [ref=e494]: Associate
+          - generic [ref=e495]:
+            - generic [ref=e496]: Sorcha Burke
+            - generic [ref=e497]: Associate, Senior Architect
+          - generic [ref=e498]:
+            - generic [ref=e499]: Søren Martinussen
+            - generic [ref=e500]: Associate, Senior Architect
+          - generic [ref=e501]:
+            - generic [ref=e502]: Stefani Fachini De Araujo
+            - generic [ref=e503]: Associate, Senior Architect
+          - generic [ref=e504]:
+            - generic [ref=e505]: Stephen Pinto
+            - generic [ref=e506]: Director of Business Development
+          - generic [ref=e507]:
+            - generic [ref=e508]: Stina Hultberg
+            - generic [ref=e509]: Office & Community Manager & Administrative Assistant to Managing Director
+          - generic [ref=e510]:
+            - generic [ref=e511]: Stine Sandstrøm Christensen
+            - generic [ref=e512]: Managing Director
+          - generic [ref=e513]:
+            - generic [ref=e514]: Su Nge
+            - generic [ref=e515]: Associate, Senior Constructing Architect
+          - generic [ref=e516]:
+            - generic [ref=e517]: Teodor Cristian Fratila
+            - generic [ref=e518]: Associate
+          - generic [ref=e519]:
+            - generic [ref=e520]: Tom Lasbrey
+            - generic [ref=e521]: Associate, Senior Designer
+          - generic [ref=e522]:
+            - generic [ref=e523]: Tomas Minör
+            - generic [ref=e524]: Associate, Senior Architect
+          - generic [ref=e525]:
+            - generic [ref=e526]: Tracey Coffin
+            - generic [ref=e527]: Technical Director
+          - generic [ref=e528]:
+            - generic [ref=e529]: Tyrone Cobcroft
+            - generic [ref=e530]: Associate, Senior Architect
+          - generic [ref=e531]:
+            - generic [ref=e532]: Ulla Hornsyld
+            - generic [ref=e533]: Associate, Senior Landscape Architect
+          - generic [ref=e534]:
+            - generic [ref=e535]: Vidal Fernandez
+            - generic [ref=e536]: Associate
+          - generic [ref=e537]:
+            - generic [ref=e538]: Vinish Sethi
+            - generic [ref=e539]: Associate, Senior Architect
+          - generic [ref=e540]:
+            - generic [ref=e541]: Yu Inamoto
+            - generic [ref=e542]: Associate
+        - generic [ref=e543]:
+          - heading "BIG Copenhagen" [level=3] [ref=e544]
+          - generic [ref=e545]:
+            - generic [ref=e546]: Abhinand Krishnakumar Menon
+            - generic [ref=e547]: Landscape Architect
+          - generic [ref=e548]:
+            - generic [ref=e549]: Adrianna Karnaszewska
+            - generic [ref=e550]: Architect
+          - generic [ref=e551]:
+            - generic [ref=e552]: Agáta Gonščáková
+            - generic [ref=e553]: Constructing Architect Intern
+          - generic [ref=e554]:
+            - generic [ref=e555]: Aimee Desert
+            - generic [ref=e556]: Senior Architect
+          - generic [ref=e557]:
+            - generic [ref=e558]: Akshaya Gopalakrishnan
+            - generic [ref=e559]: Landscape Architect
+          - generic [ref=e560]:
+            - generic [ref=e561]: Alberto Menegazzo
+            - generic [ref=e562]: Senior Architect
+          - generic [ref=e563]:
+            - generic [ref=e564]: Aleksi Vuola
+            - generic [ref=e565]: Senior Architect
+          - generic [ref=e566]:
+            - generic [ref=e567]: Alessandro Sciolari
+            - generic [ref=e568]: Landscape Architect & Urbanist
+          - generic [ref=e569]:
+            - generic [ref=e570]: Alessio Palmieri
+            - generic [ref=e571]: Senior Architect
+          - generic [ref=e572]:
+            - generic [ref=e573]: Alexandra Marie Gezelle
+            - generic [ref=e574]: Head of Legal
+          - generic [ref=e575]:
+            - generic [ref=e576]: Alia Tolba
+            - generic [ref=e577]: Business Developer
+          - generic [ref=e578]:
+            - generic [ref=e579]: Alice Huang
+            - generic [ref=e580]: Business Development Manager
+          - generic [ref=e581]:
+            - generic [ref=e582]: Álvaro Novas Filgueira
+            - generic [ref=e583]: Senior Architect
+          - generic [ref=e584]:
+            - generic [ref=e585]: Álvaro Villanueva
+            - generic [ref=e586]: Architect
+          - generic [ref=e587]:
+            - generic [ref=e588]: Amalie Fruergaard Lund
+            - generic [ref=e589]: Communication Specialist
+          - generic [ref=e590]:
+            - generic [ref=e591]: Aminata Chikondi Andersen
+            - generic [ref=e592]: Office & Community Coordinator & Administrative Assistant to Partners
+          - generic [ref=e593]:
+            - generic [ref=e594]: Amy Luo
+            - generic [ref=e595]: Design Assistant
+          - generic [ref=e596]:
+            - generic [ref=e597]: Ana Demiri
+            - generic [ref=e598]: Constructing Architect Intern
+          - generic [ref=e599]:
+            - generic [ref=e600]: Ana Plesa
+            - generic [ref=e601]: Junior Architect
+          - generic [ref=e602]:
+            - generic [ref=e603]: Anastasia Suzdaltseva Kazakova
+            - generic [ref=e604]: Junior Landscape Architect
+          - generic [ref=e605]:
+            - generic [ref=e606]: Anastasiia Golub
+            - generic [ref=e607]: Senior Architect
+          - generic [ref=e608]:
+            - generic [ref=e609]: Anastasiia Nakonechnaia
+            - generic [ref=e610]: Architect
+          - generic [ref=e611]:
+            - generic [ref=e612]: Anders Holden Deleuran
+            - generic [ref=e613]: Senior Computational Design Specialist
+          - generic [ref=e614]:
+            - generic [ref=e615]: Andreas Bak
+            - generic [ref=e616]: Computational Design Specialist
+          - generic [ref=e617]:
+            - generic [ref=e618]: Andreas Kjeldgård Madum
+            - generic [ref=e619]: Design Assistant
+          - generic [ref=e620]:
+            - generic [ref=e621]: Andreas Thomsen
+            - generic [ref=e622]: IT Manager
+          - generic [ref=e623]:
+            - generic [ref=e624]: Andreea Lemnaru
+            - generic [ref=e625]: Host
+          - generic [ref=e626]:
+            - generic [ref=e627]: Andri Már Bjarnason
+            - generic [ref=e628]: Constructing Architect
+          - generic [ref=e629]:
+            - generic [ref=e630]: Anna Beatrice Maria Ambrosi
+            - generic [ref=e631]: Landscape Architect
+          - generic [ref=e632]:
+            - generic [ref=e633]: Anna Küfner
+            - generic [ref=e634]: Executive Assistant & Community Manager, BIG Landscape
+          - generic [ref=e635]:
+            - generic [ref=e636]: Anna Pi Poulsen
+            - generic [ref=e637]: Senior Urban Planner, Stakeholders & Regulatory Strategy
+          - generic [ref=e638]:
+            - generic [ref=e639]: Anne-Sophie Kernwein
+            - generic [ref=e640]: Office Community Coordinator
+          - generic [ref=e641]:
+            - generic [ref=e642]: Annette Jensen
+            - generic [ref=e643]: Senior Architect
+          - generic [ref=e644]:
+            - generic [ref=e645]: Arthur Zahle
+            - generic [ref=e646]: Picco
+          - generic [ref=e647]:
+            - generic [ref=e648]: Atibadi Brugnano
+            - generic [ref=e649]: Architect
+          - generic [ref=e650]:
+            - generic [ref=e651]: Bartłomiej Dranikowski
+            - generic [ref=e652]: Constructing Architect
+          - generic [ref=e653]:
+            - generic [ref=e654]: Ben Verzijl
+            - generic [ref=e655]: Architect
+          - generic [ref=e656]:
+            - generic [ref=e657]: Benediktas Burdulis
+            - generic [ref=e658]: Interior Architect
+          - generic [ref=e659]:
+            - generic [ref=e660]: Borko Nikolic
+            - generic [ref=e661]: Senior Architect
+          - generic [ref=e662]:
+            - generic [ref=e663]: Camila Alzate Riaño
+            - generic [ref=e664]: Architect
+          - generic [ref=e665]:
+            - generic [ref=e666]: Camilla Trolle Lind
+            - generic [ref=e667]: People & Culture Operations Partner
+          - generic [ref=e668]:
+            - generic [ref=e669]: Camille Castillo
+            - generic [ref=e670]: Architect
+          - generic [ref=e671]:
+            - generic [ref=e672]: Carl Jarneving
+            - generic [ref=e673]: Architect & Urbanist
+          - generic [ref=e674]:
+            - generic [ref=e675]: Carla Farré González
+            - generic [ref=e676]: Industrial Design Assistant
+          - generic [ref=e677]:
+            - generic [ref=e678]: Carlos Ramos Tenorio
+            - generic [ref=e679]: Senior Architect
+          - generic [ref=e680]:
+            - generic [ref=e681]: Celia de la Osa Muñoz
+            - generic [ref=e682]: Architect
+          - generic [ref=e683]:
+            - generic [ref=e684]: Celine Jensen
+            - generic [ref=e685]: Administrative Assistant to Partners
+          - generic [ref=e686]:
+            - generic [ref=e687]: Chantal Maria Sahler
+            - generic [ref=e688]: Architect
+          - generic [ref=e689]:
+            - generic [ref=e690]: Charles Vidal
+            - generic [ref=e691]: BIM Coordinator, Senior Architect
+          - generic [ref=e692]:
+            - generic [ref=e693]: Chiara Gargiulo
+            - generic [ref=e694]: Sustainability Specialist
+          - generic [ref=e695]:
+            - generic [ref=e696]: Chris Vingi
+            - generic [ref=e697]: Senior Architect
+          - generic [ref=e698]:
+            - generic [ref=e699]: Christian Birk Larsen
+            - generic [ref=e700]: IT Security Specialist
+          - generic [ref=e701]:
+            - generic [ref=e702]: Christian Nicholson
+            - generic [ref=e703]: Design Assistant
+          - generic [ref=e704]:
+            - generic [ref=e705]: Christina Boysen
+            - generic [ref=e706]: Business Development Manager
+          - generic [ref=e707]:
+            - generic [ref=e708]: Christine Wexøe
+            - generic [ref=e709]: Controller
+          - generic [ref=e710]:
+            - generic [ref=e711]: Christopher Reisinger
+            - generic [ref=e712]: Design Assistant
+          - generic [ref=e713]:
+            - generic [ref=e714]: Claudia Bertolotti
+            - generic [ref=e715]: Senior Architect
+          - generic [ref=e716]:
+            - generic [ref=e717]: Claudia Jaegerman
+            - generic [ref=e718]: Landscape Architect
+          - generic [ref=e719]:
+            - generic [ref=e720]: Connor Patrick Forecast
+            - generic [ref=e721]: Architect
+          - generic [ref=e722]:
+            - generic [ref=e723]: Dalma Ujvari
+            - generic [ref=e724]: Senior Architect
+          - generic [ref=e725]:
+            - generic [ref=e726]: Dana Furmaneková
+            - generic [ref=e727]: Project Coordinator & Contract Manager, VPHL
+          - generic [ref=e728]:
+            - generic [ref=e729]: Danyal Pasha
+            - generic [ref=e730]: IT Supporter
+          - generic [ref=e731]:
+            - generic [ref=e732]: Danyu Zeng
+            - generic [ref=e733]: Architect
+          - generic [ref=e734]:
+            - generic [ref=e735]: Denzil Ricci
+            - generic [ref=e736]: Designer
+          - generic [ref=e737]:
+            - generic [ref=e738]: Derek John Lange
+            - generic [ref=e739]: Senior Architect
+          - generic [ref=e740]:
+            - generic [ref=e741]: Desislava Georgieva
+            - generic [ref=e742]: Architect
+          - generic [ref=e743]:
+            - generic [ref=e744]: Dominik Mateusz Wawrzyniak
+            - generic [ref=e745]: Constructing Architect
+          - generic [ref=e746]:
+            - generic [ref=e747]: Dora Jiabao Lin
+            - generic [ref=e748]: Senior Architect
+          - generic [ref=e749]:
+            - generic [ref=e750]: Eleonora Niccoli
+            - generic [ref=e751]: Architect
+          - generic [ref=e752]:
+            - generic [ref=e753]: Elia Tonutti
+            - generic [ref=e754]: Designer
+          - generic [ref=e755]:
+            - generic [ref=e756]: Elif Merve Türköz
+            - generic [ref=e757]: Landscape Architect
+          - generic [ref=e758]:
+            - generic [ref=e759]: Emanuele Cipolla
+            - generic [ref=e760]: Architect
+          - generic [ref=e761]:
+            - generic [ref=e762]: Emil Palsteen Dong
+            - generic [ref=e763]: IT Trainee
+          - generic [ref=e764]:
+            - generic [ref=e765]: Emilie Sofie Astrup Nepper-Christensen
+            - generic [ref=e766]: Project Controlling Student Assistant
+          - generic [ref=e767]:
+            - generic [ref=e768]: Etienne Gravisse
+            - generic [ref=e769]: Business Development Manager
+          - generic [ref=e770]:
+            - generic [ref=e771]: Ewa Zapiec
+            - generic [ref=e772]: Constructing Architect
+          - generic [ref=e773]:
+            - generic [ref=e774]: Ewelina Woloszyn
+            - generic [ref=e775]: Architectural Technology Assistant
+          - generic [ref=e776]:
+            - generic [ref=e777]: Fabio Sala
+            - generic [ref=e778]: Architect
+          - generic [ref=e779]:
+            - generic [ref=e780]: Federica Fogazzi
+            - generic [ref=e781]: Senior Architect
+          - generic [ref=e782]:
+            - generic [ref=e783]: Felipe Chacón
+            - generic [ref=e784]: Maker
+          - generic [ref=e785]:
+            - generic [ref=e786]: Filippo Cartapani
+            - generic [ref=e787]: Architect
+          - generic [ref=e788]:
+            - generic [ref=e789]: Filippo Dozzi
+            - generic [ref=e790]: Senior Architect
+          - generic [ref=e791]:
+            - generic [ref=e792]: Finn Quang Lôc Nguyen
+            - generic [ref=e793]: BIM Coordinator, Constructing Architect
+          - generic [ref=e794]:
+            - generic [ref=e795]: Francisco Villeda
+            - generic [ref=e796]: Senior Architect
+          - generic [ref=e797]:
+            - generic [ref=e798]: Gabriel Quy Nhan Hoang
+            - generic [ref=e799]: Project Controlling Student Assistant
+          - generic [ref=e800]:
+            - generic [ref=e801]: Gaspard Del Marmol
+            - generic [ref=e802]: Landscape Architect
+          - generic [ref=e803]:
+            - generic [ref=e804]: Gaurav Janey
+            - generic [ref=e805]: Senior Designer
+          - generic [ref=e806]:
+            - generic [ref=e807]: Gilana Antonova
+            - generic [ref=e808]: Architect
+          - generic [ref=e809]:
+            - generic [ref=e810]: Giovanni Salvatore Bitonti
+            - generic [ref=e811]: Constructing Architect
+          - generic [ref=e812]:
+            - generic [ref=e813]: Giovanni Vergantini
+            - generic [ref=e814]: Senior Architect
+          - generic [ref=e815]:
+            - generic [ref=e816]: Gisella Birardi
+            - generic [ref=e817]: Senior Landscape Architect
+          - generic [ref=e818]:
+            - generic [ref=e819]: Giulia Orlando
+            - generic [ref=e820]: Architect
+          - generic [ref=e821]:
+            - generic [ref=e822]: Giulia Vanni
+            - generic [ref=e823]: Architect
+          - generic [ref=e824]:
+            - generic [ref=e825]: Giuseppe Mercuri
+            - generic [ref=e826]: Landscape Architect
+          - generic [ref=e827]:
+            - generic [ref=e828]: Gokce Naz Tercioglu
+            - generic [ref=e829]: Constructing Architect
+          - generic [ref=e830]:
+            - generic [ref=e831]: Gustav Ingels Mollerup
+            - generic [ref=e832]: Picco
+          - generic [ref=e833]:
+            - generic [ref=e834]: Hansen Zhu
+            - generic [ref=e835]: Landscape Architect
+          - generic [ref=e836]:
+            - generic [ref=e837]: Heidi Lykke Sørensen
+            - generic [ref=e838]: CFO
+          - generic [ref=e839]:
+            - generic [ref=e840]: Høgni Laksafoss
+            - generic [ref=e841]: Senior Architect
+          - generic [ref=e842]:
+            - generic [ref=e843]: Hyojin Lee
+            - generic [ref=e844]: Senior Architect
+          - generic [ref=e845]:
+            - generic [ref=e846]: Hyun Woo Cho
+            - generic [ref=e847]: Architect
+          - generic [ref=e848]:
+            - generic [ref=e849]: Hyunwoo Ha
+            - generic [ref=e850]: Design Assistant
+          - generic [ref=e851]:
+            - generic [ref=e852]: Ioannis Gkasialis
+            - generic [ref=e853]: Project Operations Manager
+          - generic [ref=e854]:
+            - generic [ref=e855]: Ioannis Mathioudakis
+            - generic [ref=e856]: Architect
+          - generic [ref=e857]:
+            - generic [ref=e858]: Isaac Duran
+            - generic [ref=e859]: Design Assistant, Landscape
+          - generic [ref=e860]:
+            - generic [ref=e861]: Ivan Ares Igrexas
+            - generic [ref=e862]: Sustainability Specialist
+          - generic [ref=e863]:
+            - generic [ref=e864]: Jacob Daniel Aldefelt
+            - generic [ref=e865]: Design Assistant
+          - generic [ref=e866]:
+            - generic [ref=e867]: Jakub Kamil Banski
+            - generic [ref=e868]: Design Assistant
+          - generic [ref=e869]:
+            - generic [ref=e870]: Jan Goebel
+            - generic [ref=e871]: Senior Architect
+          - generic [ref=e872]:
+            - generic [ref=e873]: Jan Kyselý
+            - generic [ref=e874]: Senior Architect
+          - generic [ref=e875]:
+            - generic [ref=e876]: Jan Magasanik
+            - generic [ref=e877]: Senior Architect
+          - generic [ref=e878]:
+            - generic [ref=e879]: Jan-Hendrik Schrader
+            - generic [ref=e880]: Industrial Designer, Operations Product Lead
+          - generic [ref=e881]:
+            - generic [ref=e882]: Jeremy Zitner
+            - generic [ref=e883]: CIO
+          - generic [ref=e884]:
+            - generic [ref=e885]: Jesper Ullbing
+            - generic [ref=e886]: Architect
+          - generic [ref=e887]:
+            - generic [ref=e888]: Jiaman Song
+            - generic [ref=e889]: Project Controller
+          - generic [ref=e890]:
+            - generic [ref=e891]: Jiaqi Yang
+            - generic [ref=e892]: Architect
+          - generic [ref=e893]:
+            - generic [ref=e894]: Jiawen Huang
+            - generic [ref=e895]: Senior Architect
+          - generic [ref=e896]:
+            - generic [ref=e897]: Jieun Kim
+            - generic [ref=e898]: Senior Architect
+          - generic [ref=e899]:
+            - generic [ref=e900]: Johannes Becker
+            - generic [ref=e901]: Senior Industrial Designer, Technical Product Lead
+          - generic [ref=e902]:
+            - generic [ref=e903]: Johannes Bjerre Vikkelsøe
+            - generic [ref=e904]: Constructing Architect Intern
+          - generic [ref=e905]:
+            - generic [ref=e906]: Joos Jerne
+            - generic [ref=e907]: Senior Architect
+          - generic [ref=e908]:
+            - generic [ref=e909]: Jose Ignacio Balaguer Palacios
+            - generic [ref=e910]: Architect
+          - generic [ref=e911]:
+            - generic [ref=e912]: José Selgas Cano
+            - generic [ref=e913]: Architect
+          - generic [ref=e914]:
+            - generic [ref=e915]: Juan Gil
+            - generic [ref=e916]: Senior Architect
+          - generic [ref=e917]:
+            - generic [ref=e918]: Juhye Kim
+            - generic [ref=e919]: Senior Architect
+          - generic [ref=e920]:
+            - generic [ref=e921]: Julia Szalkiewicz
+            - generic [ref=e922]: Constructing Architect
+          - generic [ref=e923]:
+            - generic [ref=e924]: Julie Degn
+            - generic [ref=e925]: Finance Trainee
+          - generic [ref=e926]:
+            - generic [ref=e927]: Julie Degn
+            - generic [ref=e928]: Finance Assistant
+          - generic [ref=e929]:
+            - generic [ref=e930]: Julie Martine Hede Hansen
+            - generic [ref=e931]: Picco
+          - generic [ref=e932]:
+            - generic [ref=e933]: Karol Kuźniak
+            - generic [ref=e934]: Architect
+          - generic [ref=e935]:
+            - generic [ref=e936]: Kasia Wieprow
+            - generic [ref=e937]: BIM Coordinator, Constructing Architect
+          - generic [ref=e938]:
+            - generic [ref=e939]: Kateřina Krchňáková
+            - generic [ref=e940]: Design Assistant, Landscape
+          - generic [ref=e941]:
+            - generic [ref=e942]: Katja Zapušek
+            - generic [ref=e943]: Design Assistant, Model Maker
+          - generic [ref=e944]:
+            - generic [ref=e945]: Kazunari Kaneko
+            - generic [ref=e946]: Design Assistant
+          - generic [ref=e947]:
+            - generic [ref=e948]: Keyao Liu
+            - generic [ref=e949]: Design Assistant
+          - generic [ref=e950]:
+            - generic [ref=e951]: Kristian Polak
+            - generic [ref=e952]: Administrative Assistant to Partners
+          - generic [ref=e953]:
+            - generic [ref=e954]: Kristians Graudins
+            - generic [ref=e955]: Constructing Architect Intern
+          - generic [ref=e956]:
+            - generic [ref=e957]: Kyra Demyttenaere
+            - generic [ref=e958]: Design Assistant
+          - generic [ref=e959]:
+            - generic [ref=e960]: Laura Diaz Vizoso
+            - generic [ref=e961]: Senior Architect
+          - generic [ref=e962]:
+            - generic [ref=e963]: Laura Watte
+            - generic [ref=e964]: Senior Architect
+          - generic [ref=e965]:
+            - generic [ref=e966]: Laurel Dongni Li
+            - generic [ref=e967]: Design Assistant
+          - generic [ref=e968]:
+            - generic [ref=e969]: Léo Crespin
+            - generic [ref=e970]: Industrial Designer
+          - generic [ref=e971]:
+            - generic [ref=e972]: Lewis Edwards
+            - generic [ref=e973]: Workshop Manager
+          - generic [ref=e974]:
+            - generic [ref=e975]: Lisa Christiansson
+            - generic [ref=e976]: Design Assistant, Model Maker
+          - generic [ref=e977]:
+            - generic [ref=e978]: Liv Reese Bjarrum
+            - generic [ref=e979]: Business Development Manager
+          - generic [ref=e980]:
+            - generic [ref=e981]: Lorenzo Maccacaro
+            - generic [ref=e982]: Senior Architect & Urbanist
+          - generic [ref=e983]:
+            - generic [ref=e984]: Louise Baagøe Petersen
+            - generic [ref=e985]: Head of Project Controlling
+          - generic [ref=e986]:
+            - generic [ref=e987]: Lucas Skafte Ryan
+            - generic [ref=e988]: Senior Architect
+          - generic [ref=e989]:
+            - generic [ref=e990]: Lucia Hurtado Ayala
+            - generic [ref=e991]: Landscape Architect
+          - generic [ref=e992]:
+            - generic [ref=e993]: Luisa Correa de Oliveira
+            - generic [ref=e994]: Landscape Architect & Urbanist
+          - generic [ref=e995]:
+            - generic [ref=e996]: Madeleine Faucheux de Bergerac
+            - generic [ref=e997]: Administrative & Personal Assistant
+          - generic [ref=e998]:
+            - generic [ref=e999]: Magdalena Socha
+            - generic [ref=e1000]: Contract & Commercial Manager
+          - generic [ref=e1001]:
+            - generic [ref=e1002]: Magdalena Stankova
+            - generic [ref=e1003]: Design Assistant
+          - generic [ref=e1004]:
+            - generic [ref=e1005]: Magni Þór Waltersson
+            - generic [ref=e1006]: Constructing Architect
+          - generic [ref=e1007]:
+            - generic [ref=e1008]: Magnus Wrightson Winnard
+            - generic [ref=e1009]: Junior Legal Advisor
+          - generic [ref=e1010]:
+            - generic [ref=e1011]: Mantas Povilaika
+            - generic [ref=e1012]: Architect
+          - generic [ref=e1013]:
+            - generic [ref=e1014]: Mara Finkensiep
+            - generic [ref=e1015]: Design Assistant, Model Maker
+          - generic [ref=e1016]:
+            - generic [ref=e1017]: Marcelina Tumanowicz
+            - generic [ref=e1018]: Constructing Architect, QA/QC Coordinator
+          - generic [ref=e1019]:
+            - generic [ref=e1020]: Margaux Caboche
+            - generic [ref=e1021]: Senior Landscape Architect & Urbanist
+          - generic [ref=e1022]:
+            - generic [ref=e1023]: Maria Capuozzo
+            - generic [ref=e1024]: BIM Specialist
+          - generic [ref=e1025]:
+            - generic [ref=e1026]: Maria Panagiota Braikoudi
+            - generic [ref=e1027]: Design Assistant
+          - generic [ref=e1028]:
+            - generic [ref=e1029]: Maricel Bayuga Ditlevsen
+            - generic [ref=e1030]: Office Assistant
+          - generic [ref=e1031]:
+            - generic [ref=e1032]: Marie Gade Strøyer Andersen
+            - generic [ref=e1033]: Piccoline
+          - generic [ref=e1034]:
+            - generic [ref=e1035]: Mariia Nakonechnaia
+            - generic [ref=e1036]: Architect
+          - generic [ref=e1037]:
+            - generic [ref=e1038]: Marius Tromholt-Richter
+            - generic [ref=e1039]: Architect
+          - generic [ref=e1040]:
+            - generic [ref=e1041]: Martina Prieto
+            - generic [ref=e1042]: Architect
+          - generic [ref=e1043]:
+            - generic [ref=e1044]: Martyna Kłoda
+            - generic [ref=e1045]: Architect
+          - generic [ref=e1046]:
+            - generic [ref=e1047]: Mateo Parra Arbeláez
+            - generic [ref=e1048]: Visualization Specialist
+          - generic [ref=e1049]:
+            - generic [ref=e1050]: Mateusz Płudowski
+            - generic [ref=e1051]: Design Assistant
+          - generic [ref=e1052]:
+            - generic [ref=e1053]: Mathias Guldbrandt Jensen
+            - generic [ref=e1054]: Design Assistant
+          - generic [ref=e1055]:
+            - generic [ref=e1056]: Mathieu Cardinal
+            - generic [ref=e1057]: Senior Architect
+          - generic [ref=e1058]:
+            - generic [ref=e1059]: Mathis Paul Gebauer
+            - generic [ref=e1060]: Designer
+          - generic [ref=e1061]:
+            - generic [ref=e1062]: Matilda Widén
+            - generic [ref=e1063]: Design Assistant, Model Maker
+          - generic [ref=e1064]:
+            - generic [ref=e1065]: Matteo Baggiarini
+            - generic [ref=e1066]: Senior Architect
+          - generic [ref=e1067]:
+            - generic [ref=e1068]: Matthew Goodwill
+            - generic [ref=e1069]: Visualization Specialist
+          - generic [ref=e1070]:
+            - generic [ref=e1071]: Matthew Ng
+            - generic [ref=e1072]: Design Assistant
+          - generic [ref=e1073]:
+            - generic [ref=e1074]: Melissa Murphy
+            - generic [ref=e1075]: Chief of Staff to Bjarke Ingels
+          - generic [ref=e1076]:
+            - generic [ref=e1077]: Menghan Yu
+            - generic [ref=e1078]: Landscape Architect
+          - generic [ref=e1079]:
+            - generic [ref=e1080]: Mengran Zhang
+            - generic [ref=e1081]: Landscape Architect
+          - generic [ref=e1082]:
+            - generic [ref=e1083]: Michael Hagelund Hjorth
+            - generic [ref=e1084]: Facility Manager
+          - generic [ref=e1085]:
+            - generic [ref=e1086]: Mike Munoz
+            - generic [ref=e1087]: Senior Architect
+          - generic [ref=e1088]:
+            - generic [ref=e1089]: Milena Ivova Sharkova
+            - generic [ref=e1090]: Architect
+          - generic [ref=e1091]:
+            - generic [ref=e1092]: Mio Marius del Negro
+            - generic [ref=e1093]: Design Assistant, Landscape
+          - generic [ref=e1094]:
+            - generic [ref=e1095]: Mónica Galiana Rodriguez
+            - generic [ref=e1096]: Senior Landscape Architect & Urbanist
+          - generic [ref=e1097]:
+            - generic [ref=e1098]: Monika Dauksaite
+            - generic [ref=e1099]: Architect
+          - generic [ref=e1100]:
+            - generic [ref=e1101]: Montserrat Egan
+            - generic [ref=e1102]: Design Assistant
+          - generic [ref=e1103]:
+            - generic [ref=e1104]: Mostafa Nagy
+            - generic [ref=e1105]: BIM Coordinator, Architect
+          - generic [ref=e1106]:
+            - generic [ref=e1107]: Najwan Farag
+            - generic [ref=e1108]: Design Assistant
+          - generic [ref=e1109]:
+            - generic [ref=e1110]: Nanna Benedikte Leth
+            - generic [ref=e1111]: Communications Coordinator
+          - generic [ref=e1112]:
+            - generic [ref=e1113]: Nash Ky McAllum
+            - generic [ref=e1114]: Architectural Technology Assistant
+          - generic [ref=e1115]:
+            - generic [ref=e1116]: Nataly Muzikarova
+            - generic [ref=e1117]: Design Assistant, Landscape
+          - generic [ref=e1118]:
+            - generic [ref=e1119]: Nave Nathan
+            - generic [ref=e1120]: Landscape Architect
+          - generic [ref=e1121]:
+            - generic [ref=e1122]: Nicholas Dyakowski
+            - generic [ref=e1123]: Landscape Architect
+          - generic [ref=e1124]:
+            - generic [ref=e1125]: Nicklas Jensen
+            - generic [ref=e1126]: Project Controller
+          - generic [ref=e1127]:
+            - generic [ref=e1128]: Nicoli Attili Pereira
+            - generic [ref=e1129]: Constructing Architect
+          - generic [ref=e1130]:
+            - generic [ref=e1131]: Nina Nilsson
+            - generic [ref=e1132]: Finance Assistant
+          - generic [ref=e1133]:
+            - generic [ref=e1134]: Nizar Gharib
+            - generic [ref=e1135]: BIM Coordinator, Landscape Designer
+          - generic [ref=e1136]:
+            - generic [ref=e1137]: Oliver Siekierka
+            - generic [ref=e1138]: Architect
+          - generic [ref=e1139]:
+            - generic [ref=e1140]: Oliver Steen
+            - generic [ref=e1141]: Constructing Architect
+          - generic [ref=e1142]:
+            - generic [ref=e1143]: Ome Chayatat Inma
+            - generic [ref=e1144]: BIM Coordinator, Senior Architect
+          - generic [ref=e1145]:
+            - generic [ref=e1146]: Oscar Martinez
+            - generic [ref=e1147]: Architect
+          - generic [ref=e1148]:
+            - generic [ref=e1149]: Oscar Read
+            - generic [ref=e1150]: Architect
+          - generic [ref=e1151]:
+            - generic [ref=e1152]: Patrick Nyangkori
+            - generic [ref=e1153]: Bookkeeper
+          - generic [ref=e1154]:
+            - generic [ref=e1155]: Paula Domka
+            - generic [ref=e1156]: Architect
+          - generic [ref=e1157]:
+            - generic [ref=e1158]: Pernille Patrunch
+            - generic [ref=e1159]: Finance Manager
+          - generic [ref=e1160]:
+            - generic [ref=e1161]: Peter Høgenhaven
+            - generic [ref=e1162]: Senior Constructing Architect
+          - generic [ref=e1163]:
+            - generic [ref=e1164]: Philipp Weisz
+            - generic [ref=e1165]: Senior Architect
+          - generic [ref=e1166]:
+            - generic [ref=e1167]: Piotr Dziewierz
+            - generic [ref=e1168]: BIM Coordinator, Architect
+          - generic [ref=e1169]:
+            - generic [ref=e1170]: Pol Marck
+            - generic [ref=e1171]: Senior Architect
+          - generic [ref=e1172]:
+            - generic [ref=e1173]: Rajkaran Singh Dhillon
+            - generic [ref=e1174]: Design Assistant
+          - generic [ref=e1175]:
+            - generic [ref=e1176]: Randi Vanderskrog Untidt
+            - generic [ref=e1177]: Senior Executive Assistant
+          - generic [ref=e1178]:
+            - generic [ref=e1179]: Rasa Lenceviciute
+            - generic [ref=e1180]: Resource Manager
+          - generic [ref=e1181]:
+            - generic [ref=e1182]: Rasha Kiani
+            - generic [ref=e1183]: Senior Landscape Architect
+          - generic [ref=e1184]:
+            - generic [ref=e1185]: Rebecca Støvring Alstrup
+            - generic [ref=e1186]: Group Financial Controller
+          - generic [ref=e1187]:
+            - generic [ref=e1188]: Riccardo Abagnale
+            - generic [ref=e1189]: Architect & Urbanist
+          - generic [ref=e1190]:
+            - generic [ref=e1191]: Riccardo Piazzai
+            - generic [ref=e1192]: Architect
+          - generic [ref=e1193]:
+            - generic [ref=e1194]: Rihab Soukkarieh
+            - generic [ref=e1195]: Landscape Architect
+          - generic [ref=e1196]:
+            - generic [ref=e1197]: Rita Fernandes
+            - generic [ref=e1198]: Archives & Digital Asset Management Coordinator
+          - generic [ref=e1199]:
+            - generic [ref=e1200]: Romain Thijsen
+            - generic [ref=e1201]: Senior Architect
+          - generic [ref=e1202]:
+            - generic [ref=e1203]: Roza Matveeva
+            - generic [ref=e1204]: Senior Architect
+          - generic [ref=e1205]:
+            - generic [ref=e1206]: Ryun Gu Han
+            - generic [ref=e1207]: Design Assistant
+          - generic [ref=e1208]:
+            - generic [ref=e1209]: Samuel Ščambora
+            - generic [ref=e1210]: Constructing Architect
+          - generic [ref=e1211]:
+            - generic [ref=e1212]: Santiago Palacio Villa
+            - generic [ref=e1213]: Architect
+          - generic [ref=e1214]:
+            - generic [ref=e1215]: Sarah Lyngsø
+            - generic [ref=e1216]: Senior Landscape Architect & Urbanist
+          - generic [ref=e1217]:
+            - generic [ref=e1218]: Sasha Spasic
+            - generic [ref=e1219]: Landscape Architect
+          - generic [ref=e1220]:
+            - generic [ref=e1221]: Sebastian Bernardy
+            - generic [ref=e1222]: Senior Architect
+          - generic [ref=e1223]:
+            - generic [ref=e1224]: Seohyeon Song
+            - generic [ref=e1225]: Design Assistant
+          - generic [ref=e1226]:
+            - generic [ref=e1227]: SeongHun Yoon
+            - generic [ref=e1228]: Design Assistant
+          - generic [ref=e1229]:
+            - generic [ref=e1230]: Seongil Choo
+            - generic [ref=e1231]: Architect
+          - generic [ref=e1232]:
+            - generic [ref=e1233]: Seonhwan Kim
+            - generic [ref=e1234]: Architect
+          - generic [ref=e1235]:
+            - generic [ref=e1236]: Seul Lee
+            - generic [ref=e1237]: Senior Landscape Architect
+          - generic [ref=e1238]:
+            - generic [ref=e1239]: Seyederfan Masoumzadeh
+            - generic [ref=e1240]: Landscape Architect
+          - generic [ref=e1241]:
+            - generic [ref=e1242]: Shu Zhao
+            - generic [ref=e1243]: Senior Interior Designer
+          - generic [ref=e1244]:
+            - generic [ref=e1245]: Simon Lücking
+            - generic [ref=e1246]: People & Culture Attraction Partner
+          - generic [ref=e1247]:
+            - generic [ref=e1248]: Simone Grau
+            - generic [ref=e1249]: Senior People & Culture Partner
+          - generic [ref=e1250]:
+            - generic [ref=e1251]: Simone Parigi
+            - generic [ref=e1252]: Architect
+          - generic [ref=e1253]:
+            - generic [ref=e1254]: Søren Mortensen
+            - generic [ref=e1255]: BIM Manager
+          - generic [ref=e1256]:
+            - generic [ref=e1257]: Spyridon Ntakis
+            - generic [ref=e1258]: Design Assistant
+          - generic [ref=e1259]:
+            - generic [ref=e1260]: Swastik Sharma
+            - generic [ref=e1261]: Design Assistant
+          - generic [ref=e1262]:
+            - generic [ref=e1263]: Tamilla Mahmudova
+            - generic [ref=e1264]: Kitchen Manager
+          - generic [ref=e1265]:
+            - generic [ref=e1266]: Tangina Ahmed
+            - generic [ref=e1267]: Landscape Architect
+          - generic [ref=e1268]:
+            - generic [ref=e1269]: Temi Popoola
+            - generic [ref=e1270]: Architectural Technology Assistant
+          - generic [ref=e1271]:
+            - generic [ref=e1272]: Teresa Malchiodi Albedi
+            - generic [ref=e1273]: Architect & Urbanist
+          - generic [ref=e1274]:
+            - generic [ref=e1275]: Tessira Crawford
+            - generic [ref=e1276]: Senior Architect
+          - generic [ref=e1277]:
+            - generic [ref=e1278]: Thomas Lund
+            - generic [ref=e1279]: BIM Specialist
+          - generic [ref=e1280]:
+            - generic [ref=e1281]: Tobias Claudi Jensen
+            - generic [ref=e1282]: IT Supporter
+          - generic [ref=e1283]:
+            - generic [ref=e1284]: Tobias Emil Erendal Jensen
+            - generic [ref=e1285]: Picco
+          - generic [ref=e1286]:
+            - generic [ref=e1287]: Tobias Gagner
+            - generic [ref=e1288]: Senior Architect
+          - generic [ref=e1289]:
+            - generic [ref=e1290]: Tomasz Jakubowski
+            - generic [ref=e1291]: BIM Coordinator, Senior Architect
+          - generic [ref=e1292]:
+            - generic [ref=e1293]: Tommy Raffoul Bjørnstrup
+            - generic [ref=e1294]: Senior Constructing Architect
+          - generic [ref=e1295]:
+            - generic [ref=e1296]: Trine Louise Blair
+            - generic [ref=e1297]: Payroll Specialist
+          - generic [ref=e1298]:
+            - generic [ref=e1299]: Tseng-Hsuan Wei
+            - generic [ref=e1300]: Architect
+          - generic [ref=e1301]:
+            - generic [ref=e1302]: Valentina Ferreyra Genes
+            - generic [ref=e1303]: Junior Business Developer
+          - generic [ref=e1304]:
+            - generic [ref=e1305]: Veronica Hamilton
+            - generic [ref=e1306]: Maker
+          - generic [ref=e1307]:
+            - generic [ref=e1308]: Victor Foged Lohmann
+            - generic [ref=e1309]: IT Specialist
+          - generic [ref=e1310]:
+            - generic [ref=e1311]: Victor Moegreen
+            - generic [ref=e1312]: Architect
+          - generic [ref=e1313]:
+            - generic [ref=e1314]: Victor-Antoine Delorme
+            - generic [ref=e1315]: LCA Specialist, Team Coordinator
+          - generic [ref=e1316]:
+            - generic [ref=e1317]: Victoria Prillo
+            - generic [ref=e1318]: Architect
+          - generic [ref=e1319]:
+            - generic [ref=e1320]: Viktor Emil Grupe Kristensen
+            - generic [ref=e1321]: Beach Hut Assistant
+          - generic [ref=e1322]:
+            - generic [ref=e1323]: Vincent Heijnen
+            - generic [ref=e1324]: Design Assistant
+          - generic [ref=e1325]:
+            - generic [ref=e1326]: Vlad Ilie Necula
+            - generic [ref=e1327]: Junior Architect
+          - generic [ref=e1328]:
+            - generic [ref=e1329]: Wenyi Chen
+            - generic [ref=e1330]: Landscape Architect
+          - generic [ref=e1331]:
+            - generic [ref=e1332]: Xavier Thanki
+            - generic [ref=e1333]: Architect
+          - generic [ref=e1334]:
+            - generic [ref=e1335]: Xinyu Zhao
+            - generic [ref=e1336]: Landscape Architect
+          - generic [ref=e1337]:
+            - generic [ref=e1338]: Xu Lian
+            - generic [ref=e1339]: Landscape Architect & Urbanist
+          - generic [ref=e1340]:
+            - generic [ref=e1341]: Yafei Li
+            - generic [ref=e1342]: Design Assistant
+          - generic [ref=e1343]:
+            - generic [ref=e1344]: Yongwon Jo
+            - generic [ref=e1345]: Architect
+          - generic [ref=e1346]:
+            - generic [ref=e1347]: Yunus Alperen Basak
+            - generic [ref=e1348]: Architect
+          - generic [ref=e1349]:
+            - generic [ref=e1350]: Yunzi Wang
+            - generic [ref=e1351]: Senior Architect
+        - generic [ref=e1352]:
+          - heading "BIG Barcelona" [level=3] [ref=e1353]
+          - generic [ref=e1354]:
+            - generic [ref=e1355]: Adina Verenciuc
+            - generic [ref=e1356]: Senior Architect
+          - generic [ref=e1357]:
+            - generic [ref=e1358]: Alba Peláez Pozo
+            - generic [ref=e1359]: Architect
+          - generic [ref=e1360]:
+            - generic [ref=e1361]: Alessia Gardoni
+            - generic [ref=e1362]: Interior Designer
+          - generic [ref=e1363]:
+            - generic [ref=e1364]: Almudena Rubio Delgado
+            - generic [ref=e1365]: Architect
+          - generic [ref=e1366]:
+            - generic [ref=e1367]: Álvaro Arboledas
+            - generic [ref=e1368]: Design Assistant
+          - generic [ref=e1369]:
+            - generic [ref=e1370]: Álvaro López Arroyo
+            - generic [ref=e1371]: Design Assistant
+          - generic [ref=e1372]:
+            - generic [ref=e1373]: Alvaro Valcarce
+            - generic [ref=e1374]: Senior Architect
+          - generic [ref=e1375]:
+            - generic [ref=e1376]: Andrea Serio
+            - generic [ref=e1377]: Design Assistant
+          - generic [ref=e1378]:
+            - generic [ref=e1379]: Angela Amoruso
+            - generic [ref=e1380]: Business Development Manager
+          - generic [ref=e1381]:
+            - generic [ref=e1382]: Anna Torrens
+            - generic [ref=e1383]: Design Assistant
+          - generic [ref=e1384]:
+            - generic [ref=e1385]: Ariadna Wahab
+            - generic [ref=e1386]: Executive Assistant
+          - generic [ref=e1387]:
+            - generic [ref=e1388]: Camila Antonella Mina
+            - generic [ref=e1389]: Architect
+          - generic [ref=e1390]:
+            - generic [ref=e1391]: Carlo Basile
+            - generic [ref=e1392]: Senior Architect
+          - generic [ref=e1393]:
+            - generic [ref=e1394]: Carlos González Acedo
+            - generic [ref=e1395]: Senior Architect
+          - generic [ref=e1396]:
+            - generic [ref=e1397]: Catarina Canas
+            - generic [ref=e1398]: Senior Architect
+          - generic [ref=e1399]:
+            - generic [ref=e1400]: Chiara Pepori
+            - generic [ref=e1401]: Urban Designer
+          - generic [ref=e1402]:
+            - generic [ref=e1403]: Christina Chita
+            - generic [ref=e1404]: Design Assistant
+          - generic [ref=e1405]:
+            - generic [ref=e1406]: Christina Papathanasiou
+            - generic [ref=e1407]: Design Assistant
+          - generic [ref=e1408]:
+            - generic [ref=e1409]: Clara Sanfeliu
+            - generic [ref=e1410]: Senior Architect
+          - generic [ref=e1411]:
+            - generic [ref=e1412]: Cristina Rodriguez
+            - generic [ref=e1413]: Head of Labour Relations & People
+          - generic [ref=e1414]:
+            - generic [ref=e1415]: Davide F. Avesani
+            - generic [ref=e1416]: Junior Architect
+          - generic [ref=e1417]:
+            - generic [ref=e1418]: Denisse Chacon
+            - generic [ref=e1419]: Facility Manager
+          - generic [ref=e1420]:
+            - generic [ref=e1421]: Diana Guasch
+            - generic [ref=e1422]: Resource Manager
+          - generic [ref=e1423]:
+            - generic [ref=e1424]: Eder Mesquita
+            - generic [ref=e1425]: Architect
+          - generic [ref=e1426]:
+            - generic [ref=e1427]: Eleni Kanellopoulou
+            - generic [ref=e1428]: Junior Architect
+          - generic [ref=e1429]:
+            - generic [ref=e1430]: Emilia Rezzonico
+            - generic [ref=e1431]: Architect & Urban Designer
+          - generic [ref=e1432]:
+            - generic [ref=e1433]: Emma Lomas
+            - generic [ref=e1434]: Architect
+          - generic [ref=e1435]:
+            - generic [ref=e1436]: Enrico Pintabona
+            - generic [ref=e1437]: Senior Architect
+          - generic [ref=e1438]:
+            - generic [ref=e1439]: Enrique Ibáñez de Pablo
+            - generic [ref=e1440]: BIM Specialist
+          - generic [ref=e1441]:
+            - generic [ref=e1442]: Francesca Cambi
+            - generic [ref=e1443]: Architect
+          - generic [ref=e1444]:
+            - generic [ref=e1445]: Francisco Abajo Duran
+            - generic [ref=e1446]: Senior Architect
+          - generic [ref=e1447]:
+            - generic [ref=e1448]: Gemma Serra
+            - generic [ref=e1449]: Senior Architect
+          - generic [ref=e1450]:
+            - generic [ref=e1451]: Giuseppe Marrone
+            - generic [ref=e1452]: Architect
+          - generic [ref=e1453]:
+            - generic [ref=e1454]: Gonzalo Zylberman
+            - generic [ref=e1455]: Senior Architect
+          - generic [ref=e1456]:
+            - generic [ref=e1457]: Haaris Ramzan
+            - generic [ref=e1458]: BIM Specialist
+          - generic [ref=e1459]:
+            - generic [ref=e1460]: Hugo Riche
+            - generic [ref=e1461]: Junior Designer
+          - generic [ref=e1462]:
+            - generic [ref=e1463]: Igor Russo
+            - generic [ref=e1464]: Senior Architect
+          - generic [ref=e1465]:
+            - generic [ref=e1466]: Inés Garrido
+            - generic [ref=e1467]: Office & Community Coordinator and Executive Assistant to Partner
+          - generic [ref=e1468]:
+            - generic [ref=e1469]: Irene Rodríguez Cámara
+            - generic [ref=e1470]: Document Controller
+          - generic [ref=e1471]:
+            - generic [ref=e1472]: Iris van der Heide
+            - generic [ref=e1473]: Architect
+          - generic [ref=e1474]:
+            - generic [ref=e1475]: Isabel Sánchez del Campo
+            - generic [ref=e1476]: Senior Architect
+          - generic [ref=e1477]:
+            - generic [ref=e1478]: Iskandar Habib
+            - generic [ref=e1479]: Design Assistant
+          - generic [ref=e1480]:
+            - generic [ref=e1481]: Jan Leenknegt
+            - generic [ref=e1482]: Design Assistant
+          - generic [ref=e1483]:
+            - generic [ref=e1484]: Javier Moran
+            - generic [ref=e1485]: Design Assistant
+          - generic [ref=e1486]:
+            - generic [ref=e1487]: Jesper Stilling
+            - generic [ref=e1488]: Legal & Commercial Manager
+          - generic [ref=e1489]:
+            - generic [ref=e1490]: Jose Garcia
+            - generic [ref=e1491]: Senior Urban Designer
+          - generic [ref=e1492]:
+            - generic [ref=e1493]: Juan Carpio
+            - generic [ref=e1494]: Senior Architect
+          - generic [ref=e1495]:
+            - generic [ref=e1496]: Julia Salman
+            - generic [ref=e1497]: Design Assistant
+          - generic [ref=e1498]:
+            - generic [ref=e1499]: Kasia Kretek
+            - generic [ref=e1500]: Architect
+          - generic [ref=e1501]:
+            - generic [ref=e1502]: Laura Conti
+            - generic [ref=e1503]: Urban Designer
+          - generic [ref=e1504]:
+            - generic [ref=e1505]: Laura Huerga
+            - generic [ref=e1506]: Urban Designer
+          - generic [ref=e1507]:
+            - generic [ref=e1508]: Laura Nieto
+            - generic [ref=e1509]: Senior Architect
+          - generic [ref=e1510]:
+            - generic [ref=e1511]: Laura Nieto
+            - generic [ref=e1512]: Senior Architect
+          - generic [ref=e1513]:
+            - generic [ref=e1514]: Leticia Evelyn Porto
+            - generic [ref=e1515]: Junior Landscape Architect
+          - generic [ref=e1516]:
+            - generic [ref=e1517]: Leticia Fernández
+            - generic [ref=e1518]: Design Assistant
+          - generic [ref=e1519]:
+            - generic [ref=e1520]: Lina Brülls
+            - generic [ref=e1521]: Junior AI Specialist
+          - generic [ref=e1522]:
+            - generic [ref=e1523]: Lorena Trinidad
+            - generic [ref=e1524]: Senior Architect
+          - generic [ref=e1525]:
+            - generic [ref=e1526]: Lorenzo Farchione
+            - generic [ref=e1527]: Senior Architect
+          - generic [ref=e1528]:
+            - generic [ref=e1529]: Loris Antonio Di Benedetto
+            - generic [ref=e1530]: Architect
+          - generic [ref=e1531]:
+            - generic [ref=e1532]: Luca Longinotti
+            - generic [ref=e1533]: Junior Architect
+          - generic [ref=e1534]:
+            - generic [ref=e1535]: Luca Rondanini
+            - generic [ref=e1536]: Architect
+          - generic [ref=e1537]:
+            - generic [ref=e1538]: Ludovica Casalone
+            - generic [ref=e1539]: Business Development Coordinator
+          - generic [ref=e1540]:
+            - generic [ref=e1541]: Luis Delgado
+            - generic [ref=e1542]: Senior Architect
+          - generic [ref=e1543]:
+            - generic [ref=e1544]: Marc Cantavella
+            - generic [ref=e1545]: Junior IT Manager
+          - generic [ref=e1546]:
+            - generic [ref=e1547]: Maria Francisca Parreira
+            - generic [ref=e1548]: Architect
+          - generic [ref=e1549]:
+            - generic [ref=e1550]: Marina Rogés Pagès
+            - generic [ref=e1551]: Host
+          - generic [ref=e1552]:
+            - generic [ref=e1553]: Marta Iglesias
+            - generic [ref=e1554]: Senior Architect
+          - generic [ref=e1555]:
+            - generic [ref=e1556]: Martina Mancini
+            - generic [ref=e1557]: Architect
+          - generic [ref=e1558]:
+            - generic [ref=e1559]: Marusia Popova
+            - generic [ref=e1560]: Junior Architect
+          - generic [ref=e1561]:
+            - generic [ref=e1562]: Matilde Fernandes
+            - generic [ref=e1563]: Architect
+          - generic [ref=e1564]:
+            - generic [ref=e1565]: Michele Archetti
+            - generic [ref=e1566]: Architect
+          - generic [ref=e1567]:
+            - generic [ref=e1568]: Miltos Tsakiris
+            - generic [ref=e1569]: Architect
+          - generic [ref=e1570]:
+            - generic [ref=e1571]: Olga Syrnyk
+            - generic [ref=e1572]: Urban Designer
+          - generic [ref=e1573]:
+            - generic [ref=e1574]: Olivia Sarrà Gómez
+            - generic [ref=e1575]: Architect
+          - generic [ref=e1576]:
+            - generic [ref=e1577]: Oskar Schultze
+            - generic [ref=e1578]: Design Assistant
+          - generic [ref=e1579]:
+            - generic [ref=e1580]: Pablo Rodríguez de Medina
+            - generic [ref=e1581]: Junior Architect
+          - generic [ref=e1582]:
+            - generic [ref=e1583]: Paola Villagrana Arellano
+            - generic [ref=e1584]: Head of Bidding and Commercial
+          - generic [ref=e1585]:
+            - generic [ref=e1586]: Patricia Andrés
+            - generic [ref=e1587]: Senior Architect
+          - generic [ref=e1588]:
+            - generic [ref=e1589]: Pau Gavilan
+            - generic [ref=e1590]: IT Supporter
+          - generic [ref=e1591]:
+            - generic [ref=e1592]: Paula Gonzalez
+            - generic [ref=e1593]: Model Shop Manager
+          - generic [ref=e1594]:
+            - generic [ref=e1595]: Paula Pagès Camprubí
+            - generic [ref=e1596]: Senior Architect
+          - generic [ref=e1597]:
+            - generic [ref=e1598]: Pietro Saccardi
+            - generic [ref=e1599]: Architect
+          - generic [ref=e1600]:
+            - generic [ref=e1601]: Polyxeni Chatzaki
+            - generic [ref=e1602]: Junior Architect
+          - generic [ref=e1603]:
+            - generic [ref=e1604]: Rodrigo Iglesias
+            - generic [ref=e1605]: Model Shop Coordinator
+          - generic [ref=e1606]:
+            - generic [ref=e1607]: Sofia Taveira
+            - generic [ref=e1608]: Architect
+          - generic [ref=e1609]:
+            - generic [ref=e1610]: Tejaswini Challa
+            - generic [ref=e1611]: Design Assistant
+          - generic [ref=e1612]:
+            - generic [ref=e1613]: Tobias Jesse Teining
+            - generic [ref=e1614]: Strategy & Insights Analyst
+          - generic [ref=e1615]:
+            - generic [ref=e1616]: Toni Herrero
+            - generic [ref=e1617]: Senior Landscape Architect
+          - generic [ref=e1618]:
+            - generic [ref=e1619]: Trine Emilie Sørensen
+            - generic [ref=e1620]: Business Development Manager
+          - generic [ref=e1621]:
+            - generic [ref=e1622]: Uri Lewis Torres
+            - generic [ref=e1623]: Architect
+          - generic [ref=e1624]:
+            - generic [ref=e1625]: Valentina Cohen Chemini
+            - generic [ref=e1626]: Architect
+          - generic [ref=e1627]:
+            - generic [ref=e1628]: Virginia Vagni
+            - generic [ref=e1629]: Design Assistant
+          - generic [ref=e1630]:
+            - generic [ref=e1631]: Viviana Olivera
+            - generic [ref=e1632]: Project Accounting Manager
+          - generic [ref=e1633]:
+            - generic [ref=e1634]: Xiang Chen
+            - generic [ref=e1635]: Design Assistant
+          - generic [ref=e1636]:
+            - generic [ref=e1637]: Yalda Beigagha
+            - generic [ref=e1638]: Architect
+          - generic [ref=e1639]:
+            - generic [ref=e1640]: Ziyad Wassef
+            - generic [ref=e1641]: Architect
+        - generic [ref=e1642]:
+          - heading "BIG London" [level=3] [ref=e1643]
+          - generic [ref=e1644]:
+            - generic [ref=e1645]: Ada Drużdż
+            - generic [ref=e1646]: Design Assistant
+          - generic [ref=e1647]:
+            - generic [ref=e1648]: Alex Pearson
+            - generic [ref=e1649]: Architect
+          - generic [ref=e1650]:
+            - generic [ref=e1651]: Alfred Rajnic
+            - generic [ref=e1652]: Junior Designer
+          - generic [ref=e1653]:
+            - generic [ref=e1654]: Amy Morrill
+            - generic [ref=e1655]: Junior Designer
+          - generic [ref=e1656]:
+            - generic [ref=e1657]: Anna Natalia Krzyzanowska
+            - generic [ref=e1658]: Architect
+          - generic [ref=e1659]:
+            - generic [ref=e1660]: Anna Pavlou
+            - generic [ref=e1661]: Architect
+          - generic [ref=e1662]:
+            - generic [ref=e1663]: April Chen
+            - generic [ref=e1664]: Design Assistant
+          - generic [ref=e1665]:
+            - generic [ref=e1666]: Aryaman Garg
+            - generic [ref=e1667]: Junior Designer
+          - generic [ref=e1668]:
+            - generic [ref=e1669]: Ben Jones
+            - generic [ref=e1670]: Senior Architect
+          - generic [ref=e1671]:
+            - generic [ref=e1672]: Bethany Hird
+            - generic [ref=e1673]: Senior Architect
+          - generic [ref=e1674]:
+            - generic [ref=e1675]: Binghua Li
+            - generic [ref=e1676]: Urban/Architectural Designer
+          - generic [ref=e1677]:
+            - generic [ref=e1678]: Brooke Ferris
+            - generic [ref=e1679]: Senior Legal Counsel
+          - generic [ref=e1680]:
+            - generic [ref=e1681]: Calina Bogasiu
+            - generic [ref=e1682]: Designer
+          - generic [ref=e1683]:
+            - generic [ref=e1684]: Can Danisman
+            - generic [ref=e1685]: Junior Designer
+          - generic [ref=e1686]:
+            - generic [ref=e1687]: Cat Terry
+            - generic [ref=e1688]: Business Development Coordinator
+          - generic [ref=e1689]:
+            - generic [ref=e1690]: Charlotte Kirkup
+            - generic [ref=e1691]: Design Assistant
+          - generic [ref=e1692]:
+            - generic [ref=e1693]: Cheryl Cheah
+            - generic [ref=e1694]: Designer
+          - generic [ref=e1695]:
+            - generic [ref=e1696]: Chrysanthi Sini
+            - generic [ref=e1697]: Architect
+          - generic [ref=e1698]:
+            - generic [ref=e1699]: Clara Veci
+            - generic [ref=e1700]: Senior Architect
+          - generic [ref=e1701]:
+            - generic [ref=e1702]: Daniel Bazo Hernandez
+            - generic [ref=e1703]: Senior Architect
+          - generic [ref=e1704]:
+            - generic [ref=e1705]: Daniel Flores Corona
+            - generic [ref=e1706]: Designer
+          - generic [ref=e1707]:
+            - generic [ref=e1708]: Dat Dinh
+            - generic [ref=e1709]: Urban/Architectural Designer
+          - generic [ref=e1710]:
+            - generic [ref=e1711]: Deniz Ozbek
+            - generic [ref=e1712]: Designer
+          - generic [ref=e1713]:
+            - generic [ref=e1714]: Diem Nguyen
+            - generic [ref=e1715]: Designer
+          - generic [ref=e1716]:
+            - generic [ref=e1717]: Dino Vaindirlis
+            - generic [ref=e1718]: Senior Designer
+          - generic [ref=e1719]:
+            - generic [ref=e1720]: Eden Zhang
+            - generic [ref=e1721]: Landscape Designer
+          - generic [ref=e1722]:
+            - generic [ref=e1723]: Eeda Lee
+            - generic [ref=e1724]: Designer
+          - generic [ref=e1725]:
+            - generic [ref=e1726]: Eugenia Torres
+            - generic [ref=e1727]: Designer
+          - generic [ref=e1728]:
+            - generic [ref=e1729]: Evelyn Thorpe
+            - generic [ref=e1730]: Workshop Assistant
+          - generic [ref=e1731]:
+            - generic [ref=e1732]: Fabian Jimenez
+            - generic [ref=e1733]: Junior Landscape Designer
+          - generic [ref=e1734]:
+            - generic [ref=e1735]: Filip Radu
+            - generic [ref=e1736]: Senior Designer
+          - generic [ref=e1737]:
+            - generic [ref=e1738]: Flor Soto Valverde
+            - generic [ref=e1739]: Senior Designer
+          - generic [ref=e1740]:
+            - generic [ref=e1741]: Gabrielle Aquadro
+            - generic [ref=e1742]: Senior BIM Specialist
+          - generic [ref=e1743]:
+            - generic [ref=e1744]: Gianluca Sacco
+            - generic [ref=e1745]: Designer
+          - generic [ref=e1746]:
+            - generic [ref=e1747]: Gözde Uyar
+            - generic [ref=e1748]: Senior Urban/Architectural Designer
+          - generic [ref=e1749]:
+            - generic [ref=e1750]: Hannah Bailey
+            - generic [ref=e1751]: Design Assistant
+          - generic [ref=e1752]:
+            - generic [ref=e1753]: Harry Jiang
+            - generic [ref=e1754]: Design Assistant
+          - generic [ref=e1755]:
+            - generic [ref=e1756]: Hazel Keegan
+            - generic [ref=e1757]: People Manager
+          - generic [ref=e1758]:
+            - generic [ref=e1759]: Hazel Keegan
+            - generic [ref=e1760]: People Manager
+          - generic [ref=e1761]:
+            - generic [ref=e1762]: Ho Sung Joo
+            - generic [ref=e1763]: Junior Designer
+          - generic [ref=e1764]:
+            - generic [ref=e1765]: Hunter Paine
+            - generic [ref=e1766]: Urban/Architectural Designer
+          - generic [ref=e1767]:
+            - generic [ref=e1768]: Jana Semaan
+            - generic [ref=e1769]: Designer
+          - generic [ref=e1770]:
+            - generic [ref=e1771]: Jasmeet Kaur Brar
+            - generic [ref=e1772]: Front Office Coordinator
+          - generic [ref=e1773]:
+            - generic [ref=e1774]: Jazzlyn Jansen
+            - generic [ref=e1775]: Design Assistant
+          - generic [ref=e1776]:
+            - generic [ref=e1777]: Jennifer Kean Proudfoot
+            - generic [ref=e1778]: Head of Business Development, UK
+          - generic [ref=e1779]:
+            - generic [ref=e1780]: Jeppe Stig-Nielsen
+            - generic [ref=e1781]: Head of Project Controlling
+          - generic [ref=e1782]:
+            - generic [ref=e1783]: Jie Zhao
+            - generic [ref=e1784]: Urban Designer
+          - generic [ref=e1785]:
+            - generic [ref=e1786]: Joanna Chau
+            - generic [ref=e1787]: Designer
+          - generic [ref=e1788]:
+            - generic [ref=e1789]: John Foley
+            - generic [ref=e1790]: Architect
+          - generic [ref=e1791]:
+            - generic [ref=e1792]: Juan D. Tovar
+            - generic [ref=e1793]: Urban Designer
+          - generic [ref=e1794]:
+            - generic [ref=e1795]: Judy Wu
+            - generic [ref=e1796]: Design Assistant
+          - generic [ref=e1797]:
+            - generic [ref=e1798]: Julia de Courcy
+            - generic [ref=e1799]: Executive Assistant & Senior Office Coordinator
+          - generic [ref=e1800]:
+            - generic [ref=e1801]: Juliana Ortiz Morales
+            - generic [ref=e1802]: Designer
+          - generic [ref=e1803]:
+            - generic [ref=e1804]: Kaushik Padmanaban
+            - generic [ref=e1805]: IT Assistant
+          - generic [ref=e1806]:
+            - generic [ref=e1807]: Kayu Chan
+            - generic [ref=e1808]: Architect
+          - generic [ref=e1809]:
+            - generic [ref=e1810]: Kosmas Sileloglou
+            - generic [ref=e1811]: Senior Landscape Designer
+          - generic [ref=e1812]:
+            - generic [ref=e1813]: Lennart Hailer
+            - generic [ref=e1814]: Senior Designer
+          - generic [ref=e1815]:
+            - generic [ref=e1816]: Luca Fontana
+            - generic [ref=e1817]: Designer
+          - generic [ref=e1818]:
+            - generic [ref=e1819]: Lydia Kyprioti
+            - generic [ref=e1820]: Urban Designer/Architect
+          - generic [ref=e1821]:
+            - generic [ref=e1822]: Malka Logo
+            - generic [ref=e1823]: Architect
+          - generic [ref=e1824]:
+            - generic [ref=e1825]: Mamoru Hoshi
+            - generic [ref=e1826]: Senior Designer
+          - generic [ref=e1827]:
+            - generic [ref=e1828]: Mandy Wan
+            - generic [ref=e1829]: Junior Landscape Designer
+          - generic [ref=e1830]:
+            - generic [ref=e1831]: María Paula Vélez
+            - generic [ref=e1832]: Senior Architect
+          - generic [ref=e1833]:
+            - generic [ref=e1834]: Matilde Tavanti
+            - generic [ref=e1835]: Senior Architect
+          - generic [ref=e1836]:
+            - generic [ref=e1837]: Mey Yee Cheng
+            - generic [ref=e1838]: Senior Executive Assistant to Andreas Klok Pedersen
+          - generic [ref=e1839]:
+            - generic [ref=e1840]: Michel Ghulmiyyah
+            - generic [ref=e1841]: Senior Designer
+          - generic [ref=e1842]:
+            - generic [ref=e1843]: Michela Cardia
+            - generic [ref=e1844]: Senior Architect
+          - generic [ref=e1845]:
+            - generic [ref=e1846]: Miles Oscar Casalotti-Lochore
+            - generic [ref=e1847]: Design Assistant
+          - generic [ref=e1848]:
+            - generic [ref=e1849]: Ming Cheong
+            - generic [ref=e1850]: Senior Architect
+          - generic [ref=e1851]:
+            - generic [ref=e1852]: Molly Laycock
+            - generic [ref=e1853]: People Coordinator
+          - generic [ref=e1854]:
+            - generic [ref=e1855]: Mon Thi Han
+            - generic [ref=e1856]: Architect
+          - generic [ref=e1857]:
+            - generic [ref=e1858]: Naysan Foroudi
+            - generic [ref=e1859]: Senior Architect
+          - generic [ref=e1860]:
+            - generic [ref=e1861]: Ohyun Kwon
+            - generic [ref=e1862]: Senior Architect
+          - generic [ref=e1863]:
+            - generic [ref=e1864]: Ola Sobczyk
+            - generic [ref=e1865]: Senior Designer
+          - generic [ref=e1866]:
+            - generic [ref=e1867]: Otrebor Jean-Francois
+            - generic [ref=e1868]: Urban Designer
+          - generic [ref=e1869]:
+            - generic [ref=e1870]: Pacharamon (Myla) Danwachira
+            - generic [ref=e1871]: Design Assistant
+          - generic [ref=e1872]:
+            - generic [ref=e1873]: Patricia Urlan
+            - generic [ref=e1874]: Business Development Manager
+          - generic [ref=e1875]:
+            - generic [ref=e1876]: Patrycja Pisarek
+            - generic [ref=e1877]: BIM Specialist
+          - generic [ref=e1878]:
+            - generic [ref=e1879]: Penelope Silva Valqui
+            - generic [ref=e1880]: Junior Landscape Designer
+          - generic [ref=e1881]:
+            - generic [ref=e1882]: Peter Jones
+            - generic [ref=e1883]: Workshop Manager
+          - generic [ref=e1884]:
+            - generic [ref=e1885]: Pierre Wu
+            - generic [ref=e1886]: Junior Designer
+          - generic [ref=e1887]:
+            - generic [ref=e1888]: Qiyun(Kiyo) Song
+            - generic [ref=e1889]: Landscape Designer
+          - generic [ref=e1890]:
+            - generic [ref=e1891]: Rashad Fakhouri
+            - generic [ref=e1892]: Architect
+          - generic [ref=e1893]:
+            - generic [ref=e1894]: Rebecca Mathew
+            - generic [ref=e1895]: Design Assistant
+          - generic [ref=e1896]:
+            - generic [ref=e1897]: Riad Tabbara
+            - generic [ref=e1898]: Designer
+          - generic [ref=e1899]:
+            - generic [ref=e1900]: Rick Sakaushi
+            - generic [ref=e1901]: Designer
+          - generic [ref=e1902]:
+            - generic [ref=e1903]: Riddhima Duggal
+            - generic [ref=e1904]: Junior Urban Designer
+          - generic [ref=e1905]:
+            - generic [ref=e1906]: Romina Gomez Menendez
+            - generic [ref=e1907]: Senior Interior Designer
+          - generic [ref=e1908]:
+            - generic [ref=e1909]: Rory Mclaren
+            - generic [ref=e1910]: Design Assistant
+          - generic [ref=e1911]:
+            - generic [ref=e1912]: Ruggero Buffo
+            - generic [ref=e1913]: Designer
+          - generic [ref=e1914]:
+            - generic [ref=e1915]: Sandra Al-Neyazi
+            - generic [ref=e1916]: Designer
+          - generic [ref=e1917]:
+            - generic [ref=e1918]: Sandra Dus
+            - generic [ref=e1919]: Design Assistant
+          - generic [ref=e1920]:
+            - generic [ref=e1921]: Sara Halaoui
+            - generic [ref=e1922]: Urban Designer
+          - generic [ref=e1923]:
+            - generic [ref=e1924]: Sarah Aladayleh
+            - generic [ref=e1925]: Senior Urban Designer
+          - generic [ref=e1926]:
+            - generic [ref=e1927]: Sarah Huc
+            - generic [ref=e1928]: Senior Urban/Architectural Designer
+          - generic [ref=e1929]:
+            - generic [ref=e1930]: Serena K Purewal
+            - generic [ref=e1931]: Project Administrator
+          - generic [ref=e1932]:
+            - generic [ref=e1933]: Sibilla Bonfanti
+            - generic [ref=e1934]: Senior Designer
+          - generic [ref=e1935]:
+            - generic [ref=e1936]: Sofiia Rokhmaniiko
+            - generic [ref=e1937]: Designer
+          - generic [ref=e1938]:
+            - generic [ref=e1939]: Soohyeon Jeong
+            - generic [ref=e1940]: Designer
+          - generic [ref=e1941]:
+            - generic [ref=e1942]: Tania Farcas
+            - generic [ref=e1943]: Junior Designer
+          - generic [ref=e1944]:
+            - generic [ref=e1945]: Tara Kai
+            - generic [ref=e1946]: Design Assistant
+          - generic [ref=e1947]:
+            - generic [ref=e1948]: Tatiana Vera
+            - generic [ref=e1949]: Landscape Designer
+          - generic [ref=e1950]:
+            - generic [ref=e1951]: Tuya Naz Duzagac
+            - generic [ref=e1952]: Junior Designer
+          - generic [ref=e1953]:
+            - generic [ref=e1954]: Veljko Mladenovic
+            - generic [ref=e1955]: Senior Architect
+          - generic [ref=e1956]:
+            - generic [ref=e1957]: Veronika Kovach
+            - generic [ref=e1958]: Designer
+          - generic [ref=e1959]:
+            - generic [ref=e1960]: Wesley Twiss
+            - generic [ref=e1961]: Bidding & Commercial Manager
+          - generic [ref=e1962]:
+            - generic [ref=e1963]: Xingling Ng
+            - generic [ref=e1964]: Designer
+          - generic [ref=e1965]:
+            - generic [ref=e1966]: Xinyue Gao
+            - generic [ref=e1967]: Junior Landscape Designer
+          - generic [ref=e1968]:
+            - generic [ref=e1969]: Yi Shi
+            - generic [ref=e1970]: Designer
+          - generic [ref=e1971]:
+            - generic [ref=e1972]: Yijia Li
+            - generic [ref=e1973]: Senior Landscape Architect
+          - generic [ref=e1974]:
+            - generic [ref=e1975]: Yiyu Xiong
+            - generic [ref=e1976]: Designer
+          - generic [ref=e1977]:
+            - generic [ref=e1978]: Youngchae Ahn
+            - generic [ref=e1979]: Architect
+          - generic [ref=e1980]:
+            - generic [ref=e1981]: Youssef Ibrahimi
+            - generic [ref=e1982]: IT Manager
+          - generic [ref=e1983]:
+            - generic [ref=e1984]: Yue Xu
+            - generic [ref=e1985]: Designer
+          - generic [ref=e1986]:
+            - generic [ref=e1987]: Yusin Kim
+            - generic [ref=e1988]: Design Assistant
+          - generic [ref=e1989]:
+            - generic [ref=e1990]: Zainab El Khairi
+            - generic [ref=e1991]: Finance Coordinator
+          - generic [ref=e1992]:
+            - generic [ref=e1993]: Zhenni Litri
+            - generic [ref=e1994]: Landscape Designer
+          - generic [ref=e1995]:
+            - generic [ref=e1996]: Zuzana Faskova
+            - generic [ref=e1997]: Designer
+        - generic [ref=e1998]:
+          - heading "BIG New York" [level=3] [ref=e1999]
+          - generic [ref=e2000]:
+            - generic [ref=e2001]: Adam Hur
+            - generic [ref=e2002]: Designer
+          - generic [ref=e2003]:
+            - generic [ref=e2004]: Alejandra Cortes
+            - generic [ref=e2005]: Senior Designer
+          - generic [ref=e2006]:
+            - generic [ref=e2007]: Alyssa Snyder
+            - generic [ref=e2008]: Global Communications Manager
+          - generic [ref=e2009]:
+            - generic [ref=e2010]: Ana Gabriela Loayza
+            - generic [ref=e2011]: Designer
+          - generic [ref=e2012]:
+            - generic [ref=e2013]: Andrea Zalewski
+            - generic [ref=e2014]: Senior Architect
+          - generic [ref=e2015]:
+            - generic [ref=e2016]: Angeliki Tzifa
+            - generic [ref=e2017]: Designer
+          - generic [ref=e2018]:
+            - generic [ref=e2019]: Anirudh Chandar
+            - generic [ref=e2020]: Designer
+          - generic [ref=e2021]:
+            - generic [ref=e2022]: Anne Ryan
+            - generic [ref=e2023]: Head of People
+          - generic [ref=e2024]:
+            - generic [ref=e2025]: Artem Chouliak
+            - generic [ref=e2026]: Designer
+          - generic [ref=e2027]:
+            - generic [ref=e2028]: Aya Muawia Mohamed Elhassan
+            - generic [ref=e2029]: Junior Designer
+          - generic [ref=e2030]:
+            - generic [ref=e2031]: Beka Weaver
+            - generic [ref=e2032]: Legal Counsel
+          - generic [ref=e2033]:
+            - generic [ref=e2034]: Bryan Hardin
+            - generic [ref=e2035]: Senior Architect
+          - generic [ref=e2036]:
+            - generic [ref=e2037]: Caroline Helm
+            - generic [ref=e2038]: Staffing Specialist
+          - generic [ref=e2039]:
+            - generic [ref=e2040]: Cecilia Lo
+            - generic [ref=e2041]: Landscape Designer
+          - generic [ref=e2042]:
+            - generic [ref=e2043]: Charlotte Guyon
+            - generic [ref=e2044]: Senior Interior Designer
+          - generic [ref=e2045]:
+            - generic [ref=e2046]: Cheng Zhong
+            - generic [ref=e2047]: Designer
+          - generic [ref=e2048]:
+            - generic [ref=e2049]: Chiayu Liu
+            - generic [ref=e2050]: Senior Designer
+          - generic [ref=e2051]:
+            - generic [ref=e2052]: Chin Zhu
+            - generic [ref=e2053]: Landscape Designer
+          - generic [ref=e2054]:
+            - generic [ref=e2055]: Christina Papadopoulou
+            - generic [ref=e2056]: Senior Architect
+          - generic [ref=e2057]:
+            - generic [ref=e2058]: Cooper Raposo
+            - generic [ref=e2059]: Design Assistant
+          - generic [ref=e2060]:
+            - generic [ref=e2061]: Crystal Wang
+            - generic [ref=e2062]: Junior Designer
+          - generic [ref=e2063]:
+            - generic [ref=e2064]: Cullen Yoshihiko Fu
+            - generic [ref=e2065]: Designer
+          - generic [ref=e2066]:
+            - generic [ref=e2067]: Cynthia Wang
+            - generic [ref=e2068]: Architect
+          - generic [ref=e2069]:
+            - generic [ref=e2070]: Dan Accordino
+            - generic [ref=e2071]: Designer
+          - generic [ref=e2072]:
+            - generic [ref=e2073]: Daniel Confroy
+            - generic [ref=e2074]: Head of Business Development
+          - generic [ref=e2075]:
+            - generic [ref=e2076]: Davi Weber
+            - generic [ref=e2077]: Senior Architect
+          - generic [ref=e2078]:
+            - generic [ref=e2079]: David Iseri
+            - generic [ref=e2080]: Senior Architect
+          - generic [ref=e2081]:
+            - generic [ref=e2082]: Dina Mahmoud
+            - generic [ref=e2083]: Senior Architect
+          - generic [ref=e2084]:
+            - generic [ref=e2085]: Dominick Concepcion
+            - generic [ref=e2086]: Design Assistant
+          - generic [ref=e2087]:
+            - generic [ref=e2088]: Dominick Concepcion
+            - generic [ref=e2089]: Design Assistant
+          - generic [ref=e2090]:
+            - generic [ref=e2091]: Douglas Brooks
+            - generic [ref=e2092]: Senior Landscape Architect/Designer
+          - generic [ref=e2093]:
+            - generic [ref=e2094]: Dylan Hames
+            - generic [ref=e2095]: Senior Architect
+          - generic [ref=e2096]:
+            - generic [ref=e2097]: Einat Lubliner
+            - generic [ref=e2098]: Senior Urban Designer
+          - generic [ref=e2099]:
+            - generic [ref=e2100]: Eliza Austin
+            - generic [ref=e2101]: Junior Designer
+          - generic [ref=e2102]:
+            - generic [ref=e2103]: Enoch Liu
+            - generic [ref=e2104]: Design Assistant
+          - generic [ref=e2105]:
+            - generic [ref=e2106]: Ethan Floyd
+            - generic [ref=e2107]: Project Coordinator
+          - generic [ref=e2108]:
+            - generic [ref=e2109]: Ethan Holder
+            - generic [ref=e2110]: Design Assistant
+          - generic [ref=e2111]:
+            - generic [ref=e2112]: Ethan Kwok
+            - generic [ref=e2113]: Development & Operations Specialist
+          - generic [ref=e2114]:
+            - generic [ref=e2115]: Evan Hotary
+            - generic [ref=e2116]: Sustainability Specialist
+          - generic [ref=e2117]:
+            - generic [ref=e2118]: Fanyu Lin
+            - generic [ref=e2119]: Business Development Manager
+          - generic [ref=e2120]:
+            - generic [ref=e2121]: Fedah Taqi
+            - generic [ref=e2122]: Junior Designer
+          - generic [ref=e2123]:
+            - generic [ref=e2124]: Foad Sarsangi
+            - generic [ref=e2125]: Designer
+          - generic [ref=e2126]:
+            - generic [ref=e2127]: Gary Polk
+            - generic [ref=e2128]: Senior Designer
+          - generic [ref=e2129]:
+            - generic [ref=e2130]: Gil Kang
+            - generic [ref=e2131]: Designer
+          - generic [ref=e2132]:
+            - generic [ref=e2133]: Giovanni Tripicchio
+            - generic [ref=e2134]: IT Assistant
+          - generic [ref=e2135]:
+            - generic [ref=e2136]: Giulia Pierotti
+            - generic [ref=e2137]: Interior Designer
+          - generic [ref=e2138]:
+            - generic [ref=e2139]: Gyeom Chung
+            - generic [ref=e2140]: Junior Designer
+          - generic [ref=e2141]:
+            - generic [ref=e2142]: Haoran Yuan
+            - generic [ref=e2143]: Junior Designer
+          - generic [ref=e2144]:
+            - generic [ref=e2145]: Hector Romero
+            - generic [ref=e2146]: Senior Designer
+          - generic [ref=e2147]:
+            - generic [ref=e2148]: Hint Sakdanaraseth
+            - generic [ref=e2149]: Designer
+          - generic [ref=e2150]:
+            - generic [ref=e2151]: Hyun-Seung Moon
+            - generic [ref=e2152]: Junior Designer
+          - generic [ref=e2153]:
+            - generic [ref=e2154]: Isabel Garrigó
+            - generic [ref=e2155]: Design Assistant
+          - generic [ref=e2156]:
+            - generic [ref=e2157]: Isela Liu
+            - generic [ref=e2158]: Designer
+          - generic [ref=e2159]:
+            - generic [ref=e2160]: Ivana Perez
+            - generic [ref=e2161]: Office Community Coordinator
+          - generic [ref=e2162]:
+            - generic [ref=e2163]: Jaeho Park
+            - generic [ref=e2164]: Designer
+          - generic [ref=e2165]:
+            - generic [ref=e2166]: James Pratt
+            - generic [ref=e2167]: Senior Designer
+          - generic [ref=e2168]:
+            - generic [ref=e2169]: Jamie Jones
+            - generic [ref=e2170]: Junior Designer
+          - generic [ref=e2171]:
+            - generic [ref=e2172]: Jan Casimir
+            - generic [ref=e2173]: Senior Designer
+          - generic [ref=e2174]:
+            - generic [ref=e2175]: Jan Klaska
+            - generic [ref=e2176]: Senior Designer
+          - generic [ref=e2177]:
+            - generic [ref=e2178]: Janie Green
+            - generic [ref=e2179]: Senior Designer
+          - generic [ref=e2180]:
+            - generic [ref=e2181]: Jarod Poenisch
+            - generic [ref=e2182]: Senior Designer
+          - generic [ref=e2183]:
+            - generic [ref=e2184]: Jaycob Griffin
+            - generic [ref=e2185]: IT Manager
+          - generic [ref=e2186]:
+            - generic [ref=e2187]: Jeannely Lopez
+            - generic [ref=e2188]: Jr EA & FF&E Procurement Coordinator
+          - generic [ref=e2189]:
+            - generic [ref=e2190]: Jeff Tao
+            - generic [ref=e2191]: Model Shop Manager
+          - generic [ref=e2192]:
+            - generic [ref=e2193]: Jennifer Minjee Son
+            - generic [ref=e2194]: Designer
+          - generic [ref=e2195]:
+            - generic [ref=e2196]: Jessica Davies
+            - generic [ref=e2197]: Project Accountant
+          - generic [ref=e2198]:
+            - generic [ref=e2199]: Jessica Guinto
+            - generic [ref=e2200]: Senior Landscape Architect
+          - generic [ref=e2201]:
+            - generic [ref=e2202]: Jialin Yuan
+            - generic [ref=e2203]: Senior Designer
+          - generic [ref=e2204]:
+            - generic [ref=e2205]: Jihoon Kim
+            - generic [ref=e2206]: Junior Designer
+          - generic [ref=e2207]:
+            - generic [ref=e2208]: Jisoo Kim
+            - generic [ref=e2209]: Designer
+          - generic [ref=e2210]:
+            - generic [ref=e2211]: Joanne Zheng
+            - generic [ref=e2212]: Architect
+          - generic [ref=e2213]:
+            - generic [ref=e2214]: John Christopher
+            - generic [ref=e2215]: Junior Designer
+          - generic [ref=e2216]:
+            - generic [ref=e2217]: Julie I. May
+            - generic [ref=e2218]: Global Manager of Archives
+          - generic [ref=e2219]:
+            - generic [ref=e2220]: Kai Huang
+            - generic [ref=e2221]: Junior Designer
+          - generic [ref=e2222]:
+            - generic [ref=e2223]: Kevin Cui
+            - generic [ref=e2224]: Head of Finance
+          - generic [ref=e2225]:
+            - generic [ref=e2226]: Kira Li
+            - generic [ref=e2227]: Senior Accountant
+          - generic [ref=e2228]:
+            - generic [ref=e2229]: Kirat Pandher
+            - generic [ref=e2230]: Designer
+          - generic [ref=e2231]:
+            - generic [ref=e2232]: Lauren Hanson
+            - generic [ref=e2233]: Junior Designer
+          - generic [ref=e2234]:
+            - generic [ref=e2235]: Luana La Martina
+            - generic [ref=e2236]: Visualization Manager
+          - generic [ref=e2237]:
+            - generic [ref=e2238]: Lucia Sanchez Ramirez
+            - generic [ref=e2239]: Senior Designer
+          - generic [ref=e2240]:
+            - generic [ref=e2241]: Mahika Singh
+            - generic [ref=e2242]: Design Assistant
+          - generic [ref=e2243]:
+            - generic [ref=e2244]: Maja Wahlquist
+            - generic [ref=e2245]: Office Community Manager
+          - generic [ref=e2246]:
+            - generic [ref=e2247]: Mama Wu
+            - generic [ref=e2248]: Designer
+          - generic [ref=e2249]:
+            - generic [ref=e2250]: Marc Hargreaves
+            - generic [ref=e2251]: Senior Designer
+          - generic [ref=e2252]:
+            - generic [ref=e2253]: Mateo Deza
+            - generic [ref=e2254]: Designer
+          - generic [ref=e2255]:
+            - generic [ref=e2256]: Matt Adler
+            - generic [ref=e2257]: Senior Architect
+          - generic [ref=e2258]:
+            - generic [ref=e2259]: Megan Octaviani
+            - generic [ref=e2260]: Senior Designer
+          - generic [ref=e2261]:
+            - generic [ref=e2262]: Minjung Ku
+            - generic [ref=e2263]: Architect
+          - generic [ref=e2264]:
+            - generic [ref=e2265]: Myrka Castillo
+            - generic [ref=e2266]: Executive Assistant
+          - generic [ref=e2267]:
+            - generic [ref=e2268]: Nai Yin Wong
+            - generic [ref=e2269]: Senior Architect
+          - generic [ref=e2270]:
+            - generic [ref=e2271]: Naser Fakhouri
+            - generic [ref=e2272]: Junior Designer
+          - generic [ref=e2273]:
+            - generic [ref=e2274]: Nasiq Khan
+            - generic [ref=e2275]: Senior Architect
+          - generic [ref=e2276]:
+            - generic [ref=e2277]: Nate Albers
+            - generic [ref=e2278]: Junior Designer
+          - generic [ref=e2279]:
+            - generic [ref=e2280]: Nate Albers
+            - generic [ref=e2281]: Junior Designer
+          - generic [ref=e2282]:
+            - generic [ref=e2283]: Nicole Fairstone
+            - generic [ref=e2284]: Staffing & Operations Manager
+          - generic [ref=e2285]:
+            - generic [ref=e2286]: Noah Zielinski
+            - generic [ref=e2287]: Design Assistant
+          - generic [ref=e2288]:
+            - generic [ref=e2289]: Norain Chang
+            - generic [ref=e2290]: Designer
+          - generic [ref=e2291]:
+            - generic [ref=e2292]: Novak Djogo
+            - generic [ref=e2293]: Designer
+          - generic [ref=e2294]:
+            - generic [ref=e2295]: Nurlana Mammadli
+            - generic [ref=e2296]: Junior Landscape Designer
+          - generic [ref=e2297]:
+            - generic [ref=e2298]: Pearl Cao
+            - generic [ref=e2299]: Designer
+          - generic [ref=e2300]:
+            - generic [ref=e2301]: Petch Peewsook
+            - generic [ref=e2302]: Landscape Designer
+          - generic [ref=e2303]:
+            - generic [ref=e2304]: Pooja Annamaneni
+            - generic [ref=e2305]: Designer
+          - generic [ref=e2306]:
+            - generic [ref=e2307]: Rachel Claire Wilkins
+            - generic [ref=e2308]: Senior Landscape Designer
+          - generic [ref=e2309]:
+            - generic [ref=e2310]: Rafael Alvarez
+            - generic [ref=e2311]: Senior Architect
+          - generic [ref=e2312]:
+            - generic [ref=e2313]: Rishita Sen
+            - generic [ref=e2314]: Junior Designer
+          - generic [ref=e2315]:
+            - generic [ref=e2316]: Rita Sio
+            - generic [ref=e2317]: Senior Architect
+          - generic [ref=e2318]:
+            - generic [ref=e2319]: Ruijing Sun
+            - generic [ref=e2320]: Junior Designer
+          - generic [ref=e2321]:
+            - generic [ref=e2322]: Ruth Maria Otero Garcia
+            - generic [ref=e2323]: Junior Designer
+          - generic [ref=e2324]:
+            - generic [ref=e2325]: Sam Bager
+            - generic [ref=e2326]: Designer
+          - generic [ref=e2327]:
+            - generic [ref=e2328]: Sam Miller
+            - generic [ref=e2329]: Junior Designer
+          - generic [ref=e2330]:
+            - generic [ref=e2331]: San Yoon
+            - generic [ref=e2332]: Designer
+          - generic [ref=e2333]:
+            - generic [ref=e2334]: Sarah Hahn
+            - generic [ref=e2335]: Communication Specialist
+          - generic [ref=e2336]:
+            - generic [ref=e2337]: Sarah Mollner
+            - generic [ref=e2338]: Executive Assistant
+          - generic [ref=e2339]:
+            - generic [ref=e2340]: Sarah Mollner
+            - generic [ref=e2341]: Executive Assistant
+          - generic [ref=e2342]:
+            - generic [ref=e2343]: Seung Hyo Chang
+            - generic [ref=e2344]: Junior Designer
+          - generic [ref=e2345]:
+            - generic [ref=e2346]: Simon Clarke
+            - generic [ref=e2347]: Proposals & Bidding Manager
+          - generic [ref=e2348]:
+            - generic [ref=e2349]: Siqi Zhang
+            - generic [ref=e2350]: Designer
+          - generic [ref=e2351]:
+            - generic [ref=e2352]: Spencer Hayden
+            - generic [ref=e2353]: Architect
+          - generic [ref=e2354]:
+            - generic [ref=e2355]: Suji Lee
+            - generic [ref=e2356]: Design Technology Specialist
+          - generic [ref=e2357]:
+            - generic [ref=e2358]: Sunghwan Um
+            - generic [ref=e2359]: Designer
+          - generic [ref=e2360]:
+            - generic [ref=e2361]: Sungmin Kim
+            - generic [ref=e2362]: Designer
+          - generic [ref=e2363]:
+            - generic [ref=e2364]: Thakan Navapakpilai
+            - generic [ref=e2365]: Designer
+          - generic [ref=e2366]:
+            - generic [ref=e2367]: Thomas Impiglia
+            - generic [ref=e2368]: Senior Designer
+          - generic [ref=e2369]:
+            - generic [ref=e2370]: Tyler Curtis Krebs
+            - generic [ref=e2371]: Architect
+          - generic [ref=e2372]:
+            - generic [ref=e2373]: Tyler Curtis Krebs
+            - generic [ref=e2374]: Architect
+          - generic [ref=e2375]:
+            - generic [ref=e2376]: Veronica Acosta
+            - generic [ref=e2377]: Senior Designer
+          - generic [ref=e2378]:
+            - generic [ref=e2379]: Vi Madrazo
+            - generic [ref=e2380]: BIM Specialist
+          - generic [ref=e2381]:
+            - generic [ref=e2382]: Victoire Talien Schemestre
+            - generic [ref=e2383]: Designer
+          - generic [ref=e2384]:
+            - generic [ref=e2385]: Won Ryu
+            - generic [ref=e2386]: Senior Designer
+          - generic [ref=e2387]:
+            - generic [ref=e2388]: Yasamin Mayyas
+            - generic [ref=e2389]: Senior Designer
+          - generic [ref=e2390]:
+            - generic [ref=e2391]: Yingzhi Chen
+            - generic [ref=e2392]: Designer
+          - generic [ref=e2393]:
+            - generic [ref=e2394]: Youjin Rhee
+            - generic [ref=e2395]: Junior Designer
+          - generic [ref=e2396]:
+            - generic [ref=e2397]: Yuno Cho
+            - generic [ref=e2398]: Junior Designer
+        - generic [ref=e2399]:
+          - heading "BIG Shanghai" [level=3] [ref=e2400]
+          - generic [ref=e2401]:
+            - generic [ref=e2402]: Daemin Kang
+            - generic [ref=e2403]: Junior Architect
+          - generic [ref=e2404]:
+            - generic [ref=e2405]: Haochen Yu
+            - generic [ref=e2406]: Senior Architect
+          - generic [ref=e2407]:
+            - generic [ref=e2408]: Jacob Li
+            - generic [ref=e2409]: Designer
+          - generic [ref=e2410]:
+            - generic [ref=e2411]: Jacob Li
+            - generic [ref=e2412]: Designer
+          - generic [ref=e2413]:
+            - generic [ref=e2414]: Jiale Yang
+            - generic [ref=e2415]: Junior Architect
+          - generic [ref=e2416]:
+            - generic [ref=e2417]: Jinkun Huang
+            - generic [ref=e2418]: Architect
+          - generic [ref=e2419]:
+            - generic [ref=e2420]: Julien Douillet
+            - generic [ref=e2421]: Architect
+          - generic [ref=e2422]:
+            - generic [ref=e2423]: Lanxin He
+            - generic [ref=e2424]: Junior Architect
+          - generic [ref=e2425]:
+            - generic [ref=e2426]: Lin Liu
+            - generic [ref=e2427]: Senior Architect
+          - generic [ref=e2428]:
+            - generic [ref=e2429]: Norah Wang
+            - generic [ref=e2430]: Senior Architect
+          - generic [ref=e2431]:
+            - generic [ref=e2432]: Perry Zhanhao Fan
+            - generic [ref=e2433]: Business Development Coordinator
+          - generic [ref=e2434]:
+            - generic [ref=e2435]: Shaw Wu
+            - generic [ref=e2436]: Architect
+          - generic [ref=e2437]:
+            - generic [ref=e2438]: Shunjie Bi
+            - generic [ref=e2439]: Designer
+          - generic [ref=e2440]:
+            - generic [ref=e2441]: Wenting Jiang
+            - generic [ref=e2442]: Executive Assistant
+          - generic [ref=e2443]:
+            - generic [ref=e2444]: Yi Yang
+            - generic [ref=e2445]: Senior Architect
+          - generic [ref=e2446]:
+            - generic [ref=e2447]: Yimin Wu
+            - generic [ref=e2448]: Architect
+          - generic [ref=e2449]:
+            - generic [ref=e2450]: Yingying Guan
+            - generic [ref=e2451]: Senior Architect
+          - generic [ref=e2452]:
+            - generic [ref=e2453]: Zhanhao Fan
+            - generic [ref=e2454]: Business Development Coordinator
+        - generic [ref=e2455]:
+          - heading "BIG Los Angeles" [level=3] [ref=e2456]
+          - generic [ref=e2457]:
+            - generic [ref=e2458]: Abigail Meyer
+            - generic [ref=e2459]: Designer
+          - generic [ref=e2460]:
+            - generic [ref=e2461]: Alan Maedo
+            - generic [ref=e2462]: Architect
+          - generic [ref=e2463]:
+            - generic [ref=e2464]: Audrey Aceituno
+            - generic [ref=e2465]: Design Assistant
+          - generic [ref=e2466]:
+            - generic [ref=e2467]: Caitlin Sipos
+            - generic [ref=e2468]: Executive Assistant, Office & Community Coordinator
+          - generic [ref=e2469]:
+            - generic [ref=e2470]: Christina Shin
+            - generic [ref=e2471]: Architect
+          - generic [ref=e2472]:
+            - generic [ref=e2473]: Christopher Ball
+            - generic [ref=e2474]: Senior Designer
+          - generic [ref=e2475]:
+            - generic [ref=e2476]: Cory Hill
+            - generic [ref=e2477]: Senior Architect
+          - generic [ref=e2478]:
+            - generic [ref=e2479]: Hongye Wu
+            - generic [ref=e2480]: Designer
+          - generic [ref=e2481]:
+            - generic [ref=e2482]: Ismael Soto
+            - generic [ref=e2483]: Senior Architect
+          - generic [ref=e2484]:
+            - generic [ref=e2485]: Jahoon Kwon
+            - generic [ref=e2486]: Designer
+          - generic [ref=e2487]:
+            - generic [ref=e2488]: Josh Kim
+            - generic [ref=e2489]: Design Assistant
+          - generic [ref=e2490]:
+            - generic [ref=e2491]: Linqi Dong
+            - generic [ref=e2492]: Senior Architect
+          - generic [ref=e2493]:
+            - generic [ref=e2494]: Logan Martin Scherf White
+            - generic [ref=e2495]: Designer
+          - generic [ref=e2496]:
+            - generic [ref=e2497]: Mads Primdahl Rokkjær
+            - generic [ref=e2498]: Designer
+          - generic [ref=e2499]:
+            - generic [ref=e2500]: Nojan Adami
+            - generic [ref=e2501]: Senior Designer
+          - generic [ref=e2502]:
+            - generic [ref=e2503]: Oskar Alfred Maly
+            - generic [ref=e2504]: Junior Designer
+          - generic [ref=e2505]:
+            - generic [ref=e2506]: Sergio Salvador Ochoa
+            - generic [ref=e2507]: Senior Project Manager
+          - generic [ref=e2508]:
+            - generic [ref=e2509]: Steph Conlan
+            - generic [ref=e2510]: Senior Architect
+          - generic [ref=e2511]:
+            - generic [ref=e2512]: Tara Abedinitafreshi
+            - generic [ref=e2513]: Senior Designer
+          - generic [ref=e2514]:
+            - generic [ref=e2515]: Yao Xiao
+            - generic [ref=e2516]: Junior Designer
+          - generic [ref=e2517]:
+            - generic [ref=e2518]: Yuzaburo Tanaka
+            - generic [ref=e2519]: Senior Designer
+        - generic [ref=e2520]:
+          - heading "BIG Zürich" [level=3] [ref=e2521]
+          - generic [ref=e2522]:
+            - generic [ref=e2523]: Agata Maria Morawczynska
+            - generic [ref=e2524]: Architect
+          - generic [ref=e2525]:
+            - generic [ref=e2526]: Aleksandar Donov
+            - generic [ref=e2527]: Architect
+          - generic [ref=e2528]:
+            - generic [ref=e2529]: Anthony Joseph Cerasoli
+            - generic [ref=e2530]: Senior Architect
+          - generic [ref=e2531]:
+            - generic [ref=e2532]: Bartlomiej Markowski
+            - generic [ref=e2533]: Architect
+          - generic [ref=e2534]:
+            - generic [ref=e2535]: Carolina Cebrero
+            - generic [ref=e2536]: People Manager
+          - generic [ref=e2537]:
+            - generic [ref=e2538]: Catherine Zesch
+            - generic [ref=e2539]: Architect
+          - generic [ref=e2540]:
+            - generic [ref=e2541]: Cristina Greco
+            - generic [ref=e2542]: BIM Manager
+          - generic [ref=e2543]:
+            - generic [ref=e2544]: Dominika Weronika Bugajska
+            - generic [ref=e2545]: Architect
+          - generic [ref=e2546]:
+            - generic [ref=e2547]: Don Toromanoff
+            - generic [ref=e2548]: Architect
+          - generic [ref=e2549]:
+            - generic [ref=e2550]: Gualtiero Rulli
+            - generic [ref=e2551]: Senior Architect
+          - generic [ref=e2552]:
+            - generic [ref=e2553]: Hernan Concha Emmrich
+            - generic [ref=e2554]: Senior Architect
+          - generic [ref=e2555]:
+            - generic [ref=e2556]: Ingo Koller
+            - generic [ref=e2557]: Senior Architect
+          - generic [ref=e2558]:
+            - generic [ref=e2559]: Jessica Lindner
+            - generic [ref=e2560]: Senior Architect
+          - generic [ref=e2561]:
+            - generic [ref=e2562]: Job Schobre
+            - generic [ref=e2563]: Architect
+          - generic [ref=e2564]:
+            - generic [ref=e2565]: Kristina Graf
+            - generic [ref=e2566]: Senior Architect
+          - generic [ref=e2567]:
+            - generic [ref=e2568]: Kristina Schramm
+            - generic [ref=e2569]: Architect
+          - generic [ref=e2570]:
+            - generic [ref=e2571]: Kristina Schramm
+            - generic [ref=e2572]: Architect
+          - generic [ref=e2573]:
+            - generic [ref=e2574]: Léopold Tempez
+            - generic [ref=e2575]: Senior Architect
+          - generic [ref=e2576]:
+            - generic [ref=e2577]: Mark Biemans
+            - generic [ref=e2578]: Senior Architect
+          - generic [ref=e2579]:
+            - generic [ref=e2580]: Maximilian Friedmann
+            - generic [ref=e2581]: Architect
+          - generic [ref=e2582]:
+            - generic [ref=e2583]: Nafe J. Nafe
+            - generic [ref=e2584]: Senior Architect
+          - generic [ref=e2585]:
+            - generic [ref=e2586]: Nicolas Weber Colussi
+            - generic [ref=e2587]: Design Assistant
+          - generic [ref=e2588]:
+            - generic [ref=e2589]: Pablo Álvarez-Sala Caballero
+            - generic [ref=e2590]: Senior Architect
+          - generic [ref=e2591]:
+            - generic [ref=e2592]: Paloma Caballo
+            - generic [ref=e2593]: Senior Architect
+          - generic [ref=e2594]:
+            - generic [ref=e2595]: Paul Robert Cristian
+            - generic [ref=e2596]: Senior Architect
+          - generic [ref=e2597]:
+            - generic [ref=e2598]: Paul Schenck
+            - generic [ref=e2599]: Architect
+          - generic [ref=e2600]:
+            - generic [ref=e2601]: Preety Anand
+            - generic [ref=e2602]: Senior Architect
+          - generic [ref=e2603]:
+            - generic [ref=e2604]: Richard Rivera
+            - generic [ref=e2605]: Senior Architect
+          - generic [ref=e2606]:
+            - generic [ref=e2607]: Sandro Vock
+            - generic [ref=e2608]: Senior Architect
+          - generic [ref=e2609]:
+            - generic [ref=e2610]: Yunhan Lin
+            - generic [ref=e2611]: Senior Architect
+        - generic [ref=e2612]:
+          - heading "BIG Bhutan" [level=3] [ref=e2613]
+          - generic [ref=e2614]:
+            - generic [ref=e2615]: Sonam Seldon Dema
+            - generic [ref=e2616]: Senior Urban Planner & Architect
+    - contentinfo [ref=e2617]:
+      - generic [ref=e2618]:
+        - generic [ref=e2619]:
+          - radio
+          - heading "Email +" [level=4] [ref=e2620] [cursor=pointer]:
+            - text: Email
+            - generic [ref=e2621]: +
+          - generic:
+            - generic: NEW PROJECTS
+            - link "newbiz@big.dk":
+              - /url: mailto:newbiz@big.dk
+            - generic: PRESS
+            - link "press@big.dk":
+              - /url: mailto:press@big.dk
+            - generic: LECTURES
+            - link "lectures@big.dk":
+              - /url: mailto:lectures@big.dk
+            - generic: EXHIBITIONS
+            - link "exhibitions@big.dk":
+              - /url: mailto:exhibitions@big.dk
+        - generic [ref=e2622]:
+          - radio
+          - heading "Office +" [level=4] [ref=e2623] [cursor=pointer]:
+            - text: Office
+            - generic [ref=e2624]: +
+          - generic:
+            - generic:
+              - radio
+              - generic: Copenhagen
+              - paragraph:
+                - text: Sundkaj 165
+                - text: 2150, Nordhavn
+                - link:
+                  - /url: https://goo.gl/maps/R1pmtHqp4Gkqsjtz8
+                - text: Copenhagen, DK
+                - text: +45 7221 7227
+                - text: +45 3512 7227
+                - link "cph@big.dk":
+                  - /url: mailto:cph@big.dk
+            - generic:
+              - radio
+              - generic: London
+              - paragraph:
+                - text: 1 Finsbury Avenue
+                - text: London EC2M 2PF
+                - text: United Kingdom
+                - text: +44 20 3735 4996
+                - link "lon@big.dk":
+                  - /url: mailto:lon@big.dk
+            - generic:
+              - radio
+              - generic: Barcelona
+              - paragraph:
+                - text: Ronda de Sant Pere, 56 Bajos
+                - text: 08010 Barcelona
+                - text: Spain
+                - text: +34 610 029 747
+                - link "bcn@big.dk":
+                  - /url: mailto:bcn@big.dk
+            - generic:
+              - radio
+              - generic: New York
+              - paragraph:
+                - text: 45 Main Street, 9th Floor
+                - text: Brooklyn, NY 11201
+                - text: United States
+                - text: +1 347 549 4141
+                - text: +1 866 738 4336
+                - link "nyc@big.dk":
+                  - /url: mailto:nyc@big.dk
+            - generic:
+              - radio
+              - generic: Shanghai
+              - paragraph:
+                - generic:
+                  - generic:
+                    - text: 363 Chang Ping Road, FL 6
+                    - text: Jing An District, Shanghai
+                - text: China
+                - text: +86 180 1923 8903
+                - link "sha@big.dk":
+                  - /url: mailto:sha@big.dk
+            - generic:
+              - radio
+              - generic: Los Angeles
+              - paragraph:
+                - text: 310 Wilshire Boulevard,
+                - text: 2nd floor
+                - text: Santa Monica, 90401
+                - text: California
+                - generic: +1 310 692 7280
+                - link "lax@big.dk":
+                  - /url: mailto:lax@big.dk
+            - generic:
+              - radio
+              - generic: Zürich
+              - paragraph:
+                - text: Planergemeinschaft Raumfachwerk
+                - text: Flughafenstrasse 90
+                - text: 8302 Kloten
+                - text: Switzerland
+                - link "bigzrh@big.dk":
+                  - /url: mailto:bigzrh@big.dk
+            - generic:
+              - radio
+              - generic: Riyadh
+              - paragraph:
+                - generic:
+                  - text: King Abdullah Financial District
+                  - text: Innovation Blvd – Building 4.07
+                  - text: Riyadh 13519
+                  - text: Kingdom of Saudi Arabia
+                  - link "ksa@big.dk":
+                    - /url: mailto:ksa@big.dk
+        - generic [ref=e2625]:
+          - radio
+          - heading "Social +" [level=4] [ref=e2626] [cursor=pointer]:
+            - text: Social
+            - generic [ref=e2627]: +
+          - generic:
+            - link "Instagram":
+              - /url: https://www.instagram.com/big_builds/
+              - text: Instagram
+              - img
+            - link "X":
+              - /url: https://x.com/BIG_Architects
+              - text: X
+              - img
+            - link "LinkedIn":
+              - /url: https://www.linkedin.com/company/bjarke-ingels-group/
+              - text: LinkedIn
+              - img
+            - link "Vimeo":
+              - /url: https://vimeo.com/user1395824
+              - text: Vimeo
+              - img
+            - link "Facebook":
+              - /url: https://www.facebook.com/bjarke.ingels.group
+              - text: Facebook
+              - img
+            - link "Bjarke Ingels Group WeChat QR Code":
+              - /url: https://weixin.qq.com/r/GjlRSUbEmhvlrQIq92wI
+              - img "Bjarke Ingels Group WeChat QR Code"
+        - generic [ref=e2628]:
+          - radio
+          - heading "Legal +" [level=4] [ref=e2629] [cursor=pointer]:
+            - text: Legal
+            - generic [ref=e2630]: +
+          - generic:
+            - link "BIG’s Anti-Slavery and Human Trafficking Statement 2018":
+              - /url: https://media.big.dk/2024/01/BIGs-anti-slavery-and-human-trafficking-statement-2018.pdf
+            - link "BIG’s Privacy Policy 2024":
+              - /url: https://media.big.dk/privacy-policy-bigdk.pdf
+            - link "BIG UN Global Compact Report":
+              - /url: https://www.unglobalcompact.org/participation/report/cop/create-and-submit/active/446079
+            - link "BIG’s Annual Sustainability Report, 2023":
+              - /url: https://media.big.dk/2024/06/240603-ANNUAL-SUSTAINABILITY-REPORT-2023.pdf
+            - link "Whistleblower Policy":
+              - /url: /whistleblower-policy
+      - button "Back to top" [ref=e2631] [cursor=pointer]
