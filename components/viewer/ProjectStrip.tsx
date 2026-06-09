@@ -1,21 +1,23 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import type { Project } from "@/data/projects";
+import Link from "next/link";
+import { nextProject, type Project } from "@/data/projects";
 
 /**
- * Horizontal "filmstrip" project view, modelled on big.dk:
- * a fixed-height row of panels (hero + info column + full-height images)
- * where vertical wheel input is mapped to horizontal scroll with smoothing.
+ * Horizontal "filmstrip" project view (big.dk-style): a fixed-height row of
+ * panels where wheel/drag input maps to horizontal scroll with smoothing.
+ * On mobile each image panel is full-bleed with a blurred fill behind the
+ * contained image. The final panel links to the next project.
  *
- * `heroRef` is attached to the hero image so the viewer can FLIP it from the
- * clicked homepage card to fullscreen on open.
+ * `onNext`, when provided (viewer), makes the Next panel a button (in-place
+ * crossfade). Without it (standalone page) the Next panel is a link.
  */
 export default function ProjectStrip({
   project,
-  heroRef,
+  onNext,
 }: {
   project: Project;
-  heroRef?: React.Ref<HTMLImageElement>;
+  onNext?: () => void;
 }) {
   const scroller = useRef<HTMLDivElement>(null);
   const target = useRef(0);
@@ -101,6 +103,7 @@ export default function ProjectStrip({
   };
 
   const images = project.images;
+  const next = nextProject(project.slug);
 
   return (
     <div className="flex h-full flex-col">
@@ -114,28 +117,29 @@ export default function ProjectStrip({
         data-cursor="arrow"
       >
         <div className="flex h-full flex-nowrap items-stretch gap-8 px-5 md:gap-16 md:px-10">
-          {/* Hero panel — full height, natural width, so nothing is cropped. */}
-          <section className="relative flex h-full w-[88vw] shrink-0 items-center md:block md:w-auto" style={{ maxWidth: "min(88vw, 1100px)" }}>
+          {/* Hero panel */}
+          <section className="relative flex h-full w-screen shrink-0 items-center justify-center overflow-hidden md:block md:w-auto" style={{ maxWidth: "min(100vw, 1100px)" }}>
             {images[0] && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                ref={heroRef}
-                src={images[0]}
-                alt={project.name}
-                className="h-auto max-h-full w-full max-w-full object-contain md:h-full md:w-auto"
-                draggable={false}
-              />
+              <>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={images[0]} aria-hidden className="absolute inset-0 h-full w-full scale-110 object-cover blur-2xl brightness-[.45] md:hidden" draggable={false} />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={images[0]} alt={project.name} className="relative z-[1] h-auto max-h-full w-full max-w-full object-contain md:h-full md:w-auto" draggable={false} />
+              </>
             )}
-            <div className="absolute bottom-0 left-0 p-6">
+            <div className="absolute bottom-0 left-0 z-[2] p-6">
               <h1 className="text-[clamp(28px,4vw,56px)] uppercase leading-none text-white mix-blend-difference">
                 {project.name}
               </h1>
               <div className="label mt-2 text-white mix-blend-difference">{project.location}</div>
+              <div className="label mt-1 text-white mix-blend-difference md:hidden">
+                {project.type} · {project.year}
+              </div>
             </div>
           </section>
 
-          {/* Info column */}
-          <section className="flex h-full w-[clamp(220px,22vw,300px)] shrink-0 flex-col justify-center">
+          {/* Info column — desktop only */}
+          <section className="hidden h-full w-[clamp(220px,22vw,300px)] shrink-0 flex-col justify-center md:flex">
             <Meta label="Project" value={project.type} />
             <Meta label="Year" value={String(project.year)} />
             <Meta label="Location" value={project.location} />
@@ -145,13 +149,36 @@ export default function ProjectStrip({
             </p>
           </section>
 
-          {/* Remaining images, full height, natural aspect */}
+          {/* Remaining images */}
           {images.slice(1).map((src, i) => (
-            <section key={src} className="relative flex h-full w-[88vw] shrink-0 items-center justify-center md:block md:w-auto">
+            <section key={src} className="relative flex h-full w-screen shrink-0 items-center justify-center overflow-hidden md:block md:w-auto">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={src} alt={`${project.name} — ${i + 2}`} className="h-auto max-h-full w-full object-contain md:h-full md:w-auto" draggable={false} />
+              <img src={src} aria-hidden className="absolute inset-0 h-full w-full scale-110 object-cover blur-2xl brightness-[.45] md:hidden" draggable={false} />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={src} alt={`${project.name} — ${i + 2}`} className="relative z-[1] h-auto max-h-full w-full object-contain md:h-full md:w-auto" draggable={false} />
             </section>
           ))}
+
+          {/* Next project panel */}
+          <section className="flex h-full w-screen shrink-0 flex-col justify-center px-5 md:w-[40vw] md:px-0">
+            {onNext ? (
+              <button type="button" onClick={onNext} className="group/next text-left" aria-label={`Next project: ${next.name}`}>
+                <div className="label meta mb-3">Next project</div>
+                <div className="text-[clamp(28px,4vw,56px)] uppercase leading-none transition-colors group-hover/next:text-accent">
+                  {next.name} →
+                </div>
+                <div className="label meta mt-2">{next.location}</div>
+              </button>
+            ) : (
+              <Link href={`/projects/${next.slug}`} className="group/next" aria-label={`Next project: ${next.name}`}>
+                <div className="label meta mb-3">Next project</div>
+                <div className="text-[clamp(28px,4vw,56px)] uppercase leading-none transition-colors group-hover/next:text-accent">
+                  {next.name} →
+                </div>
+                <div className="label meta mt-2">{next.location}</div>
+              </Link>
+            )}
+          </section>
         </div>
       </div>
 
