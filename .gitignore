@@ -40,6 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# brainstorming visual companion (tool-generated mockups)
+.superpowers/
+
 # local verification artifacts
 .playwright-mcp/
 clone-*.png
