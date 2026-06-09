@@ -28,9 +28,9 @@ describe("ContactPage", () => {
     }
   });
 
-  it("shows the studio label and the street address", () => {
+  it("shows the studio label (with city) and the street address", () => {
     render(<ContactPage />);
-    expect(screen.getByText(/MA Studio & Partners/)).toBeInTheDocument();
+    expect(screen.getByText(`${office.label} — ${office.city}`)).toBeInTheDocument();
     expect(screen.getByText(office.address[0])).toBeInTheDocument();
   });
 
@@ -40,8 +40,14 @@ describe("ContactPage", () => {
   // oversized `.contact-lead` type. Drives the rewrite.
   it("makes email & phone the oversized headline (no separate Contact title)", () => {
     render(<ContactPage />);
+    // no leftover "Contact" page title…
     expect(screen.queryByRole("heading", { name: /^Contact$/i })).toBeNull();
+    // …instead the email itself is the page's h1 (the contact info is the headline)
+    const heading = screen.getByRole("heading", { level: 1 });
+    expect(heading).toHaveTextContent(office.email);
     const email = screen.getByRole("link", { name: office.email });
     expect(email.className).toContain("contact-lead");
+    const phone = screen.getByRole("link", { name: office.phone });
+    expect(phone.className).toContain("contact-lead");
   });
 });

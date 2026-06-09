@@ -19,18 +19,20 @@ export default function ContactPage() {
         </div>
       </div>
 
-      {/* Hero — the contact info IS the headline */}
+      {/* Hero — the contact info IS the headline (the email is the page's h1) */}
       <div>
         <div className="label meta mb-2">Write</div>
-        <a
-          href={`mailto:${office.email}`}
-          className="contact-lead block break-words transition-colors hover:text-accent"
-        >
-          {office.email}
-        </a>
+        <h1>
+          <a
+            href={`mailto:${office.email}`}
+            className="contact-lead block break-words transition-colors hover:text-accent"
+          >
+            {office.email}
+          </a>
+        </h1>
 
         <div className="label meta mb-2 mt-10 md:mt-14">Call</div>
-        <a href={telHref} className="contact-lead block transition-colors hover:text-accent">
+        <a href={telHref} className="contact-lead block break-words transition-colors hover:text-accent">
           {office.phone}
         </a>
       </div>
