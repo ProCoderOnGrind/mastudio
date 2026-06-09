@@ -5,7 +5,10 @@ import ProjectStrip from "./ProjectStrip";
 import { nextProject } from "@/data/projects";
 
 const CLOSE_MS = 900; // fade + slight scale-down, reveals homepage
-const OPEN_MS = 900; // open is the close reversed: fade + scale-up from 0.96
+// Open mirrors the close (fade + scale-up from 0.96). Intentionally a separate
+// constant from CLOSE_MS so the two can be tuned independently; keep them equal
+// unless you specifically want the open and close durations to differ.
+const OPEN_MS = 900;
 const EASE = "cubic-bezier(0.22, 1, 0.36, 1)"; // easeOutQuint
 
 export default function ProjectViewer() {

@@ -10,13 +10,19 @@ function OpenButton() {
 }
 
 describe("ProjectViewer — open animation", () => {
+  // Capture the queued rAF callback so we can assert the appear-from state
+  // (before it runs) and the settled target state (after we run it) deterministically.
+  let rafCb: FrameRequestCallback | null = null;
   beforeEach(() => {
-    // Freeze rAF so the stage holds its appear-from state for assertion.
-    vi.spyOn(window, "requestAnimationFrame").mockImplementation(() => 0);
+    rafCb = null;
+    vi.spyOn(window, "requestAnimationFrame").mockImplementation((cb) => {
+      rafCb = cb;
+      return 1;
+    });
   });
   afterEach(() => vi.restoreAllMocks());
 
-  it("mounts the stage at the mirrored appear-from scale (0.96)", () => {
+  it("opens as the close reversed: scale 0.96 -> 1 with a matching fade-in", () => {
     render(
       <ViewerProvider>
         <OpenButton />
@@ -25,6 +31,17 @@ describe("ProjectViewer — open animation", () => {
     );
     fireEvent.click(screen.getByText("open"));
     const stage = screen.getByTestId("viewer-stage");
+
+    // appear-from state (the mirror of the close's end-state)
     expect(stage.style.transform).toBe("scale(0.96)");
+    expect(stage.style.opacity).toBe("0");
+
+    // run the queued animation frame…
+    expect(typeof rafCb).toBe("function");
+    rafCb?.(0);
+
+    // …and the stage settles at the visible target state
+    expect(stage.style.transform).toBe("scale(1)");
+    expect(stage.style.opacity).toBe("1");
   });
 });
