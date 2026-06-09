@@ -2,61 +2,63 @@
 import { useCallback, useEffect, useLayoutEffect, useRef } from "react";
 import { useViewer } from "./ViewerContext";
 import ProjectStrip from "./ProjectStrip";
+import { nextProject } from "@/data/projects";
 
-const OPEN_MS = 1000; // hero image morph (card -> fullscreen)
 const CLOSE_MS = 900; // fade + slight scale-down, reveals homepage
-const EASE = "cubic-bezier(0.22, 1, 0.36, 1)"; // easeOutQuint — glides into place
+const EASE = "cubic-bezier(0.22, 1, 0.36, 1)"; // easeOutQuint
 
 export default function ProjectViewer() {
-  const { project, rect, close } = useViewer();
+  const { project, open, close } = useViewer();
   const stage = useRef<HTMLDivElement>(null);
   const bg = useRef<HTMLDivElement>(null);
-  const hero = useRef<HTMLImageElement>(null);
+  const prevSlug = useRef<string | null>(null);
   const busy = useRef(false);
 
-  // OPEN: FLIP only the hero image from the clicked card rect to fullscreen,
-  // while the white backdrop + content fade in.
+  // OPEN: fade backdrop in + scale-up the stage (appear). On a project change
+  // while open (Next), crossfade the stage back in (goNext faded it out first).
   useLayoutEffect(() => {
-    if (!project) return;
+    if (!project) {
+      prevSlug.current = null;
+      return;
+    }
     busy.current = false;
     const b = bg.current;
     const s = stage.current;
-    const h = hero.current;
-    if (b) {
-      b.style.transition = "none";
-      b.style.opacity = "0";
-    }
-    if (s) {
+    const firstOpen = prevSlug.current === null;
+    prevSlug.current = project.slug;
+    if (!s) return;
+
+    if (firstOpen) {
+      if (b) {
+        b.style.transition = "none";
+        b.style.opacity = "0";
+      }
+      s.style.transition = "none";
+      s.style.opacity = "0";
+      s.style.transformOrigin = "center";
+      s.style.transform = "scale(0.94)";
+      const id = requestAnimationFrame(() => {
+        if (b) {
+          b.style.transition = `opacity 400ms ${EASE}`;
+          b.style.opacity = "1";
+        }
+        s.style.transition = `opacity 500ms ${EASE}, transform 500ms ${EASE}`;
+        s.style.opacity = "1";
+        s.style.transform = "scale(1)";
+      });
+      return () => cancelAnimationFrame(id);
+    } else {
+      // crossfade-in (the outgoing stage was faded to 0 by goNext)
       s.style.transition = "none";
       s.style.opacity = "0";
       s.style.transform = "none";
-    }
-    if (h && rect) {
-      const t = h.getBoundingClientRect();
-      const sx = rect.width / t.width;
-      const sy = rect.height / t.height;
-      const dx = rect.left - t.left;
-      const dy = rect.top - t.top;
-      h.style.transformOrigin = "top left";
-      h.style.transition = "none";
-      h.style.transform = `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`;
-    }
-    const id = requestAnimationFrame(() => {
-      if (b) {
-        b.style.transition = `opacity 400ms ${EASE}`;
-        b.style.opacity = "1";
-      }
-      if (s) {
-        s.style.transition = `opacity 450ms ${EASE}`;
+      const id = requestAnimationFrame(() => {
+        s.style.transition = `opacity 280ms ${EASE}`;
         s.style.opacity = "1";
-      }
-      if (h) {
-        h.style.transition = `transform ${OPEN_MS}ms ${EASE}`;
-        h.style.transform = "none";
-      }
-    });
-    return () => cancelAnimationFrame(id);
-  }, [project, rect]);
+      });
+      return () => cancelAnimationFrame(id);
+    }
+  }, [project]);
 
   const finish = useCallback(() => {
     close();
@@ -80,6 +82,15 @@ export default function ProjectViewer() {
     b.style.opacity = "0";
     window.setTimeout(finish, CLOSE_MS + 60);
   }, [finish]);
+
+  const goNext = useCallback(() => {
+    const s = stage.current;
+    if (!s || !project) return;
+    const next = nextProject(project.slug);
+    s.style.transition = `opacity 200ms ${EASE}`;
+    s.style.opacity = "0";
+    window.setTimeout(() => open(next), 210);
+  }, [open, project]);
 
   useEffect(() => {
     if (!project) return;
@@ -110,7 +121,7 @@ export default function ProjectViewer() {
           </button>
         </div>
         <div className="h-[calc(100%-56px)]">
-          <ProjectStrip project={project} heroRef={hero} />
+          <ProjectStrip project={project} onNext={goNext} />
         </div>
       </div>
     </div>
