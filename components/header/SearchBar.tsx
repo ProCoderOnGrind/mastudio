@@ -31,8 +31,9 @@ export default function SearchBar() {
 
   // Navigate from pointerdown (fires before the input blurs / iOS dismisses the
   // keyboard) so a touch tap on a chip is never swallowed by the close race.
-  // Right/middle clicks fall through to the Link's default (e.g. open in new tab),
-  // and keyboard Enter uses the href since no pointerdown fires.
+  // Non-primary buttons fall through to the Link's default: middle-click opens a
+  // new tab, right-click opens the context menu. Keyboard Enter uses the href
+  // since no pointerdown fires.
   const goToCategory = (e: React.PointerEvent, href: string) => {
     if (e.button !== 0) return;
     e.preventDefault();
@@ -78,8 +79,11 @@ export default function SearchBar() {
                   href={href}
                   onPointerDown={(e) => goToCategory(e, href)}
                   onClick={(e) => {
-                    // pointer click already navigated via pointerdown; let keyboard (detail 0) through
+                    // pointer click already navigated via pointerdown (suppress the
+                    // duplicate href nav); keyboard Enter (detail 0) navigates via the
+                    // href, so just close the dropdown explicitly.
                     if (e.detail !== 0) e.preventDefault();
+                    else close();
                   }}
                   className="label border border-hairline px-3 py-2.5 transition-colors hover:bg-black hover:text-white sm:px-2 sm:py-1"
                 >

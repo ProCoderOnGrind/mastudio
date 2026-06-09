@@ -34,11 +34,14 @@ describe("SearchBar", () => {
     expect(chip.getAttribute("href")).toBe("/?category=residential");
   });
 
-  it("navigates on pointerdown so taps land before the dropdown closes", () => {
+  it("navigates once on pointerdown; the trailing click does not double-navigate", () => {
     render(<SearchBar />);
     fireEvent.focus(screen.getByLabelText("Search projects and categories"));
     const chip = screen.getByRole("link", { name: "Residential" });
     fireEvent.pointerDown(chip, { button: 0 });
     expect(push).toHaveBeenCalledWith("/?category=residential");
+    // the synthetic click that follows a pointer tap must not navigate again
+    fireEvent.click(chip, { detail: 1 });
+    expect(push).toHaveBeenCalledTimes(1);
   });
 });
