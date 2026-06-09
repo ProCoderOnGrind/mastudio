@@ -28,7 +28,10 @@ export default function ProjectStrip({
   useEffect(() => {
     const el = scroller.current;
     if (!el) return;
-    target.current = el.scrollLeft;
+    // Start each project at the beginning — reset when switching via "Next project".
+    el.scrollLeft = 0;
+    target.current = 0;
+    setProgress(0);
 
     const max = () => el.scrollWidth - el.clientWidth;
     const tick = () => {
