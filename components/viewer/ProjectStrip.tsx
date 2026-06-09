@@ -122,7 +122,7 @@ export default function ProjectStrip({
             {images[0] && (
               <>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={images[0]} aria-hidden className="absolute inset-0 h-full w-full scale-110 object-cover blur-2xl brightness-[.45] md:hidden" draggable={false} />
+                <img src={images[0]} aria-hidden alt="" className="absolute inset-0 h-full w-full scale-110 object-cover blur-2xl brightness-[.45] md:hidden" draggable={false} />
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={images[0]} alt={project.name} className="relative z-[1] h-auto max-h-full w-full max-w-full object-contain md:h-full md:w-auto" draggable={false} />
               </>
@@ -153,7 +153,7 @@ export default function ProjectStrip({
           {images.slice(1).map((src, i) => (
             <section key={src} className="relative flex h-full w-screen shrink-0 items-center justify-center overflow-hidden md:block md:w-auto">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={src} aria-hidden className="absolute inset-0 h-full w-full scale-110 object-cover blur-2xl brightness-[.45] md:hidden" draggable={false} />
+              <img src={src} aria-hidden alt="" className="absolute inset-0 h-full w-full scale-110 object-cover blur-2xl brightness-[.45] md:hidden" draggable={false} />
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={src} alt={`${project.name} — ${i + 2}`} className="relative z-[1] h-auto max-h-full w-full object-contain md:h-full md:w-auto" draggable={false} />
             </section>
