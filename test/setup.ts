@@ -26,3 +26,13 @@ if (!window.matchMedia) {
     dispatchEvent: () => false,
   }));
 }
+
+// jsdom has no PointerEvent — SearchBar chips navigate on pointerdown.
+if (typeof window.PointerEvent === "undefined") {
+  // @ts-expect-error minimal test double extending MouseEvent
+  window.PointerEvent = class PointerEvent extends MouseEvent {
+    constructor(type: string, props: PointerEventInit = {}) {
+      super(type, props);
+    }
+  };
+}

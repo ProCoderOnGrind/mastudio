@@ -1,10 +1,12 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { CATEGORIES } from "@/data/categories";
 import { searchAll } from "@/lib/search";
 
 export default function SearchBar() {
+  const router = useRouter();
   const [focused, setFocused] = useState(false);
   const [q, setQ] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
@@ -25,6 +27,17 @@ export default function SearchBar() {
   const close = () => {
     setFocused(false);
     setQ("");
+  };
+
+  // Navigate from pointerdown (fires before the input blurs / iOS dismisses the
+  // keyboard) so a touch tap on a chip is never swallowed by the close race.
+  // Right/middle clicks fall through to the Link's default (e.g. open in new tab),
+  // and keyboard Enter uses the href since no pointerdown fires.
+  const goToCategory = (e: React.PointerEvent, href: string) => {
+    if (e.button !== 0) return;
+    e.preventDefault();
+    close();
+    router.push(href);
   };
 
   return (
@@ -56,17 +69,24 @@ export default function SearchBar() {
           onMouseDown={(e) => e.preventDefault()}
         >
           <div className="label meta mb-2">Categories</div>
-          <div className="mb-3 flex flex-wrap gap-2">
-            {CATEGORIES.map((c) => (
-              <Link
-                key={c.key}
-                href={`/?category=${c.key}`}
-                onClick={close}
-                className="label border border-hairline px-2 py-1 transition-colors hover:bg-black hover:text-white"
-              >
-                {c.label}
-              </Link>
-            ))}
+          <div className="mb-3 flex flex-wrap gap-2.5 sm:gap-2">
+            {CATEGORIES.map((c) => {
+              const href = `/?category=${c.key}`;
+              return (
+                <Link
+                  key={c.key}
+                  href={href}
+                  onPointerDown={(e) => goToCategory(e, href)}
+                  onClick={(e) => {
+                    // pointer click already navigated via pointerdown; let keyboard (detail 0) through
+                    if (e.detail !== 0) e.preventDefault();
+                  }}
+                  className="label border border-hairline px-3 py-2.5 transition-colors hover:bg-black hover:text-white sm:px-2 sm:py-1"
+                >
+                  {c.label}
+                </Link>
+              );
+            })}
           </div>
           <ul className="max-h-[40vh] overflow-auto">
             {results.map((r) => (
