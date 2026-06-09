@@ -2,17 +2,9 @@
 import { createContext, useCallback, useContext, useState } from "react";
 import type { Project } from "@/data/projects";
 
-export interface OriginRect {
-  left: number;
-  top: number;
-  width: number;
-  height: number;
-}
-
 interface ViewerState {
   project: Project | null;
-  rect: OriginRect | null;
-  open: (project: Project, rect: OriginRect | null) => void;
+  open: (project: Project) => void;
   close: () => void;
 }
 
@@ -20,10 +12,8 @@ const ViewerCtx = createContext<ViewerState | null>(null);
 
 export function ViewerProvider({ children }: { children: React.ReactNode }) {
   const [project, setProject] = useState<Project | null>(null);
-  const [rect, setRect] = useState<OriginRect | null>(null);
 
-  const open = useCallback((p: Project, r: OriginRect | null) => {
-    setRect(r);
+  const open = useCallback((p: Project) => {
     setProject(p);
     if (typeof window !== "undefined") {
       window.history.pushState({ viewer: p.slug }, "", `/projects/${p.slug}`);
@@ -32,9 +22,7 @@ export function ViewerProvider({ children }: { children: React.ReactNode }) {
 
   const close = useCallback(() => setProject(null), []);
 
-  return (
-    <ViewerCtx.Provider value={{ project, rect, open, close }}>{children}</ViewerCtx.Provider>
-  );
+  return <ViewerCtx.Provider value={{ project, open, close }}>{children}</ViewerCtx.Provider>;
 }
 
 export function useViewer() {

@@ -1,5 +1,4 @@
 "use client";
-import { useRef } from "react";
 import Reveal from "@/components/motion/Reveal";
 import BlurImage from "@/components/media/BlurImage";
 import { useViewer } from "@/components/viewer/ViewerContext";
@@ -7,13 +6,11 @@ import type { Project } from "@/data/projects";
 
 export default function ProjectRow({ project, hero = false }: { project: Project; hero?: boolean }) {
   const { open } = useViewer();
-  const imgWrap = useRef<HTMLDivElement>(null);
 
   const handleOpen = (e: React.MouseEvent) => {
     if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
     e.preventDefault();
-    const r = imgWrap.current?.getBoundingClientRect();
-    open(project, r ? { left: r.left, top: r.top, width: r.width, height: r.height } : null);
+    open(project);
   };
 
   return (
@@ -30,7 +27,7 @@ export default function ProjectRow({ project, hero = false }: { project: Project
             <span className="label meta">{project.location}</span>
           </span>
         </div>
-        <div ref={imgWrap} className="overflow-hidden">
+        <div className="overflow-hidden">
           <div className="transition-transform duration-700 ease-[cubic-bezier(.4,0,.2,1)] group-hover:scale-[1.02]">
             <BlurImage
               src={project.images[0]}
