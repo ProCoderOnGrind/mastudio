@@ -5,6 +5,7 @@ import ProjectStrip from "./ProjectStrip";
 import { nextProject } from "@/data/projects";
 
 const CLOSE_MS = 900; // fade + slight scale-down, reveals homepage
+const OPEN_MS = 900; // open is the close reversed: fade + scale-up from 0.96
 const EASE = "cubic-bezier(0.22, 1, 0.36, 1)"; // easeOutQuint
 
 export default function ProjectViewer() {
@@ -36,13 +37,13 @@ export default function ProjectViewer() {
       s.style.transition = "none";
       s.style.opacity = "0";
       s.style.transformOrigin = "center";
-      s.style.transform = "scale(0.94)";
+      s.style.transform = "scale(0.96)";
       const id = requestAnimationFrame(() => {
         if (b) {
-          b.style.transition = `opacity 400ms ${EASE}`;
+          b.style.transition = `opacity ${OPEN_MS}ms ${EASE}`;
           b.style.opacity = "1";
         }
-        s.style.transition = `opacity 500ms ${EASE}, transform 500ms ${EASE}`;
+        s.style.transition = `opacity ${OPEN_MS}ms ${EASE}, transform ${OPEN_MS}ms ${EASE}`;
         s.style.opacity = "1";
         s.style.transform = "scale(1)";
       });
@@ -113,7 +114,7 @@ export default function ProjectViewer() {
   return (
     <div className="fixed inset-0 z-[200]" role="dialog" aria-modal>
       <div ref={bg} className="absolute inset-0 z-[1] bg-white" />
-      <div ref={stage} className="relative z-[2] flex h-full flex-col will-change-[transform,opacity]">
+      <div ref={stage} data-testid="viewer-stage" className="relative z-[2] flex h-full flex-col will-change-[transform,opacity]">
         <div className="flex items-center justify-between px-5 py-4 md:px-10">
           <span className="label">{project.name}</span>
           <button onClick={doClose} aria-label="Close" className="label transition-colors hover:text-accent">
