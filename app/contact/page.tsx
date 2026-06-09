@@ -1,30 +1,54 @@
-import PageTitle from "@/components/PageTitle";
 import { OFFICES, SOCIALS } from "@/data/offices";
 
 const office = OFFICES[0];
 
 export default function ContactPage() {
+  const telHref = `tel:${office.phone.replace(/\s/g, "")}`;
+
   return (
-    <div>
-      <PageTitle>Contact</PageTitle>
-      <div className="grid gap-10 px-5 md:grid-cols-3">
-        <div className="border-t border-hairline pt-3">
-          <div className="label meta mb-2">Studio</div>
-          <div className="label">{office.label}</div>
-          <div className="meta text-[14px]">
-            {office.address.map((line) => <div key={line}>{line}</div>)}
-          </div>
+    <div className="px-5 pt-10 pb-16">
+      {/* Studio label + address — small, secondary */}
+      <div className="mb-16 md:mb-24">
+        <div className="label">
+          {office.label} — {office.city}
         </div>
-        <div className="border-t border-hairline pt-3">
-          <div className="label meta mb-2">Get in touch</div>
-          <a href={`mailto:${office.email}`} className="block text-[14px] hover:text-accent">{office.email}</a>
-          <a href={`tel:${office.phone.replace(/\s/g, "")}`} className="block text-[14px] hover:text-accent">{office.phone}</a>
+        <div className="meta mt-1 text-[13px]">
+          {office.address.map((line) => (
+            <div key={line}>{line}</div>
+          ))}
         </div>
-        <div className="border-t border-hairline pt-3">
-          <div className="label meta mb-2">Follow</div>
+      </div>
+
+      {/* Hero — the contact info IS the headline */}
+      <div>
+        <div className="label meta mb-2">Write</div>
+        <a
+          href={`mailto:${office.email}`}
+          className="contact-lead block break-words transition-colors hover:text-accent"
+        >
+          {office.email}
+        </a>
+
+        <div className="label meta mb-2 mt-10 md:mt-14">Call</div>
+        <a href={telHref} className="contact-lead block transition-colors hover:text-accent">
+          {office.phone}
+        </a>
+      </div>
+
+      {/* Socials */}
+      <div className="mt-16 border-t border-hairline pt-5 md:mt-24">
+        <div className="label meta mb-3">Follow</div>
+        <div className="flex flex-wrap gap-x-6 gap-y-2">
           {SOCIALS.map((s) => (
-            <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer"
-              className="block text-[14px] hover:text-accent">{s.label}</a>
+            <a
+              key={s.label}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="label transition-colors hover:text-accent"
+            >
+              {s.label}
+            </a>
           ))}
         </div>
       </div>
