@@ -73,6 +73,26 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "cofounders",
+        label: "Cofounders",
+        path: "content",
+        format: "json",
+        match: { include: "cofounders" },
+        ui: { allowedActions: { create: false, delete: false } },
+        fields: [
+          {
+            type: "object", name: "founders", label: "Founders", list: true,
+            ui: { itemProps: (i: { name?: string }) => ({ label: i?.name || "Founder" }) },
+            fields: [
+              { type: "string", name: "name", label: "Name" },
+              { type: "string", name: "role", label: "Role" },
+              { type: "string", name: "bio", label: "Bio paragraphs", list: true, ui: { component: "textarea" } },
+              { type: "image", name: "image", label: "Photo" },
+            ],
+          },
+        ],
+      },
     ],
   },
 });
