@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { tinaField } from "tinacms/dist/react";
 import { nextProject, type Project } from "@/data/projects";
 
 /**
@@ -15,9 +16,12 @@ import { nextProject, type Project } from "@/data/projects";
 export default function ProjectStrip({
   project,
   onNext,
+  editTarget,
 }: {
   project: Project;
   onNext?: () => void;
+  /** Raw Tina list item for click-to-edit (dev only); undefined in production. */
+  editTarget?: any;
 }) {
   const scroller = useRef<HTMLDivElement>(null);
   const target = useRef(0);
@@ -127,15 +131,26 @@ export default function ProjectStrip({
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={images[0]} aria-hidden alt="" className="absolute inset-0 h-full w-full scale-110 object-cover blur-2xl brightness-[.45] md:hidden" draggable={false} />
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={images[0]} alt={project.name} className="relative z-[1] h-auto max-h-full w-full max-w-full object-contain md:h-full md:w-auto" draggable={false} />
+                <img src={images[0]} alt={project.name} className="relative z-[1] h-auto max-h-full w-full max-w-full object-contain md:h-full md:w-auto" draggable={false} data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined} />
               </>
             )}
             <div className="absolute bottom-0 left-0 z-[2] p-6">
-              <h1 className="text-[clamp(28px,4vw,56px)] uppercase leading-none text-white mix-blend-difference">
+              <h1
+                className="text-[clamp(28px,4vw,56px)] uppercase leading-none text-white mix-blend-difference"
+                data-tina-field={editTarget ? tinaField(editTarget, "name") : undefined}
+              >
                 {project.name}
               </h1>
-              <div className="label mt-2 text-white mix-blend-difference">{project.location}</div>
-              <div className="label mt-1 text-white mix-blend-difference md:hidden">
+              <div
+                className="label mt-2 text-white mix-blend-difference"
+                data-tina-field={editTarget ? tinaField(editTarget, "location") : undefined}
+              >
+                {project.location}
+              </div>
+              <div
+                className="label mt-1 text-white mix-blend-difference md:hidden"
+                data-tina-field={editTarget ? tinaField(editTarget, "type") : undefined}
+              >
                 {project.type} · {project.year}
               </div>
             </div>
@@ -143,9 +158,9 @@ export default function ProjectStrip({
 
           {/* Info column — desktop only */}
           <section className="hidden h-full w-[clamp(220px,22vw,300px)] shrink-0 flex-col justify-center md:flex">
-            <Meta label="Project" value={project.type} />
-            <Meta label="Year" value={String(project.year)} />
-            <Meta label="Location" value={project.location} />
+            <Meta label="Project" value={project.type} field={editTarget ? tinaField(editTarget, "type") : undefined} />
+            <Meta label="Year" value={String(project.year)} field={editTarget ? tinaField(editTarget, "year") : undefined} />
+            <Meta label="Location" value={project.location} field={editTarget ? tinaField(editTarget, "location") : undefined} />
             <Meta label="Studio" value="MA Studio & Partners" />
             <p className="meta mt-6 text-[14px] leading-relaxed">
               Swipe through the project — or use the wheel and arrow keys.
@@ -158,7 +173,7 @@ export default function ProjectStrip({
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={src} aria-hidden alt="" className="absolute inset-0 h-full w-full scale-110 object-cover blur-2xl brightness-[.45] md:hidden" draggable={false} />
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={src} alt={`${project.name} — ${i + 2}`} className="relative z-[1] h-auto max-h-full w-full object-contain md:h-full md:w-auto" draggable={false} />
+              <img src={src} alt={`${project.name} — ${i + 2}`} className="relative z-[1] h-auto max-h-full w-full object-contain md:h-full md:w-auto" draggable={false} data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined} />
             </section>
           ))}
 
@@ -193,9 +208,9 @@ export default function ProjectStrip({
   );
 }
 
-function Meta({ label, value }: { label: string; value: string }) {
+function Meta({ label, value, field }: { label: string; value: string; field?: string }) {
   return (
-    <div className="mb-3 border-t border-hairline pt-2">
+    <div className="mb-3 border-t border-hairline pt-2" data-tina-field={field}>
       <div className="label meta">{label}</div>
       <div className="label">{value}</div>
     </div>
