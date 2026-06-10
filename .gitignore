@@ -41,9 +41,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# TinaCMS (all generated locally by `tinacms dev`/`build`, regenerated offline on each build)
+# TinaCMS — admin bundle + codegen are regenerated on each build.
+# NOTE: tina/tina-lock.json MUST stay tracked — TinaCloud needs it to index the branch.
 public/admin
-tina/tina-lock.json
 tina/__generated__/
 
 # brainstorming visual companion (tool-generated mockups)
