@@ -40,6 +40,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# TinaCMS
+public/admin
+tina/__generated__/*
+!tina/__generated__/_graphql.json
+!tina/__generated__/_schema.json
+!tina/__generated__/_lookup.json
+
 # brainstorming visual companion (tool-generated mockups)
 .superpowers/
 
