@@ -93,6 +93,36 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "contact",
+        label: "Contact",
+        path: "content",
+        format: "json",
+        match: { include: "contact" },
+        ui: { allowedActions: { create: false, delete: false } },
+        fields: [
+          {
+            type: "object", name: "offices", label: "Offices", list: true,
+            ui: { itemProps: (i: { city?: string }) => ({ label: i?.city || "Office" }) },
+            fields: [
+              { type: "string", name: "city", label: "City" },
+              { type: "string", name: "label", label: "Label" },
+              { type: "string", name: "address", label: "Address lines", list: true },
+              { type: "string", name: "email", label: "Email" },
+              { type: "string", name: "phone", label: "Phone" },
+            ],
+          },
+          {
+            type: "object", name: "socials", label: "Socials", list: true,
+            ui: { itemProps: (i: { label?: string }) => ({ label: i?.label || "Social" }) },
+            fields: [
+              { type: "string", name: "label", label: "Label" },
+              { type: "string", name: "href", label: "URL" },
+            ],
+          },
+          { type: "string", name: "services", label: "Services", list: true },
+        ],
+      },
     ],
   },
 });
