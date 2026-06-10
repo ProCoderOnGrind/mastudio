@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ProjectList from "@/components/project/ProjectList";
+import ProjectListEditable from "@/components/tina/ProjectListEditable";
 import IntroOverlay from "@/components/intro/IntroOverlay";
 import { PROJECTS, projectsByCategory } from "@/data/projects";
 import { isCategoryKey, categoryLabel } from "@/data/categories";
@@ -11,7 +12,21 @@ export default async function Home({
 }) {
   const { category } = await searchParams;
   const active = category && isCategoryKey(category) ? category : null;
-  const projects = active ? projectsByCategory(active) : PROJECTS;
+
+  let list;
+  if (process.env.NODE_ENV !== "production") {
+    const { client } = await import("@/tina/__generated__/client");
+    const res = await client.queries.projects({ relativePath: "projects.json" });
+    list = (
+      <ProjectListEditable
+        activeCategory={active}
+        tina={{ query: res.query, variables: res.variables, data: res.data }}
+      />
+    );
+  } else {
+    const projects = active ? projectsByCategory(active) : PROJECTS;
+    list = <ProjectList projects={projects} />;
+  }
 
   return (
     <div className="pt-4">
@@ -26,7 +41,7 @@ export default async function Home({
           </Link>
         </div>
       )}
-      <ProjectList projects={projects} />
+      {list}
     </div>
   );
 }
