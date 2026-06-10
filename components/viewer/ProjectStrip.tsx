@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { tinaField } from "tinacms/dist/react";
+import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { nextProject, type Project } from "@/data/projects";
 
 /**
@@ -162,6 +163,14 @@ export default function ProjectStrip({
             <Meta label="Year" value={String(project.year)} field={editTarget ? tinaField(editTarget, "year") : undefined} />
             <Meta label="Location" value={project.location} field={editTarget ? tinaField(editTarget, "location") : undefined} />
             <Meta label="Studio" value="MA Studio & Partners" />
+            {project.client && <Meta label="Client" value={project.client} />}
+            {project.status && <Meta label="Status" value={project.status} />}
+            {project.size && <Meta label="Size" value={project.size} />}
+            {project.description ? (
+              <div className="meta mt-6 text-[14px] leading-relaxed [&_p]:mb-3">
+                <TinaMarkdown content={project.description as any} />
+              </div>
+            ) : null}
             <p className="meta mt-6 text-[14px] leading-relaxed">
               Swipe through the project — or use the wheel and arrow keys.
             </p>
@@ -178,25 +187,27 @@ export default function ProjectStrip({
           ))}
 
           {/* Next project panel */}
-          <section className="flex h-full w-screen shrink-0 flex-col justify-center px-5 md:w-[40vw] md:px-0">
-            {onNext ? (
-              <button type="button" onClick={onNext} className="group/next text-left" aria-label={`Next project: ${next.name}`}>
-                <div className="label meta mb-3">Next project</div>
-                <div className="text-[clamp(28px,4vw,56px)] uppercase leading-none transition-colors group-hover/next:text-accent">
-                  {next.name} →
-                </div>
-                <div className="label meta mt-2">{next.location}</div>
-              </button>
-            ) : (
-              <Link href={`/projects/${next.slug}`} className="group/next" aria-label={`Next project: ${next.name}`}>
-                <div className="label meta mb-3">Next project</div>
-                <div className="text-[clamp(28px,4vw,56px)] uppercase leading-none transition-colors group-hover/next:text-accent">
-                  {next.name} →
-                </div>
-                <div className="label meta mt-2">{next.location}</div>
-              </Link>
-            )}
-          </section>
+          {next && (
+            <section className="flex h-full w-screen shrink-0 flex-col justify-center px-5 md:w-[40vw] md:px-0">
+              {onNext ? (
+                <button type="button" onClick={onNext} className="group/next text-left" aria-label={`Next project: ${next.name}`}>
+                  <div className="label meta mb-3">Next project</div>
+                  <div className="text-[clamp(28px,4vw,56px)] uppercase leading-none transition-colors group-hover/next:text-accent">
+                    {next.name} →
+                  </div>
+                  <div className="label meta mt-2">{next.location}</div>
+                </button>
+              ) : (
+                <Link href={`/projects/${next.slug}`} className="group/next" aria-label={`Next project: ${next.name}`}>
+                  <div className="label meta mb-3">Next project</div>
+                  <div className="text-[clamp(28px,4vw,56px)] uppercase leading-none transition-colors group-hover/next:text-accent">
+                    {next.name} →
+                  </div>
+                  <div className="label meta mt-2">{next.location}</div>
+                </Link>
+              )}
+            </section>
+          )}
         </div>
       </div>
 
