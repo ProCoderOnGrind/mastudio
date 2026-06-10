@@ -1,9 +1,16 @@
 import { defineConfig } from "tinacms";
 
+// Local-only when these are unset (clientId/token null -> `tinacms ... --local`).
+// On a host (e.g. Vercel) set NEXT_PUBLIC_TINA_CLIENT_ID + TINA_TOKEN to enable
+// the hosted Tina Cloud admin, which commits edits to the connected Git branch.
 export default defineConfig({
-  branch: "master",
-  clientId: null, // local-only, no Tina Cloud
-  token: null,
+  // On Vercel, VERCEL_GIT_COMMIT_REF is the deployed branch automatically.
+  branch:
+    process.env.NEXT_PUBLIC_TINA_BRANCH ||
+    process.env.VERCEL_GIT_COMMIT_REF ||
+    "master",
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID || null,
+  token: process.env.TINA_TOKEN || null,
   build: { outputFolder: "admin", publicFolder: "public" },
   media: {
     tina: { mediaRoot: "", publicFolder: "public" },
