@@ -1,5 +1,6 @@
 import maData from "@/content/projects.json";
 import { categoryForType, type CategoryKey } from "@/data/categories";
+import { findProject, filterByCategory, getNextProject } from "@/lib/projectHelpers";
 
 export interface Project {
   slug: string;
@@ -31,14 +32,13 @@ export const PROJECTS: Project[] = (maData as { projects: RawProject[] }).projec
 }));
 
 export function getProject(slug: string): Project | undefined {
-  return PROJECTS.find((p) => p.slug === slug);
+  return findProject(PROJECTS, slug);
 }
 
 export function projectsByCategory(cat: string): Project[] {
-  return PROJECTS.filter((p) => p.category === cat);
+  return filterByCategory(PROJECTS, cat);
 }
 
 export function nextProject(slug: string): Project {
-  const i = PROJECTS.findIndex((p) => p.slug === slug);
-  return PROJECTS[(i + 1) % PROJECTS.length];
+  return getNextProject(PROJECTS, slug)!; // PROJECTS is non-empty; preserves prior non-undefined return type
 }
