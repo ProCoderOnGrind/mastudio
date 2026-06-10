@@ -163,11 +163,11 @@ export default function ProjectStrip({
             <Meta label="Year" value={String(project.year)} field={editTarget ? tinaField(editTarget, "year") : undefined} />
             <Meta label="Location" value={project.location} field={editTarget ? tinaField(editTarget, "location") : undefined} />
             <Meta label="Studio" value="MA Studio & Partners" />
-            {project.client && <Meta label="Client" value={project.client} />}
-            {project.status && <Meta label="Status" value={project.status} />}
-            {project.size && <Meta label="Size" value={project.size} />}
+            {project.client && <Meta label="Client" value={project.client} field={editTarget ? tinaField(editTarget, "client") : undefined} />}
+            {project.status && <Meta label="Status" value={project.status} field={editTarget ? tinaField(editTarget, "status") : undefined} />}
+            {project.size && <Meta label="Size" value={project.size} field={editTarget ? tinaField(editTarget, "size") : undefined} />}
             {project.description ? (
-              <div className="meta mt-6 text-[14px] leading-relaxed [&_p]:mb-3">
+              <div className="meta mt-6 text-[14px] leading-relaxed [&_p]:mb-3" data-tina-field={editTarget ? tinaField(editTarget, "description") : undefined}>
                 <TinaMarkdown content={project.description as any} />
               </div>
             ) : null}
