@@ -31,4 +31,11 @@ describe("projects data", () => {
     const last = PROJECTS[PROJECTS.length - 1];
     expect(nextProject(last.slug).slug).toBe(PROJECTS[0].slug);
   });
+  it("optional rich fields are absent or correctly typed", () => {
+    for (const p of PROJECTS) {
+      if (p.client !== undefined) expect(typeof p.client).toBe("string");
+      if (p.status !== undefined) expect(typeof p.status).toBe("string");
+      if (p.size !== undefined) expect(typeof p.size).toBe("string");
+    }
+  });
 });

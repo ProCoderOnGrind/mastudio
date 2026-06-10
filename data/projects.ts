@@ -10,6 +10,10 @@ export interface Project {
   location: string;
   category: CategoryKey;
   images: string[];    // local image paths under /public
+  description?: unknown;   // Tina rich-text AST (rendered via TinaMarkdown later)
+  client?: string;
+  status?: string;
+  size?: string;
 }
 
 interface RawProject {
@@ -19,6 +23,10 @@ interface RawProject {
   year: number;
   location: string;
   images: string[];
+  description?: unknown;   // Tina rich-text AST (rendered via TinaMarkdown later)
+  client?: string;
+  status?: string;
+  size?: string;
 }
 
 export const PROJECTS: Project[] = (maData as { projects: RawProject[] }).projects.map((p) => ({
@@ -29,6 +37,10 @@ export const PROJECTS: Project[] = (maData as { projects: RawProject[] }).projec
   location: p.location,
   category: categoryForType(p.type),
   images: p.images,
+  description: p.description,
+  client: p.client,
+  status: p.status,
+  size: p.size,
 }));
 
 export function getProject(slug: string): Project | undefined {

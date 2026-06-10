@@ -27,6 +27,10 @@ export default function ProjectDetailEditable(props: {
     location: raw.location,
     category: categoryForType(raw.type),
     images: (raw.images ?? []).filter(Boolean),
+    description: raw.description,
+    client: raw.client,
+    status: raw.status,
+    size: raw.size,
   };
   return <ProjectPageView project={project} editTarget={raw} />;
 }

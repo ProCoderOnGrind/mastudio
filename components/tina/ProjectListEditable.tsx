@@ -24,6 +24,10 @@ export default function ProjectListEditable(props: {
     location: p.location,
     category: categoryForType(p.type),
     images: (p.images ?? []).filter(Boolean),
+    description: p.description,
+    client: p.client,
+    status: p.status,
+    size: p.size,
   }));
   const projects =
     props.activeCategory && isCategoryKey(props.activeCategory)
