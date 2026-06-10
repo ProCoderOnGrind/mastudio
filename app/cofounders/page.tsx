@@ -1,19 +1,22 @@
 import PageTitle from "@/components/PageTitle";
-import Reveal from "@/components/motion/Reveal";
-import FounderCard from "@/components/founder/FounderCard";
+import FoundersList from "@/components/founder/FoundersList";
 import { FOUNDERS } from "@/data/founders";
 
-export default function CoFoundersPage() {
+export default async function CoFoundersPage() {
+  let foundersNode;
+  if (process.env.NODE_ENV !== "production") {
+    const { client } = await import("@/tina/__generated__/client");
+    const res = await client.queries.cofounders({ relativePath: "cofounders.json" });
+    const CofoundersEditable = (await import("@/components/tina/CofoundersEditable")).default;
+    foundersNode = <CofoundersEditable tina={{ query: res.query, variables: res.variables, data: res.data }} />;
+  } else {
+    foundersNode = <FoundersList founders={FOUNDERS} />;
+  }
+
   return (
     <div>
       <PageTitle>Co-Founders</PageTitle>
-      <div className="grid gap-10 px-5 md:grid-cols-2">
-        {FOUNDERS.map((f, i) => (
-          <Reveal key={f.name} delay={i * 60}>
-            <FounderCard founder={f} />
-          </Reveal>
-        ))}
-      </div>
+      {foundersNode}
     </div>
   );
 }

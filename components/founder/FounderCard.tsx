@@ -1,9 +1,10 @@
 "use client";
 import { useState } from "react";
+import { tinaField } from "tinacms/dist/react";
 import BlurImage from "@/components/media/BlurImage";
 import type { Founder } from "@/data/founders";
 
-export default function FounderCard({ founder }: { founder: Founder }) {
+export default function FounderCard({ founder, editTarget }: { founder: Founder; editTarget?: any }) {
   const [revealed, setRevealed] = useState(false);
   return (
     <div className="border-t border-hairline pt-4">
@@ -21,6 +22,7 @@ export default function FounderCard({ founder }: { founder: Founder }) {
             filter: revealed ? "blur(8px)" : "blur(0px)",
             transform: revealed ? "scale(1.04)" : "scale(1)",
           }}
+          data-tina-field={editTarget ? tinaField(editTarget, "image") : undefined}
         >
           <BlurImage
             src={founder.image}
@@ -36,12 +38,12 @@ export default function FounderCard({ founder }: { founder: Founder }) {
           style={{ opacity: revealed ? 1 : 0, pointerEvents: revealed ? "auto" : "none" }}
         >
           {founder.bio.map((p, i) => (
-            <p key={i} className="text-[13px] leading-relaxed">{p}</p>
+            <p key={i} className="text-[13px] leading-relaxed" data-tina-field={editTarget ? tinaField(editTarget, "bio") : undefined}>{p}</p>
           ))}
         </div>
       </button>
-      <div className="mt-3 text-[18px] leading-tight">{founder.name}</div>
-      <div className="label meta">{founder.role}</div>
+      <div className="mt-3 text-[18px] leading-tight" data-tina-field={editTarget ? tinaField(editTarget, "name") : undefined}>{founder.name}</div>
+      <div className="label meta" data-tina-field={editTarget ? tinaField(editTarget, "role") : undefined}>{founder.role}</div>
     </div>
   );
 }
