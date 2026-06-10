@@ -9,7 +9,7 @@ const gallery = PROJECTS.filter((p) => p.images.length).slice(0, 8);
 
 export default async function AboutPage() {
   let aboutNode;
-  if (process.env.NODE_ENV !== "production") {
+  if (process.env.NODE_ENV === "development") {
     const { client } = await import("@/tina/__generated__/client");
     const res = await client.queries.about({ relativePath: "about.json" });
     const AboutEditable = (await import("@/components/tina/AboutEditable")).default;

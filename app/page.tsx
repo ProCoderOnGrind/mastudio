@@ -14,7 +14,7 @@ export default async function Home({
   const active = category && isCategoryKey(category) ? category : null;
 
   let list;
-  if (process.env.NODE_ENV !== "production") {
+  if (process.env.NODE_ENV === "development") {
     const { client } = await import("@/tina/__generated__/client");
     const res = await client.queries.projects({ relativePath: "projects.json" });
     list = (

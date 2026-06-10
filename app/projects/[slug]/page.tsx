@@ -24,7 +24,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   // Dev only: fetch via the local Tina GraphQL server and render the editable
   // wrapper for visual click-to-edit. The dynamic import keeps the Tina network
   // client out of the production build (where the local server isn't running).
-  if (process.env.NODE_ENV !== "production") {
+  if (process.env.NODE_ENV === "development") {
     const { client } = await import("@/tina/__generated__/client");
     const res = await client.queries.projects({ relativePath: "projects.json" });
     return (

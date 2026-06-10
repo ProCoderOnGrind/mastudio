@@ -40,13 +40,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# TinaCMS
+# TinaCMS (all generated locally by `tinacms dev`/`build`, regenerated offline on each build)
 public/admin
 tina/tina-lock.json
-tina/__generated__/*
-!tina/__generated__/_graphql.json
-!tina/__generated__/_schema.json
-!tina/__generated__/_lookup.json
+tina/__generated__/
 
 # brainstorming visual companion (tool-generated mockups)
 .superpowers/

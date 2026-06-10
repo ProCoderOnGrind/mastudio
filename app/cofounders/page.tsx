@@ -4,7 +4,7 @@ import { FOUNDERS } from "@/data/founders";
 
 export default async function CoFoundersPage() {
   let foundersNode;
-  if (process.env.NODE_ENV !== "production") {
+  if (process.env.NODE_ENV === "development") {
     const { client } = await import("@/tina/__generated__/client");
     const res = await client.queries.cofounders({ relativePath: "cofounders.json" });
     const CofoundersEditable = (await import("@/components/tina/CofoundersEditable")).default;
