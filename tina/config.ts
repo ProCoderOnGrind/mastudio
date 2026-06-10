@@ -46,6 +46,33 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "about",
+        label: "About",
+        path: "content",
+        format: "json",
+        match: { include: "about" },
+        ui: { allowedActions: { create: false, delete: false } },
+        fields: [
+          {
+            type: "object", name: "sections", label: "Sections", list: true,
+            ui: { itemProps: (i: { title?: string }) => ({ label: i?.title || "Section" }) },
+            fields: [
+              { type: "string", name: "title", label: "Title" },
+              { type: "string", name: "body", label: "Body paragraphs", list: true, ui: { component: "textarea" } },
+              { type: "string", name: "items", label: "Items", list: true },
+              {
+                type: "object", name: "subsections", label: "Subsections", list: true,
+                ui: { itemProps: (i: { title?: string }) => ({ label: i?.title || "Subsection" }) },
+                fields: [
+                  { type: "string", name: "title", label: "Title" },
+                  { type: "string", name: "body", label: "Body paragraphs", list: true, ui: { component: "textarea" } },
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 });
