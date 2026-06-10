@@ -43,7 +43,7 @@
 ## 3. Architecture (4 layers)
 
 ### Layer 1 — Content files (source of truth, in repo)
-- Projects: `ma-projects.json` → **one file per project** under `content/projects/<slug>.json` (Tina collection with `format: json`, or markdown body if we want rich text for description).
+- Projects: `ma-projects.json` → **single document `content/projects.json` with a `projects` list** (Tina collection, single document). Note: a multi-file collection cannot be used here because `PROJECTS` is bundled into the client by `lib/search.ts` (used by the `SearchBar` client component), requiring a synchronous static JSON import — which a multi-file collection cannot provide without codegen.
 - About: `data/about.ts` → `content/about/index.json` (single document; nested sections modeled as object/list fields).
 - Cofounders: `data/founders.ts` → `content/cofounders/index.json` (list of founders).
 - Contact/Offices: `data/offices.ts` → `content/contact/index.json` (offices, socials, services).
@@ -51,7 +51,7 @@
 
 ### Layer 2 — Tina schema (`tina/config.ts`)
 - Defines collections, fields, and the media folder. Generates a typed client + GraphQL API into `tina/__generated__/`.
-- Collections: `projects` (multi-doc), `about` / `cofounders` / `contact` (single-doc singletons).
+- Collections: `projects` (single doc — `content/projects.json` with a `projects` list), `about` / `cofounders` / `contact` (single-doc singletons).
 
 ### Layer 3 — Data-access shim (isolation boundary)
 - `data/projects.ts` keeps its **exact public API**: the `Project` interface and `getProject`, `projectsByCategory`, `nextProject`, plus `PROJECTS`. Internally it sources from Tina's generated content instead of a static JSON import.
@@ -73,7 +73,7 @@ The static (non-edit) render path must remain unchanged for normal visitors; Tin
 
 ## 4. Collection Schemas
 
-### `projects` (multi-document — full CRUD)
+### `projects` (single document `content/projects.json` with a `projects` list — full CRUD)
 | Field | Type | Notes |
 |---|---|---|
 | `name` | string | required; project title |
@@ -105,7 +105,7 @@ List of founders: `name`, `role`, `bio` (rich-text), optional `image`.
 ## 5. Migration
 
 One-time conversion (scriptable), each verified against current rendered output:
-1. `ma-projects.json` → `content/projects/<slug>.json` files (new fields default empty/absent).
+1. `ma-projects.json` → **`content/projects.json`** (single document with a `projects` list; new fields default empty/absent). Multi-file per-project is not viable because `PROJECTS` must be a synchronous static import for `lib/search.ts` / `SearchBar` (client component).
 2. `about.ts` → `content/about/index.json`.
 3. `founders.ts` → `content/cofounders/index.json`.
 4. `offices.ts` → `content/contact/index.json`.

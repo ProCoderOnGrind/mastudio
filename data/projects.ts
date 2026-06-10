@@ -1,4 +1,4 @@
-import maData from "@/data/ma-projects.json";
+import maData from "@/content/projects.json";
 import { categoryForType, type CategoryKey } from "@/data/categories";
 
 export interface Project {
@@ -20,7 +20,7 @@ interface RawProject {
   images: string[];
 }
 
-export const PROJECTS: Project[] = (maData as RawProject[]).map((p) => ({
+export const PROJECTS: Project[] = (maData as { projects: RawProject[] }).projects.map((p) => ({
   slug: p.slug,
   name: p.name,
   type: p.type,
