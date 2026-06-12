@@ -37,11 +37,11 @@ export default function NavLinks() {
         {open && (
           <>
             <div
-              className="fixed inset-x-0 top-[72px] z-[70] h-[calc(100dvh-72px)] bg-black/20"
+              className="fixed inset-x-0 top-[56px] z-[70] h-[calc(100dvh-56px)] bg-black/20"
               aria-hidden
               onClick={() => setOpen(false)}
             />
-            <nav className="fixed inset-x-0 top-[72px] z-[71] flex flex-col border-t border-hairline bg-white px-5 py-1">
+            <nav className="fixed inset-x-0 top-[56px] z-[71] flex flex-col border-t border-hairline bg-white px-5 py-1">
               {NAV.map((n) => (
                 <Link
                   key={n.href}

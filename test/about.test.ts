@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { ABOUT_SECTIONS } from "@/data/about";
 
 describe("about sections data", () => {
-  it("lists sections 2–10 in order", () => {
+  it("lists sections in order", () => {
     expect(ABOUT_SECTIONS.map((s) => s.title)).toEqual([
       "Profile & Philosophy",
       "Company Profile",
@@ -11,7 +11,6 @@ describe("about sections data", () => {
       "Awards",
       "International Conferences",
       "Company Expertise",
-      "Sustainability",
       "Office Structure",
     ]);
   });

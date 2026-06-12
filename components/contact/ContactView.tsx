@@ -14,6 +14,9 @@ export default function ContactView({
   editSocials?: any[];
 }) {
   const telHref = `tel:${office.phone.replace(/\s/g, "")}`;
+  // Geocode query from the studio address; the embed needs no API key.
+  const mapQuery = encodeURIComponent([...office.address, office.city].join(", "));
+  const mapSrc = `https://www.google.com/maps?q=${mapQuery}&z=15&output=embed`;
 
   return (
     <div className="px-5 pt-10 pb-16">
@@ -43,7 +46,7 @@ export default function ContactView({
         <h1>
           <a
             href={`mailto:${office.email}`}
-            className="contact-lead block break-words transition-colors hover:text-accent"
+            className="contact-lead block break-words transition-colors hover:text-[#16a34a]"
             data-tina-field={editOffice ? tinaField(editOffice, "email") : undefined}
           >
             {office.email}
@@ -53,7 +56,7 @@ export default function ContactView({
         <div className="label meta mb-2 mt-10 md:mt-14">Call</div>
         <a
           href={telHref}
-          className="contact-lead block break-words transition-colors hover:text-accent"
+          className="contact-lead block break-words transition-colors hover:text-[#16a34a]"
           data-tina-field={editOffice ? tinaField(editOffice, "phone") : undefined}
         >
           {office.phone}
@@ -76,6 +79,20 @@ export default function ContactView({
               {s.label}
             </a>
           ))}
+        </div>
+      </div>
+
+      {/* Interactive map — real Google Maps embed inverted to a black theme */}
+      <div className="mt-16 border-t border-hairline pt-5 md:mt-24">
+        <div className="label meta mb-3">Find us</div>
+        <div className="relative aspect-[16/11] w-full overflow-hidden bg-black md:aspect-[21/9]">
+          <iframe
+            title={`Map — ${office.label}, ${office.city}`}
+            src={mapSrc}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="absolute inset-0 h-full w-full border-0 [filter:invert(0.92)_hue-rotate(180deg)_brightness(0.95)_contrast(0.9)]"
+          />
         </div>
       </div>
     </div>

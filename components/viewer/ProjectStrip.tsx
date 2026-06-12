@@ -126,14 +126,10 @@ export default function ProjectStrip({
       >
         <div className="flex h-full flex-nowrap items-stretch gap-8 px-5 md:gap-16 md:px-10">
           {/* Hero panel */}
-          <section className="relative flex h-full w-screen shrink-0 items-center justify-center overflow-hidden md:block md:w-auto" style={{ maxWidth: "min(100vw, 1100px)" }}>
+          <section className="relative flex h-full w-screen shrink-0 items-center justify-center overflow-hidden bg-[#f4f4f3] md:block md:w-auto md:bg-transparent" style={{ maxWidth: "min(100vw, 1100px)" }}>
             {images[0] && (
-              <>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={images[0]} aria-hidden alt="" className="absolute inset-0 h-full w-full scale-110 object-cover blur-2xl brightness-[.45] md:hidden" draggable={false} />
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={images[0]} alt={project.name} className="relative z-[1] h-auto max-h-full w-full max-w-full object-contain md:h-full md:w-auto" draggable={false} data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined} />
-              </>
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img src={images[0]} alt={project.name} className="relative z-[1] h-auto max-h-full w-full max-w-full object-contain md:h-full md:w-auto" draggable={false} data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined} />
             )}
             <div className="absolute bottom-0 left-0 z-[2] p-6">
               <h1
@@ -176,13 +172,19 @@ export default function ProjectStrip({
             </p>
           </section>
 
-          {/* Remaining images */}
+          {/* Remaining images — light surface; the empty space carries an index caption */}
           {images.slice(1).map((src, i) => (
-            <section key={src} className="relative flex h-full w-screen shrink-0 items-center justify-center overflow-hidden md:block md:w-auto">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={src} aria-hidden alt="" className="absolute inset-0 h-full w-full scale-110 object-cover blur-2xl brightness-[.45] md:hidden" draggable={false} />
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={src} alt={`${project.name} — ${i + 2}`} className="relative z-[1] h-auto max-h-full w-full object-contain md:h-full md:w-auto" draggable={false} data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined} />
+            <section key={src} className="relative flex h-full w-screen shrink-0 flex-col overflow-hidden bg-[#f4f4f3] md:block md:w-auto md:bg-transparent">
+              <div className="flex items-baseline justify-between px-6 pt-6 md:hidden">
+                <span className="label">{project.name}</span>
+                <span className="label meta">
+                  {String(i + 2).padStart(2, "0")} / {String(images.length).padStart(2, "0")}
+                </span>
+              </div>
+              <div className="flex min-h-0 flex-1 items-center justify-center overflow-hidden md:contents">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={src} alt={`${project.name} — ${i + 2}`} className="h-auto max-h-full w-full object-contain md:h-full md:w-auto" draggable={false} data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined} />
+              </div>
             </section>
           ))}
 
