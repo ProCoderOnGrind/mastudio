@@ -3,10 +3,11 @@ import { render, screen } from "@testing-library/react";
 import NavLinks from "@/components/header/NavLinks";
 
 describe("NavLinks", () => {
-  it("renders the four primary links with correct hrefs", () => {
+  it("renders the primary links with correct hrefs", () => {
     render(<NavLinks />);
     const expected: [string, string][] = [
       ["Projects", "/"],
+      ["Blog", "/blog"],
       ["About", "/about"],
       ["Contact", "/contact"],
       ["CoFounders", "/cofounders"],

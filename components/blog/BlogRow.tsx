@@ -1,0 +1,62 @@
+"use client";
+import Reveal from "@/components/motion/Reveal";
+import BlurImage from "@/components/media/BlurImage";
+import { tinaField } from "tinacms/dist/react";
+import { formatPostDate, postCategoryLabel, type Post } from "@/data/posts";
+
+/**
+ * One blog entry — big.dk's news index recreated in the MA Studio clone's
+ * editorial row style (hairline divider, label meta, seeded BlurImage). When an
+ * `editTarget` is supplied (dev/Tina mode) the fields carry click-to-edit
+ * bindings, mirroring ProjectRow. Listing-only: there is no detail route.
+ */
+export default function BlogRow({
+  post,
+  hero = false,
+  editTarget,
+}: {
+  post: Post;
+  hero?: boolean;
+  editTarget?: any;
+}) {
+  return (
+    <Reveal>
+      <article className="grid grid-cols-1 items-center gap-5 border-t border-hairline px-5 py-8 md:grid-cols-2 md:gap-10">
+        <div className="order-1 overflow-hidden md:order-2" data-tina-field={editTarget ? tinaField(editTarget, "image") : undefined}>
+          <div className="transition-transform duration-700 ease-[cubic-bezier(.4,0,.2,1)] hover:scale-[1.02]">
+            <BlurImage
+              seed={post.slug}
+              src={post.image}
+              label={post.title}
+              ratio="16 / 10"
+              priority={hero}
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
+        </div>
+
+        <div className="order-2 md:order-1">
+          <div className="label meta" data-tina-field={editTarget ? tinaField(editTarget, "date") : undefined}>
+            {formatPostDate(post.date)} · {postCategoryLabel(post.category)}
+          </div>
+          <h2 className="mt-3 text-[22px] leading-tight md:text-[28px]" data-tina-field={editTarget ? tinaField(editTarget, "title") : undefined}>
+            {post.title}
+          </h2>
+          <p className="mt-3 max-w-[48ch] text-[15px] meta" data-tina-field={editTarget ? tinaField(editTarget, "excerpt") : undefined}>
+            {post.excerpt}
+          </p>
+          {post.source && (
+            <a
+              href={post.source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="label mt-5 inline-block border-b border-black pb-0.5 transition-colors hover:border-accent hover:text-accent"
+            >
+              {post.source.label} ↗
+            </a>
+          )}
+        </div>
+      </article>
+    </Reveal>
+  );
+}

@@ -54,6 +54,53 @@ export default defineConfig({
         ],
       },
       {
+        name: "posts",
+        label: "Blog",
+        path: "content",
+        format: "json",
+        match: { include: "posts" }, // single file: content/posts.json
+        ui: { allowedActions: { create: false, delete: false } }, // one singleton doc
+        fields: [
+          {
+            type: "object",
+            name: "posts",
+            label: "Posts",
+            list: true,
+            ui: {
+              itemProps: (item) => ({ label: item?.title || "Untitled post" }),
+            },
+            fields: [
+              { type: "string", name: "title", label: "Title", required: true },
+              { type: "string", name: "slug", label: "Slug", required: true },
+              { type: "string", name: "date", label: "Date (YYYY-MM-DD)", required: true },
+              {
+                type: "string",
+                name: "category",
+                label: "Category",
+                required: true,
+                options: [
+                  { value: "news", label: "News" },
+                  { value: "events", label: "Events" },
+                  { value: "awards", label: "Awards" },
+                  { value: "lectures", label: "Lectures" },
+                ],
+              },
+              { type: "string", name: "excerpt", label: "Excerpt", ui: { component: "textarea" } },
+              {
+                type: "object",
+                name: "source",
+                label: "Source link",
+                fields: [
+                  { type: "string", name: "label", label: "Label" },
+                  { type: "string", name: "url", label: "URL" },
+                ],
+              },
+              { type: "image", name: "image", label: "Featured image" },
+            ],
+          },
+        ],
+      },
+      {
         name: "about",
         label: "About",
         path: "content",

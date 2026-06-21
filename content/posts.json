@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "slug": "tirana-riverfront-pavilion",
+      "title": "MA STUDIO Unveils Tirana Riverfront Pavilion at Design Week",
+      "date": "2026-06-11",
+      "category": "events",
+      "excerpt": "The studio presented a timber-and-stone pavilion along the Lana River, framing a new public threshold between the boulevard and the water. The installation is open to visitors through the end of the month as part of Tirana Design Week.",
+      "source": {
+        "label": "Tirana Design Week",
+        "url": "https://www.tiranadesignweek.com"
+      }
+    },
+    {
+      "slug": "skanderbeg-tower-waf-award",
+      "title": "Skanderbeg Mixed-Use Tower Wins WAF Future Project Award",
+      "date": "2026-05-28",
+      "category": "awards",
+      "excerpt": "Our 24-storey mixed-use proposal for central Tirana was recognised at the World Architecture Festival for its stacked public terraces and low-carbon structural strategy.",
+      "source": {
+        "label": "World Architecture Festival",
+        "url": "https://www.worldarchitecturefestival.com"
+      }
+    },
+    {
+      "slug": "venice-biennale-lecture",
+      "title": "“From the City to Mankind” — Ervin Taçi at the Venice Biennale",
+      "date": "2026-05-14",
+      "category": "lectures",
+      "excerpt": "A lecture on designing across scales — from urban frameworks down to the human threshold — delivered as part of the Albanian Pavilion’s public programme at the Biennale Architettura.",
+      "source": {
+        "label": "La Biennale di Venezia",
+        "url": "https://www.labiennale.org"
+      }
+    },
+    {
+      "slug": "landscape-energy-practice",
+      "title": "Studio Expands with New Landscape & Energy Practice",
+      "date": "2026-04-30",
+      "category": "news",
+      "excerpt": "Two new in-house teams bring landscape architecture and building-energy engineering under one roof, deepening the studio’s remit across the full arc from the city to mankind."
+    },
+    {
+      "slug": "open-studio-exhibition",
+      "title": "Open Studio: “Modelling Architecture” Exhibition Opens in Tirana",
+      "date": "2026-04-12",
+      "category": "events",
+      "excerpt": "Drawings, models and process work from a decade of practice go on show at the studio. The exhibition runs all month, with guided walkthroughs each weekend."
+    },
+    {
+      "slug": "adriatic-masterplan-mies-shortlist",
+      "title": "Adriatic Coastal Masterplan Shortlisted for the Mies Award",
+      "date": "2026-03-21",
+      "category": "awards",
+      "excerpt": "Our coastal masterplan framework was named to the shortlist for the EU Mies van der Rohe Award, recognised for balancing public access, ecology and resilient growth along the Adriatic.",
+      "source": {
+        "label": "EU Mies Award",
+        "url": "https://www.miesarch.com"
+      }
+    }
+  ]
+}
