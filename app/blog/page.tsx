@@ -44,7 +44,7 @@ export default async function BlogPage({
 
   return (
     <div>
-      <PageTitle>Blog</PageTitle>
+      <PageTitle className="page-title-bold">Blog</PageTitle>
 
       <nav className="no-scrollbar flex gap-2 overflow-x-auto px-5 pb-2" aria-label="Filter posts by category">
         <Link
