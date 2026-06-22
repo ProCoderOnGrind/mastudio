@@ -35,7 +35,7 @@ export default function ProjectRow({ project, hero = false, editTarget }: { proj
               label={project.name}
               ratio={null}
               priority={hero}
-              className="aspect-[16/10] md:aspect-auto md:h-[calc(100svh-140px)]"
+              className="aspect-[16/10] md:aspect-auto md:h-[calc(100svh-220px)]"
               sizes="(max-width: 768px) 100vw, 80vw"
             />
           </div>

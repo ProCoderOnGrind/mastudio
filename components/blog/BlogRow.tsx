@@ -32,7 +32,7 @@ export default function BlogRow({
               priority={hero}
               // Hero (first) entry fills ~one viewport so exactly one full photo
               // shows on load; the rest keep the 16:10 editorial ratio.
-              className={hero ? "aspect-[16/10] md:aspect-auto md:h-[calc(100svh-200px)]" : ""}
+              className={hero ? "aspect-[16/10] md:aspect-auto md:h-[calc(100svh-280px)]" : ""}
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
