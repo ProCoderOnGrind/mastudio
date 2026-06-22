@@ -44,5 +44,19 @@ body {
   letter-spacing: -0.01em;
 }
 
+/* Co-founder portrait frame: cap width so the full portrait's height fits the
+   viewport on open (no scroll). Width is whichever is smaller — the column, or
+   the width that keeps the portrait's height within the viewport (minus the
+   header + page title + caption chrome). 0.818 = photo aspect ratio (2278/2784). */
+.cofounder-frame {
+  width: min(100%, calc((100svh - 240px) * 0.818));
+  margin-inline: auto;
+}
+@media (min-width: 768px) {
+  .cofounder-frame {
+    width: min(100%, calc((100svh - 320px) * 0.818));
+  }
+}
+
 .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
 .no-scrollbar::-webkit-scrollbar { display: none; }

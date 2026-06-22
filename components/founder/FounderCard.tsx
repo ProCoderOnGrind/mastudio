@@ -7,7 +7,7 @@ import type { Founder } from "@/data/founders";
 export default function FounderCard({ founder, editTarget }: { founder: Founder; editTarget?: any }) {
   const [revealed, setRevealed] = useState(false);
   return (
-    <div className="border-t border-hairline pt-4">
+    <div className="cofounder-frame border-t border-hairline pt-4">
       <button
         type="button"
         onClick={() => setRevealed((r) => !r)}
