@@ -240,8 +240,13 @@ function MobileCover({
 }) {
   const images = project.images;
   const next = nextProject(project.slug);
+  const ref = useRef<HTMLDivElement>(null);
+  // Reset to the first photo when the project changes in-place (Next project).
+  useEffect(() => {
+    if (ref.current) ref.current.scrollLeft = 0;
+  }, [project.slug]);
   return (
-    <div className="no-scrollbar flex h-full snap-x snap-mandatory overflow-x-auto overflow-y-hidden bg-[#0c0c0d]">
+    <div ref={ref} className="no-scrollbar flex h-full snap-x snap-mandatory overflow-x-auto overflow-y-hidden bg-[#0c0c0d]">
       {images.map((src, i) => (
         <section key={src} className="relative h-full w-screen shrink-0 snap-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
