@@ -28,17 +28,17 @@ export default function FounderCard({ founder, editTarget }: { founder: Founder;
             src={founder.image}
             seed={founder.name}
             label={founder.name}
-            ratio="3 / 4"
+            ratio="2278 / 2784"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>
         {/* Bio overlay — fades in over the blurred portrait */}
         <div
-          className="absolute inset-0 flex flex-col gap-3 overflow-auto bg-black/55 p-5 text-white transition-opacity duration-500 ease-[cubic-bezier(.4,0,.2,1)] motion-reduce:transition-none"
+          className="absolute inset-0 flex flex-col justify-center gap-4 overflow-auto bg-black/55 p-6 text-white transition-opacity duration-500 ease-[cubic-bezier(.4,0,.2,1)] motion-reduce:transition-none"
           style={{ opacity: revealed ? 1 : 0, pointerEvents: revealed ? "auto" : "none" }}
         >
           {founder.bio.map((p, i) => (
-            <p key={i} className="text-[13px] leading-relaxed" data-tina-field={editTarget ? tinaField(editTarget, "bio") : undefined}>{p}</p>
+            <p key={i} className="text-[15px] leading-relaxed" data-tina-field={editTarget ? tinaField(editTarget, "bio") : undefined}>{p}</p>
           ))}
         </div>
       </button>
