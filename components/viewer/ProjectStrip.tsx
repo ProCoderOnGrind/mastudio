@@ -115,13 +115,20 @@ export default function ProjectStrip({
 
   return (
     <div className="flex h-full flex-col">
+      {/* MOBILE: full-screen cover swipe — each photo fills the screen, name + index overlaid. */}
+      <div className="min-h-0 flex-1 md:hidden">
+        <MobileCover project={project} onNext={onNext} editTarget={editTarget} />
+      </div>
+
+      {/* DESKTOP: horizontal filmstrip (unchanged). */}
+      <div className="hidden min-h-0 flex-1 flex-col md:flex">
       <div
         ref={scroller}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
         onPointerCancel={onPointerUp}
-        className="no-scrollbar flex-1 overflow-x-auto overflow-y-hidden cursor-grab active:cursor-grabbing"
+        className="no-scrollbar min-h-0 flex-1 overflow-x-auto overflow-y-hidden cursor-grab active:cursor-grabbing"
         data-cursor="arrow"
       >
         <div className="flex h-full flex-nowrap items-stretch gap-8 px-5 md:gap-16 md:px-10">
@@ -217,6 +224,61 @@ export default function ProjectStrip({
       <div className="h-[3px] w-full bg-hairline">
         <div className="h-full bg-accent transition-[width] duration-100" style={{ width: `${progress * 100}%` }} />
       </div>
+      </div>
+    </div>
+  );
+}
+
+function MobileCover({
+  project,
+  onNext,
+  editTarget,
+}: {
+  project: Project;
+  onNext?: () => void;
+  editTarget?: any;
+}) {
+  const images = project.images;
+  const next = nextProject(project.slug);
+  return (
+    <div className="no-scrollbar flex h-full snap-x snap-mandatory overflow-x-auto overflow-y-hidden bg-[#0c0c0d]">
+      {images.map((src, i) => (
+        <section key={src} className="relative h-full w-screen shrink-0 snap-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={src}
+            alt={`${project.name} — ${i + 1}`}
+            className="h-full w-full object-cover"
+            draggable={false}
+            data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined}
+          />
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-5 text-white">
+            <h1 className="text-[clamp(24px,7vw,40px)] uppercase leading-none" data-tina-field={editTarget ? tinaField(editTarget, "name") : undefined}>
+              {project.name}
+            </h1>
+            <div className="label mt-2 opacity-90">
+              {String(i + 1).padStart(2, "0")} / {String(images.length).padStart(2, "0")} · {project.location}
+            </div>
+          </div>
+        </section>
+      ))}
+      {next && (
+        <section className="flex h-full w-screen shrink-0 snap-center flex-col justify-center px-6 text-white">
+          {onNext ? (
+            <button type="button" onClick={onNext} className="text-left" aria-label={`Next project: ${next.name}`}>
+              <div className="label meta mb-3">Next project</div>
+              <div className="text-[clamp(28px,8vw,44px)] uppercase leading-none">{next.name} →</div>
+              <div className="label meta mt-2">{next.location}</div>
+            </button>
+          ) : (
+            <Link href={`/projects/${next.slug}`} aria-label={`Next project: ${next.name}`}>
+              <div className="label meta mb-3">Next project</div>
+              <div className="text-[clamp(28px,8vw,44px)] uppercase leading-none">{next.name} →</div>
+              <div className="label meta mt-2">{next.location}</div>
+            </Link>
+          )}
+        </section>
+      )}
     </div>
   );
 }
