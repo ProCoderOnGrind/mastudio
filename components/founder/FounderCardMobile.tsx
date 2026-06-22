@@ -8,7 +8,12 @@ import type { Founder } from "@/data/founders";
 // Ervin's crop is biased upward so his hair stays in frame.
 export default function FounderCardMobile({ founder, editTarget }: { founder: Founder; editTarget?: any }) {
   const [open, setOpen] = useState(false);
-  const biasUp = founder.name.startsWith("Ervin");
+  // Bias the crop upward so the top of the head/hair stays in frame.
+  const objectPosition = founder.name.startsWith("Ervin")
+    ? "center 12%"
+    : founder.name.startsWith("Klodiana")
+      ? "center 20%"
+      : "center";
   return (
     <button
       type="button"
@@ -25,7 +30,7 @@ export default function FounderCardMobile({ founder, editTarget }: { founder: Fo
           sizes="100vw"
           className="object-cover transition-[filter,transform] duration-500 ease-[cubic-bezier(.4,0,.2,1)] motion-reduce:transition-none"
           style={{
-            objectPosition: biasUp ? "center 12%" : "center",
+            objectPosition,
             filter: open ? "blur(8px)" : "none",
             transform: open ? "scale(1.04)" : "none",
           }}
