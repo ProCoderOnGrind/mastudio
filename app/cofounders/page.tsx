@@ -1,4 +1,3 @@
-import PageTitle from "@/components/PageTitle";
 import FoundersList from "@/components/founder/FoundersList";
 import { FOUNDERS } from "@/data/founders";
 
@@ -14,8 +13,8 @@ export default async function CoFoundersPage() {
   }
 
   return (
-    <div>
-      <PageTitle>Co-Founders</PageTitle>
+    <div className="px-5">
+      <h1 className="pb-4 pt-6 text-3xl font-semibold tracking-tight md:text-4xl">Co-Founders</h1>
       {foundersNode}
     </div>
   );
