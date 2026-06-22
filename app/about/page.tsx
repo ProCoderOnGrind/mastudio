@@ -48,7 +48,7 @@ export default async function AboutPage() {
       <div className="mt-12 grid grid-cols-2 gap-4 px-5 md:grid-cols-4">
         {gallery.map((p, i) => (
           <Reveal key={p.slug} delay={i * 40}>
-            <BlurImage src={p.images[0]} label={p.name} ratio="4 / 3" sizes="(max-width: 768px) 50vw, 25vw" />
+            <BlurImage src={p.images[0]} label={p.name} ratio="16 / 9" fit="contain" sizes="(max-width: 768px) 50vw, 25vw" />
           </Reveal>
         ))}
       </div>
