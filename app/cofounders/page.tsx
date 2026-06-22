@@ -13,8 +13,9 @@ export default async function CoFoundersPage() {
   }
 
   return (
-    <div className="px-5">
-      <h1 className="pb-4 pt-6 text-3xl font-semibold tracking-tight md:text-4xl">Co-Founders</h1>
+    <div>
+      {/* Title on desktop only; on mobile the names sit on the photos. */}
+      <h1 className="hidden px-5 pb-4 pt-6 text-3xl font-semibold tracking-tight md:block md:text-4xl">Co-Founders</h1>
       {foundersNode}
     </div>
   );
