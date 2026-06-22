@@ -1,6 +1,5 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import PageTitle from "@/components/PageTitle";
 import BlogList from "@/components/blog/BlogList";
 import {
   POSTS,
@@ -44,9 +43,7 @@ export default async function BlogPage({
 
   return (
     <div>
-      <PageTitle className="page-title-bold">Blog</PageTitle>
-
-      <nav className="no-scrollbar flex gap-2 overflow-x-auto px-5 pb-2" aria-label="Filter posts by category">
+      <nav className="no-scrollbar flex gap-2 overflow-x-auto px-5 pt-8 pb-5 md:pt-10" aria-label="Filter posts by category">
         <Link
           href="/blog"
           aria-current={!active ? "true" : undefined}
@@ -69,7 +66,7 @@ export default async function BlogPage({
         })}
       </nav>
 
-      <div className="mt-4">{list}</div>
+      <div className="mt-2">{list}</div>
     </div>
   );
 }
