@@ -11,9 +11,9 @@ function ServiceRow({ name, meaning }: { name: string; meaning: string }) {
       <button
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
-        className="flex w-full items-center justify-between py-3 text-left"
+        className="group flex w-full cursor-pointer items-center justify-between py-3 text-left"
       >
-        <span className="text-[16px]">{name}</span>
+        <span className="text-[16px] transition-colors group-hover:text-accent">{name}</span>
         <span
           className="text-[18px] leading-none text-accent transition-transform duration-300"
           style={{ transform: open ? "rotate(45deg)" : "none" }}
