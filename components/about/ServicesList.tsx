@@ -11,7 +11,7 @@ function ServiceRow({ name, meaning }: { name: string; meaning: string }) {
       <button
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
-        className="group flex w-full cursor-pointer items-center justify-between py-3 text-left"
+        className="group flex w-full items-center justify-between py-3 text-left"
       >
         <span className="text-[16px] transition-colors group-hover:text-accent">{name}</span>
         <span

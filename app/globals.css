@@ -16,6 +16,15 @@
 
 html { scroll-behavior: smooth; }
 
+/* Tailwind v4's Preflight drops the default cursor:pointer on buttons.
+   Restore it for enabled interactive controls site-wide. */
+button:not(:disabled),
+[role="button"]:not([aria-disabled="true"]),
+label[for],
+summary {
+  cursor: pointer;
+}
+
 body {
   font-size: 15px;
   line-height: 21px;
