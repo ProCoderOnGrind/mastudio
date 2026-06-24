@@ -15,7 +15,7 @@ export default function AboutSections({
   const columns = [indexed.slice(0, mid), indexed.slice(mid)];
 
   return (
-    <section className="mt-12 grid gap-x-12 px-5 md:grid-cols-2">
+    <section className="grid gap-x-12 px-5 md:grid-cols-2">
       {columns.map((col, ci) => (
         <div key={ci}>
           {col.map(({ s, i }) => {
