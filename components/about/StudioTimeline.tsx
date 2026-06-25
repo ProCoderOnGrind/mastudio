@@ -24,24 +24,32 @@ export default function StudioTimeline() {
   return (
     <div className="px-5">
       <h2 className="label meta mb-7">Our story</h2>
-      <ol className="relative grid gap-y-9 md:grid-cols-3 md:gap-x-10">
+      <ol className="relative grid md:grid-cols-3 md:gap-x-10">
         {/* desktop baseline that the milestone dots sit on */}
         <span aria-hidden className="absolute left-1 right-1 top-[6px] hidden h-px bg-hairline md:block" />
-        {MILESTONES.map((m, i) => (
-          <Reveal key={m.year} delay={i * 120}>
-            <li className="relative pl-6 md:pl-0 md:pt-7">
-              {/* mobile vertical thread (not on the last item) */}
-              {i < MILESTONES.length - 1 && (
-                <span aria-hidden className="absolute left-[4px] top-3 h-full w-px bg-hairline md:hidden" />
-              )}
-              {/* accent dot */}
-              <span aria-hidden className="absolute left-0 top-[3px] h-2.5 w-2.5 rounded-full bg-accent md:left-1 md:top-[1.5px]" />
-              <div className="text-[clamp(26px,3.4vw,38px)] leading-none">{m.year}</div>
-              <div className="label mt-3">{m.title}</div>
-              <p className="meta mt-2 max-w-[36ch] text-justify text-[14px] leading-relaxed">{m.body}</p>
-            </li>
-          </Reveal>
-        ))}
+        {MILESTONES.map((m, i) => {
+          const isLast = i === MILESTONES.length - 1;
+          return (
+            <Reveal key={m.year} delay={i * 120}>
+              {/* MOBILE: continuous left rail via border-l (spacing from pb, so the
+                  thread never breaks between items). DESKTOP: rail/spacing reset. */}
+              <li
+                className={`relative pl-6 md:border-0 md:pb-0 md:pl-0 md:pt-7 ${
+                  isLast ? "" : "border-l border-hairline pb-9"
+                }`}
+              >
+                {/* accent dot sitting on the rail */}
+                <span
+                  aria-hidden
+                  className="absolute -left-[5px] top-[5px] h-2.5 w-2.5 rounded-full bg-accent ring-4 ring-white md:left-1 md:top-[1.5px] md:ring-0"
+                />
+                <div className="text-[clamp(26px,3.4vw,38px)] leading-none">{m.year}</div>
+                <div className="label mt-3">{m.title}</div>
+                <p className="meta mt-2 max-w-[36ch] text-[14px] leading-relaxed md:text-justify">{m.body}</p>
+              </li>
+            </Reveal>
+          );
+        })}
       </ol>
     </div>
   );
