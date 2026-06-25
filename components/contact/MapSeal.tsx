@@ -52,6 +52,25 @@ export default function MapSeal({
           referrerPolicy="no-referrer-when-downgrade"
           className="absolute left-1/2 top-1/2 h-[160%] w-[160%] -translate-x-1/2 -translate-y-1/2 border-0"
         />
+        {/* The embed is cross-origin, so we can't follow the pin as it pans.
+            Instead we freeze the map (this transparent layer eats drag/scroll),
+            which keeps the marker locked dead-centre — so the MaStudio label
+            below stays glued to it at all times. The "Open in Google Maps" CTA
+            sits above this layer (higher z-index) and stays clickable. */}
+        <div className="absolute inset-0 z-[1]" aria-hidden="true" />
+
+        {/* Marker label, anchored to the (now fixed) centre point. */}
+        <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2">
+          {/* the point — pushed down to sit on the bottom edge of the red pin */}
+          <span
+            className="absolute left-1/2 h-3 w-3 rounded-full border-2 border-white shadow"
+            style={{ background: GREEN, top: 0, transform: "translate(-50%, 2px)" }}
+          />
+          {/* the name — lifted higher so it clears the marker, no overlap */}
+          <span className="absolute bottom-[30px] left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-white px-2.5 py-0.5 text-[11px] font-semibold tracking-wide text-black shadow-md">
+            MaStudio
+          </span>
+        </div>
         {/* Our own readable "Open in Google Maps" CTA, kept inside the circle */}
         <a
           href={mapsLink}
