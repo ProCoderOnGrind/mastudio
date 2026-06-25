@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { tinaField } from "tinacms/dist/react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { nextProject, type Project } from "@/data/projects";
@@ -245,40 +246,56 @@ function MobileCover({
   useEffect(() => {
     if (ref.current) ref.current.scrollLeft = 0;
   }, [project.slug]);
+
+  // Smooth entrance: cards fade + rise as the viewer opens. Re-keyed per project
+  // so it replays when switching via "Next project".
+  const EASE = [0.22, 1, 0.36, 1] as const;
+
   return (
-    <div ref={ref} className="no-scrollbar flex h-full snap-x snap-mandatory overflow-x-auto overflow-y-hidden bg-[#0c0c0d]">
+    <div ref={ref} className="no-scrollbar flex h-full snap-x snap-mandatory overflow-x-auto overflow-y-hidden bg-[#f0f0f0]">
       {images.map((src, i) => (
-        <section key={src} className="relative h-full w-screen shrink-0 snap-center">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={src}
-            alt={`${project.name} — ${i + 1}`}
-            className="h-full w-full object-cover"
-            draggable={false}
-            data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined}
-          />
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-5 text-white">
-            <h1 className="text-[clamp(24px,7vw,40px)] uppercase leading-none" data-tina-field={editTarget ? tinaField(editTarget, "name") : undefined}>
-              {project.name}
-            </h1>
-            <div className="label mt-2 opacity-90">
-              {String(i + 1).padStart(2, "0")} / {String(images.length).padStart(2, "0")} · {project.location}
-            </div>
-          </div>
+        <section key={src} className="flex h-full w-screen shrink-0 snap-center items-center justify-center px-5">
+          {/* Full photo in a clean card — never cropped; whole image always shown. */}
+          <motion.figure
+            initial={{ opacity: 0, y: 22 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.55, ease: EASE, delay: i === 0 ? 0.12 : 0 }}
+            className="w-full overflow-hidden rounded-md bg-white shadow-[0_18px_42px_-18px_rgba(0,0,0,0.45)]"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={src}
+              alt={`${project.name} — ${i + 1}`}
+              className="w-full"
+              draggable={false}
+              data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined}
+            />
+            <figcaption className="px-4 py-3.5">
+              <div className="text-[15px] font-semibold uppercase tracking-tight" data-tina-field={editTarget ? tinaField(editTarget, "name") : undefined}>
+                {project.name}
+              </div>
+              <div className="meta mt-0.5 text-[12.5px]" data-tina-field={editTarget ? tinaField(editTarget, "location") : undefined}>
+                {project.location}
+              </div>
+              <div className="mt-1 text-[12px] text-neutral-400" data-tina-field={editTarget ? tinaField(editTarget, "type") : undefined}>
+                {project.type} · {project.year}
+              </div>
+            </figcaption>
+          </motion.figure>
         </section>
       ))}
       {next && (
-        <section className="flex h-full w-screen shrink-0 snap-center flex-col justify-center px-6 text-white">
+        <section className="flex h-full w-screen shrink-0 snap-center flex-col justify-center px-6">
           {onNext ? (
             <button type="button" onClick={onNext} className="text-left" aria-label={`Next project: ${next.name}`}>
               <div className="label meta mb-3">Next project</div>
-              <div className="text-[clamp(28px,8vw,44px)] uppercase leading-none">{next.name} →</div>
+              <div className="text-[clamp(28px,8vw,44px)] uppercase leading-none transition-colors hover:text-accent">{next.name} →</div>
               <div className="label meta mt-2">{next.location}</div>
             </button>
           ) : (
             <Link href={`/projects/${next.slug}`} aria-label={`Next project: ${next.name}`}>
               <div className="label meta mb-3">Next project</div>
-              <div className="text-[clamp(28px,8vw,44px)] uppercase leading-none">{next.name} →</div>
+              <div className="text-[clamp(28px,8vw,44px)] uppercase leading-none transition-colors hover:text-accent">{next.name} →</div>
               <div className="label meta mt-2">{next.location}</div>
             </Link>
           )}
