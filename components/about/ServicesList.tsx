@@ -13,7 +13,7 @@ function ServiceRow({ name, meaning }: { name: string; meaning: string }) {
         aria-expanded={open}
         className="group flex w-full items-center justify-between py-3 text-left"
       >
-        <span className="text-[16px] transition-colors group-hover:text-accent">{name}</span>
+        <span className="text-[15px] transition-colors group-hover:text-accent">{name}</span>
         <span
           className="text-[18px] leading-none text-accent transition-transform duration-300"
           style={{ transform: open ? "rotate(45deg)" : "none" }}
@@ -26,7 +26,7 @@ function ServiceRow({ name, meaning }: { name: string; meaning: string }) {
         style={{ gridTemplateRows: open ? "1fr" : "0fr" }}
       >
         <div className="overflow-hidden">
-          <p className="max-w-[60ch] pb-3 text-[14px] leading-relaxed text-big-gray">{meaning}</p>
+          <p className="max-w-[60ch] pb-3 text-justify text-[14px] leading-relaxed text-big-gray">{meaning}</p>
         </div>
       </div>
     </div>

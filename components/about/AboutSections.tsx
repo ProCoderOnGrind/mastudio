@@ -21,9 +21,9 @@ export default function AboutSections({
           {col.map(({ s, i }) => {
             const et = editTargets?.[i];
             return (
-              <Accordion key={s.title} title={s.title} titleField={et ? tinaField(et, "title") : undefined}>
+              <Accordion key={s.title} title={s.title} accent titleField={et ? tinaField(et, "title") : undefined}>
                 {s.body?.map((p, pi) => (
-                  <p key={pi} className="mb-3 max-w-[72ch] text-[16px] leading-relaxed" data-tina-field={et ? tinaField(et, "body") : undefined}>{p}</p>
+                  <p key={pi} className="mb-3 max-w-[72ch] text-justify text-[16px] leading-relaxed" data-tina-field={et ? tinaField(et, "body") : undefined}>{p}</p>
                 ))}
                 {s.items && (
                   <ul className="flex flex-wrap gap-x-5 gap-y-1" data-tina-field={et ? tinaField(et, "items") : undefined}>
@@ -38,7 +38,7 @@ export default function AboutSections({
                     <div key={sub.title} className="mb-4">
                       <div className="label mb-1" data-tina-field={subEt ? tinaField(subEt, "title") : undefined}>{sub.title}</div>
                       {sub.body.map((p, pi) => (
-                        <p key={pi} className="max-w-[72ch] text-[16px] leading-relaxed" data-tina-field={subEt ? tinaField(subEt, "body") : undefined}>{p}</p>
+                        <p key={pi} className="max-w-[72ch] text-justify text-[16px] leading-relaxed" data-tina-field={subEt ? tinaField(subEt, "body") : undefined}>{p}</p>
                       ))}
                     </div>
                   );

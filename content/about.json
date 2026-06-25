@@ -82,7 +82,7 @@
       ]
     },
     {
-      "title": "Company Expertise",
+      "title": "How we work",
       "subsections": [
         {
           "title": "Workplace Consultancy",
@@ -94,30 +94,6 @@
           "title": "Project Management",
           "body": [
             "Our in-house group delivers an integrated service across a project’s lifecycle—concept, construction, completion—covering budgeting and cost control, programme and resource management, and contract administration, on time, on budget, and to the highest quality."
-          ]
-        },
-        {
-          "title": "Urban Design",
-          "body": [
-            "We study the city holistically—behavior, demographics, and the hidden systems shaping the built environment—and design socially driven public spaces where people choose to meet, sit, and talk, helping public and private clients create sustainable, future-ready developments."
-          ]
-        },
-        {
-          "title": "Architecture",
-          "body": [
-            "We believe surroundings shape daily life. Before form, we ask how a building will be used and understood, designing human-scaled, “small, low, and slow” spaces that encourage interaction, comfort, and the poetic modelling of space through natural light and greenery."
-          ]
-        },
-        {
-          "title": "Engineering",
-          "body": [
-            "Two in-house engineering groups—environmental and structural—integrate from the outset, working alongside design teams to safeguard quality and reinforce the studio’s sustainability agenda through to completion."
-          ]
-        },
-        {
-          "title": "Interior Design",
-          "body": [
-            "Architecture should flow seamlessly from outside to inside. From private houses to office towers and galleries, we coordinate light, materials, color, and furnishings as one scheme, with the same questioning and refinement as the building itself."
           ]
         }
       ]
