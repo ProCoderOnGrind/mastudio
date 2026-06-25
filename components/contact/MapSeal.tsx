@@ -1,9 +1,16 @@
 "use client";
 
+import { Roboto } from "next/font/google";
+
 // Circular "seal" — a live Google Map clipped into a disc, ringed by brand text
 // that slowly rotates, echoing the MA logo. The map keeps its natural colors;
 // the ring + frame use the logo green.
 const GREEN = "#94c52d"; // sampled from the MA logo
+
+// Google Maps renders all of its own place labels in Roboto. Loading it here
+// lets our "MaStudio" label match them exactly, so it reads as a native map
+// label rather than something pasted on top.
+const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500"], display: "swap" });
 
 export default function MapSeal({
   query,
@@ -45,29 +52,37 @@ export default function MapSeal({
       <div className="absolute left-1/2 top-1/2 h-[70%] w-[70%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full bg-black">
         {/* The iframe is oversized and centered so Google's own corner/top
             controls fall outside the circular crop instead of being sliced. */}
+        {/* `pointer-events-none` freezes the map (it can't be panned/zoomed, so
+            the marker stays dead-centre and the label stays glued to it) while
+            letting touch/scroll pass straight through to the page — so the page
+            never feels stuck over the map. `loading="eager"` starts the tiles
+            downloading immediately for a faster first paint. */}
         <iframe
           title="Map — MA Studio & Partners"
           src={src}
-          loading="lazy"
+          loading="eager"
           referrerPolicy="no-referrer-when-downgrade"
-          className="absolute left-1/2 top-1/2 h-[160%] w-[160%] -translate-x-1/2 -translate-y-1/2 border-0"
+          className="pointer-events-none absolute left-1/2 top-1/2 h-[160%] w-[160%] -translate-x-1/2 -translate-y-1/2 border-0"
         />
-        {/* The embed is cross-origin, so we can't follow the pin as it pans.
-            Instead we freeze the map (this transparent layer eats drag/scroll),
-            which keeps the marker locked dead-centre — so the MaStudio label
-            below stays glued to it at all times. The "Open in Google Maps" CTA
-            sits above this layer (higher z-index) and stays clickable. */}
-        <div className="absolute inset-0 z-[1]" aria-hidden="true" />
 
-        {/* Marker label, anchored to the (now fixed) centre point. */}
+        {/* Marker label, anchored to the (fixed) centre point. Styled to match
+            Google's own place labels: Roboto, grey, with a white halo and no
+            background, so it looks native to the map. */}
         <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2">
           {/* the point — pushed down to sit on the bottom edge of the red pin */}
           <span
             className="absolute left-1/2 h-3 w-3 rounded-full border-2 border-white shadow"
             style={{ background: GREEN, top: 0, transform: "translate(-50%, 2px)" }}
           />
-          {/* the name — lifted higher so it clears the marker, no overlap */}
-          <span className="absolute bottom-[30px] left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-white px-2.5 py-0.5 text-[11px] font-semibold tracking-wide text-black shadow-md">
+          {/* the name — Google-style label, lifted clear of the marker */}
+          <span
+            className={`absolute bottom-[44px] left-1/2 -translate-x-1/2 whitespace-nowrap text-[12px] font-medium ${roboto.className}`}
+            style={{
+              color: "#3c4043",
+              textShadow:
+                "-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 0 0 3px #fff",
+            }}
+          >
             MaStudio
           </span>
         </div>
