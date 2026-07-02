@@ -60,7 +60,8 @@ export default function SearchBar() {
           onBlur={() => window.setTimeout(close, 120)}
           placeholder="Search…"
           aria-label="Search projects and categories"
-          className="w-full bg-transparent text-[14px] outline-none placeholder:text-big-gray"
+          // 16px on touch screens so iOS Safari doesn't auto-zoom the page on focus.
+          className="w-full bg-transparent text-[16px] outline-none placeholder:text-big-gray md:text-[14px]"
         />
       </div>
 

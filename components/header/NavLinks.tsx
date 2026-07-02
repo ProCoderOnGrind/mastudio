@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const NAV = [
   { label: "Projects", href: "/" },
@@ -12,12 +13,36 @@ const NAV = [
 
 export default function NavLinks() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  // "Projects" (href "/") also owns the project detail pages.
+  const isActive = (href: string) =>
+    href === "/"
+      ? pathname === "/" || pathname.startsWith("/projects")
+      : pathname === href || pathname.startsWith(`${href}/`);
+
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+
   return (
     <>
       {/* Desktop links */}
       <nav className="hidden items-center gap-8 md:flex">
         {NAV.map((n) => (
-          <Link key={n.href} href={n.href} className="label hover:text-accent transition-colors">
+          <Link
+            key={n.href}
+            href={n.href}
+            aria-current={isActive(n.href) ? "page" : undefined}
+            className={`label transition-colors hover:text-accent ${
+              isActive(n.href) ? "text-accent" : ""
+            }`}
+          >
             {n.label}
           </Link>
         ))}
@@ -29,7 +54,8 @@ export default function NavLinks() {
           aria-label="Menu"
           aria-expanded={open}
           onClick={() => setOpen((o) => !o)}
-          className="relative z-[72] flex flex-col gap-[5px] p-1"
+          // -m-2/p-3 grows the hit area to ~44px without moving the bars.
+          className="relative z-[72] -m-2 flex flex-col gap-[5px] p-3"
         >
           <span className="block h-[2px] w-6 bg-black" />
           <span className="block h-[2px] w-6 bg-black" />
@@ -48,7 +74,10 @@ export default function NavLinks() {
                   key={n.href}
                   href={n.href}
                   onClick={() => setOpen(false)}
-                  className="border-b border-hairline py-3 text-[16px] last:border-b-0 hover:text-accent"
+                  aria-current={isActive(n.href) ? "page" : undefined}
+                  className={`border-b border-hairline py-3 text-[16px] last:border-b-0 hover:text-accent ${
+                    isActive(n.href) ? "text-accent" : ""
+                  }`}
                 >
                   {n.label}
                 </Link>

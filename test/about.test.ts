@@ -10,7 +10,7 @@ describe("about sections data", () => {
       "Achievements",
       "Awards",
       "International Conferences",
-      "Company Expertise",
+      "How we work",
       "Office Structure",
     ]);
   });
@@ -20,15 +20,11 @@ describe("about sections data", () => {
     const profile = ABOUT_SECTIONS.find((s) => s.title === "Company Profile");
     expect(profile?.items?.some((i) => i.includes("Tirana Olympic Park"))).toBe(true);
   });
-  it("Company Expertise has the six disciplines", () => {
-    const exp = ABOUT_SECTIONS.find((s) => s.title === "Company Expertise");
+  it("How we work has its subsections", () => {
+    const exp = ABOUT_SECTIONS.find((s) => s.title === "How we work");
     expect(exp?.subsections?.map((s) => s.title)).toEqual([
       "Workplace Consultancy",
       "Project Management",
-      "Urban Design",
-      "Architecture",
-      "Engineering",
-      "Interior Design",
     ]);
   });
 });

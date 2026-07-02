@@ -29,7 +29,8 @@ describe("CoFounders page", () => {
   it("renders a card for each co-founder", async () => {
     render(await CoFoundersPage());
     expect(screen.getByText("Co-Founders")).toBeInTheDocument();
-    expect(screen.getByText("Ervin Taçi")).toBeInTheDocument();
-    expect(screen.getByText("Klodiana Emiri Taçi")).toBeInTheDocument();
+    // Each name renders more than once (mobile stage overlay + desktop card).
+    expect(screen.getAllByText("Ervin Taçi").length).toBeGreaterThan(0);
+    expect(screen.getAllByText("Klodiana Emiri Taçi").length).toBeGreaterThan(0);
   });
 });

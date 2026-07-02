@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import FoundersList from "@/components/founder/FoundersList";
 import { FOUNDERS } from "@/data/founders";
+
+export const metadata: Metadata = {
+  title: "Co-Founders | MA STUDIO & PARTNERS",
+  description: "The co-founders of MA Studio & Partners, Tirana, Albania.",
+};
 
 export default async function CoFoundersPage() {
   let foundersNode;

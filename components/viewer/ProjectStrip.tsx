@@ -72,6 +72,8 @@ function DesktopSlides({
     idx.current = 0;
     const el = scroller.current;
     if (el) el.scrollLeft = 0;
+    // Intentional synchronous reset on project change (single render, no cascade).
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setProgress(0);
   }, [project.slug]);
 
@@ -113,7 +115,6 @@ function DesktopSlides({
       <div
         ref={scroller}
         className="no-scrollbar flex min-h-0 flex-1 snap-x snap-mandatory overflow-hidden"
-        data-cursor="arrow"
       >
         {images.map((src, i) => (
           <section

@@ -39,7 +39,7 @@ export default async function BlogPage({
   }
 
   const chipBase =
-    "label inline-flex items-center border border-hairline px-3 py-1.5 transition-colors";
+    "label inline-flex items-center border border-hairline px-3 py-2.5 transition-colors md:py-1.5";
 
   return (
     <div>

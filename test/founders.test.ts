@@ -3,7 +3,7 @@ import { FOUNDERS } from "@/data/founders";
 
 describe("founders data", () => {
   it("has the two real co-founders in order", () => {
-    expect(FOUNDERS.map((f) => f.name)).toEqual(["Ervin Taçi", "Klodiana Emiri Taçi"]);
+    expect(FOUNDERS.map((f) => f.name)).toEqual(["Klodiana Emiri Taçi", "Ervin Taçi"]);
   });
   it("each founder has a role and a non-empty multi-paragraph bio", () => {
     for (const f of FOUNDERS) {

@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Generated code — linting these huge bundles OOMs ESLint:
+    "public/admin/**",
+    "tina/__generated__/**",
   ]),
 ]);
 

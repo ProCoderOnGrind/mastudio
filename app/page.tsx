@@ -35,7 +35,7 @@ export default async function Home({
         <div className="px-5 pb-2">
           <Link
             href="/"
-            className="label inline-flex items-center gap-2 border border-hairline px-3 py-1.5 transition-colors hover:bg-black hover:text-white"
+            className="label inline-flex items-center gap-2 border border-hairline px-3 py-2.5 transition-colors hover:bg-black hover:text-white md:py-1.5"
           >
             {categoryLabel(active)} <span aria-hidden>✕</span>
           </Link>

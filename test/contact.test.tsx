@@ -1,5 +1,11 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
+
+// next/font/google needs the Next build pipeline; in jsdom just return a class name.
+vi.mock("next/font/google", () => ({
+  Roboto: () => ({ className: "mock-roboto" }),
+}));
+
 import ContactPage from "@/app/contact/page";
 import { OFFICES, SOCIALS } from "@/data/offices";
 

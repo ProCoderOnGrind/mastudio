@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import ContactView from "@/components/contact/ContactView";
 import { OFFICES, SOCIALS } from "@/data/offices";
+
+export const metadata: Metadata = {
+  title: "Contact | MA STUDIO & PARTNERS",
+  description:
+    "Get in touch with MA Studio & Partners — architecture, urban planning, landscape and interior design studio in Tirana, Albania.",
+};
 
 // Async server component used only in development (Next.js RSC supports async components)
 async function ContactEditablePage() {

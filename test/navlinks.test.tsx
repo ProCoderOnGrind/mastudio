@@ -1,5 +1,9 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
+
+// NavLinks now calls usePathname(); mock it before importing the component.
+vi.mock("next/navigation", () => ({ usePathname: () => "/" }));
+
 import NavLinks from "@/components/header/NavLinks";
 
 describe("NavLinks", () => {

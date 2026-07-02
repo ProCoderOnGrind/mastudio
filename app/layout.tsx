@@ -3,7 +3,6 @@ import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
-import CustomCursor from "@/components/media/CustomCursor";
 import { ViewerProvider } from "@/components/viewer/ViewerContext";
 import ProjectViewer from "@/components/viewer/ProjectViewer";
 
@@ -24,7 +23,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={beVietnam.className}>
       <body className="bg-white text-black antialiased">
         <ViewerProvider>
-          <CustomCursor />
           <Header />
           <main>{children}</main>
           <Footer />

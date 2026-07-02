@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import PageTitle from "@/components/PageTitle";
 import AboutSections from "@/components/about/AboutSections";
 import ServicesList from "@/components/about/ServicesList";
 import StudioTimeline from "@/components/about/StudioTimeline";
+
+export const metadata: Metadata = {
+  title: "About | MA STUDIO & PARTNERS",
+  description:
+    "MA Studio & Partners — established in 2020 as the continuation of DEA Studio (2000–2020), working across architecture, urban planning, landscape and interior design from Tirana, Albania.",
+};
 
 export default async function AboutPage() {
   let aboutNode;

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getProject, PROJECTS } from "@/data/projects";
 import { CATEGORIES } from "@/data/categories";
@@ -10,6 +11,20 @@ export function generateStaticParams() {
     ...PROJECTS.map((p) => ({ slug: p.slug })),
     ...CATEGORIES.map((c) => ({ slug: c.key })),
   ];
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const category = CATEGORIES.find((c) => c.key === slug);
+  if (category) {
+    return { title: `${category.label} | MA STUDIO & PARTNERS` };
+  }
+  const project = getProject(slug);
+  if (!project) return {};
+  return {
+    title: `${project.name} | MA STUDIO & PARTNERS`,
+    description: `${project.name} — ${project.type}, ${project.location} (${project.year}). A project by MA Studio & Partners.`,
+  };
 }
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {

@@ -15,6 +15,7 @@ export default function ProjectViewer() {
   const { project, open, close } = useViewer();
   const stage = useRef<HTMLDivElement>(null);
   const bg = useRef<HTMLDivElement>(null);
+  const closeBtn = useRef<HTMLButtonElement>(null);
   const prevSlug = useRef<string | null>(null);
   const busy = useRef(false);
 
@@ -105,6 +106,8 @@ export default function ProjectViewer() {
     window.addEventListener("keydown", onKey);
     window.addEventListener("popstate", onPop);
     document.body.style.overflow = "hidden";
+    // Move keyboard focus into the dialog so Tab/Escape act on it, not the page behind.
+    closeBtn.current?.focus({ preventScroll: true });
     return () => {
       window.removeEventListener("keydown", onKey);
       window.removeEventListener("popstate", onPop);
@@ -120,7 +123,7 @@ export default function ProjectViewer() {
       <div ref={stage} data-testid="viewer-stage" className="relative z-[2] flex h-full flex-col will-change-[transform,opacity]">
         <div className="flex items-center justify-between px-5 py-4 md:px-10">
           <span className="label">{project.name}</span>
-          <button onClick={doClose} aria-label="Close" className="label transition-colors hover:text-accent">
+          <button ref={closeBtn} onClick={doClose} aria-label="Close" className="label transition-colors hover:text-accent">
             Close ✕
           </button>
         </div>

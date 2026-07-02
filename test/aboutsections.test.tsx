@@ -6,7 +6,7 @@ describe("AboutSections", () => {
   it("renders each top-level section title", () => {
     render(<AboutSections />);
     expect(screen.getByText("Profile & Philosophy")).toBeInTheDocument();
-    expect(screen.getByText("Company Expertise")).toBeInTheDocument();
+    expect(screen.getByText("How we work")).toBeInTheDocument();
     expect(screen.getByText("Office Structure")).toBeInTheDocument();
   });
   it("keeps list names in the DOM (SEO-safe accordions)", () => {
