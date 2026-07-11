@@ -22,25 +22,17 @@ export default function MapSeal({
 }) {
   // Coordinates/address as the query drop the red pin on the studio the moment
   // the embed loads — no API key needed for the q=/output=embed form.
-  const src = `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=18&hl=en&output=embed`;
+  // t=k switches the tiles to satellite imagery so real buildings show.
+  const src = `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=18&t=k&hl=en&output=embed`;
   // The embed's own "View larger map" link lives in a corner that the circular
   // crop slices off, so we provide our own, placed safely inside the disc.
   const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
   return (
     <div className="relative mx-auto aspect-square w-full max-w-[360px] md:max-w-[620px]">
-      {/* rotating seal ring — the logo's own arc text and circle
-          (decorative; the map iframe carries the real title) */}
-      <img
-        src={RING_SRC}
-        alt=""
-        aria-hidden
-        draggable={false}
-        className="absolute inset-0 h-full w-full animate-spin motion-reduce:animate-none"
-        style={{ animationDuration: "40s", animationTimingFunction: "linear" }}
-      />
-
-      {/* the map disc */}
-      <div className="absolute left-1/2 top-1/2 h-[70%] w-[70%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full bg-black">
+      {/* the map disc — sized so the seal's circle line (measured at ~97.8%
+          of the container; see scripts/build-logo-assets.py geometry note)
+          draws exactly on the map's edge, leaving no white gap inside */}
+      <div className="absolute left-1/2 top-1/2 h-[98%] w-[98%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full bg-black">
         {/* The iframe is oversized and centered so Google's own corner/top
             controls fall outside the circular crop instead of being sliced. */}
         {/* `pointer-events-none` freezes the map (it can't be panned/zoomed, so
@@ -87,6 +79,18 @@ export default function MapSeal({
           Open in Google Maps ↗
         </a>
       </div>
+
+      {/* rotating seal ring — the logo's own arc text and circle, layered
+          above the map so the text sweeps over the disc edge like a stamp
+          (decorative; the map iframe carries the real title) */}
+      <img
+        src={RING_SRC}
+        alt=""
+        aria-hidden
+        draggable={false}
+        className="pointer-events-none absolute inset-0 z-20 h-full w-full animate-spin motion-reduce:animate-none"
+        style={{ animationDuration: "40s", animationTimingFunction: "linear" }}
+      />
     </div>
   );
 }
