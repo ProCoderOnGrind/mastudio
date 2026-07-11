@@ -2,6 +2,7 @@
 import { tinaField } from "tinacms/dist/react";
 import type { Office, Social } from "@/data/offices";
 import MapSeal from "@/components/contact/MapSeal";
+import ContactForm from "@/components/contact/ContactForm";
 
 // Exact studio coordinates — from the MA Studio & Partners Google Maps place
 // (maps.app.goo.gl/eZ85PpJdMCZMGkAMA). Passing lat,lng as the query drops the
@@ -92,6 +93,20 @@ export default function ContactView({
               ))}
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Direct message — type here instead of opening an email client */}
+      <div className="mt-16 border-t border-hairline pt-10 md:mt-24">
+        <div className="grid gap-8 md:grid-cols-2 md:gap-10">
+          <div>
+            <h2 className="label meta mb-2">Send a message</h2>
+            <p className="max-w-[40ch] text-[15px]">
+              Write to us directly from this page. Your note lands in the studio
+              inbox and we reply by email.
+            </p>
+          </div>
+          <ContactForm />
         </div>
       </div>
     </div>
