@@ -12,10 +12,12 @@ import { OFFICES, SOCIALS } from "@/data/offices";
 const office = OFFICES[0];
 
 describe("ContactPage", () => {
-  it("renders the email as a mailto link", () => {
+  it("renders the email as a mailto link with a prefilled subject", () => {
     render(<ContactPage />);
     const link = screen.getByRole("link", { name: office.email });
-    expect(link.getAttribute("href")).toBe(`mailto:${office.email}`);
+    expect(link.getAttribute("href")).toBe(
+      `mailto:${office.email}?subject=Project%20inquiry`,
+    );
   });
 
   it("renders the phone as a tel link with spaces stripped", () => {

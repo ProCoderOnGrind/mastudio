@@ -38,7 +38,15 @@ export async function POST(req: Request) {
   try {
     const res = await fetch(`https://formsubmit.co/ajax/${STUDIO_EMAIL}`, {
       method: "POST",
-      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+        // FormSubmit rejects requests that don't look like they come from a
+        // browsing context ("open this page through a web server"), so the
+        // relay must identify the site it forwards for.
+        Origin: "https://mastudio.al",
+        Referer: "https://mastudio.al/contact",
+      },
       body: JSON.stringify({
         name,
         email,
@@ -49,7 +57,22 @@ export async function POST(req: Request) {
       }),
       signal: AbortSignal.timeout(10_000),
     });
-    if (!res.ok) throw new Error(`FormSubmit responded ${res.status}`);
+    // FormSubmit answers HTTP 200 even on failure; the JSON carries the truth.
+    const json = (await res.json().catch(() => null)) as
+      | { success?: string | boolean; message?: string }
+      | null;
+    if (!res.ok || String(json?.success) !== "true") {
+      if (json?.message?.toLowerCase().includes("activation")) {
+        return Response.json(
+          {
+            ok: false,
+            error: `The form is awaiting its one-time activation. Meanwhile, please email us directly at ${STUDIO_EMAIL}.`,
+          },
+          { status: 503 },
+        );
+      }
+      throw new Error(json?.message || `FormSubmit responded ${res.status}`);
+    }
     return Response.json({ ok: true });
   } catch {
     return Response.json(

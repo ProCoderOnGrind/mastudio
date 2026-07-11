@@ -57,7 +57,7 @@ export default function ContactView({
           <div className="label meta mb-2">Write</div>
           <h1>
             <a
-              href={`mailto:${office.email}`}
+              href={`mailto:${office.email}?subject=${encodeURIComponent("Project inquiry")}`}
               className={`contact-lead block break-words ${hover}`}
               data-tina-field={editOffice ? tinaField(editOffice, "email") : undefined}
             >
