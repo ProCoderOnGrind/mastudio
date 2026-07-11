@@ -59,3 +59,23 @@ body {
 
 .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
 .no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* Book reader page turn — a short directional slide + fade on entry.
+   @starting-style fires on every keyed remount; browsers without it
+   simply show the new spread instantly. */
+.book-turn {
+  --turn-x: 16px;
+  opacity: 1;
+  transform: none;
+  transition: opacity 240ms var(--ease), transform 240ms var(--ease);
+}
+.book-turn[data-dir="prev"] { --turn-x: -16px; }
+@starting-style {
+  .book-turn { opacity: 0; transform: translateX(var(--turn-x)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .book-turn { transition: opacity 200ms var(--ease); }
+  @starting-style {
+    .book-turn { transform: none; }
+  }
+}
