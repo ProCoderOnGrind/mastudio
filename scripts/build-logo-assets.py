@@ -13,7 +13,11 @@
 # (content starts at r=735px), so the intro and map rotate the ring while
 # the mark stays upright:
 #   public/mastudio/logo-seal.png       full seal   (header, general use)
-#   public/mastudio/logo-seal-ring.png  outer ring  (rotating layer)
+#   public/mastudio/logo-seal-ring.png  outer ring  (rotating layer, intro)
+#   public/mastudio/logo-seal-text.png  ring minus the circle stroke (map;
+#                                       the map draws its own perfect circle
+#                                       as a CSS border so the line can sit
+#                                       exactly on the disc edge)
 #   public/mastudio/logo-seal-mark.png  centre mark (static layer)
 #   app/icon.png                        favicon
 #
@@ -52,8 +56,34 @@ mark.putalpha(ImageChops.multiply(alpha, disc))
 ring = canvas.copy()
 ring.putalpha(ImageChops.multiply(alpha, ImageChops.invert(disc)))
 
+# Text-only variant: erase the circle stroke, keep the arc text. The stroke
+# is a thin (4-5px at 800px) radial run; letter glyphs are much thicker. Rays
+# are classified per 0.1 degree by the alpha thickness found near the rim,
+# and the text zone is dilated a little so glyph edges are never nicked.
+import math
+
+import numpy as np
+
+arr = np.array(ring)
+ys, xs = np.nonzero(arr[:, :, 3] > 15)
+rr = np.hypot(xs - HALF, ys - HALF)
+rim_mask = rr > 0.86 * HALF
+rim_ys, rim_xs = ys[rim_mask], xs[rim_mask]
+rim_ang = ((np.degrees(np.arctan2(rim_ys - HALF, rim_xs - HALF)) % 360) * 10).astype(int)
+thick = np.bincount(rim_ang, minlength=3600)  # rim pixels per 0.1 deg ray
+# stroke rays carry ~15 px each at this scale, letter rays 60+
+is_text = thick > 35
+is_text = np.convolve(
+    np.concatenate([is_text[-20:], is_text, is_text[:20]]).astype(int),
+    np.ones(41), mode="same",
+)[20:-20] > 0  # dilate +-2 deg
+stroke = ~is_text[rim_ang]
+text_arr = arr.copy()
+text_arr[rim_ys[stroke], rim_xs[stroke], 3] = 0
+text = Image.fromarray(text_arr)
+
 out = root / "public" / "mastudio"
-for img, name in [(canvas, "logo-seal.png"), (ring, "logo-seal-ring.png"), (mark, "logo-seal-mark.png")]:
+for img, name in [(canvas, "logo-seal.png"), (ring, "logo-seal-ring.png"), (mark, "logo-seal-mark.png"), (text, "logo-seal-text.png")]:
     img.resize((OUT_SIZE, OUT_SIZE), Image.LANCZOS).save(out / name, "PNG", optimize=True)
     print(name, "written")
 

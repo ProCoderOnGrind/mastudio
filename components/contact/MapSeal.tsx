@@ -6,7 +6,10 @@ import { Roboto } from "next/font/google";
 // MA seal ring (arc text + circle, cut from the logo by
 // scripts/build-logo-assets.py) that slowly rotates around it.
 const GREEN = "#94c52d"; // sampled from the MA logo
-const RING_SRC = "/mastudio/logo-seal-ring.png";
+// Arc text only — the circle itself is drawn as a CSS border on the map disc
+// so the line sits exactly on the map's edge (the artwork's painted circle
+// is slightly irregular and would overlap or gap depending on the angle).
+const TEXT_SRC = "/mastudio/logo-seal-text.png";
 
 // Google Maps renders all of its own place labels in Roboto. Loading it here
 // lets our "MaStudio" label match them exactly, so it reads as a native map
@@ -29,10 +32,12 @@ export default function MapSeal({
   const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
   return (
     <div className="relative mx-auto aspect-square w-full max-w-[360px] md:max-w-[620px]">
-      {/* the map disc — sized so the seal's circle line (measured at ~97.8%
-          of the container; see scripts/build-logo-assets.py geometry note)
-          draws exactly on the map's edge, leaving no white gap inside */}
-      <div className="absolute left-1/2 top-1/2 h-[98%] w-[98%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full bg-black">
+      {/* the map disc — the seal's circle is drawn here as a border, so the
+          green line rings the map's edge exactly: no gap, no overlap */}
+      <div
+        className="absolute left-1/2 top-1/2 h-[98%] w-[98%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full border-[3px] bg-black"
+        style={{ borderColor: GREEN }}
+      >
         {/* The iframe is oversized and centered so Google's own corner/top
             controls fall outside the circular crop instead of being sliced. */}
         {/* `pointer-events-none` freezes the map (it can't be panned/zoomed, so
@@ -80,11 +85,11 @@ export default function MapSeal({
         </a>
       </div>
 
-      {/* rotating seal ring — the logo's own arc text and circle, layered
-          above the map so the text sweeps over the disc edge like a stamp
+      {/* rotating seal text — the logo's arc wording, layered above the map
+          so it sweeps over the disc edge like a stamp
           (decorative; the map iframe carries the real title) */}
       <img
-        src={RING_SRC}
+        src={TEXT_SRC}
         alt=""
         aria-hidden
         draggable={false}

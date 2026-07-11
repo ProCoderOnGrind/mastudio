@@ -8,7 +8,7 @@ import { hasPlayedIntro, markIntroPlayed } from "@/lib/intro";
 // (scripts/build-logo-assets.py): the outer ring rotates, the mark stays upright.
 export const RING_SRC = "/mastudio/logo-seal-ring.png";
 export const MARK_SRC = "/mastudio/logo-seal-mark.png";
-const SIZE = 260; // px, intro emblem box
+const SIZE = 380; // px, intro emblem box
 
 // Runs before paint on the client, no-ops (without warning) during SSR.
 const useIsoLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
@@ -72,7 +72,7 @@ export default function IntroOverlay() {
       <motion.div
         ref={emblemRef}
         className="relative"
-        style={{ width: "min(260px, 78vw)", height: "min(260px, 78vw)" }}
+        style={{ width: "min(380px, 84vw)", height: "min(380px, 84vw)" }}
         animate={
           leaving
             ? { x: target.x, y: target.y, scale: target.scale }
