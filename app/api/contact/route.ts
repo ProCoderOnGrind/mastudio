@@ -58,10 +58,15 @@ export async function POST(req: Request) {
       signal: AbortSignal.timeout(10_000),
     });
     // FormSubmit answers HTTP 200 even on failure; the JSON carries the truth.
-    const json = (await res.json().catch(() => null)) as
-      | { success?: string | boolean; message?: string }
-      | null;
+    const raw = await res.text();
+    let json: { success?: string | boolean; message?: string } | null = null;
+    try {
+      json = JSON.parse(raw);
+    } catch {
+      /* non-JSON reply; logged below */
+    }
     if (!res.ok || String(json?.success) !== "true") {
+      console.error("contact relay rejected:", res.status, raw.slice(0, 500));
       if (json?.message?.toLowerCase().includes("activation")) {
         return Response.json(
           {
@@ -74,7 +79,8 @@ export async function POST(req: Request) {
       throw new Error(json?.message || `FormSubmit responded ${res.status}`);
     }
     return Response.json({ ok: true });
-  } catch {
+  } catch (err) {
+    console.error("contact relay failed:", err);
     return Response.json(
       { ok: false, error: "The message could not be sent. Please try again or email us directly." },
       { status: 502 },
