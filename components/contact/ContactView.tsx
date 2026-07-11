@@ -105,7 +105,7 @@ export default function ContactView({
               inbox and we reply by email.
             </p>
           </div>
-          <ContactForm />
+          <ContactForm email={office.email} />
         </div>
       </div>
     </div>

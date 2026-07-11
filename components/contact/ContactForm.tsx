@@ -8,7 +8,12 @@ const FIELD =
   "transition-colors placeholder:text-big-gray/60 " +
   "focus:border-black focus:outline-none";
 
-export default function ContactForm() {
+// Submissions go straight from the visitor's browser to FormSubmit's AJAX
+// endpoint. A server-side relay does NOT work here: FormSubmit sits behind
+// Cloudflare, which 403-challenges requests from datacenter IPs (Vercel),
+// while browser requests pass. First-ever submission triggers FormSubmit's
+// one-time "Activate Form" email to the studio address.
+export default function ContactForm({ email }: { email: string }) {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
 
@@ -16,24 +21,43 @@ export default function ContactForm() {
     e.preventDefault();
     if (status === "sending") return;
     const form = e.currentTarget;
-    const data = Object.fromEntries(new FormData(form));
+    const data = Object.fromEntries(new FormData(form)) as Record<string, string>;
     setStatus("sending");
     setError("");
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch(`https://formsubmit.co/ajax/${email}`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
+          message: data.message,
+          _honey: data._honey ?? "",
+          _replyto: data.email,
+          _subject: `Website inquiry from ${data.name}`,
+          _template: "table",
+          _captcha: "false",
+        }),
       });
-      const json = await res.json().catch(() => ({}));
-      if (!res.ok || !json.ok) {
-        throw new Error(json.error || "The message could not be sent. Please try again.");
+      const json = (await res.json().catch(() => null)) as
+        | { success?: string | boolean; message?: string }
+        | null;
+      if (!res.ok || String(json?.success) !== "true") {
+        throw new Error(
+          json?.message?.toLowerCase().includes("activation")
+            ? `The form is awaiting its one-time activation. Meanwhile, please email us directly at ${email}.`
+            : "The message could not be sent. Please try again or email us directly.",
+        );
       }
       form.reset();
       setStatus("sent");
     } catch (err) {
       setStatus("error");
-      setError(err instanceof Error ? err.message : "The message could not be sent. Please try again.");
+      setError(
+        err instanceof Error && err.message
+          ? err.message
+          : "The message could not be sent. Please try again or email us directly.",
+      );
     }
   }
 
@@ -55,11 +79,12 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={onSubmit} className="relative max-w-[560px]">
-      {/* Honeypot — hidden from people, tempting to bots */}
+      {/* Honeypot — hidden from people, tempting to bots; FormSubmit
+          silently discards submissions where it is filled */}
       <div aria-hidden className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
         <label>
           Company
-          <input type="text" name="company" tabIndex={-1} autoComplete="off" />
+          <input type="text" name="_honey" tabIndex={-1} autoComplete="off" />
         </label>
       </div>
 
