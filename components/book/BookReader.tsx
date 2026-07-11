@@ -98,15 +98,20 @@ export default function BookReader() {
     pages.length === 2 ? `${pages[0]}-${pages[1]} / ${COUNT}` : `${pages[0]} / ${COUNT}`;
 
   return (
-    <section aria-label="Book reader">
-      {/* Page canvas — height-capped so the whole spread stays in view */}
+    <section
+      aria-label="Book reader"
+      className="mx-auto"
+      style={{
+        // Height-capped so the spread plus the control row stays in view;
+        // the controls share this width so they always align with the book.
+        width: `min(100%, calc(${ratio} * (100dvh - 170px)))`,
+        minWidth: "min(100%, 280px)",
+      }}
+    >
+      {/* Page canvas */}
       <div
-        className="relative mx-auto touch-pan-y select-none"
-        style={{
-          width: `min(100%, calc(${ratio} * (100dvh - 300px)))`,
-          minWidth: "min(100%, 280px)",
-          aspectRatio: `${ratio}`,
-        }}
+        className="relative w-full touch-pan-y select-none"
+        style={{ aspectRatio: `${ratio}` }}
         onPointerDown={onPointerDown}
         onPointerUp={onPointerUp}
         onPointerCancel={() => (touch.current = null)}
@@ -155,7 +160,7 @@ export default function BookReader() {
       </div>
 
       {/* Controls */}
-      <div className="mx-auto mt-5 flex max-w-[900px] items-center justify-between border-t border-hairline pt-4">
+      <div className="mt-5 flex w-full items-center justify-between border-t border-hairline pt-4">
         <div className="flex items-center gap-5">
           <button
             aria-label="Previous page"

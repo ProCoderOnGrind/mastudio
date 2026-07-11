@@ -31,11 +31,13 @@ export default function MapSeal({
   // crop slices off, so we provide our own, placed safely inside the disc.
   const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
   return (
-    <div className="relative mx-auto aspect-square w-full max-w-[360px] md:max-w-[620px]">
+    <div className="relative mx-auto aspect-square w-full max-w-[360px] md:max-w-[680px]">
       {/* the map disc — the seal's circle is drawn here as a border, so the
-          green line rings the map's edge exactly: no gap, no overlap */}
+          green line rings the map's edge exactly. Sized at 82% so the
+          rotating arc text (which starts at 84% of the container) orbits
+          fully OUTSIDE the circle and never crosses the map. */}
       <div
-        className="absolute left-1/2 top-1/2 h-[98%] w-[98%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full border-[3px] bg-black"
+        className="absolute left-1/2 top-1/2 h-[82%] w-[82%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full border-[3px] bg-black"
         style={{ borderColor: GREEN }}
       >
         {/* The iframe is oversized and centered so Google's own corner/top
@@ -85,9 +87,8 @@ export default function MapSeal({
         </a>
       </div>
 
-      {/* rotating seal text — the logo's arc wording, layered above the map
-          so it sweeps over the disc edge like a stamp
-          (decorative; the map iframe carries the real title) */}
+      {/* rotating seal text — the logo's arc wording, orbiting outside the
+          circle (decorative; the map iframe carries the real title) */}
       <img
         src={TEXT_SRC}
         alt=""
