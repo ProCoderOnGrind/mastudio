@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "slug": "online-retail-services",
       "name": "ONLINE RETAIL SERVICES",
+      "slug": "online-retail-services",
       "type": "Retail",
       "year": 2023,
       "location": "Vora, Albania",
@@ -11,11 +11,12 @@
         "/mastudio/online-retail-services/img-1.jpg",
         "/mastudio/online-retail-services/img-2.jpg",
         "/mastudio/online-retail-services/img-3.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "cornelian-residence",
       "name": "Cornelian Residence",
+      "slug": "cornelian-residence",
       "type": "Retail",
       "year": 2023,
       "location": "Vora, Albania",
@@ -25,11 +26,12 @@
         "/mastudio/cornelian-residence/img-2.jpg",
         "/mastudio/cornelian-residence/img-3.jpg",
         "/mastudio/cornelian-residence/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "voxel-residence",
       "name": "VOXEL RESIDENCE",
+      "slug": "voxel-residence",
       "type": "Residence",
       "year": 2025,
       "location": "Tirana, Albania",
@@ -38,11 +40,12 @@
         "/mastudio/voxel-residence/img-1.jpg",
         "/mastudio/voxel-residence/img-2.jpg",
         "/mastudio/voxel-residence/img-3.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "seina-residence",
       "name": "SENIA RESIDENCE",
+      "slug": "seina-residence",
       "type": "Residence",
       "year": 2024,
       "location": "Dhermi, Albania",
@@ -52,11 +55,12 @@
         "/mastudio/seina-residence/img-2.jpg",
         "/mastudio/seina-residence/img-3.jpg",
         "/mastudio/seina-residence/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "koi-residence",
       "name": "Koi RESIDENCE",
+      "slug": "koi-residence",
       "type": "Residence",
       "year": 2024,
       "location": "Tirana, Albania",
@@ -66,11 +70,12 @@
         "/mastudio/koi-residence/img-2.jpg",
         "/mastudio/koi-residence/img-3.jpg",
         "/mastudio/koi-residence/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "vila-axh",
       "name": "Villa AXH",
+      "slug": "vila-axh",
       "type": "Residence",
       "year": 2024,
       "location": "Tirana, Albania",
@@ -80,11 +85,12 @@
         "/mastudio/vila-axh/img-2.jpg",
         "/mastudio/vila-axh/img-3.jpg",
         "/mastudio/vila-axh/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "perla-garden",
       "name": "Perla Garden",
+      "slug": "perla-garden",
       "type": "Residence",
       "year": 2024,
       "location": "Tirana, Albania",
@@ -94,11 +100,12 @@
         "/mastudio/perla-garden/img-2.jpg",
         "/mastudio/perla-garden/img-3.jpg",
         "/mastudio/perla-garden/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "private-villas-2",
       "name": "Private villas",
+      "slug": "private-villas-2",
       "type": "Residence",
       "year": 2024,
       "location": "Tirana, Albania",
@@ -108,11 +115,12 @@
         "/mastudio/private-villas-2/img-2.jpg",
         "/mastudio/private-villas-2/img-3.jpg",
         "/mastudio/private-villas-2/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "belvedere-korca",
       "name": "BELVEDERE KORÇA",
+      "slug": "belvedere-korca",
       "type": "Residence",
       "year": 2024,
       "location": "Korça, Albania",
@@ -122,11 +130,12 @@
         "/mastudio/belvedere-korca/img-2.jpg",
         "/mastudio/belvedere-korca/img-3.jpg",
         "/mastudio/belvedere-korca/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "ebolowa-master-plan",
       "name": "EBOLOWA MASTER PLAN",
+      "slug": "ebolowa-master-plan",
       "type": "Master Plan",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
@@ -135,11 +144,12 @@
         "/mastudio/ebolowa-master-plan/img-2.jpg",
         "/mastudio/ebolowa-master-plan/img-3.jpg",
         "/mastudio/ebolowa-master-plan/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "vocational-training-center",
       "name": "VOCATIONAL TRAINING CENTER",
+      "slug": "vocational-training-center",
       "type": "Training Center",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
@@ -149,11 +159,12 @@
         "/mastudio/vocational-training-center/img-2.jpg",
         "/mastudio/vocational-training-center/img-3.jpg",
         "/mastudio/vocational-training-center/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "music-faculty-chantal-biya",
       "name": "MUSIC FACULTY CHANTAL BIYA",
+      "slug": "music-faculty-chantal-biya",
       "type": "Music Faculty",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
@@ -163,11 +174,12 @@
         "/mastudio/music-faculty-chantal-biya/img-2.jpg",
         "/mastudio/music-faculty-chantal-biya/img-3.jpg",
         "/mastudio/music-faculty-chantal-biya/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "institute-of-art-culture-dritero-agolli",
       "name": "INSTITUTE OF ART & CULTURE DRITERO AGOLLI",
+      "slug": "institute-of-art-culture-dritero-agolli",
       "type": "Institute",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
@@ -177,22 +189,24 @@
         "/mastudio/institute-of-art-culture-dritero-agolli/img-2.jpg",
         "/mastudio/institute-of-art-culture-dritero-agolli/img-3.jpg",
         "/mastudio/institute-of-art-culture-dritero-agolli/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "bantu-museum",
       "name": "BANTU MUSEUM",
+      "slug": "bantu-museum",
       "type": "Museum",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
       "images": [
         "/mastudio/bantu-museum/img-0.jpg",
         "/mastudio/bantu-museum/img-1.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "hospitality",
       "name": "Hospitality",
+      "slug": "hospitality",
       "type": "Hotel",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
@@ -202,11 +216,12 @@
         "/mastudio/hospitality/img-2.jpg",
         "/mastudio/hospitality/img-3.jpg",
         "/mastudio/hospitality/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "alem-aga-farm",
       "name": "ALEM AGA FARM",
+      "slug": "alem-aga-farm",
       "type": "Farm",
       "year": 2020,
       "location": "Tragjas, Albania",
@@ -216,11 +231,12 @@
         "/mastudio/alem-aga-farm/img-2.jpg",
         "/mastudio/alem-aga-farm/img-3.jpg",
         "/mastudio/alem-aga-farm/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "tulipan-residence",
       "name": "TULIPAN RESIDENCE",
+      "slug": "tulipan-residence",
       "type": "Residence",
       "year": 2020,
       "location": "Tirana, Albania",
@@ -230,11 +246,12 @@
         "/mastudio/tulipan-residence/img-2.jpg",
         "/mastudio/tulipan-residence/img-3.jpg",
         "/mastudio/tulipan-residence/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "sunflower-residences",
       "name": "SUNFLOWER RESIDENCES",
+      "slug": "sunflower-residences",
       "type": "Residence",
       "year": 2022,
       "location": "Tirana, Albania",
@@ -244,11 +261,12 @@
         "/mastudio/sunflower-residences/img-2.jpg",
         "/mastudio/sunflower-residences/img-3.jpg",
         "/mastudio/sunflower-residences/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "civic-center",
       "name": "Civic Center",
+      "slug": "civic-center",
       "type": "Center",
       "year": 2022,
       "location": "Falconara, Italy",
@@ -258,11 +276,12 @@
         "/mastudio/civic-center/img-2.jpg",
         "/mastudio/civic-center/img-3.jpg",
         "/mastudio/civic-center/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "germia-concert-hall",
       "name": "Germia Concert Hall",
+      "slug": "germia-concert-hall",
       "type": "Concert Hall",
       "year": 2022,
       "location": "Prishtina, Kosovo",
@@ -272,11 +291,12 @@
         "/mastudio/germia-concert-hall/img-2.jpg",
         "/mastudio/germia-concert-hall/img-3.jpg",
         "/mastudio/germia-concert-hall/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "prishtina-arena",
       "name": "PRISHTINA ARENA",
+      "slug": "prishtina-arena",
       "type": "Arena",
       "year": 2022,
       "location": "Prishtina, Kosovo",
@@ -286,11 +306,12 @@
         "/mastudio/prishtina-arena/img-2.jpg",
         "/mastudio/prishtina-arena/img-3.jpg",
         "/mastudio/prishtina-arena/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "london-busines-park",
       "name": "LONDON BUSINESS PARK",
+      "slug": "london-busines-park",
       "type": "Business Park",
       "year": 2022,
       "location": "Rinas, Albania",
@@ -300,11 +321,12 @@
         "/mastudio/london-busines-park/img-2.jpg",
         "/mastudio/london-busines-park/img-3.jpg",
         "/mastudio/london-busines-park/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "livadh-waterfront",
       "name": "LIVADH WATERFRONT",
+      "slug": "livadh-waterfront",
       "type": "Waterfront",
       "year": 2021,
       "location": "Livadh, Albania",
@@ -314,11 +336,12 @@
         "/mastudio/livadh-waterfront/img-2.jpg",
         "/mastudio/livadh-waterfront/img-3.jpg",
         "/mastudio/livadh-waterfront/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "pearl-resort",
       "name": "AQUAMARINE",
+      "slug": "pearl-resort",
       "type": "Resort",
       "year": 2021,
       "location": "Qeparo, Albania",
@@ -327,11 +350,12 @@
         "/mastudio/pearl-resort/img-1.jpg",
         "/mastudio/pearl-resort/img-2.jpg",
         "/mastudio/pearl-resort/img-3.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "green-pine-resort",
       "name": "GREEN PINE RESORT",
+      "slug": "green-pine-resort",
       "type": "Resort",
       "year": 2022,
       "location": "Durres, Albania",
@@ -340,11 +364,12 @@
         "/mastudio/green-pine-resort/img-1.jpg",
         "/mastudio/green-pine-resort/img-2.jpg",
         "/mastudio/green-pine-resort/img-3.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "altavista",
       "name": "GREEN AMPHITHEATER",
+      "slug": "altavista",
       "type": "Residence",
       "year": 2022,
       "location": "Durres, Albania",
@@ -354,11 +379,12 @@
         "/mastudio/altavista/img-2.jpg",
         "/mastudio/altavista/img-3.jpg",
         "/mastudio/altavista/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "residence-126",
       "name": "SEREN VILLAS",
+      "slug": "residence-126",
       "type": "Villa",
       "year": 2022,
       "location": "Tirana, Albania",
@@ -368,11 +394,12 @@
         "/mastudio/residence-126/img-2.jpg",
         "/mastudio/residence-126/img-3.jpg",
         "/mastudio/residence-126/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "ales",
       "name": "ALES",
+      "slug": "ales",
       "type": "Residence",
       "year": 2022,
       "location": "Tirana, Albania",
@@ -382,11 +409,12 @@
         "/mastudio/ales/img-2.jpg",
         "/mastudio/ales/img-3.jpg",
         "/mastudio/ales/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "universe-city-masterplan",
       "name": "UNIVERSE CITY MASTERPLAN",
+      "slug": "universe-city-masterplan",
       "type": "Masterplan",
       "year": 2022,
       "location": "Tirana, Albania",
@@ -394,11 +422,12 @@
         "/mastudio/universe-city-masterplan/img-0.jpg",
         "/mastudio/universe-city-masterplan/img-1.jpg",
         "/mastudio/universe-city-masterplan/img-2.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "qtu-park-smart-city",
       "name": "QTU PARK SMART CITY",
+      "slug": "qtu-park-smart-city",
       "type": "Park",
       "year": 2022,
       "location": "Tirana, Albania",
@@ -408,11 +437,12 @@
         "/mastudio/qtu-park-smart-city/img-2.jpg",
         "/mastudio/qtu-park-smart-city/img-3.jpg",
         "/mastudio/qtu-park-smart-city/img-4.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "univers-school",
       "name": "UNIVERS SCHOOL",
+      "slug": "univers-school",
       "type": "School",
       "year": 2022,
       "location": "Tirana, Albania",
@@ -420,11 +450,12 @@
         "/mastudio/univers-school/img-0.jpg",
         "/mastudio/univers-school/img-1.jpg",
         "/mastudio/univers-school/img-2.jpg"
-      ]
+      ],
+      "description": ""
     },
     {
-      "slug": "startek",
       "name": "STARTEK",
+      "slug": "startek",
       "type": "Residence",
       "year": 2022,
       "location": "Tirana, Albania",
@@ -434,21 +465,8 @@
         "/mastudio/startek/img-2.jpg",
         "/mastudio/startek/img-3.jpg",
         "/mastudio/startek/img-4.jpg"
-      ]
-    },
-    {
-      "slug": "olive-sunshine-residence",
-      "name": "OLIVE SUNSHINE RESIDENCE",
-      "type": "Residence",
-      "year": 2022,
-      "location": "Tirana, Albania",
-      "images": [
-        "/mastudio/olive-sunshine-residence/img-0.jpg",
-        "/mastudio/olive-sunshine-residence/img-1.jpg",
-        "/mastudio/olive-sunshine-residence/img-2.jpg",
-        "/mastudio/olive-sunshine-residence/img-3.jpg",
-        "/mastudio/olive-sunshine-residence/img-4.jpg"
-      ]
+      ],
+      "description": ""
     }
   ]
 }
