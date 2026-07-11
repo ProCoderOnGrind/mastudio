@@ -2,10 +2,11 @@
 
 import { Roboto } from "next/font/google";
 
-// Circular "seal" — a live Google Map clipped into a disc, ringed by brand text
-// that slowly rotates, echoing the MA logo. The map keeps its natural colors;
-// the ring + frame use the logo green.
+// Circular "seal" — a live Google Map clipped into a disc, framed by the real
+// MA seal ring (arc text + circle, cut from the logo by
+// scripts/build-logo-assets.py) that slowly rotates around it.
 const GREEN = "#94c52d"; // sampled from the MA logo
+const RING_SRC = "/mastudio/logo-seal-ring.png";
 
 // Google Maps renders all of its own place labels in Roboto. Loading it here
 // lets our "MaStudio" label match them exactly, so it reads as a native map
@@ -14,10 +15,10 @@ const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500"], display: "sw
 
 export default function MapSeal({
   query,
-  ringText,
 }: {
   query: string;
-  ringText: string;
+  /** Unused since the ring became the seal artwork; kept for older call sites. */
+  ringText?: string;
 }) {
   // Coordinates/address as the query drop the red pin on the studio the moment
   // the embed loads — no API key needed for the q=/output=embed form.
@@ -26,27 +27,17 @@ export default function MapSeal({
   // crop slices off, so we provide our own, placed safely inside the disc.
   const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
   return (
-    <div className="relative mx-auto aspect-square w-full max-w-[360px]">
-      {/* green hairline frame */}
-      <div className="absolute inset-0 rounded-full border-2" style={{ borderColor: GREEN }} />
-
-      {/* rotating brand ring (decorative; the map iframe carries the real title) */}
-      <svg
-        viewBox="0 0 200 200"
-        aria-hidden="true"
+    <div className="relative mx-auto aspect-square w-full max-w-[360px] md:max-w-[620px]">
+      {/* rotating seal ring — the logo's own arc text and circle
+          (decorative; the map iframe carries the real title) */}
+      <img
+        src={RING_SRC}
+        alt=""
+        aria-hidden
+        draggable={false}
         className="absolute inset-0 h-full w-full animate-spin motion-reduce:animate-none"
-        style={{ animationDuration: "26s", animationTimingFunction: "linear" }}
-      >
-        <defs>
-          <path id="mapseal-ring" d="M100,100 m-84,0 a84,84 0 1,1 168,0 a84,84 0 1,1 -168,0" />
-        </defs>
-        <text style={{ fill: GREEN, fontSize: "12px", letterSpacing: "0.34em", fontWeight: 500 }}>
-          {/* textLength fills ~94% of the ring, leaving a small loop-seam gap */}
-          <textPath href="#mapseal-ring" startOffset="0" textLength="498" lengthAdjust="spacing">
-            {ringText}
-          </textPath>
-        </text>
-      </svg>
+        style={{ animationDuration: "40s", animationTimingFunction: "linear" }}
+      />
 
       {/* the map disc */}
       <div className="absolute left-1/2 top-1/2 h-[70%] w-[70%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full bg-black">

@@ -8,7 +8,6 @@ import ContactForm from "@/components/contact/ContactForm";
 // (maps.app.goo.gl/eZ85PpJdMCZMGkAMA). Passing lat,lng as the query drops the
 // pin precisely on the building the moment the embed loads.
 const MAP_QUERY = "41.3139575,19.8152786";
-const RING_TEXT = "Modelling Architecture Studio · Tiranë · Albania ·";
 
 export default function ContactView({
   office,
@@ -29,7 +28,7 @@ export default function ContactView({
       <div className="grid items-center gap-12 md:grid-cols-2 md:gap-10">
         {/* Map seal — first on mobile, right on desktop */}
         <div className="order-1 md:order-2">
-          <MapSeal query={MAP_QUERY} ringText={RING_TEXT} />
+          <MapSeal query={MAP_QUERY} />
         </div>
 
         {/* Contact info — second on mobile, left on desktop */}

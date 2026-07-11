@@ -4,9 +4,11 @@ import { createPortal } from "react-dom";
 import { motion } from "framer-motion";
 import { hasPlayedIntro, markIntroPlayed } from "@/lib/intro";
 
-export const RING_TEXT = "MODELLING ARCHITECTURE · ";
+// The emblem is the real seal artwork split into two aligned layers
+// (scripts/build-logo-assets.py): the outer ring rotates, the mark stays upright.
+export const RING_SRC = "/mastudio/logo-seal-ring.png";
+export const MARK_SRC = "/mastudio/logo-seal-mark.png";
 const SIZE = 260; // px, intro emblem box
-const LOGO_GREEN = "#94c52d"; // sampled from public/mastudio/logo-dark.png — match the real logo
 
 // Runs before paint on the client, no-ops (without warning) during SSR.
 const useIsoLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
@@ -78,31 +80,28 @@ export default function IntroOverlay() {
         }
         transition={{ duration: 1.0, ease: [0.4, 0, 0.2, 1] }}
       >
-        {/* Spinning ring */}
-        <motion.svg
-          viewBox="0 0 260 260"
+        {/* Spinning ring — the seal's arc text and circle */}
+        <motion.img
+          src={RING_SRC}
+          alt=""
+          aria-hidden
+          draggable={false}
           className="absolute inset-0 h-full w-full"
           animate={{ rotate: leaving ? 0 : 360 }}
           transition={
             leaving
               ? { duration: 0.8, ease: "easeOut" }
-              : { repeat: Infinity, ease: "linear", duration: 8 }
+              : { repeat: Infinity, ease: "linear", duration: 12 }
           }
-        >
-          <defs>
-            <path id="introRing" d="M130,130 m-104,0 a104,104 0 1,1 208,0 a104,104 0 1,1 -208,0" />
-          </defs>
-          <circle cx="130" cy="130" r="104" fill="none" stroke={LOGO_GREEN} strokeWidth="1.5" />
-          <text fill={LOGO_GREEN} fontSize="12.5" letterSpacing="3">
-            <textPath href="#introRing">{RING_TEXT.repeat(3)}</textPath>
-          </text>
-        </motion.svg>
+        />
 
-        {/* Static center */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <span className="text-[44px] font-semibold leading-none" style={{ color: LOGO_GREEN }}>MA</span>
-          <span className="label mt-1" style={{ color: LOGO_GREEN }}>Studio &amp; Partners</span>
-        </div>
+        {/* Static center — the MA mark stays upright */}
+        <img
+          src={MARK_SRC}
+          alt="MA Studio & Partners"
+          draggable={false}
+          className="absolute inset-0 h-full w-full"
+        />
       </motion.div>
     </motion.div>,
     document.body

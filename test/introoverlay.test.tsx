@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { render } from "@testing-library/react";
-import IntroOverlay, { RING_TEXT } from "@/components/intro/IntroOverlay";
+import IntroOverlay, { RING_SRC, MARK_SRC } from "@/components/intro/IntroOverlay";
 import { markIntroPlayed } from "@/lib/intro";
 
 // The overlay is portaled to document.body, so query the document, not the render container.
@@ -18,8 +18,12 @@ describe("IntroOverlay", () => {
     expect(document.querySelector('[data-intro="overlay"]')).not.toBeNull();
   });
 
-  it("spins the real logo wording on the ring", () => {
-    expect(RING_TEXT).toContain("MODELLING ARCHITECTURE");
-    expect(RING_TEXT).not.toContain("STUDIO");
+  it("renders the seal artwork as separate ring and mark layers", () => {
+    render(<IntroOverlay />);
+    const srcs = Array.from(document.querySelectorAll('[data-intro="overlay"] img')).map(
+      (img) => img.getAttribute("src"),
+    );
+    expect(srcs).toContain(RING_SRC);
+    expect(srcs).toContain(MARK_SRC);
   });
 });
