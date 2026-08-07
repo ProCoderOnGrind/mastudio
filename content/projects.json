@@ -468,6 +468,23 @@
         "/mastudio/startek/img-4.jpg"
       ],
       "description": ""
+    },
+    {
+      "name": "Vivien Residence",
+      "slug": "https://mastudio.al/projects/vivien-residence",
+      "type": "Residence",
+      "year": 2024,
+      "location": "Durres ",
+      "images": [
+        "/ChatGPT-Image-Jun-27,-2026,-12_36_05-PM.png",
+        "/ChatGPT-Image-Jun-27,-2026,-12_40_51-PM.png",
+        "/ChatGPT-Image-Jun-27,-2026,-11_12_41-AM.png",
+        "/ChatGPT-Image-Jun-27,-2026,-11_17_10-AM.png",
+        "/ChatGPT-Image-Jun-27,-2026,-11_20_25-AM.png",
+        "/ChatGPT-Image-Jun-27,-2026,-11_30_00-AM.png",
+        "/ChatGPT-Image-Jun-27,-2026,-12_27_46-PM.png"
+      ],
+      "description": ""
     }
   ]
 }
