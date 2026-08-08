@@ -208,23 +208,26 @@ function MobileCover({
   return (
     <div ref={ref} className="no-scrollbar flex h-full snap-x snap-mandatory overflow-x-auto overflow-y-hidden bg-[#f0f0f0]">
       {images.map((src, i) => (
-        <section key={src} className="flex h-full w-screen shrink-0 snap-center items-center justify-center px-5">
-          {/* Full photo in a clean card — never cropped; whole image always shown. */}
+        <section key={src} className="flex h-full w-screen shrink-0 snap-center items-center justify-center px-2.5 py-2.5">
+          {/* Full photo in a clean card — never cropped; whole image always shown.
+              The card hugs the photo, so it grows to the full width available and
+              only gives back height when a tall photo would not otherwise fit
+              (`max-h-full` + a shrinkable image, instead of being clipped). */}
           <motion.figure
             initial={{ opacity: 0, y: 22 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55, ease: EASE, delay: i === 0 ? 0.12 : 0 }}
-            className="w-full overflow-hidden rounded-md bg-white shadow-[0_18px_42px_-18px_rgba(0,0,0,0.45)]"
+            className="flex max-h-full w-full flex-col overflow-hidden rounded-lg bg-white shadow-[0_18px_42px_-18px_rgba(0,0,0,0.45)]"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={src}
               alt={`${project.name} — ${i + 1}`}
-              className="w-full"
+              className="min-h-0 w-full object-contain"
               draggable={false}
               data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined}
             />
-            <figcaption className="px-4 py-3.5">
+            <figcaption className="shrink-0 px-4 pt-1 pb-3">
               <div className="text-[15px] font-semibold uppercase tracking-tight" data-tina-field={editTarget ? tinaField(editTarget, "name") : undefined}>
                 {project.name}
               </div>
