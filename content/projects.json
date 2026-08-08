@@ -127,12 +127,11 @@
       "year": 2024,
       "location": "Korça, Albania",
       "images": [
-        "/1_78-OK-(2).jpg",
-        "/1_78-OK.jpg",
-        "/1_78-Photo-(copy)-(copy)-(copy)-(copy)-(copy)-(copy).jpg",
-        "/1_84-1-PRILL.jpg",
-        "/1_86-1-PRILL-(copy).jpg",
-        "/1_87-1-PRILL.jpg"
+        "/mastudio/belvedere-korca/img-0.jpg",
+        "/mastudio/belvedere-korca/img-1.jpg",
+        "/mastudio/belvedere-korca/img-2.jpg",
+        "/mastudio/belvedere-korca/img-3.jpg",
+        "/mastudio/belvedere-korca/img-4.jpg"
       ],
       "description": ""
     },
@@ -486,6 +485,22 @@
         "/ChatGPT-Image-Jun-27,-2026,-11_20_25-AM.png",
         "/ChatGPT-Image-Jun-27,-2026,-11_30_00-AM.png",
         "/ChatGPT-Image-Jun-27,-2026,-12_27_46-PM.png"
+      ],
+      "description": ""
+    },
+    {
+      "name": "LUMINARA",
+      "slug": "luminara",
+      "type": "Residence",
+      "year": 2025,
+      "location": "Durres",
+      "images": [
+        "/create_the_first_image_inspire_Nano_Banana_2_49392.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_67234.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_44566.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_61147.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_75301.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_84654.png"
       ],
       "description": ""
     }
