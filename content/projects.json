@@ -127,12 +127,11 @@
       "year": 2024,
       "location": "Korça, Albania",
       "images": [
-        "/1_78-OK-(2).jpg",
-        "/1_78-OK.jpg",
-        "/1_78-Photo-(copy)-(copy)-(copy)-(copy)-(copy)-(copy).jpg",
-        "/1_84-1-PRILL.jpg",
-        "/1_86-1-PRILL-(copy).jpg",
-        "/1_87-1-PRILL.jpg"
+        "/mastudio/belvedere-korca/img-0.jpg",
+        "/mastudio/belvedere-korca/img-1.jpg",
+        "/mastudio/belvedere-korca/img-2.jpg",
+        "/mastudio/belvedere-korca/img-3.jpg",
+        "/mastudio/belvedere-korca/img-4.jpg"
       ],
       "description": ""
     },
@@ -408,11 +407,14 @@
       "year": 2022,
       "location": "Tirana, Albania",
       "images": [
-        "/mastudio/ales/img-0.jpg",
-        "/mastudio/ales/img-1.jpg",
-        "/mastudio/ales/img-2.jpg",
-        "/mastudio/ales/img-3.jpg",
-        "/mastudio/ales/img-4.jpg"
+        "/Render-11.jpg",
+        "/Render-2.jpg",
+        "/Render-3.jpg",
+        "/Render-4.jpg",
+        "/Render-5.jpg",
+        "/Render-6.jpg",
+        "/Render-7.jpg",
+        "/Render-8.jpg"
       ],
       "description": ""
     },
@@ -490,20 +492,18 @@
       "description": ""
     },
     {
-      "name": "BLU MAGNET",
-      "slug": "blu-magnet",
-      "type": "Hospitality",
-      "year": 2024,
-      "location": "Sarande",
+      "name": "LUMINARA",
+      "slug": "luminara",
+      "type": "Residence",
+      "year": 2025,
+      "location": "Durres",
       "images": [
-        "/ChatGPT-Image-Jun-10,-2026,-04_37_38-PM.png",
-        "/ChatGPT-Image-Jun-10,-2026,-04_37_54-PM.png",
-        "/ChatGPT-Image-Jun-10,-2026,-04_38_36-PM.png",
-        "/ChatGPT-Image-Jun-10,-2026,-04_38_46-PM.png",
-        "/ChatGPT-Image-Jun-10,-2026,-04_39_11-PM.png",
-        "/hf_20260522_151014_11a55cae-e343-4a19-b667-c85293112fb9.png",
-        "/hf_20260522_151014_d12f53e1-3ba9-4f79-bc8d-ddaeb3e6714f.png",
-        "/ChatGPT-Image-Jun-10,-2026,-04_38_08-PM.png"
+        "/create_the_first_image_inspire_Nano_Banana_2_49392.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_67234.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_44566.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_61147.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_75301.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_84654.png"
       ],
       "description": ""
     }
