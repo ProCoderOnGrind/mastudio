@@ -146,14 +146,10 @@
       "year": 2021,
       "location": "Ebolowa, Cameroon",
       "images": [
-        "/Eboloa-master-plan-(1).jpg",
-        "/Eboloa-master-plan-(2).jpg",
-        "/Eboloa-master-plan-(3).jpg",
-        "/Eboloa-master-plan-(4).jpg",
-        "/Eboloa-master-plan-(5).jpg",
-        "/Eboloa-master-plan-(7).jpg",
-        "/Eboloa-master-plan-(8).jpg",
-        "/Eboloa-master-plan-(9).jpg"
+        "/mastudio/ebolowa-master-plan/img-0.jpg",
+        "/mastudio/ebolowa-master-plan/img-2.jpg",
+        "/mastudio/ebolowa-master-plan/img-3.jpg",
+        "/mastudio/ebolowa-master-plan/img-4.jpg"
       ],
       "description": ""
     },
@@ -220,11 +216,8 @@
       "year": 2021,
       "location": "Ebolowa, Cameroon",
       "images": [
-        "/mastudio/hospitality/img-0.jpg",
-        "/mastudio/hospitality/img-1.jpg",
-        "/mastudio/hospitality/img-2.jpg",
-        "/mastudio/hospitality/img-3.jpg",
-        "/mastudio/hospitality/img-4.jpg"
+        "/Ma-studio-hotel-5.jpg",
+        "/Ma-studio-hotel.jpg"
       ],
       "description": ""
     },
