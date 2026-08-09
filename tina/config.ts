@@ -96,6 +96,13 @@ export default defineConfig({
                 ],
               },
               { type: "image", name: "image", label: "Featured image" },
+              {
+                type: "string",
+                name: "videoUrl",
+                label: "YouTube video URL",
+                description:
+                  "Paste a YouTube link to show a play button over the featured image; clicking it opens the video in a new tab. Leave empty for a plain image.",
+              },
             ],
           },
         ],
