@@ -28,6 +28,12 @@ export interface Post {
   excerpt: string;
   source?: PostSource;
   image?: string; // optional path under /public; falls back to a seeded gradient
+  /**
+   * Optional video link (YouTube). When set, the entry's image renders with a
+   * play badge and opens this URL in a new tab — the image itself stays a
+   * still, so no player is embedded on the page.
+   */
+  videoUrl?: string;
 }
 
 interface RawPost {
@@ -38,6 +44,7 @@ interface RawPost {
   excerpt?: string;
   source?: { label?: string | null; url?: string | null } | null;
   image?: string | null;
+  videoUrl?: string | null;
 }
 
 function toCategory(value: string): PostCategoryKey {
@@ -56,6 +63,7 @@ export const POSTS: Post[] = (postsData as { posts: RawPost[] }).posts
         ? { label: p.source.label, url: p.source.url }
         : undefined,
     image: p.image || undefined,
+    videoUrl: p.videoUrl || undefined,
   }))
   // Newest first, regardless of authoring order in the content file.
   .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));

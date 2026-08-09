@@ -20,6 +20,15 @@ const withoutSource: Post = {
   excerpt: "Two new in-house teams join under one roof.",
 };
 
+const withVideo: Post = {
+  slug: "venice-biennale-lecture",
+  title: "Ervin Taçi at the Venice Biennale",
+  date: "2026-05-14",
+  category: "lectures",
+  excerpt: "A lecture on designing across scales.",
+  videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+};
+
 describe("BlogRow", () => {
   it("renders the title, formatted date · category, and excerpt", () => {
     render(<BlogRow post={withSource} />);
@@ -39,5 +48,18 @@ describe("BlogRow", () => {
   it("omits the source link when the post has no source", () => {
     render(<BlogRow post={withoutSource} />);
     expect(screen.queryByRole("link")).toBeNull();
+  });
+
+  it("turns the image into a play link when the post has a video URL", () => {
+    render(<BlogRow post={withVideo} />);
+    const link = screen.getByRole("link", { name: `Play video: ${withVideo.title}` });
+    expect(link.getAttribute("href")).toBe(withVideo.videoUrl);
+    expect(link.getAttribute("target")).toBe("_blank");
+    expect(link.getAttribute("rel")).toContain("noopener");
+  });
+
+  it("shows no play link when the post has no video URL", () => {
+    render(<BlogRow post={withoutSource} />);
+    expect(screen.queryByRole("link", { name: /^Play video:/ })).toBeNull();
   });
 });
