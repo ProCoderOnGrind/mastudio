@@ -2,15 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import BlurImage from "@/components/media/BlurImage";
+import ArticleContent from "@/components/blog/ArticleContent";
 import {
   getPost,
   postsWithPages,
   hasPostPage,
+  hasArticle,
+  articleText,
   formatPostDate,
   postCategoryLabel,
 } from "@/data/posts";
 import { absoluteUrl, SITE_NAME } from "@/lib/site";
-import { youtubeId, youtubeEmbedUrl, youtubeThumbnail, youtubeWatchUrl } from "@/lib/youtube";
+import { youtubeEmbedUrl, youtubeThumbnail, youtubeWatchUrl } from "@/lib/youtube";
 
 /**
  * A single blog entry.
@@ -67,7 +70,6 @@ export default async function BlogPostPage({
   const post = getPost(slug);
   if (!post || !hasPostPage(post)) notFound();
 
-  const videoId = youtubeId(post.video);
   const embedUrl = youtubeEmbedUrl(post.video);
   const watchUrl = youtubeWatchUrl(post.video);
   const url = absoluteUrl(`/blog/${post.slug}`);
@@ -144,41 +146,21 @@ export default async function BlogPostPage({
       </div>
 
       <div className="mt-10 px-5">
-        {videoId && embedUrl ? (
-          <div className="relative aspect-video w-full overflow-hidden bg-neutral-200">
-            <iframe
-              // nocookie host so an unplayed embed sets no tracking cookie.
-              src={embedUrl.replace("www.youtube.com", "www.youtube-nocookie.com")}
-              title={post.title}
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="absolute inset-0 h-full w-full border-0"
-            />
-          </div>
-        ) : (
-          <BlurImage
-            seed={post.slug}
-            src={post.image}
-            label={post.title}
-            ratio="16 / 10"
-            priority
-            sizes="(max-width: 768px) 100vw, 100vw"
-          />
-        )}
+        <BlurImage
+          seed={post.slug}
+          src={post.image}
+          label={post.title}
+          ratio="16 / 10"
+          priority
+          sizes="(max-width: 768px) 100vw, 100vw"
+        />
       </div>
 
-      {post.body?.length ? (
-        <div className="mt-12 px-5">
-          <div className="flex max-w-[68ch] flex-col gap-5">
-            {post.body.map((paragraph, i) => (
-              <p key={i} className="text-[17px] leading-relaxed md:text-justify">
-                {paragraph}
-              </p>
-            ))}
-          </div>
-        </div>
-      ) : null}
+      {/* Same renderer as the popup, so the two never drift apart. It owns the
+          closing video, which is why no embed is repeated above. */}
+      <div className="mt-12 px-5">
+        <ArticleContent post={post} />
+      </div>
 
       <div className="mt-12 flex flex-wrap gap-x-6 gap-y-3 px-5">
         {post.source && (
@@ -189,16 +171,6 @@ export default async function BlogPostPage({
             className="label inline-block border-b border-black pb-0.5 transition-colors hover:border-accent hover:text-accent"
           >
             {post.source.label} ↗
-          </a>
-        )}
-        {watchUrl && (
-          <a
-            href={watchUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="label inline-block border-b border-black pb-0.5 transition-colors hover:border-accent hover:text-accent"
-          >
-            Watch on YouTube ↗
           </a>
         )}
         <Link

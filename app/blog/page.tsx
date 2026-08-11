@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import BlogList from "@/components/blog/BlogList";
+import { ArticleProvider } from "@/components/blog/ArticleContext";
+import ArticleModal from "@/components/blog/ArticleModal";
 import {
   POSTS,
   POST_CATEGORIES,
@@ -164,7 +166,12 @@ export default async function BlogPage({
         })}
       </nav>
 
-      <div className="mt-2">{list}</div>
+      {/* The provider wraps the rows so a click opens the article over the
+          listing; the standalone /blog/<slug> page stays the crawlable copy. */}
+      <ArticleProvider>
+        <div className="mt-2">{list}</div>
+        <ArticleModal />
+      </ArticleProvider>
     </div>
   );
 }

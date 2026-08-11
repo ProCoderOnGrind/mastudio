@@ -1,7 +1,7 @@
 "use client";
 import { useTina } from "tinacms/dist/react";
 import BlogList from "@/components/blog/BlogList";
-import { isPostCategory, type Post, type PostCategoryKey } from "@/data/posts";
+import { isPostCategory, toArticleBlocks, type Post, type PostCategoryKey } from "@/data/posts";
 
 /**
  * Dev-only editable wrapper for the blog list. Subscribes to the local Tina
@@ -28,6 +28,8 @@ export default function BlogListEditable(props: {
           : undefined,
       image: p.image || undefined,
       video: p.video || undefined,
+      videoImage: p.videoImage || undefined,
+      article: toArticleBlocks(p.article),
       body: p.body?.filter(Boolean) ?? undefined,
     }))
     .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));

@@ -104,13 +104,61 @@ export default defineConfig({
                   "Paste any YouTube link — watch, youtu.be, embed or shorts. The featured image then carries a play button and opens the video on YouTube.",
               },
               {
+                type: "object",
+                name: "article",
+                label: "Article",
+                list: true,
+                description:
+                  "The article that opens when someone clicks this entry. Add Text and Image blocks in any order — they appear in the order listed here. Adding any block gives the post its own page at /blog/<slug> and a sitemap entry.",
+                templates: [
+                  {
+                    name: "text",
+                    label: "Text",
+                    ui: {
+                      itemProps: (item: { text?: string }) => ({
+                        label: item?.text?.slice(0, 60) || "Text",
+                      }),
+                    },
+                    fields: [
+                      {
+                        type: "string",
+                        name: "text",
+                        label: "Paragraph",
+                        required: true,
+                        ui: { component: "textarea" },
+                      },
+                    ],
+                  },
+                  {
+                    name: "image",
+                    label: "Image",
+                    ui: {
+                      itemProps: (item: { caption?: string }) => ({
+                        label: item?.caption || "Image",
+                      }),
+                    },
+                    fields: [
+                      { type: "image", name: "src", label: "Image", required: true },
+                      { type: "string", name: "caption", label: "Caption (optional)" },
+                    ],
+                  },
+                ],
+              },
+              {
+                type: "image",
+                name: "videoImage",
+                label: "Video cover image",
+                description:
+                  "Shown at the end of the article with a YouTube play button over it; clicking it opens the video above. Leave empty to use YouTube's own thumbnail.",
+              },
+              {
                 type: "string",
                 name: "body",
-                label: "Article body",
+                label: "Article body (old format)",
                 list: true,
                 ui: { component: "textarea" },
                 description:
-                  "One entry per paragraph. Adding a body gives this post its own page at /blog/<slug>, linked from the listing and added to the sitemap. Posts with no body and no video stay listing-only.",
+                  "Superseded by Article above, which also takes images. Existing posts still render from here; new ones should use Article.",
               },
             ],
           },

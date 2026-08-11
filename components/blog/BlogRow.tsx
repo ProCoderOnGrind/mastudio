@@ -4,8 +4,9 @@ import Reveal from "@/components/motion/Reveal";
 import BlurImage from "@/components/media/BlurImage";
 import YouTubePlayBadge from "@/components/media/YouTubePlayBadge";
 import { tinaField } from "tinacms/dist/react";
-import { formatPostDate, postCategoryLabel, hasPostPage, type Post } from "@/data/posts";
+import { formatPostDate, postCategoryLabel, hasPostPage, hasArticle, type Post } from "@/data/posts";
 import { youtubeWatchUrl } from "@/lib/youtube";
+import { useArticleOptional } from "./ArticleContext";
 
 /**
  * One blog entry — big.dk's news index recreated in the MA Studio clone's
@@ -13,9 +14,10 @@ import { youtubeWatchUrl } from "@/lib/youtube";
  * `editTarget` is supplied (dev/Tina mode) the fields carry click-to-edit
  * bindings, mirroring ProjectRow. Listing-only: there is no detail route.
  *
- * A post carrying a `video` turns its image into a play target: the YouTube
- * button sits over the photo and the whole image opens the video on YouTube in
- * a new tab.
+ * Clicking an entry that has a written article opens it in a popup over the
+ * listing; the underlying `/blog/<slug>` href stays real, so middle-click,
+ * ctrl-click and crawlers all still get a page. A post with a video but nothing
+ * written keeps the older behaviour of opening the video directly.
  */
 export default function BlogRow({
   post,
@@ -26,7 +28,20 @@ export default function BlogRow({
   hero?: boolean;
   editTarget?: any;
 }) {
-  const watchUrl = youtubeWatchUrl(post.video);
+  const articles = useArticleOptional();
+  const href = `/blog/${post.slug}`;
+  // Only take over the click when there is an article to pop up AND a provider
+  // mounted to hold it; otherwise the link navigates as normal.
+  const popsOpen = Boolean(articles) && hasArticle(post);
+  // The image opens the video only when there is no article to open instead.
+  const watchUrl = popsOpen ? null : youtubeWatchUrl(post.video);
+
+  const openArticle = (e: React.MouseEvent) => {
+    // Let the browser handle new-tab / new-window / download intents.
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+    e.preventDefault();
+    articles!.open(post, editTarget);
+  };
 
   const media = (
     <BlurImage
@@ -61,6 +76,15 @@ export default function BlogRow({
                 <YouTubePlayBadge />
               </div>
             </a>
+          ) : popsOpen ? (
+            <a
+              href={href}
+              onClick={openArticle}
+              aria-label={`Read: ${post.title}`}
+              className="block outline-none transition-transform duration-700 ease-[cubic-bezier(.4,0,.2,1)] hover:scale-[1.02] focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 motion-reduce:transition-none motion-reduce:hover:scale-100"
+            >
+              {media}
+            </a>
           ) : (
             <div className="transition-transform duration-700 ease-[cubic-bezier(.4,0,.2,1)] hover:scale-[1.02] motion-reduce:transition-none motion-reduce:hover:scale-100">
               {media}
@@ -74,8 +98,12 @@ export default function BlogRow({
           </div>
           <h2 className="mt-3 text-[24px] leading-tight md:text-[32px]" data-tina-field={editTarget ? tinaField(editTarget, "title") : undefined}>
             {/* Only posts with a real page are linked; the rest stay listing-only. */}
-            {hasPostPage(post) ? (
-              <Link href={`/blog/${post.slug}`} className="transition-colors hover:text-accent">
+            {popsOpen ? (
+              <a href={href} onClick={openArticle} className="transition-colors hover:text-accent">
+                {post.title}
+              </a>
+            ) : hasPostPage(post) ? (
+              <Link href={href} className="transition-colors hover:text-accent">
                 {post.title}
               </Link>
             ) : (
