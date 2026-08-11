@@ -4,6 +4,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { tinaField } from "tinacms/dist/react";
 import { nextProject, type Project } from "@/data/projects";
+import { hasDescription } from "@/lib/projectDescription";
+import ProjectDetails from "./ProjectDetails";
 
 /**
  * Project image viewer.
@@ -49,7 +51,10 @@ function DesktopSlides({
 }) {
   const images = project.images;
   const next = nextProject(project.slug);
-  const total = images.length + (next ? 1 : 0);
+  // The written record rides in the strip as one more panel, so it counts
+  // towards the step total and the progress bar.
+  const details = hasDescription(project.description);
+  const total = images.length + (details ? 1 : 0) + (next ? 1 : 0);
   const scroller = useRef<HTMLDivElement>(null);
   const idx = useRef(0);
   const locked = useRef(false);
@@ -155,6 +160,12 @@ function DesktopSlides({
           </section>
         ))}
 
+        {details && (
+          <section className="flex h-full w-full shrink-0 snap-center items-center overflow-y-auto px-16 py-12">
+            <ProjectDetails project={project} editTarget={editTarget} />
+          </section>
+        )}
+
         {next && (
           <section className="flex h-full w-full shrink-0 snap-center flex-col justify-center px-16">
             {onNext ? (
@@ -197,6 +208,7 @@ function MobileCover({
 }) {
   const images = project.images;
   const next = nextProject(project.slug);
+  const details = hasDescription(project.description);
   const ref = useRef<HTMLDivElement>(null);
   // Reset to the first photo when the project changes in-place (Next project).
   useEffect(() => {
@@ -225,19 +237,27 @@ function MobileCover({
               data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined}
             />
             <figcaption className="px-4 py-3.5">
-              <div className="text-[15px] font-semibold uppercase tracking-tight" data-tina-field={editTarget ? tinaField(editTarget, "name") : undefined}>
+              <div className="text-[16px] font-semibold uppercase tracking-tight" data-tina-field={editTarget ? tinaField(editTarget, "name") : undefined}>
                 {project.name}
               </div>
               <div className="meta mt-0.5 text-[12.5px]" data-tina-field={editTarget ? tinaField(editTarget, "location") : undefined}>
                 {project.location}
               </div>
-              <div className="mt-1 text-[12px] text-neutral-400" data-tina-field={editTarget ? tinaField(editTarget, "type") : undefined}>
+              <div className="mt-1 text-[13px] text-neutral-400" data-tina-field={editTarget ? tinaField(editTarget, "type") : undefined}>
                 {project.type} · {project.year}
               </div>
             </figcaption>
           </motion.figure>
         </section>
       ))}
+      {details && (
+        <section className="h-full w-screen shrink-0 snap-center overflow-y-auto px-5 py-8">
+          <div className="rounded-md bg-white p-5 shadow-[0_18px_42px_-18px_rgba(0,0,0,0.45)]">
+            <ProjectDetails project={project} variant="mobile" editTarget={editTarget} />
+          </div>
+        </section>
+      )}
+
       {next && (
         <section className="flex h-full w-screen shrink-0 snap-center flex-col justify-center px-6">
           {onNext ? (
