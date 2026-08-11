@@ -4,6 +4,16 @@ export interface ServiceMeaning {
   name: string;
   // One plain-language line for clients who don't know the term.
   meaning: string;
+  // Anchor id on /services, also used for deep links from the footer.
+  slug: string;
+}
+
+/** "Energy Efficiency" -> "energy-efficiency". */
+export function serviceSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 // Client-friendly explanations, keyed to the canonical SERVICES list in contact.json.
@@ -30,4 +40,5 @@ const MEANINGS: Record<string, string> = {
 export const SERVICE_MEANINGS: ServiceMeaning[] = SERVICES.map((name) => ({
   name,
   meaning: MEANINGS[name] ?? name,
+  slug: serviceSlug(name),
 }));

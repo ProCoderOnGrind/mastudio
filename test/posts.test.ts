@@ -6,6 +6,10 @@ import {
   isPostCategory,
   postCategoryLabel,
   formatPostDate,
+  hasPostPage,
+  postsWithPages,
+  getPost,
+  type Post,
 } from "@/data/posts";
 
 const CATEGORY_KEYS = ["news", "events", "awards", "lectures"];
@@ -58,6 +62,44 @@ describe("post category helpers", () => {
   it("postsByCategory filters by key and falls back to all for unknown", () => {
     expect(postsByCategory("awards").every((p) => p.category === "awards")).toBe(true);
     expect(postsByCategory("nope").length).toBe(POSTS.length);
+  });
+});
+
+describe("post detail pages", () => {
+  const base: Post = {
+    slug: "x",
+    title: "X",
+    date: "2026-01-01",
+    category: "news",
+    excerpt: "An excerpt.",
+  };
+
+  it("withholds a page from excerpt-only posts, so no thin pages ship", () => {
+    expect(hasPostPage(base)).toBe(false);
+    expect(hasPostPage({ ...base, body: [] })).toBe(false);
+  });
+
+  it("grants a page once a post has body paragraphs or a video", () => {
+    expect(hasPostPage({ ...base, body: ["A paragraph."] })).toBe(true);
+    expect(hasPostPage({ ...base, video: "https://youtu.be/aqz-KE-bpKQ" })).toBe(true);
+  });
+
+  it("postsWithPages returns exactly the posts that qualify", () => {
+    const listed = postsWithPages();
+    expect(listed.every(hasPostPage)).toBe(true);
+    expect(listed.length).toBe(POSTS.filter(hasPostPage).length);
+  });
+
+  it("getPost finds by slug and returns undefined for an unknown one", () => {
+    expect(getPost(POSTS[0].slug)?.slug).toBe(POSTS[0].slug);
+    expect(getPost("no-such-post")).toBeUndefined();
+  });
+
+  it("drops blank body lines so stray empty paragraphs never render", () => {
+    const withBody = POSTS.filter((p) => p.body);
+    for (const p of withBody) {
+      expect(p.body!.every((line) => line.trim().length > 0)).toBe(true);
+    }
   });
 });
 

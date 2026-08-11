@@ -96,6 +96,22 @@ export default defineConfig({
                 ],
               },
               { type: "image", name: "image", label: "Featured image" },
+              {
+                type: "string",
+                name: "video",
+                label: "YouTube video (optional)",
+                description:
+                  "Paste any YouTube link — watch, youtu.be, embed or shorts. The featured image then carries a play button and opens the video on YouTube.",
+              },
+              {
+                type: "string",
+                name: "body",
+                label: "Article body",
+                list: true,
+                ui: { component: "textarea" },
+                description:
+                  "One entry per paragraph. Adding a body gives this post its own page at /blog/<slug>, linked from the listing and added to the sitemap. Posts with no body and no video stay listing-only.",
+              },
             ],
           },
         ],
