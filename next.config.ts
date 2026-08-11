@@ -6,6 +6,13 @@ const nextConfig: NextConfig = {
   // loads but the intro animation and project reveals (client JS) never run.
   allowedDevOrigins: ["192.168.1.44", "192.168.1.*", "192.168.56.1"],
 
+  // An article that closes on a video falls back to YouTube's own poster frame
+  // when no cover image was uploaded for it. Without this the optimizer
+  // refuses the host and the image fails to load.
+  images: {
+    remotePatterns: [{ protocol: "https", hostname: "i.ytimg.com", pathname: "/vi/**" }],
+  },
+
   // Baseline hardening for a static marketing site. SAMEORIGIN (not DENY) so
   // the Tina admin's visual-editing iframe keeps working.
   async headers() {
