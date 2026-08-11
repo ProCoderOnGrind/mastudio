@@ -73,21 +73,23 @@ export default function ArticleModal() {
 
   return createPortal(
     <div
-      className="fixed inset-0 z-[150] flex items-start justify-center overflow-y-auto overscroll-contain bg-black/45 px-0 py-0 backdrop-blur-[2px] md:px-6 md:py-10"
-      // A click that starts and ends on the backdrop closes; a drag that ends
-      // there after selecting text inside the article does not.
+      className="fixed inset-0 z-[150] flex items-stretch justify-center bg-black/45 backdrop-blur-[2px]"
+      // Anywhere off the article closes it. Bound to mousedown so a drag that
+      // starts inside on selected text and releases out here does not.
       onMouseDown={(e) => {
         if (e.target === e.currentTarget) close();
       }}
     >
+      {/* Full height, unchanged width. A column: the bar never scrolls, only
+          the article under it does — dvh so mobile browser chrome is excluded. */}
       <div
         ref={panel}
         role="dialog"
         aria-modal="true"
         aria-labelledby="article-popup-title"
-        className="relative w-full max-w-[860px] bg-white shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5)]"
+        className="relative flex h-[100dvh] w-full max-w-[860px] flex-col bg-white shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5)]"
       >
-        <div className="sticky top-0 z-10 flex items-center justify-between gap-4 border-b border-hairline bg-white/95 px-5 py-3 backdrop-blur md:px-10">
+        <div className="flex shrink-0 items-center justify-between gap-4 border-b border-hairline bg-white px-5 py-3 md:px-10">
           <span className="label meta truncate">{postCategoryLabel(post.category)}</span>
           <button
             ref={closeButton}
@@ -99,7 +101,7 @@ export default function ArticleModal() {
           </button>
         </div>
 
-        <article className="px-5 pb-12 pt-8 md:px-10">
+        <article className="flex-1 overflow-y-auto overscroll-contain px-5 pb-12 pt-6 md:px-10">
           <div
             className="label meta"
             data-tina-field={editTarget ? tinaField(editTarget, "date") : undefined}
@@ -109,7 +111,7 @@ export default function ArticleModal() {
 
           <h2
             id="article-popup-title"
-            className="mt-3 max-w-[24ch] text-[26px] leading-tight md:text-[40px]"
+            className="mt-2.5 max-w-[26ch] text-[23px] leading-[1.12] md:text-[32px]"
             data-tina-field={editTarget ? tinaField(editTarget, "title") : undefined}
           >
             {post.title}
@@ -117,14 +119,14 @@ export default function ArticleModal() {
 
           {post.excerpt && (
             <p
-              className="mt-5 max-w-[62ch] text-[17px] leading-relaxed text-big-gray md:text-[19px]"
+              className="mt-3.5 max-w-[64ch] text-[16px] leading-relaxed text-big-gray md:text-[17px]"
               data-tina-field={editTarget ? tinaField(editTarget, "excerpt") : undefined}
             >
               {post.excerpt}
             </p>
           )}
 
-          <div className="mt-9">
+          <div className="mt-7">
             <ArticleContent post={post} editTarget={editTarget} />
           </div>
 

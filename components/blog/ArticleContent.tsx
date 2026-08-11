@@ -38,15 +38,26 @@ export default function ArticleContent({
                 {block.text}
               </p>
             ) : (
+              // Width is capped so the first photo clears the fold on open
+              // rather than being cut off. The 440px is the chrome above it —
+              // bar, date, headline, excerpt, opening paragraph — subtracted
+              // before scaling, so the clearance stays constant instead of
+              // vanishing on a short laptop. Capping the height instead would
+              // leave side bars on a tall screen; narrowing keeps the frame
+              // exactly 16:10. `contain` because the point is the whole photo.
               <figure key={i} className="flex flex-col gap-2.5">
                 <BlurImage
                   src={block.src}
                   label={block.caption || post.title}
                   ratio="16 / 10"
+                  fit="contain"
+                  className="mx-auto w-full max-w-[calc((100dvh-440px)*1.6)] bg-neutral-100"
                   sizes="(max-width: 768px) 100vw, 760px"
                 />
                 {block.caption && (
-                  <figcaption className="label meta max-w-[68ch]">{block.caption}</figcaption>
+                  <figcaption className="label meta mx-auto w-full max-w-[calc((100dvh-440px)*1.6)]">
+                    {block.caption}
+                  </figcaption>
                 )}
               </figure>
             ),
