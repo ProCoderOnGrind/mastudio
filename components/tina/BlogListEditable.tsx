@@ -27,6 +27,8 @@ export default function BlogListEditable(props: {
           ? { label: p.source.label, url: p.source.url }
           : undefined,
       image: p.image || undefined,
+      video: p.video || undefined,
+      body: p.body?.filter(Boolean) ?? undefined,
     }))
     .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
 

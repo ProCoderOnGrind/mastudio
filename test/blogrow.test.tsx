@@ -20,6 +20,49 @@ const withoutSource: Post = {
   excerpt: "Two new in-house teams join under one roof.",
 };
 
+const withVideo: Post = {
+  slug: "venice-biennale-lecture",
+  title: "“From the City to Mankind” — Ervin Taçi at the Venice Biennale",
+  date: "2026-05-14",
+  category: "lectures",
+  excerpt: "A lecture on designing across scales.",
+  video: "https://youtu.be/aqz-KE-bpKQ?t=30",
+};
+
+describe("BlogRow video entries", () => {
+  it("turns the image into a link to the canonical YouTube watch URL", () => {
+    render(<BlogRow post={withVideo} />);
+    const link = screen.getByRole("link", { name: /Watch on YouTube/ });
+    expect(link.getAttribute("href")).toBe("https://www.youtube.com/watch?v=aqz-KE-bpKQ");
+    expect(link.getAttribute("target")).toBe("_blank");
+    expect(link.getAttribute("rel")).toContain("noopener");
+  });
+
+  it("names the link after the post so the target is clear out of context", () => {
+    render(<BlogRow post={withVideo} />);
+    expect(
+      screen.getByRole("link", { name: `Watch on YouTube: ${withVideo.title}` }),
+    ).toBeInTheDocument();
+  });
+
+  it("renders the play badge as decorative, leaving the link its own name", () => {
+    const { container } = render(<BlogRow post={withVideo} />);
+    const badge = container.querySelector('[aria-hidden="true"] svg');
+    expect(badge).not.toBeNull();
+  });
+
+  it("leaves the image unlinked when the post has no video", () => {
+    const { container } = render(<BlogRow post={withoutSource} />);
+    expect(screen.queryByRole("link", { name: /YouTube/ })).toBeNull();
+    expect(container.querySelector('[aria-hidden="true"] svg')).toBeNull();
+  });
+
+  it("ignores a video link that is not a YouTube video rather than linking out blindly", () => {
+    render(<BlogRow post={{ ...withVideo, video: "https://vimeo.com/123456" }} />);
+    expect(screen.queryByRole("link", { name: /YouTube/ })).toBeNull();
+  });
+});
+
 describe("BlogRow", () => {
   it("renders the title, formatted date · category, and excerpt", () => {
     render(<BlogRow post={withSource} />);
