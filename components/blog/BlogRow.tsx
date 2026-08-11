@@ -4,7 +4,7 @@ import Reveal from "@/components/motion/Reveal";
 import BlurImage from "@/components/media/BlurImage";
 import YouTubePlayBadge from "@/components/media/YouTubePlayBadge";
 import { tinaField } from "tinacms/dist/react";
-import { formatPostDate, postCategoryLabel, hasPostPage, hasArticle, type Post } from "@/data/posts";
+import { formatPostDate, postCategoryLabel, hasPostPage, type Post } from "@/data/posts";
 import { youtubeWatchUrl } from "@/lib/youtube";
 import { useArticleOptional } from "./ArticleContext";
 
@@ -29,16 +29,19 @@ export default function BlogRow({
   editTarget?: any;
 }) {
   const articles = useArticleOptional();
-  const href = `/blog/${post.slug}`;
-  // Only take over the click when there is an article to pop up AND a provider
-  // mounted to hold it; otherwise the link navigates as normal.
-  const popsOpen = Boolean(articles) && hasArticle(post);
+  // Every entry opens its popup, written up or not, so the listing behaves the
+  // same way throughout. A post that has earned its own page keeps a real href
+  // behind the click; one that has not is a button, because there is no page
+  // for a new tab to land on yet.
+  const popsOpen = Boolean(articles);
+  const href = hasPostPage(post) ? `/blog/${post.slug}` : undefined;
   // The image opens the video only when there is no article to open instead.
   const watchUrl = popsOpen ? null : youtubeWatchUrl(post.video);
 
   const openArticle = (e: React.MouseEvent) => {
-    // Let the browser handle new-tab / new-window / download intents.
-    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+    // Let the browser handle new-tab / new-window / download intents, but only
+    // where there is an href for it to act on.
+    if (href && (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0)) return;
     e.preventDefault();
     articles!.open(post, editTarget);
   };
@@ -77,14 +80,14 @@ export default function BlogRow({
               </div>
             </a>
           ) : popsOpen ? (
-            <a
+            <Opener
               href={href}
               onClick={openArticle}
               aria-label={`Read: ${post.title}`}
-              className="block outline-none transition-transform duration-700 ease-[cubic-bezier(.4,0,.2,1)] hover:scale-[1.02] focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 motion-reduce:transition-none motion-reduce:hover:scale-100"
+              className="block w-full text-left outline-none transition-transform duration-700 ease-[cubic-bezier(.4,0,.2,1)] hover:scale-[1.02] focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 motion-reduce:transition-none motion-reduce:hover:scale-100"
             >
               {media}
-            </a>
+            </Opener>
           ) : (
             <div className="transition-transform duration-700 ease-[cubic-bezier(.4,0,.2,1)] hover:scale-[1.02] motion-reduce:transition-none motion-reduce:hover:scale-100">
               {media}
@@ -99,11 +102,15 @@ export default function BlogRow({
           <h2 className="mt-3 text-[24px] leading-tight md:text-[32px]" data-tina-field={editTarget ? tinaField(editTarget, "title") : undefined}>
             {/* Only posts with a real page are linked; the rest stay listing-only. */}
             {popsOpen ? (
-              <a href={href} onClick={openArticle} className="transition-colors hover:text-accent">
+              <Opener
+                href={href}
+                onClick={openArticle}
+                className="text-left transition-colors hover:text-accent"
+              >
                 {post.title}
-              </a>
+              </Opener>
             ) : hasPostPage(post) ? (
-              <Link href={href} className="transition-colors hover:text-accent">
+              <Link href={`/blog/${post.slug}`} className="transition-colors hover:text-accent">
                 {post.title}
               </Link>
             ) : (
@@ -126,5 +133,36 @@ export default function BlogRow({
         </div>
       </article>
     </Reveal>
+  );
+}
+
+/**
+ * The control that opens an article: an anchor when the post has a real page
+ * behind it, so ctrl-click and crawlers still work, and a button when it does
+ * not — an <a> with no href is not reachable by keyboard.
+ */
+function Opener({
+  href,
+  onClick,
+  className,
+  children,
+  ...rest
+}: {
+  href?: string;
+  onClick: (e: React.MouseEvent) => void;
+  className?: string;
+  children: React.ReactNode;
+} & React.AriaAttributes) {
+  if (href) {
+    return (
+      <a href={href} onClick={onClick} className={className} {...rest}>
+        {children}
+      </a>
+    );
+  }
+  return (
+    <button type="button" onClick={onClick} className={className} {...rest}>
+      {children}
+    </button>
   );
 }
