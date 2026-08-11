@@ -3,7 +3,9 @@
 @theme {
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-big-gray: #898989;
+  /* Secondary text gray. #898989 sat at ~3.0:1 on white and failed WCAG AA;
+     #6f6f6f keeps the muted editorial tone at ~5.0:1. Text-only token. */
+  --color-big-gray: #6f6f6f;
   --color-hairline: #e5e7eb;
   --color-accent: #94c52d; /* logo green */
   --breakpoint-xl: 1440px;
@@ -12,6 +14,22 @@
 
 :root {
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Chrome stacked above the first project photo. The header and the category
+     filter row are pinned to these exact heights, and ProjectRow subtracts the
+     same sum from the viewport — so the hero photo lands whole on first paint
+     with nothing to scroll past. Change a height here, not in the component. */
+  --header-h: 68px;
+  --filter-h: 56px;
+  /* ProjectRow's own frame: border-top (1px) + py-6 top and bottom (48px). */
+  --row-gutter: 49px;
+  --row-image-offset: calc(var(--header-h) + var(--filter-h) + var(--row-gutter));
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-h: 88px;
+  }
 }
 
 html { scroll-behavior: smooth; }
@@ -29,19 +47,35 @@ summary {
   cursor: pointer;
 }
 
+/* 16px is the browser default and the practical floor for comfortable reading;
+   the roomier 1.55 line-height keeps the editorial feel without straining. */
 body {
-  font-size: 15px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 1.55;
   letter-spacing: 0;
+  text-rendering: optimizeLegibility;
 }
 
+/* Uppercase micro-type reads smaller than its nominal size, so the label sits
+   at 12px (the accepted floor for secondary UI text) with a touch more
+   tracking to keep the capitals from crowding. */
 .label {
-  font-size: 11px;
-  line-height: 1.4;
+  font-size: 12px;
+  line-height: 1.45;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
 }
 .meta { color: var(--color-big-gray); }
+
+/* The header's own scale: `.label` at 1.35x (12px -> 16px). Kept as a class
+   rather than a Tailwind size utility because `.label` is unlayered CSS and
+   would win the cascade against a `text-[16px]` utility. */
+.label-nav {
+  font-size: 16px;
+  line-height: 1.45;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
 
 .page-title {
   font-size: clamp(40px, 8vw, 104px);
