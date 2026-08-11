@@ -35,14 +35,14 @@ export function ArticleProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const close = useCallback(() => {
-    if (pushed.current && typeof window !== "undefined") {
-      // The popstate handler clears the state; going back also restores the URL.
-      pushed.current = false;
-      window.history.back();
-      return;
-    }
+    // Clear first, then unwind history. Waiting on `popstate` to do the closing
+    // would leave the article stuck open anywhere that event does not arrive.
     setPost(null);
     setEditTarget(undefined);
+    if (pushed.current && typeof window !== "undefined") {
+      pushed.current = false;
+      window.history.back();
+    }
   }, []);
 
   useEffect(() => {

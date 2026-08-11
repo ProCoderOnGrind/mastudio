@@ -22,6 +22,10 @@ export default function ArticleContent({
 }) {
   const blocks = articleBlocks(post);
   const watchUrl = youtubeWatchUrl(post.video);
+  // Nothing written and no video yet: render nothing at all rather than an
+  // empty container, so the popup closes up cleanly around the headline and
+  // excerpt until the article is filled in.
+  if (blocks.length === 0 && !watchUrl) return null;
   // The author's cover, else the post's own photo, else YouTube's poster frame.
   const cover = post.videoImage || post.image || youtubeThumbnail(post.video) || undefined;
 

@@ -52,7 +52,11 @@ export default function ArticleModal() {
     // Hold the page still behind the overlay, compensating for the scrollbar
     // so the listing does not jump sideways as it is hidden.
     const { body } = document;
-    const gap = window.innerWidth - document.documentElement.clientWidth;
+    const measured = window.innerWidth - document.documentElement.clientWidth;
+    // A real scrollbar is tens of pixels at most. Anything wider means the
+    // document has not been laid out, and padding by it would shove the page
+    // off screen — so an implausible measurement is simply ignored.
+    const gap = measured > 0 && measured <= 40 ? measured : 0;
     const prevOverflow = body.style.overflow;
     const prevPadding = body.style.paddingRight;
     body.style.overflow = "hidden";
