@@ -6,11 +6,18 @@
       "type": "Retail",
       "year": 2023,
       "location": "Vora, Albania",
+      "seoDescription": "A retail and logistics complex in Vora, Albania: a perforated red-and-white facade over the loading docks, and a louvred elliptical hall crowned with roof trees.",
       "images": [
         "/make_a_better_image_render_wit_Nano_Banana_2_90941.png",
         "/create_the_first_image_inspire_Nano_Banana_2_54238.png",
         "/8-FINALE.jpg",
         "/create_the_first_image_inspire_Nano_Banana_2_52836.png"
+      ],
+      "imageAlts": [
+        "Perforated red and white circle-pattern facade at Online Retail Services in Vora, Albania, lorries at the loading docks",
+        "Night view of the louvred elliptical hall at Online Retail Services, Vora, its glazed ground floor glowing beneath roof trees",
+        "Daytime view of the white louvred ellipse at Online Retail Services in Vora, Albania, with trees planted on its roof",
+        "Blue-hour view of Online Retail Services in Vora, light trails sweeping past the lit louvred drum"
       ],
       "description": "Program: Shopping mall, online retail service;\n\nConstruction Area: 34,000 m²;\n\nContracting Authority: Private Client;\n\nPosition: Project Leader, Architect, Structural Engineer, MEP Expert, Aesthetic Supervisor;\n\nActivities Performed: Team leader, architecture, structural design, preliminary design, final design, construction permit, executive design;\n\nActual Status: Construction permit stage.\n"
     },
@@ -20,6 +27,7 @@
       "type": "Retail",
       "year": 2023,
       "location": "Vora, Albania",
+      "seoDescription": "A deep red lattice facade wraps Cornelian Residence in Vora, Albania: a tower and stepped blocks around planted courtyards, with double-height apartments inside.",
       "images": [
         "/3.jpg",
         "/5-1.jpg",
@@ -27,6 +35,14 @@
         "/9_1.jpg",
         "/Transform_the_original_interio_Nano_Banana_2_61699.png",
         "/Transform_the_original_interio_Nano_Banana_2_62350.png"
+      ],
+      "imageAlts": [
+        "Looking up the deep red concrete lattice facade of Cornelian Residence in Vora, Albania",
+        "Street view of Cornelian Residence, Vora, red gridded blocks meeting a white banded facade above a public plaza",
+        "Aerial dusk view of Cornelian Residence in Vora, the red tower lit above stepped blocks and planted terraces",
+        "Landscaped courtyard between the red lattice blocks of Cornelian Residence, Vora, at sunset",
+        "Double-height living room at Cornelian Residence, glazing opening to a terrace beside an open-plan kitchen",
+        "Cornelian Residence interior, angled structural columns framing a glazed corner above the seating area"
       ],
       "description": ""
     },
@@ -36,6 +52,7 @@
       "type": "Residence",
       "year": 2025,
       "location": "Tirana, Albania",
+      "seoDescription": "A residential tower in Tirana whose facade breaks into a grid of voxels: deep window reveals in teal and red, with planted terraces stepping up to the crown.",
       "images": [
         "/1_2-1.jpg",
         "/1_2-3.jpg",
@@ -45,6 +62,15 @@
         "/ChatGPT-Image-Jun-29,-2026,-04_33_59-PM.png",
         "/ChatGPT-Image-Jun-29,-2026,-04_55_06-PM.png"
       ],
+      "imageAlts": [
+        "Voxel Residence in Tirana at dusk, a pale voxel grid facade with planting stepping across its crown",
+        "Voxel Residence rising above a wet plaza in Tirana, low sun catching the voxel facade",
+        "Close view of the Voxel Residence facade in Tirana, deep window reveals in teal, pink and blue",
+        "Voxel Residence against a deep blue sky, red and teal reveals set into the white voxel grid",
+        "Voxel Residence at sunset above the Tirana skyline, its planted crown silhouetted",
+        "Street-level view of Voxel Residence along a tree-lined Tirana avenue at dusk",
+        "Voxel Residence seen across the boulevard in Tirana at dusk, people passing below the lit tower"
+      ],
       "description": "“Voxel Residence” is an urban ecosystem that seamlessly combines living, working, and leisure within a single iconic structure. With 18 above-ground floors and 3 underground levels, it offers parking, commercial spaces, offices, and green terraces.\n\nOn the residential floors, nature is integrated into urban living, enhancing the everyday experience. At the top, luxury penthouses create an exclusive connection with the city, offering unique views and fostering a dialogue between interior spaces and urban life.\n"
     },
     {
@@ -53,12 +79,20 @@
       "type": "Residence",
       "year": 2024,
       "location": "Dhermi, Albania",
+      "seoDescription": "Sea-facing villas above Dhërmi on the Albanian Riviera: timber-soffit roofs cantilever over infinity pools, stone walls and terraces of bougainvillea.",
       "images": [
         "/mastudio/seina-residence/img-0.jpg",
         "/mastudio/seina-residence/img-1.jpg",
         "/mastudio/seina-residence/img-2.jpg",
         "/mastudio/seina-residence/img-3.jpg",
         "/mastudio/seina-residence/img-4.jpg"
+      ],
+      "imageAlts": [
+        "Senia Residence villa in Dhërmi, Albania, a timber-lined roof cantilevering over a pool terrace framed by an olive tree",
+        "White portal frame at Senia Residence, Dhërmi, framing a lap pool and the Ionian sea beyond",
+        "Senia Residence villas stepping down the Dhërmi hillside, angled timber roofs above terraces of red bougainvillea",
+        "Infinity pool and glazed living pavilion at Senia Residence, Dhërmi, looking out over the Albanian coast",
+        "Shaded outdoor dining terrace at Senia Residence, Dhërmi, seen through a white concrete portal"
       ],
       "description": ""
     },
@@ -68,6 +102,7 @@
       "type": "Residence",
       "year": 2024,
       "location": "Tirana, Albania",
+      "seoDescription": "A mixed-use quarter in Tirana named for the koi: terracotta and white blocks over ground-floor shops, arranged around planted courtyards and a covered arcade.",
       "images": [
         "/Render-001_KIKA-GERHARD-Sulaj_PDV-105.jpg",
         "/Render-4_KIKA-GERHARD-Sulaj_PDV-105.jpg",
@@ -75,6 +110,14 @@
         "/Render-13_KIKA-GERHARD-Sulaj_PDV-105.jpg",
         "/Render-14_KIKA-GERHARD-Sulaj_PDV-105.jpg",
         "/Render-15_KIKA-GERHARD-Sulaj_PDV-105.jpg"
+      ],
+      "imageAlts": [
+        "Looking up the terracotta block at Koi Residence in Tirana, the Koi restaurant sign at street level",
+        "Planted courtyard at Koi Residence, Tirana, white and terracotta apartment blocks at dusk",
+        "Retail arcade at Koi Residence, Tirana, angled white columns carrying the housing above the shops",
+        "White gridded facade and balconies at Koi Residence, Tirana, framed by an autumn tree",
+        "Looking up the white and blue gridded facade of Koi Residence in Tirana",
+        "Koi Residence at night in Tirana, the white grid facade lit from within"
       ],
       "description": "“KOI Center” is conceived as a vibrant intervention within a lively area of Tirana. The complex is metaphorically linked to the well-known Japanese fish Koi, not only for its expressive colors orange, white, and black but also for their playful, interactive behavior within and around the space.\n"
     },
@@ -84,10 +127,16 @@
       "type": "Residence",
       "year": 2024,
       "location": "Tirana, Albania",
+      "seoDescription": "A private villa outside Tirana built from stacked white slabs, its upper volume cantilevering over a glazed living floor that opens to lawn and lavender beds.",
       "images": [
         "/MA-Studio-Partners-Villa-Xhelili_01-(3).png",
         "/MA-Studio-Partners-Villa-Xhelili_01-(4).png",
         "/MA-Studio-Partners-Villa-Xhelili_01-(6).png"
+      ],
+      "imageAlts": [
+        "Villa AXH near Tirana, stacked white slabs above a glazed ground floor set in open lawn",
+        "Garden elevation of Villa AXH, Tirana, planted roof terraces above full-height glazing",
+        "Villa AXH at dusk, its cantilevered white volumes lit above beds of lavender"
       ],
       "description": ""
     },
@@ -97,6 +146,7 @@
       "type": "Residence",
       "year": 2024,
       "location": "Tirana, Albania",
+      "seoDescription": "A terraced garden neighbourhood in Tirana: angular white houses with timber-slatted bays step down a planted slope, linked by stairs, hedges and shared gardens.",
       "images": [
         "/Naten-32.jpg",
         "/0-_3-DITEN_ppp-copy-okkk.jpg",
@@ -108,6 +158,17 @@
         "/Naten-23.jpg",
         "/Naten-25.jpg"
       ],
+      "imageAlts": [
+        "Perla Garden house in Tirana, a blue-framed window and timber screen above a garden terrace",
+        "Aerial view of the angular white houses of Perla Garden, Tirana, set among private gardens",
+        "Street view of Perla Garden, Tirana, white angular houses behind a hedge and stone boundary wall",
+        "Row of Perla Garden houses in Tirana under heavy cloud, red flowers along the retaining wall",
+        "Perla Garden house lit at dusk in Tirana, timber slats wrapping the upper volume",
+        "Timber-slatted bay of a Perla Garden house in Tirana, warm light behind the screen",
+        "Aerial view of the terraced gardens at Perla Garden, Tirana, a stepped path threading between houses",
+        "A family walking the planted path between the Perla Garden houses in Tirana",
+        "Angular white volume of a Perla Garden house cantilevering above the garden in Tirana"
+      ],
       "description": "The villa complex is designed within a low-density residential area, in a quiet and landscaped zone among the inspiring hills of southeast Tirana. The proposed urban silhouette is conceived in dynamic analogy and harmony with the surrounding site panoramas.\n"
     },
     {
@@ -116,12 +177,20 @@
       "type": "Residence",
       "year": 2024,
       "location": "Tirana, Albania",
+      "seoDescription": "Private villas on a Tirana hillside: sweeping curved roofs shelter glazed living floors above terraced pools, with garages cut into the slope beneath.",
       "images": [
         "/1_2_render.jpg",
         "/1_7_render.jpg",
         "/1_8_render.jpg",
         "/1_9_render.jpg",
         "/3-1.jpg"
+      ],
+      "imageAlts": [
+        "Private villa near Tirana, a curved roof above stepped terraces and a garage cut into the hillside",
+        "Night view of a private villa in Tirana, the pool lit below the glazed living floor",
+        "Private villa in Tirana with a curved roof and glazed corner above a long swimming pool",
+        "Sunset behind a private villa on a Tirana hillside, the drive curving down to the garage",
+        "A private villa in Tirana after dark, terraces and pool lit against the hillside"
       ],
       "description": ""
     },
@@ -131,12 +200,20 @@
       "type": "Residence",
       "year": 2024,
       "location": "Korça, Albania",
+      "seoDescription": "A neighbourhood of pastel villas in Korça, Albania, drawn from the city's own building tradition: stone plinths, iron balconies and stepped garden entrances.",
       "images": [
         "/mastudio/belvedere-korca/img-0.jpg",
         "/mastudio/belvedere-korca/img-1.jpg",
         "/mastudio/belvedere-korca/img-2.jpg",
         "/mastudio/belvedere-korca/img-3.jpg",
         "/mastudio/belvedere-korca/img-4.jpg"
+      ],
+      "imageAlts": [
+        "Snow-covered rooftops of the Belvedere Korça neighbourhood in Korça, Albania, seen from above",
+        "Belvedere Korça villas in winter, a curving street between pastel houses with balconied first floors",
+        "Green and pink rendered villas at Belvedere Korça with wrought-iron balconies and railed front gardens",
+        "Street view of the Belvedere Korça villas in autumn, pastel facades behind flowering front gardens",
+        "Belvedere Korça villa in summer, a stone-based house with an external stair and planted front garden"
       ],
       "description": ""
     },
@@ -146,11 +223,18 @@
       "type": "Master Plan",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
+      "seoDescription": "A master plan for Ebolowa, Cameroon: an education route threading circular timber pavilions through the rainforest, linking housing, culture and sport.",
       "images": [
         "/mastudio/ebolowa-master-plan/img-0.jpg",
         "/mastudio/ebolowa-master-plan/img-2.jpg",
         "/mastudio/ebolowa-master-plan/img-3.jpg",
         "/mastudio/ebolowa-master-plan/img-4.jpg"
+      ],
+      "imageAlts": [
+        "Circular timber pavilions of the Ebolowa master plan set among Cameroon's rainforest canopy",
+        "Urban design concept boards for the Ebolowa master plan, mapping the education route through the city",
+        "Diagrams of the Ebolowa education route linking social housing, eco villas, the zoo and sports areas",
+        "Map of the common cultural zone of the Bantu peoples across Africa, a context study for the Ebolowa master plan"
       ],
       "description": "“Ebolowa New Dream Town” is envisioned as a new important urban pole for the capital city of Cameroon South Region, while at the same time, it serves as a benchmark development and reference model for the other countries of Central Africa.\n\nThe project is founded on the belief that education is the most powerful driver of rapid and sustainable development, particularly for nations rich in natural resources.\n\nPole A & B could very well represent 1 Pole or differently even an “education route” with 3 very important schools at the regional and national level. Bantu museum is also added as an educational resource for the local community and to learn more about the history of the Cameroonian people’s ethnic provenance. 4 education facilities lined up in one axis will recall to the people of Ebolowa, Cameroon and visitors the importance of education for the future of the country.\n\nThe project emphasizes through design the “education route” that extends from east to west, connecting four educational institutions: the Music Faculty “Chantal Biya,” Art School “Dritero Agolli,” Bantu Museum, and Professional School. The route toward knowledge starts in both directions, west and east, with an evident symbolic gate styled as a transparent pavilion where you find architecture and nature in one.\n\nThe modernism of regular and irregular simple geometries of volumes and architecture elements is transformed into an organic interpretation of the landscaped context, local materials, and living mentality.\n\nEverything is very well connected on a larger scale with a proposed pedestrian cycle path that starts from the city center and crosses its future different urban poles.\n\nThe first one, “Ebolowa New Dream Town,” also accommodates to the south of the “education route,” a sports center, a conservation park for endangered species, eco-friendly and outstanding housing for tourists and visitors’ hospitality, dormitory and social housing for students and professors.\n"
     },
@@ -160,12 +244,20 @@
       "type": "Training Center",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
+      "seoDescription": "A vocational training centre in Ebolowa, Cameroon: circular brick drums screened by timber colonnades, set in the forest and linked by a shaded walkway.",
       "images": [
         "/mastudio/vocational-training-center/img-0.jpg",
         "/mastudio/vocational-training-center/img-1.jpg",
         "/mastudio/vocational-training-center/img-2.jpg",
         "/mastudio/vocational-training-center/img-3.jpg",
         "/mastudio/vocational-training-center/img-4.jpg"
+      ],
+      "imageAlts": [
+        "Exploded axonometric of the Ebolowa vocational training centre, mapping studios, classrooms and auditorium",
+        "Aerial view of the vocational training centre in Ebolowa, circular volumes set into the Cameroonian forest",
+        "Circular brick and timber pavilion at the Ebolowa vocational training centre, its colonnade shading the glazing",
+        "Shaded walkway between the perforated brick drums of the Ebolowa vocational training centre",
+        "Planted courtyard at the Ebolowa vocational training centre, timber colonnades wrapping the brick classrooms"
       ],
       "description": ""
     },
@@ -175,12 +267,20 @@
       "type": "Music Faculty",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
+      "seoDescription": "The Chantal Biya music faculty in Ebolowa, Cameroon: perforated brick drums under bamboo colonnades, arranged as a circular conservatory in the landscape.",
       "images": [
         "/mastudio/music-faculty-chantal-biya/img-0.jpg",
         "/mastudio/music-faculty-chantal-biya/img-1.jpg",
         "/mastudio/music-faculty-chantal-biya/img-2.jpg",
         "/mastudio/music-faculty-chantal-biya/img-3.jpg",
         "/mastudio/music-faculty-chantal-biya/img-4.jpg"
+      ],
+      "imageAlts": [
+        "Programme axonometric of the Chantal Biya music faculty in Ebolowa, from library and classrooms to auditorium",
+        "Exploded isometric of the Chantal Biya conservatory showing brick walls, bamboo columns and pavilion roofs",
+        "Concept diagrams for the Chantal Biya music faculty, from terrain and platforms to the final circular plan",
+        "Night view of the Chantal Biya music faculty in Ebolowa, a perforated brick drum behind bamboo columns",
+        "Aerial plan of the Chantal Biya music faculty, circular volumes gathered inside a ring in the forest"
       ],
       "description": "The Music University “Chantal Biya” will be a tribute to the innate musical talent of the Bantu people. The “Education Route” East Gate is a design and functional combination, serving as a symbolic entrance as well as the entrance to both the Art School and Music University, and also as an open hall for visitors, parents, etc. Its message is clear: education has no closed doors; it is an open gate toward knowledge, skills, and excellence.\n"
     },
@@ -190,6 +290,7 @@
       "type": "Institute",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
+      "seoDescription": "The Dritëro Agolli institute of art and culture: long brick wings behind bamboo colonnades, gathered with a lettered rotunda around lawns and sandy forecourts.",
       "images": [
         "/MA-Studio-INSTITUTE-OF-ART-CULTURE-“DRITERO-AGOLLI”​-1.jpg",
         "/MA-Studio-INSTITUTE-OF-ART-CULTURE-%E2%80%9CDRITERO-AGOLLI%E2%80%9D%E2%80%8B-2.jpg",
@@ -197,6 +298,14 @@
         "/MA-Studio-INSTITUTE-OF-ART-CULTURE-%E2%80%9CDRITERO-AGOLLI%E2%80%9D%E2%80%8B-5.jpg",
         "/MA-Studio-INSTITUTE-OF-ART-CULTURE-%E2%80%9CDRITERO-AGOLLI%E2%80%9D%E2%80%8B-6.jpg",
         "/MA-Studio-INSTITUTE-OF-ART-CULTURE-%E2%80%9CDRITERO-AGOLLI%E2%80%9D%E2%80%8B.jpg"
+      ],
+      "imageAlts": [
+        "Bamboo colonnade shading the brick wall of the Dritëro Agolli institute of art and culture",
+        "Frontal view of the Dritëro Agolli institute, bamboo columns along the brick facade above a sandy forecourt",
+        "View out through the Dritëro Agolli institute entrance, red and orange doors framing the bamboo colonnade",
+        "The long low brick wings of the Dritëro Agolli institute seen across open lawn",
+        "Circular brick rotunda at the Dritëro Agolli institute, the name lettered across its facade",
+        "Bamboo colonnade and planted path running along the Dritëro Agolli institute"
       ],
       "description": "The High School of Arts will be a great opportunity for talented people from Ebolowa and Cameroon to be educated in the three main art branches: music, dance, and visual arts. The main concept of the functional and volumetric design is a fusion of architecture, the specific arts involved, and nature.\n"
     },
@@ -206,8 +315,12 @@
       "type": "Museum",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
+      "seoDescription": "The Bantu Museum in Ebolowa, Cameroon: a cluster of round timber-roofed pavilions linked by curving decks and paths, set into a clearing in the rainforest.",
       "images": [
         "/Gemini_Generated_Image_mnqmyzmnqmyzmnqm.png"
+      ],
+      "imageAlts": [
+        "Aerial view of the Bantu Museum in Ebolowa, round timber-roofed pavilions linked by curving decks"
       ],
       "description": "The Bantu Art & People Museum is a tribute to the Bantu people, honoring their centuries-long presence on the African continent. It will be a tourist destination for Ebolowa, the South Region, Cameroon, and beyond, promoting the original tribes of Southern Africa.\n"
     },
@@ -217,9 +330,14 @@
       "type": "Hotel",
       "year": 2021,
       "location": "Ebolowa, Cameroon",
+      "seoDescription": "A hospitality building in Ebolowa, Cameroon: a curved drum sleeved in vertical timber louvres, lifted above the forest floor beside a cluster of thatched huts.",
       "images": [
         "/Ma-studio-hotel-5.jpg",
         "/Ma-studio-hotel.jpg"
+      ],
+      "imageAlts": [
+        "Aerial view of the Ebolowa hospitality building, its curved louvred form set among thatched huts and forest",
+        "The Ebolowa hospitality building at night, a timber-louvred drum glowing under a starry sky"
       ],
       "description": "Program: High-standard houses, eco-houses, hospitality;\n\nConstruction Area: 1,800 m²;\n\nContracting Authority: Private Client, Municipality of Ebolowa\n\nAchievement: Assigned, Tender Design;\n\nPosition: Project Leader, Urban Designer, Architect\n\nActivities Performed: Team leader, masterplan, architecture, preliminary design, final design, construction permit;\n\nActual Status: Ongoing.\n"
     },
@@ -229,11 +347,18 @@
       "type": "Farm",
       "year": 2020,
       "location": "Tragjas, Albania",
+      "seoDescription": "Alem Aga Farm in Tragjas, Albania: a glasshouse locked against a black-clad hall, opening into a daylit market where produce is sold beneath planted racks.",
       "images": [
         "/Transform_this_architectural_r_Nano_Banana_2_52234.png",
         "/Recreate_the_reference_image_a_Nano_Banana_2_46594.png",
         "/Recreate_the_uploaded_referenc_Nano_Banana_2_56415.png",
         "/Use_the_uploaded_image_as_the__Nano_Banana_2_66667.png"
+      ],
+      "imageAlts": [
+        "Alem Aga Farm at sunset in Tragjas, Albania, a glasshouse meeting the black-clad production hall",
+        "Alem Aga Farm, Tragjas, its glazed and black volumes reflected in the wet forecourt at sunset",
+        "Daylit market hall at Alem Aga Farm, produce crates below a glazed wall of planted racks",
+        "Market hall at Alem Aga Farm, Tragjas, at sunset, hanging lights above the produce stalls"
       ],
       "description": "Alem Aga Farm is a mark of modernity in a distinguished location along the transit route from Vlora to the Albanian South Coast. It functions as a clearly defined stop where travelers can pause to dine and purchase local bio-products from the region, including meat, eggs, cheese, fruits, vegetables, olives, honey, and other artisanal goods. The most striking part of the building, from the visual perspective of the access, is a glass volume designed as a greenhouse, filled with natural light and lush greenery.\n\nVisitors immediately get a sense of the experience they can expect, reflected in the character of the building.\n\nThe green terrace enhances this feeling. The main concept of the functional and volumetric design is a fusion of architecture, the specific arts involved, and nature.\n"
     },
@@ -243,6 +368,7 @@
       "type": "Residence",
       "year": 2020,
       "location": "Tirana, Albania",
+      "seoDescription": "Tulipan Residence in Tirana: low white and timber villas set along garden lanes, each with recessed terraces opening onto shared lawns and planted footpaths.",
       "images": [
         "/MA-STUDIO-Bolv-Oil-2.jpg",
         "/MA-STUDIO-Tulipan-Residence-1.jpg",
@@ -252,6 +378,15 @@
         "/MA-STUDIO-Tulipan-Residence-9.jpg",
         "/MA-STUDIO-Tulipan-Residence-10.jpg"
       ],
+      "imageAlts": [
+        "Masterplan of Tulipan Residence, Tirana, villas laid out along green lanes beside the main road",
+        "Tulipan Residence villa in Tirana, white and timber volumes above a planted front garden",
+        "Street view of a Tulipan Residence villa in Tirana, red flowers along the garden fence",
+        "Tulipan Residence villas across the lawn in Tirana, a cyclist on the path between them",
+        "A family walking past the Tulipan Residence villas in Tirana",
+        "Children playing in the gardens between the Tulipan Residence villas, Tirana",
+        "Tulipan Residence in Tirana, children with a balloon on the path beside the villas"
+      ],
       "description": "The proposed complex is located in the southeast of Tirana, within a low-rise residential area. The masterplan concept emphasizes the everyday lives of the people who will inhabit it. Those who choose to leave downtown for greater privacy should have it, while still being able to maintain the social interaction aspects of their environment.\n\nPedestrian pathways, combined with creative destinations designed for different age groups, will enhance the quality of life for future residents.\n"
     },
     {
@@ -260,6 +395,7 @@
       "type": "Residence",
       "year": 2022,
       "location": "Tirana, Albania",
+      "seoDescription": "Sunflower Residences in Tirana: a yellow stacked tower pivots a perimeter block of long banded facades around planted courtyards and a riverside walk.",
       "images": [
         "/MA-STUDIO-Dine-Fratarin-SUNFLOWER-RESIDENCES-4.jpg",
         "/MA-STUDIO-Dine-Fratarin-SUNFLOWER-RESIDENCES-5.jpg",
@@ -269,6 +405,15 @@
         "/MA-STUDIO-Dine-Fratarin-SUNFLOWER-RESIDENCES-2.jpg",
         "/MA-STUDIO-Dine-Fratarin-SUNFLOWER-RESIDENCES-3.jpg"
       ],
+      "imageAlts": [
+        "Masterplan diagram of Sunflower Residences, Tirana, the courtyard blocks drawn in yellow",
+        "Yellow stacked balconies at Sunflower Residences, Tirana, set against the banded apartment facade",
+        "Sunflower Residences in Tirana seen across the water, the yellow tower marking the corner",
+        "The yellow tower and long banded block of Sunflower Residences, Tirana, under heavy cloud",
+        "Long banded facade of Sunflower Residences, Tirana, with a yellow balcony stack at its end",
+        "Night view of Sunflower Residences, Tirana, the yellow tower lit above the crossing",
+        "Sunflower Residences in Tirana, the yellow tower rising between white banded blocks"
+      ],
       "description": ""
     },
     {
@@ -277,6 +422,7 @@
       "type": "Center",
       "year": 2022,
       "location": "Falconara, Italy",
+      "seoDescription": "A civic centre for Falconara, Italy: two chequered volumes held apart by a public passage, with an external stair climbing to a timber-louvred upper floor.",
       "images": [
         "/MA-Studio-Falconara.jpg",
         "/MA-STUDIO-MA-Studio-Partners-Studio-Settanta7-Falconara-CIVIC.jpg",
@@ -289,6 +435,18 @@
         "/MA-STUDIO-MA-Studio-Partners-Studio-Settanta7-Falconara-CIVIC-7.jpg",
         "/MA-STUDIO-MA-Studio-Partners-Studio-Settanta7-Falconara-CIVIC-10.jpg"
       ],
+      "imageAlts": [
+        "Concept sketch for the Falconara civic centre, two volumes balanced either side of a gap",
+        "Chequered facade of the Falconara civic centre, Italy, opening onto lawn and paving",
+        "The Falconara civic centre across its public square, an open passage cut through the ground floor",
+        "External stair and timber-louvred upper floor at the Falconara civic centre",
+        "Entrance to the Falconara civic centre, glazing beneath a timber-louvred upper volume",
+        "Chequered facade of the Falconara civic centre seen from the street beneath a tree",
+        "Angled roof of the Falconara civic centre rising above the street",
+        "White and timber facades of the Falconara civic centre, the external stair rising between them",
+        "Falconara civic centre entrance at dusk, lit glazing behind a red flowering shrub",
+        "The Falconara civic centre seen from across the road, its chequered facade along the street"
+      ],
       "description": "The Falconara Marittima Civic Center will revitalize a degraded industrial area in the small coastal town near Ancona. The proposed building balances two volumes, reflecting the social equilibria of everyday life.\n\nOne volume appears visually strong and stable, representing sustainability, while the other is fragile and transparent, signifying social imbalances. Together, they operate dynamically to achieve the appropriate EQUILIBRIUM.\n"
     },
     {
@@ -297,6 +455,7 @@
       "type": "Concert Hall",
       "year": 2022,
       "location": "Prishtina, Kosovo",
+      "seoDescription": "Gërmia Concert Hall in Prishtina: the 1972 aluminium facade pattern rebuilt in glass, wrapping the hall in a public layer that opens onto Skanderbeg square.",
       "images": [
         "/MA-STUDIO-Germia.jpg",
         "/MA-STUDIO-Germia-6.jpg",
@@ -307,6 +466,16 @@
         "/MA-STUDIO-Germia-3.jpg",
         "/MA-STUDIO-Germia-4.jpg"
       ],
+      "imageAlts": [
+        "Gërmia Concert Hall in Prishtina, a faceted glass grid facade rising above the public square",
+        "Facade study for Gërmia Concert Hall comparing the 1972 aluminium pattern with the proposed glass",
+        "Heritage board for Gërmia Concert Hall setting the facade addition against the original design",
+        "Board showing the original Gërmia facade pattern merged with the new glass cells",
+        "Gërmia lettering across the bronze facade of the concert hall in Prishtina",
+        "Entrance canopy at Gërmia Concert Hall, Prishtina, below the faceted glass grid",
+        "Gërmia Concert Hall in Prishtina seen from the steps, people gathering on the terrace",
+        "Urban concept board for Gërmia Concert Hall, the 360-degree pedestrian route to Skanderbeg square"
+      ],
       "description": "Concert Hall Gërmia is a unique opportunity for Prishtina to revive a notable building from the past with a fresh contemporary vision that clearly looks to the future.\n\nThis key conceptual principle of the architectural intervention preserves the facade of the 1970s building as a historical trace for future generations, reintroducing the original geometries of its most significant elements into the new design.\n\nThe new building extensions, incorporating entirely new and important functions, also look toward the future, interpreting the integration of the original facade with transparent glass modules inspired by the geometry of the aluminum pattern, while respecting the original design.\n\nThe transition between two epochs is expressed as a fusion in the proposal. Above all, our intervention is urban, providing the most direct connection between the southwest and northeast areas of the city center, while passing through the city’s most important public space, “Skanderbeg” Square. Almost all previously atrophied spaces are activated, and the Concert Hall Gërmia building itself becomes the protagonist of the urban landscape, offering a 360° experience and the full prominence that such a building deserves.\n"
     },
     {
@@ -315,11 +484,18 @@
       "type": "Arena",
       "year": 2022,
       "location": "Prishtina, Kosovo",
+      "seoDescription": "Prishtina Arena, Kosovo: a wide timber canopy sweeps over the entrance plaza to a basketball bowl roofed in exposed glulam beams above a daylit concourse.",
       "images": [
         "/mastudio/prishtina-arena/img-1.jpg",
         "/mastudio/prishtina-arena/img-2.jpg",
         "/mastudio/prishtina-arena/img-3.jpg",
         "/mastudio/prishtina-arena/img-4.jpg"
+      ],
+      "imageAlts": [
+        "Site diagram for Prishtina Arena mapping pedestrian flows between the Dardania and Kalabria districts",
+        "Timber canopy sweeping over the entrance plaza of Prishtina Arena, supporters gathering below",
+        "Interior of Prishtina Arena during a basketball match, exposed glulam roof beams above a full bowl",
+        "Daylit concourse inside Prishtina Arena, a timber-slatted ceiling above the circulation level"
       ],
       "description": ""
     },
@@ -329,6 +505,7 @@
       "type": "Business Park",
       "year": 2022,
       "location": "Rinas, Albania",
+      "seoDescription": "London Business Park at Rinas, Albania: green-roofed office plates curve along a stream, with a red drum anchoring the entrance and courtyards opening between.",
       "images": [
         "/MA-STUDIO-LONDON-BUSINES-PARK-1.jpg",
         "/MA-STUDIO-LONDON-BUSINES-PARK-2.jpg",
@@ -342,6 +519,19 @@
         "/MA-STUDIO-LONDON-BUSSINES-PARK-concept-8.jpg",
         "/MA-STUDIO-LONDON-BUSINES-PARK-2.jpg"
       ],
+      "imageAlts": [
+        "People walking beneath the curved banded facade of London Business Park at Rinas, Albania",
+        "Aerial masterplan of London Business Park, Rinas, green roofs and courtyards beside the highway",
+        "Massing diagram for London Business Park showing the stream and tree belt across the site",
+        "Massing diagram for London Business Park, office volumes set in a row along the stream",
+        "Massing diagram for London Business Park, the blocks shifted apart along the slope",
+        "Massing diagram for London Business Park, courtyards opening between the shifted blocks",
+        "Massing diagram for London Business Park, the blocks rounding into curved plates",
+        "Massing diagram for London Business Park showing the linking deck between volumes",
+        "Massing diagram for London Business Park, the plates stacked and stepped in layers",
+        "Final massing diagram for London Business Park, the layered plates curving along the stream",
+        "Aerial view of London Business Park at Rinas, green roofs and pools above the red entrance drum"
+      ],
       "description": ""
     },
     {
@@ -350,12 +540,20 @@
       "type": "Waterfront",
       "year": 2021,
       "location": "Livadh, Albania",
+      "seoDescription": "A waterfront plan for Livadh on the Albanian coast: a shaded boardwalk, beach clubs and a water-feature plaza tie the promenade to a new jetty and bay.",
       "images": [
         "/mastudio/livadh-waterfront/img-0.jpg",
         "/mastudio/livadh-waterfront/img-1.jpg",
         "/mastudio/livadh-waterfront/img-2.jpg",
         "/mastudio/livadh-waterfront/img-3.jpg",
         "/mastudio/livadh-waterfront/img-4.jpg"
+      ],
+      "imageAlts": [
+        "Site plan of the Livadh waterfront in Albania, the promenade running along the curve of the bay",
+        "Aerial view of Livadh beach, Albania, parasol rows and a new jetty reaching into the shallows",
+        "Palm-lined boardwalk at the Livadh waterfront, beach bars and loungers along the sand",
+        "Circular water feature on the Livadh promenade, children playing in the spray",
+        "View along the Livadh jetty in Albania, sailing boats offshore and the beach curving away behind"
       ],
       "description": ""
     },
@@ -365,12 +563,20 @@
       "type": "Resort",
       "year": 2021,
       "location": "Qeparo, Albania",
+      "seoDescription": "Aquamarine resort at Qeparo on the Albanian Riviera: whitewashed villas with blue shutters and arched loggias step around a long pool below the mountains.",
       "images": [
         "/Transform_the_base_image_into__Nano_Banana_2_10044.png",
         "/Transform_the_base_image_into__Nano_Banana_2_24383.png",
         "/Transform_the_base_architectur_Nano_Banana_2_90619.png",
         "/Transform_the_base_image_into__Nano_Banana_2_43714.png",
         "/Transform_the_base_image_into__Nano_Banana_2_90346.png"
+      ],
+      "imageAlts": [
+        "Long pool between the whitewashed villas of the Aquamarine resort at Qeparo, Albania, at dusk",
+        "Aquamarine resort at Qeparo, an olive tree beside the pool under a violet evening sky",
+        "Whitewashed villas with blue shutters around the bright pool at the Aquamarine resort, Qeparo",
+        "Terrace and olive tree above the pool at the Aquamarine resort on the Albanian Riviera",
+        "The Aquamarine resort at Qeparo at dusk, villas and pool set against the mountains"
       ],
       "description": ""
     },
@@ -380,11 +586,18 @@
       "type": "Resort",
       "year": 2022,
       "location": "Durres, Albania",
+      "seoDescription": "Green Pine Resort in Durrës, Albania: banded hotel wings curve around a lagoon pool held inside an existing stand of maritime pines, steps from the beach.",
       "images": [
         "/mastudio/green-pine-resort/img-0.jpg",
         "/mastudio/green-pine-resort/img-1.jpg",
         "/mastudio/green-pine-resort/img-2.jpg",
         "/mastudio/green-pine-resort/img-3.jpg"
+      ],
+      "imageAlts": [
+        "Aerial view of Green Pine Resort in Durrës, Albania, parasol rows on the beach beside the lagoon pool",
+        "Shaded terrace under the pines at Green Pine Resort, Durrës, seating beneath a dark cantilevered canopy",
+        "Banded hotel wings of Green Pine Resort curving around the main pool in Durrës, Albania",
+        "Loungers along the pool at Green Pine Resort, Durrës, under the resort's mature pine canopy"
       ],
       "description": ""
     },
@@ -394,6 +607,7 @@
       "type": "Residence",
       "year": 2022,
       "location": "Durres, Albania",
+      "seoDescription": "Green Amphitheater in Durrës: apartments step down the hillside as a planted amphitheatre of white terraces above a pool deck, each floor opening to the sea.",
       "images": [
         "/ChatGPT-Image-May-30,-2026,-09_39_15-AM.png",
         "/MA-Studio-Partners-(5).png",
@@ -403,6 +617,15 @@
         "/MA-Studio-Partners-(3).png",
         "/MA-Studio-Partners-(4).png"
       ],
+      "imageAlts": [
+        "Stepped white terraces of the Green Amphitheater in Durrës, Albania, lit at sunset",
+        "Green Amphitheater in Durrës above its pool deck and waterfall, palms in the foreground",
+        "The stepped white terraces of the Green Amphitheater, Durrës, above the pool and waterfall",
+        "Living room at the Green Amphitheater, Durrës, full-height glazing opening to the sea",
+        "Lounge at the Green Amphitheater in Durrës, a glazed wall framing the Adriatic",
+        "Green Amphitheater in Durrës at night, its stepped terraces lit under a starry sky",
+        "Night view of the Green Amphitheater, Durrës, the terrace pool lit below the apartments"
+      ],
       "description": ""
     },
     {
@@ -411,6 +634,7 @@
       "type": "Villa",
       "year": 2022,
       "location": "Tirana, Albania",
+      "seoDescription": "Seren Villas in Tirana: stone-toned villas with timber-slatted bays line a garden street, each opening onto its own lawn behind low fences and flowering hedges.",
       "images": [
         "/ChatGPT-Image-May-29,-2026,-04_18_57-PM.png",
         "/ChatGPT-Image-May-29,-2026,-05_28_07-PM.png",
@@ -420,6 +644,15 @@
         "/ChatGPT-Image-May-29,-2026,-05_33_52-PM.png",
         "/ChatGPT-Image-May-29,-2026,-05_37_54-PM.png"
       ],
+      "imageAlts": [
+        "Seren Villa in Tirana, timber-slatted bays above a garden in spring blossom",
+        "Corner of a Seren Villa in Tirana, bougainvillea climbing beside the timber screen",
+        "Garden street between the Seren Villas in Tirana, a cyclist passing the front gardens",
+        "Two Seren Villas in Tirana facing each other across a planted footpath",
+        "Path beside a Seren Villa in Tirana, timber-slatted bays above flowering beds",
+        "Aerial view of the Seren Villas in Tirana, private gardens between the houses",
+        "Seren Villa in Tirana framed by cherry blossom along the garden path"
+      ],
       "description": "Program: Residences, apartments, villas;\n\nConstruction Area: 3,800 m²;\n\nContracting Authority: 2T Ltd;\n\nAchievement: Assigned;\n\nPosition: Project Leader, Architect, Structural Engineer, MEP Expert, Aesthetic Supervisor;\n\nActivities Performed: Team leader, architecture, preliminary design, final design, construction permit;\n\nActual Status: Construction permit process.\n"
     },
     {
@@ -428,6 +661,7 @@
       "type": "Residence",
       "year": 2022,
       "location": "Tirana, Albania",
+      "seoDescription": "ALES in Tirana: a long residential block with a sloping crown, its grey facade punched with red and yellow recesses above shops and a planted pedestrian walk.",
       "images": [
         "/Render-11.jpg",
         "/Render-2.jpg",
@@ -438,6 +672,16 @@
         "/Render-7.jpg",
         "/Render-8.jpg"
       ],
+      "imageAlts": [
+        "ALES in Tirana, a long residential block with a sloping roofline above the street",
+        "Planted pedestrian path beside ALES in Tirana, red and yellow panels in the facade",
+        "Tree-lined walk between the ALES apartment blocks in Tirana",
+        "View between the ALES blocks in Tirana, planting along the shared path",
+        "Close view of the ALES facade in Tirana, yellow and red panels between the balconies",
+        "Shopfront at the base of ALES in Tirana, trees shading the pavement",
+        "Looking up the ALES facade in Tirana, coloured panels stepping across the balconies",
+        "People passing the shops at the base of ALES in Tirana"
+      ],
       "description": "Contracting Authority: Ales Ltd & Balfin Group;\n\nAchievement: Assigned;\n\nPosition: Project Leader, Urban Designer, Architect, Structural Engineer, MEP Expert;\n\nActivities Performed: Team leader, architecture, preliminary design, final design, construction permit;\n\nActual status: Completed.\n"
     },
     {
@@ -446,6 +690,7 @@
       "type": "Masterplan",
       "year": 2022,
       "location": "Tirana, Albania",
+      "seoDescription": "Universe City masterplan in Tirana: housing blocks and a large hall set around a green spine and central field, drawn off the ring road at the city's edge.",
       "images": [
         "/32.jpg",
         "/MA-STUDIO-Univers-City-Master-Plan.jpg",
@@ -453,6 +698,14 @@
         "/MA-Studio-Partners-Master-plan-City-1.jpg",
         "/MA-Studio-Partners-Master-plan-City.jpg",
         "/MA-STUDIO-Univers-City-Master-Plan-12.jpg"
+      ],
+      "imageAlts": [
+        "Aerial view of the Universe City masterplan in Tirana, blocks gathered around a landscaped spine",
+        "Universe City masterplan, Tirana, housing blocks framing a large central field",
+        "Aerial plan of Universe City in Tirana, blocks and courtyards around a green lawn",
+        "Universe City in Tirana seen from the air, the hall and housing blocks against the mountains",
+        "Aerial view of Universe City, Tirana, the masterplan set against the city beyond",
+        "Colour site plan of the Universe City masterplan in Tirana, blocks drawn along the road grid"
       ],
       "description": "Contracting Authority: Balfin Group Ltd;\n\nAchievement: Assigned;\n\nPosition: Project Leader, Architect, Structural Engineer, MEP Expert, Aesthetic Supervisor;\n\nActivities Performed: Team leader, architecture, preliminary design, final design, construction permit;\n\nActual Status: Construction permit process.\n"
     },
@@ -462,12 +715,20 @@
       "type": "Park",
       "year": 2022,
       "location": "Tirana, Albania",
+      "seoDescription": "QTU Park in Tirana: a central park for the QTU smart city, zoned for play by age group and stitched into the surrounding streets by new pedestrian routes.",
       "images": [
         "/mastudio/qtu-park-smart-city/img-0.jpg",
         "/mastudio/qtu-park-smart-city/img-1.jpg",
         "/mastudio/qtu-park-smart-city/img-2.jpg",
         "/mastudio/qtu-park-smart-city/img-3.jpg",
         "/mastudio/qtu-park-smart-city/img-4.jpg"
+      ],
+      "imageAlts": [
+        "Tree-lined street at QTU Park, Tirana, shopfronts and play logs along the pedestrian route",
+        "QTU smart City diagram locating the Central Park within the site boundary in Tirana",
+        "Mobility diagrams for QTU Park, Tirana, mapping pedestrian and running routes around the playground",
+        "Zoning diagrams for QTU Park showing playgrounds for different age groups alongside quiet areas",
+        "Landscape zoning and material palette for QTU Park, Tirana, from recreation areas to quiet gardens"
       ],
       "description": "Program: Residential & services complex;\n\nConstruction Area: 42,000 m²;\n\nContracting Authority: Startek Ltd & Balfin Group;\n\nAchievement: Assigned;\n\nPosition: Project Leader, Urban Designer, Architect, Structural Engineer, MEP Expert;\n\nActivities Performed: Team leader, architecture, preliminary design, final design, construction permit;\n\nActual Status: Completed.\n"
     },
@@ -477,10 +738,16 @@
       "type": "School",
       "year": 2022,
       "location": "Tirana, Albania",
+      "seoDescription": "Univers School in Tirana: stacked containers in red, yellow, blue and magenta spell out the school's words, lifted above an open ground-floor forecourt.",
       "images": [
         "/perfundim1.jpg",
         "/perfundim2.jpg",
         "/perfundim4.jpg"
+      ],
+      "imageAlts": [
+        "Univers School in Tirana, stacked containers lettered FUN, SMART, SCHOOL and CITY",
+        "Corner of Univers School in Tirana, coloured containers cantilevered above the entrance",
+        "Univers School in Tirana beside its louvred neighbour, containers lettered TEEN and PEOPLE"
       ],
       "description": ""
     },
@@ -490,6 +757,7 @@
       "type": "Residence",
       "year": 2022,
       "location": "Tirana, Albania",
+      "seoDescription": "Startek in Tirana: white and blue apartment blocks banded in yellow, arranged around shared playgrounds, a planted park and a pedestrian shopping street.",
       "images": [
         "/MA-STUDIO-PARTNERS-STARTEK-(3).jpg",
         "/MA-STUDIO-PARTNERS-STARTEK-(2).jpg",
@@ -499,14 +767,24 @@
         "/MA-STUDIO-PARTNERS-STARTEK-(6).jpg",
         "/MA-STUDIO-PARTNERS-STARTEK-(7).jpg"
       ],
+      "imageAlts": [
+        "Playground between the Startek apartment blocks in Tirana",
+        "Plaza and playground at Startek in Tirana, apartment blocks framing the space",
+        "Aerial view of the Startek blocks in Tirana, L-shaped volumes around a red running track",
+        "Street corner at Startek in Tirana, shops at the base of the apartment block",
+        "Startek apartments in Tirana, yellow bands running across the white and blue facades",
+        "The park at Startek in Tirana seen from a balcony, paths curving between the blocks",
+        "Aerial view of the whole Startek quarter in Tirana, playgrounds between the blocks"
+      ],
       "description": "Contracting Authority: Startek Ltd & Balfin Group;\n\nAchievement: Assigned;\n\nPosition: Project Leader, Urban Designer, Architect, Structural Engineer, MEP Expert;\n\nActivities Performed: Team leader, architecture, preliminary design, final design, construction permit;\n\nActual Status: Completed.\n"
     },
     {
       "name": "Vivien Residence",
-      "slug": "https://mastudio.al/projects/vivien-residence",
+      "slug": "vivien-residence",
       "type": "Residence",
       "year": 2024,
       "location": "Durres ",
+      "seoDescription": "Vivien Residence in Durrës: a diamond-lattice block meets a curved balconied wing, the pair set above a lagoon and screened by the existing stand of pines.",
       "images": [
         "/ChatGPT-Image-Jun-27,-2026,-12_36_05-PM.png",
         "/ChatGPT-Image-Jun-27,-2026,-12_40_51-PM.png",
@@ -516,6 +794,15 @@
         "/ChatGPT-Image-Jun-27,-2026,-11_30_00-AM.png",
         "/ChatGPT-Image-Jun-27,-2026,-12_27_46-PM.png"
       ],
+      "imageAlts": [
+        "Aerial view of Vivien Residence in Durrës, a lattice-clad block meeting a curved balconied wing",
+        "Vivien Residence in Durrës, the diamond lattice facade meeting curved white balconies above a glazed base",
+        "Vivien Residence at Durrës in morning mist, the long wing stretching along the water",
+        "Vivien Residence reflected in the lagoon at Durrës, lattice block beside the curved wing",
+        "Vivien Residence in Durrës seen through the pines, the diamond lattice catching the light",
+        "The lattice tower of Vivien Residence rising above the road in Durrës",
+        "Vivien Residence across the water in Durrës, a boat moored below the lattice facade"
+      ],
       "description": ""
     },
     {
@@ -524,6 +811,7 @@
       "type": "Residence",
       "year": 2025,
       "location": "Durres",
+      "seoDescription": "Luminara in Durrës: a white apartment block with deep punched openings and timber-lined loggias, over a café at street level and a pool terrace on the roof.",
       "images": [
         "/create_the_first_image_inspire_Nano_Banana_2_49392.png",
         "/create_the_first_image_inspire_Nano_Banana_2_67234.png",
@@ -531,6 +819,14 @@
         "/create_the_first_image_inspire_Nano_Banana_2_61147.png",
         "/create_the_first_image_inspire_Nano_Banana_2_75301.png",
         "/create_the_first_image_inspire_Nano_Banana_2_84654.png"
+      ],
+      "imageAlts": [
+        "Luminara in Durrës at sunset, deep punched openings across the white facade",
+        "Luminara in Durrës at dusk, timber-lined loggias above the café at street level",
+        "Isometric aerial view of Luminara in Durrës, the block set into its street corner",
+        "Roof terrace and pool at Luminara in Durrës, seen from above",
+        "Luminara in Durrës, café seating on the plaza below the white apartment block",
+        "Corner of Luminara in Durrës at sunset, people passing on the street below"
       ],
       "description": "Contracting Authority: T\\&Xh Sh.p.k;\n\nPosition: Project Leader, Architect, Structural Engineer, MEP Expert, Aesthetic Supervisor;\n\nActivities Performed: Team leader, architecture, structural design, preliminary design, final design, construction permit, executive design;\n\nActual Status: Construction permit stage.\n"
     }

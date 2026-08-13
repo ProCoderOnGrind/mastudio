@@ -14,7 +14,7 @@ export default function Header() {
         <Link id="site-logo" href="/" aria-label="MA Studio & Partners — home" className="shrink-0">
           <Image
             src="/mastudio/logo-seal.png"
-            alt="MA Studio & Partners"
+            alt="MA Studio & Partners — architecture studio in Tirana, Albania"
             width={65}
             height={65}
             priority

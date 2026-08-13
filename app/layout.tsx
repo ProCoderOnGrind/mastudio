@@ -27,12 +27,23 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
   alternates: { canonical: "/" },
+  // Google ignores the keywords meta tag outright, so nothing here ranks on its
+  // own. It is kept as the single reviewed list of the terms the site is
+  // actually written for — including the Albanian ones, which is how most of
+  // Tirana searches and which the English copy alone would never match.
   keywords: [
     "architecture studio Tirana",
+    "architecture firm Tirana",
+    "architects in Tirana",
+    "best architecture studio in Tirana",
     "urban planning Albania",
-    "landscape architecture",
+    "landscape architecture Albania",
     "interior design Tirana",
+    "studio arkitekture Tirane",
+    "arkitekt Tirane",
+    "projektim arkitekture Shqiperi",
     "MA Studio & Partners",
+    "Modelling Architecture Studio & Partners",
   ],
   authors: [{ name: SITE_NAME, url: SITE_URL }],
   creator: SITE_NAME,

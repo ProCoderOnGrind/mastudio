@@ -14,7 +14,12 @@ describe("projects data", () => {
       expect(p.year).toBeGreaterThan(1990);
       expect(["residential", "hospitality", "culture", "masterplan", "commercial"]).toContain(p.category);
       expect(p.images.length).toBeGreaterThan(0);
-      expect(p.images[0]).toMatch(/^\/mastudio\//);
+      // Was `/^\/mastudio\//`. Tina's media root is `public/` itself
+      // (tina/config.ts: mediaRoot ""), so photos uploaded through the hosted
+      // admin land at `/<name>.jpg` rather than under `/mastudio/`. What
+      // actually has to hold is that the path is root-relative and resolves to
+      // a file that ships — which is what the sitemap and OG tags depend on.
+      expect(p.images[0]).toMatch(/^\//);
     }
   });
   it("slugs are unique", () => {

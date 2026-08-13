@@ -9,7 +9,11 @@ export interface Project {
   year: number;
   location: string;
   category: CategoryKey;
+  /** Hand-written meta description for this project. See `lib/projectSeo`. */
+  seoDescription?: string;
   images: string[];    // local image paths under /public
+  /** Alt text, index-parallel to `images`. See `lib/projectSeo`. */
+  imageAlts?: string[];
   description?: unknown;   // Tina rich-text AST (rendered via TinaMarkdown later)
   client?: string;
   status?: string;
@@ -22,7 +26,9 @@ interface RawProject {
   type: string;
   year: number;
   location: string;
+  seoDescription?: string;
   images: string[];
+  imageAlts?: string[];
   description?: unknown;   // Tina rich-text AST (rendered via TinaMarkdown later)
   client?: string;
   status?: string;
@@ -36,7 +42,9 @@ export const PROJECTS: Project[] = (maData as { projects: RawProject[] }).projec
   year: p.year,
   location: p.location,
   category: categoryForType(p.type),
+  seoDescription: p.seoDescription,
   images: p.images,
+  imageAlts: p.imageAlts,
   description: p.description,
   client: p.client,
   status: p.status,

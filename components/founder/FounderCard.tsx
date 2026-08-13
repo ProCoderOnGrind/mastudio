@@ -32,6 +32,7 @@ export default function FounderCard({ founder, editTarget }: { founder: Founder;
               src={founder.image}
               seed={founder.name}
               label={founder.name}
+              alt={`Portrait of ${founder.name}, ${founder.role} at MA Studio & Partners in Tirana`}
               ratio={null}
               className="h-full w-full"
               sizes="(max-width: 768px) 100vw, 50vw"

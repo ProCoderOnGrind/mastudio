@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { tinaField } from "tinacms/dist/react";
 import { nextProject, type Project } from "@/data/projects";
 import { hasDescription } from "@/lib/projectDescription";
+import { projectImageAlt } from "@/lib/projectSeo";
 import ProjectDetails from "./ProjectDetails";
 
 /**
@@ -129,7 +130,7 @@ function DesktopSlides({
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={src}
-              alt={`${project.name} — ${i + 1}`}
+              alt={projectImageAlt(project, i)}
               className="h-full w-full object-contain"
               draggable={false}
               data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined}
@@ -231,7 +232,7 @@ function MobileCover({
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={src}
-              alt={`${project.name} — ${i + 1}`}
+              alt={projectImageAlt(project, i)}
               className="w-full"
               draggable={false}
               data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined}

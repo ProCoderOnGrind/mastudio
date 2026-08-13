@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getProject, PROJECTS } from "@/data/projects";
 import { CATEGORIES, categoryLabel } from "@/data/categories";
 import { absoluteUrl, SITE_NAME } from "@/lib/site";
+import { projectImageAlt, projectKeywords, projectMetaDescription } from "@/lib/projectSeo";
 import CategoryView from "@/components/project/CategoryView";
 import ProjectPageView from "@/components/viewer/ProjectPageView";
 import ProjectDetailEditable from "@/components/tina/ProjectDetailEditable";
@@ -33,16 +34,31 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
   const project = getProject(slug);
   if (!project) return {};
-  const description = `${project.name} — ${project.type} in ${project.location} (${project.year}), designed by MA Studio & Partners, architecture studio in Tirana, Albania.`;
+  const description = projectMetaDescription(project);
+  // The project's own hero photo, absolute, so a shared link unfurls as the
+  // building rather than the generic studio card — and carrying the same alt
+  // text the page itself uses.
+  const hero = project.images[0];
+  const images = hero
+    ? [{ url: absoluteUrl(hero), alt: projectImageAlt(project, 0) }]
+    : undefined;
   return {
     title: `${project.name} — ${project.type} in ${project.location}`,
     description,
+    keywords: projectKeywords(project),
     alternates: { canonical: `/projects/${project.slug}` },
     openGraph: {
       type: "article",
       title: `${project.name} | ${SITE_NAME}`,
       description,
       url: absoluteUrl(`/projects/${project.slug}`),
+      images,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${project.name} | ${SITE_NAME}`,
+      description,
+      images: hero ? [absoluteUrl(hero)] : undefined,
     },
   };
 }
@@ -93,11 +109,23 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
     "@type": "CreativeWork",
     name: project.name,
     about: project.type,
+    description: projectMetaDescription(project),
     locationCreated: { "@type": "Place", name: project.location },
     dateCreated: String(project.year),
     creator: { "@id": absoluteUrl("/#organization") },
     url: absoluteUrl(`/projects/${project.slug}`),
-    ...(project.images?.[0] ? { image: absoluteUrl(project.images[0]) } : {}),
+    // Every photo, each carrying its own caption. Google Images reads the
+    // caption alongside the alt attribute, so listing all of them makes the
+    // whole set discoverable rather than just the hero shot.
+    ...(project.images?.length
+      ? {
+          image: project.images.map((src, i) => ({
+            "@type": "ImageObject",
+            contentUrl: absoluteUrl(src),
+            caption: projectImageAlt(project, i),
+          })),
+        }
+      : {}),
   };
 
   const schema = [

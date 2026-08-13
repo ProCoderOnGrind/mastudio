@@ -7,6 +7,7 @@ export default function BlurImage({
   seed = "",
   src,
   label,
+  alt,
   ratio = "4 / 3" as string | null,
   className = "",
   showLabel = false,
@@ -16,7 +17,15 @@ export default function BlurImage({
 }: {
   seed?: string;
   src?: string;
+  /** The caption drawn over the image when `showLabel` is set. */
   label?: string;
+  /**
+   * Alt text. Separate from `label` because the two answer different
+   * questions: `label` names the project for a sighted reader who can already
+   * see the photo, `alt` has to describe the photo itself. Falls back to
+   * `label` so callers that only have a name still emit something.
+   */
+  alt?: string;
   ratio?: string | null;
   className?: string;
   showLabel?: boolean;
@@ -36,7 +45,7 @@ export default function BlurImage({
       {src ? (
         <Image
           src={src}
-          alt={label || ""}
+          alt={alt || label || ""}
           fill
           sizes={sizes}
           priority={priority}

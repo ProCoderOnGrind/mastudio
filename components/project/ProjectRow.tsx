@@ -2,6 +2,7 @@
 import { useScrollReveal } from "@/lib/hooks/useScrollReveal";
 import BlurImage from "@/components/media/BlurImage";
 import { useViewer } from "@/components/viewer/ViewerContext";
+import { projectImageAlt } from "@/lib/projectSeo";
 import { tinaField } from "tinacms/dist/react";
 import type { Project } from "@/data/projects";
 
@@ -77,6 +78,7 @@ export default function ProjectRow({ project, hero = false, editTarget }: { proj
             <BlurImage
               src={project.images[0]}
               label={project.name}
+              alt={projectImageAlt(project, 0)}
               ratio={null}
               priority={hero}
               // The offset is the header + filter row + this row's own frame

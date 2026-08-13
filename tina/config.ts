@@ -40,10 +40,27 @@ export default defineConfig({
               { type: "number", name: "year", label: "Year", required: true },
               { type: "string", name: "location", label: "Location", required: true },
               {
+                type: "string",
+                name: "seoDescription",
+                label: "Search description",
+                ui: { component: "textarea" },
+                description:
+                  "The sentence Google shows under this project in search results. Aim for 150–160 characters and describe THIS project — a template repeated across projects is treated as duplicate boilerplate and usually rewritten by Google.",
+              },
+              {
                 type: "image",
                 name: "images",
                 label: "Photos",
                 list: true,
+              },
+              {
+                type: "string",
+                name: "imageAlts",
+                label: "Photo alt text",
+                list: true,
+                ui: { component: "textarea" },
+                description:
+                  "One entry per photo, in the same order as Photos above. Describe what is actually in the image — this is what screen readers announce and what Google Images indexes. Reordering or inserting a photo means reordering these to match.",
               },
               { type: "rich-text", name: "description", label: "Description" },
               { type: "string", name: "client", label: "Client" },
