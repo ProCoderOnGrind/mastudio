@@ -2,7 +2,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { hasPlayedIntro, markIntroPlayed } from "@/lib/intro";
-import { createIntroSound, type IntroSound } from "./introSound";
 
 /* ═══════════════════════════════════════════════════════════════════════════
    The construction intro.
@@ -21,8 +20,8 @@ import { createIntroSound, type IntroSound } from "./introSound";
    The last move is the point: nothing fades to white and there is no cut. One
    grid becomes another grid — the masterplan becomes the index of the work.
 
-   Plays once per session (lib/intro.ts), and not at all for visitors who have
-   asked for reduced motion.
+   Silent, and plays once per session (lib/intro.ts) — never for visitors who
+   have asked for reduced motion.
    ═════════════════════════════════════════════════════════════════════════ */
 
 const PAPER = "#ffffff";
@@ -58,12 +57,10 @@ const useIsoLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : use
 export default function IntroOverlay() {
   const [mounted, setMounted] = useState(false);
   const [visible, setVisible] = useState(true);
-  const [soundOn, setSoundOn] = useState(false);
 
   const stageRef = useRef<HTMLDivElement>(null);
   const sealRef = useRef<HTMLDivElement>(null);
   const typeRef = useRef<HTMLDivElement>(null);
-  const soundRef = useRef<IntroSound | null>(null);
   const finishRef = useRef<(() => void) | null>(null);
 
   useIsoLayoutEffect(() => setMounted(true), []);
@@ -108,9 +105,6 @@ export default function IntroOverlay() {
     import("three")
       .then((THREE) => {
       if (disposed) return;
-
-      const snd = createIntroSound();
-      soundRef.current = snd;
 
       const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
       renderer.setClearColor(0x000000, 0);
@@ -446,20 +440,8 @@ export default function IntroOverlay() {
       let phase = "setout";
       let phaseT0 = performance.now() / 1000;
       let nowSec = phaseT0;
-      let nextBurst = 0;
       let handed = false;
-      const cued = new Set<string>();
       const go = (p: string) => { phase = p; phaseT0 = nowSec; };
-      const cue = (name: string, fn: () => void) => {
-        if (cued.has(name)) return;
-        cued.add(name);
-        fn();
-      };
-      const scaffold = (t: number, activity: number) => {
-        if (activity <= 0.02 || t < nextBurst) return;
-        nextBurst = t + snd.burstGap(activity);
-        snd.scaffold(clamp01(activity), (Math.random() * 2 - 1) * 0.75);
-      };
 
       camera.position.copy(ISO);
       camera.up.set(0, 1, 0);
@@ -469,7 +451,6 @@ export default function IntroOverlay() {
       const finish = () => {
         if (!stage) return;
         markIntroPlayed();
-        snd.close();
         stage.style.transition = "opacity .5s cubic-bezier(.4,0,.2,1)";
         stage.style.opacity = "0";
         stage.style.pointerEvents = "none";
@@ -510,17 +491,14 @@ export default function IntroOverlay() {
           const k = clamp01(t / T.setout);
           gridMat.uniforms.uSet.value = smoothstep(k);
           plazaMat.uniforms.uDraw.value = easeOutExpo(clamp01(k / 0.85));
-          cue("setout", () => { snd.draw(); snd.bedLevel(0.16, 1.8); });
           if (k >= 1) go("frame");
         } else if (phase === "frame") {
           const k = clamp01(t / T.frame);
           W.uFrame.value = M.uFrame.value = k;
-          cue("frame", () => snd.bedLevel(0.2, 1.4));
           // Mass starts before the drawing finishes, so the model is always
           // chasing the line — the whole reason for showing both.
           const mk = clamp01((t - T.frame * 0.42) / T.mass);
           W.uMass.value = M.uMass.value = mk;
-          scaffold(nowSec, Math.sin(k * Math.PI) * 0.55 + k * 0.45);
           if (k >= 1 && mk >= 1) go("mark");
         } else if (phase === "mark") {
           const k = clamp01(t / T.mark);
@@ -528,8 +506,6 @@ export default function IntroOverlay() {
           W.uMass.value = M.uMass.value = 1;
           W.uFade.value = mix(1, 0.34, smoothstep(k));
           plazaMat.uniforms.uFade.value = mix(1, 0.45, smoothstep(clamp01((k - 0.3) / 0.7)));
-          scaffold(nowSec, (1 - k) * 0.35);
-          cue("mark", () => { snd.mark(); snd.bedLevel(0.22, 1.6); });
           const b = sealBox(0);
           Object.assign(sealEl.style, {
             left: `${b.x}px`, top: `${b.y}px`,
@@ -564,9 +540,6 @@ export default function IntroOverlay() {
         } else if (phase === "tile") {
           const k = clamp01(t / T.tile);
           setCamera(1);
-          // Nothing is being built any more and the page arriving does not need
-          // announcing — no scaffolding and no sweep here.
-          cue("tile", () => snd.bedLevel(0.08, 1.6));
           // Release the plaza edge with the tiles, or it is left behind as a
           // bare circle once they have dissolved.
           plazaMat.uniforms.uFade.value = 0.45 * (1 - smoothstep(clamp01(k / 0.5)));
@@ -588,7 +561,6 @@ export default function IntroOverlay() {
         window.clearTimeout(watchdog);
         cancelAnimationFrame(raf);
         window.removeEventListener("resize", layout);
-        snd.mute();
         wgeo.dispose(); bgeo.dispose(); ggeo.dispose(); cgeo.dispose();
         wireMat.dispose(); massMat.dispose(); gridMat.dispose(); plazaMat.dispose();
         renderer.dispose();
@@ -644,35 +616,9 @@ export default function IntroOverlay() {
           </span>
         </div>
 
-        <div style={{ position: "fixed", right: 20, bottom: 18, zIndex: 130, display: "flex", gap: 8 }}>
-          <button
-            type="button"
-            className="label"
-            onClick={async () => {
-              const s = soundRef.current;
-              if (!s) return;
-              if (soundOn) { s.mute(); setSoundOn(false); return; }
-              if (await s.unlock()) setSoundOn(true);
-            }}
-            style={btn}
-          >
-            {soundOn ? "Sound off" : "Sound"}
-          </button>
-          <button type="button" className="label" onClick={() => finishRef.current?.()} style={btn}>
-            Skip
-          </button>
-        </div>
       </div>
     </>,
     document.body
   );
 }
 
-const btn: React.CSSProperties = {
-  background: "rgba(255,255,255,.75)",
-  border: "1px solid var(--color-hairline, #e5e7eb)",
-  color: "var(--color-big-gray, #6f6f6f)",
-  padding: "7px 14px",
-  cursor: "pointer",
-  backdropFilter: "blur(6px)",
-};

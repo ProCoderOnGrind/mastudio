@@ -33,11 +33,8 @@ describe("IntroOverlay", () => {
     expect(srcs).toContain("/mastudio/logo-seal.png");
   });
 
-  it("offers a way past it", () => {
+  it("carries no chrome — the sequence runs on its own", () => {
     render(<IntroOverlay />);
-    const labels = Array.from(document.querySelectorAll('[data-intro="stage"] button')).map(
-      (b) => b.textContent,
-    );
-    expect(labels).toContain("Skip");
+    expect(document.querySelectorAll('[data-intro="stage"] button')).toHaveLength(0);
   });
 });
