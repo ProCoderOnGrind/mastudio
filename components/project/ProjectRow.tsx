@@ -66,7 +66,10 @@ export default function ProjectRow({ project, hero = false, editTarget }: { proj
           </span>
         </span>
       </div>
-      <div className="overflow-hidden">
+      {/* The intro's masterplan re-tiles into this exact rectangle on its way
+          out (components/intro/IntroOverlay.tsx), so the hero photo needs a
+          stable handle that does not depend on class names. */}
+      <div className="overflow-hidden" data-hero-shot={hero ? "" : undefined}>
         {/* curtain wipe: clip-path sweeps the image open left-to-right */}
         <div
           style={{
