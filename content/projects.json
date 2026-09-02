@@ -130,29 +130,6 @@
       "description": "The villa complex is designed within a low-density residential area, in a quiet and landscaped zone among the inspiring hills of southeast Tirana. The proposed urban silhouette is conceived in dynamic analogy and harmony with the surrounding site panoramas.\n"
     },
     {
-      "name": "SENIA RESIDENCE",
-      "slug": "seina-residence",
-      "type": "Residence",
-      "year": 2024,
-      "location": "Dhermi, Albania",
-      "seoDescription": "Sea-facing villas above Dhërmi on the Albanian Riviera: timber-soffit roofs cantilever over infinity pools, stone walls and terraces of bougainvillea.",
-      "images": [
-        "/mastudio/seina-residence/img-0.jpg",
-        "/mastudio/seina-residence/img-1.jpg",
-        "/mastudio/seina-residence/img-2.jpg",
-        "/mastudio/seina-residence/img-3.jpg",
-        "/mastudio/seina-residence/img-4.jpg"
-      ],
-      "imageAlts": [
-        "Senia Residence villa in Dhërmi, Albania, a timber-lined roof cantilevering over a pool terrace framed by an olive tree",
-        "White portal frame at Senia Residence, Dhërmi, framing a lap pool and the Ionian sea beyond",
-        "Senia Residence villas stepping down the Dhërmi hillside, angled timber roofs above terraces of red bougainvillea",
-        "Infinity pool and glazed living pavilion at Senia Residence, Dhërmi, looking out over the Albanian coast",
-        "Shaded outdoor dining terrace at Senia Residence, Dhërmi, seen through a white concrete portal"
-      ],
-      "description": ""
-    },
-    {
       "name": "KOI RESIDENCE",
       "slug": "koi-residence",
       "type": "Residence",
@@ -201,6 +178,29 @@
         "Green and pink rendered villas at Belvedere Korça with wrought-iron balconies and railed front gardens",
         "Street view of the Belvedere Korça villas in autumn, pastel facades behind flowering front gardens",
         "Belvedere Korça villa in summer, a stone-based house with an external stair and planted front garden"
+      ],
+      "description": ""
+    },
+    {
+      "name": "AQUAMARINE",
+      "slug": "pearl-resort",
+      "type": "Resort",
+      "year": 2021,
+      "location": "Qeparo, Albania",
+      "seoDescription": "Aquamarine resort at Qeparo on the Albanian Riviera: whitewashed villas with blue shutters and arched loggias step around a long pool below the mountains.",
+      "images": [
+        "/Transform_the_base_image_into__Nano_Banana_2_10044.png",
+        "/Transform_the_base_image_into__Nano_Banana_2_24383.png",
+        "/Transform_the_base_architectur_Nano_Banana_2_90619.png",
+        "/Transform_the_base_image_into__Nano_Banana_2_43714.png",
+        "/Transform_the_base_image_into__Nano_Banana_2_90346.png"
+      ],
+      "imageAlts": [
+        "Long pool between the whitewashed villas of the Aquamarine resort at Qeparo, Albania, at dusk",
+        "Aquamarine resort at Qeparo, an olive tree beside the pool under a violet evening sky",
+        "Whitewashed villas with blue shutters around the bright pool at the Aquamarine resort, Qeparo",
+        "Terrace and olive tree above the pool at the Aquamarine resort on the Albanian Riviera",
+        "The Aquamarine resort at Qeparo at dusk, villas and pool set against the mountains"
       ],
       "description": ""
     },
@@ -529,6 +529,29 @@
       "description": ""
     },
     {
+      "name": "SENIA RESIDENCE",
+      "slug": "seina-residence",
+      "type": "Residence",
+      "year": 2024,
+      "location": "Dhermi, Albania",
+      "seoDescription": "Sea-facing villas above Dhërmi on the Albanian Riviera: timber-soffit roofs cantilever over infinity pools, stone walls and terraces of bougainvillea.",
+      "images": [
+        "/mastudio/seina-residence/img-0.jpg",
+        "/mastudio/seina-residence/img-1.jpg",
+        "/mastudio/seina-residence/img-2.jpg",
+        "/mastudio/seina-residence/img-3.jpg",
+        "/mastudio/seina-residence/img-4.jpg"
+      ],
+      "imageAlts": [
+        "Senia Residence villa in Dhërmi, Albania, a timber-lined roof cantilevering over a pool terrace framed by an olive tree",
+        "White portal frame at Senia Residence, Dhërmi, framing a lap pool and the Ionian sea beyond",
+        "Senia Residence villas stepping down the Dhërmi hillside, angled timber roofs above terraces of red bougainvillea",
+        "Infinity pool and glazed living pavilion at Senia Residence, Dhërmi, looking out over the Albanian coast",
+        "Shaded outdoor dining terrace at Senia Residence, Dhërmi, seen through a white concrete portal"
+      ],
+      "description": ""
+    },
+    {
       "name": "LONDON BUSINESS PARK",
       "slug": "london-busines-park",
       "type": "Business Park",
@@ -583,29 +606,6 @@
         "Palm-lined boardwalk at the Livadh waterfront, beach bars and loungers along the sand",
         "Circular water feature on the Livadh promenade, children playing in the spray",
         "View along the Livadh jetty in Albania, sailing boats offshore and the beach curving away behind"
-      ],
-      "description": ""
-    },
-    {
-      "name": "AQUAMARINE",
-      "slug": "pearl-resort",
-      "type": "Resort",
-      "year": 2021,
-      "location": "Qeparo, Albania",
-      "seoDescription": "Aquamarine resort at Qeparo on the Albanian Riviera: whitewashed villas with blue shutters and arched loggias step around a long pool below the mountains.",
-      "images": [
-        "/Transform_the_base_image_into__Nano_Banana_2_10044.png",
-        "/Transform_the_base_image_into__Nano_Banana_2_24383.png",
-        "/Transform_the_base_architectur_Nano_Banana_2_90619.png",
-        "/Transform_the_base_image_into__Nano_Banana_2_43714.png",
-        "/Transform_the_base_image_into__Nano_Banana_2_90346.png"
-      ],
-      "imageAlts": [
-        "Long pool between the whitewashed villas of the Aquamarine resort at Qeparo, Albania, at dusk",
-        "Aquamarine resort at Qeparo, an olive tree beside the pool under a violet evening sky",
-        "Whitewashed villas with blue shutters around the bright pool at the Aquamarine resort, Qeparo",
-        "Terrace and olive tree above the pool at the Aquamarine resort on the Albanian Riviera",
-        "The Aquamarine resort at Qeparo at dusk, villas and pool set against the mountains"
       ],
       "description": ""
     },
