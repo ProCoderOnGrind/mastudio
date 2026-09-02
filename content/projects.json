@@ -1,25 +1,29 @@
 {
   "projects": [
     {
-      "name": "ONLINE RETAIL SERVICES",
-      "slug": "online-retail-services",
-      "type": "Retail",
-      "year": 2023,
-      "location": "Vora, Albania",
-      "seoDescription": "A retail and logistics complex in Vora, Albania: a perforated red-and-white facade over the loading docks, and a louvred elliptical hall crowned with roof trees.",
+      "name": "LUMINARA",
+      "slug": "luminara",
+      "type": "Residence",
+      "year": 2025,
+      "location": "Durres",
+      "seoDescription": "Luminara in Durrës: a white apartment block with deep punched openings and timber-lined loggias, over a café at street level and a pool terrace on the roof.",
       "images": [
-        "/make_a_better_image_render_wit_Nano_Banana_2_90941.png",
-        "/create_the_first_image_inspire_Nano_Banana_2_54238.png",
-        "/8-FINALE.jpg",
-        "/create_the_first_image_inspire_Nano_Banana_2_52836.png"
+        "/create_the_first_image_inspire_Nano_Banana_2_49392.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_67234.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_44566.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_61147.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_75301.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_84654.png"
       ],
       "imageAlts": [
-        "Perforated red and white circle-pattern facade at Online Retail Services in Vora, Albania, lorries at the loading docks",
-        "Night view of the louvred elliptical hall at Online Retail Services, Vora, its glazed ground floor glowing beneath roof trees",
-        "Daytime view of the white louvred ellipse at Online Retail Services in Vora, Albania, with trees planted on its roof",
-        "Blue-hour view of Online Retail Services in Vora, light trails sweeping past the lit louvred drum"
+        "Luminara in Durrës at sunset, deep punched openings across the white facade",
+        "Luminara in Durrës at dusk, timber-lined loggias above the café at street level",
+        "Isometric aerial view of Luminara in Durrës, the block set into its street corner",
+        "Roof terrace and pool at Luminara in Durrës, seen from above",
+        "Luminara in Durrës, café seating on the plaza below the white apartment block",
+        "Corner of Luminara in Durrës at sunset, people passing on the street below"
       ],
-      "description": "Program: Shopping mall, online retail service;\n\nConstruction Area: 34,000 m²;\n\nContracting Authority: Private Client;\n\nPosition: Project Leader, Architect, Structural Engineer, MEP Expert, Aesthetic Supervisor;\n\nActivities Performed: Team leader, architecture, structural design, preliminary design, final design, construction permit, executive design;\n\nActual Status: Construction permit stage.\n"
+      "description": "Contracting Authority: T\\&Xh Sh.p.k;\n\nPosition: Project Leader, Architect, Structural Engineer, MEP Expert, Aesthetic Supervisor;\n\nActivities Performed: Team leader, architecture, structural design, preliminary design, final design, construction permit, executive design;\n\nActual Status: Construction permit stage.\n"
     },
     {
       "name": "CORNELIAN RESIDENCE",
@@ -72,6 +76,58 @@
         "Voxel Residence seen across the boulevard in Tirana at dusk, people passing below the lit tower"
       ],
       "description": "“Voxel Residence” is an urban ecosystem that seamlessly combines living, working, and leisure within a single iconic structure. With 18 above-ground floors and 3 underground levels, it offers parking, commercial spaces, offices, and green terraces.\n\nOn the residential floors, nature is integrated into urban living, enhancing the everyday experience. At the top, luxury penthouses create an exclusive connection with the city, offering unique views and fostering a dialogue between interior spaces and urban life.\n"
+    },
+    {
+      "name": "ONLINE RETAIL SERVICES",
+      "slug": "online-retail-services",
+      "type": "Retail",
+      "year": 2023,
+      "location": "Vora, Albania",
+      "seoDescription": "A retail and logistics complex in Vora, Albania: a perforated red-and-white facade over the loading docks, and a louvred elliptical hall crowned with roof trees.",
+      "images": [
+        "/make_a_better_image_render_wit_Nano_Banana_2_90941.png",
+        "/create_the_first_image_inspire_Nano_Banana_2_54238.png",
+        "/8-FINALE.jpg",
+        "/create_the_first_image_inspire_Nano_Banana_2_52836.png"
+      ],
+      "imageAlts": [
+        "Perforated red and white circle-pattern facade at Online Retail Services in Vora, Albania, lorries at the loading docks",
+        "Night view of the louvred elliptical hall at Online Retail Services, Vora, its glazed ground floor glowing beneath roof trees",
+        "Daytime view of the white louvred ellipse at Online Retail Services in Vora, Albania, with trees planted on its roof",
+        "Blue-hour view of Online Retail Services in Vora, light trails sweeping past the lit louvred drum"
+      ],
+      "description": "Program: Shopping mall, online retail service;\n\nConstruction Area: 34,000 m²;\n\nContracting Authority: Private Client;\n\nPosition: Project Leader, Architect, Structural Engineer, MEP Expert, Aesthetic Supervisor;\n\nActivities Performed: Team leader, architecture, structural design, preliminary design, final design, construction permit, executive design;\n\nActual Status: Construction permit stage.\n"
+    },
+    {
+      "name": "Perla Garden",
+      "slug": "perla-garden",
+      "type": "Residence",
+      "year": 2024,
+      "location": "Tirana, Albania",
+      "seoDescription": "A terraced garden neighbourhood in Tirana: angular white houses with timber-slatted bays step down a planted slope, linked by stairs, hedges and shared gardens.",
+      "images": [
+        "/Naten-32.jpg",
+        "/0-_3-DITEN_ppp-copy-okkk.jpg",
+        "/0-_4-DITEN-copy-01.jpg",
+        "/0_SkyAlpha-copy-okkkkk-copy.jpg",
+        "/01-diten-psd-copy.jpg",
+        "/01-naten.jpg",
+        "/02.jpg",
+        "/Naten-23.jpg",
+        "/Naten-25.jpg"
+      ],
+      "imageAlts": [
+        "Perla Garden house in Tirana, a blue-framed window and timber screen above a garden terrace",
+        "Aerial view of the angular white houses of Perla Garden, Tirana, set among private gardens",
+        "Street view of Perla Garden, Tirana, white angular houses behind a hedge and stone boundary wall",
+        "Row of Perla Garden houses in Tirana under heavy cloud, red flowers along the retaining wall",
+        "Perla Garden house lit at dusk in Tirana, timber slats wrapping the upper volume",
+        "Timber-slatted bay of a Perla Garden house in Tirana, warm light behind the screen",
+        "Aerial view of the terraced gardens at Perla Garden, Tirana, a stepped path threading between houses",
+        "A family walking the planted path between the Perla Garden houses in Tirana",
+        "Angular white volume of a Perla Garden house cantilevering above the garden in Tirana"
+      ],
+      "description": "The villa complex is designed within a low-density residential area, in a quiet and landscaped zone among the inspiring hills of southeast Tirana. The proposed urban silhouette is conceived in dynamic analogy and harmony with the surrounding site panoramas.\n"
     },
     {
       "name": "SENIA RESIDENCE",
@@ -141,37 +197,6 @@
       "description": ""
     },
     {
-      "name": "Perla Garden",
-      "slug": "perla-garden",
-      "type": "Residence",
-      "year": 2024,
-      "location": "Tirana, Albania",
-      "seoDescription": "A terraced garden neighbourhood in Tirana: angular white houses with timber-slatted bays step down a planted slope, linked by stairs, hedges and shared gardens.",
-      "images": [
-        "/Naten-32.jpg",
-        "/0-_3-DITEN_ppp-copy-okkk.jpg",
-        "/0-_4-DITEN-copy-01.jpg",
-        "/0_SkyAlpha-copy-okkkkk-copy.jpg",
-        "/01-diten-psd-copy.jpg",
-        "/01-naten.jpg",
-        "/02.jpg",
-        "/Naten-23.jpg",
-        "/Naten-25.jpg"
-      ],
-      "imageAlts": [
-        "Perla Garden house in Tirana, a blue-framed window and timber screen above a garden terrace",
-        "Aerial view of the angular white houses of Perla Garden, Tirana, set among private gardens",
-        "Street view of Perla Garden, Tirana, white angular houses behind a hedge and stone boundary wall",
-        "Row of Perla Garden houses in Tirana under heavy cloud, red flowers along the retaining wall",
-        "Perla Garden house lit at dusk in Tirana, timber slats wrapping the upper volume",
-        "Timber-slatted bay of a Perla Garden house in Tirana, warm light behind the screen",
-        "Aerial view of the terraced gardens at Perla Garden, Tirana, a stepped path threading between houses",
-        "A family walking the planted path between the Perla Garden houses in Tirana",
-        "Angular white volume of a Perla Garden house cantilevering above the garden in Tirana"
-      ],
-      "description": "The villa complex is designed within a low-density residential area, in a quiet and landscaped zone among the inspiring hills of southeast Tirana. The proposed urban silhouette is conceived in dynamic analogy and harmony with the surrounding site panoramas.\n"
-    },
-    {
       "name": "PRIVATE VILLAS",
       "slug": "private-villas-2",
       "type": "Residence",
@@ -202,11 +227,15 @@
       "location": "Korça, Albania",
       "seoDescription": "A neighbourhood of pastel villas in Korça, Albania, drawn from the city's own building tradition: stone plinths, iron balconies and stepped garden entrances.",
       "images": [
-        "/mastudio/belvedere-korca/img-0.jpg",
-        "/mastudio/belvedere-korca/img-1.jpg",
-        "/mastudio/belvedere-korca/img-2.jpg",
-        "/mastudio/belvedere-korca/img-3.jpg",
-        "/mastudio/belvedere-korca/img-4.jpg"
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_35311.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_56842.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_85005.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_83790.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_21201.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_28859.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_10044.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_52621.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_63842.png"
       ],
       "imageAlts": [
         "Snow-covered rooftops of the Belvedere Korça neighbourhood in Korça, Albania, seen from above",
@@ -804,31 +833,6 @@
         "Vivien Residence across the water in Durrës, a boat moored below the lattice facade"
       ],
       "description": ""
-    },
-    {
-      "name": "LUMINARA",
-      "slug": "luminara",
-      "type": "Residence",
-      "year": 2025,
-      "location": "Durres",
-      "seoDescription": "Luminara in Durrës: a white apartment block with deep punched openings and timber-lined loggias, over a café at street level and a pool terrace on the roof.",
-      "images": [
-        "/create_the_first_image_inspire_Nano_Banana_2_49392.png",
-        "/create_the_first_image_inspire_Nano_Banana_2_67234.png",
-        "/create_the_first_image_inspire_Nano_Banana_2_44566.png",
-        "/create_the_first_image_inspire_Nano_Banana_2_61147.png",
-        "/create_the_first_image_inspire_Nano_Banana_2_75301.png",
-        "/create_the_first_image_inspire_Nano_Banana_2_84654.png"
-      ],
-      "imageAlts": [
-        "Luminara in Durrës at sunset, deep punched openings across the white facade",
-        "Luminara in Durrës at dusk, timber-lined loggias above the café at street level",
-        "Isometric aerial view of Luminara in Durrës, the block set into its street corner",
-        "Roof terrace and pool at Luminara in Durrës, seen from above",
-        "Luminara in Durrës, café seating on the plaza below the white apartment block",
-        "Corner of Luminara in Durrës at sunset, people passing on the street below"
-      ],
-      "description": "Contracting Authority: T\\&Xh Sh.p.k;\n\nPosition: Project Leader, Architect, Structural Engineer, MEP Expert, Aesthetic Supervisor;\n\nActivities Performed: Team leader, architecture, structural design, preliminary design, final design, construction permit, executive design;\n\nActual Status: Construction permit stage.\n"
     }
   ]
 }
