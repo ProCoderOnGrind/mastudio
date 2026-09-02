@@ -178,6 +178,33 @@
       "description": "“KOI Center” is conceived as a vibrant intervention within a lively area of Tirana. The complex is metaphorically linked to the well-known Japanese fish Koi, not only for its expressive colors orange, white, and black but also for their playful, interactive behavior within and around the space.\n"
     },
     {
+      "name": "BELVEDERE KORÇA",
+      "slug": "belvedere-korca",
+      "type": "Residence",
+      "year": 2024,
+      "location": "Korça, Albania",
+      "seoDescription": "A neighbourhood of pastel villas in Korça, Albania, drawn from the city's own building tradition: stone plinths, iron balconies and stepped garden entrances.",
+      "images": [
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_35311.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_56842.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_85005.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_83790.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_21201.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_28859.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_10044.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_52621.png",
+        "/use_the_first_image_as_the_ref_Nano_Banana_2_63842.png"
+      ],
+      "imageAlts": [
+        "Snow-covered rooftops of the Belvedere Korça neighbourhood in Korça, Albania, seen from above",
+        "Belvedere Korça villas in winter, a curving street between pastel houses with balconied first floors",
+        "Green and pink rendered villas at Belvedere Korça with wrought-iron balconies and railed front gardens",
+        "Street view of the Belvedere Korça villas in autumn, pastel facades behind flowering front gardens",
+        "Belvedere Korça villa in summer, a stone-based house with an external stair and planted front garden"
+      ],
+      "description": ""
+    },
+    {
       "name": "VILLA AXH",
       "slug": "vila-axh",
       "type": "Residence",
@@ -216,33 +243,6 @@
         "Private villa in Tirana with a curved roof and glazed corner above a long swimming pool",
         "Sunset behind a private villa on a Tirana hillside, the drive curving down to the garage",
         "A private villa in Tirana after dark, terraces and pool lit against the hillside"
-      ],
-      "description": ""
-    },
-    {
-      "name": "BELVEDERE KORÇA",
-      "slug": "belvedere-korca",
-      "type": "Residence",
-      "year": 2024,
-      "location": "Korça, Albania",
-      "seoDescription": "A neighbourhood of pastel villas in Korça, Albania, drawn from the city's own building tradition: stone plinths, iron balconies and stepped garden entrances.",
-      "images": [
-        "/use_the_first_image_as_the_ref_Nano_Banana_2_35311.png",
-        "/use_the_first_image_as_the_ref_Nano_Banana_2_56842.png",
-        "/use_the_first_image_as_the_ref_Nano_Banana_2_85005.png",
-        "/use_the_first_image_as_the_ref_Nano_Banana_2_83790.png",
-        "/use_the_first_image_as_the_ref_Nano_Banana_2_21201.png",
-        "/use_the_first_image_as_the_ref_Nano_Banana_2_28859.png",
-        "/use_the_first_image_as_the_ref_Nano_Banana_2_10044.png",
-        "/use_the_first_image_as_the_ref_Nano_Banana_2_52621.png",
-        "/use_the_first_image_as_the_ref_Nano_Banana_2_63842.png"
-      ],
-      "imageAlts": [
-        "Snow-covered rooftops of the Belvedere Korça neighbourhood in Korça, Albania, seen from above",
-        "Belvedere Korça villas in winter, a curving street between pastel houses with balconied first floors",
-        "Green and pink rendered villas at Belvedere Korça with wrought-iron balconies and railed front gardens",
-        "Street view of the Belvedere Korça villas in autumn, pastel facades behind flowering front gardens",
-        "Belvedere Korça villa in summer, a stone-based house with an external stair and planted front garden"
       ],
       "description": ""
     },
