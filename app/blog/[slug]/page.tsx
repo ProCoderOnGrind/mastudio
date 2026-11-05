@@ -12,7 +12,8 @@ import {
   formatPostDate,
   postCategoryLabel,
 } from "@/data/posts";
-import { absoluteUrl, SITE_NAME } from "@/lib/site";
+import { absoluteUrl } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 import { youtubeEmbedUrl, youtubeThumbnail, youtubeWatchUrl } from "@/lib/youtube";
 
 /**
@@ -40,25 +41,14 @@ export async function generateMetadata({
 
   const description = post.excerpt || `${post.title} — MA Studio & Partners, Tirana, Albania.`;
 
-  return {
+  return pageMetadata({
     title: post.title,
     description,
-    alternates: { canonical: `/blog/${post.slug}` },
-    openGraph: {
-      type: "article",
-      title: `${post.title} | ${SITE_NAME}`,
-      description,
-      url: absoluteUrl(`/blog/${post.slug}`),
-      publishedTime: post.date,
-      section: postCategoryLabel(post.category),
-      ...(post.image ? { images: [absoluteUrl(post.image)] } : {}),
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: `${post.title} | ${SITE_NAME}`,
-      description,
-    },
-  };
+    path: `/blog/${post.slug}`,
+    type: "article",
+    images: post.image ? [{ url: absoluteUrl(post.image), alt: post.title }] : undefined,
+    extra: { publishedTime: post.date, section: postCategoryLabel(post.category) },
+  });
 }
 
 export default async function BlogPostPage({

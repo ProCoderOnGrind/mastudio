@@ -12,6 +12,7 @@ import {
   hasPostPage,
 } from "@/data/posts";
 import { absoluteUrl, SITE_NAME } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 import { youtubeEmbedUrl, youtubeThumbnail, youtubeWatchUrl } from "@/lib/youtube";
 
 const BLOG_DESCRIPTION =
@@ -25,32 +26,17 @@ export async function generateMetadata({
   const { category } = await searchParams;
   const active = category && isPostCategory(category) ? category : null;
 
-  const title = active ? `${postCategoryLabel(active)} — Blog` : "Blog";
+  const title = active
+    ? `${postCategoryLabel(active)} — Blog`
+    : "Blog — News, Awards & Lectures";
   const description = active
     ? `${postCategoryLabel(active)} from MA Studio & Partners — architecture, urban planning, landscape and interior design in Tirana, Albania.`
     : BLOG_DESCRIPTION;
 
-  return {
-    title,
-    description,
-    // Every filter view collapses onto /blog: same document, subset of rows.
-    // Without this the four category URLs compete with the index for the same
-    // terms and split its ranking signals.
-    alternates: { canonical: "/blog" },
-    openGraph: {
-      type: "website",
-      title: `${title} | ${SITE_NAME}`,
-      description,
-      url: absoluteUrl("/blog"),
-      siteName: SITE_NAME,
-      locale: "en_GB",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: `${title} | ${SITE_NAME}`,
-      description,
-    },
-  };
+  // Every filter view collapses onto /blog: same document, subset of rows.
+  // Without this the four category URLs compete with the index for the same
+  // terms and split its ranking signals.
+  return pageMetadata({ title, description, path: "/blog" });
 }
 
 /**

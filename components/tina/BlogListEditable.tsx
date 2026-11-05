@@ -1,6 +1,7 @@
 "use client";
 import { useTina } from "tinacms/dist/react";
 import BlogList from "@/components/blog/BlogList";
+import { toUrlSlug } from "@/lib/slug";
 import { isPostCategory, toArticleBlocks, type Post, type PostCategoryKey } from "@/data/posts";
 
 /**
@@ -17,7 +18,7 @@ export default function BlogListEditable(props: {
   const raws = (data.posts.posts as any[] | null | undefined)?.filter(Boolean) ?? [];
   const all: Post[] = raws
     .map((p) => ({
-      slug: p.slug,
+      slug: toUrlSlug(p.slug || p.title),
       title: p.title,
       date: p.date,
       category: (isPostCategory(p.category) ? p.category : "news") as PostCategoryKey,
@@ -40,6 +41,6 @@ export default function BlogListEditable(props: {
       : all;
 
   const editTargets: Record<string, any> = {};
-  for (const r of raws) editTargets[r.slug] = r;
+  for (const r of raws) editTargets[toUrlSlug(r.slug || r.title)] = r;
   return <BlogList posts={posts} editTargets={editTargets} />;
 }

@@ -21,7 +21,9 @@ export default function Accordion({
       <button
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
-        className={`flex w-full items-center justify-between ${accent ? "group" : ""} ${
+        // -my-3/py-3 stretches the tap area to ~47px (a fingertip) without
+        // moving anything: the padding is cancelled out by the negative margin.
+        className={`-my-3 flex w-full items-center justify-between py-3 ${accent ? "group" : ""} ${
           staticOnDesktop ? "md:hidden" : ""
         }`}
       >

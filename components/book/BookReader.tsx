@@ -166,7 +166,7 @@ export default function BookReader() {
             aria-label="Previous page"
             onClick={goPrev}
             disabled={!canPrev}
-            className="label transition-colors hover:text-accent disabled:opacity-30 disabled:hover:text-black"
+            className="label -m-3 p-3 transition-colors hover:text-accent disabled:opacity-30 disabled:hover:text-black"
           >
             &larr;
           </button>
@@ -177,7 +177,7 @@ export default function BookReader() {
             aria-label="Next page"
             onClick={goNext}
             disabled={!canNext}
-            className="label transition-colors hover:text-accent disabled:opacity-30 disabled:hover:text-black"
+            className="label -m-3 p-3 transition-colors hover:text-accent disabled:opacity-30 disabled:hover:text-black"
           >
             &rarr;
           </button>
@@ -185,7 +185,7 @@ export default function BookReader() {
         <div className="flex items-center gap-6">
           <button
             onClick={() => setIndexOpen(true)}
-            className="label transition-colors hover:text-accent"
+            className="label -my-3 py-3 transition-colors hover:text-accent"
           >
             Index
           </button>
@@ -193,7 +193,7 @@ export default function BookReader() {
             href={manifest.pdfUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="label transition-colors hover:text-accent"
+            className="label -my-3 py-3 transition-colors hover:text-accent"
           >
             Download PDF
           </a>

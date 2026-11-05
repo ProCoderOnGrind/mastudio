@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import ContactView from "@/components/contact/ContactView";
 import { OFFICES, SOCIALS } from "@/data/offices";
 
-export const metadata: Metadata = {
-  title: "Contact | MA STUDIO & PARTNERS",
+export const metadata: Metadata = pageMetadata({
+  title: "Contact an Architect in Tirana",
   description:
-    "Get in touch with MA Studio & Partners — architecture, urban planning, landscape and interior design studio in Tirana, Albania.",
-};
+    "Contact MA Studio & Partners, architecture studio at Rruga Sami Frashëri, Kompleksi TID, Tirana. Email info@mastudio.al or call +355 69 209 8818.",
+  path: "/contact",
+});
 
 // Async server component used only in development (Next.js RSC supports async components)
 async function ContactEditablePage() {
