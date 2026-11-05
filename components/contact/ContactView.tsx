@@ -77,14 +77,14 @@ export default function ContactView({
           {/* Socials */}
           <div className="mt-12 border-t border-hairline pt-5">
             <div className="label meta mb-3">Follow</div>
-            <div className="flex flex-wrap gap-x-6 gap-y-2">
+            <div className="-my-2 flex flex-wrap gap-x-6">
               {socials.map((s, i) => (
                 <a
                   key={s.label}
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`label ${hover}`}
+                  className={`label py-2 ${hover}`}
                   data-tina-field={editSocials?.[i] ? tinaField(editSocials[i], "label") : undefined}
                 >
                   {s.label}

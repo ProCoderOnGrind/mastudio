@@ -26,3 +26,21 @@ export function slugToTitle(slug: string): string {
     })
     .join(" ");
 }
+
+/**
+ * Make a CMS-typed slug safe for a URL: "Trailblazing Magazine Interview" →
+ * "trailblazing-magazine-interview", "klodiana-taçi" → "klodiana-taci",
+ * "habitus-mastudio-partners " → "habitus-mastudio-partners".
+ *
+ * Editors type slugs by hand in Tina; spaces, capitals, accents and stray
+ * trailing spaces all produced routes that 404'd while the sitemap still
+ * listed them — dead links handed straight to Google.
+ */
+export function toUrlSlug(raw: string): string {
+  return raw
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // strip accents (ç → c, ë → e)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}

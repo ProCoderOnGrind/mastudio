@@ -1,4 +1,5 @@
 import postsData from "@/content/posts.json";
+import { toUrlSlug } from "@/lib/slug";
 
 export type PostCategoryKey = "news" | "events" | "awards" | "lectures";
 
@@ -114,7 +115,8 @@ export function toArticleBlocks(raw: RawPost["article"]): ArticleBlock[] | undef
 
 export const POSTS: Post[] = (postsData as { posts: RawPost[] }).posts
   .map((p) => ({
-    slug: p.slug,
+    // Normalised, so a hand-typed "My Post " can't produce a 404ing route.
+    slug: toUrlSlug(p.slug || p.title),
     title: p.title,
     date: p.date,
     category: toCategory(p.category),

@@ -31,7 +31,10 @@ export default function MapSeal({
   // crop slices off, so we provide our own, placed safely inside the disc.
   const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
   return (
-    <div className="relative mx-auto aspect-square w-full max-w-[360px] md:max-w-[680px]">
+    // `overflow-clip` (not `hidden`): a spinning square's corners sweep past the
+    // disc, which on a phone pushed the page ~20px wider than the screen and
+    // let it scroll sideways. Clip doesn't create a scroll container.
+    <div className="relative mx-auto aspect-square w-full max-w-[360px] overflow-clip md:max-w-[680px]">
       {/* the map disc — the seal's circle is drawn here as a border, so the
           green line rings the map's edge exactly. Sized at 82% so the
           rotating arc text (which starts at 84% of the container) orbits
@@ -81,7 +84,7 @@ export default function MapSeal({
           href={mapsLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="absolute bottom-[15%] left-1/2 z-10 -translate-x-1/2 whitespace-nowrap rounded-full bg-white/95 px-3 py-1 text-[10px] font-medium text-black shadow-md transition-colors hover:text-[#94c52d]"
+          className="absolute bottom-[15%] left-1/2 z-10 -translate-x-1/2 whitespace-nowrap rounded-full bg-white/95 px-4 py-2.5 text-[12px] font-medium text-black shadow-md transition-colors hover:text-[#94c52d]"
         >
           Open in Google Maps ↗
         </a>

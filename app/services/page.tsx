@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SERVICE_MEANINGS } from "@/data/services";
 import { OFFICES } from "@/data/offices";
-import { absoluteUrl, SITE_NAME } from "@/lib/site";
+import { absoluteUrl } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 
 /**
  * The query-facing page for "architecture studio in Tirana / Albania".
@@ -17,18 +18,13 @@ import { absoluteUrl, SITE_NAME } from "@/lib/site";
  */
 
 const DESCRIPTION =
-  "MA Studio & Partners is an architecture studio in Tirana, Albania, offering architecture, urban planning, urban design, landscape design, interior design, engineering, energy efficiency and energy auditing across Albania.";
+  "Architecture studio in Tirana, Albania: architecture, urban planning and design, landscape, interior design, engineering, energy efficiency and energy auditing.";
 
-export const metadata: Metadata = {
-  title: "Architecture & Urban Planning Services in Tirana, Albania",
+export const metadata: Metadata = pageMetadata({
+  title: "Architecture & Urban Planning Services in Tirana",
   description: DESCRIPTION,
-  alternates: { canonical: "/services" },
-  openGraph: {
-    title: `Architecture & Urban Planning Services in Tirana, Albania | ${SITE_NAME}`,
-    description: DESCRIPTION,
-    url: absoluteUrl("/services"),
-  },
-};
+  path: "/services",
+});
 
 const office = OFFICES[0];
 

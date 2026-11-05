@@ -5,10 +5,11 @@ import ProjectListEditable from "@/components/tina/ProjectListEditable";
 import IntroOverlay from "@/components/intro/IntroOverlay";
 import { PROJECTS, projectsByCategory } from "@/data/projects";
 import { isCategoryKey, categoryLabel } from "@/data/categories";
-import { absoluteUrl, SITE_NAME } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 
+// Kept under ~155 characters so Google shows it whole instead of writing its own.
 const HOME_DESCRIPTION =
-  "MA Studio & Partners is an architecture studio in Tirana, Albania, working across architecture, urban planning, urban design, landscape and interior design. Established in 2020 as the continuation of DEA Studio (2000–2020).";
+  "MA Studio & Partners is an architecture studio in Tirana, Albania: architecture, urban planning, landscape and interior design, continuing DEA Studio since 2000.";
 
 /**
  * The homepage carried no metadata of its own, so it fell back to the bare
@@ -25,31 +26,16 @@ export async function generateMetadata({
 
   const title = active
     ? `${categoryLabel(active)} Projects — Architecture Studio in Tirana`
-    : "Architecture Studio in Tirana, Albania";
+    : "Architecture Studio in Tirana";
 
   const description = active
     ? `${categoryLabel(active)} projects by MA Studio & Partners, an architecture and urban planning studio based in Tirana, Albania.`
     : HOME_DESCRIPTION;
 
-  return {
-    title,
-    description,
-    // The ?category= grid is a filtered view of the same collection.
-    alternates: { canonical: "/" },
-    openGraph: {
-      type: "website",
-      title: `${title} | ${SITE_NAME}`,
-      description,
-      url: absoluteUrl("/"),
-      siteName: SITE_NAME,
-      locale: "en_GB",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: `${title} | ${SITE_NAME}`,
-      description,
-    },
-  };
+  // The ?category= grid is a filtered view of the same collection, so it
+  // canonicalises onto "/" (the dedicated /projects/<category> pages are the
+  // indexable versions).
+  return pageMetadata({ title, description, path: "/" });
 }
 
 export default async function Home({

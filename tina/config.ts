@@ -88,7 +88,14 @@ export default defineConfig({
             },
             fields: [
               { type: "string", name: "title", label: "Title", required: true },
-              { type: "string", name: "slug", label: "Slug", required: true },
+              {
+                type: "string",
+                name: "slug",
+                label: "Slug",
+                required: true,
+                description:
+                  "The post's web address: /blog/<slug>. Use lowercase words joined by hyphens (e.g. open-lecture-epoka). Spaces, capitals and accents are converted automatically.",
+              },
               { type: "string", name: "date", label: "Date (YYYY-MM-DD)", required: true },
               {
                 type: "string",

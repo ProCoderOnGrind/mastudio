@@ -7,6 +7,8 @@ import { ViewerProvider } from "@/components/viewer/ViewerContext";
 import ProjectViewer from "@/components/viewer/ProjectViewer";
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, absoluteUrl } from "@/lib/site";
 import contact from "@/content/contact.json";
+import { DEFAULT_OG_IMAGE } from "@/lib/seo";
+import { FOUNDERS } from "@/data/founders";
 
 const beVietnam = Be_Vietnam_Pro({
   subsets: ["latin"],
@@ -26,7 +28,11 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
-  alternates: { canonical: "/" },
+  // No `alternates.canonical` here: metadata merges shallowly, so a canonical
+  // set in the layout is inherited by every page that doesn't set its own —
+  // which is how About, Contact, Co-Founders and Book all ended up declaring
+  // themselves duplicates of the homepage. Each page sets its own via
+  // `pageMetadata` (lib/seo.ts).
   // Google ignores the keywords meta tag outright, so nothing here ranks on its
   // own. It is kept as the single reviewed list of the terms the site is
   // actually written for — including the Albanian ones, which is how most of
@@ -55,6 +61,7 @@ export const metadata: Metadata = {
     description: SITE_DESCRIPTION,
     url: SITE_URL,
     locale: "en_GB",
+    images: [DEFAULT_OG_IMAGE],
   },
   twitter: {
     card: "summary_large_image",
@@ -105,6 +112,23 @@ const organizationSchema = {
   email: office?.email,
   telephone: office?.phone,
   foundingDate: "2020",
+  // Named architects behind the studio — the "who" Google weighs for
+  // expertise, and what connects searches for their names to the studio.
+  founder: FOUNDERS.map((f) => ({
+    "@type": "Person",
+    name: f.name,
+    jobTitle: f.role.replace(/^Co-Founder\s*—\s*/, ""),
+    ...(f.image ? { image: absoluteUrl(f.image) } : {}),
+    url: absoluteUrl("/cofounders"),
+  })),
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer service",
+    email: office?.email,
+    telephone: office?.phone,
+    areaServed: "AL",
+    availableLanguage: ["English", "Albanian"],
+  },
   address: {
     "@type": "PostalAddress",
     streetAddress: office?.address.slice(0, -1).join(", "),

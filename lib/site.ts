@@ -9,7 +9,9 @@
  * for preview deployments so previews never advertise the production domain.
  */
 
-const FALLBACK = "https://www.mastudiopartners.com";
+// The production domain on Vercel. Used only when no env var is present (local
+// builds, CI) — it used to point at a domain the site isn't served from.
+const FALLBACK = "https://mastudio.al";
 
 function resolveSiteUrl(): string {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();

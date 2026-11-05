@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import PageTitle from "@/components/PageTitle";
 import BookReader from "@/components/book/BookReader";
 import manifest from "@/data/book.json";
 
-export const metadata: Metadata = {
-  title: "Book | MA STUDIO & PARTNERS",
+export const metadata: Metadata = pageMetadata({
+  title: "Studio Book — Selected Projects",
   description:
     "Read the MA Studio & Partners book online — selected projects, competitions and research from two decades of practice in architecture, urban planning and design.",
-};
+  path: "/book",
+});
 
 export default function BookPage() {
   return (

@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import FoundersList from "@/components/founder/FoundersList";
 import { FOUNDERS } from "@/data/founders";
 
-export const metadata: Metadata = {
-  title: "Co-Founders | MA STUDIO & PARTNERS",
-  description: "The co-founders of MA Studio & Partners, Tirana, Albania.",
-};
+export const metadata: Metadata = pageMetadata({
+  title: "Co-Founders — Klodiana Emiri Taçi & Ervin Taçi",
+  description:
+    "Architects Klodiana Emiri Taçi and Ervin Taçi, co-founders of MA Studio & Partners in Tirana, Albania, and before it of DEA Studio — their work, roles and background.",
+  path: "/cofounders",
+});
 
 export default async function CoFoundersPage() {
   let foundersNode;

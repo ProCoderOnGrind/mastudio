@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getProject, PROJECTS } from "@/data/projects";
 import { CATEGORIES, categoryLabel } from "@/data/categories";
-import { absoluteUrl, SITE_NAME } from "@/lib/site";
+import { absoluteUrl } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 import { projectImageAlt, projectKeywords, projectMetaDescription } from "@/lib/projectSeo";
 import CategoryView from "@/components/project/CategoryView";
 import ProjectPageView from "@/components/viewer/ProjectPageView";
@@ -21,16 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (category) {
     const title = `${category.label} Architecture Projects in Albania`;
     const description = `${category.label} projects by MA Studio & Partners — an architecture, urban planning and interior design studio based in Tirana, Albania.`;
-    return {
-      title,
-      description,
-      alternates: { canonical: `/projects/${category.key}` },
-      openGraph: {
-        title: `${title} | ${SITE_NAME}`,
-        description,
-        url: absoluteUrl(`/projects/${category.key}`),
-      },
-    };
+    return pageMetadata({ title, description, path: `/projects/${category.key}` });
   }
   const project = getProject(slug);
   if (!project) return {};
@@ -42,25 +34,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const images = hero
     ? [{ url: absoluteUrl(hero), alt: projectImageAlt(project, 0) }]
     : undefined;
-  return {
+  return pageMetadata({
     title: `${project.name} — ${project.type} in ${project.location}`,
     description,
+    path: `/projects/${project.slug}`,
+    type: "article",
+    images,
     keywords: projectKeywords(project),
-    alternates: { canonical: `/projects/${project.slug}` },
-    openGraph: {
-      type: "article",
-      title: `${project.name} | ${SITE_NAME}`,
-      description,
-      url: absoluteUrl(`/projects/${project.slug}`),
-      images,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: `${project.name} | ${SITE_NAME}`,
-      description,
-      images: hero ? [absoluteUrl(hero)] : undefined,
-    },
-  };
+  });
 }
 
 /** Breadcrumb trail, so results show the category path rather than a bare URL. */
