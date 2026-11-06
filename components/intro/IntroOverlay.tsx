@@ -390,9 +390,21 @@ export default function IntroOverlay() {
       scene.add(new THREE.Line(cgeo, plazaMat));
 
       /* ── framing ────────────────────────────────────────────────────────── */
-      let V = 36;
+      // V is the camera's height in world units. A fixed V framed by *height*
+      // alone, so on a portrait phone the ring (≈32 units across) was wider
+      // than the ~21 units of screen width and ran off both edges. V now grows
+      // until the ring fits the width with a margin, and `fit` (≤ 1) records
+      // how much the scene shrank so the parts tuned to the base V follow it.
+      const BASE_V_WIDE = 36, BASE_V_TALL = 46;
+      const MODEL_W = 2 * (maxR + CELL * 0.75); // outer blocks' far edges
+      const SIDE_MARGIN = 1.12; // ~6% clear on each side
+      const LOOK_Y = 7.4; // camera target height: sits the model below the mark
+      let V = BASE_V_WIDE;
+      let fit = 1;
       const sealBox = (k: number) => {
-        const size = window.innerHeight * mix(SEAL_ISO.frac, SEAL_PLAN.frac, k);
+        // In plan view the mark has to land in the plaza, which shrinks with
+        // the scene, so its plan size scales by `fit` too.
+        const size = window.innerHeight * mix(SEAL_ISO.frac, SEAL_PLAN.frac * fit, k);
         const cy = window.innerHeight * mix(SEAL_ISO.y, SEAL_PLAN.y, k);
         return { x: window.innerWidth / 2 - size / 2, y: cy - size / 2, size };
       };
@@ -401,12 +413,17 @@ export default function IntroOverlay() {
         renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
         renderer.setSize(w, h);
         const a = w / h;
-        V = a > 1 ? 36 : 46;
+        const baseV = a > 1 ? BASE_V_WIDE : BASE_V_TALL;
+        V = Math.max(baseV, (MODEL_W * SIDE_MARGIN) / a);
+        fit = baseV / V;
         camera.left = (-V * a) / 2; camera.right = (V * a) / 2;
         camera.top = V / 2; camera.bottom = -V / 2;
         camera.updateProjectionMatrix();
         const b = sealBox(0);
         typeEl.style.top = `${Math.round(b.y + b.size + h * 0.038)}px`;
+        // The camera target depends on `fit`; the plan/tile phases re-aim every
+        // frame, the earlier ones only here (first run and on rotate/resize).
+        if (phase !== "plan" && phase !== "tile") setCamera(0);
       };
       window.addEventListener("resize", layout);
 
@@ -429,11 +446,23 @@ export default function IntroOverlay() {
 
       const ISO = new THREE.Vector3(20, 16.5, 20);
       const PLAN = new THREE.Vector3(0, 34, 0.001);
+      // How far below the screen centre the model's base sits in the iso view,
+      // in world units: the aim point's height seen through the camera's tilt.
+      const isoDir = new THREE.Vector3(0, LOOK_Y, 0).sub(ISO).normalize();
+      const ISO_DROP = LOOK_Y * Math.sqrt(1 - isoDir.y * isoDir.y);
       const setCamera = (k: number) => {
         const e = easeInOutCubic(k);
         camera.position.lerpVectors(ISO, PLAN, e);
         camera.up.set(0, mix(1, 0, e), mix(0, -1, e)).normalize();
-        camera.lookAt(0, mix(7.4, 0, e), 0);
+        camera.lookAt(0, mix(LOOK_Y, 0, e), 0);
+        // When the scene is shrunk to fit a phone, slide the view window (not
+        // the aim point — moving that would flatten the axonometric angle) so
+        // the model keeps its place on screen, below the wordmark, instead of
+        // drifting up into it. Eases to zero for plan view, which is centred.
+        const shift = ISO_DROP * (1 / fit - 1) * (1 - e);
+        camera.top = V / 2 + shift;
+        camera.bottom = -V / 2 + shift;
+        camera.updateProjectionMatrix();
       };
 
       /* ── the run ────────────────────────────────────────────────────────── */
@@ -443,10 +472,8 @@ export default function IntroOverlay() {
       let handed = false;
       const go = (p: string) => { phase = p; phaseT0 = nowSec; };
 
-      camera.position.copy(ISO);
-      camera.up.set(0, 1, 0);
-      camera.lookAt(0, 7.4, 0);
       layout();
+      setCamera(0);
 
       const finish = () => {
         if (!stage) return;
@@ -603,7 +630,7 @@ export default function IntroOverlay() {
           ref={typeRef}
           data-intro-type
           style={{
-            position: "fixed", zIndex: 118, left: 0, right: 0, textAlign: "center",
+            position: "fixed", zIndex: 118, left: 0, right: 0, textAlign: "center", padding: "0 16px",
             pointerEvents: "none", opacity: 0, transform: "translateY(10px)",
             transition: "opacity .9s cubic-bezier(.4,0,.2,1), transform .9s cubic-bezier(.4,0,.2,1)",
           }}
@@ -611,8 +638,11 @@ export default function IntroOverlay() {
           <b className="label" style={{ display: "block", letterSpacing: ".44em", color: "#12100e" }}>
             MA Studio &amp; Partners
           </b>
+          {/* Two unbreakable halves: on a phone the line breaks between them
+              rather than leaving "Landscape ·" hanging at the end of a row. */}
           <span className="label meta" style={{ display: "block", marginTop: 9, letterSpacing: ".2em" }}>
-            Architecture · Urbanism · Landscape · Interiors — Tirana
+            <span style={{ display: "inline-block" }}>Architecture · Urbanism ·</span>{" "}
+            <span style={{ display: "inline-block" }}>Landscape · Interiors — Tirana</span>
           </span>
         </div>
 
