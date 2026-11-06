@@ -396,8 +396,10 @@ export default function IntroOverlay() {
       // until the ring fits the width with a margin, and `fit` (≤ 1) records
       // how much the scene shrank so the parts tuned to the base V follow it.
       const BASE_V_WIDE = 36, BASE_V_TALL = 46;
-      const MODEL_W = 2 * (maxR + CELL * 0.75); // outer blocks' far edges
-      const SIDE_MARGIN = 1.12; // ~6% clear on each side
+      // Outer blocks' far corners as seen in the iso view: a block's half-width
+      // (0.42) lies on the diagonal there, so it reaches 0.42·√2 ≈ 0.6 further.
+      const MODEL_W = 2 * (maxR + 0.6);
+      const SIDE_MARGIN = 1.05; // ~2.5% clear on each side — fills the phone
       const LOOK_Y = 7.4; // camera target height: sits the model below the mark
       let V = BASE_V_WIDE;
       let fit = 1;
