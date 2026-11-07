@@ -15,6 +15,8 @@ from pathlib import Path
 import fitz  # pymupdf
 from PIL import Image
 
+# The old WordPress upload. It no longer exists (mastudio.al now serves this
+# site), so pass the PDF's local path instead.
 PDF_URL = "https://mastudio.al/wp-content/uploads/2026/03/MA-Studio-book-2026-web-.pdf"
 PAGE_WIDTH = 1000   # px — one page fills ~half a 1440px viewport in the spread
 THUMB_WIDTH = 168   # px — index grid
@@ -48,10 +50,16 @@ for i, page in enumerate(doc, start=1):
     if i % 20 == 0 or i == doc.page_count:
         print(f"{i}/{doc.page_count}")
 
+# Publish the source PDF from this site for the reader's "Download PDF"
+# button. (Without the original, scripts/build-book-pdf.py rebuilds one from
+# the page images.)
+public_pdf = root / "public" / "book" / "MA-Studio-book-2026.pdf"
+public_pdf.write_bytes(doc.tobytes())
+
 manifest = {
     "pageCount": doc.page_count,
     "aspect": round(aspect, 4),
-    "pdfUrl": PDF_URL,
+    "pdfUrl": "/book/MA-Studio-book-2026.pdf",
 }
 (root / "data" / "book.json").write_text(json.dumps(manifest, indent=2) + "\n")
 print("manifest:", manifest)

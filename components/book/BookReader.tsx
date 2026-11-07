@@ -189,10 +189,12 @@ export default function BookReader() {
           >
             Index
           </button>
+          {/* Served from this site (public/book), not the old WordPress upload,
+              which stopped existing when mastudio.al moved here. `download`
+              saves the file instead of navigating away from the reader. */}
           <a
             href={manifest.pdfUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            download="MA-Studio-and-Partners-Book-2026.pdf"
             className="label -my-3 py-3 transition-colors hover:text-accent"
           >
             Download PDF
