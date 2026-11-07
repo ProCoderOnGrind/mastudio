@@ -11,6 +11,15 @@ const nextConfig: NextConfig = {
   // refuses the host and the image fails to load.
   images: {
     remotePatterns: [{ protocol: "https", hostname: "i.ytimg.com", pathname: "/vi/**" }],
+    // Next 16 only serves qualities listed here. 75 is the default the grid
+    // uses; 90 is the project viewer's, where the photo is the whole screen
+    // and has to look like the original.
+    qualities: [75, 90],
+    // Optimised photos are kept for 31 days instead of 4 hours. On a site with
+    // modest traffic a 4-hour cache is cold for most visitors, who then wait
+    // while a multi-megabyte original is re-encoded. CMS uploads get new file
+    // names, so a longer cache doesn't serve stale photos.
+    minimumCacheTTL: 2678400,
   },
 
   // Baseline hardening for a static marketing site. SAMEORIGIN (not DENY) so

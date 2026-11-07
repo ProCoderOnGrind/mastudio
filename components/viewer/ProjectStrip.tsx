@@ -1,6 +1,7 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { getImageProps } from "next/image";
 import { motion } from "framer-motion";
 import { tinaField } from "tinacms/dist/react";
 import { nextProject, type Project } from "@/data/projects";
@@ -127,13 +128,12 @@ function DesktopSlides({
             key={src}
             className="relative flex h-full w-full shrink-0 snap-center items-center justify-center bg-[#f4f4f3] p-3"
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <ViewerPhoto
               src={src}
               alt={projectImageAlt(project, i)}
+              first={i === 0}
               className="h-full w-full object-contain"
-              draggable={false}
-              data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined}
+              tinaTarget={editTarget ? tinaField(editTarget, "images") : undefined}
             />
             {/* Name + meta overlaid on the first photo */}
             {i === 0 && (
@@ -229,13 +229,12 @@ function MobileCover({
             transition={{ duration: 0.55, ease: EASE, delay: i === 0 ? 0.12 : 0 }}
             className="w-full overflow-hidden rounded-md bg-white shadow-[0_18px_42px_-18px_rgba(0,0,0,0.45)]"
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <ViewerPhoto
               src={src}
               alt={projectImageAlt(project, i)}
+              first={i === 0}
               className="w-full"
-              draggable={false}
-              data-tina-field={editTarget ? tinaField(editTarget, "images") : undefined}
+              tinaTarget={editTarget ? tinaField(editTarget, "images") : undefined}
             />
             <figcaption className="px-4 py-3.5">
               <div className="text-[16px] font-semibold uppercase tracking-tight" data-tina-field={editTarget ? tinaField(editTarget, "name") : undefined}>
@@ -277,5 +276,54 @@ function MobileCover({
         </section>
       )}
     </div>
+  );
+}
+
+/**
+ * A project photo, served through Next's image optimiser.
+ *
+ * The originals are up to 16 MB / 4961px; the viewer used to load them as-is,
+ * all at once, so a phone pulled tens of megabytes before the first photo
+ * settled. This asks for the width the screen will actually show (up to
+ * 3840px for 4K / retina) as WebP at quality 90 — visually the original, at a
+ * fraction of the bytes — and only the first photo loads up front. The rest
+ * are lazy, which in a horizontal strip means each one starts loading just
+ * before it is swiped into view.
+ *
+ * `getImageProps` rather than <Image>: the photos' dimensions aren't known
+ * ahead of time, and a plain <img> keeps their natural aspect ratio in the
+ * mobile cards without a fixed-ratio box cropping or letterboxing them.
+ */
+const PHOTO_QUALITY = 90;
+
+function ViewerPhoto({
+  src,
+  alt,
+  first,
+  className,
+  tinaTarget,
+}: {
+  src: string;
+  alt: string;
+  /** The photo the viewer opens on: fetched immediately, at high priority. */
+  first: boolean;
+  className: string;
+  tinaTarget?: string;
+}) {
+  const img = {
+    ...getImageProps({ src, alt, fill: true, sizes: "100vw", quality: PHOTO_QUALITY }).props,
+    // `fill` positions the image absolutely; these layouts size it themselves.
+    style: undefined,
+  };
+  return (
+    // eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text
+    <img
+      {...img}
+      loading={first ? "eager" : "lazy"}
+      fetchPriority={first ? "high" : "auto"}
+      className={className}
+      draggable={false}
+      data-tina-field={tinaTarget}
+    />
   );
 }
